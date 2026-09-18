@@ -1,0 +1,150 @@
+{
+  "schema": "derived_public_results_manifest_v1",
+  "latest_observation_utc": "2026-09-18T07:32:27.562281+00:00",
+  "raw_files_published": false,
+  "source_hashes_and_export_hashes_are_distinct": true,
+  "scientific_oracle_calls_for_export": 0,
+  "model_calls_for_export": 0,
+  "files": [
+    {
+      "path": "docs/results.md",
+      "bytes": 7235,
+      "export_sha256": "3659180435435ade574ffe663d90124fbc205449828447043f54f5332d73ebdf"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 3196,
+      "export_sha256": "654a54f43a14b77be8c782f99fb16221d90af5d6e8151a8e7fd5ed50db68c3b0"
+    },
+    {
+      "path": "results/index.json",
+      "bytes": 18058,
+      "export_sha256": "2727f62684b7552e6f0e9febbf1ffcc8eaaa95bba944f86711e931f5fb03552e"
+    },
+    {
+      "path": "results/snapshots/core2_b10_20260917T083208Z/curves.csv",
+      "bytes": 3229,
+      "export_sha256": "e4afba471c888b238397e6e4dd14b334438deede027eefbe0d151e5d8b18a44d"
+    },
+    {
+      "path": "results/snapshots/core2_b10_20260917T083208Z/paired_systems.csv",
+      "bytes": 524,
+      "export_sha256": "f72ce182c5d110c464707c49b99569ba1d7715dae9a46ed4b28997efd4746749"
+    },
+    {
+      "path": "results/snapshots/core2_b10_20260917T083208Z/provenance.json",
+      "bytes": 3898,
+      "export_sha256": "1fe90b37c6645935228b48a6dceb05ecfd98476187b16a0418662f8fc06d2e51"
+    },
+    {
+      "path": "results/snapshots/core2_b10_20260917T083208Z/summary.json",
+      "bytes": 3140,
+      "export_sha256": "accb67569aa4fa2e3337ad87d72409ae26e4c66d3e8c253f223aa9c2c89ea3f2"
+    },
+    {
+      "path": "results/snapshots/core2_b10_20260917T083208Z/timings_and_costs.csv",
+      "bytes": 1029,
+      "export_sha256": "b3abc580681fd67e78dc0c729accd8897f3e7ea6113df507a87f2ddaa9aa43c1"
+    },
+    {
+      "path": "results/snapshots/core2_b10_20260917T083208Z/trajectories.csv",
+      "bytes": 1898,
+      "export_sha256": "98706c05a10b14ca792358184be981e083ab182d69d6d0361b95d46fea8d6529"
+    },
+    {
+      "path": "results/snapshots/latest_20260918T153227_CST/curves.csv",
+      "bytes": 157276,
+      "export_sha256": "3e3b2bb7c379cdcb44600517e2c21ba3d0452402c32b497576ab96e971c0a773"
+    },
+    {
+      "path": "results/snapshots/latest_20260918T153227_CST/paired_systems.csv",
+      "bytes": 8567,
+      "export_sha256": "d50feb1672c56c2343ba63fca718eade511879378b03c2e3b58de9d7709ad4ca"
+    },
+    {
+      "path": "results/snapshots/latest_20260918T153227_CST/provenance.json",
+      "bytes": 3235,
+      "export_sha256": "2434b20786138e839fc006397f7412729f4ce93b8fb685da5e2d2cf2b199f4fd"
+    },
+    {
+      "path": "results/snapshots/latest_20260918T153227_CST/summary.json",
+      "bytes": 6841,
+      "export_sha256": "f70e64a0c0a97c96d1e7f9e4d3897cedb547aed25ca0c1f66b13092f3bccdb74"
+    },
+    {
+      "path": "results/snapshots/latest_20260918T153227_CST/timings_and_costs.csv",
+      "bytes": 30988,
+      "export_sha256": "2fe0b9d31543dc005946fb46a1e3bf91d01468ec0752a6a370b5aa8983cb3d60"
+    },
+    {
+      "path": "results/snapshots/latest_20260918T153227_CST/trajectories.csv",
+      "bytes": 74170,
+      "export_sha256": "40075d795c58e7ca3743db7a1e1af9ea35dfd97b9427efc2475b1d4d7b290f56"
+    },
+    {
+      "path": "results/snapshots/original_five_b10_accepted_20260917/curves.csv",
+      "bytes": 8339,
+      "export_sha256": "a1c0c4d33ecd5f0d1ea1e5717dc65bbe3c262c54da3c35832b85b3b1150002df"
+    },
+    {
+      "path": "results/snapshots/original_five_b10_accepted_20260917/paired_systems.csv",
+      "bytes": 1037,
+      "export_sha256": "742c7bb470fc18af05b279754821ea517f9147c2de793085a118b047785acca3"
+    },
+    {
+      "path": "results/snapshots/original_five_b10_accepted_20260917/provenance.json",
+      "bytes": 3244,
+      "export_sha256": "ac42ed1bd433028d6919ea844d5a19c55cdb9d188dd4e1b12182cbe1e7fe9960"
+    },
+    {
+      "path": "results/snapshots/original_five_b10_accepted_20260917/summary.json",
+      "bytes": 3056,
+      "export_sha256": "1e3cf9f6011d26e4dd1e4a6b94172c7774d425fe994924c9995cb9fecac38f6d"
+    },
+    {
+      "path": "results/snapshots/original_five_b10_accepted_20260917/timings_and_costs.csv",
+      "bytes": 3597,
+      "export_sha256": "69e27f3d50a9a0006e179cf544d9d18b40a9e740829a19104dd7b5f7aaa6869b"
+    },
+    {
+      "path": "results/snapshots/original_five_b10_accepted_20260917/trajectories.csv",
+      "bytes": 7708,
+      "export_sha256": "76a31f8e23f551e3f9b4045884d7a0d240f3d097d0cb692e9e9f8f40da58892f"
+    },
+    {
+      "path": "results/snapshots/partial_20260918T010438_CST/curves.csv",
+      "bytes": 46873,
+      "export_sha256": "a508b940c761bb644d3e3cdd348591d7dbd8e147a29dafb6baeafe671359771e"
+    },
+    {
+      "path": "results/snapshots/partial_20260918T010438_CST/paired_systems.csv",
+      "bytes": 4246,
+      "export_sha256": "3c322874a5f63c4b35436651b20936a5f8b8c73a1565ba02e955148e8f62bf90"
+    },
+    {
+      "path": "results/snapshots/partial_20260918T010438_CST/provenance.json",
+      "bytes": 3236,
+      "export_sha256": "246891c986bf202d2a1a632441cf23e909e0fdcc580eccee0e1f2ea6a86e974f"
+    },
+    {
+      "path": "results/snapshots/partial_20260918T010438_CST/summary.json",
+      "bytes": 5998,
+      "export_sha256": "6224c18d63cc8442b8f1265c6b42e04a03d9d4465e46d2a241c8cb3a3f461900"
+    },
+    {
+      "path": "results/snapshots/partial_20260918T010438_CST/timings_and_costs.csv",
+      "bytes": 17537,
+      "export_sha256": "a983696845bc339992ae0d39f26138eec7075daf09b42c39139094ec3fe394a4"
+    },
+    {
+      "path": "results/snapshots/partial_20260918T010438_CST/trajectories.csv",
+      "bytes": 39694,
+      "export_sha256": "6b1c99add1255d91ca4db3402e32ca4f94c7af02e89dadcc6231e575f6632978"
+    },
+    {
+      "path": "results/validate_exports.py",
+      "bytes": 6554,
+      "export_sha256": "6087b0d1679f2e27722aa851dfd9215a34ee10da618d9ab5c5cefd337a936714"
+    }
+  ]
+}

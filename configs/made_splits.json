@@ -1,0 +1,3621 @@
+{
+  "schema_version": 1,
+  "status": "complete_30_train_12_dev_30_test",
+  "splits": {
+    "train": [
+      [
+        "Co",
+        "Os",
+        "Ti"
+      ],
+      [
+        "Au",
+        "Li",
+        "Pd"
+      ],
+      [
+        "Pb",
+        "Pr",
+        "Zn"
+      ],
+      [
+        "Al",
+        "Au",
+        "Hf"
+      ],
+      [
+        "Nd",
+        "Ru",
+        "Sn"
+      ],
+      [
+        "Ga",
+        "Nb",
+        "Zn"
+      ],
+      [
+        "Cu",
+        "Zn",
+        "Zr"
+      ],
+      [
+        "Pt",
+        "Ru",
+        "Sc"
+      ],
+      [
+        "Cu",
+        "Ga",
+        "Rh"
+      ],
+      [
+        "Au",
+        "Mg",
+        "Nd"
+      ],
+      [
+        "Nb",
+        "Ni",
+        "Sc",
+        "Sn"
+      ],
+      [
+        "Al",
+        "Ni",
+        "Pd",
+        "Tb"
+      ],
+      [
+        "Co",
+        "Cu",
+        "Hf",
+        "Sn"
+      ],
+      [
+        "Au",
+        "Ce",
+        "In",
+        "Mg"
+      ],
+      [
+        "Ce",
+        "Mg",
+        "Ni",
+        "Y"
+      ],
+      [
+        "Co",
+        "Cu",
+        "Sn",
+        "Zr"
+      ],
+      [
+        "Li",
+        "Mg",
+        "Pd",
+        "Sn"
+      ],
+      [
+        "Ce",
+        "In",
+        "Mg",
+        "Rh"
+      ],
+      [
+        "In",
+        "Mn",
+        "Pd",
+        "Sn"
+      ],
+      [
+        "Al",
+        "Au",
+        "Ce",
+        "Cu"
+      ],
+      [
+        "Cu",
+        "Gd",
+        "Ho",
+        "Ru",
+        "Ti"
+      ],
+      [
+        "Mo",
+        "Nb",
+        "Pr",
+        "Pt",
+        "Ta"
+      ],
+      [
+        "Dy",
+        "K",
+        "Mg",
+        "Ta",
+        "Y"
+      ],
+      [
+        "Bi",
+        "Gd",
+        "Pd",
+        "Rb",
+        "V"
+      ],
+      [
+        "Co",
+        "Er",
+        "Mg",
+        "Mn",
+        "Nb"
+      ],
+      [
+        "Au",
+        "Ca",
+        "Cd",
+        "Cs",
+        "Ni"
+      ],
+      [
+        "Er",
+        "Gd",
+        "Ho",
+        "Rh",
+        "Sr"
+      ],
+      [
+        "La",
+        "Pd",
+        "Sc",
+        "Sn",
+        "Zn"
+      ],
+      [
+        "Ca",
+        "Tb",
+        "Tl",
+        "Y",
+        "Zr"
+      ],
+      [
+        "Ag",
+        "Bi",
+        "K",
+        "Nd",
+        "Rh"
+      ]
+    ],
+    "dev": [
+      [
+        "Dy",
+        "In",
+        "Pd"
+      ],
+      [
+        "Al",
+        "Pd",
+        "Sm"
+      ],
+      [
+        "Li",
+        "Os",
+        "Tm"
+      ],
+      [
+        "Mn",
+        "Rh",
+        "Zn"
+      ],
+      [
+        "Al",
+        "Ce",
+        "Ga",
+        "Ni"
+      ],
+      [
+        "Ca",
+        "Eu",
+        "Ni",
+        "Zn"
+      ],
+      [
+        "Ga",
+        "Mn",
+        "Sn",
+        "Zr"
+      ],
+      [
+        "Co",
+        "Ga",
+        "Mn",
+        "V"
+      ],
+      [
+        "Cs",
+        "Fe",
+        "Na",
+        "Pb",
+        "Sm"
+      ],
+      [
+        "Cr",
+        "Mn",
+        "Na",
+        "Pd",
+        "Sn"
+      ],
+      [
+        "La",
+        "Os",
+        "Pr",
+        "Sr",
+        "Ti"
+      ],
+      [
+        "Al",
+        "Ga",
+        "Nb",
+        "Rb",
+        "Zn"
+      ]
+    ],
+    "test": [
+      [
+        "Mg",
+        "Sn",
+        "Sr"
+      ],
+      [
+        "Au",
+        "K",
+        "Tb"
+      ],
+      [
+        "Co",
+        "Mg",
+        "Na"
+      ],
+      [
+        "Hf",
+        "Ni",
+        "Zr"
+      ],
+      [
+        "Co",
+        "Dy",
+        "W"
+      ],
+      [
+        "Ga",
+        "Pt",
+        "Tm"
+      ],
+      [
+        "Ga",
+        "Ho",
+        "Lu"
+      ],
+      [
+        "Al",
+        "Li",
+        "V"
+      ],
+      [
+        "Al",
+        "V",
+        "Zn"
+      ],
+      [
+        "Co",
+        "Pd",
+        "Tl"
+      ],
+      [
+        "Ba",
+        "Nd",
+        "Ni",
+        "W"
+      ],
+      [
+        "Eu",
+        "Nb",
+        "Sn",
+        "Tl"
+      ],
+      [
+        "Ce",
+        "Er",
+        "Pb",
+        "Rh"
+      ],
+      [
+        "Dy",
+        "K",
+        "Pd",
+        "Sm"
+      ],
+      [
+        "Co",
+        "Dy",
+        "Ta",
+        "Y"
+      ],
+      [
+        "Au",
+        "Cr",
+        "Cs",
+        "Dy"
+      ],
+      [
+        "Ca",
+        "Pd",
+        "Sn",
+        "W"
+      ],
+      [
+        "Au",
+        "Tb",
+        "V",
+        "Y"
+      ],
+      [
+        "Ce",
+        "Ir",
+        "Pt",
+        "Sn"
+      ],
+      [
+        "Ba",
+        "Be",
+        "Hf",
+        "Li"
+      ],
+      [
+        "Cd",
+        "Li",
+        "Nd",
+        "Ti",
+        "W"
+      ],
+      [
+        "Cd",
+        "Gd",
+        "Mn",
+        "Na",
+        "Ta"
+      ],
+      [
+        "Co",
+        "Hg",
+        "Mg",
+        "Sr",
+        "W"
+      ],
+      [
+        "Ca",
+        "Fe",
+        "Gd",
+        "Pb",
+        "Tb"
+      ],
+      [
+        "Al",
+        "Hg",
+        "K",
+        "Mg",
+        "W"
+      ],
+      [
+        "Ag",
+        "Nd",
+        "Pd",
+        "Pt",
+        "Tb"
+      ],
+      [
+        "Al",
+        "Lu",
+        "Pt",
+        "Rb",
+        "Sm"
+      ],
+      [
+        "Co",
+        "Hf",
+        "In",
+        "Ru",
+        "Tm"
+      ],
+      [
+        "Ho",
+        "In",
+        "Mg",
+        "Pd",
+        "Zr"
+      ],
+      [
+        "Cr",
+        "Fe",
+        "Lu",
+        "Pt",
+        "Sc"
+      ]
+    ]
+  },
+  "provenance": {
+    "official_repository": "https://github.com/diffractivelabs/MADE",
+    "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+    "public_energy_table": {
+      "path": "data/2025-02-01-mp-energies.csv",
+      "sha256": "cd505bc2500bc92b60bc4f0fe80b9ade7e6c70bdceb0ff6ff74f6866efc928d6",
+      "rows": 154718
+    },
+    "reference_elements": {
+      "path": "data/2023-02-07-mp-elemental-reference-entries.json",
+      "sha256": "3e66c10bfd00035c6f08f5737e2b7eda2637b9aeeb349c024bca8b5bbb535fa2",
+      "count": 89
+    },
+    "official_generator": {
+      "path": "scripts/generate_systems.py",
+      "sha256": "7fa3bcbbeb8097eaa274f1477c40176aeefe282b78e3d36db1510630b0cd9680",
+      "constants_read_via_ast_without_execution": true
+    },
+    "test_files": [
+      {
+        "path": "data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json",
+        "sha256": "c97a6f89b3039b0047801916e7d7cf1398577aa039d9d599a10bdfbcb3cc6fcb"
+      },
+      {
+        "path": "data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json",
+        "sha256": "06be4f71fee49164dcc647dfc6782e6d06da94b0064989ace70df9fed823c20d"
+      },
+      {
+        "path": "data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json",
+        "sha256": "4644e82ab6a5b29574cc06c46d9ca02e9f0fdaece03ffb4b9acd0ede83bd2a1a"
+      }
+    ],
+    "selection_script_sha256": "af7cacda266ddc572bf1c25da34e777f99b2f2f11518640cab88292ab058176e",
+    "seed": 20260915,
+    "sorting": "chemical symbols sorted lexicographically; candidate systems sorted lexicographically before RNG sampling",
+    "exact_sampling": "random.Random(seed + system_size).sample(sorted_exact_candidates, n)",
+    "space_sampling": "Algorithm-R reservoir over lexicographic itertools.combinations; Random(seed+size); sorted selected set then shuffle with seed+size+1000000 before train/dev assignment",
+    "max_atoms": 20,
+    "stable_reference_threshold_ev_per_atom": 1e-08,
+    "energy_types": [
+      "GGA",
+      "GGA+U"
+    ],
+    "allowed_elements": [
+      "Ag",
+      "Al",
+      "Au",
+      "Ba",
+      "Be",
+      "Bi",
+      "Ca",
+      "Cd",
+      "Ce",
+      "Co",
+      "Cr",
+      "Cs",
+      "Cu",
+      "Dy",
+      "Er",
+      "Eu",
+      "Fe",
+      "Ga",
+      "Gd",
+      "Hf",
+      "Hg",
+      "Ho",
+      "In",
+      "Ir",
+      "K",
+      "La",
+      "Li",
+      "Lu",
+      "Mg",
+      "Mn",
+      "Mo",
+      "Na",
+      "Nb",
+      "Nd",
+      "Ni",
+      "Os",
+      "Pb",
+      "Pd",
+      "Pr",
+      "Pt",
+      "Rb",
+      "Re",
+      "Rh",
+      "Ru",
+      "Sc",
+      "Sm",
+      "Sn",
+      "Sr",
+      "Ta",
+      "Tb",
+      "Ti",
+      "Tl",
+      "Tm",
+      "V",
+      "W",
+      "Y",
+      "Zn",
+      "Zr"
+    ],
+    "strata": {
+      "3": {
+        "seed": 20260918,
+        "selection_mode": "exact_order_public_stable_systems",
+        "eligible_candidate_count": 2660,
+        "exact_order_stable_candidate_count_before_test_exclusion": 2662,
+        "exact_order_stable_candidate_count_after_test_exclusion": 2660,
+        "train_count": 10,
+        "dev_count": 4,
+        "shortage_disclosed": false
+      },
+      "4": {
+        "seed": 20260919,
+        "selection_mode": "exact_order_public_stable_systems",
+        "eligible_candidate_count": 21,
+        "exact_order_stable_candidate_count_before_test_exclusion": 21,
+        "exact_order_stable_candidate_count_after_test_exclusion": 21,
+        "train_count": 10,
+        "dev_count": 4,
+        "shortage_disclosed": false
+      },
+      "5": {
+        "seed": 20260920,
+        "selection_mode": "chemical_spaces_supported_by_at_least_two_stable_multielement_subphase_entries",
+        "eligible_candidate_count": 4350483,
+        "exact_order_stable_candidate_count_before_test_exclusion": 0,
+        "exact_order_stable_candidate_count_after_test_exclusion": 0,
+        "train_count": 10,
+        "dev_count": 4,
+        "shortage_disclosed": true
+      }
+    },
+    "row_rejections": {
+      "not_allowed_intermetallic": 133173,
+      "invalid_numeric": 43,
+      "invalid_or_over_20_sites": 2655
+    },
+    "uses_new_experiment_results": false,
+    "uses_old_project_code_or_results": false,
+    "quinary_limitation": "Zero exact five-element stable intermetallic systems with <=20 sites in this official table. Selected quinary spaces have stable multielement subphase evidence; they are not existing stable five-element compounds.",
+    "raw_snapshot_requirement": "Fetch fresh complete Materials Project entries with structures for each selected space, then freeze/hash. The scalar CSV does not replace official benchmark structures or oracle."
+  },
+  "selected_system_evidence": {
+    "Co-Os-Ti": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 4,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1187422",
+          "formula": "Ti2CoOs",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-291",
+          "formula": "TiOs",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-608",
+          "formula": "TiCo3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-823",
+          "formula": "TiCo",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Au-Li-Pd": {
+      "split": "train",
+      "exact_order_stable_entry_count": 2,
+      "stable_multielement_subphase_entry_count": 11,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1079855",
+          "formula": "LiPd7",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11247",
+          "formula": "Li3Au",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11248",
+          "formula": "LiAu3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1206794",
+          "formula": "LiAu",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2744",
+          "formula": "LiPd",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-728",
+          "formula": "Li2Pd",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-861930",
+          "formula": "LiPdAu2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-861936",
+          "formula": "LiPd3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-866176",
+          "formula": "Li2PdAu",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-973839",
+          "formula": "PdAu3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Pb-Pr-Zn": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 7,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1072856",
+          "formula": "PrZn2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1103021",
+          "formula": "PrPb2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1188302",
+          "formula": "Pr5Pb3",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1189596",
+          "formula": "Pr2Zn5Pb",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20939",
+          "formula": "PrPb3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30710",
+          "formula": "Pr2Zn17",
+          "n_sites": 19,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-460",
+          "formula": "PrZn",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Al-Au-Hf": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 12,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1007755",
+          "formula": "HfAu",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1018153",
+          "formula": "HfAu2",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1025223",
+          "formula": "Hf4Al3",
+          "n_sites": 7,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1079296",
+          "formula": "HfAu3",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1224327",
+          "formula": "Hf2Al3Au",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12657",
+          "formula": "HfAl2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1399",
+          "formula": "AlAu",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1490",
+          "formula": "AlAu4",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2647",
+          "formula": "Al2Au",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30383",
+          "formula": "Hf2Au",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Nd-Ru-Sn": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 10,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1102217",
+          "formula": "NdRu2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1103979",
+          "formula": "Nd5Ru2",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1106300",
+          "formula": "Nd3Ru",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1205655",
+          "formula": "Nd(Sn3Ru2)2",
+          "n_sites": 11,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1206318",
+          "formula": "Nd3Sn7",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12701",
+          "formula": "NdSn2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1977",
+          "formula": "NdSn3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-22344",
+          "formula": "Sn7Ru3",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30290",
+          "formula": "Nd2Sn3",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-510503",
+          "formula": "Nd5Sn3",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Ga-Nb-Zn": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 5,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1104372",
+          "formula": "Nb6Zn7",
+          "n_sites": 13,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11393",
+          "formula": "Nb3Ga2",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1220689",
+          "formula": "Nb(ZnGa)3",
+          "n_sites": 7,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1973",
+          "formula": "NbGa3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-953",
+          "formula": "NbZn3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Cu-Zn-Zr": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 7,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-11366",
+          "formula": "ZrZnCu2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1401",
+          "formula": "ZrZn2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-193",
+          "formula": "Zr2Cu",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-570276",
+          "formula": "ZrZn",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-864889",
+          "formula": "ZrZn3",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-972042",
+          "formula": "Zn3Cu",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-987",
+          "formula": "ZnCu",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Pt-Ru-Sc": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 6,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-11550",
+          "formula": "Sc2Pt",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30867",
+          "formula": "ScRu",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-481",
+          "formula": "ScPt3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-567750",
+          "formula": "ScRu2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-862371",
+          "formula": "Sc2RuPt",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-892",
+          "formula": "ScPt",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Cu-Ga-Rh": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 4,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-11359",
+          "formula": "Ga2Cu",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1183995",
+          "formula": "GaCu3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2444",
+          "formula": "GaRh",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-862485",
+          "formula": "GaCuRh2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Au-Mg-Nd": {
+      "split": "train",
+      "exact_order_stable_entry_count": 2,
+      "stable_multielement_subphase_entry_count": 10,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1080709",
+          "formula": "NdAu",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1102098",
+          "formula": "Nd2Au",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11250",
+          "formula": "Mg2Au",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1205903",
+          "formula": "NdMgAu",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1222172",
+          "formula": "Mg3Au13",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12788",
+          "formula": "Nd3Au4",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1327",
+          "formula": "NdMg",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1787",
+          "formula": "NdMg3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-437",
+          "formula": "MgAu",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-866064",
+          "formula": "NdMgAu2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Nb-Ni-Sc-Sn": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 16,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1046",
+          "formula": "NbSn2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1078355",
+          "formula": "ScNiSn",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1104237",
+          "formula": "Nb7Ni6",
+          "n_sites": 13,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11521",
+          "formula": "ScNi",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11808",
+          "formula": "ScNi4Sn",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1219274",
+          "formula": "ScNb(NiSn)2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1326",
+          "formula": "Nb3Sn",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1451",
+          "formula": "NbNi3",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-17695",
+          "formula": "Sc5Sn3",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20112",
+          "formula": "Ni3Sn",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Al-Ni-Pd-Tb": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 29,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1057",
+          "formula": "Al3Ni2",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1069297",
+          "formula": "Tb2AlNi2",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1080451",
+          "formula": "TbPd",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-10901",
+          "formula": "Al3Pd2",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1102054",
+          "formula": "TbNi3",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1103391",
+          "formula": "Tb2Al",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1104088",
+          "formula": "Tb3Pd4",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11225",
+          "formula": "TbAl",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11538",
+          "formula": "TbAlNi",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1189379",
+          "formula": "Tb2Ni7",
+          "n_sites": 18,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Co-Cu-Hf-Sn": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 15,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1018713",
+          "formula": "HfCuSn",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-10598",
+          "formula": "CuSn",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1064981",
+          "formula": "HfCo",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1079810",
+          "formula": "HfSn2",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1212526",
+          "formula": "Hf5CoSn3",
+          "n_sites": 18,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1224059",
+          "formula": "Hf2CoCuSn2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1224607",
+          "formula": "Hf10CuSn7",
+          "n_sites": 18,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20536",
+          "formula": "CoSn",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20730",
+          "formula": "HfCo2Sn",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-21104",
+          "formula": "Hf5Sn3",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Au-Ce-In-Mg": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 20,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1017579",
+          "formula": "In2Au3",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1018087",
+          "formula": "CeAu",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1103758",
+          "formula": "CeAu6",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11250",
+          "formula": "Mg2Au",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1183717",
+          "formula": "CeMgAu2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1206585",
+          "formula": "Ce2InAu2",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1222037",
+          "formula": "MgIn2",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1222172",
+          "formula": "Mg3Au13",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1227195",
+          "formula": "Ce3Mg2InAu3",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1798",
+          "formula": "CeMg3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Ce-Mg-Ni-Y": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 18,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1105633",
+          "formula": "Y3Ni",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1226870",
+          "formula": "CeY(MgNi4)2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-13435",
+          "formula": "CeMgNi4",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-13505",
+          "formula": "CeMg2Ni9",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1364",
+          "formula": "YNi",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1654",
+          "formula": "CeNi2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1798",
+          "formula": "CeMg3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1910",
+          "formula": "CeNi5",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-19910",
+          "formula": "Ce2MgNi2",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-21188",
+          "formula": "CeNi",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Co-Cu-Sn-Zr": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 16,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-10598",
+          "formula": "CuSn",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1101867",
+          "formula": "ZrCuSn",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1106301",
+          "formula": "Zr5CuSn3",
+          "n_sites": 18,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1206072",
+          "formula": "Zr6CoSn2",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1215719",
+          "formula": "Zr2CoCuSn2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-193",
+          "formula": "Zr2Cu",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20536",
+          "formula": "CoSn",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-22503",
+          "formula": "ZrCo2Sn",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2283",
+          "formula": "ZrCo",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30563",
+          "formula": "ZrCoSn",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Li-Mg-Pd-Sn": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 30,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1079855",
+          "formula": "LiPd7",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1094591",
+          "formula": "Li3Mg",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1094889",
+          "formula": "LiMg",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1185265",
+          "formula": "Li3Sn",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1210703",
+          "formula": "Mg3Pd5",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1222608",
+          "formula": "Li2SnPd",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1222615",
+          "formula": "Li2MgSn",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12741",
+          "formula": "MgPd2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12742",
+          "formula": "MgPd3",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1851",
+          "formula": "SnPd2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Ce-In-Mg-Rh": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 20,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1018117",
+          "formula": "CeRh",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1079553",
+          "formula": "CeInRh",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1172",
+          "formula": "MgRh",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1205710",
+          "formula": "Ce2InRh2",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1206465",
+          "formula": "Ce2In8Rh",
+          "n_sites": 11,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1213760",
+          "formula": "CeMgRh",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1213919",
+          "formula": "CeMgIn3Rh",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1222037",
+          "formula": "MgIn2",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12693",
+          "formula": "Mg2Rh",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1518",
+          "formula": "CeRh3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "In-Mn-Pd-Sn": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 17,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1078721",
+          "formula": "InPd3",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1078895",
+          "formula": "Mn3Pd5",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1102640",
+          "formula": "MnPd2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1221536",
+          "formula": "Mn2SnPd3",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1221820",
+          "formula": "Mn2InSnPd4",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1851",
+          "formula": "SnPd2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20481",
+          "formula": "MnSnPd2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-21215",
+          "formula": "InPd",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2128",
+          "formula": "Sn4Pd",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-22146",
+          "formula": "In3Pd5",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Al-Au-Ce-Cu": {
+      "split": "train",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 26,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1018087",
+          "formula": "CeAu",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1069443",
+          "formula": "CeAl3Cu",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1070063",
+          "formula": "CeAl3Au",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1078886",
+          "formula": "Ce(AlAu)2",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1079868",
+          "formula": "CeAlCu",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1102423",
+          "formula": "CeAlAu",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1103758",
+          "formula": "CeAu6",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1213865",
+          "formula": "Ce3Al11",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1226644",
+          "formula": "CeAl2Cu3",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1226887",
+          "formula": "CeAlCu4",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Cu-Gd-Ho-Ru-Ti": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 17,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1077933",
+          "formula": "GdCu2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1102089",
+          "formula": "HoRu2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1104820",
+          "formula": "Ho5Ru2",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1184422",
+          "formula": "Gd2CuRu",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1188441",
+          "formula": "TiCu4",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1189938",
+          "formula": "Ho3Ru",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1971",
+          "formula": "HoCu",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2078",
+          "formula": "TiCu",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2643",
+          "formula": "Ti3Cu4",
+          "n_sites": 7,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30584",
+          "formula": "HoCu2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Mo-Nb-Pr-Pt-Ta": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 15,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1037",
+          "formula": "PrPt5",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1061",
+          "formula": "PrPt2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1078557",
+          "formula": "PrPt",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1078699",
+          "formula": "NbPt3",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1106063",
+          "formula": "Pr7Pt3",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11514",
+          "formula": "NbPt2",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1217895",
+          "formula": "TaMo",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1217902",
+          "formula": "TaNbMo",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1220327",
+          "formula": "NbMo",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2663",
+          "formula": "Nb3Pt",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Dy-K-Mg-Ta-Y": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 4,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1546",
+          "formula": "DyMg3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2077",
+          "formula": "DyMg",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-615",
+          "formula": "YMg",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-865376",
+          "formula": "YMg3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Bi-Gd-Pd-Rb-V": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 13,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1008488",
+          "formula": "BiPd",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1076916",
+          "formula": "GdBiPd",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11427",
+          "formula": "GdPd",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11549",
+          "formula": "VPd2",
+          "n_sites": 3,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1664",
+          "formula": "V3Pd",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-21427",
+          "formula": "GdPd3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-23253",
+          "formula": "RbBi2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30463",
+          "formula": "BiPd3",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30464",
+          "formula": "Bi2Pd5",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-568746",
+          "formula": "Bi2Pd",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Co-Er-Mg-Mn-Nb": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 12,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1009133",
+          "formula": "MnCo",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1104334",
+          "formula": "Nb7Co6",
+          "n_sites": 13,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1185970",
+          "formula": "Mn3Co",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1188770",
+          "formula": "Er3Co",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12659",
+          "formula": "Mn2Nb",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2228",
+          "formula": "ErMg",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-22482",
+          "formula": "ErMn12",
+          "n_sites": 13,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-411",
+          "formula": "ErCo3",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-537",
+          "formula": "ErCo2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-862681",
+          "formula": "ErMg3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Au-Ca-Cd-Cs-Ni": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 20,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1073",
+          "formula": "CaCd",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1078064",
+          "formula": "Ca(CdAu2)2",
+          "n_sites": 7,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1105997",
+          "formula": "Ca2Ni7",
+          "n_sites": 18,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1227574",
+          "formula": "Ca4Cd3Au5",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1264",
+          "formula": "CdAu3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12699",
+          "formula": "Ca3Au4",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12723",
+          "formula": "CaAu",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1404",
+          "formula": "CdAu",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1444",
+          "formula": "CaCd2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-18167",
+          "formula": "Ca3Cd2",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Er-Gd-Ho-Rh-Sr": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 10,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1106336",
+          "formula": "Ho7Rh3",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11437",
+          "formula": "Er3Rh",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1328",
+          "formula": "SrRh2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1742",
+          "formula": "GdRh",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1762",
+          "formula": "ErRh2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20084",
+          "formula": "GdRh2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2163",
+          "formula": "HoRh",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2381",
+          "formula": "ErRh",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30612",
+          "formula": "Er7Rh3",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-546",
+          "formula": "HoRh2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "La-Pd-Sc-Sn-Zn": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 39,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1002115",
+          "formula": "LaPd",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1071720",
+          "formula": "ScZnPd",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1079273",
+          "formula": "La3Sn7",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1101768",
+          "formula": "La3(ZnPd)4",
+          "n_sites": 11,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1102763",
+          "formula": "LaZnPd",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1103252",
+          "formula": "ZnPd2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1104435",
+          "formula": "La3Pd4",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1105925",
+          "formula": "La7Pd3",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11566",
+          "formula": "ScZn",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11567",
+          "formula": "ScZn12",
+          "n_sites": 13,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Ca-Tb-Tl-Y-Zr": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 12,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-11575",
+          "formula": "YTl",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1188434",
+          "formula": "Y5Tl3",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1188772",
+          "formula": "Tb5Tl3",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1189902",
+          "formula": "Tb3Tl5",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1207757",
+          "formula": "Y3Tl5",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1886",
+          "formula": "TbTl3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2393",
+          "formula": "YTl3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2861",
+          "formula": "CaTl",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30878",
+          "formula": "TbTl",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-526",
+          "formula": "CaTl3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Ag-Bi-K-Nd-Rh": {
+      "split": "train",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 14,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1064554",
+          "formula": "BiRh",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1072737",
+          "formula": "NdAg2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1104743",
+          "formula": "Nd3Rh2",
+          "n_sites": 15,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1105838",
+          "formula": "Nd5Bi3",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1189498",
+          "formula": "Nd7Rh3",
+          "n_sites": 20,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1210131",
+          "formula": "NdBiRh",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1236",
+          "formula": "NdAg",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12735",
+          "formula": "KAg2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2290",
+          "formula": "NdRh2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-23217",
+          "formula": "Bi2Rh",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Dy-In-Pd": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 2,
+      "stable_multielement_subphase_entry_count": 17,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1078721",
+          "formula": "InPd3",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1104399",
+          "formula": "Dy3Pd4",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1212972",
+          "formula": "Dy3In5",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-12543",
+          "formula": "Dy3Pd2",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20236",
+          "formula": "DyIn3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20870",
+          "formula": "Dy2InPd2",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-21215",
+          "formula": "InPd",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-21351",
+          "formula": "Dy2In",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-22146",
+          "formula": "In3Pd5",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2226",
+          "formula": "DyPd",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Al-Pd-Sm": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 2,
+      "stable_multielement_subphase_entry_count": 11,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-10901",
+          "formula": "Al3Pd2",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1102212",
+          "formula": "SmAlPd",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1104311",
+          "formula": "Sm3Pd4",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11539",
+          "formula": "SmAl3Pd2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2358",
+          "formula": "SmAl2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2824",
+          "formula": "AlPd2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-31380",
+          "formula": "SmPd",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-357",
+          "formula": "SmPd3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-7189",
+          "formula": "AlPd",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-867870",
+          "formula": "SmAl3",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Li-Os-Tm": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 3,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1102316",
+          "formula": "TmOs2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1207975",
+          "formula": "Tm3Os",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-867265",
+          "formula": "LiTm2Os",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Mn-Rh-Zn": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 7,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-11504",
+          "formula": "MnZn3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1210567",
+          "formula": "MnZn13",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-13447",
+          "formula": "Zn13Rh",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-417",
+          "formula": "MnRh",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-6938",
+          "formula": "ZnRh",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-864987",
+          "formula": "MnZnRh2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-865342",
+          "formula": "Zn3Rh",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Al-Ce-Ga-Ni": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 33,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1018276",
+          "formula": "CeGa",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1057",
+          "formula": "Al3Ni2",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11351",
+          "formula": "CeAlNi",
+          "n_sites": 9,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11397",
+          "formula": "Ga3Ni2",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11398",
+          "formula": "Ga3Ni5",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1190078",
+          "formula": "CeGa6Ni",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1213865",
+          "formula": "Ce3Al11",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1226588",
+          "formula": "CeGaNi4",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1226626",
+          "formula": "CeAlNi4",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1227010",
+          "formula": "Ce2AlGaNi2",
+          "n_sites": 18,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Ca-Eu-Ni-Zn": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 15,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1105997",
+          "formula": "Ca2Ni7",
+          "n_sites": 18,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1183574",
+          "formula": "CaEuZn2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1225527",
+          "formula": "Eu2(ZnNi)5",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1227643",
+          "formula": "Ca2Eu(Zn3Ni2)3",
+          "n_sites": 18,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1261",
+          "formula": "EuZn",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1725",
+          "formula": "CaZn2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1734",
+          "formula": "CaZn5",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-22311",
+          "formula": "EuNi5",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2295",
+          "formula": "CaNi2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2436",
+          "formula": "EuZn5",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Ga-Mn-Sn-Zr": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 16,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1001836",
+          "formula": "MnGa",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1069288",
+          "formula": "MnGa4",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1080001",
+          "formula": "ZrGa3",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1207393",
+          "formula": "Zr3Ga5",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1215316",
+          "formula": "ZrMn6GaSn5",
+          "n_sites": 13,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2116",
+          "formula": "ZrMn2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30682",
+          "formula": "ZrGa",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30683",
+          "formula": "ZrGa2",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30684",
+          "formula": "Zr3Ga2",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-30686",
+          "formula": "Zr2Ga3",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Co-Ga-Mn-V": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 1,
+      "stable_multielement_subphase_entry_count": 15,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1001836",
+          "formula": "MnGa",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1009133",
+          "formula": "MnCo",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1069288",
+          "formula": "MnGa4",
+          "n_sites": 5,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1121",
+          "formula": "GaCo",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1185970",
+          "formula": "Mn3Co",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1190398",
+          "formula": "MnVGaCo",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1585",
+          "formula": "V3Co",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20405",
+          "formula": "V2Ga5",
+          "n_sites": 14,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20559",
+          "formula": "Ga3Co",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-21171",
+          "formula": "MnGaCo2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Cs-Fe-Na-Pb-Sm": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 4,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1179514",
+          "formula": "Sm5Pb3",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20555",
+          "formula": "NaPb3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-630851",
+          "formula": "Cs3NaPb4",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-867238",
+          "formula": "SmPb3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Cr-Mn-Na-Pd-Sn": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 13,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1077925",
+          "formula": "Na5Sn2",
+          "n_sites": 7,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1078895",
+          "formula": "Mn3Pd5",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1102640",
+          "formula": "MnPd2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1186074",
+          "formula": "Na3Pd",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1220866",
+          "formula": "NaSn2Pd3",
+          "n_sites": 6,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1221536",
+          "formula": "Mn2SnPd3",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1851",
+          "formula": "SnPd2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-20481",
+          "formula": "MnSnPd2",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2128",
+          "formula": "Sn4Pd",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-2369",
+          "formula": "SnPd",
+          "n_sites": 8,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "La-Os-Pr-Sr-Ti": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 4,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1189101",
+          "formula": "La3Os",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1189967",
+          "formula": "Pr3Os",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-291",
+          "formula": "TiOs",
+          "n_sites": 2,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-567339",
+          "formula": "PrOs2",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    },
+    "Al-Ga-Nb-Rb-Zn": {
+      "split": "dev",
+      "exact_order_stable_entry_count": 0,
+      "stable_multielement_subphase_entry_count": 9,
+      "stable_reference_examples": [
+        {
+          "material_id": "mp-1104372",
+          "formula": "Nb6Zn7",
+          "n_sites": 13,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-11393",
+          "formula": "Nb3Ga2",
+          "n_sites": 10,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1220408",
+          "formula": "NbAlZn",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1220689",
+          "formula": "Nb(ZnGa)3",
+          "n_sites": 7,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1460",
+          "formula": "RbGa7",
+          "n_sites": 16,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1842",
+          "formula": "NbAl3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-1973",
+          "formula": "NbGa3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-31493",
+          "formula": "RbGa3",
+          "n_sites": 12,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        },
+        {
+          "material_id": "mp-953",
+          "formula": "NbZn3",
+          "n_sites": 4,
+          "public_energy_above_hull": 0.0,
+          "energy_type": "GGA"
+        }
+      ],
+      "examples_cap": 10,
+      "evidence_role": "public-data task selection only; never inject labels as policy observations"
+    }
+  },
+  "overlap_audit": {
+    "exact_group_disjoint": true,
+    "pairs": {
+      "train__dev": {
+        "equal_chemical_system_count": 0,
+        "shared_public_material_ids_inclusive_subsystems": 313,
+        "shared_id_examples": [
+          "mp-1",
+          "mp-10021",
+          "mp-10023",
+          "mp-10024",
+          "mp-1007664",
+          "mp-1007857",
+          "mp-1007976",
+          "mp-1008498",
+          "mp-1008728",
+          "mp-1009133",
+          "mp-1009206",
+          "mp-1009594",
+          "mp-1012110",
+          "mp-1014111",
+          "mp-10173",
+          "mp-1018023",
+          "mp-1018045",
+          "mp-1018134",
+          "mp-1018145",
+          "mp-1018155"
+        ],
+        "strict_nested_system_pairs": [
+          {
+            "train": [
+              "Ga",
+              "Nb",
+              "Zn"
+            ],
+            "dev": [
+              "Al",
+              "Ga",
+              "Nb",
+              "Rb",
+              "Zn"
+            ]
+          }
+        ]
+      },
+      "train__test": {
+        "equal_chemical_system_count": 0,
+        "shared_public_material_ids_inclusive_subsystems": 465,
+        "shared_id_examples": [
+          "mp-1",
+          "mp-100",
+          "mp-10021",
+          "mp-10024",
+          "mp-1007664",
+          "mp-1007857",
+          "mp-1007976",
+          "mp-1008498",
+          "mp-1008634",
+          "mp-1008681",
+          "mp-1008728",
+          "mp-1009460",
+          "mp-1012110",
+          "mp-1014111",
+          "mp-10157",
+          "mp-1016228",
+          "mp-1016238",
+          "mp-1016287",
+          "mp-1016293",
+          "mp-1016305"
+        ],
+        "strict_nested_system_pairs": []
+      },
+      "dev__test": {
+        "equal_chemical_system_count": 0,
+        "shared_public_material_ids_inclusive_subsystems": 247,
+        "shared_id_examples": [
+          "mp-1",
+          "mp-10021",
+          "mp-10024",
+          "mp-1007664",
+          "mp-1007857",
+          "mp-1007976",
+          "mp-1008498",
+          "mp-1008728",
+          "mp-1012110",
+          "mp-1014111",
+          "mp-10172",
+          "mp-10173",
+          "mp-1018045",
+          "mp-1018122",
+          "mp-1018134",
+          "mp-102",
+          "mp-1022725",
+          "mp-10257",
+          "mp-1055908",
+          "mp-1055940"
+        ],
+        "strict_nested_system_pairs": []
+      }
+    },
+    "interpretation": "Chemical-space group disjointness does not imply disjoint structures. Elements/subsystems and public material IDs may overlap. IDs are only a proxy: this CSV has no structures for StructureMatcher deduplication.",
+    "pretraining_risk": "Official ORB/MACE/Chemeleon pretraining includes MP/Alex/OMat data. These splits do not establish pretraining-data independence.",
+    "policy_rule": "Do not train uncertainty/ES on official test trajectories or labels. Public selection evidence is evaluator metadata, not an agent observation."
+  }
+}

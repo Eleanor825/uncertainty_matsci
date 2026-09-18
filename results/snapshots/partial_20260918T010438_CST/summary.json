@@ -1,0 +1,226 @@
+{
+  "schema": "public_derived_experiment_snapshot_v1",
+  "snapshot_id": "partial_20260918T010438_CST",
+  "title": "Overnight partial all30/B30 snapshot",
+  "observed_utc": "2026-09-17T17:04:38.858954+00:00",
+  "observed_CST": "2026-09-18T01:04:38.858954+08:00",
+  "budgets": {
+    "10": {
+      "expected_trajectories": 60,
+      "completed_trajectories": 53,
+      "expected_systems": 30,
+      "complete_pairs": 23,
+      "unpaired_systems": {
+        "Co-Hf-In-Ru-Tm": [
+          "baseline"
+        ],
+        "Dy-K-Pd-Sm": [
+          "baseline"
+        ],
+        "Ga-Ho-Lu": [
+          "baseline"
+        ],
+        "Ga-Pt-Tm": [
+          "baseline"
+        ],
+        "Hf-Ni-Zr": [
+          "baseline"
+        ],
+        "Ho-In-Mg-Pd-Zr": [
+          "baseline"
+        ],
+        "Mg-Sn-Sr": [
+          "baseline"
+        ]
+      },
+      "not_yet_represented_systems": 0,
+      "completed_candidate_attempts": 530,
+      "counts_are_not_additive_across_snapshots": true,
+      "data_computation_complete": false,
+      "scope_publication_accepted_at_snapshot": false,
+      "claimed_or_ledger_running": 4,
+      "pending_unclaimed": 3,
+      "SUN": {
+        "pairs": 23,
+        "baseline_sum": 22,
+        "full_sum": 31,
+        "baseline_mean": 0.9565217391304348,
+        "full_mean": 1.3478260869565217,
+        "full_minus_baseline": 0.3913043478260869,
+        "wins": 6,
+        "losses": 4,
+        "ties": 13
+      },
+      "AUDC": {
+        "pairs": 23,
+        "baseline_sum": 2.68,
+        "full_sum": 3.25,
+        "baseline_mean": 0.11652173913043479,
+        "full_mean": 0.14130434782608695,
+        "full_minus_baseline": 0.02478260869565216,
+        "wins": 6,
+        "losses": 4,
+        "ties": 13
+      },
+      "mSUN": {
+        "pairs": 23,
+        "baseline_sum": 2.2,
+        "full_sum": 3.0999999999999996,
+        "baseline_mean": 0.09565217391304348,
+        "full_mean": 0.13478260869565217,
+        "full_minus_baseline": 0.03913043478260869,
+        "wins": 6,
+        "losses": 4,
+        "ties": 13
+      },
+      "rollout_wall_seconds_by_method": {
+        "baseline": {
+          "n": 30,
+          "p25": 413.99127098592,
+          "median": 529.1765337297693,
+          "p75": 672.6520330987405
+        },
+        "esopt_graph_risk": {
+          "n": 23,
+          "p25": 1415.642453316832,
+          "median": 1708.7622740194201,
+          "p75": 1880.9711845165584
+        }
+      }
+    },
+    "30": {
+      "expected_trajectories": 60,
+      "completed_trajectories": 1,
+      "expected_systems": 30,
+      "complete_pairs": 0,
+      "unpaired_systems": {
+        "Al-Li-V": [
+          "baseline"
+        ]
+      },
+      "not_yet_represented_systems": 29,
+      "completed_candidate_attempts": 30,
+      "counts_are_not_additive_across_snapshots": true,
+      "data_computation_complete": false,
+      "scope_publication_accepted_at_snapshot": false,
+      "claimed_or_ledger_running": 2,
+      "pending_unclaimed": 57,
+      "SUN": {
+        "pairs": 0,
+        "baseline_sum": null,
+        "full_sum": null,
+        "baseline_mean": null,
+        "full_mean": null,
+        "full_minus_baseline": null,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "AUDC": {
+        "pairs": 0,
+        "baseline_sum": null,
+        "full_sum": null,
+        "baseline_mean": null,
+        "full_mean": null,
+        "full_minus_baseline": null,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "mSUN": {
+        "pairs": 0,
+        "baseline_sum": null,
+        "full_sum": null,
+        "baseline_mean": null,
+        "full_mean": null,
+        "full_minus_baseline": null,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "rollout_wall_seconds_by_method": {
+        "baseline": {
+          "n": 1,
+          "p25": 2388.581607230939,
+          "median": 2388.581607230939,
+          "p75": 2388.581607230939
+        },
+        "esopt_graph_risk": {
+          "n": 0,
+          "p25": null,
+          "median": null,
+          "p75": null
+        }
+      }
+    },
+    "50": {
+      "expected_trajectories": 60,
+      "completed_trajectories": 0,
+      "expected_systems": 30,
+      "complete_pairs": 0,
+      "unpaired_systems": {},
+      "not_yet_represented_systems": 30,
+      "completed_candidate_attempts": 0,
+      "counts_are_not_additive_across_snapshots": true,
+      "data_computation_complete": false,
+      "scope_publication_accepted_at_snapshot": false,
+      "claimed_or_ledger_running": 0,
+      "pending_unclaimed": 60,
+      "SUN": {
+        "pairs": 0,
+        "baseline_sum": null,
+        "full_sum": null,
+        "baseline_mean": null,
+        "full_mean": null,
+        "full_minus_baseline": null,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "AUDC": {
+        "pairs": 0,
+        "baseline_sum": null,
+        "full_sum": null,
+        "baseline_mean": null,
+        "full_mean": null,
+        "full_minus_baseline": null,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "mSUN": {
+        "pairs": 0,
+        "baseline_sum": null,
+        "full_sum": null,
+        "baseline_mean": null,
+        "full_mean": null,
+        "full_minus_baseline": null,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "rollout_wall_seconds_by_method": {
+        "baseline": {
+          "n": 0,
+          "p25": null,
+          "median": null,
+          "p75": null
+        },
+        "esopt_graph_risk": {
+          "n": 0,
+          "p25": null,
+          "median": null,
+          "p75": null
+        }
+      }
+    }
+  },
+  "global_three_budget_study_complete": false,
+  "original_multimodel_multiseed_study_complete": false,
+  "new_model_calls_for_export": 0,
+  "new_scientific_oracle_calls_for_export": 0,
+  "notes": [
+    "B10 was 53/60, with23 complete pairs; never relabel this overnight snapshot as all30 completed.",
+    "B30 had one completed baseline result and no pair."
+  ]
+}

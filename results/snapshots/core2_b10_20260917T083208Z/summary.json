@@ -1,0 +1,94 @@
+{
+  "schema": "public_derived_experiment_snapshot_v1",
+  "snapshot_id": "core2_b10_20260917T083208Z",
+  "title": "Original two-system B10 core",
+  "observed_utc": "2026-09-17T08:32:08.511276+00:00",
+  "observed_CST": "2026-09-17T16:32:08.511276+08:00",
+  "budgets": {
+    "10": {
+      "expected_trajectories": 4,
+      "completed_trajectories": 4,
+      "expected_systems": 2,
+      "complete_pairs": 2,
+      "unpaired_systems": {},
+      "not_yet_represented_systems": 0,
+      "completed_candidate_attempts": 40,
+      "counts_are_not_additive_across_snapshots": true,
+      "data_computation_complete": true,
+      "scope_publication_accepted_at_snapshot": false,
+      "SUN": {
+        "pairs": 2,
+        "baseline_sum": 6,
+        "full_sum": 6,
+        "baseline_mean": 3,
+        "full_mean": 3,
+        "full_minus_baseline": 0,
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      },
+      "AUDC": {
+        "pairs": 2,
+        "baseline_sum": 0.68,
+        "full_sum": 0.5,
+        "baseline_mean": 0.34,
+        "full_mean": 0.25,
+        "full_minus_baseline": -0.09000000000000002,
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      },
+      "mSUN": {
+        "pairs": 2,
+        "baseline_sum": 0.6,
+        "full_sum": 0.6000000000000001,
+        "baseline_mean": 0.3,
+        "full_mean": 0.30000000000000004,
+        "full_minus_baseline": 5.551115123125783e-17,
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      },
+      "rollout_wall_seconds_by_method": {
+        "baseline": {
+          "n": 2,
+          "p25": 571.1333054031711,
+          "median": 611.147186416667,
+          "p75": 651.1610674301628
+        },
+        "esopt_graph_risk": {
+          "n": 2,
+          "p25": 3167.052092666272,
+          "median": 3330.206730030477,
+          "p75": 3493.361367394682
+        }
+      }
+    }
+  },
+  "global_three_budget_study_complete": false,
+  "original_multimodel_multiseed_study_complete": false,
+  "new_model_calls_for_export": 0,
+  "new_scientific_oracle_calls_for_export": 0,
+  "notes": [
+    "The four outcomes were complete at this snapshot; core-report was still running.",
+    "Later report acceptance was independently preserved; it does not retroactively change the snapshot status."
+  ],
+  "subsequent_parent_report_acceptance": {
+    "observed_utc": "2026-09-17T09:10:03.716871+00:00",
+    "verified_report_receipt_chain": true,
+    "artifacts": [
+      {
+        "source_relative_path": "core_workspaces/made_fast_subset_causal_v5/experiments/core_reports/report.json",
+        "raw_source_sha256": "76386efbb999928b5798b9ad827c6063df8acfed790d529c2e2bb65b3dd65c3c"
+      },
+      {
+        "source_relative_path": "core_workspaces/made_fast_subset_causal_v5/experiments/core_reports/core_completion.json",
+        "raw_source_sha256": "2094e998c9b7c6ed2987cd7dc22a3031695cfa7c1c48aa0a84370591ee833510"
+      },
+      {
+        "source_relative_path": "core_workspaces/made_fast_subset_causal_v5/experiments/core_stage_receipts/report.json",
+        "raw_source_sha256": "bbf5e30a34c00c4b949518f5be37ae8604eed05de70bcfa220b6f94cd759bbce"
+      }
+    ]
+  }
+}

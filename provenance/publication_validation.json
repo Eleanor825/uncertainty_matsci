@@ -1,0 +1,51 @@
+{
+  "schema": "source_publication_validation_v1",
+  "checked_at_utc": "2026-09-18T08:26:42.421008+00:00",
+  "server_source_records_verified": 175,
+  "source_sha256_mismatches": 0,
+  "original_server_full_cpu_validation": {
+    "tests": 843,
+    "passed": 840,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 3
+  },
+  "local_publication_cpu_tests": {
+    "passed": 63,
+    "failed": 0,
+    "groups": [
+      {
+        "files": [
+          "test_esopt.py",
+          "test_transcoders.py",
+          "test_action_targets.py",
+          "test_made_budget_sweep.py",
+          "test_made_budget_runner.py"
+        ],
+        "passed": 58,
+        "elapsed_seconds": 179.01
+      },
+      {
+        "files": [
+          "test_normalized_transcoders.py"
+        ],
+        "passed": 5,
+        "elapsed_seconds": 3.37
+      }
+    ],
+    "torch_version": "2.9.1",
+    "scope": "synthetic CPU contracts; not real material or policy validation"
+  },
+  "result_export_validation": {
+    "passed": true,
+    "snapshots": 4,
+    "trajectory_rows_across_overlapping_snapshots": 173,
+    "distinct_physical_trajectories": 105,
+    "curve_points": 2823,
+    "exported_files_hash_checked": 28,
+    "new_scientific_oracle_calls": 0,
+    "new_model_calls": 0
+  },
+  "new_scientific_oracle_calls": 0,
+  "new_large_policy_model_loads": 0
+}

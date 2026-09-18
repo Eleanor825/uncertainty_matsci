@@ -1,0 +1,45 @@
+{
+  "schema": "public_derived_results_provenance_v1",
+  "snapshot_id": "original_five_b10_accepted_20260917",
+  "source_cache_artifacts": [
+    {
+      "source_cache_relative_path": "technical_not_main/made_all30_v1/unified_status_20260918_010438/snapshot.json",
+      "source_cache_sha256": "d8caf03db3430cd1c52817316de8fd598df5692462b6539c81db081670d58a4f",
+      "published_verbatim": false
+    }
+  ],
+  "path_policy": {
+    "source_root_alias": "experiment_project",
+    "source_relative_paths": "Relative to the original private experiment root; not files promised to exist in this repository.",
+    "raw_source_hashes": "Hashes of original bytes measured/recorded by the cited audit; the original full result/RPC files are not published.",
+    "export_hashes": "Separate hashes in results/manifest.json refer to these derived CSV/JSON files."
+  },
+  "verification_limits": [
+    "This release rechecks cached numeric consistency and exports allowlisted fields; it does not make a new remote raw-artifact verification claim.",
+    "The early two-system snapshot uses recorded remote hash-match flags; later audits reverified the same result hashes.",
+    "No private configuration, host inventory, credential, browser/session file, model weights, activation tensor, dataset snapshot, or full RPC body is included."
+  ],
+  "scope_fingerprints": {
+    "parent_fast_core": "725a5febe58990defc7a681dce24b503bbf605016f410d089ee36a128210b154",
+    "five_system_extension": "2e1c40d56bbde23fe1c4a42b1afda84dd7fb5ba4d1879723a90a24636219f274",
+    "all30_B10_extension": "a33c801bf2cea72eb048a23ac231144ffcdb0cbbb32a7bbc141aad22764f4140",
+    "B30_B50_sweep": "407b6cf226a47ce6b1d52bef8e8ed617abeabb9f70d3ee9df3e4d946da0d3f95"
+  },
+  "known_execution_source_sha256": {
+    "all30_frozen_made_all30_runner.py": "3573a8e712bb5f7cad99cdc00f764cc4e57e47849f054a011854777f59986f6d",
+    "sweep_frozen_made_budget_runner.py": "ce38b4614d67cbf50423808bb9f61a87660c5b72efd8023dfd4acc833bce5d66"
+  },
+  "known_model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "model_revision_basis": "Recorded on all audited B10 trajectories; B30 cached result projection retained profile_matches_registered=true rather than a duplicate revision field.",
+  "known_method_parameter_hashes": {
+    "baseline": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516",
+    "esopt_graph_risk": "2e5adce2a0d3785a1e1df3c41888f42eed2a23b9e175e3e0b1a4e1d3ef534fff"
+  },
+  "method_parameters_basis": "Observed B10 actual_model_state_hash/selected_generation fields are base/G2 consistently; new-budget audit checked exact sealed execution_profile equality.",
+  "execution_source_applicability": {
+    "all30_frozen_made_all30_runner.py": "The50 new all30 B10 extension jobs. It is not asserted to have executed the original two/five-system jobs.",
+    "sweep_frozen_made_budget_runner.py": "New B30/B50 sweep jobs only. It is not asserted to have executed any B10 historical job.",
+    "original_core_and_five_system_jobs": "Their original scope fingerprints and raw result hashes remain authoritative; later inclusion does not relabel their executing source.",
+    "known_execution_source_sha256_is_current_chain_context_not_historical_override": true
+  }
+}

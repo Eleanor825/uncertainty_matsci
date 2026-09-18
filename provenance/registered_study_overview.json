@@ -1,0 +1,227 @@
+{
+  "schema": "published_registered_study_overview_v1",
+  "derived_not_executable_registration": true,
+  "source_registration_sha256": "a262aab6be0639ee55bb33e1a2af98325ac2f511e774c54027e653c9ba59f507",
+  "sweep_fingerprint": "407b6cf226a47ce6b1d52bef8e8ed617abeabb9f70d3ee9df3e4d946da0d3f95",
+  "scope": "post_results_MADE_B30_B50_fixed_G2_budget_sweep",
+  "evaluation_budgets": [
+    30,
+    50
+  ],
+  "expected_new_counts": {
+    "candidate_oracle_attempts": 4800,
+    "dft_episode_attempts": 0,
+    "episodes": 120,
+    "jobs": 120
+  },
+  "expected_imported_counts": {
+    "candidate_oracle_attempts": 600,
+    "dft_episode_attempts": 0,
+    "episodes": 60,
+    "jobs": 60
+  },
+  "expected_cumulative_counts": {
+    "candidate_oracle_attempts": 5400,
+    "dft_episode_attempts": 0,
+    "episodes": 180,
+    "jobs": 180
+  },
+  "historical_collection_budget": 50,
+  "selected_ES_execution_budget": 10,
+  "training_jobs": [],
+  "es_jobs": [],
+  "model_key": "qwen35_4b",
+  "core_fingerprint": "725a5febe58990defc7a681dce24b503bbf605016f410d089ee36a128210b154",
+  "all30_fingerprint": "a33c801bf2cea72eb048a23ac231144ffcdb0cbbb32a7bbc141aad22764f4140",
+  "methods": [
+    "baseline",
+    "esopt_graph_risk"
+  ],
+  "seeds": [
+    1
+  ],
+  "task_ids": [
+    "Ag-Nd-Pd-Pt-Tb",
+    "Al-Hg-K-Mg-W",
+    "Al-Li-V",
+    "Al-Lu-Pt-Rb-Sm",
+    "Al-V-Zn",
+    "Au-Cr-Cs-Dy",
+    "Au-K-Tb",
+    "Au-Tb-V-Y",
+    "Ba-Be-Hf-Li",
+    "Ba-Nd-Ni-W",
+    "Ca-Fe-Gd-Pb-Tb",
+    "Ca-Pd-Sn-W",
+    "Cd-Gd-Mn-Na-Ta",
+    "Cd-Li-Nd-Ti-W",
+    "Ce-Er-Pb-Rh",
+    "Ce-Ir-Pt-Sn",
+    "Co-Dy-Ta-Y",
+    "Co-Dy-W",
+    "Co-Hf-In-Ru-Tm",
+    "Co-Hg-Mg-Sr-W",
+    "Co-Mg-Na",
+    "Co-Pd-Tl",
+    "Cr-Fe-Lu-Pt-Sc",
+    "Dy-K-Pd-Sm",
+    "Eu-Nb-Sn-Tl",
+    "Ga-Ho-Lu",
+    "Ga-Pt-Tm",
+    "Hf-Ni-Zr",
+    "Ho-In-Mg-Pd-Zr",
+    "Mg-Sn-Sr"
+  ],
+  "policy_runtime": {
+    "attention_checkpointing": true,
+    "attn_implementation": "eager",
+    "checkpoint_storage_dtype": "bfloat16",
+    "cpu_embedding_and_lm_head": true,
+    "cuda_memory_fraction": 0.44,
+    "device": "cuda:0",
+    "dtype": "float32",
+    "float32_matmul_precision": "highest",
+    "numerical_gate_registry": "configs/policy_runtime_gates.json",
+    "scope": "identical_actual_policy_precision_and_placement_for_all_main_arms",
+    "sdpa_backend": "auto",
+    "torch_cpu_threads": 2
+  },
+  "core_ES": {
+    "alpha": 0.0005,
+    "candidate_training_budget": "full_50_oracle_attempts_for_MADE_or_one_complete_DFT_crystal_for_CrystalGym",
+    "cases_per_generation": 1,
+    "checkpoint_retention": "after_complete_registered_core_generations_and_verified_reload_keep_best_and_final",
+    "crystalgym_fitness": "official_reward_separate_per_property",
+    "extra_inverse_sigma": false,
+    "full_training_and_development_candidate_oracle_attempts": 60,
+    "full_training_and_development_dft_attempts": 0,
+    "generations": 2,
+    "independent_training_arms": [
+      "esopt_graph_risk"
+    ],
+    "made_fitness": "AUDC_on_attempt_axis",
+    "parameter_scope": "full_HF_policy_including_retained_unused_visual_parameters",
+    "population": 2,
+    "schedule": "cosine",
+    "selection": "best_complete_trained_generation_on_development_only",
+    "sigma_end": 0.0002,
+    "sigma_start": 0.001,
+    "standardization": "population_z_score_ddof0",
+    "total_conditions": 1,
+    "validation_every_generations": 1
+  },
+  "effective_core_fields": {
+    "registration": {
+      "amendment": "pretest_user_prioritized_B10_new_rollouts_with_unchanged_B50_historical_corpus",
+      "budget": 50,
+      "deadline_utc": "2026-09-17T17:25:00Z",
+      "dev_selection": "fewest_elements_then_canonical_task_id_original_dev",
+      "esopt": {
+        "cases_per_generation": 1,
+        "generations": 2,
+        "population": 2,
+        "validation_every_generations": 1
+      },
+      "execution_budget": 10,
+      "graph": {
+        "max_backward_targets": 42,
+        "max_feature_nodes": 32,
+        "source_selection_rule": "qwen_final_mlp_causal_activation_v1"
+      },
+      "historical_collection_budget": 50,
+      "methods": [
+        "baseline",
+        "esopt_graph_risk"
+      ],
+      "model_key": "qwen35_4b",
+      "offline_graph_decisions": "all",
+      "optional_complete_import_seeds": [
+        3
+      ],
+      "original_full_study_complete": false,
+      "original_made_phase_complete": false,
+      "required_import_seeds": [
+        1,
+        2
+      ],
+      "schema": "fast_subset_core_registration_causal_graph_v5",
+      "scope": "registered_MADE_B10_subset_not_B50_core_or_original_full_study",
+      "start_utc": "2026-09-15T17:25:00Z",
+      "study_id": "made_fast_subset_causal_v5",
+      "test_selection": "fewest_elements_then_canonical_task_id_original_official_test",
+      "training_seed": 1,
+      "training_task_id": "Al-Au-Hf",
+      "transcoder_epochs": 64,
+      "transcoder_recipe": "train_centered_scalar_rms_fp32_export_v1",
+      "transcoder_training": "reuse_source_verified_complete_normalized_v3_bank",
+      "zero_update_outcome": "complete_with_no_evolution_signal_not_evidence_of_effectiveness"
+    },
+    "fit_recipe": "train_centered_scalar_rms_fp32_export_v1",
+    "graph": {
+      "constant_storage_device": "cpu",
+      "contract": "native_local_jacobian_action_logprob_mlp_cut_v2",
+      "edge_row_mass": 0.98,
+      "full_source_prefix_preserved": true,
+      "graph_nodes_and_fidelity_scope": "causal_horizon_through_last_target_prediction_position",
+      "max_backward_targets": 42,
+      "max_feature_nodes": 32,
+      "max_logits": 10,
+      "max_logits_applies_to": "explicit_legacy_v1_only",
+      "max_nodes": 16384,
+      "missing_graphs": "retain_sample_record_reason_use_declared_missing_features_and_report_coverage",
+      "node_influence_mass": 0.8,
+      "score_scalar_is_risk_input": false,
+      "score_sinks": 1,
+      "source_selection_rule": "qwen_final_mlp_causal_activation_v1",
+      "target": "mean_unwarped_logprob_of_original_emitted_JSON_value_tokens",
+      "target_prediction_position": "emitted_token_index_minus_one",
+      "target_schema": "emitted_action_value_mean_unwarped_logprob_v2",
+      "transcoder_device": "cpu",
+      "validation_atol": 0.0001,
+      "validation_epsilon": 0.001,
+      "validation_max_edges": 4,
+      "validation_rtol": 0.05
+    },
+    "execution_budget": 10,
+    "budget": 50,
+    "train_tasks": [
+      {
+        "elements": [
+          "Al",
+          "Au",
+          "Hf"
+        ],
+        "id": "Al-Au-Hf"
+      }
+    ],
+    "dev_tasks": [
+      {
+        "elements": [
+          "Al",
+          "Pd",
+          "Sm"
+        ],
+        "id": "Al-Pd-Sm"
+      }
+    ],
+    "test_tasks": [
+      {
+        "elements": [
+          "Al",
+          "Li",
+          "V"
+        ],
+        "id": "Al-Li-V"
+      },
+      {
+        "elements": [
+          "Al",
+          "V",
+          "Zn"
+        ],
+        "id": "Al-V-Zn"
+      }
+    ]
+  },
+  "active_core_main_protocol_sha256": "1c264d8145ead12a8f3df650da4eaac76a2ecb7633187a6e6afe0fc5c79c044e"
+}

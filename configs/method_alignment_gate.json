@@ -1,0 +1,26 @@
+{
+  "schema": "requested_method_alignment_v1",
+  "implementation_matches_requested_method": true,
+  "review": "audits/method_alignment_20260915.md",
+  "intent": "user-method-contract.md",
+  "current_implemented_method": "native_graph_features_overall_and_masked_failure_type_NNs_type_conditioned_control_full_parameter_ESOpt",
+  "missing_behaviors": [],
+  "full_baseline_collection_may_continue": true,
+  "downstream_method_execution_requires_alignment": true,
+  "no_physical_budget_reduction": true,
+  "validation": {
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/made_budget_validation_v2/results/validation.json",
+    "sha256": "ee5219bc7585f079be4c514249adab047d42b7cfab6a81b4753873f76103a313"
+  },
+  "validated_scope": "qwen35_4b_MADE_qwen_final_mlp_causal_activation_v1_implementation_only",
+  "real_corpus_fidelity_fit_and_full_final_results_still_required": true,
+  "CrystalGym_type_control_validated": false,
+  "latest_three_to_four_model_extension_complete": false,
+  "source_identity_policy": "reviewed_single_native_source_delta_with_unchanged_cut_vjp_fd_ast",
+  "causal_source_selection_proof": {
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/causal_native_validation_v1/source_delta.json",
+    "sha256": "23fd8bc8fd7935e29ba347c1528abb480194310063f29f2ef8aed1a05482626b"
+  },
+  "source_bound_real_gpu_fd_required": true,
+  "source_bound_real_gpu_fd_passed": false
+}

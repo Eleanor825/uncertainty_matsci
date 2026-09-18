@@ -1,0 +1,37 @@
+{
+  "schema": "deadline_core_registration_v1",
+  "study_id": "made_core48h_v1",
+  "scope": "independent_MADE_core_not_original_full_study",
+  "model_key": "qwen35_4b",
+  "training_seed": 1,
+  "budget": 50,
+  "methods": [
+    "baseline",
+    "esopt_graph_risk"
+  ],
+  "training_task_id": "Al-Au-Hf",
+  "required_import_seeds": [
+    1,
+    2
+  ],
+  "optional_complete_import_seeds": [
+    3
+  ],
+  "dev_selection": "fewest_elements_then_canonical_task_id_original_dev",
+  "test_selection": "fewest_elements_then_canonical_task_id_original_official_test",
+  "esopt": {
+    "generations": 2,
+    "population": 2,
+    "cases_per_generation": 1,
+    "validation_every_generations": 1
+  },
+  "graph": {
+    "max_feature_nodes": 32,
+    "max_backward_targets": 42
+  },
+  "offline_graph_decisions": "all",
+  "start_utc": "2026-09-15T17:25:00Z",
+  "deadline_utc": "2026-09-17T17:25:00Z",
+  "original_full_study_complete": false,
+  "original_made_phase_complete": false
+}

@@ -1,0 +1,32 @@
+# Time-stamped MADE results
+
+These are small **derived exports of observed experiment results**, including earlier negative outcomes and incomplete snapshots. Latest observation: **2026-09-18 15:32:27 CST / 07:32:27 UTC**. No experiment was rerun to create this release.
+
+| Snapshot / cohort | Budget | Completed trajectories | Complete pairs | SUN total, baseline → full | Mean AUDC, baseline → full |
+|---|---:|---:|---:|---:|---:|
+| Original two systems, Sep17 16:32 CST | 10 | 4/4 | 2/2 | 6 → 6 | 0.34000 → 0.25000 |
+| Original five systems, accepted Sep17; read back Sep18 | 10 | 10/10 | 5/5 | 12 → 6 | 0.29600 → 0.10000 |
+| Sep18 01:04:38 CST, partial all30 | 10 | 53/60 | 23/30 | 22 → 31 | 0.11652 → 0.14130 |
+| Sep18 15:32:27 CST | 10 | **60/60** | **30/30** | **42 → 54** | **0.15467 → 0.18867** |
+| Sep18 15:32:27 CST, partial | 30 | **45/60** | **15/30** | **110 → 68** | **0.26578 → 0.16370** |
+| Sep18 15:32:27 CST | 50 | 0/60 | 0/30 | unavailable | unavailable |
+
+Arm comparisons use **only complete system/seed pairs**. Thus the B30 comparison uses 15 baseline and 15 full trajectories, while all 45 completed trajectories remain in its CSV. Do not compare the mean of all30 completed baselines with only15 full results. The partial B30 decline is retained and is not yet the full30-system B30 conclusion.
+
+The completed B10 data do not imply completion of all three budgets or of the original multi-model/multi-seed study. At the latest snapshot, B10 global publication was still deferred by the original guard's dependency on120 new B30/B50 results. B30 had three claimed unfinished jobs and12 unclaimed; B50 had60 unclaimed.
+
+## Files
+
+- [index.json](index.json): snapshot index and machine-readable denominators/comparisons.
+- `snapshots/<id>/trajectories.csv`: every completed test trajectory in that snapshot; model/method/system/seed/budget and SUN/AUDC/mSUN.
+- `paired_systems.csv`: complete matched pairs, including all negative and tied outcomes.
+- `curves.csv`: cached original cumulative SUN curves; sufficient to independently recompute the exported SUN/AUDC/mSUN.
+- `timings_and_costs.csv`: observed rollout, initialization, graph and verification times/counters. Blank means unavailable, **not zero**.
+- `summary.json`: snapshot time, expected/completed counts, publication status, wins/losses/ties and matched-pair means.
+- `provenance.json`: original source-cache/result/RPC hashes and scope fingerprints.
+- [manifest.json](manifest.json): separate hashes of the **derived published files**.
+- [validate_exports.py](validate_exports.py): stdlib validation of hashes, curves, metrics, pairing and repeated-trajectory identity.
+
+The snapshots overlap. Original trajectories are reused read-only; **do not add trajectory or cost totals across snapshots**. The latest snapshot contains105 distinct completed test trajectories (60 B10 +45 B30), accounting for1950 candidate evaluations in completed trajectories. This excludes unfinished trajectories and all training/development/diagnostic costs; it is not the end-to-end research cost.
+
+Detailed interpretation, method/source identities and limitations: [docs/results.md](../docs/results.md).

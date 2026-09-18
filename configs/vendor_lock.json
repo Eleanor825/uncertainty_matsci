@@ -1,0 +1,22 @@
+{
+  "MADE": {
+    "url": "https://github.com/diffractivelabs/MADE.git",
+    "commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86"
+  },
+  "CRV": {
+    "url": "https://github.com/facebookresearch/CRV.git",
+    "commit": "805a0f7bb6132702f82f2213cce0c63ea7f9d5e9"
+  },
+  "Agentic-ESOpt": {
+    "url": "https://github.com/zz1358m/Agentic-ESOpt.git",
+    "commit": "3c6cd6992df3c353299cb9c6d33f733ede7854c8"
+  },
+  "crv-circuit-tracer": {
+    "url": "https://github.com/zsquaredz/circuit-tracer.git",
+    "commit": "dc180991dd88bfb4a56de1d89b478b572fd7fc1c"
+  },
+  "crystal-gym": {
+    "url": "https://github.com/chandar-lab/crystal-gym.git",
+    "commit": "d4191966ea6662f60d6f58f84e3c2e1457750075"
+  }
+}

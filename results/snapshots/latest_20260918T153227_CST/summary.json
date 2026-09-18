@@ -1,0 +1,249 @@
+{
+  "schema": "public_derived_experiment_snapshot_v1",
+  "snapshot_id": "latest_20260918T153227_CST",
+  "title": "All30 B10 complete / B30 partial at15:32 CST",
+  "observed_utc": "2026-09-18T07:32:27.562281+00:00",
+  "observed_CST": "2026-09-18T15:32:27.562281+08:00",
+  "budgets": {
+    "10": {
+      "expected_trajectories": 60,
+      "completed_trajectories": 60,
+      "expected_systems": 30,
+      "complete_pairs": 30,
+      "unpaired_systems": {},
+      "not_yet_represented_systems": 0,
+      "completed_candidate_attempts": 600,
+      "counts_are_not_additive_across_snapshots": true,
+      "data_computation_complete": true,
+      "scope_publication_accepted_at_snapshot": false,
+      "claimed_or_ledger_running": 0,
+      "pending_unclaimed": 0,
+      "SUN": {
+        "pairs": 30,
+        "baseline_sum": 42,
+        "full_sum": 54,
+        "baseline_mean": 1.4,
+        "full_mean": 1.8,
+        "full_minus_baseline": 0.40000000000000013,
+        "wins": 7,
+        "losses": 5,
+        "ties": 18
+      },
+      "AUDC": {
+        "pairs": 30,
+        "baseline_sum": 4.64,
+        "full_sum": 5.66,
+        "baseline_mean": 0.15466666666666667,
+        "full_mean": 0.18866666666666668,
+        "full_minus_baseline": 0.034,
+        "wins": 8,
+        "losses": 6,
+        "ties": 16
+      },
+      "mSUN": {
+        "pairs": 30,
+        "baseline_sum": 4.2,
+        "full_sum": 5.3999999999999995,
+        "baseline_mean": 0.13999999999999999,
+        "full_mean": 0.18,
+        "full_minus_baseline": 0.04000000000000001,
+        "wins": 7,
+        "losses": 5,
+        "ties": 18
+      },
+      "rollout_wall_seconds_by_method": {
+        "baseline": {
+          "n": 30,
+          "p25": 413.99127098592,
+          "median": 529.1765337297693,
+          "p75": 672.6520330987405
+        },
+        "esopt_graph_risk": {
+          "n": 30,
+          "p25": 1424.6971375739668,
+          "median": 1698.631892804755,
+          "p75": 1922.663153593894
+        }
+      }
+    },
+    "30": {
+      "expected_trajectories": 60,
+      "completed_trajectories": 45,
+      "expected_systems": 30,
+      "complete_pairs": 15,
+      "unpaired_systems": {
+        "Ag-Nd-Pd-Pt-Tb": [
+          "baseline"
+        ],
+        "Al-Hg-K-Mg-W": [
+          "baseline"
+        ],
+        "Al-Lu-Pt-Rb-Sm": [
+          "baseline"
+        ],
+        "Ba-Nd-Ni-W": [
+          "baseline"
+        ],
+        "Ca-Fe-Gd-Pb-Tb": [
+          "baseline"
+        ],
+        "Cd-Gd-Mn-Na-Ta": [
+          "baseline"
+        ],
+        "Cd-Li-Nd-Ti-W": [
+          "baseline"
+        ],
+        "Ce-Ir-Pt-Sn": [
+          "baseline"
+        ],
+        "Co-Dy-Ta-Y": [
+          "baseline"
+        ],
+        "Co-Hf-In-Ru-Tm": [
+          "baseline"
+        ],
+        "Co-Hg-Mg-Sr-W": [
+          "baseline"
+        ],
+        "Cr-Fe-Lu-Pt-Sc": [
+          "baseline"
+        ],
+        "Dy-K-Pd-Sm": [
+          "baseline"
+        ],
+        "Eu-Nb-Sn-Tl": [
+          "baseline"
+        ],
+        "Ho-In-Mg-Pd-Zr": [
+          "baseline"
+        ]
+      },
+      "not_yet_represented_systems": 0,
+      "completed_candidate_attempts": 1350,
+      "counts_are_not_additive_across_snapshots": true,
+      "data_computation_complete": false,
+      "scope_publication_accepted_at_snapshot": false,
+      "claimed_or_ledger_running": 3,
+      "pending_unclaimed": 12,
+      "SUN": {
+        "pairs": 15,
+        "baseline_sum": 110,
+        "full_sum": 68,
+        "baseline_mean": 7.333333333333333,
+        "full_mean": 4.533333333333333,
+        "full_minus_baseline": -2.8,
+        "wins": 2,
+        "losses": 6,
+        "ties": 7
+      },
+      "AUDC": {
+        "pairs": 15,
+        "baseline_sum": 3.9866666666666672,
+        "full_sum": 2.4555555555555557,
+        "baseline_mean": 0.2657777777777778,
+        "full_mean": 0.1637037037037037,
+        "full_minus_baseline": -0.10207407407407407,
+        "wins": 1,
+        "losses": 8,
+        "ties": 6
+      },
+      "mSUN": {
+        "pairs": 15,
+        "baseline_sum": 3.6666666666666665,
+        "full_sum": 2.2666666666666666,
+        "baseline_mean": 0.24444444444444444,
+        "full_mean": 0.1511111111111111,
+        "full_minus_baseline": -0.09333333333333332,
+        "wins": 2,
+        "losses": 6,
+        "ties": 7
+      },
+      "rollout_wall_seconds_by_method": {
+        "baseline": {
+          "n": 30,
+          "p25": 2070.7932427148335,
+          "median": 2897.4134569836315,
+          "p75": 3314.3464441520628
+        },
+        "esopt_graph_risk": {
+          "n": 15,
+          "p25": 3912.681418721564,
+          "median": 4044.6915138065815,
+          "p75": 4433.011412884109
+        }
+      }
+    },
+    "50": {
+      "expected_trajectories": 60,
+      "completed_trajectories": 0,
+      "expected_systems": 30,
+      "complete_pairs": 0,
+      "unpaired_systems": {},
+      "not_yet_represented_systems": 30,
+      "completed_candidate_attempts": 0,
+      "counts_are_not_additive_across_snapshots": true,
+      "data_computation_complete": false,
+      "scope_publication_accepted_at_snapshot": false,
+      "claimed_or_ledger_running": 0,
+      "pending_unclaimed": 60,
+      "SUN": {
+        "pairs": 0,
+        "baseline_sum": null,
+        "full_sum": null,
+        "baseline_mean": null,
+        "full_mean": null,
+        "full_minus_baseline": null,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "AUDC": {
+        "pairs": 0,
+        "baseline_sum": null,
+        "full_sum": null,
+        "baseline_mean": null,
+        "full_mean": null,
+        "full_minus_baseline": null,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "mSUN": {
+        "pairs": 0,
+        "baseline_sum": null,
+        "full_sum": null,
+        "baseline_mean": null,
+        "full_mean": null,
+        "full_minus_baseline": null,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "rollout_wall_seconds_by_method": {
+        "baseline": {
+          "n": 0,
+          "p25": null,
+          "median": null,
+          "p75": null
+        },
+        "esopt_graph_risk": {
+          "n": 0,
+          "p25": null,
+          "median": null,
+          "p75": null
+        }
+      }
+    }
+  },
+  "global_three_budget_study_complete": false,
+  "original_multimodel_multiseed_study_complete": false,
+  "new_model_calls_for_export": 0,
+  "new_scientific_oracle_calls_for_export": 0,
+  "notes": [
+    "B10 has60 complete results/all30 pairs.",
+    "B30 has45 complete results but only15 complete pairs; report matched pairs only for arm comparisons.",
+    "B30 partial matched effects are negative and retained.",
+    "B10 global publication remains deferred by the original guard dependency on120 new B30/B50 jobs; this does not mean B10 computation is unfinished.",
+    "No B50 result had been produced."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema": "public_derived_experiment_snapshot_v1",
+  "snapshot_id": "original_five_b10_accepted_20260917",
+  "title": "Original cumulative five-system B10 results",
+  "observed_utc": "2026-09-17T17:04:38.858954+00:00",
+  "observed_CST": "2026-09-18T01:04:38.858954+08:00",
+  "budgets": {
+    "10": {
+      "expected_trajectories": 10,
+      "completed_trajectories": 10,
+      "expected_systems": 5,
+      "complete_pairs": 5,
+      "unpaired_systems": {},
+      "not_yet_represented_systems": 0,
+      "completed_candidate_attempts": 100,
+      "counts_are_not_additive_across_snapshots": true,
+      "data_computation_complete": true,
+      "scope_publication_accepted_at_snapshot": true,
+      "SUN": {
+        "pairs": 5,
+        "baseline_sum": 12,
+        "full_sum": 6,
+        "baseline_mean": 2.4,
+        "full_mean": 1.2,
+        "full_minus_baseline": -1.2,
+        "wins": 1,
+        "losses": 2,
+        "ties": 2
+      },
+      "AUDC": {
+        "pairs": 5,
+        "baseline_sum": 1.48,
+        "full_sum": 0.5,
+        "baseline_mean": 0.29600000000000004,
+        "full_mean": 0.1,
+        "full_minus_baseline": -0.19600000000000004,
+        "wins": 1,
+        "losses": 2,
+        "ties": 2
+      },
+      "mSUN": {
+        "pairs": 5,
+        "baseline_sum": 1.2,
+        "full_sum": 0.6000000000000001,
+        "baseline_mean": 0.24,
+        "full_mean": 0.12000000000000001,
+        "full_minus_baseline": -0.11999999999999998,
+        "wins": 1,
+        "losses": 2,
+        "ties": 2
+      },
+      "rollout_wall_seconds_by_method": {
+        "baseline": {
+          "n": 5,
+          "p25": 691.1749484436586,
+          "median": 779.171055121813,
+          "p75": 785.4784273309633
+        },
+        "esopt_graph_risk": {
+          "n": 5,
+          "p25": 1449.447651279159,
+          "median": 2568.4011063771322,
+          "p75": 3003.897455302067
+        }
+      }
+    }
+  },
+  "global_three_budget_study_complete": false,
+  "original_multimodel_multiseed_study_complete": false,
+  "new_model_calls_for_export": 0,
+  "new_scientific_oracle_calls_for_export": 0,
+  "notes": [
+    "Historical five-system cohort, read back at 01:04 CST on September18.",
+    "Its preserved accepted receipt has mtime 2026-09-17T15:23:21Z (23:23:21 CST). This mtime is not a fabricated exact experiment end timestamp.",
+    "Expansion occurred after the two-system outcomes were known; checkpoint/controller selection remained fixed."
+  ],
+  "historical_acceptance_receipt_mtime_utc": "2026-09-17T15:23:21+00:00",
+  "historical_accepted_artifacts": [
+    {
+      "source_relative_path": "evaluation_workspaces/made_cumulative_five_v1/experiments/evaluation_extension_stage_receipts/final.json",
+      "raw_source_sha256": "2aa6a4292bcb8d1b9f42126bbc7ff84ebb0a22d24a37d89425059f65c9882f32"
+    },
+    {
+      "source_relative_path": "evaluation_workspaces/made_cumulative_five_v1/experiments/evaluation_extension_reports/report.json",
+      "raw_source_sha256": "bebee547210d2b580fb72c9f929117f366ca3ada2bc2bb91c0dc9da802a48318"
+    }
+  ]
+}

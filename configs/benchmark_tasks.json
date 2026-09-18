@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "status": "benchmark_tasks_complete_method_training_protocol_pending",
+  "scientific_results_generated": false,
+  "seed_origin": "Project-prespecified 1..5; papers specify five independent seeds/episodes but do not publish the original integer seed list.",
+  "made": {
+    "paper": "https://arxiv.org/html/2601.20996v2",
+    "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+    "systems": [
+      {
+        "id": "Mg-Sn-Sr",
+        "elements": [
+          "Mg",
+          "Sn",
+          "Sr"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Au-K-Tb",
+        "elements": [
+          "Au",
+          "K",
+          "Tb"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Co-Mg-Na",
+        "elements": [
+          "Co",
+          "Mg",
+          "Na"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Hf-Ni-Zr",
+        "elements": [
+          "Hf",
+          "Ni",
+          "Zr"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Co-Dy-W",
+        "elements": [
+          "Co",
+          "Dy",
+          "W"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ga-Pt-Tm",
+        "elements": [
+          "Ga",
+          "Pt",
+          "Tm"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ga-Ho-Lu",
+        "elements": [
+          "Ga",
+          "Ho",
+          "Lu"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Al-Li-V",
+        "elements": [
+          "Al",
+          "Li",
+          "V"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Al-V-Zn",
+        "elements": [
+          "Al",
+          "V",
+          "Zn"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Co-Pd-Tl",
+        "elements": [
+          "Co",
+          "Pd",
+          "Tl"
+        ],
+        "system_size": 3,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ba-Nd-Ni-W",
+        "elements": [
+          "Ba",
+          "Nd",
+          "Ni",
+          "W"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Eu-Nb-Sn-Tl",
+        "elements": [
+          "Eu",
+          "Nb",
+          "Sn",
+          "Tl"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ce-Er-Pb-Rh",
+        "elements": [
+          "Ce",
+          "Er",
+          "Pb",
+          "Rh"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Dy-K-Pd-Sm",
+        "elements": [
+          "Dy",
+          "K",
+          "Pd",
+          "Sm"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Co-Dy-Ta-Y",
+        "elements": [
+          "Co",
+          "Dy",
+          "Ta",
+          "Y"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Au-Cr-Cs-Dy",
+        "elements": [
+          "Au",
+          "Cr",
+          "Cs",
+          "Dy"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ca-Pd-Sn-W",
+        "elements": [
+          "Ca",
+          "Pd",
+          "Sn",
+          "W"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Au-Tb-V-Y",
+        "elements": [
+          "Au",
+          "Tb",
+          "V",
+          "Y"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ce-Ir-Pt-Sn",
+        "elements": [
+          "Ce",
+          "Ir",
+          "Pt",
+          "Sn"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ba-Be-Hf-Li",
+        "elements": [
+          "Ba",
+          "Be",
+          "Hf",
+          "Li"
+        ],
+        "system_size": 4,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Cd-Li-Nd-Ti-W",
+        "elements": [
+          "Cd",
+          "Li",
+          "Nd",
+          "Ti",
+          "W"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Cd-Gd-Mn-Na-Ta",
+        "elements": [
+          "Cd",
+          "Gd",
+          "Mn",
+          "Na",
+          "Ta"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Co-Hg-Mg-Sr-W",
+        "elements": [
+          "Co",
+          "Hg",
+          "Mg",
+          "Sr",
+          "W"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ca-Fe-Gd-Pb-Tb",
+        "elements": [
+          "Ca",
+          "Fe",
+          "Gd",
+          "Pb",
+          "Tb"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Al-Hg-K-Mg-W",
+        "elements": [
+          "Al",
+          "Hg",
+          "K",
+          "Mg",
+          "W"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ag-Nd-Pd-Pt-Tb",
+        "elements": [
+          "Ag",
+          "Nd",
+          "Pd",
+          "Pt",
+          "Tb"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Al-Lu-Pt-Rb-Sm",
+        "elements": [
+          "Al",
+          "Lu",
+          "Pt",
+          "Rb",
+          "Sm"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Co-Hf-In-Ru-Tm",
+        "elements": [
+          "Co",
+          "Hf",
+          "In",
+          "Ru",
+          "Tm"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Ho-In-Mg-Pd-Zr",
+        "elements": [
+          "Ho",
+          "In",
+          "Mg",
+          "Pd",
+          "Zr"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      },
+      {
+        "id": "Cr-Fe-Lu-Pt-Sc",
+        "elements": [
+          "Cr",
+          "Fe",
+          "Lu",
+          "Pt",
+          "Sc"
+        ],
+        "system_size": 5,
+        "official_source": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json"
+      }
+    ],
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "episodes_per_system_per_method": 5,
+    "oracle_query_budget_per_episode": 50,
+    "adapter_budget_unit": "candidate_oracle_attempts_per_episode",
+    "failure_budget_rule": "Every actual candidate oracle invocation, including an exception, consumes one attempted-query budget unit. Raw official accepted-query metrics are retained separately. No retries/fallback are free.",
+    "primary_stability_tolerance_ev_per_atom": 0.1,
+    "secondary_stability_tolerance_ev_per_atom": 0.01,
+    "secondary_threshold_is_separate_experiment": true,
+    "max_atoms": 20,
+    "oracle": {
+      "model": "orb-v3-conservative-inf-omat",
+      "relax": true,
+      "optimizer": "fire",
+      "fmax": 0.02,
+      "steps": 500,
+      "relax_unit_cell": true
+    },
+    "phase_diagram": {
+      "start_with_all_stable": true,
+      "include_near_stable_from_ground_truth": true,
+      "compute_elemental_from_oracle": true,
+      "thermo_types": [
+        "GGA_GGA+U"
+      ],
+      "max_stoichiometry": 20,
+      "filter_by_smact": true
+    },
+    "structure_matcher": {
+      "ltol": 0.2,
+      "stol": 0.3,
+      "angle_tol": 5.0,
+      "primitive_cell": true
+    },
+    "expected_per_method": {
+      "episodes": 150,
+      "candidate_oracle_attempts": 7500
+    },
+    "official_baseline_configs": [
+      "random_generator_baseline",
+      "random_generator_diversity_planner_comp",
+      "random_generator_llm_planner",
+      "chemeleon_generative_baseline",
+      "chemeleon_diversity_planner_comp",
+      "chemeleon_llm_planner",
+      "chemeleon_mlip_ranking_chain_filter",
+      "llm_react_orchestrator"
+    ],
+    "notes": [
+      "Initialization ORB calls and MACE scorer calls are separately counted and not misreported as candidate queries.",
+      "This lists the complete main intermetallic task matrix; v2 extra chemistry/model appendix experiments are documented in literature/benchmarks.md."
+    ],
+    "method_development_splits_file": "configs/made_splits.json",
+    "method_development_split_rule": "Keep all 30 official main systems as test. Uncertainty fit/ES updates use the additional train split; development/calibration uses dev; do not use test trajectories for fitting or model selection."
+  },
+  "crystalgym": {
+    "paper": "https://arxiv.org/html/2509.23156v1",
+    "official_commit": "d4191966ea6662f60d6f58f84e3c2e1457750075",
+    "task": "paper_final_benchmark_experiment_5",
+    "properties": [
+      {
+        "id": "bm",
+        "target": 500.0,
+        "unit": "GPa",
+        "qe_calculation": "scf",
+        "qe_occupations": "smearing",
+        "failure_reward": -5.0
+      },
+      {
+        "id": "density",
+        "target": 5.0,
+        "unit": "g/cm^3",
+        "qe_calculation": "vc-relax",
+        "qe_occupations": "smearing",
+        "failure_reward": -1.0
+      },
+      {
+        "id": "band_gap",
+        "target": 2.0,
+        "unit": "eV",
+        "qe_calculation": "scf",
+        "qe_occupations": "fixed",
+        "failure_reward": -1.0
+      }
+    ],
+    "prototypes": [
+      {
+        "id": "C1",
+        "index": 3403,
+        "num_sites": 5,
+        "split": "heldout"
+      },
+      {
+        "id": "C2",
+        "index": 630,
+        "num_sites": 5,
+        "split": "train"
+      },
+      {
+        "id": "C3",
+        "index": 2271,
+        "num_sites": 8,
+        "split": "train"
+      },
+      {
+        "id": "C4",
+        "index": 8666,
+        "num_sites": 5,
+        "split": "train"
+      },
+      {
+        "id": "C5",
+        "index": 8906,
+        "num_sites": 4,
+        "split": "train"
+      },
+      {
+        "id": "C6",
+        "index": 8354,
+        "num_sites": 4,
+        "split": "train"
+      },
+      {
+        "id": "C7",
+        "index": 2190,
+        "num_sites": 5,
+        "split": "heldout"
+      }
+    ],
+    "train_indices": [
+      630,
+      2271,
+      8354,
+      8666,
+      8906
+    ],
+    "heldout_indices": [
+      3403,
+      2190
+    ],
+    "mode_in_official_source": "cubic-mini",
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "action_space": [
+      "Li",
+      "Na",
+      "K",
+      "Rb",
+      "Be",
+      "Ca",
+      "Mg",
+      "Sr",
+      "H",
+      "C",
+      "N",
+      "O",
+      "P",
+      "S",
+      "Se",
+      "F",
+      "Cl",
+      "Br"
+    ],
+    "evaluation": {
+      "rollouts_per_seed_per_heldout_prototype": 5,
+      "rollout_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "seed_schedule": "Use environment_seed_schedule partition final_test, prototype_code 0 for C1 or 6 for C7, rollout_id 0..4, for each training_seed/property.",
+      "expected_per_method": {
+        "trained_policy_conditions": 15,
+        "heldout_property_seed_prototype_conditions": 30,
+        "dft_evaluation_episodes": 150
+      },
+      "budget_unit": "dft_episode_attempts",
+      "budget_per_condition": 5,
+      "failure_rule": "All five attempts are reported, including official DFT failures; no success-only filtering.",
+      "protocol_note": "Paper says five evaluation trajectories but does not fully specify held-out allocation; this project fixes five per held-out prototype explicitly.",
+      "environment_seed_partition": "final_test"
+    },
+    "training": {
+      "official_rl_yaml_total_timesteps": 500000,
+      "official_unit": "atomic_environment_steps",
+      "main_protocol_budget": null,
+      "main_protocol_budget_unit": null,
+      "lock_status": "pending_root_protocol_decision",
+      "full_training_may_be_claimed": false,
+      "rule": "Do not fill this with a smoke/pilot budget and label the experiment full. Lock actual training unit/budget before launching; preserve the difference from official 500k-action default."
+    },
+    "evaluator": {
+      "qe_version_required": "7.3.1",
+      "sssp_version_required": "1.3.0_PBE_efficiency",
+      "ecutwfc": 50,
+      "ecutrho": 400,
+      "electron_maxstep": 300,
+      "mixing_beta": 0.7,
+      "mixing_mode": "plain",
+      "diagonalization": "david",
+      "nspin": 1,
+      "kppa": 1000,
+      "degauss": 0.001
+    },
+    "observation_rule": "Geometry, focus, legal actions and controller-filled elements only; no original chemical identity at unfilled sites, no original CIF/energy labels.",
+    "environment_seed_schedule": {
+      "name": "disjoint_partition_bitfields_v1",
+      "formula": "(partition_id << 30) | ((training_seed - 1) << 27) | (property_index << 25) | (prototype_code << 22) | rollout_id",
+      "partitions": {
+        "uncertainty_fit_and_es_train": 0,
+        "uncertainty_calibration_dev": 1,
+        "final_test": 2
+      },
+      "training_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "property_indices": {
+        "bm": 0,
+        "density": 1,
+        "band_gap": 2
+      },
+      "prototype_codes": {
+        "C1_heldout_index3403": 0,
+        "C7_heldout_index2190": 6,
+        "official_five_prototype_training_mixture": 7
+      },
+      "rollout_id_min": 0,
+      "rollout_id_max_exclusive": 4194304,
+      "reset_mapping": "Initialize an isolated RPC session with seed=packed prefix (rollout_id=0). Adapter reset adds episode_index, which is rollout_id. Do not cross 2**22 rollouts in one condition.",
+      "independence": "Bit fields give pairwise-disjoint environment seeds for every declared partition/training_seed/property/prototype/rollout tuple. Policy training_seed remains 1..5 and must be recorded separately from the packed environment seed.",
+      "examples": {
+        "seed1_bandgap_train_mixture_rollout0": 96468992,
+        "seed1_bandgap_calibration_mixture_rollout0": 1170210816,
+        "seed1_bandgap_test_C1_rollout0": 2214592512,
+        "seed1_bandgap_test_C7_rollout0": 2239758336
+      }
+    },
+    "calibration_development": {
+      "status": "split_protocol_locked_rollout_count_pending_main_training_budget",
+      "structure_indices": [
+        630,
+        2271,
+        8354,
+        8666,
+        8906
+      ],
+      "uses_official_training_prototypes_only": true,
+      "structure_disjoint_from_fit": false,
+      "rollout_seed_partition": "uncertainty_calibration_dev",
+      "fit_and_es_seed_partition": "uncertainty_fit_and_es_train",
+      "split_unit": "independently seeded episode/trajectory group; all steps and verifier labels from a trajectory stay in its one partition",
+      "claim": "Within-prototype held-out calibration; not structural generalization.",
+      "prohibited_indices": [
+        3403,
+        2190
+      ],
+      "es_updates_use_calibration_rewards": false,
+      "final_test_used_for_model_selection": false,
+      "require_calibration_selection_frozen_before_final_test": true,
+      "rollout_count_per_condition": null,
+      "reason_for_pending_count": "Do not infer a small pilot budget. Root main protocol must lock fit/calibration/ES budgets before full runs.",
+      "official_split_preserved": "All five official train prototypes remain available to uncertainty/ES training. C1/C7 remain final evaluation only."
+    }
+  }
+}

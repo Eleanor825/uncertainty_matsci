@@ -1,0 +1,3 @@
+budget,task_id,seed,baseline_SUN,full_SUN,SUN_delta,baseline_AUDC,full_AUDC,AUDC_delta,baseline_mSUN,full_mSUN,baseline_raw_result_sha256,full_raw_result_sha256
+10,Al-Li-V,1,0,2,2,0.0,0.18,0.18,0.0,0.2,57c2ba5dab897b80b3ac22f10de9555ab27a60428ce66e32a37d59e2ba2da569,4a48578474376701b499ad706f1ef7be39348db3c1169b95489eada9cafa670f
+10,Al-V-Zn,1,6,4,-2,0.68,0.32,-0.36000000000000004,0.6,0.4,d9e2464ee43fce63fc9519dbbc1c6d77ec0fe14593ec693e80ec19ab8030675b,8f68cef15d506e2a1d969bb879891276c6e6c480232a595dcc2cda61879394cc

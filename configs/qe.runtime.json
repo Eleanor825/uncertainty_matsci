@@ -1,0 +1,983 @@
+{
+  "schema_version": 1,
+  "version": "7.3.1",
+  "build_mode": "cpu_mpi_openmp",
+  "gpu_enabled": false,
+  "build_parallel_jobs": 4,
+  "qe_dir": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/tools/qe-7.3.1",
+  "source_dir": "/root/.local/share/matdiscovery-builds/20260915_164607/q-e-qe-7.3.1",
+  "build_dir": "/root/.local/share/matdiscovery-builds/20260915_164607/qe-build",
+  "compiler_environment": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build",
+  "source_archive": {
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/cache/downloads/qe-7.3.1-verified.tar.gz",
+    "sha256": "2c58b8fadfe4177de5a8b69eba447db5e623420b070dea6fd26c1533b081d844"
+  },
+  "official_external_submodules": {
+    "devxlib": {
+      "commit": "a6b89ef77b1ceda48e967921f1f5488d2df9226d",
+      "path": "/root/.local/share/matdiscovery-builds/20260915_164607/q-e-qe-7.3.1/external/devxlib"
+    },
+    "fox": {
+      "commit": "3453648e6837658b747b895bb7bef4b1ed2eac40",
+      "path": "/root/.local/share/matdiscovery-builds/20260915_164607/q-e-qe-7.3.1/external/fox"
+    },
+    "mbd": {
+      "commit": "82005cbb65bdf5d32ca021848eec8f19da956a77",
+      "path": "/root/.local/share/matdiscovery-builds/20260915_164607/q-e-qe-7.3.1/external/mbd"
+    },
+    "wannier90": {
+      "commit": "1d6b187374a2d50b509e5e79e2cab01a79ff7ce1",
+      "path": "/root/.local/share/matdiscovery-builds/20260915_164607/q-e-qe-7.3.1/external/wannier90"
+    }
+  },
+  "configure_command": [
+    "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/tools/micromamba",
+    "--no-rc",
+    "run",
+    "-p",
+    "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build",
+    "cmake",
+    "-S",
+    "/root/.local/share/matdiscovery-builds/20260915_164607/q-e-qe-7.3.1",
+    "-B",
+    "/root/.local/share/matdiscovery-builds/20260915_164607/qe-build",
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
+    "-DCMAKE_INSTALL_PREFIX=/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/tools/qe-7.3.1",
+    "-DCMAKE_PREFIX_PATH=/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build",
+    "-DCMAKE_Fortran_COMPILER=mpif90",
+    "-DCMAKE_C_COMPILER=mpicc",
+    "-DQE_ENABLE_OPENMP=ON",
+    "-DQE_ENABLE_MPI=ON",
+    "-DQE_ENABLE_SCALAPACK=OFF",
+    "-DQE_ENABLE_HDF5=OFF",
+    "-DQE_ENABLE_CUDA=OFF",
+    "-DQE_ENABLE_OPENACC=OFF",
+    "-DENABLE_C_API=OFF",
+    "-DBLA_VENDOR=OpenBLAS",
+    "-DBLAS_LIBRARIES=/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib/libopenblas.so.0",
+    "-DLAPACK_LIBRARIES=/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib/libopenblas.so.0",
+    "-DCMAKE_INSTALL_RPATH=/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib",
+    "-DCMAKE_BUILD_WITH_INSTALL_RPATH=ON"
+  ],
+  "install_mode": "copy_only_requested_official_cmake_targets_pw_and_ev_with_fixed_install_rpath",
+  "binaries": {
+    "pw.x": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/tools/qe-7.3.1/bin/pw.x",
+      "sha256": "5d01d878281f2c15886fdff7d0fa1bb0a5a163d3bf219532869fefc270d2ceca",
+      "size_bytes": 11455992
+    },
+    "ev.x": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/tools/qe-7.3.1/bin/ev.x",
+      "sha256": "4c46919413deccb96854974833df204bf67761d20a6550826f6d4c752021c41d",
+      "size_bytes": 96352
+    }
+  },
+  "mpirun": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/bin/mpirun",
+  "path_prepend": [
+    "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/bin",
+    "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/tools/qe-7.3.1/bin"
+  ],
+  "ld_library_path_prepend": [
+    "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib"
+  ],
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OMPI_ALLOW_RUN_AS_ROOT": "1",
+    "OMPI_ALLOW_RUN_AS_ROOT_CONFIRM": "1"
+  },
+  "sssp": {
+    "version": "1.3.0_PBE_efficiency",
+    "directory": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/data/assets/SSSP_1.3.0_PBE_efficiency",
+    "archive_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/cache/downloads/SSSP_1.3.0_PBE_efficiency.tar.gz",
+    "archive_md5": "a58f1b3373f330179fd0832c48bb9a52",
+    "archive_sha256": "7a85b71fa3d68df1b5ed33c55c7057681fbf10377ae3b3eac9392924d9189f12",
+    "upf_count": 103,
+    "files": {
+      "Ac.us.z_11.ld1.psl.v1.0.0-high.upf": {
+        "sha256": "c5b5399b2e84313f16c1196504101b4d6ed341a346df193ea1a987be439edff2",
+        "size_bytes": 3446688
+      },
+      "Ag_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "0494aa5927b754b42d3e72535636f215b4658e9b437e639dbc09674c36c8059a",
+        "size_bytes": 259210
+      },
+      "Al.pbe-n-kjpaw_psl.1.0.0.UPF": {
+        "sha256": "fd7b78921e6d0939095b681c328732668eaefd1dee6882fdbc03be463550cc97",
+        "size_bytes": 1762723
+      },
+      "Am.paw.z_17.ld1.uni-marburg.v0.upf": {
+        "sha256": "6cf417f19b4b44e749ef70821b4577db6845e5c1ddc8f73f39a3f537f5411950",
+        "size_bytes": 3597881
+      },
+      "Ar_ONCV_PBE-1.1.oncvpsp.upf": {
+        "sha256": "e2b7c25f41973b7ec7f701afc9502fbf2bd9db430ace134a51b59352fb56bbe1",
+        "size_bytes": 129889
+      },
+      "As.pbe-n-rrkjus_psl.0.2.UPF": {
+        "sha256": "5b31b3d612abd028d3a9ab896bf6de95d455080ad415d21f1011e130342b4434",
+        "size_bytes": 703927
+      },
+      "At.us.z_17.ld1.psl.v1.0.0-high.upf": {
+        "sha256": "7c5e13cdb4f4abe012c5b8488e11882110e569728feaff6c85b45a36eda03032",
+        "size_bytes": 2041023
+      },
+      "Au_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "3c3760361623288c265c193dddce2d5c6ced6f95bdb9138307530d51bc5ca9f0",
+        "size_bytes": 264670
+      },
+      "Ba.pbe-spn-kjpaw_psl.1.0.0.UPF": {
+        "sha256": "315a2af416c5906cdff071f5f8e59cfdff912f3c488be1be2cb2f1a044ec7c64",
+        "size_bytes": 2456498
+      },
+      "Bi_pbe_v1.uspp.F.UPF": {
+        "sha256": "56e4e097a6b5a74149ba3b3bb75c03f2b022b509f53767143653dcd7b079e97d",
+        "size_bytes": 605013
+      },
+      "Bk.paw.z_19.ld1.uni-marburg.v0.upf": {
+        "sha256": "481c54a2d52a5914f6b341bd707d3621147164a1b55b738b24f9fadbdb0ffae5",
+        "size_bytes": 3600254
+      },
+      "C.pbe-n-kjpaw_psl.1.0.0.UPF": {
+        "sha256": "9900d1efd50b9848e31849f39094b33348486b400ee51e0f3922f716137cf3d7",
+        "size_bytes": 911843
+      },
+      "Ca_pbe_v1.uspp.F.UPF": {
+        "sha256": "5887acb75823f7f92df1b3117fece4e43498cafccaaaf9cfa653615af1a20d6e",
+        "size_bytes": 575920
+      },
+      "Cd.pbe-dn-rrkjus_psl.0.3.1.UPF": {
+        "sha256": "eb5553c18543c409454926825f7653c985cd40a24993a26d37a913d6f4d40b8c",
+        "size_bytes": 1439999
+      },
+      "Ce.paw.z_12.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "08bdca0ececbc70371a9fa2169f406c5dccac5b4ead0a53b358e09301d047460",
+        "size_bytes": 3330358
+      },
+      "Cf.paw.z_20.ld1.uni-marburg.v0.upf": {
+        "sha256": "9450bbbdf5df930ab80112b19e81b133f99bb0d688e3d0e0c02a928776bd6922",
+        "size_bytes": 3605692
+      },
+      "Cm.paw.z_18.ld1.uni-marburg.v0.upf": {
+        "sha256": "a0fba038964467c51250b82c4c6b75f062cebcf1099a2ea040815c62b4201caf",
+        "size_bytes": 3600176
+      },
+      "Co_pbe_v1.2.uspp.F.UPF": {
+        "sha256": "a5f392a0d35fc78cc9e2ac1636bb1cd02e9b80a063ea368e85be83b0e4523c45",
+        "size_bytes": 606524
+      },
+      "Cs_pbe_v1.uspp.F.UPF": {
+        "sha256": "5039c3123828de0c626459254b67b6637225866dd81d5ee1d855e26f99d3ac2c",
+        "size_bytes": 633805
+      },
+      "Cu.paw.z_11.ld1.psl.v1.0.0-low.upf": {
+        "sha256": "b31028b2bae60cd9903260715a49b4c6d2b6dc654558c87023fa5206e427a16d",
+        "size_bytes": 1855080
+      },
+      "Dy.paw.z_20.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "c8718e1b6a5eee3d72c8c9a9d527bb351409cd27de3ebb3ecb4c9206df77d06d",
+        "size_bytes": 3360165
+      },
+      "Er.paw.z_22.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "90381456dc3b00a71dbfe262ea4f521ca05ae7f5a0a0dfc36178b00407e36c4d",
+        "size_bytes": 3366184
+      },
+      "Es.paw.z_21.ld1.uni-marburg.v0.upf": {
+        "sha256": "98d4a354b114c632b1370635677cca0399ac900b62550a904e7980195032fb91",
+        "size_bytes": 3604829
+      },
+      "Eu.paw.z_17.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "0f920edc4c3a6a7521fb8f1452c9e7ce3b3e69522f55ab9199c54e06a6fffbd3",
+        "size_bytes": 3351197
+      },
+      "Fe.pbe-spn-kjpaw_psl.0.2.1.UPF": {
+        "sha256": "2317a0d3b136c09b6263e1ba328b505fb1ebf33bb4b28dc3df9e39af3184ef19",
+        "size_bytes": 1935534
+      },
+      "Fm.paw.z_22.ld1.uni-marburg.v0.upf": {
+        "sha256": "ee3245963570b07aed869f3a0df85709e219f890a53ed21cff248b23704e4ece",
+        "size_bytes": 3603610
+      },
+      "Fr.paw.z_19.ld1.psl.v1.0.0-high.upf": {
+        "sha256": "ff14b36a6bb5eef48a88a2dac5b8f1624f583936423fa3c1ab982aec6fc307b1",
+        "size_bytes": 2264031
+      },
+      "Ga.pbe-dn-kjpaw_psl.1.0.0.UPF": {
+        "sha256": "cf8a2be9b30552dd9bb12304d2aa96978e5d10636ca562b42d5a37dc385acd15",
+        "size_bytes": 1957674
+      },
+      "Gd.paw.z_18.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "ef4295b158490f8742559c5815e161256f1accfb54cb864be8ed2d0dec2ac085",
+        "size_bytes": 3354147
+      },
+      "H.pbe-rrkjus_psl.1.0.0.UPF": {
+        "sha256": "27f8a7e87851d59a2698237d6ab4578d62950640f4f175781b015a0ce731f962",
+        "size_bytes": 227296
+      },
+      "He_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "27fca1dad6cd2df7dbc35d5f5df3bd4e1104db0cdd929d1cab1eb6687276b035",
+        "size_bytes": 73456
+      },
+      "Hf-sp.oncvpsp.upf": {
+        "sha256": "f019947b40f1831f9bd44a630e9445a07c1e864ce81f0ac6286035a1e0c2080b",
+        "size_bytes": 351874
+      },
+      "Hg_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "d9739c3b83e714fdbc820832d91c04a1bf0768e71e51f99fa72ab2c36b0a3f87",
+        "size_bytes": 263618
+      },
+      "Ho.paw.z_21.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "80f5abc892b8f7f6a6af10c76a3fcab97a5e24cc14bae801532e7ddeafd60df3",
+        "size_bytes": 3366173
+      },
+      "I.pbe-n-kjpaw_psl.0.2.UPF": {
+        "sha256": "24cb9b3d87f9cd94b025b333aef9360b1e1a721e82ca0efacc5cc33f8370ae8f",
+        "size_bytes": 1298984
+      },
+      "In.pbe-dn-rrkjus_psl.0.2.2.UPF": {
+        "sha256": "ac76860606654bf63d2950129329ee50267d50ad92296728a7d42e9355bcfb39",
+        "size_bytes": 1442304
+      },
+      "Ir_pbe_v1.2.uspp.F.UPF": {
+        "sha256": "7fb680571391e90cc59b343841d65f69fbf47382191c6fc511717f0e0b689e03",
+        "size_bytes": 827810
+      },
+      "K.pbe-spn-kjpaw_psl.1.0.0.UPF": {
+        "sha256": "1dcce1298a9d62eb5625f379743a3da1f4dca353d989d7893ad12e9b3a561c21",
+        "size_bytes": 1865359
+      },
+      "Kr_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "c582d70ae395b1eb46dcde90bfe209364b276c51f076444d1872043075dea228",
+        "size_bytes": 156438
+      },
+      "La.paw.z_11.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "8d610fb41db376d5e24de33648147b807d560114cebc0041310599c9333eafa2",
+        "size_bytes": 3327308
+      },
+      "Lr.paw.z_25.ld1.uni-marburg.v0.upf": {
+        "sha256": "590342d887bf4a904da6b265946b4871f6627da7d08a65e35cf79f2d96373820",
+        "size_bytes": 3615077
+      },
+      "Lu.paw.z_25.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "db462df8ffad370ffec0bdb77b723e9cdc66f6a46c9ca7597736a8f66ab6b352",
+        "size_bytes": 3378071
+      },
+      "Md.paw.z_23.ld1.uni-marburg.v0.upf": {
+        "sha256": "7a9fa74b12905256c3f17950be0ac441746acee08515f5c3b50166127736fbb4",
+        "size_bytes": 3608795
+      },
+      "Mg.pbe-n-kjpaw_psl.0.3.0.UPF": {
+        "sha256": "f057a22e5d8484686a1b3fe3724aa01af4236fe8a845e5c2f772c472f107639f",
+        "size_bytes": 1013584
+      },
+      "Mo_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "bf2bf79aec40a5e0f0b390faabb4be1a33829e8e25d28040e01a08f0ab1dcb03",
+        "size_bytes": 278626
+      },
+      "N.pbe-n-radius_5.UPF": {
+        "sha256": "9efee6eb6465c9020af3c8f395fa837810e8f1263ac6cfd52e437a170f8f6e9a",
+        "size_bytes": 632448
+      },
+      "Nb.pbe-spn-kjpaw_psl.0.3.0.UPF": {
+        "sha256": "ccf07218ea34daaa63ff57d9f44ca8b4b529728cccbc8f74dd5fc804ac01e48e",
+        "size_bytes": 2052531
+      },
+      "Nd.paw.z_14.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "443c472700a658d76d39503670c5923a9fd47338bcc543050ba6968b393bc292",
+        "size_bytes": 3339268
+      },
+      "Ne_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "3ab08110ec2368b8693a06511bc0e633ffe175f6e4c93b622cf07f4c48f4de9b",
+        "size_bytes": 109285
+      },
+      "No.paw.z_24.ld1.uni-marburg.v0.upf": {
+        "sha256": "73f25a88748f4e88ef7a33c3e47b6481ec64d50d38acc75a28a828e632c2ffca",
+        "size_bytes": 3613248
+      },
+      "Np.paw.z_15.ld1.uni-marburg.v0.upf": {
+        "sha256": "126ce51b5b9f3fb574662090752cdb6aaf9bdf41df307ade714d2f5abcf967af",
+        "size_bytes": 3595011
+      },
+      "O.pbe-n-kjpaw_psl.0.1.UPF": {
+        "sha256": "7c4b6ed541f83d0afdf5c1d3a8c611340f073f3e2b11e95b7963bb2ee26929aa",
+        "size_bytes": 930566
+      },
+      "Os_pbe_v1.2.uspp.F.UPF": {
+        "sha256": "fb26113f4c4f67a8e0f996bff2a6411a1abdbd12c0d023912361536fdfde4d28",
+        "size_bytes": 1030749
+      },
+      "P.pbe-n-rrkjus_psl.1.0.0.UPF": {
+        "sha256": "2d112dfec2e2d9b75a971574d9116aa92249988177791659bbcd2ba15f23c20c",
+        "size_bytes": 1306148
+      },
+      "Pa.paw.z_13.ld1.uni-marburg.v0.upf": {
+        "sha256": "7449f12dca36bf20749ef39ff0b8faab5ed351f2934c83da08e5f27eea429ce8",
+        "size_bytes": 3591720
+      },
+      "Pb.pbe-dn-kjpaw_psl.0.2.2.UPF": {
+        "sha256": "b67ab5c757bc89933ccd96deecdf3b629c72783a38b6c23d78457e4abb61219d",
+        "size_bytes": 2296427
+      },
+      "Pd_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "ef259baba5cf16c89389729e960cfb851e4cba656aef62fd8bf1a93de2124020",
+        "size_bytes": 258698
+      },
+      "Pm.paw.z_15.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "6bbcf0610301712e228cb498212d92b73a056081a4d702cb0075c6d4b99ce91e",
+        "size_bytes": 3342221
+      },
+      "Po.pbe-dn-rrkjus_psl.1.0.0.UPF": {
+        "sha256": "f4ac4279ab48d0c0ac9c4c16a6cff4dbe5546b636bb64c97daf98837a8126e11",
+        "size_bytes": 1490674
+      },
+      "Pr.paw.z_13.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "09468e74ab83a13d0e1438c4b25f404cfa2f5702f1879efc06327b5850b6ca83",
+        "size_bytes": 3333250
+      },
+      "Pu.paw.z_16.ld1.uni-marburg.v0.upf": {
+        "sha256": "4b39845d3f496ab5d81ea832d92ec46570943277b6fc037b619187ecede5e97f",
+        "size_bytes": 3594876
+      },
+      "Ra.paw.z_20.ld1.psl.v1.0.0-high.upf": {
+        "sha256": "8cd1f59313a70ea8674f095ef7417e3203133d64348d082e424356c0d9543432",
+        "size_bytes": 2565671
+      },
+      "Rb_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "b5f77d0adb6f4ae9fbae600bd3a16681e6fc46c301f5502e94f741491e065d90",
+        "size_bytes": 363876
+      },
+      "Re_pbe_v1.2.uspp.F.UPF": {
+        "sha256": "61146e72676c25b08fce566316216ce8c1e4ec1317f418513daf36e6e52a65eb",
+        "size_bytes": 1028073
+      },
+      "Rh_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "e9b88f5513e25cd2833cd4587d2d34b46dd0be86aaa0e7b00404147510a87504",
+        "size_bytes": 265082
+      },
+      "Rn.pbe-dn-kjpaw_psl.1.0.0.UPF": {
+        "sha256": "3835b30b9c2994a0e6cbc75d11288abcea4c26ebe862191a0401d6ceb0869258",
+        "size_bytes": 2303441
+      },
+      "Ru_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "b9e3df964a103d42e34c2027028361cb6592bdb0bff60275bbaa48c5eaf2adff",
+        "size_bytes": 268070
+      },
+      "Sc_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "60775605c9d2ea22ab38f061d8ef6421bb0e8ec71f0de4d7ea24a1e0936b702b",
+        "size_bytes": 304171
+      },
+      "Se_pbe_v1.uspp.F.UPF": {
+        "sha256": "fcb1fe6e9c54d43fd3537f1103b9003ba92975e80c0a0214b21d1bf4abb494c8",
+        "size_bytes": 565664
+      },
+      "Si.pbe-n-rrkjus_psl.1.0.0.UPF": {
+        "sha256": "ae3aefd0811f9499dbc4a72f1f9ae02ef4fc7f3568bf6f559b68668719c69e2b",
+        "size_bytes": 1299382
+      },
+      "Sm.paw.z_16.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "184c92f8b08a6ef2411da67d63638f02e1cab575ce51a077558a9a123cbe2a4b",
+        "size_bytes": 3345179
+      },
+      "Sn_pbe_v1.uspp.F.UPF": {
+        "sha256": "2985a215143f6458f0a627315a843123d534bff482dc09b40415af4605359431",
+        "size_bytes": 597547
+      },
+      "Sr_pbe_v1.uspp.F.UPF": {
+        "sha256": "292f7f1da5cae4b18da817ab2e82943ad90e74f267a06a6172db8dbcb6edf0ce",
+        "size_bytes": 616041
+      },
+      "Ta_pbe_v1.uspp.F.UPF": {
+        "sha256": "e0850b94d7007d47691d131db1fa5ffdaaa6f6a573c1ebf1fb425e46ed891ee1",
+        "size_bytes": 792110
+      },
+      "Tb.paw.z_19.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "3374f9a6df6df6d5eaac70e5570b4f1bdeac3b8480715ef0b02d760278bee16f",
+        "size_bytes": 3357215
+      },
+      "Tc_ONCV_PBE-1.0.oncvpsp.upf": {
+        "sha256": "5a01ef59369df4bb2bf87ebf1db024bc5387caaa3924f19280e97bbce4b9fa21",
+        "size_bytes": 273954
+      },
+      "Te_pbe_v1.uspp.F.UPF": {
+        "sha256": "5f18f14282ab78c660a46a08ed8787a1247036c7509b7c0436d8441faf497e36",
+        "size_bytes": 459469
+      },
+      "Th.paw.z_12.ld1.uni-marburg.v0.upf": {
+        "sha256": "49ca7222bde3238b4a06d01f8a4cc5908f11a1f11681684b16b107600e15c96c",
+        "size_bytes": 3591174
+      },
+      "Tl_pbe_v1.2.uspp.F.UPF": {
+        "sha256": "018619075345aa953f960db6fbb6d7bba035adf76a8b210d57179489d14b1be2",
+        "size_bytes": 605013
+      },
+      "Tm.paw.z_23.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "c1c41a375fa615f449e5f0e107a8de867587817dbc4669f1b184a1a31ed40c63",
+        "size_bytes": 3372084
+      },
+      "U.paw.z_14.ld1.uni-marburg.v0.upf": {
+        "sha256": "93edc03742fddf3f1b6676de2a4bb6a853ee00dc8ac9fdae7adf5e99e125ba2d",
+        "size_bytes": 3590882
+      },
+      "W_pbe_v1.2.uspp.F.UPF": {
+        "sha256": "3cb024d05ba2413340c9e993bc149bf94d44fb23e609642466d87ca30c88c569",
+        "size_bytes": 955949
+      },
+      "Xe_ONCV_PBE-1.1.oncvpsp.upf": {
+        "sha256": "bb7980f7a3c73e56e18e737f07bc14e4396a3e5e8b95fcf1adc68807093b4fc3",
+        "size_bytes": 192806
+      },
+      "Y_pbe_v1.uspp.F.UPF": {
+        "sha256": "5be8c6f04a4624425acd919bf34103b4498606638e23b0adb6386ce4f6fc86fc",
+        "size_bytes": 617250
+      },
+      "Yb.paw.z_24.atompaw.wentzcovitch.v1.2.upf": {
+        "sha256": "c966c2b8d6efeb97b0a77c05df8d658eb48bbe6ab00a099679c8b4aeff212ff6",
+        "size_bytes": 3375153
+      },
+      "Zn_pbe_v1.uspp.F.UPF": {
+        "sha256": "7710c776159022cdfa14188f04942712811d9a24ad0e74db5ce7c3bdfb95dbbf",
+        "size_bytes": 645094
+      },
+      "Zr_pbe_v1.uspp.F.UPF": {
+        "sha256": "d56e2997788a4b3d90bb829416161ff9eb6ccdfe377cb52acfbdd2175f4b4acf",
+        "size_bytes": 618662
+      },
+      "b_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "01a3696c14b1b245b9741165ffea38120b879286cddbeb956142f8fa922941ee",
+        "size_bytes": 306486
+      },
+      "be_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "469e0c341411bcaf0b93bdff28b1bec7a728d11c92368d4bb25e44ae4b846047",
+        "size_bytes": 501716
+      },
+      "br_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "611dc0ac2804aed2e5b8a3c138f272b2a4e131009aad5279454170f948176951",
+        "size_bytes": 566956
+      },
+      "cl_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "5b1ebdea1e5ba743fba0100806206287e1f7f00460c7e6f19791446beaee0655",
+        "size_bytes": 584526
+      },
+      "cr_pbe_v1.5.uspp.F.UPF": {
+        "sha256": "c7449bbfea358d76832cf2f7b43dc89101ead6891806773121bfaa93a140f6de",
+        "size_bytes": 584698
+      },
+      "f_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "9802dd8e5c30fe92ff0a8dc0865f4fb9023d6a3a42caccdd33c0de6de83d0883",
+        "size_bytes": 294351
+      },
+      "ge_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "1b95046ab0f3228e0404719ca66d0309af5a62313be0b22171b963566c90430b",
+        "size_bytes": 579995
+      },
+      "li_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "02cc4b3810e28a43b570277840d9631ca24f634d922928200c047b72c0a86bf5",
+        "size_bytes": 382791
+      },
+      "mn_pbe_v1.5.uspp.F.UPF": {
+        "sha256": "c5b6117e22f571895b69dbec8491df6afb2efee1206dad54680881dbd33eb8f0",
+        "size_bytes": 601365
+      },
+      "na_pbe_v1.5.uspp.F.UPF": {
+        "sha256": "f84820c4280d21603bd50ae76a08e15c26864391ea055cf50affc4aedefc8f87",
+        "size_bytes": 425627
+      },
+      "ni_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "f76b86ce60cde3d83dfcc8df79ba05478db573d158289f1b226919442d977d25",
+        "size_bytes": 612014
+      },
+      "pt_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "69f60fd2451b1845888681f987a801a2c45a8df104d0fe0b43ad4cd1c6e3ad81",
+        "size_bytes": 675946
+      },
+      "s_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "84ad731864187f416f714e961c3ad2f04dcbf811618e724d277885c18cb470df",
+        "size_bytes": 582972
+      },
+      "sb_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "efe7c83d2aca3ab7d66eb1fc5b50c6e865e18521318454a41a9c106cb1f456d0",
+        "size_bytes": 601579
+      },
+      "ti_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "747afa52fa17dc061e9eff72bcea534e81ffa5a4a5d33af3eb8fc9f1b3aee580",
+        "size_bytes": 577420
+      },
+      "v_pbe_v1.4.uspp.F.UPF": {
+        "sha256": "4fc8afef98a911c82908fb9142edf71b2f598dd98762b355a6d291d834fb6d0c",
+        "size_bytes": 582160
+      }
+    }
+  },
+  "operations": [
+    {
+      "stage": "qe-cpu-configure",
+      "returncode": 0,
+      "wall_seconds": 43.31283285282552,
+      "log": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/logs/qe-cpu-configure.log"
+    },
+    {
+      "stage": "qe-cpu-build",
+      "returncode": 0,
+      "wall_seconds": 702.4264229289256,
+      "log": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/logs/qe-cpu-build.log"
+    }
+  ],
+  "runtime_dft_verified": true,
+  "runtime_verification_note": "Separate real fixed-evaluator diagnostics for all three properties, including one recorded band-gap nonconvergence. Diagnostics are excluded from main method training/evaluation.",
+  "technical_diagnostic_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/crystalgym_cpu_20260915T111903.370561Z",
+  "verified_property": "band_gap",
+  "verified_prototype_index": 8354,
+  "version_banners": [
+    "Program PWSCF v.7.3.1 starts on 15Sep2026 at 11:20:21"
+  ],
+  "compiler_packages": [
+    {
+      "name": "_openmp_mutex",
+      "version": "4.5",
+      "build_string": "20_gnu",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "binutils_impl_linux-64",
+      "version": "2.46.1",
+      "build_string": "default_hfdba357_102",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "binutils_linux-64",
+      "version": "2.46.1",
+      "build_string": "default_h4852527_102",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8",
+      "build_string": "hda65f42_10",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "c-ares",
+      "version": "1.34.8",
+      "build_string": "hebe6cf0_2",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "ca-certificates",
+      "version": "2026.7.22",
+      "build_string": "hbd8a1cb_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "cmake",
+      "version": "4.4.3",
+      "build_string": "hff7ac6b_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "fftw",
+      "version": "3.3.11",
+      "build_string": "nompi_h3b011a4_100",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "gcc_impl_linux-64",
+      "version": "16.2.0",
+      "build_string": "h176d5d0_4",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "gcc_linux-64",
+      "version": "16.2.0",
+      "build_string": "h0ab548f_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "gfortran_impl_linux-64",
+      "version": "16.2.0",
+      "build_string": "hf930d89_4",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "gfortran_linux-64",
+      "version": "16.2.0",
+      "build_string": "h077a2f4_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "icu",
+      "version": "78.3",
+      "build_string": "py310h44b86e0_2",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "kernel-headers_linux-64",
+      "version": "5.14.0",
+      "build_string": "he073ed8_3",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "keyutils",
+      "version": "1.6.3",
+      "build_string": "h7cc23a3_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "krb5",
+      "version": "1.22.2",
+      "build_string": "hbc21106_2",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "ld_impl_linux-64",
+      "version": "2.46.1",
+      "build_string": "default_hbd61a6d_102",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libcap",
+      "version": "2.78",
+      "build_string": "h084b8d7_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libcurl",
+      "version": "8.22.0",
+      "build_string": "ha042cf0_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libedit",
+      "version": "3.1.20250104",
+      "build_string": "pl5321h373387f_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libev",
+      "version": "4.33",
+      "build_string": "h280c20c_3",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libevent",
+      "version": "2.1.12",
+      "build_string": "h5348a74_2",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libexpat",
+      "version": "2.8.1",
+      "build_string": "hecca717_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libfabric",
+      "version": "2.6.0",
+      "build_string": "ha770c72_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libfabric1",
+      "version": "2.6.0",
+      "build_string": "h6b3ec72_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libgcc",
+      "version": "16.2.0",
+      "build_string": "ha9f2e26_4",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libgcc-devel_linux-64",
+      "version": "16.2.0",
+      "build_string": "he3ce08f_104",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libgfortran",
+      "version": "16.2.0",
+      "build_string": "h69a702a_4",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libgfortran5",
+      "version": "16.2.0",
+      "build_string": "h6b99dfc_4",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libgomp",
+      "version": "16.2.0",
+      "build_string": "he0feb66_4",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libhwloc",
+      "version": "2.13.0",
+      "build_string": "default_he001693_1000",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libiconv",
+      "version": "1.18",
+      "build_string": "h0cb94f2_3",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "liblzma",
+      "version": "5.8.3",
+      "build_string": "hb03c661_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libnghttp2",
+      "version": "1.68.1",
+      "build_string": "h74cf4be_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libnl",
+      "version": "3.11.0",
+      "build_string": "hb03c661_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libopenblas",
+      "version": "0.3.34",
+      "build_string": "pthreads_hf13c14d_2",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libpmix",
+      "version": "5.0.8",
+      "build_string": "h31fc519_4",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libpsl",
+      "version": "0.23.1",
+      "build_string": "hd9e3e90_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libsanitizer",
+      "version": "16.2.0",
+      "build_string": "h3048135_4",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libssh2",
+      "version": "1.11.1",
+      "build_string": "h6154650_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libstdcxx",
+      "version": "16.2.0",
+      "build_string": "h934c35e_4",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libstdcxx-devel_linux-64",
+      "version": "16.2.0",
+      "build_string": "h86e191b_104",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libsystemd0",
+      "version": "261.3",
+      "build_string": "h26e0ef7_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libudev1",
+      "version": "261.3",
+      "build_string": "h26e0ef7_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libuv",
+      "version": "1.52.1",
+      "build_string": "h280c20c_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libxml2",
+      "version": "2.15.4",
+      "build_string": "h7df9aa5_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libxml2-16",
+      "version": "2.15.4",
+      "build_string": "hf3af7cc_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "libzlib",
+      "version": "1.3.2",
+      "build_string": "h25fd6f3_3",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "make",
+      "version": "4.4.1",
+      "build_string": "hb03c661_3",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "mpi",
+      "version": "1.0.1",
+      "build_string": "openmpi",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "ncurses",
+      "version": "6.6",
+      "build_string": "hdb14827_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "openmpi",
+      "version": "5.0.10",
+      "build_string": "hee33aa4_2",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "openssl",
+      "version": "3.6.4",
+      "build_string": "h781a0a9_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "pkg-config",
+      "version": "0.29.2",
+      "build_string": "h1114479_1013",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "rdma-core",
+      "version": "65.0",
+      "build_string": "h7b4f2e6_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "rhash",
+      "version": "1.4.6",
+      "build_string": "hb03c661_2",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "sysroot_linux-64",
+      "version": "2.34",
+      "build_string": "h087de78_3",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026c",
+      "build_string": "h151e31d_0",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "ucc",
+      "version": "1.8.0",
+      "build_string": "h539fd1b_2",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "ucx",
+      "version": "1.22.0",
+      "build_string": "h6cc3e34_1",
+      "channel": "conda-forge"
+    },
+    {
+      "name": "zstd",
+      "version": "1.5.7",
+      "build_string": "hb78ec9c_7",
+      "channel": "conda-forge"
+    }
+  ],
+  "numerical_libraries": {
+    "libopenblas.so.0": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib/libopenblasp-r0.3.34.so",
+      "sha256": "f1424288e9ac125331102c0150b66fbd244560987779552e0e97d5cfd9de572b",
+      "size_bytes": 41542616
+    },
+    "libfftw3.so": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib/libfftw3.so.3.7.11",
+      "sha256": "482056fe5f5075a13eacfb0b13ebdb8e571a6acbbd3a2a21a935c9065fa2b313",
+      "size_bytes": 2524816
+    },
+    "libfftw3_omp.so": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib/libfftw3_omp.so.3.7.11",
+      "sha256": "51ae4ea013aea1cf78f21ccec468a019e4ed696b9dce2ac4a3420e506e9a7d00",
+      "size_bytes": 36256
+    },
+    "libmpi.so": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib/libmpi.so.40.40.7",
+      "sha256": "4103902fc94a88995cd55ac7048b14fcf8f1d19c079792c27e0198ce965e9bea",
+      "size_bytes": 3907776
+    },
+    "libgfortran.so.5": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib/libgfortran.so.5.0.0",
+      "sha256": "7c80ef77460f5a6e80a4046774f7b424d3dee776040abebc1a15182553d56c64",
+      "size_bytes": 11532656
+    },
+    "libgomp.so.1": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/qe-build/lib/libgomp.so.1.0.0",
+      "sha256": "483345c7ffb82e1cd3e50a657f613145930a6ecadc5284806090315bf1b50392",
+      "size_bytes": 1674616
+    }
+  },
+  "cmake_cache": {
+    "path": "/root/.local/share/matdiscovery-builds/20260915_164607/qe-build/CMakeCache.txt",
+    "sha256": "fd089c3c1ea6cee21c43eea310fbc29d158e68fabdcfd44fd4f559eea3f4914a"
+  },
+  "technical_diagnostics": [
+    {
+      "property": "bm",
+      "status": "real_official_terminal_dft_verified",
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/crystalgym_cpu_20260915T102142.792008Z/summary.json",
+      "sha256": "142fbefc7f562d5f5a315b5728696c5cc7fdef62d65325c5d01889878b0cfd35",
+      "terminal_attempts": 1,
+      "official_error_flag": 0,
+      "elapsed_seconds": 264.5495265084319
+    },
+    {
+      "property": "density",
+      "status": "real_official_terminal_dft_verified",
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/crystalgym_cpu_20260915T110234.826727Z/summary.json",
+      "sha256": "723219d01e9decfbac08111a78931b1b5ca2cd3e579b22e2c54d724b484787e8",
+      "terminal_attempts": 1,
+      "official_error_flag": 0,
+      "elapsed_seconds": 267.5733428108506
+    },
+    {
+      "property": "band_gap",
+      "status": "technical_diagnostic_failed",
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/crystalgym_cpu_20260915T110234.848075Z/summary.json",
+      "sha256": "46a9b7a7c03a432c6f225968a3511338d2ff71541e684bf69967e7c346cc099b",
+      "terminal_attempts": 1,
+      "official_error_flag": 1,
+      "elapsed_seconds": 966.7535181608982
+    },
+    {
+      "property": "band_gap",
+      "status": "real_official_terminal_dft_verified",
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/crystalgym_cpu_20260915T111903.370561Z/summary.json",
+      "sha256": "46a7f6260a54b060c806a155b068a4232ba1a74390c27a311ec4aa314e8c0644",
+      "terminal_attempts": 1,
+      "official_error_flag": 0,
+      "elapsed_seconds": 153.31799967680126
+    }
+  ],
+  "verified_properties": [
+    "band_gap",
+    "bm",
+    "density"
+  ]
+}

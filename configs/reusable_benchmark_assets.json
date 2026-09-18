@@ -1,0 +1,915 @@
+{
+  "assets": [
+    {
+      "path": "/root/.cache/cached_path/orb-v3-conservative-inf-omat-20250404.ckpt",
+      "realpath": "/root/.cache/cached_path/orb-v3-conservative-inf-omat-20250404.ckpt",
+      "kind": "orb_oracle",
+      "filename": "orb-v3-conservative-inf-omat-20250404.ckpt",
+      "size_bytes": 102097517,
+      "mtime_utc": "2026-08-31T05:49:53.057568+00:00",
+      "sha256": "0a41ef1132ad9c41ee0c7b9d855fccabfefb97abe04625c97ec0d07930b6c0f0",
+      "archive_format": "pytorch_zip",
+      "zip_member_count": 137,
+      "zip_crc_bad_member": null,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "archive_crc_and_sha256_verified_clean_environment_load_pending",
+      "official_download_url": "https://orbitalmaterials-public-models.s3.us-west-1.amazonaws.com/forcefields/orb-v3/orb-v3-conservative-inf-omat-20250404.ckpt",
+      "official_dependency_version": "orb-models==0.5.5",
+      "needed_for_main_made": true
+    },
+    {
+      "path": "/root/.cache/mace/20231203mace128L1_epoch199model",
+      "realpath": "/root/.cache/mace/20231203mace128L1_epoch199model",
+      "kind": "mace_surrogate",
+      "filename": "20231203mace128L1_epoch199model",
+      "size_bytes": 44422970,
+      "mtime_utc": "2026-09-14T16:12:28.433932+00:00",
+      "sha256": "01bfe22100139f424713cf921144e5509cbe353d67aa9fa1be9c6e1e0ed35845",
+      "archive_format": "pytorch_zip",
+      "zip_member_count": 77,
+      "zip_crc_bad_member": null,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "archive_crc_and_sha256_verified_clean_environment_load_pending",
+      "official_dependency_version": "mace-torch==0.3.14",
+      "official_model_identifier": "mace_mp(model=medium), 20231203mace128L1_epoch199model",
+      "needed_for_main_made": true,
+      "provider_hash_verification": "Not performed; archive integrity and local fingerprint verified. Clean official dependency must resolve this model identifier before use."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/ckpts/chemeleon_csp_alex_mp_20_v0.0.2.ckpt",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/ckpts/chemeleon_csp_alex_mp_20_v0.0.2.ckpt",
+      "kind": "chemeleon_checkpoint",
+      "filename": "chemeleon_csp_alex_mp_20_v0.0.2.ckpt",
+      "size_bytes": 147634564,
+      "mtime_utc": "2026-08-31T11:11:51+00:00",
+      "sha256": "602a261d67a95094312d214ddcb7f46e7c8315cf58c986dbc57b8a642d7f5bc0",
+      "archive_format": "pytorch_zip",
+      "zip_member_count": 283,
+      "zip_crc_bad_member": null,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "archive_crc_and_sha256_verified_clean_environment_load_pending",
+      "official_download_url": "https://figshare.com/ndownloader/files/54966305",
+      "official_dependency_commit": "a15307694ccbe3381f856560675aee468cda2aa9",
+      "needed_for_main_made": true,
+      "aliases": [
+        "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/ckpts/chemeleon_csp_alex_mp_20_v0.0.2.ckpt",
+        "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/ckpts/chemeleon_csp_alex_mp_20_v0.0.2.ckpt"
+      ],
+      "leakage_note": "Official pretrained generator inherits MP/Alex training overlap; do not substitute old task-finetuned checkpoints, and do not claim a new pretraining holdout guarantee."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/ckpts/chemeleon_csp_mp_20_v0.0.2.ckpt",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/ckpts/chemeleon_csp_mp_20_v0.0.2.ckpt",
+      "kind": "chemeleon_checkpoint",
+      "filename": "chemeleon_csp_mp_20_v0.0.2.ckpt",
+      "size_bytes": 147634564,
+      "mtime_utc": "2026-08-31T11:11:52+00:00",
+      "sha256": "50dfbb4bf102f675c37740a6c2e893859d6d1cf49da91a1cc16236c015dcc220",
+      "archive_format": "pytorch_zip",
+      "zip_member_count": 283,
+      "zip_crc_bad_member": null,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "archive_crc_and_sha256_verified_clean_environment_load_pending",
+      "official_download_url": "https://figshare.com/ndownloader/files/54966305",
+      "official_dependency_commit": "a15307694ccbe3381f856560675aee468cda2aa9",
+      "needed_for_main_made": false,
+      "aliases": [
+        "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/ckpts/chemeleon_csp_mp_20_v0.0.2.ckpt",
+        "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/ckpts/chemeleon_csp_mp_20_v0.0.2.ckpt"
+      ],
+      "leakage_note": "Official pretrained generator inherits MP/Alex training overlap; do not substitute old task-finetuned checkpoints, and do not claim a new pretraining holdout guarantee."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/ckpts/chemeleon_dng_alex_mp_20_v0.0.2.ckpt",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/ckpts/chemeleon_dng_alex_mp_20_v0.0.2.ckpt",
+      "kind": "chemeleon_checkpoint",
+      "filename": "chemeleon_dng_alex_mp_20_v0.0.2.ckpt",
+      "size_bytes": 168774702,
+      "mtime_utc": "2026-08-31T11:11:54+00:00",
+      "sha256": "7c12346d3ddcf90d52dbb6f78cc91c4d7d5bea4d127edaf50e628fc95d48ab70",
+      "archive_format": "pytorch_zip",
+      "zip_member_count": 294,
+      "zip_crc_bad_member": null,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "archive_crc_and_sha256_verified_clean_environment_load_pending",
+      "official_download_url": "https://figshare.com/ndownloader/files/54966305",
+      "official_dependency_commit": "a15307694ccbe3381f856560675aee468cda2aa9",
+      "needed_for_main_made": false,
+      "aliases": [
+        "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/ckpts/chemeleon_dng_alex_mp_20_v0.0.2.ckpt",
+        "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/ckpts/chemeleon_dng_alex_mp_20_v0.0.2.ckpt"
+      ],
+      "leakage_note": "Official pretrained generator inherits MP/Alex training overlap; do not substitute old task-finetuned checkpoints, and do not claim a new pretraining holdout guarantee."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/ckpts/chemeleon_dng_mp_20_v0.0.2.ckpt",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/ckpts/chemeleon_dng_mp_20_v0.0.2.ckpt",
+      "kind": "chemeleon_checkpoint",
+      "filename": "chemeleon_dng_mp_20_v0.0.2.ckpt",
+      "size_bytes": 168774702,
+      "mtime_utc": "2026-08-31T11:11:55+00:00",
+      "sha256": "8031cd242f55677972c6e4b955dbaa0936cd987961d7378d2fe2b93647258216",
+      "archive_format": "pytorch_zip",
+      "zip_member_count": 294,
+      "zip_crc_bad_member": null,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "archive_crc_and_sha256_verified_clean_environment_load_pending",
+      "official_download_url": "https://figshare.com/ndownloader/files/54966305",
+      "official_dependency_commit": "a15307694ccbe3381f856560675aee468cda2aa9",
+      "needed_for_main_made": false,
+      "aliases": [
+        "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/ckpts/chemeleon_dng_mp_20_v0.0.2.ckpt",
+        "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/ckpts/chemeleon_dng_mp_20_v0.0.2.ckpt"
+      ],
+      "leakage_note": "Official pretrained generator inherits MP/Alex training overlap; do not substitute old task-finetuned checkpoints, and do not claim a new pretraining holdout guarantee."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/2023-02-07-mp-elemental-reference-entries.json",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/2023-02-07-mp-elemental-reference-entries.json",
+      "kind": "made_reference_data",
+      "filename": "2023-02-07-mp-elemental-reference-entries.json",
+      "size_bytes": 55617,
+      "mtime_utc": "2026-09-11T08:31:10+00:00",
+      "sha256": "3e66c10bfd00035c6f08f5737e2b7eda2637b9aeeb349c024bca8b5bbb535fa2",
+      "json_type": "dict",
+      "json_count": 89,
+      "top_level_keys": [
+        "Ne",
+        "He",
+        "Ar",
+        "F",
+        "O",
+        "Cl",
+        "N",
+        "Kr",
+        "Br",
+        "I",
+        "Xe",
+        "S"
+      ],
+      "fresh_official_relative_path": "vendor/MADE/data/2023-02-07-mp-elemental-reference-entries.json",
+      "fresh_official_sha256": "3e66c10bfd00035c6f08f5737e2b7eda2637b9aeeb349c024bca8b5bbb535fa2",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": true,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/2025-02-01-mp-energies.csv",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/2025-02-01-mp-energies.csv",
+      "kind": "made_reference_data",
+      "filename": "2025-02-01-mp-energies.csv",
+      "size_bytes": 27381335,
+      "mtime_utc": "2026-09-11T08:31:12+00:00",
+      "sha256": "cd505bc2500bc92b60bc4f0fe80b9ade7e6c70bdceb0ff6ff74f6866efc928d6",
+      "columns": [
+        "material_id",
+        "formula",
+        "energy_per_atom",
+        "formation_energy_per_atom",
+        "energy_above_hull",
+        "decomposition_enthalpy",
+        "energy_type",
+        "spacegroup_symbol",
+        "protostructure_spglib",
+        "n_sites",
+        "protostructure_moyo"
+      ],
+      "data_row_count": 154718,
+      "fresh_official_relative_path": "vendor/MADE/data/2025-02-01-mp-energies.csv",
+      "fresh_official_sha256": "cd505bc2500bc92b60bc4f0fe80b9ade7e6c70bdceb0ff6ff74f6866efc928d6",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": true,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json",
+      "kind": "made_systems",
+      "filename": "systems_quaternary_n10_maxatoms20_intermetallic_smact.json",
+      "size_bytes": 476,
+      "mtime_utc": "2026-09-11T08:31:11+00:00",
+      "sha256": "06be4f71fee49164dcc647dfc6782e6d06da94b0064989ace70df9fed823c20d",
+      "json_type": "list",
+      "json_count": 10,
+      "systems": [
+        [
+          "Ba",
+          "Nd",
+          "Ni",
+          "W"
+        ],
+        [
+          "Eu",
+          "Nb",
+          "Sn",
+          "Tl"
+        ],
+        [
+          "Ce",
+          "Er",
+          "Pb",
+          "Rh"
+        ],
+        [
+          "Dy",
+          "K",
+          "Pd",
+          "Sm"
+        ],
+        [
+          "Co",
+          "Dy",
+          "Ta",
+          "Y"
+        ],
+        [
+          "Au",
+          "Cr",
+          "Cs",
+          "Dy"
+        ],
+        [
+          "Ca",
+          "Pd",
+          "Sn",
+          "W"
+        ],
+        [
+          "Au",
+          "Tb",
+          "V",
+          "Y"
+        ],
+        [
+          "Ce",
+          "Ir",
+          "Pt",
+          "Sn"
+        ],
+        [
+          "Ba",
+          "Be",
+          "Hf",
+          "Li"
+        ]
+      ],
+      "fresh_official_relative_path": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json",
+      "fresh_official_sha256": "06be4f71fee49164dcc647dfc6782e6d06da94b0064989ace70df9fed823c20d",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": true,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json",
+      "kind": "made_systems",
+      "filename": "systems_quinary_n10_maxatoms20_intermetallic_smact.json",
+      "size_bytes": 578,
+      "mtime_utc": "2026-09-11T08:31:12+00:00",
+      "sha256": "4644e82ab6a5b29574cc06c46d9ca02e9f0fdaece03ffb4b9acd0ede83bd2a1a",
+      "json_type": "list",
+      "json_count": 10,
+      "systems": [
+        [
+          "Cd",
+          "Li",
+          "Nd",
+          "Ti",
+          "W"
+        ],
+        [
+          "Cd",
+          "Gd",
+          "Mn",
+          "Na",
+          "Ta"
+        ],
+        [
+          "Co",
+          "Hg",
+          "Mg",
+          "Sr",
+          "W"
+        ],
+        [
+          "Ca",
+          "Fe",
+          "Gd",
+          "Pb",
+          "Tb"
+        ],
+        [
+          "Al",
+          "Hg",
+          "K",
+          "Mg",
+          "W"
+        ],
+        [
+          "Ag",
+          "Nd",
+          "Pd",
+          "Pt",
+          "Tb"
+        ],
+        [
+          "Al",
+          "Lu",
+          "Pt",
+          "Rb",
+          "Sm"
+        ],
+        [
+          "Co",
+          "Hf",
+          "In",
+          "Ru",
+          "Tm"
+        ],
+        [
+          "Ho",
+          "In",
+          "Mg",
+          "Pd",
+          "Zr"
+        ],
+        [
+          "Cr",
+          "Fe",
+          "Lu",
+          "Pt",
+          "Sc"
+        ]
+      ],
+      "fresh_official_relative_path": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json",
+      "fresh_official_sha256": "4644e82ab6a5b29574cc06c46d9ca02e9f0fdaece03ffb4b9acd0ede83bd2a1a",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": true,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/made_upstream/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json",
+      "kind": "made_systems",
+      "filename": "systems_ternary_n10_maxatoms20_intermetallic_smact.json",
+      "size_bytes": 378,
+      "mtime_utc": "2026-09-11T08:31:12+00:00",
+      "sha256": "c97a6f89b3039b0047801916e7d7cf1398577aa039d9d599a10bdfbcb3cc6fcb",
+      "json_type": "list",
+      "json_count": 10,
+      "systems": [
+        [
+          "Mg",
+          "Sn",
+          "Sr"
+        ],
+        [
+          "Au",
+          "K",
+          "Tb"
+        ],
+        [
+          "Co",
+          "Mg",
+          "Na"
+        ],
+        [
+          "Hf",
+          "Ni",
+          "Zr"
+        ],
+        [
+          "Co",
+          "Dy",
+          "W"
+        ],
+        [
+          "Ga",
+          "Pt",
+          "Tm"
+        ],
+        [
+          "Ga",
+          "Ho",
+          "Lu"
+        ],
+        [
+          "Al",
+          "Li",
+          "V"
+        ],
+        [
+          "Al",
+          "V",
+          "Zn"
+        ],
+        [
+          "Co",
+          "Pd",
+          "Tl"
+        ]
+      ],
+      "fresh_official_relative_path": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json",
+      "fresh_official_sha256": "c97a6f89b3039b0047801916e7d7cf1398577aa039d9d599a10bdfbcb3cc6fcb",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": true,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/2023-02-07-mp-elemental-reference-entries.json",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/2023-02-07-mp-elemental-reference-entries.json",
+      "kind": "made_reference_data",
+      "filename": "2023-02-07-mp-elemental-reference-entries.json",
+      "size_bytes": 55617,
+      "mtime_utc": "2026-08-30T21:13:57+00:00",
+      "sha256": "3e66c10bfd00035c6f08f5737e2b7eda2637b9aeeb349c024bca8b5bbb535fa2",
+      "json_type": "dict",
+      "json_count": 89,
+      "top_level_keys": [
+        "Ne",
+        "He",
+        "Ar",
+        "F",
+        "O",
+        "Cl",
+        "N",
+        "Kr",
+        "Br",
+        "I",
+        "Xe",
+        "S"
+      ],
+      "fresh_official_relative_path": "vendor/MADE/data/2023-02-07-mp-elemental-reference-entries.json",
+      "fresh_official_sha256": "3e66c10bfd00035c6f08f5737e2b7eda2637b9aeeb349c024bca8b5bbb535fa2",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": false,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/2025-02-01-mp-energies.csv",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/2025-02-01-mp-energies.csv",
+      "kind": "made_reference_data",
+      "filename": "2025-02-01-mp-energies.csv",
+      "size_bytes": 27381335,
+      "mtime_utc": "2026-08-30T21:13:58+00:00",
+      "sha256": "cd505bc2500bc92b60bc4f0fe80b9ade7e6c70bdceb0ff6ff74f6866efc928d6",
+      "columns": [
+        "material_id",
+        "formula",
+        "energy_per_atom",
+        "formation_energy_per_atom",
+        "energy_above_hull",
+        "decomposition_enthalpy",
+        "energy_type",
+        "spacegroup_symbol",
+        "protostructure_spglib",
+        "n_sites",
+        "protostructure_moyo"
+      ],
+      "data_row_count": 154718,
+      "fresh_official_relative_path": "vendor/MADE/data/2025-02-01-mp-energies.csv",
+      "fresh_official_sha256": "cd505bc2500bc92b60bc4f0fe80b9ade7e6c70bdceb0ff6ff74f6866efc928d6",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": false,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json",
+      "kind": "made_systems",
+      "filename": "systems_quaternary_n10_maxatoms20_intermetallic_smact.json",
+      "size_bytes": 476,
+      "mtime_utc": "2026-08-30T21:13:58+00:00",
+      "sha256": "06be4f71fee49164dcc647dfc6782e6d06da94b0064989ace70df9fed823c20d",
+      "json_type": "list",
+      "json_count": 10,
+      "systems": [
+        [
+          "Ba",
+          "Nd",
+          "Ni",
+          "W"
+        ],
+        [
+          "Eu",
+          "Nb",
+          "Sn",
+          "Tl"
+        ],
+        [
+          "Ce",
+          "Er",
+          "Pb",
+          "Rh"
+        ],
+        [
+          "Dy",
+          "K",
+          "Pd",
+          "Sm"
+        ],
+        [
+          "Co",
+          "Dy",
+          "Ta",
+          "Y"
+        ],
+        [
+          "Au",
+          "Cr",
+          "Cs",
+          "Dy"
+        ],
+        [
+          "Ca",
+          "Pd",
+          "Sn",
+          "W"
+        ],
+        [
+          "Au",
+          "Tb",
+          "V",
+          "Y"
+        ],
+        [
+          "Ce",
+          "Ir",
+          "Pt",
+          "Sn"
+        ],
+        [
+          "Ba",
+          "Be",
+          "Hf",
+          "Li"
+        ]
+      ],
+      "fresh_official_relative_path": "vendor/MADE/data/systems_10_mp_20/systems_quaternary_n10_maxatoms20_intermetallic_smact.json",
+      "fresh_official_sha256": "06be4f71fee49164dcc647dfc6782e6d06da94b0064989ace70df9fed823c20d",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": false,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json",
+      "kind": "made_systems",
+      "filename": "systems_quinary_n10_maxatoms20_intermetallic_smact.json",
+      "size_bytes": 578,
+      "mtime_utc": "2026-08-30T21:13:58+00:00",
+      "sha256": "4644e82ab6a5b29574cc06c46d9ca02e9f0fdaece03ffb4b9acd0ede83bd2a1a",
+      "json_type": "list",
+      "json_count": 10,
+      "systems": [
+        [
+          "Cd",
+          "Li",
+          "Nd",
+          "Ti",
+          "W"
+        ],
+        [
+          "Cd",
+          "Gd",
+          "Mn",
+          "Na",
+          "Ta"
+        ],
+        [
+          "Co",
+          "Hg",
+          "Mg",
+          "Sr",
+          "W"
+        ],
+        [
+          "Ca",
+          "Fe",
+          "Gd",
+          "Pb",
+          "Tb"
+        ],
+        [
+          "Al",
+          "Hg",
+          "K",
+          "Mg",
+          "W"
+        ],
+        [
+          "Ag",
+          "Nd",
+          "Pd",
+          "Pt",
+          "Tb"
+        ],
+        [
+          "Al",
+          "Lu",
+          "Pt",
+          "Rb",
+          "Sm"
+        ],
+        [
+          "Co",
+          "Hf",
+          "In",
+          "Ru",
+          "Tm"
+        ],
+        [
+          "Ho",
+          "In",
+          "Mg",
+          "Pd",
+          "Zr"
+        ],
+        [
+          "Cr",
+          "Fe",
+          "Lu",
+          "Pt",
+          "Sc"
+        ]
+      ],
+      "fresh_official_relative_path": "vendor/MADE/data/systems_10_mp_20/systems_quinary_n10_maxatoms20_intermetallic_smact.json",
+      "fresh_official_sha256": "4644e82ab6a5b29574cc06c46d9ca02e9f0fdaece03ffb4b9acd0ede83bd2a1a",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": false,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json",
+      "realpath": "/mnt/ai-material-data/users/zhanghuan28/EvoScientist/benchmarks/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json",
+      "kind": "made_systems",
+      "filename": "systems_ternary_n10_maxatoms20_intermetallic_smact.json",
+      "size_bytes": 378,
+      "mtime_utc": "2026-08-30T21:13:58+00:00",
+      "sha256": "c97a6f89b3039b0047801916e7d7cf1398577aa039d9d599a10bdfbcb3cc6fcb",
+      "json_type": "list",
+      "json_count": 10,
+      "systems": [
+        [
+          "Mg",
+          "Sn",
+          "Sr"
+        ],
+        [
+          "Au",
+          "K",
+          "Tb"
+        ],
+        [
+          "Co",
+          "Mg",
+          "Na"
+        ],
+        [
+          "Hf",
+          "Ni",
+          "Zr"
+        ],
+        [
+          "Co",
+          "Dy",
+          "W"
+        ],
+        [
+          "Ga",
+          "Pt",
+          "Tm"
+        ],
+        [
+          "Ga",
+          "Ho",
+          "Lu"
+        ],
+        [
+          "Al",
+          "Li",
+          "V"
+        ],
+        [
+          "Al",
+          "V",
+          "Zn"
+        ],
+        [
+          "Co",
+          "Pd",
+          "Tl"
+        ]
+      ],
+      "fresh_official_relative_path": "vendor/MADE/data/systems_10_mp_20/systems_ternary_n10_maxatoms20_intermetallic_smact.json",
+      "fresh_official_sha256": "c97a6f89b3039b0047801916e7d7cf1398577aa039d9d599a10bdfbcb3cc6fcb",
+      "byte_identical_to_fresh_official_checkout": true,
+      "reuse_allowed": true,
+      "destination_policy": "Use asset bytes only with fresh source and fresh environment; copy to new project asset store or refer read-only; verify sha256 before load; write caches/logs/checkpoints only under new project.",
+      "verification_status": "byte_identical_to_fresh_official_commit",
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "preferred_copy": false,
+      "leakage_note": "Use only in the role assigned by the official fixed evaluator/task manifest. Full MP energy table is label-bearing and must not be exposed to candidate selection or optimization beyond the official protocol."
+    }
+  ],
+  "excluded_candidate_datasets": [
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/data/li_o_candidates.json",
+      "classification": "old_task_specific_candidate_dataset_not_approved_for_reuse",
+      "json_type": "list",
+      "json_count": 23,
+      "item_keys": [
+        "material_id",
+        "formula",
+        "e_above_hull"
+      ]
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/data/multi_system/co_mg_na.json",
+      "classification": "old_task_specific_candidate_dataset_not_approved_for_reuse",
+      "json_type": "list",
+      "json_count": 4,
+      "item_keys": [
+        "material_id",
+        "formula",
+        "e_above_hull"
+      ]
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/data/multi_system/fe_o_p.json",
+      "classification": "old_task_specific_candidate_dataset_not_approved_for_reuse",
+      "json_type": "list",
+      "json_count": 60,
+      "item_keys": [
+        "material_id",
+        "formula",
+        "e_above_hull"
+      ]
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/data/multi_system/li_fe_o.json",
+      "classification": "old_task_specific_candidate_dataset_not_approved_for_reuse",
+      "json_type": "list",
+      "json_count": 60,
+      "item_keys": [
+        "material_id",
+        "formula",
+        "e_above_hull"
+      ]
+    },
+    {
+      "path": "/mnt/ai-material-data/users/zhanghuan28/made_crv_esopt_clean_20260911/data/multi_system/mg_sn_sr.json",
+      "classification": "old_task_specific_candidate_dataset_not_approved_for_reuse",
+      "json_type": "list",
+      "json_count": 6,
+      "item_keys": [
+        "material_id",
+        "formula",
+        "e_above_hull"
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "audit_time_utc": "2026-09-15T08:52:41.750000+00:00",
+  "audit_mode": "read_only_remote_no_download_no_install_no_torch_deserialization",
+  "remote_new_project": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607",
+  "code_reuse_allowed": false,
+  "old_results_reuse_allowed": false,
+  "search_scope": {
+    "allowed_roots": [
+      "/mnt/ai-material-data/users/zhanghuan28",
+      "/root/ckpts",
+      "/root/checkpoints",
+      "/root/.cache/cached_path",
+      "/root/.cache/mace"
+    ],
+    "path_only_availability_check": [
+      "pw.x",
+      "ev.x",
+      "qe",
+      "mpirun"
+    ],
+    "excluded_content": [
+      "old implementation source",
+      "virtual environments and package overlays",
+      "old experiment results",
+      "agent checkpoints and trajectories",
+      "credentials"
+    ],
+    "file_inventory_count_under_user_root_after_pruning": 2627,
+    "follow_directory_symlinks": false,
+    "limitations": "Not a full server filesystem search. No QE module activation or probing outside allowed roots. No torch/pickle deserialization and no model inference."
+  },
+  "not_found": [
+    {
+      "asset": "frozen_materials_project_raw_entries_with_structures",
+      "status": "not_found_in_audited_scope",
+      "impact": "Official MADE PhaseDiagramDataset still requires fresh MP API retrieval and a frozen snapshot; scalar energy/candidate tables cannot substitute."
+    },
+    {
+      "asset": "crystalgym_mp20_train_val_csv",
+      "status": "not_found_in_existing_remote_assets",
+      "impact": "Use data from the fresh official CrystalGym checkout, not an old candidate table. Official fresh local copies are available."
+    },
+    {
+      "asset": "sssp_1.3.0_pbe_efficiency_upf_or_archive",
+      "status": "not_found_in_audited_scope",
+      "impact": "Acquire official archive and verify checksum before DFT."
+    },
+    {
+      "asset": "quantum_espresso_pw_x_ev_x",
+      "status": "not_found_in_audited_scope_or_PATH",
+      "version": null,
+      "impact": "No reusable QE installation verified. Both pw.x and ev.x are required."
+    },
+    {
+      "asset": "mpirun",
+      "status": "not_found_in_current_PATH",
+      "impact": "A clean MPI/QE installation or explicitly loaded external installation remains required."
+    }
+  ],
+  "excluded_incomplete_assets": [
+    {
+      "path": "/root/.cache/mace/20231203mace128L1_epoch199model.download",
+      "size_bytes": 13328706,
+      "sha256": "3d2fc76d0ebcd1f9767a36fa38128ab6e7436599f7266d8bf599325cb077ebbb",
+      "zip_valid": false,
+      "reuse_allowed": false,
+      "reason": "Incomplete download; complete 44422970-byte sibling exists."
+    },
+    {
+      "path": "/root/.cache/mace/.20231203mace128L1_epoch199model.parts",
+      "reuse_allowed": false,
+      "reason": "Partial download staging directory; not a model."
+    },
+    {
+      "path": "/root/checkpoints",
+      "reuse_allowed": false,
+      "reason": "Observed experiment/agent checkpoint directory names; not inspected or reused as pretrained weights or data."
+    }
+  ],
+  "fresh_local_crystalgym_data": [
+    {
+      "relative_path": "vendor/crystal-gym/crystal_gym/data/mp_20/train.csv",
+      "sha256": "133bab58dba02d316f9f91174839f17802dce648be4e8659d1a42b32b97fa01d",
+      "origin": "fresh official clone d4191966ea6662f60d6f58f84e3c2e1457750075",
+      "not_reused_old_server_data": true
+    },
+    {
+      "relative_path": "vendor/crystal-gym/crystal_gym/data/mp_20/val.csv",
+      "sha256": "7b5f4085464b3eac9fd2123acee97ec372214004ce7e983b535b33395abc3e29",
+      "origin": "fresh official clone d4191966ea6662f60d6f58f84e3c2e1457750075",
+      "not_reused_old_server_data": true
+    }
+  ],
+  "leakage_and_reuse_rules": [
+    "Do not reuse old evaluation histories, trajectories, scores, evolved prompts, tuned agents or task checkpoints.",
+    "Old candidate JSON files contain material_id/formula/e_above_hull and no crystal structures: they are label-bearing task subsets, not a frozen full MP raw-entry snapshot. Exclude them.",
+    "Maintain CrystalGym mixed training indices [630,2271,8354,8666,8906] and held-out indices [3403,2190]; never optimize prompts or policies on held-out outcomes.",
+    "Reusing official pretrained weights/data preserves baseline training overlap and does not establish unseen-pretraining claims.",
+    "Do not expose MP energy labels or ground-truth evaluator state to method optimization outside the official observation interface.",
+    "All assets need a pre-load hash check. New experiment outputs must be generated only in the new remote project."
+  ]
+}
