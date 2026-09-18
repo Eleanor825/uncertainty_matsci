@@ -1,6 +1,10 @@
 # Time-stamped MADE results
 
-These are small **derived exports of observed experiment results**, including earlier negative outcomes and incomplete snapshots. Latest statistical observation: **2026-09-18 18:44:26 CST / 10:44:26 UTC**. No experiment was rerun to create this release.
+These are **derived exports of observed experiment results**, including negative outcomes and incomplete snapshots. Latest observation: **2026-09-19 01:10:39 CST / September18 17:10:39 UTC**. No experiment was rerun to create this release.
+
+The [latest full report](budget_sweep/20260919T010939_CST/report.md) and [180-row planned matrix](budget_sweep/20260919T010939_CST/all_system_results.csv) cover B10/B30/B50 for every one of the30 systems and both methods. B10/B30 are complete. B50 has34/60 completed trajectories and4/30 completed pairs; final missing metrics are blank. B50's4 paired systems have SUN63→39 and mean AUDC0.3539→0.2285, with1 improvement and3 declines on both metrics. The full B50 arm has completed all30 systems, but its all30 aggregate must not be compared against only4 baselines.
+
+The following table preserves the earlier observations and is not a live progress table.
 
 | Snapshot / cohort | Budget | Completed trajectories | Complete pairs | SUN total, baseline → full | Mean AUDC, baseline → full |
 |---|---:|---:|---:|---:|---:|
@@ -20,6 +24,7 @@ B10 and B30 data are complete:60 real trajectories and30 pairs each, checked thr
 
 ## Files
 
+- Latest per-system tables: [B10](budget_sweep/20260919T010939_CST/systems_B10.md), [B30](budget_sweep/20260919T010939_CST/systems_B30.md), [B50](budget_sweep/20260919T010939_CST/systems_B50.md). [Mean/variance/SD data](budget_sweep/20260919T010939_CST/statistics.csv) and [recomputation script](budget_sweep/20260919T010939_CST/recompute.py) cover the same observation.
 - [index.json](index.json): historical snapshot index plus the dated statistical-export index.
 - [statistics/b10_b30_complete_20260918T184426_CST](statistics/b10_b30_complete_20260918T184426_CST/README.md): complete B10/B30 pairs, mean/variance/SD tables, source hashes and a stdlib-only reproducible `analyze.py`.
 - `snapshots/<id>/trajectories.csv`: every completed test trajectory in that snapshot; model/method/system/seed/budget and SUN/AUDC/mSUN.

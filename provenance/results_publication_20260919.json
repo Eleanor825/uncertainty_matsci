@@ -1,0 +1,52 @@
+{
+  "schema": "public_results_validation_receipt_v1",
+  "parent_commit": "5dca1556f6c3dd60de4f90f48178741ca11b43e1",
+  "observation_CST": "2026-09-19T01:10:39.978473+08:00",
+  "validated_at_utc": "2026-09-18T17:21:47.897225+00:00",
+  "new_export_directory": "results/budget_sweep/20260919T010939_CST",
+  "new_export_manifest_sha256": "4ad2d5d224b9e85bb46a71afecae7db88a303413ab4e75276ea97b92611367b5",
+  "global_manifest_sha256": "5bf0cdc709210a30ce190590dd4a840dea9e1aa39ec4bbc2261c999c9d408093",
+  "checks": {
+    "global_export_validation": {
+      "passed": true,
+      "historical_and_current_snapshots": 5,
+      "distinct_physical_trajectories": 154,
+      "export_hashes_checked": 53
+    },
+    "new_export_recomputation": {
+      "passed": true,
+      "planned_rows": 180,
+      "completed_trajectories": 154,
+      "curve_points": 4254,
+      "complete_pairs_by_budget": {
+        "10": 30,
+        "30": 30,
+        "50": 4
+      },
+      "completed_trajectory_candidate_attempts": 4100,
+      "file_hashes_checked": 16
+    },
+    "git_diff_check_passed": true,
+    "local_markdown_links_resolve": true,
+    "new_files_are_regular_and_small": true,
+    "targeted_private_content_scan_matches": 0,
+    "scientific_sources_and_previous_snapshots_unchanged": true,
+    "git_diff_check_command": "git -c core.whitespace=trailing-space,space-before-tab,cr-at-eol diff --cached --check",
+    "csv_line_endings": "Standard CSV CRLF preserved byte-for-byte from the validated export; cr-at-eol is accepted by the whitespace check.",
+    "independent_review": {
+      "passed": true,
+      "planned_combinations": 180,
+      "complete_trajectories": 154,
+      "curve_points_matched_to_original_audited_sources": 4254,
+      "statistics_rows": 45,
+      "complete_pairs": 64,
+      "timing_cost_rows": 154,
+      "markdown_system_rows": 90,
+      "new_export_files_match_frozen_source": 17,
+      "outstanding_blockers": 0
+    }
+  },
+  "scientific_oracle_calls_for_publication": 0,
+  "model_calls_for_publication": 0,
+  "scope": "Result export/consistency validation only; no new experiment or global scientific acceptance is asserted."
+}

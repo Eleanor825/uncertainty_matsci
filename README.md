@@ -6,7 +6,7 @@ This repository contains the actual frozen server code used by the current budge
 
 ## Results and scope
 
-See [the dated results report](docs/results.md) and [the export manifest](results/manifest.json). Historical two- and five-system results, the September18 01:04 partial snapshot, and the 15:32 snapshot remain separate. Negative comparisons are retained. Completion counts and paired denominators are stated per snapshot; the later snapshot is not presented as a result available the previous night.
+See [the latest per-system and aggregate report](results/budget_sweep/20260919T010939_CST/report.md), [all 180 planned trajectory rows](results/budget_sweep/20260919T010939_CST/all_system_results.csv), [the results chronology](docs/results.md), and [the export manifest](results/manifest.json). The latest observation is September19 at01:10:39 CST: B10 and B30 each have60/60 completed trajectories; B50 has34/60, including all30 full-method trajectories and4 baselines. Comparisons at B50 use only those4 matched systems, not the unequal completed-arm populations. Historical snapshots and all negative or tied outcomes are retained; unfinished final metrics remain unavailable.
 
 The registered expansion preserves the prior60 B10 trajectories and adds120 independent B30/B50 trajectories over the same30 official MADE test systems. It reuses the selected G2 policy and frozen uncertainty/transcoder models; it does not retrain on these test results. The scheduler reserves all B30 jobs before it can reserve B50 jobs. This is a **claim-order** guarantee, not a guarantee that every B30 trajectory finishes before B50 starts.
 
@@ -56,6 +56,7 @@ For result-export consistency without model loading:
 
 ```sh
 python3 results/validate_exports.py
+python3 results/budget_sweep/20260919T010939_CST/recompute.py
 ```
 
 ## Scientific execution

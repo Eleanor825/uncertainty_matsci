@@ -1,8 +1,33 @@
 # Experiment results and historical snapshots
 
-The release preserves the experiment's chronology. It reports real MADE test outcomes for **Qwen3.5-4B, seed1, baseline versus the fixed G2 `esopt_graph_risk` method**. B10, B30 and B50 are independent episodes. The latest statistical export was observed on **2026-09-18 18:44:26 CST (10:44:26 UTC)**; it is not a live dashboard. Earlier dated snapshots remain unchanged.
+The release preserves the experiment's chronology. It reports real MADE test outcomes for **Qwen3.5-4B, seed1, baseline versus the fixed G2 `esopt_graph_risk` method**. B10, B30 and B50 are independent episodes. The latest export was observed on **2026-09-19 01:10:39 CST (September18 17:10:39 UTC)**; it is not a live dashboard. Earlier dated snapshots remain unchanged.
 
-## Outcomes
+## Latest per-system and aggregate export
+
+The [full report](../results/budget_sweep/20260919T010939_CST/report.md) includes every registered chemical system at each budget. The [180-row matrix](../results/budget_sweep/20260919T010939_CST/all_system_results.csv) contains both methods for all30 systems and all3 budgets. Final metrics for unfinished trajectories are blank, not zero. The export also includes complete-pair tables, cumulative discovery curves, per-arm and matched-cohort statistics, source hashes, and a reproducible validation script.
+
+Readable tables for all30 systems: [B10](../results/budget_sweep/20260919T010939_CST/systems_B10.md), [B30](../results/budget_sweep/20260919T010939_CST/systems_B30.md), [B50 including unfinished status](../results/budget_sweep/20260919T010939_CST/systems_B50.md).
+
+| Budget | Completed trajectories | Complete system pairs | SUN total, baseline → full, matched systems | Mean AUDC, baseline → full, matched systems | SUN wins / ties / losses |
+|---|---:|---:|---:|---:|---:|
+| B10 | 60/60 | 30/30 | 42 → 54 | 0.154667 → 0.188667 | 7 / 18 / 5 |
+| B30 | 60/60 | 30/30 | 136 → 97 | 0.160815 → 0.124185 | 5 / 17 / 8 |
+| B50, incomplete | 34/60 | 4/30 | 63 → 39 | 0.353900 → 0.228500 | 1 / 0 / 3 |
+
+B50 has all30 full-method results but only4 completed baselines, with10 baseline trajectories active and16 unclaimed at the snapshot. The full arm's all30-system SUN total is147 and its mean AUDC is0.112786667. A baseline aggregate over all30 systems is not yet available. The B50 comparison above instead uses the same4 completed systems in both arms; it is not an estimate over the completed full arm alone and is not the final all30-system comparison.
+
+| Completed B50 system | Baseline SUN | Full SUN | Baseline AUDC | Full AUDC |
+|---|---:|---:|---:|---:|
+| Al-Li-V | 22 | 3 | 0.4776 | 0.0844 |
+| Al-V-Zn | 22 | 17 | 0.5000 | 0.3940 |
+| Co-Dy-W | 1 | 0 | 0.0340 | 0.0000 |
+| Ga-Ho-Lu | 18 | 19 | 0.4040 | 0.4356 |
+
+Ga-Ho-Lu is a positive B50 example on both metrics. The other3 completed pairs are negative on both metrics. The partial matched mean is lower under the full method, and the remaining26 system pairs are unresolved. All outcomes are retained without tuning the evaluated model or controller on these results.
+
+Means, sample variances and SDs use chemical systems as the observation unit at **seed1**; sample variance has **ddof=1**. Each arm's completed-cohort statistics and matched-cohort statistics have separate denominators. A partial cohort is not representative by construction, and this export does not establish seed-to-seed repeatability, an isolated uncertainty-controller effect, or statistical significance. SnAr diagnostics and other benchmarks are not mixed into these MADE results.
+
+## Historical outcomes
 
 The original two-system B10 comparison had unchanged final SUN (6 versus6) and lower mean AUDC under the full method (0.34→0.25). The original five-system comparison was also negative: SUN12→6 and AUDC0.296→0.100. These results remain in the release.
 
@@ -79,6 +104,7 @@ Validate the published export with:
 ```sh
 python3 results/validate_exports.py
 python3 results/statistics/b10_b30_complete_20260918T184426_CST/analyze.py
+python3 results/budget_sweep/20260919T010939_CST/recompute.py
 ```
 
 The statistics script uses only the standard library and regenerates its two output files from the published pairs. Publication checks confirmed byte-identical regeneration, matched all30 B10 pairs to the earlier public export, and recomputed all60 B30 metrics from the audited RPC curves. The B30 audit snapshot SHA256 is `2297d8394f4d1e0662700a42d5da8ed13d7eb87738f8029c9ca4b41c59aa4822`; per-result/receipt/RPC hashes are retained in the statistical export provenance.

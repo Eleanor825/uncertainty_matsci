@@ -1,0 +1,70 @@
+{
+  "B10_acceptance_evidence": "Original five-system imported cohort (10 trajectories) uses the existing five-system final receipt; the remaining50 trajectories use source-recorded worker ledgers. Missing per-job receipt hashes stay blank and are not fabricated.",
+  "B10_published_snapshot_cache_hash_verified": "df28e423b3bda1e139b09e2ad891ca32c752975b54f1ec1245cbc1706a2a2af0",
+  "B10_source_observation_CST": "2026-09-18T15:32:27.562312+08:00",
+  "B30_source_observation_CST": "2026-09-18T18:44:26.822961+08:00",
+  "B50_curves": "Initial fresh observer verified each complete RPC discovery curve equals result curve. Export then reread only the small immutable result JSON with the already verified SHA; raw_RPC SHA is source-bound artifact metadata in that envelope, not an additional full-RPC rehash.",
+  "B50_source_observation_CST": "2026-09-19T01:10:39.978473+08:00",
+  "execution_source_applicability": {
+    "all30_frozen_made_all30_runner.py": "The50 new all30 B10 extension jobs. It is not asserted to have executed the original two/five-system jobs.",
+    "known_execution_source_sha256_is_current_chain_context_not_historical_override": true,
+    "original_core_and_five_system_jobs": "Their original scope fingerprints and raw result hashes remain authoritative; later inclusion does not relabel their executing source.",
+    "sweep_frozen_made_budget_runner.py": "New B30/B50 sweep jobs only. It is not asserted to have executed any B10 historical job."
+  },
+  "known_execution_source_sha256": {
+    "all30_frozen_made_all30_runner.py": "3573a8e712bb5f7cad99cdc00f764cc4e57e47849f054a011854777f59986f6d",
+    "sweep_frozen_made_budget_runner.py": "ce38b4614d67cbf50423808bb9f61a87660c5b72efd8023dfd4acc833bce5d66"
+  },
+  "known_method_parameter_hashes": {
+    "baseline": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516",
+    "esopt_graph_risk": "2e5adce2a0d3785a1e1df3c41888f42eed2a23b9e175e3e0b1a4e1d3ef534fff"
+  },
+  "known_model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "metrics": "SUN final count; mSUN=SUN/B; AUDC=2*trapezoidal_integral(SUN vs query)/B^2 including(0,0). Variance is sample variance ddof1 across systems at seed1; not variation across training/evaluation seeds.",
+  "model_calls_for_export": 0,
+  "path_policy": "All raw paths are relative to the original experiment project, not files promised in this repository. Original byte hashes are distinct from derived export hashes. Private actor/host/auth/runtime configurations and raw RPC bodies are omitted.",
+  "previous_pair_file_hashes_unchanged": {
+    "pairs_B10.csv": "976e1d17a1cfe77582b7220003c7983cdc2e1f2c767097ad47f3ad0507fecc23",
+    "pairs_B30.csv": "af93aebd057ac8a8d777022ec3684e41975437eec4e00797e8ccf4c0a0c4731f"
+  },
+  "schema": "public_derived_results_provenance_v1",
+  "scientific_oracle_calls_for_export": 0,
+  "scope_fingerprints": {
+    "B30_B50_sweep": "407b6cf226a47ce6b1d52bef8e8ed617abeabb9f70d3ee9df3e4d946da0d3f95",
+    "all30_B10_extension": "a33c801bf2cea72eb048a23ac231144ffcdb0cbbb32a7bbc141aad22764f4140",
+    "five_system_extension": "2e1c40d56bbde23fe1c4a42b1afda84dd7fb5ba4d1879723a90a24636219f274",
+    "parent_fast_core": "725a5febe58990defc7a681dce24b503bbf605016f410d089ee36a128210b154"
+  },
+  "source_cache_artifacts": [
+    {
+      "path": "technical_not_main/made_all30_v1/unified_status_20260918_153227/snapshot.json",
+      "reverified_remote_this_export": false,
+      "sha256": "df28e423b3bda1e139b09e2ad891ca32c752975b54f1ec1245cbc1706a2a2af0"
+    },
+    {
+      "path": "technical_not_main/made_all30_v1/budget_variance_20260918_184426/snapshot.json",
+      "reverified_remote_this_export": false,
+      "sha256": "2297d8394f4d1e0662700a42d5da8ed13d7eb87738f8029c9ca4b41c59aa4822"
+    },
+    {
+      "path": "technical_not_main/made_all30_v1/mean_variance_20260918_184426/pairs_B10.csv",
+      "reverified_remote_this_export": false,
+      "sha256": "976e1d17a1cfe77582b7220003c7983cdc2e1f2c767097ad47f3ad0507fecc23"
+    },
+    {
+      "path": "technical_not_main/made_all30_v1/mean_variance_20260918_184426/pairs_B30.csv",
+      "reverified_remote_this_export": false,
+      "sha256": "af93aebd057ac8a8d777022ec3684e41975437eec4e00797e8ccf4c0a0c4731f"
+    },
+    {
+      "path": "internal/raw_B50_snapshot.json",
+      "reverified_remote_this_export": true,
+      "sha256": "5ba43cf5e5bd8685bde31bc0eb4a161c160152ac8e4d0f3c833a6bc2cae3b9ad"
+    },
+    {
+      "path": "internal/B50_verified_result_curves.json",
+      "reverified_remote_this_export": true,
+      "sha256": "1d1dbf17e0fa521a54ca5873f695599a2f38b4182522dbe2f3916ae88a589af7"
+    }
+  ]
+}

@@ -1,25 +1,115 @@
 {
   "schema": "derived_public_results_manifest_v1",
-  "latest_observation_utc": "2026-09-18T10:44:26.822934+00:00",
+  "latest_observation_utc": "2026-09-18T17:10:39.978473+00:00",
   "raw_files_published": false,
   "source_hashes_and_export_hashes_are_distinct": true,
   "scientific_oracle_calls_for_export": 0,
   "model_calls_for_export": 0,
   "files": [
     {
+      "path": "README.md",
+      "bytes": 7932,
+      "export_sha256": "b86e304f6e1cb18bc2560df17cfbed5ca7120206629207e1480520588c2ff2dd"
+    },
+    {
       "path": "docs/results.md",
-      "bytes": 9679,
-      "export_sha256": "b603c2e4723d78c8e902ce7728b274cca6a9add03c4ad7ea193266be37452e1e"
+      "bytes": 12533,
+      "export_sha256": "b9ff9911ca4432d3dc053f0afef04c2b3ef956780353de69c335bd4b905bf9d4"
     },
     {
       "path": "results/README.md",
-      "bytes": 4035,
-      "export_sha256": "db468d4a7a5463e840f7bd5b8f90aada113923a4a7c9aaf313b9d00f9073dfcc"
+      "bytes": 5054,
+      "export_sha256": "8642016c8ca7ccf1cb02652a98fb528db0cf72afc9ef0571e1b6901ef0c5cf3d"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/all_system_results.csv",
+      "bytes": 55304,
+      "export_sha256": "b487fb776928c214a84d1738b28f38ed91da29d0b22528d4ff5d0a21da0cc5da"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/curves.csv",
+      "bytes": 337188,
+      "export_sha256": "6a29ffb45a08a227aa3a50f1ada0056eabbd0fec66a8cd0a189742d991b0ec42"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/manifest.json",
+      "bytes": 2719,
+      "export_sha256": "4ad2d5d224b9e85bb46a71afecae7db88a303413ab4e75276ea97b92611367b5"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/paired_B10.csv",
+      "bytes": 5682,
+      "export_sha256": "5fa88a3cb09ded1689d8e46d6b2717162ba15678be6c5799e40f1368900c8480"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/paired_B30.csv",
+      "bytes": 6458,
+      "export_sha256": "4a98d832408be4c7fa87f63777432e8b0baf711625467b5ca5c392b78ae1473b"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/paired_B50.csv",
+      "bytes": 979,
+      "export_sha256": "bfdba77a594a7ef61cfa4698135df15cfaa434db36bca0379a2d707e0ed894b7"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/paired_systems.csv",
+      "bytes": 12773,
+      "export_sha256": "983cbf7c230a0d1020035c3feddcf25600cf407ba7a45dc7d8bac651a0ce44f2"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/provenance.json",
+      "bytes": 4624,
+      "export_sha256": "dcda362c42e9ba9eedd8a39a6e866cd6f2507a36fe97988e1738557762ae9f27"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/recompute.py",
+      "bytes": 6010,
+      "export_sha256": "44ccca4dc7e5034da2e4a6c8f1c9fa276b015bd01965574c5ec9e3208106480b"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/report.md",
+      "bytes": 3027,
+      "export_sha256": "a904647b874a561baeb45152046a2e3ce3a5caa515603bdd24c5d3a3a2cc29a0"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/statistics.csv",
+      "bytes": 4300,
+      "export_sha256": "558dade4f5ecff71c57c7520cfab8ad42741cb6f0d38a81c9233517fb3742ce0"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/summary.json",
+      "bytes": 14337,
+      "export_sha256": "708a8892174de837ac3d66bce95c39f5fc603308b6aa8b3f7f753bc1e3a1d002"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/systems_B10.md",
+      "bytes": 3251,
+      "export_sha256": "6f0d032467605f45a0b429fb5dc022b7446770dd0da5f71f5aa61f3441634bef"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/systems_B30.md",
+      "bytes": 3267,
+      "export_sha256": "f693ffa6e11b945623d9c3cb35364d83f8319aa89aac89eccc74b982eb041f84"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/systems_B50.md",
+      "bytes": 3247,
+      "export_sha256": "b05a3e7bb5ab0b20e65cd03de962bf4d8f8b3de20e26cea7633c60ba6b51f2e7"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/timings_and_costs.csv",
+      "bytes": 20375,
+      "export_sha256": "8a6578b20747dbe55c6c4d3b90277e8064798fee8d12c371ba9c85a44b4a44b7"
+    },
+    {
+      "path": "results/budget_sweep/20260919T010939_CST/trajectories.csv",
+      "bytes": 168815,
+      "export_sha256": "493d0a74dd8c409c4de58ccb0197623651c0836a9370d25c91ce4de42a1372b4"
     },
     {
       "path": "results/index.json",
-      "bytes": 18926,
-      "export_sha256": "4f3269a0624647616d597004cbd8f1870603ebbb971a43567aa84a043b9ff2e1"
+      "bytes": 34746,
+      "export_sha256": "662c629a80ef189671c8dcb78d1f6327fea5dc298479a18dba8e6704b0549b6f"
     },
     {
       "path": "results/snapshots/core2_b10_20260917T083208Z/curves.csv",

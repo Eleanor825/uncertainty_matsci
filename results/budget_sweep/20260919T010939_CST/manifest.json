@@ -1,0 +1,88 @@
+{
+  "files": [
+    {
+      "bytes": 55304,
+      "export_sha256": "b487fb776928c214a84d1738b28f38ed91da29d0b22528d4ff5d0a21da0cc5da",
+      "path": "all_system_results.csv"
+    },
+    {
+      "bytes": 337188,
+      "export_sha256": "6a29ffb45a08a227aa3a50f1ada0056eabbd0fec66a8cd0a189742d991b0ec42",
+      "path": "curves.csv"
+    },
+    {
+      "bytes": 5682,
+      "export_sha256": "5fa88a3cb09ded1689d8e46d6b2717162ba15678be6c5799e40f1368900c8480",
+      "path": "paired_B10.csv"
+    },
+    {
+      "bytes": 6458,
+      "export_sha256": "4a98d832408be4c7fa87f63777432e8b0baf711625467b5ca5c392b78ae1473b",
+      "path": "paired_B30.csv"
+    },
+    {
+      "bytes": 979,
+      "export_sha256": "bfdba77a594a7ef61cfa4698135df15cfaa434db36bca0379a2d707e0ed894b7",
+      "path": "paired_B50.csv"
+    },
+    {
+      "bytes": 12773,
+      "export_sha256": "983cbf7c230a0d1020035c3feddcf25600cf407ba7a45dc7d8bac651a0ce44f2",
+      "path": "paired_systems.csv"
+    },
+    {
+      "bytes": 4624,
+      "export_sha256": "dcda362c42e9ba9eedd8a39a6e866cd6f2507a36fe97988e1738557762ae9f27",
+      "path": "provenance.json"
+    },
+    {
+      "bytes": 6010,
+      "export_sha256": "44ccca4dc7e5034da2e4a6c8f1c9fa276b015bd01965574c5ec9e3208106480b",
+      "path": "recompute.py"
+    },
+    {
+      "bytes": 3027,
+      "export_sha256": "a904647b874a561baeb45152046a2e3ce3a5caa515603bdd24c5d3a3a2cc29a0",
+      "path": "report.md"
+    },
+    {
+      "bytes": 4300,
+      "export_sha256": "558dade4f5ecff71c57c7520cfab8ad42741cb6f0d38a81c9233517fb3742ce0",
+      "path": "statistics.csv"
+    },
+    {
+      "bytes": 14337,
+      "export_sha256": "708a8892174de837ac3d66bce95c39f5fc603308b6aa8b3f7f753bc1e3a1d002",
+      "path": "summary.json"
+    },
+    {
+      "bytes": 3251,
+      "export_sha256": "6f0d032467605f45a0b429fb5dc022b7446770dd0da5f71f5aa61f3441634bef",
+      "path": "systems_B10.md"
+    },
+    {
+      "bytes": 3267,
+      "export_sha256": "f693ffa6e11b945623d9c3cb35364d83f8319aa89aac89eccc74b982eb041f84",
+      "path": "systems_B30.md"
+    },
+    {
+      "bytes": 3247,
+      "export_sha256": "b05a3e7bb5ab0b20e65cd03de962bf4d8f8b3de20e26cea7633c60ba6b51f2e7",
+      "path": "systems_B50.md"
+    },
+    {
+      "bytes": 20375,
+      "export_sha256": "8a6578b20747dbe55c6c4d3b90277e8064798fee8d12c371ba9c85a44b4a44b7",
+      "path": "timings_and_costs.csv"
+    },
+    {
+      "bytes": 168815,
+      "export_sha256": "493d0a74dd8c409c4de58ccb0197623651c0836a9370d25c91ce4de42a1372b4",
+      "path": "trajectories.csv"
+    }
+  ],
+  "new_model_calls_for_export": 0,
+  "new_scientific_oracle_calls_for_export": 0,
+  "schema": "derived_result_bundle_manifest_v1",
+  "source_hashes_and_export_hashes_are_distinct": true
+}
