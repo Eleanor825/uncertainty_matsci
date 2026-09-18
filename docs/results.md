@@ -1,31 +1,30 @@
 # Experiment results and historical snapshots
 
-The release preserves the experiment's chronology. It reports real MADE test outcomes for **Qwen3.5-4B, seed1, baseline versus the fixed G2 `esopt_graph_risk` method**. B10, B30 and B50 are independent episodes. The latest export was observed on **2026-09-19 01:10:39 CST (September18 17:10:39 UTC)**; it is not a live dashboard. Earlier dated snapshots remain unchanged.
+This release preserves the chronology of real MADE test outcomes for **Qwen3.5-4B, evaluation seed1, baseline versus the fixed G2 `esopt_graph_risk` method**. B10, B30 and B50 are independent episodes. The latest audit finished on **2026-09-19 05:21:38 CST (September18 21:21:38 UTC)**. Earlier dated snapshots remain unchanged.
 
-## Latest per-system and aggregate export
+## Complete B10/B30/B50 results
 
-The [full report](../results/budget_sweep/20260919T010939_CST/report.md) includes every registered chemical system at each budget. The [180-row matrix](../results/budget_sweep/20260919T010939_CST/all_system_results.csv) contains both methods for all30 systems and all3 budgets. Final metrics for unfinished trajectories are blank, not zero. The export also includes complete-pair tables, cumulative discovery curves, per-arm and matched-cohort statistics, source hashes, and a reproducible validation script.
+The [complete report](../results/budget_sweep/20260919T052138_CST/report.md) and [180-row system matrix](../results/budget_sweep/20260919T052138_CST/all_system_results.csv) now contain **180/180 completed trajectories and30/30 matched chemical-system pairs at each budget**. This comprises179 originally accepted results and **one independently reconciled Ga-Pt-Tm B50 baseline**; the original runner's failure record remains unchanged.
 
-Readable tables for all30 systems: [B10](../results/budget_sweep/20260919T010939_CST/systems_B10.md), [B30](../results/budget_sweep/20260919T010939_CST/systems_B30.md), [B50 including unfinished status](../results/budget_sweep/20260919T010939_CST/systems_B50.md).
+| Budget | Completed trajectories | Complete pairs | SUN total baseline → full | Mean AUDC baseline → full | SUN wins / ties / losses | AUDC wins / ties / losses |
+|---|---:|---:|---:|---:|---:|---:|
+| B10 | 60/60 | 30/30 | 42 → 54 | 0.154667 → 0.188667 | 7 / 18 / 5 | 8 / 16 / 6 |
+| B30 | 60/60 | 30/30 | 136 → 97 | 0.160815 → 0.124185 | 5 / 17 / 8 | 4 / 16 / 10 |
+| B50 | 60/60 | 30/30 | 233 → 147 | 0.158840 → 0.112787 | 9 / 10 / 11 | 10 / 10 / 10 |
 
-| Budget | Completed trajectories | Complete system pairs | SUN total, baseline → full, matched systems | Mean AUDC, baseline → full, matched systems | SUN wins / ties / losses |
-|---|---:|---:|---:|---:|---:|
-| B10 | 60/60 | 30/30 | 42 → 54 | 0.154667 → 0.188667 | 7 / 18 / 5 |
-| B30 | 60/60 | 30/30 | 136 → 97 | 0.160815 → 0.124185 | 5 / 17 / 8 |
-| B50, incomplete | 34/60 | 4/30 | 63 → 39 | 0.353900 → 0.228500 | 1 / 0 / 3 |
+The full method has a higher mean at B10 and lower means at B30 andB50 on both reported metrics. All positive, negative and zero outcomes are retained. These are descriptive comparisons for the fixed model/checkpoint and seed1; they do not establish general effectiveness or isolate the causal contribution of uncertainty guidance.
 
-B50 has all30 full-method results but only4 completed baselines, with10 baseline trajectories active and16 unclaimed at the snapshot. The full arm's all30-system SUN total is147 and its mean AUDC is0.112786667. A baseline aggregate over all30 systems is not yet available. The B50 comparison above instead uses the same4 completed systems in both arms; it is not an estimate over the completed full arm alone and is not the final all30-system comparison.
+Readable all30-system tables: [B10](../results/budget_sweep/20260919T052138_CST/systems_B10.md), [B30](../results/budget_sweep/20260919T052138_CST/systems_B30.md), [B50](../results/budget_sweep/20260919T052138_CST/systems_B50.md). The [paired CSV](../results/budget_sweep/20260919T052138_CST/paired_systems.csv) includes every system, SUN/mSUN/AUDC and full-minus-baseline differences. The last Al-Hg-K-Mg-W B50 baseline completed50 evaluations andclose with SUN0/AUDC0, matching the already-completed full arm.
 
-| Completed B50 system | Baseline SUN | Full SUN | Baseline AUDC | Full AUDC |
-|---|---:|---:|---:|---:|
-| Al-Li-V | 22 | 3 | 0.4776 | 0.0844 |
-| Al-V-Zn | 22 | 17 | 0.5000 | 0.3940 |
-| Co-Dy-W | 1 | 0 | 0.0340 | 0.0000 |
-| Ga-Ho-Lu | 18 | 19 | 0.4040 | 0.4356 |
+Ga-Pt-Tm baseline B50 completed its50 physical evaluations, but the original post-processing gate incorrectly required a nondecreasing discovery count. The official dynamic hull changed SUN from9 at step25 to7 at step26; the final SUN is18 andAUDC0.3664. The [independent reconciliation](../results/budget_sweep/20260919T052138_CST/ga_pt_tm_reconciliation.json) preserves that curve, hashes the original evidence and records explicit adoption for combined reporting. It does not fabricate an original runner success or rerun the experiment.
 
-Ga-Ho-Lu is a positive B50 example on both metrics. The other3 completed pairs are negative on both metrics. The partial matched mean is lower under the full method, and the remaining26 system pairs are unresolved. All outcomes are retained without tuning the evaluated model or controller on these results.
+**Run-to-run variance is unavailable:** every evaluated configuration has only seed1. [Seed coverage](../results/budget_sweep/20260919T052138_CST/seed_coverage.csv) records that absence. The sample variance/SD in [statistics.csv](../results/budget_sweep/20260919T052138_CST/statistics.csv) describe variation across chemical systems at seed1 (ddof=1), not different random-seed repetitions. A lower cross-system variance does not demonstrate more reliable uncertainty estimates.
 
-Means, sample variances and SDs use chemical systems as the observation unit at **seed1**; sample variance has **ddof=1**. Each arm's completed-cohort statistics and matched-cohort statistics have separate denominators. A partial cohort is not representative by construction, and this export does not establish seed-to-seed repeatability, an isolated uncertainty-controller effect, or statistical significance. SnAr diagnostics and other benchmarks are not mixed into these MADE results.
+The export contains [5,580 original-curve points](../results/budget_sweep/20260919T052138_CST/curves.csv), original result/RPC/receipt-or-ledger hashes, and [separate cost counters](../results/budget_sweep/20260919T052138_CST/cost_summary.csv). Completed evaluation candidate calls total5,400:600 atB10,1,800 atB30 and3,000 atB50. Initialization, surrogate calls, training, and offline diagnostics are not silently folded into this count. No scientific call was made to produce the export.
+
+The original global experiment publication receipt is **not asserted**: the old global path still has the unrevised GaPt acceptance failure. This snapshot is the explicitly documented combined result audit, not a claim that the original multi-model/multi-seed/CrystalGym study is complete.
+
+The earlier [01:10:39 CST snapshot](../results/budget_sweep/20260919T010939_CST/report.md) remains intact with154 completed trajectories and only4 B50 pairs. It is not retroactively labelled complete.
 
 ## Historical outcomes
 
@@ -77,11 +76,11 @@ Scope fingerprints are preserved in each provenance file:
 
 The B10 all30 runner source SHA is `3573a8e712bb5f7cad99cdc00f764cc4e57e47849f054a011854777f59986f6d`; the frozen sweep runner SHA is `ce38b4614d67cbf50423808bb9f61a87660c5b72efd8023dfd4acc833bce5d66`. Historical scopes used their own frozen sources. The code publication and the per-snapshot source fingerprints must not be conflated.
 
-B10 and B30 **data computation** were complete at the latest snapshot: their60 result/receipt identities and30 matched pairs per budget were checked against fixed profiles and original RPC evidence. This does not mean the three-budget global receipt was published. Global acceptance remains pending while B50 is unfinished; the administrative guard awaits120 new B30/B50 jobs. The original two-system core and five-system extension have separately preserved acceptance evidence. No full three-budget, multi-model, multi-seed or CrystalGym completion is claimed.
+At the earlier complete-B30 snapshot, B10 and B30 **data computation** were complete, while B50 was unfinished. The latest snapshot above now covers all180 trajectories, including explicit independent GaPt acceptance. This does not assert that the original global publication receipt has been repaired or emitted. The original two-system core and five-system extension have separately preserved acceptance evidence. Completion here is limited to the specified4B/seed1 three-budget data; multi-model, repeated-seed and CrystalGym study completion are not claimed.
 
 ## Metrics and time accounting
 
-Let `D(t)` be the cumulative official SUN discovery count after candidate attempt `t`, with `D(0)=0` and budget `B`:
+Let `D(t)` be the current official SUN discovery count (which may decrease as the hull changes) after candidate attempt `t`, with `D(0)=0` and budget `B`:
 
 - `SUN = D(B)`; stable/unique/novel status comes from the official recorded MADE results.
 - `mSUN = D(B) / B`.
@@ -93,7 +92,7 @@ Graph seconds are included in rollout wall time; adding them again would double-
 
 ## Provenance and publication boundary
 
-These files are **derived exports**, not byte-identical copies of private result envelopes or RPC logs. `raw_result_sha256` and `raw_RPC_sha256` identify original bytes recorded by the source audits; `results/manifest.json` hashes the different exported CSV/JSON bytes. A `source_relative_path` is relative to the original experiment root and does not imply that raw artifact is present in this repository. Local/remote account names and absolute storage paths were removed by field allowlisting.
+These files are **derived exports**, not byte-identical copies of private result envelopes or RPC logs. `raw_RPC_sha256` identifies original RPC bytes. The legacy `raw_result_sha256` identifies the actual source result envelope; for the explicitly labelled GaPt reconciliation this is the derived envelope, not an invented original result; `results/manifest.json` hashes the different exported CSV/JSON bytes. A `source_relative_path` is relative to the original experiment root and does not imply that raw artifact is present in this repository. Local/remote account names and absolute storage paths were removed by field allowlisting.
 
 The early two-system record was initially verified from a cached observer projection; its report was still running at that snapshot. A subsequent independent transfer verified the report/receipt chain, and later audits reverified the same result hashes. The five-system accepted receipt was observed in the later01:04 cache; its preserved mtime is23:23:21 CST on September17. The export labels this distinction rather than inventing an earlier observation timestamp.
 

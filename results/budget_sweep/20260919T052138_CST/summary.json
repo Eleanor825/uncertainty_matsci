@@ -1,0 +1,564 @@
+{
+  "available_evaluation_seeds": [
+    1
+  ],
+  "benchmark": "made",
+  "budgets": {
+    "10": {
+      "AUDC": {
+        "baseline": {
+          "SD": 0.25085692217337524,
+          "mean": 0.15466666666666667,
+          "n": 30,
+          "sample_variance": 0.06292919540229885
+        },
+        "baseline_mean": 0.15466666666666667,
+        "full": {
+          "SD": 0.27849018224920497,
+          "mean": 0.18866666666666668,
+          "n": 30,
+          "sample_variance": 0.07755678160919541
+        },
+        "full_mean": 0.18866666666666668,
+        "full_minus_baseline": 0.033999999999999996,
+        "losses": 6,
+        "paired_delta": {
+          "SD": 0.29899371461505736,
+          "mean": 0.033999999999999996,
+          "n": 30,
+          "sample_variance": 0.08939724137931035
+        },
+        "ties": 16,
+        "wins": 8
+      },
+      "SUN": {
+        "baseline": {
+          "SD": 2.313379376135923,
+          "mean": 1.4,
+          "n": 30,
+          "sample_variance": 5.351724137931034
+        },
+        "baseline_mean": 1.4,
+        "full": {
+          "SD": 2.5515377378330517,
+          "mean": 1.8,
+          "n": 30,
+          "sample_variance": 6.5103448275862075
+        },
+        "full_mean": 1.8,
+        "full_minus_baseline": 0.4,
+        "losses": 5,
+        "paired_delta": {
+          "SD": 2.6470543159754274,
+          "mean": 0.4,
+          "n": 30,
+          "sample_variance": 7.006896551724138
+        },
+        "ties": 18,
+        "wins": 7
+      },
+      "active_trajectories": 0,
+      "all_completed_single_arm": {
+        "baseline": {
+          "AUDC": {
+            "SD": 0.25085692217337524,
+            "mean": 0.15466666666666667,
+            "n": 30,
+            "sample_variance": 0.06292919540229885
+          },
+          "SUN": {
+            "SD": 2.313379376135923,
+            "mean": 1.4,
+            "n": 30,
+            "sample_variance": 5.351724137931034
+          },
+          "SUN_total": 42,
+          "completed": 30,
+          "expected": 30,
+          "mSUN": {
+            "SD": 0.2313379376135923,
+            "mean": 0.13999999999999999,
+            "n": 30,
+            "sample_variance": 0.05351724137931033
+          }
+        },
+        "esopt_graph_risk": {
+          "AUDC": {
+            "SD": 0.27849018224920497,
+            "mean": 0.18866666666666668,
+            "n": 30,
+            "sample_variance": 0.07755678160919541
+          },
+          "SUN": {
+            "SD": 2.5515377378330517,
+            "mean": 1.8,
+            "n": 30,
+            "sample_variance": 6.5103448275862075
+          },
+          "SUN_total": 54,
+          "completed": 30,
+          "expected": 30,
+          "mSUN": {
+            "SD": 0.25515377378330517,
+            "mean": 0.18,
+            "n": 30,
+            "sample_variance": 0.06510344827586208
+          }
+        }
+      },
+      "available_evaluation_seeds": [
+        1
+      ],
+      "complete_pairs": 30,
+      "completed_candidate_attempts": 600,
+      "completed_trajectories": 60,
+      "data_computation_complete": true,
+      "expected_trajectories": 60,
+      "failed_trajectories": 0,
+      "independently_derived_accepted_trajectories": 0,
+      "mSUN": {
+        "baseline": {
+          "SD": 0.2313379376135923,
+          "mean": 0.13999999999999999,
+          "n": 30,
+          "sample_variance": 0.05351724137931033
+        },
+        "baseline_mean": 0.13999999999999999,
+        "full": {
+          "SD": 0.25515377378330517,
+          "mean": 0.18,
+          "n": 30,
+          "sample_variance": 0.06510344827586208
+        },
+        "full_mean": 0.18,
+        "full_minus_baseline": 0.04,
+        "losses": 5,
+        "paired_delta": {
+          "SD": 0.26470543159754273,
+          "mean": 0.04,
+          "n": 30,
+          "sample_variance": 0.07006896551724137
+        },
+        "ties": 18,
+        "wins": 7
+      },
+      "original_posthoc_acceptance_failures_reconciled": 0,
+      "original_runner_accepted_trajectories": 60,
+      "paired_system_ids": [
+        "Ag-Nd-Pd-Pt-Tb",
+        "Al-Hg-K-Mg-W",
+        "Al-Li-V",
+        "Al-Lu-Pt-Rb-Sm",
+        "Al-V-Zn",
+        "Au-Cr-Cs-Dy",
+        "Au-K-Tb",
+        "Au-Tb-V-Y",
+        "Ba-Be-Hf-Li",
+        "Ba-Nd-Ni-W",
+        "Ca-Fe-Gd-Pb-Tb",
+        "Ca-Pd-Sn-W",
+        "Cd-Gd-Mn-Na-Ta",
+        "Cd-Li-Nd-Ti-W",
+        "Ce-Er-Pb-Rh",
+        "Ce-Ir-Pt-Sn",
+        "Co-Dy-Ta-Y",
+        "Co-Dy-W",
+        "Co-Hf-In-Ru-Tm",
+        "Co-Hg-Mg-Sr-W",
+        "Co-Mg-Na",
+        "Co-Pd-Tl",
+        "Cr-Fe-Lu-Pt-Sc",
+        "Dy-K-Pd-Sm",
+        "Eu-Nb-Sn-Tl",
+        "Ga-Ho-Lu",
+        "Ga-Pt-Tm",
+        "Hf-Ni-Zr",
+        "Ho-In-Mg-Pd-Zr",
+        "Mg-Sn-Sr"
+      ],
+      "pending_trajectories": 0,
+      "run_to_run_variance": null
+    },
+    "30": {
+      "AUDC": {
+        "baseline": {
+          "SD": 0.2424231886853526,
+          "mean": 0.16081481481481483,
+          "n": 30,
+          "sample_variance": 0.05876900241237406
+        },
+        "baseline_mean": 0.16081481481481483,
+        "full": {
+          "SD": 0.17562409141208268,
+          "mean": 0.12418518518518519,
+          "n": 30,
+          "sample_variance": 0.03084382148431957
+        },
+        "full_mean": 0.12418518518518519,
+        "full_minus_baseline": -0.03662962962962964,
+        "losses": 10,
+        "paired_delta": {
+          "SD": 0.1546025771488808,
+          "mean": -0.03662962962962964,
+          "n": 30,
+          "sample_variance": 0.023901956861075633
+        },
+        "ties": 16,
+        "wins": 4
+      },
+      "SUN": {
+        "baseline": {
+          "SD": 7.113529282330587,
+          "mean": 4.533333333333333,
+          "n": 30,
+          "sample_variance": 50.60229885057471
+        },
+        "baseline_mean": 4.533333333333333,
+        "full": {
+          "SD": 4.7027749206211205,
+          "mean": 3.2333333333333334,
+          "n": 30,
+          "sample_variance": 22.116091954022988
+        },
+        "full_mean": 3.2333333333333334,
+        "full_minus_baseline": -1.3,
+        "losses": 8,
+        "paired_delta": {
+          "SD": 4.3719324221044715,
+          "mean": -1.3,
+          "n": 30,
+          "sample_variance": 19.113793103448273
+        },
+        "ties": 17,
+        "wins": 5
+      },
+      "active_trajectories": 0,
+      "all_completed_single_arm": {
+        "baseline": {
+          "AUDC": {
+            "SD": 0.2424231886853526,
+            "mean": 0.16081481481481483,
+            "n": 30,
+            "sample_variance": 0.05876900241237406
+          },
+          "SUN": {
+            "SD": 7.113529282330587,
+            "mean": 4.533333333333333,
+            "n": 30,
+            "sample_variance": 50.60229885057471
+          },
+          "SUN_total": 136,
+          "completed": 30,
+          "expected": 30,
+          "mSUN": {
+            "SD": 0.2371176427443529,
+            "mean": 0.1511111111111111,
+            "n": 30,
+            "sample_variance": 0.056224776500638576
+          }
+        },
+        "esopt_graph_risk": {
+          "AUDC": {
+            "SD": 0.17562409141208268,
+            "mean": 0.12418518518518519,
+            "n": 30,
+            "sample_variance": 0.03084382148431957
+          },
+          "SUN": {
+            "SD": 4.7027749206211205,
+            "mean": 3.2333333333333334,
+            "n": 30,
+            "sample_variance": 22.116091954022988
+          },
+          "SUN_total": 97,
+          "completed": 30,
+          "expected": 30,
+          "mSUN": {
+            "SD": 0.15675916402070403,
+            "mean": 0.10777777777777778,
+            "n": 30,
+            "sample_variance": 0.024573435504469988
+          }
+        }
+      },
+      "available_evaluation_seeds": [
+        1
+      ],
+      "complete_pairs": 30,
+      "completed_candidate_attempts": 1800,
+      "completed_trajectories": 60,
+      "data_computation_complete": true,
+      "expected_trajectories": 60,
+      "failed_trajectories": 0,
+      "independently_derived_accepted_trajectories": 0,
+      "mSUN": {
+        "baseline": {
+          "SD": 0.2371176427443529,
+          "mean": 0.1511111111111111,
+          "n": 30,
+          "sample_variance": 0.056224776500638576
+        },
+        "baseline_mean": 0.1511111111111111,
+        "full": {
+          "SD": 0.15675916402070403,
+          "mean": 0.10777777777777778,
+          "n": 30,
+          "sample_variance": 0.024573435504469988
+        },
+        "full_mean": 0.10777777777777778,
+        "full_minus_baseline": -0.043333333333333335,
+        "losses": 8,
+        "paired_delta": {
+          "SD": 0.14573108073681576,
+          "mean": -0.043333333333333335,
+          "n": 30,
+          "sample_variance": 0.02123754789272031
+        },
+        "ties": 17,
+        "wins": 5
+      },
+      "original_posthoc_acceptance_failures_reconciled": 0,
+      "original_runner_accepted_trajectories": 60,
+      "paired_system_ids": [
+        "Ag-Nd-Pd-Pt-Tb",
+        "Al-Hg-K-Mg-W",
+        "Al-Li-V",
+        "Al-Lu-Pt-Rb-Sm",
+        "Al-V-Zn",
+        "Au-Cr-Cs-Dy",
+        "Au-K-Tb",
+        "Au-Tb-V-Y",
+        "Ba-Be-Hf-Li",
+        "Ba-Nd-Ni-W",
+        "Ca-Fe-Gd-Pb-Tb",
+        "Ca-Pd-Sn-W",
+        "Cd-Gd-Mn-Na-Ta",
+        "Cd-Li-Nd-Ti-W",
+        "Ce-Er-Pb-Rh",
+        "Ce-Ir-Pt-Sn",
+        "Co-Dy-Ta-Y",
+        "Co-Dy-W",
+        "Co-Hf-In-Ru-Tm",
+        "Co-Hg-Mg-Sr-W",
+        "Co-Mg-Na",
+        "Co-Pd-Tl",
+        "Cr-Fe-Lu-Pt-Sc",
+        "Dy-K-Pd-Sm",
+        "Eu-Nb-Sn-Tl",
+        "Ga-Ho-Lu",
+        "Ga-Pt-Tm",
+        "Hf-Ni-Zr",
+        "Ho-In-Mg-Pd-Zr",
+        "Mg-Sn-Sr"
+      ],
+      "pending_trajectories": 0,
+      "run_to_run_variance": null
+    },
+    "50": {
+      "AUDC": {
+        "baseline": {
+          "SD": 0.22394751478708208,
+          "mean": 0.15884,
+          "n": 30,
+          "sample_variance": 0.05015248937931035
+        },
+        "baseline_mean": 0.15884,
+        "full": {
+          "SD": 0.14826419972313015,
+          "mean": 0.11278666666666667,
+          "n": 30,
+          "sample_variance": 0.02198227291954023
+        },
+        "full_mean": 0.11278666666666667,
+        "full_minus_baseline": -0.046053333333333335,
+        "losses": 10,
+        "paired_delta": {
+          "SD": 0.17848860435629346,
+          "mean": -0.046053333333333335,
+          "n": 30,
+          "sample_variance": 0.031858181885057464
+        },
+        "ties": 10,
+        "wins": 10
+      },
+      "SUN": {
+        "baseline": {
+          "SD": 10.78531355620907,
+          "mean": 7.766666666666667,
+          "n": 30,
+          "sample_variance": 116.32298850574713
+        },
+        "baseline_mean": 7.766666666666667,
+        "full": {
+          "SD": 6.661003341632654,
+          "mean": 4.9,
+          "n": 30,
+          "sample_variance": 44.36896551724138
+        },
+        "full_mean": 4.9,
+        "full_minus_baseline": -2.8666666666666667,
+        "losses": 11,
+        "paired_delta": {
+          "SD": 9.231629785999173,
+          "mean": -2.8666666666666667,
+          "n": 30,
+          "sample_variance": 85.22298850574713
+        },
+        "ties": 10,
+        "wins": 9
+      },
+      "active_trajectories": 0,
+      "all_completed_single_arm": {
+        "baseline": {
+          "AUDC": {
+            "SD": 0.22394751478708208,
+            "mean": 0.15884,
+            "n": 30,
+            "sample_variance": 0.05015248937931035
+          },
+          "SUN": {
+            "SD": 10.78531355620907,
+            "mean": 7.766666666666667,
+            "n": 30,
+            "sample_variance": 116.32298850574713
+          },
+          "SUN_total": 233,
+          "completed": 30,
+          "expected": 30,
+          "mSUN": {
+            "SD": 0.2157062711241814,
+            "mean": 0.15533333333333332,
+            "n": 30,
+            "sample_variance": 0.04652919540229885
+          }
+        },
+        "esopt_graph_risk": {
+          "AUDC": {
+            "SD": 0.14826419972313015,
+            "mean": 0.11278666666666667,
+            "n": 30,
+            "sample_variance": 0.02198227291954023
+          },
+          "SUN": {
+            "SD": 6.661003341632654,
+            "mean": 4.9,
+            "n": 30,
+            "sample_variance": 44.36896551724138
+          },
+          "SUN_total": 147,
+          "completed": 30,
+          "expected": 30,
+          "mSUN": {
+            "SD": 0.13322006683265308,
+            "mean": 0.098,
+            "n": 30,
+            "sample_variance": 0.017747586206896555
+          }
+        }
+      },
+      "available_evaluation_seeds": [
+        1
+      ],
+      "complete_pairs": 30,
+      "completed_candidate_attempts": 3000,
+      "completed_trajectories": 60,
+      "data_computation_complete": true,
+      "expected_trajectories": 60,
+      "failed_trajectories": 0,
+      "independently_derived_accepted_trajectories": 1,
+      "mSUN": {
+        "baseline": {
+          "SD": 0.2157062711241814,
+          "mean": 0.15533333333333332,
+          "n": 30,
+          "sample_variance": 0.04652919540229885
+        },
+        "baseline_mean": 0.15533333333333332,
+        "full": {
+          "SD": 0.13322006683265308,
+          "mean": 0.098,
+          "n": 30,
+          "sample_variance": 0.017747586206896555
+        },
+        "full_mean": 0.098,
+        "full_minus_baseline": -0.057333333333333326,
+        "losses": 11,
+        "paired_delta": {
+          "SD": 0.18463259571998342,
+          "mean": -0.057333333333333326,
+          "n": 30,
+          "sample_variance": 0.03408919540229884
+        },
+        "ties": 10,
+        "wins": 9
+      },
+      "original_posthoc_acceptance_failures_reconciled": 1,
+      "original_runner_accepted_trajectories": 59,
+      "paired_system_ids": [
+        "Ag-Nd-Pd-Pt-Tb",
+        "Al-Hg-K-Mg-W",
+        "Al-Li-V",
+        "Al-Lu-Pt-Rb-Sm",
+        "Al-V-Zn",
+        "Au-Cr-Cs-Dy",
+        "Au-K-Tb",
+        "Au-Tb-V-Y",
+        "Ba-Be-Hf-Li",
+        "Ba-Nd-Ni-W",
+        "Ca-Fe-Gd-Pb-Tb",
+        "Ca-Pd-Sn-W",
+        "Cd-Gd-Mn-Na-Ta",
+        "Cd-Li-Nd-Ti-W",
+        "Ce-Er-Pb-Rh",
+        "Ce-Ir-Pt-Sn",
+        "Co-Dy-Ta-Y",
+        "Co-Dy-W",
+        "Co-Hf-In-Ru-Tm",
+        "Co-Hg-Mg-Sr-W",
+        "Co-Mg-Na",
+        "Co-Pd-Tl",
+        "Cr-Fe-Lu-Pt-Sc",
+        "Dy-K-Pd-Sm",
+        "Eu-Nb-Sn-Tl",
+        "Ga-Ho-Lu",
+        "Ga-Pt-Tm",
+        "Hf-Ni-Zr",
+        "Ho-In-Mg-Pd-Zr",
+        "Mg-Sn-Sr"
+      ],
+      "pending_trajectories": 0,
+      "run_to_run_variance": null
+    }
+  },
+  "complete_trajectories": 180,
+  "completed_trajectory_candidate_attempts": 5400,
+  "data_computation_complete": true,
+  "expected_trajectories": 180,
+  "global_acceptance_status": "Independent combined-results audit; original global publication is not asserted. GaPt original acceptance failure remains untouched and is explicitly adopted through an independent derived receipt.",
+  "independently_derived_accepted_trajectories": 1,
+  "limitations": [
+    "All results use one fixed model and evaluation seed1; run-to-run variance cannot be estimated.",
+    "B50 comparison uses only identical completed system pairs until all60 are complete.",
+    "The GaPt baseline is independently reconciled from its completed original physical trajectory; it was not accepted by the original runner.",
+    "Cross-system dispersion is not repeated-seed variance.",
+    "All negative/zero results and non-monotone official discovery counts are retained.",
+    "Training, initialization and surrogate/model/graph costs are not silently included in candidate-call totals."
+  ],
+  "model": "Qwen3.5-4B",
+  "model_calls_for_export": 0,
+  "model_key": "qwen35_4b",
+  "observation_CST": "2026-09-19T05:21:38.188817+08:00",
+  "original_global_receipt_exists_observed": {
+    "original_B10": false,
+    "original_B30_B50": false
+  },
+  "original_runner_accepted_trajectories": 179,
+  "paired_comparisons_use_identical_complete_system_sets": true,
+  "run_to_run_SD": null,
+  "run_to_run_sample_variance": null,
+  "sample_variance_ddof": 1,
+  "schema": "derived_public_result_snapshot_v2",
+  "scientific_oracle_calls_for_export": 0,
+  "seed": 1,
+  "snapshot_id": "b10_b30_b50_complete_20260919T052138_CST"
+}
