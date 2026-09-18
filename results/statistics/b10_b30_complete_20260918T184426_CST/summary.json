@@ -1,0 +1,361 @@
+{
+  "schema": "MADE_single_seed_cross_system_mean_variance_v1",
+  "as_of_CST": "2026-09-18T18:44:26+08:00",
+  "benchmark": "MADE",
+  "model": "Qwen3.5-4B",
+  "seed": 1,
+  "methods": {
+    "baseline": "original baseline",
+    "full": "fixed G2 ESOpt plus graph-risk policy"
+  },
+  "B10_and_B30_complete_pairs_each": 30,
+  "B50": {
+    "completed": 0,
+    "claimed_uncompleted": 10,
+    "unclaimed": 50,
+    "complete_pairs": 0
+  },
+  "sources": [
+    {
+      "file": "pairs_B10.csv",
+      "sha256": "976e1d17a1cfe77582b7220003c7983cdc2e1f2c767097ad47f3ad0507fecc23"
+    },
+    {
+      "file": "pairs_B30.csv",
+      "sha256": "af93aebd057ac8a8d777022ec3684e41975437eec4e00797e8ccf4c0a0c4731f"
+    }
+  ],
+  "statistics": [
+    {
+      "budget": 10,
+      "metric": "SUN",
+      "group": "baseline",
+      "n": 30,
+      "mean": 1.4,
+      "sample_variance_ddof1": 5.351724137931034,
+      "sample_sd_ddof1": 2.313379376135923,
+      "population_variance_ddof0": 5.173333333333333,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 10,
+      "metric": "SUN",
+      "group": "full",
+      "n": 30,
+      "mean": 1.8,
+      "sample_variance_ddof1": 6.5103448275862075,
+      "sample_sd_ddof1": 2.5515377378330517,
+      "population_variance_ddof0": 6.293333333333334,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 10,
+      "metric": "SUN",
+      "group": "full_minus_baseline",
+      "n": 30,
+      "mean": 0.4,
+      "sample_variance_ddof1": 7.006896551724138,
+      "sample_sd_ddof1": 2.6470543159754274,
+      "population_variance_ddof0": 6.773333333333333,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 10,
+      "metric": "mSUN",
+      "group": "baseline",
+      "n": 30,
+      "mean": 0.13999999999999999,
+      "sample_variance_ddof1": 0.05351724137931033,
+      "sample_sd_ddof1": 0.2313379376135923,
+      "population_variance_ddof0": 0.051733333333333326,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 10,
+      "metric": "mSUN",
+      "group": "full",
+      "n": 30,
+      "mean": 0.18,
+      "sample_variance_ddof1": 0.06510344827586208,
+      "sample_sd_ddof1": 0.25515377378330517,
+      "population_variance_ddof0": 0.06293333333333334,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 10,
+      "metric": "mSUN",
+      "group": "full_minus_baseline",
+      "n": 30,
+      "mean": 0.04,
+      "sample_variance_ddof1": 0.07006896551724137,
+      "sample_sd_ddof1": 0.26470543159754273,
+      "population_variance_ddof0": 0.06773333333333333,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 10,
+      "metric": "AUDC",
+      "group": "baseline",
+      "n": 30,
+      "mean": 0.15466666666666667,
+      "sample_variance_ddof1": 0.06292919540229885,
+      "sample_sd_ddof1": 0.25085692217337524,
+      "population_variance_ddof0": 0.06083155555555556,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 10,
+      "metric": "AUDC",
+      "group": "full",
+      "n": 30,
+      "mean": 0.18866666666666668,
+      "sample_variance_ddof1": 0.07755678160919541,
+      "sample_sd_ddof1": 0.27849018224920497,
+      "population_variance_ddof0": 0.07497155555555556,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 10,
+      "metric": "AUDC",
+      "group": "full_minus_baseline",
+      "n": 30,
+      "mean": 0.033999999999999996,
+      "sample_variance_ddof1": 0.08939724137931035,
+      "sample_sd_ddof1": 0.29899371461505736,
+      "population_variance_ddof0": 0.08641733333333333,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 30,
+      "metric": "SUN",
+      "group": "baseline",
+      "n": 30,
+      "mean": 4.533333333333333,
+      "sample_variance_ddof1": 50.60229885057471,
+      "sample_sd_ddof1": 7.113529282330587,
+      "population_variance_ddof0": 48.91555555555556,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 30,
+      "metric": "SUN",
+      "group": "full",
+      "n": 30,
+      "mean": 3.2333333333333334,
+      "sample_variance_ddof1": 22.116091954022988,
+      "sample_sd_ddof1": 4.7027749206211205,
+      "population_variance_ddof0": 21.378888888888888,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 30,
+      "metric": "SUN",
+      "group": "full_minus_baseline",
+      "n": 30,
+      "mean": -1.3,
+      "sample_variance_ddof1": 19.113793103448273,
+      "sample_sd_ddof1": 4.3719324221044715,
+      "population_variance_ddof0": 18.476666666666667,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 30,
+      "metric": "mSUN",
+      "group": "baseline",
+      "n": 30,
+      "mean": 0.1511111111111111,
+      "sample_variance_ddof1": 0.056224776500638576,
+      "sample_sd_ddof1": 0.2371176427443529,
+      "population_variance_ddof0": 0.054350617283950624,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 30,
+      "metric": "mSUN",
+      "group": "full",
+      "n": 30,
+      "mean": 0.10777777777777778,
+      "sample_variance_ddof1": 0.024573435504469988,
+      "sample_sd_ddof1": 0.15675916402070403,
+      "population_variance_ddof0": 0.023754320987654322,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 30,
+      "metric": "mSUN",
+      "group": "full_minus_baseline",
+      "n": 30,
+      "mean": -0.043333333333333335,
+      "sample_variance_ddof1": 0.02123754789272031,
+      "sample_sd_ddof1": 0.14573108073681576,
+      "population_variance_ddof0": 0.02052962962962963,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 30,
+      "metric": "AUDC",
+      "group": "baseline",
+      "n": 30,
+      "mean": 0.16081481481481483,
+      "sample_variance_ddof1": 0.05876900241237406,
+      "sample_sd_ddof1": 0.2424231886853526,
+      "population_variance_ddof0": 0.056810035665294925,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 30,
+      "metric": "AUDC",
+      "group": "full",
+      "n": 30,
+      "mean": 0.12418518518518519,
+      "sample_variance_ddof1": 0.03084382148431957,
+      "sample_sd_ddof1": 0.17562409141208268,
+      "population_variance_ddof0": 0.029815694101508916,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 30,
+      "metric": "AUDC",
+      "group": "full_minus_baseline",
+      "n": 30,
+      "mean": -0.03662962962962964,
+      "sample_variance_ddof1": 0.023901956861075633,
+      "sample_sd_ddof1": 0.1546025771488808,
+      "population_variance_ddof0": 0.023105224965706446,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 50,
+      "metric": "SUN",
+      "group": "baseline",
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "sample_sd_ddof1": null,
+      "population_variance_ddof0": null,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 50,
+      "metric": "SUN",
+      "group": "full",
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "sample_sd_ddof1": null,
+      "population_variance_ddof0": null,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 50,
+      "metric": "SUN",
+      "group": "full_minus_baseline",
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "sample_sd_ddof1": null,
+      "population_variance_ddof0": null,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 50,
+      "metric": "mSUN",
+      "group": "baseline",
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "sample_sd_ddof1": null,
+      "population_variance_ddof0": null,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 50,
+      "metric": "mSUN",
+      "group": "full",
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "sample_sd_ddof1": null,
+      "population_variance_ddof0": null,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 50,
+      "metric": "mSUN",
+      "group": "full_minus_baseline",
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "sample_sd_ddof1": null,
+      "population_variance_ddof0": null,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 50,
+      "metric": "AUDC",
+      "group": "baseline",
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "sample_sd_ddof1": null,
+      "population_variance_ddof0": null,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 50,
+      "metric": "AUDC",
+      "group": "full",
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "sample_sd_ddof1": null,
+      "population_variance_ddof0": null,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    },
+    {
+      "budget": 50,
+      "metric": "AUDC",
+      "group": "full_minus_baseline",
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "sample_sd_ddof1": null,
+      "population_variance_ddof0": null,
+      "seed": 1,
+      "variance_axis": "chemical_system"
+    }
+  ],
+  "limitations": [
+    "Variance is across chemical systems, not repeated random seeds.",
+    "Sample variance uses n-1; population variance uses n. SD is the square root of sample variance.",
+    "Paired difference is full minus baseline on each matched system.",
+    "The uncertainty of the mean, calibrated uncertainty, and repeatability are not measured by this variance.",
+    "Missing B50 statistics are null, not zero performance."
+  ]
+}

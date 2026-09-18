@@ -1,6 +1,6 @@
 # Experiment results and historical snapshots
 
-The release preserves the experiment's chronology. It reports real MADE test outcomes for **Qwen3.5-4B, seed1, baseline versus the fixed G2 `esopt_graph_risk` method**. B10, B30 and B50 are independent episodes. The latest data export was observed on **2026-09-18 15:32:27 CST (07:32:27 UTC)**; it is not a live dashboard.
+The release preserves the experiment's chronology. It reports real MADE test outcomes for **Qwen3.5-4B, seed1, baseline versus the fixed G2 `esopt_graph_risk` method**. B10, B30 and B50 are independent episodes. The latest statistical export was observed on **2026-09-18 18:44:26 CST (10:44:26 UTC)**; it is not a live dashboard. Earlier dated snapshots remain unchanged.
 
 ## Outcomes
 
@@ -12,7 +12,20 @@ At15:32:27 CST, all **60 B10 trajectories /30 pairs** had completed. SUN was42�
 
 At that same observation, B30 had **45/60** completed trajectories: all30 baselines and15 full trajectories, yielding15 complete pairs. On those15 pairs, SUN was110→68 and mean AUDC0.265778→0.163704 (−0.102074). SUN wins/losses/ties were2/6/7; AUDC wins/losses/ties were1/8/6. This partial decline is not omitted or averaged into B10. The remaining15 full outcomes were unavailable. No B50 result had completed.
 
-The complete tables and original cached curves are in [results/snapshots](../results/snapshots). Comparisons use equal weighting across complete system/seed pairs; generation steps are not treated as independent samples. Unpaired completed trajectories are still exported and counted. There is one seed, so no general significance or broad uncertainty-improvement claim is made. The full-method arm bundles a fixed ES-updated policy and risk-guided control; this comparison alone does not isolate the causal contribution of uncertainty guidance from the other components.
+At18:44:26 CST, **B10 and B30 each had60/60 real trajectories and30/30 complete chemical-system pairs**. B10 remains SUN42→54 and mean AUDC0.154667→0.188667. Complete B30 is SUN136→97 and mean AUDC0.160815→0.124185 (full minus baseline −0.036630). Thus the full method has lower mean SUN and AUDC at B30; the negative result is retained. B50 had0 completed trajectories,10 claimed unfinished/running and50 unclaimed. Its missing comparative statistics are unavailable, not zero performance.
+
+The [dated statistics export](../results/statistics/b10_b30_complete_20260918T184426_CST/README.md) provides all paired values, means, sample variances, SDs and population variances, including each system's full-minus-baseline difference. The following sample variances use **ddof=1 across the30 chemical systems at seed1**:
+
+| Budget | Metric | Baseline mean | Baseline variance | Baseline SD | Full mean | Full variance | Full SD |
+|---|---|---:|---:|---:|---:|---:|---:|
+| B10 | SUN | 1.400000 | 5.351724 | 2.313379 | 1.800000 | 6.510345 | 2.551538 |
+| B10 | AUDC | 0.154667 | 0.062929 | 0.250857 | 0.188667 | 0.077557 | 0.278490 |
+| B30 | SUN | 4.533333 | 50.602299 | 7.113529 | 3.233333 | 22.116092 | 4.702775 |
+| B30 | AUDC | 0.160815 | 0.058769 | 0.242423 | 0.124185 | 0.030844 | 0.175624 |
+
+These describe variation across chemical systems, **not independent random-seed repetitions**. Smaller variance does not establish improved uncertainty calibration, repeatability or uncertainty-guidance efficacy; B30's full-method mean is also lower. The paired-difference variance is calculated after subtracting the two arms within each system.
+
+The earlier dated tables and cached curves are in [results/snapshots](../results/snapshots). Comparisons use equal weighting across complete system/seed pairs; generation steps are not treated as independent samples. Unpaired completed trajectories are still exported and counted. There is one seed, so no general significance or broad uncertainty-improvement claim is made. The full-method arm bundles a fixed ES-updated policy and risk-guided control; this comparison alone does not isolate the causal contribution of uncertainty guidance from the other components.
 
 ## Scientific and accounting scope
 
@@ -39,7 +52,7 @@ Scope fingerprints are preserved in each provenance file:
 
 The B10 all30 runner source SHA is `3573a8e712bb5f7cad99cdc00f764cc4e57e47849f054a011854777f59986f6d`; the frozen sweep runner SHA is `ce38b4614d67cbf50423808bb9f61a87660c5b72efd8023dfd4acc833bce5d66`. Historical scopes used their own frozen sources. The code publication and the per-snapshot source fingerprints must not be conflated.
 
-B10 **data computation** was complete at the latest snapshot, but its all30 global receipt was not yet published because the administrative guard awaited120 new B30/B50 jobs. The original two-system core and five-system extension have separately preserved acceptance evidence. No full three-budget, multi-model, multi-seed or CrystalGym completion is claimed.
+B10 and B30 **data computation** were complete at the latest snapshot: their60 result/receipt identities and30 matched pairs per budget were checked against fixed profiles and original RPC evidence. This does not mean the three-budget global receipt was published. Global acceptance remains pending while B50 is unfinished; the administrative guard awaits120 new B30/B50 jobs. The original two-system core and five-system extension have separately preserved acceptance evidence. No full three-budget, multi-model, multi-seed or CrystalGym completion is claimed.
 
 ## Metrics and time accounting
 
@@ -65,4 +78,7 @@ Validate the published export with:
 
 ```sh
 python3 results/validate_exports.py
+python3 results/statistics/b10_b30_complete_20260918T184426_CST/analyze.py
 ```
+
+The statistics script uses only the standard library and regenerates its two output files from the published pairs. Publication checks confirmed byte-identical regeneration, matched all30 B10 pairs to the earlier public export, and recomputed all60 B30 metrics from the audited RPC curves. The B30 audit snapshot SHA256 is `2297d8394f4d1e0662700a42d5da8ed13d7eb87738f8029c9ca4b41c59aa4822`; per-result/receipt/RPC hashes are retained in the statistical export provenance.

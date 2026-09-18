@@ -591,5 +591,30 @@
     }
   ],
   "snapshots_are_not_independent_additive_runs": true,
-  "latest_snapshot_id": "latest_20260918T153227_CST"
+  "latest_snapshot_id": "latest_20260918T153227_CST",
+  "statistical_exports": [
+    {
+      "export_id": "b10_b30_complete_20260918T184426_CST",
+      "observed_utc": "2026-09-18T10:44:26.822934+00:00",
+      "observed_CST": "2026-09-18T18:44:26.822961+08:00",
+      "summary": "results/statistics/b10_b30_complete_20260918T184426_CST/summary.json",
+      "provenance": "results/statistics/b10_b30_complete_20260918T184426_CST/provenance.json",
+      "complete_pairs": {
+        "10": 30,
+        "30": 30,
+        "50": 0
+      },
+      "completed_trajectories": {
+        "10": 60,
+        "30": 60,
+        "50": 0
+      },
+      "three_budget_global_receipt_published": false,
+      "variance_axis": "chemical_system",
+      "sample_variance_ddof": 1,
+      "seed": 1
+    }
+  ],
+  "latest_statistical_export_id": "b10_b30_complete_20260918T184426_CST",
+  "latest_observation_utc": "2026-09-18T10:44:26.822934+00:00"
 }

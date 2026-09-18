@@ -1,6 +1,6 @@
 {
   "schema": "derived_public_results_manifest_v1",
-  "latest_observation_utc": "2026-09-18T07:32:27.562281+00:00",
+  "latest_observation_utc": "2026-09-18T10:44:26.822934+00:00",
   "raw_files_published": false,
   "source_hashes_and_export_hashes_are_distinct": true,
   "scientific_oracle_calls_for_export": 0,
@@ -8,18 +8,18 @@
   "files": [
     {
       "path": "docs/results.md",
-      "bytes": 7235,
-      "export_sha256": "3659180435435ade574ffe663d90124fbc205449828447043f54f5332d73ebdf"
+      "bytes": 9679,
+      "export_sha256": "b603c2e4723d78c8e902ce7728b274cca6a9add03c4ad7ea193266be37452e1e"
     },
     {
       "path": "results/README.md",
-      "bytes": 3196,
-      "export_sha256": "654a54f43a14b77be8c782f99fb16221d90af5d6e8151a8e7fd5ed50db68c3b0"
+      "bytes": 4035,
+      "export_sha256": "db468d4a7a5463e840f7bd5b8f90aada113923a4a7c9aaf313b9d00f9073dfcc"
     },
     {
       "path": "results/index.json",
-      "bytes": 18058,
-      "export_sha256": "2727f62684b7552e6f0e9febbf1ffcc8eaaa95bba944f86711e931f5fb03552e"
+      "bytes": 18926,
+      "export_sha256": "4f3269a0624647616d597004cbd8f1870603ebbb971a43567aa84a043b9ff2e1"
     },
     {
       "path": "results/snapshots/core2_b10_20260917T083208Z/curves.csv",
@@ -140,6 +140,41 @@
       "path": "results/snapshots/partial_20260918T010438_CST/trajectories.csv",
       "bytes": 39694,
       "export_sha256": "6b1c99add1255d91ca4db3402e32ca4f94c7af02e89dadcc6231e575f6632978"
+    },
+    {
+      "path": "results/statistics/b10_b30_complete_20260918T184426_CST/README.md",
+      "bytes": 2532,
+      "export_sha256": "33b79a13305aab3da06cf55c10012eef621110581e798863c3b48d97d07757d3"
+    },
+    {
+      "path": "results/statistics/b10_b30_complete_20260918T184426_CST/analyze.py",
+      "bytes": 3627,
+      "export_sha256": "0fd514cac8cf32ce782f61ff38fef8fcb32c40276397b8730a2152de707f4885"
+    },
+    {
+      "path": "results/statistics/b10_b30_complete_20260918T184426_CST/pairs_B10.csv",
+      "bytes": 5064,
+      "export_sha256": "976e1d17a1cfe77582b7220003c7983cdc2e1f2c767097ad47f3ad0507fecc23"
+    },
+    {
+      "path": "results/statistics/b10_b30_complete_20260918T184426_CST/pairs_B30.csv",
+      "bytes": 6419,
+      "export_sha256": "af93aebd057ac8a8d777022ec3684e41975437eec4e00797e8ccf4c0a0c4731f"
+    },
+    {
+      "path": "results/statistics/b10_b30_complete_20260918T184426_CST/provenance.json",
+      "bytes": 34939,
+      "export_sha256": "b5f8fdbdbf84eb214631ffdda6b53aaf8b7051c95e4155b65f0235e90ff852a8"
+    },
+    {
+      "path": "results/statistics/b10_b30_complete_20260918T184426_CST/statistics.csv",
+      "bytes": 2570,
+      "export_sha256": "4a5bfa1ab5e6e97c26fe3a4d6862773a03ebdcb14d65c6ebf499ce1b6d3c8e84"
+    },
+    {
+      "path": "results/statistics/b10_b30_complete_20260918T184426_CST/summary.json",
+      "bytes": 9903,
+      "export_sha256": "a6faa319fbd314734665ae75985a74010885d7493ad7b8125d9b520da0cb5356"
     },
     {
       "path": "results/validate_exports.py",
