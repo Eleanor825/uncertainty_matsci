@@ -1,0 +1,12 @@
+{
+  "full_remote_scientific_acceptance_rerun": false,
+  "new_model_or_oracle_calls": 0,
+  "newly_completed_core_rows": 4,
+  "original_receipt_result_hashes_preserved": true,
+  "previous_56_core_projection_sha256": "59ddf898ce3fef9ae1886196ab1d478a2c15481619d583b06bb6e54146095146",
+  "previous_completed_rows_unchanged": 56,
+  "schema": "complete_core5_ablation_provenance_v1",
+  "scientific_projection_sha256": "7324a08f6e134f49630f79d7fef14c07f282f9e2138cf6a497e114834d5e8264",
+  "source_observation_CST": "2026-09-19T21:27:12.079926+08:00",
+  "source_snapshot_sha256": "143f4704385f4c585b81e3e6db57e4ef50e0e65838b2bfead1355719ddc2fcf1"
+}

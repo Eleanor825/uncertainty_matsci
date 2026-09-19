@@ -1,0 +1,45 @@
+{
+  "aggregate_AUDC_variance_checked_with_exact_rational_arithmetic": true,
+  "all_receipt_result_hashes_match": true,
+  "new_rows": [
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "receipt_sha256": "9f21eff2cc55727f918342c33ce16b0c554571564e88be70d37687a7264b590b",
+      "result_sha256": "09abf73f476849d5f906ee9a226b23dcb1a07d3785b61312328b4dd5758ec32f",
+      "seed": 4,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.41,
+      "SUN": 3,
+      "receipt_sha256": "0c02ecdb08568838a00946477f72c06bfd5f1436c9551fc2dc663bd61409dc1a",
+      "result_sha256": "93ecfa74b20ec9fd8d7abd49a52f8bed7479415f88120fb6dc22814ea41af7d4",
+      "seed": 4,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.17,
+      "SUN": 1,
+      "receipt_sha256": "5f070aa2f0e199ccf8f09c5622650b520f7b33394c7a7a86605ac343a246ca23",
+      "result_sha256": "be4cfd1b0c429178ed03fc036246d2f88034d6399ccce24566a63fa0ddf46253",
+      "seed": 4,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "receipt_sha256": "7dcf85b857a29f890809a3e4873c146aeaf94cf4925f033c2d1669796bfedd65",
+      "result_sha256": "8a8ff34345a2e0d557e4a0b5c8ae5bce860db1111aa3003721c06d407337715b",
+      "seed": 4,
+      "task_id": "Co-Mg-Na"
+    }
+  ],
+  "new_scientific_calls": 0,
+  "passed": true,
+  "previous_56_immutable": true,
+  "private_operation_material_excluded": true,
+  "raw_completed_source_rows_checked": 60,
+  "schema": "independent_complete_core_projection_check_v1",
+  "source_snapshot_sha256": "143f4704385f4c585b81e3e6db57e4ef50e0e65838b2bfead1355719ddc2fcf1"
+}

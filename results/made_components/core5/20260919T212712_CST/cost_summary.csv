@@ -1,0 +1,5 @@
+arm,complete_runs,candidate_oracle_attempts_observed_n,candidate_oracle_attempts_sum,initialization_oracle_attempts_observed_n,initialization_oracle_attempts_sum,surrogate_oracle_attempts_observed_n,surrogate_oracle_attempts_sum,wall_seconds_observed_n,wall_seconds_sum,graph_seconds_observed_n,graph_seconds_sum
+baseline_reference,15,15,150,15,189,12,,15,7514.704800158739,15,0
+uq_only_support_aware,15,15,150,15,189,11,,15,26027.99580161879,15,18362.434839692898
+es_only_independent,15,15,150,15,189,13,,15,5593.811112361029,15,0
+full_support_aware,15,15,150,15,189,4,,15,20045.43950178707,15,15046.683802037966

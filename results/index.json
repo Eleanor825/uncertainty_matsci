@@ -1774,6 +1774,38 @@
       "variance_scope": "Evaluation seeds within fixed system/arm, or three complete five-system seed aggregates; ddof=1; not training repeats",
       "not_additive_to_1080": true,
       "accepted_evaluations": 254
+    },
+    {
+      "snapshot_id": "made_core5_complete_20260919T212712_CST",
+      "observed_CST": "2026-09-19T21:27:12.079926+08:00",
+      "observed_utc": "2026-09-19T13:27:12.079926+00:00",
+      "report": "results/made_components/core5/20260919T212712_CST/report.md",
+      "summary": "results/made_components/core5/20260919T212712_CST/summary.json",
+      "validation_script": "results/made_components/core5/20260919T212712_CST/analyze.py",
+      "accepted_evaluations": 279,
+      "planned_evaluations": 1080,
+      "export_scope": "Complete fixed-five-system four-arm B10 evaluation-seed subset, not full1080 completion",
+      "exported_planned_cells": 60,
+      "exported_completed_evaluations": 60,
+      "evaluation_seeds": [
+        2,
+        3,
+        4
+      ],
+      "budget": 10,
+      "complete_runs_by_arm": {
+        "baseline_reference": 15,
+        "uq_only_support_aware": 15,
+        "es_only_independent": 15,
+        "full_support_aware": 15
+      },
+      "four_arm_core_ablation_complete": true,
+      "complete": false,
+      "full_study_complete": false,
+      "not_additive_to_1080": true,
+      "variance_scope": "ddof1 across evaluation seeds within fixed system/arm or fixed-five seed aggregates; not training repeats",
+      "algorithm_contrasts_not_fixed_weight_causal_effects": true,
+      "NN_contribution_separately_isolated": false
     }
   ],
   "development_exports": [
@@ -1833,7 +1865,7 @@
       "not_part_of_materials_test_matrix": true
     }
   ],
-  "latest_component_study_export_id": "made_core5_20260919T203417_CST",
+  "latest_component_study_export_id": "made_core5_complete_20260919T212712_CST",
   "analysis_exports": [
     {
       "export_id": "snar_case_analysis_20260919T2023_CST",

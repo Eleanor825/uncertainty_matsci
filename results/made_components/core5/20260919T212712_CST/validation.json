@@ -1,0 +1,12 @@
+{
+  "algorithm_contrast_sum_identity_passed": true,
+  "all_cells_have_original_receipt_and_result_hashes": true,
+  "complete_cells": 60,
+  "curve_points": 660,
+  "curves_recomputed": 60,
+  "full_remote_acceptance_reexecuted": false,
+  "new_model_or_oracle_calls": 0,
+  "passed": true,
+  "prior_56_completed_rows_unchanged": true,
+  "variance_independent_pairwise_identity_passed": true
+}

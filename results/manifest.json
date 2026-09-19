@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 16098,
-      "export_sha256": "7932a93a6757738cb0b31dbbfbcdcabae63ed91be218b3bdb9a2cc98588ef152"
+      "bytes": 16829,
+      "export_sha256": "9950c61ef7e1947746827c58f10eb3a06b57925750703c77300c0bf056938a98"
     },
     {
       "path": "docs/results.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "results/README.md",
-      "bytes": 11961,
-      "export_sha256": "38696154ef6eebfb45a11006228e64110a97d4a4233fd66890ca0be7fd979b10"
+      "bytes": 12684,
+      "export_sha256": "b1e2f9615a39079ba1d34bb55a91bf8cdb334c8eafa62d102207fcb94285349e"
     },
     {
       "path": "results/budget_sweep/20260919T010939_CST/all_system_results.csv",
@@ -208,8 +208,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 60077,
-      "export_sha256": "75a53547bd75ab42b5054cef2de4d551669f2fee59ad8a3bc91b2989270846e1"
+      "bytes": 61459,
+      "export_sha256": "f9db963baa69df54aa64940b433b41b0f1668da50a798f8009b8171711392f56"
     },
     {
       "path": "results/snapshots/core2_b10_20260917T083208Z/curves.csv",
@@ -1355,6 +1355,116 @@
       "path": "results/summit_snar/candidate_analysis/20260919T202943_CST/verification.json",
       "bytes": 758,
       "export_sha256": "42adf22d6b84c4f54de1aa63ff3f7751351c1f2081ebae9c963944515e03d18a"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/README.md",
+      "bytes": 1032,
+      "export_sha256": "b3cbed29b3a13f2f878986d5e4e4ebaa9d813379cf111f5fb9ede3309db03f73"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/aggregate_seed_statistics.csv",
+      "bytes": 1619,
+      "export_sha256": "375448cf32704f71061fd68364370f34875725fa37729844613dc263c23e09e1"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/analyze.py",
+      "bytes": 12385,
+      "export_sha256": "9d9cbbd2153d91bbb2df9b0c69a6903d630862afc9e79c4f34c82dcde0cdd198"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/contrast_aggregate_statistics.csv",
+      "bytes": 3338,
+      "export_sha256": "11985e6ad04729fdd659a8db8956424e016bfd2385ce9671131ff128123de6ff"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/contrast_aggregates_by_seed.csv",
+      "bytes": 2597,
+      "export_sha256": "31e35d5a155749ccb228f966cba462e517c0602a5f212f379bae0898cf4907e6"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/contrast_system_statistics.csv",
+      "bytes": 9192,
+      "export_sha256": "ba9e1e31989a2f3824813a02ad0a87bc724567b15d51a56fbd686db74b4aa9ce"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/contrasts_by_run.csv",
+      "bytes": 11785,
+      "export_sha256": "cb14d44251c4971f9c91bcdc74778de007b86878dea80ea6771d8f59a18c5ec8"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/cost_summary.csv",
+      "bytes": 614,
+      "export_sha256": "0e6d12eb2089d9088f7dbc0eb8ec4d82bc96045846f9d90ca7aaa1e77f5e1214"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/curves.csv",
+      "bytes": 49087,
+      "export_sha256": "cc7c5636b74844e5ca485f60390f132e1e0199dc344581d3f57b28ae3e57cc4c"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/five_system_aggregates_by_seed.csv",
+      "bytes": 699,
+      "export_sha256": "c5a312a16a103a02b466c90e98e3bca4c1e2add04f7c613dddd0bf076613391a"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/independent_source_verification.json",
+      "bytes": 1570,
+      "export_sha256": "fe4b79ed89b1fd20e9e91e02e203b51fc2d5ce85bf85936508ed302c4e018c77"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/manifest.json",
+      "bytes": 3587,
+      "export_sha256": "1263e7985775df098e68b51eee34f17f4a23f31217a583033bb91a739f8331be"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/per_system_seed_statistics.csv",
+      "bytes": 5281,
+      "export_sha256": "d5f69d268208f4c14aa57103cf8348f3c137d17300f22aa8bb7446a06fcdcc07"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/provenance.json",
+      "bytes": 641,
+      "export_sha256": "9fe845b70811d60f8d556288525b0da8b7f07eb11d4ede2165e40b692032fce5"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/publication_provenance.json",
+      "bytes": 3848,
+      "export_sha256": "5a1b0ecdf30a3045a2cadd8b565b034f986001ef8959a9b8edb80243e78d5606"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/render_report.py",
+      "bytes": 12676,
+      "export_sha256": "68986fc0288df1f08862865bbb5905c04bb430e53f8cabd25c16dffb2b5cad30"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/report.md",
+      "bytes": 11363,
+      "export_sha256": "fc9bd08b76246f5e15729c6e8a2d3667eacab6f34024fd962f4c4237f2133d11"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/runs.csv",
+      "bytes": 29675,
+      "export_sha256": "0c91bf161b361fc12918e8b4037b08738e33e8f6947e760070e16321252781a8"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/study_inputs.json",
+      "bytes": 128997,
+      "export_sha256": "7324a08f6e134f49630f79d7fef14c07f282f9e2138cf6a497e114834d5e8264"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/summary.json",
+      "bytes": 17376,
+      "export_sha256": "f121391a6d8e727309b2c2d7b28c048d2bd1e07a5af0b70d7b2831f564e2ceb8"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/timings_and_costs.csv",
+      "bytes": 9291,
+      "export_sha256": "7264e37f9d7c6203b854f8ffc1aa362760fa12a5b4e7b6007b5db4221bfb20bb"
+    },
+    {
+      "path": "results/made_components/core5/20260919T212712_CST/validation.json",
+      "bytes": 388,
+      "export_sha256": "66b570d27b4876bfec40570acb4dd4906e56e1cfa8dd0bf678fdc5ba7f9b565f"
     }
   ],
   "development_exports": [
