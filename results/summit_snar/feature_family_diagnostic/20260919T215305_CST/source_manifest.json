@@ -1,0 +1,223 @@
+{
+  "gzip_scientific_sources": [
+    {
+      "bundle_path": "sources/all_models_frozen_before_test_scoring.json.gz",
+      "gzip_bytes": 861,
+      "gzip_sha256": "173a17eb47c9b23fadcc29eba1890769bf8bbf83b7f8f6670086750571f5822e",
+      "logical_name": "all_models_frozen_before_test_scoring.json",
+      "original_bytes": 3311,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/all_models_frozen_before_test_scoring.json",
+      "original_sha256": "895fa4b2535b759fc50757d30fd3f86b59d57981f6654f499776c0b93c11b3d8"
+    },
+    {
+      "bundle_path": "sources/completion.json.gz",
+      "gzip_bytes": 501,
+      "gzip_sha256": "1c17cf84407aae809bc012bb10dfc84fde6e1eadf023f00ad225ec32278b26ce",
+      "logical_name": "completion.json",
+      "original_bytes": 1069,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/completion.json",
+      "original_sha256": "da76f06dfc6c99a1102af3ee0806121706a4d371f984787095030ad6c4010584"
+    },
+    {
+      "bundle_path": "sources/models__all_1729__fit.json.gz",
+      "gzip_bytes": 4277,
+      "gzip_sha256": "431f3b1317addf1eb66b6c78ea7126bbd23ac73d774d4dc9bb12c8f268c77978",
+      "logical_name": "models/all_1729/fit.json",
+      "original_bytes": 15868,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/all_1729/fit.json",
+      "original_sha256": "cb850caa2ec2bc0b3bae1c702e5f37dedf3ec5ca3418e9238b8b78a04e284b78"
+    },
+    {
+      "bundle_path": "sources/models__all_1730__fit.json.gz",
+      "gzip_bytes": 4218,
+      "gzip_sha256": "b23b9665e1d734b1a5b8614ed87608f973a5c9f7676fadcd50a2a942a65c6aa2",
+      "logical_name": "models/all_1730/fit.json",
+      "original_bytes": 15670,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/all_1730/fit.json",
+      "original_sha256": "3db016df59c7bf9b7ffec6549bf4f3dda994de01e5daa157cfa1ee6fc92f9249"
+    },
+    {
+      "bundle_path": "sources/models__all_1731__fit.json.gz",
+      "gzip_bytes": 4247,
+      "gzip_sha256": "37e6df87571cb6566fc8260fa4d6c4df422064364422ddb829926f15697db6f2",
+      "logical_name": "models/all_1731/fit.json",
+      "original_bytes": 15774,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/all_1731/fit.json",
+      "original_sha256": "c66a498e11af3763241d62830f36eb121733bc9608cac7d99c7942d258863222"
+    },
+    {
+      "bundle_path": "sources/models__graph_1729__fit.json.gz",
+      "gzip_bytes": 3919,
+      "gzip_sha256": "c358e679f77f5bf489dd8eda2c9b6ec0ddd041bec469d2acd05ceb66af3ff979",
+      "logical_name": "models/graph_1729/fit.json",
+      "original_bytes": 12234,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/graph_1729/fit.json",
+      "original_sha256": "48917b3f4f4f1097e8e6b6ba9ebf732fd54044b377646c84f9db4e0a2560ae0a"
+    },
+    {
+      "bundle_path": "sources/models__graph_1730__fit.json.gz",
+      "gzip_bytes": 3917,
+      "gzip_sha256": "93f0e3f2c2253f21cf28260fe85feb64e761a1124553268dce5df08230e5b82e",
+      "logical_name": "models/graph_1730/fit.json",
+      "original_bytes": 12290,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/graph_1730/fit.json",
+      "original_sha256": "80a4469e1c28dfa02895ba0a56494f6aabbb915d8c1204605df534d22fa264cc"
+    },
+    {
+      "bundle_path": "sources/models__graph_1731__fit.json.gz",
+      "gzip_bytes": 3908,
+      "gzip_sha256": "c7ba6c815b646569598f6ed80df1f158aa95bafe7eaee9346e3a62833adb6450",
+      "logical_name": "models/graph_1731/fit.json",
+      "original_bytes": 12189,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/graph_1731/fit.json",
+      "original_sha256": "0498da1f44aaef1c6bbd4a713a907634f733f5a3f892141ae16753f02c4f68f2"
+    },
+    {
+      "bundle_path": "sources/models__hidden_1729__fit.json.gz",
+      "gzip_bytes": 3454,
+      "gzip_sha256": "5f6f35d239507c8e45df5f115b188456ff0d837c39e08911ca5c6515d7bc808f",
+      "logical_name": "models/hidden_1729/fit.json",
+      "original_bytes": 10809,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/hidden_1729/fit.json",
+      "original_sha256": "f0262df32b200bebf06b6c4c01efe8fae530b1c0d7f7f88c6d0937b27970f876"
+    },
+    {
+      "bundle_path": "sources/models__hidden_1730__fit.json.gz",
+      "gzip_bytes": 3503,
+      "gzip_sha256": "d45dfa17e29661ec9fbe7ad9290f8440066cd049815f986b0c4d6510e6fe70d3",
+      "logical_name": "models/hidden_1730/fit.json",
+      "original_bytes": 10932,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/hidden_1730/fit.json",
+      "original_sha256": "d63dbb3672ba0d8b601a03b9a332d5fac50602fbf26271ae98b00df9aa927d8b"
+    },
+    {
+      "bundle_path": "sources/models__hidden_1731__fit.json.gz",
+      "gzip_bytes": 3547,
+      "gzip_sha256": "b9a6a4e68bb5af6c8d9d3f7c74aca51d02ec02778a2cf8bfe48ef9ff31f1504d",
+      "logical_name": "models/hidden_1731/fit.json",
+      "original_bytes": 11185,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/hidden_1731/fit.json",
+      "original_sha256": "aac7ad065b1346622060209993f8a8d2802abd9b5a9ce30d1da2d3a48a5787c6"
+    },
+    {
+      "bundle_path": "sources/models__sampling_1729__fit.json.gz",
+      "gzip_bytes": 3327,
+      "gzip_sha256": "428ceea010c13b51c06fc5310b566e9cdb0280199fd43a18176ce18f58935170",
+      "logical_name": "models/sampling_1729/fit.json",
+      "original_bytes": 8114,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/sampling_1729/fit.json",
+      "original_sha256": "e3ff66929458278a34002b2b3f95eafb2e2d7c79603bc74cdbc16818befab083"
+    },
+    {
+      "bundle_path": "sources/models__sampling_1730__fit.json.gz",
+      "gzip_bytes": 3368,
+      "gzip_sha256": "69c17fea2f9ecb0175e269b72afb403603f4b21fdf01f403d245e35b956b1d19",
+      "logical_name": "models/sampling_1730/fit.json",
+      "original_bytes": 8275,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/sampling_1730/fit.json",
+      "original_sha256": "e488462127d26839a4c3f01b9789875284ccc5ebaf18f26f771750beb74a2a70"
+    },
+    {
+      "bundle_path": "sources/models__sampling_1731__fit.json.gz",
+      "gzip_bytes": 3280,
+      "gzip_sha256": "df1893462ce979e0775da2b47539a62f7aa17af5a536dc7810054b1a0b29f376",
+      "logical_name": "models/sampling_1731/fit.json",
+      "original_bytes": 7906,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/sampling_1731/fit.json",
+      "original_sha256": "0306c8b5b54352a8fdb30f8425d6abddb32e1223341b3b70f28397cb08f0716b"
+    },
+    {
+      "bundle_path": "sources/original_reproduction_gate.json.gz",
+      "gzip_bytes": 440,
+      "gzip_sha256": "7ebdc9be5f5a9758a04b5d1667b2dddb5e7c8e23057d9b501b903b7c800b9568",
+      "logical_name": "original_reproduction_gate.json",
+      "original_bytes": 648,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/original_reproduction_gate.json",
+      "original_sha256": "5a221193c4c398855e7f7868019c0f44e443bbea3bef1f7ba2a0cc13a3b5123f"
+    },
+    {
+      "bundle_path": "sources/registration.json.gz",
+      "gzip_bytes": 1188,
+      "gzip_sha256": "6657e257b0ef4b5eb7d28a155ebcfe0501dced1a9f75ccf0488c229ba49d6a4a",
+      "logical_name": "registration.json",
+      "original_bytes": 2690,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/registration.json",
+      "original_sha256": "15f70763906a4bb6ec0053bf09fa41a8a7ba35fb7f8556926006eefe02aacde8"
+    },
+    {
+      "bundle_path": "sources/report.json.gz",
+      "gzip_bytes": 165910,
+      "gzip_sha256": "f2e9ad1bddc0274acde28ca6b4c36a8325ecbd49ec2cc497ef9738544f06d2e6",
+      "logical_name": "report.json",
+      "original_bytes": 962112,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/report.json",
+      "original_sha256": "b358c7dfb107884f5c471bff327d8043747e74a9ddc345308c4609a08609ac5c"
+    },
+    {
+      "bundle_path": "sources/input_projection.json.gz",
+      "gzip_bytes": 868578,
+      "gzip_sha256": "ddff0650b9b1373925d19c0212dbc23c73b6f4d6f9a90af1bb4d00d58af0894a",
+      "logical_name": "input_projection.json",
+      "original_bytes": 5862980,
+      "original_path": null,
+      "original_sha256": "9262eb9b552fabd6252f6d62cd6159a935730321adf63bb4c7543a04dd06cd1c"
+    },
+    {
+      "bundle_path": "sources/original_protocol.json.gz",
+      "gzip_bytes": 2974,
+      "gzip_sha256": "5a175abf6288c55af22c0debb1adf3842974454fa340a4721f6412caf18c085a",
+      "logical_name": "original_protocol.json",
+      "original_bytes": 7670,
+      "original_path": null,
+      "original_sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+    },
+    {
+      "bundle_path": "sources/plan.json.gz",
+      "gzip_bytes": 1755,
+      "gzip_sha256": "bf142bf5bff6f2d6b27e373f5b7607f7f73d89fecb20cd7fd0669b0ddb839799",
+      "logical_name": "plan.json",
+      "original_bytes": 3600,
+      "original_path": null,
+      "original_sha256": "e7024fe00a0841db8bcb1ebb387b0663f858e3a18c743bbec3b59af10d64fadb"
+    },
+    {
+      "bundle_path": "sources/prior_and_selection.json.gz",
+      "gzip_bytes": 741,
+      "gzip_sha256": "2b8ea259c218bd715054f7dbf38b2412646f109748595638b497c6b77fe29cfa",
+      "logical_name": "prior_and_selection.json",
+      "original_bytes": 1697,
+      "original_path": null,
+      "original_sha256": "a4af844177c11030778a96d0587b3d1f7d15f3d787451e69139b1767726586e0"
+    },
+    {
+      "bundle_path": "sources/es_only_development.json.gz",
+      "gzip_bytes": 2580,
+      "gzip_sha256": "d1d981995e526d18319e1ca1c99dd21b50e9bc71539e653e6706b2ae532419d1",
+      "logical_name": "es_only_development.json",
+      "original_bytes": 24282,
+      "original_path": null,
+      "original_sha256": "5b3a9725c5d45083f40facd336d582884baccd3b35df1939718a89b27b473b3a"
+    }
+  ],
+  "no_checkpoint_or_credentials_included": true,
+  "readback_snapshot_sha256": "f7d858343328f3830fa3d4694ef602a58cc607e887225f0967ede0c5827ae3c6",
+  "schema": "snar_feature_family_portable_source_inventory_v2",
+  "scientific_code": [
+    {
+      "bundle_path": "sources/original_uncertainty.py",
+      "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+    },
+    {
+      "bundle_path": "sources/engine.py",
+      "sha256": "0f2e876f75df34e3563659e2a6d14ba63090be3abbaee168253e86f159b05ea8"
+    },
+    {
+      "bundle_path": "sources/runner.py",
+      "sha256": "242824688ce715339d61d35ebf25e679c0fc51258a18891e79c5920ab3a659ef"
+    },
+    {
+      "bundle_path": "recompute.py",
+      "sha256": "0f6eee8f38e94966069c4678aafe18483196049542589af0dc7306b9c0349394"
+    }
+  ]
+}

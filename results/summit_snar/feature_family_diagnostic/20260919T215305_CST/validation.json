@@ -1,0 +1,29 @@
+{
+  "actual_readback_snapshot": {
+    "path": "technical_not_main/snar_feature_family_artifacts_readback_20260919_v1/snapshot.json",
+    "sha256": "f7d858343328f3830fa3d4694ef602a58cc607e887225f0967ede0c5827ae3c6"
+  },
+  "new_model_or_fit_or_oracle_calls": 0,
+  "original_failure_not_overwritten": true,
+  "passed": true,
+  "pointwise_result": {
+    "bytes": 524736,
+    "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/snar_feature_family_scientific_bundle_20260919_v2/pointwise_verification.json",
+    "sha256": "80db11420a918802f5321a0a882d02d7ce23129b3bbd3e594fe114f0198be439"
+  },
+  "schema": "snar_feature_family_local_stdlib_verification_v2",
+  "source_files": [
+    {
+      "bytes": 14961,
+      "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/snar_feature_family_scientific_bundle_20260919_v2/recompute.py",
+      "sha256": "0f6eee8f38e94966069c4678aafe18483196049542589af0dc7306b9c0349394"
+    },
+    {
+      "bytes": 835,
+      "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/snar_feature_family_scientific_bundle_20260919_v2/test_recompute.py",
+      "sha256": "2f095d07a3018e8eef1733e0ca9509aab62fe3d3ad51158cbba2cbaeae79002f"
+    }
+  ],
+  "unit_test_result": "PASS",
+  "unit_tests": 3
+}

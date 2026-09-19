@@ -1,0 +1,22 @@
+{
+  "causal_attribution_claimed": false,
+  "corrected_fact": "full selected G0 and independent ES-only selected G0; theta0 unchanged in heldout evaluations",
+  "incorrect_v1_inference": "evolved full policy implies changed ES weights",
+  "new_fits": 0,
+  "original_audit_rc1_preserved": true,
+  "original_report_preserved": true,
+  "plausible_context_differences": [
+    "controller and candidate selection",
+    "fixed550-row adaptation prior versus empty collection archive",
+    "within-episode history/action population"
+  ],
+  "prior_rows": 550,
+  "schema": "snar_feature_diagnostic_G0_wording_correction_v2",
+  "supersedes_report": {
+    "bytes": 10292,
+    "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/snar_feature_family_reconstruction_acceptance_20260919_v1/REPORT.md",
+    "sha256": "25cf96f2a38fbc3c688c47f6030ce8f7e0c165eaa9b62189b4f4324313c5ab64"
+  },
+  "training_collection_initial_prior_rows": 0,
+  "weight_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516"
+}

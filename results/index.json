@@ -1898,6 +1898,41 @@
       "test_recalibration": false,
       "descriptive_selected_action_analysis": true,
       "additional_independent_experiments": false
+    },
+    {
+      "export_id": "snar_feature_family_20260919T215305_CST",
+      "benchmark": "Summit SnAr",
+      "diagnostic_kind": "posthoc feature-family prediction diagnostic on fixed selected actions",
+      "accepted_reconstruction_CST": "2026-09-19T21:53:05.531281+08:00",
+      "report": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/REPORT.md",
+      "readme": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/README.md",
+      "metrics": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/model_metrics.csv",
+      "validation_script": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/recompute.py",
+      "manifest": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/MANIFEST.json",
+      "NN_models": 12,
+      "feature_families": 4,
+      "NN_training_seeds": [
+        1729,
+        1730,
+        1731
+      ],
+      "recorded_CPU_optimizer_steps": 746,
+      "unique_executed_actions": 224,
+      "prediction_records": 2688,
+      "calibration_bin_rows": 1440,
+      "original_audit_returncode": 1,
+      "separate_byte_exact_reconstruction_accepted": true,
+      "physical_selected_generation": {
+        "full": 0,
+        "es_only": 0
+      },
+      "full_UQ_physical_curves_equal": true,
+      "ES_only_base_physical_curves_equal": true,
+      "new_physical_queries_for_diagnostic": 0,
+      "new_fits_for_publication": 0,
+      "causal_graph_contribution_isolated": false,
+      "policy_deployed": false,
+      "additional_independent_physical_experiments": false
     }
   ]
 }

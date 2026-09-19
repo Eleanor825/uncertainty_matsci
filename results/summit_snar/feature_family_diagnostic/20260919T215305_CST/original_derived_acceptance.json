@@ -1,0 +1,270 @@
+{
+  "accepted_original_report": {
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/report.json",
+    "sha256": "b358c7dfb107884f5c471bff327d8043747e74a9ddc345308c4609a08609ac5c"
+  },
+  "actual_difference_observed_CST": "2026-09-19T21:53:05.531281+08:00",
+  "all_model_values_preserved": true,
+  "basis": "Original source/data/runtime/receipt/model checks plus original report recomputation ran in the pinned read-only collector. Complete serialized report bytes exactly equal the saved report. Only Python int keys versus JSON string keys differ.",
+  "canonical_JSON_differences": 0,
+  "complete": true,
+  "evidence": [
+    {
+      "bytes": 108221,
+      "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/snar_feature_family_CPU_status_20260919_v1/snapshot.json",
+      "sha256": "e5da7a376d3fc5902a22e445e2274c356ba524424e0769b1bb1747d070cb0a4f"
+    },
+    {
+      "bytes": 33249,
+      "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/snar_feature_family_audit_difference_actual_20260919_v1/snapshot.json",
+      "sha256": "ade39ae36c812c09eca2106db1724b685ebc480edc91231daea46f4ce0440e32"
+    },
+    {
+      "bytes": 8775,
+      "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/snar_feature_family_reconstruction_acceptance_20260919_v1/accept_from_evidence.py",
+      "sha256": "1b75f5b4a83863c5a19fd5e119c3f6cb38fb7c0398881dfc912691ce31d52d65"
+    }
+  ],
+  "exact_publish_format_bytes_reproduced": true,
+  "fingerprint": "5e95a158ae948d4ea1c3ed64dfcb95fa69d6ec1e83c32bfad629f27cb2ca8dd3",
+  "fit_optimizer_steps": 746,
+  "models": [
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/all_1729/risk.pt",
+        "sha256": "0c0935d7580dd1da60492e4157d4ad2bbecb24c1d0509dc37fdfd8162ce8611c"
+      },
+      "family": "all",
+      "seed": 1729
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/all_1730/risk.pt",
+        "sha256": "1978f3df205075defcd845b225add8cd8e87a838a72742df84f227f6888fc935"
+      },
+      "family": "all",
+      "seed": 1730
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/all_1731/risk.pt",
+        "sha256": "3c217ca141bfb86a7ec3c982c080d9fda52ba029a5e61d55f144c53687612509"
+      },
+      "family": "all",
+      "seed": 1731
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/sampling_1729/risk.pt",
+        "sha256": "feb8bce1fb1906d71ba5785872caa141e7dcb9d993a6a46a34801a1f888dafc4"
+      },
+      "family": "sampling",
+      "seed": 1729
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/sampling_1730/risk.pt",
+        "sha256": "407aede1ef379207767ebddf9d03c60ad63f0d9376624cade840dc9169275c39"
+      },
+      "family": "sampling",
+      "seed": 1730
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/sampling_1731/risk.pt",
+        "sha256": "40cdb7540035cd81d311a11ba9d4073b805086c4623b451a4d756f6a64ca9a36"
+      },
+      "family": "sampling",
+      "seed": 1731
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/hidden_1729/risk.pt",
+        "sha256": "59f713a6c99eb7c23f4b51c9c7dcc06f13e6bfbfd6858005885ce0f86bd2029c"
+      },
+      "family": "hidden",
+      "seed": 1729
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/hidden_1730/risk.pt",
+        "sha256": "c57686842c58669e8d5aa2bcd64ff0cc30afc9f7d736313f20c32b475ef1facb"
+      },
+      "family": "hidden",
+      "seed": 1730
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/hidden_1731/risk.pt",
+        "sha256": "9b8dcd7945f3b9397de4e44909bfee55d223790ec70ad1f52d458c9621662278"
+      },
+      "family": "hidden",
+      "seed": 1731
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/graph_1729/risk.pt",
+        "sha256": "b6878d2b5834897acb02ae34ca32fa4cd44bd169d26b66c42bb01b4e7e7c74c9"
+      },
+      "family": "graph",
+      "seed": 1729
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/graph_1730/risk.pt",
+        "sha256": "0a126c67a6a79afc9e49ec8fb10b086daeb15a9380dbd1d49cde9a0025e8ab9a"
+      },
+      "family": "graph",
+      "seed": 1730
+    },
+    {
+      "checkpoint": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/models/graph_1731/risk.pt",
+        "sha256": "a0fbf153c626e569ee0748327b62ef303da69698a8c22b4b2ef026b1d3d79f51"
+      },
+      "family": "graph",
+      "seed": 1731
+    }
+  ],
+  "models_count": 12,
+  "new_LLM_graph_oracle_calls": 0,
+  "new_fits_for_reconstruction_or_this_acceptance": 0,
+  "numerical_tolerance_added": false,
+  "original_audit_relabelled": false,
+  "original_audit_returncode": 1,
+  "original_audit_status": "failed",
+  "original_audit_written_or_overwritten": false,
+  "original_completion": {
+    "complete": true,
+    "fingerprint": "c6ab781f2a321a43f7a2d13148355714fd027e387a6d6648f99e3fad84120929",
+    "modelset": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/all_models_frozen_before_test_scoring.json",
+      "sha256": "895fa4b2535b759fc50757d30fd3f86b59d57981f6654f499776c0b93c11b3d8"
+    },
+    "new_LLM_calls": 0,
+    "new_graph_calls": 0,
+    "new_oracle_calls": 0,
+    "registration_fingerprint": "c2cc81b7cdb03b676db9de67975c9f1f6b788390abae90f7bddca39df9a72a6a",
+    "report": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/report.json",
+      "sha256": "b358c7dfb107884f5c471bff327d8043747e74a9ddc345308c4609a08609ac5c"
+    },
+    "reproduction_gate": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/original_reproduction_gate.json",
+      "sha256": "5a221193c4c398855e7f7868019c0f44e443bbea3bef1f7ba2a0cc13a3b5123f"
+    }
+  },
+  "original_failure_evidence": [
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/snar_feature_family_CPU_execution_20260919_v1/audit/exit.json",
+      "sha256": "74318870bc75b878e87023f0cf2baec298dfa6960a5288ab7d7c3940a26c0115"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/snar_feature_family_CPU_execution_20260919_v1/audit/stderr.log",
+      "sha256": "88a5a54295d6609a994a2db429ed4a2402e3416e6ae2f999951e09bc10bdd27c"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/technical_not_main/snar_feature_family_CPU_execution_20260919_v1/pipeline_stopped.json",
+      "sha256": "cf8a5eaaad601085ceba3ba3d773d34ff20ccd66840e0c17ab97172ff98670c9"
+    }
+  ],
+  "original_files_unchanged": 59,
+  "original_registration": {
+    "fingerprint": "c2cc81b7cdb03b676db9de67975c9f1f6b788390abae90f7bddca39df9a72a6a",
+    "fits": 12,
+    "maximum_optimizer_steps": 1200,
+    "reference": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/registration.json",
+      "sha256": "15f70763906a4bb6ec0053bf09fa41a8a7ba35fb7f8556926006eefe02aacde8"
+    }
+  },
+  "original_reproduction_gate": {
+    "exact_model_tensors": true,
+    "exact_training_metadata": true,
+    "maximum_absolute_score_difference": 0.0,
+    "passed": true,
+    "saved_action_scores": 224,
+    "score_absolute_tolerance": 1e-07,
+    "test_outcome_labels_used": false
+  },
+  "original_source_manifest_sha256": "3836730aa5e594976555da6ecabd258d813a7bac7b2098b6fe09ee93b09fa456",
+  "passed": true,
+  "raw_Python_differences": [
+    {
+      "expected_keys": [
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 0
+        }
+      ],
+      "kind": "dictionary_keys_differ",
+      "path": "$/cohort_counts/training_label_counts",
+      "stored_keys": [
+        {
+          "type": "str",
+          "value": "0"
+        },
+        {
+          "type": "str",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "expected_keys": [
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 0
+        }
+      ],
+      "kind": "dictionary_keys_differ",
+      "path": "$/cohort_counts/development_label_counts",
+      "stored_keys": [
+        {
+          "type": "str",
+          "value": "0"
+        },
+        {
+          "type": "str",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "expected_keys": [
+        {
+          "type": "int",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "value": 0
+        }
+      ],
+      "kind": "dictionary_keys_differ",
+      "path": "$/cohort_counts/scored_test_label_counts",
+      "stored_keys": [
+        {
+          "type": "str",
+          "value": "0"
+        },
+        {
+          "type": "str",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "schema": "snar_feature_family_separate_exact_reconstruction_acceptance_v1",
+  "scope": "12 already fitted CPU risk models and their fixed224-action report; not new policy evaluation",
+  "scores_count": 2688,
+  "status": "derived_report_reconstruction_accepted"
+}
