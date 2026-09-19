@@ -2005,7 +2005,23 @@
       "new_scientific_calls": 0,
       "snapshots_overlap_not_additive": true,
       "pending_failed_unknown_excluded_from_means": true
+    },
+    {
+      "snapshot_id": "made_incremental_20260920T011720_CST",
+      "observed_CST": "2026-09-20T01:17:20.973019+08:00",
+      "observed_UTC": "2026-09-19T17:17:20.973019+00:00",
+      "report": "results/made_components/incremental/20260920T011720_CST/report.md",
+      "summary": "results/made_components/incremental/20260920T011720_CST/summary.json",
+      "snapshot": "results/made_components/incremental/20260920T011720_CST/snapshot.json",
+      "validation_script": "results/made_components/incremental/20260920T011720_CST/recompute.py",
+      "accepted_evaluations": 369,
+      "planned_evaluations": 1080,
+      "complete": false,
+      "completed_terminal_signature": "f940f5e32465bb2e7513f156fca027ef8856bd684d0309539297678088613117",
+      "new_scientific_calls": 0,
+      "snapshots_overlap_not_additive": true,
+      "pending_failed_unknown_excluded_from_means": true
     }
   ],
-  "latest_incremental_component_export_id": "made_incremental_20260920T004724_CST"
+  "latest_incremental_component_export_id": "made_incremental_20260920T011720_CST"
 }
