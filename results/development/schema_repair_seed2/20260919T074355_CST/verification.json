@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "scope": "CPU-only descriptive audit of two completed development trajectories",
+  "input_sha256": {
+    "evidence.json": "07c20d4e917695a35cb62c5a728b7cfeaed7cc021df9e2b1d00290334c5570d5",
+    "additional_evidence.json": "b65310b56f064b413b776a19dd4b63882f418235a808c80835d33f0ae1057b47",
+    "identity_evidence.json": "465b640c811c6dc02d7c3e5b3cda8d8451b3eef9a81b0cb15bc1690416bbfc0c"
+  },
+  "verified": {
+    "physical_ORB_candidate_attempts": 100,
+    "physical_ORB_initialization_attempts": 52,
+    "physical_MACE_surrogate_attempts": 31,
+    "closed_RPC_curves": 2,
+    "curve_points_including_zero": 102,
+    "LLM_generation_seeds": 172,
+    "initial_proposal_prefix_action_risk_identical": true,
+    "unclosed_oracle_attempts": 0
+  },
+  "not_repeated": [
+    "giant checkpoint rehash",
+    "GPU inference",
+    "oracle execution",
+    "training",
+    "held-out test reading"
+  ],
+  "extractor_correction": "evidence.json journal_event_counts used event rather than actual kind; ignored in this audit. additional_evidence.json supplies hash-matched kind-based counts; no scientific data changed."
+}

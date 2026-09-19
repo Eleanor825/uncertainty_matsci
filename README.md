@@ -6,9 +6,11 @@ This repository contains the actual frozen server code used by the current budge
 
 ## Results and scope
 
-See [the latest per-system and aggregate report](results/budget_sweep/20260919T010939_CST/report.md), [all 180 planned trajectory rows](results/budget_sweep/20260919T010939_CST/all_system_results.csv), [the results chronology](docs/results.md), and [the export manifest](results/manifest.json). The latest observation is September19 at01:10:39 CST: B10 and B30 each have60/60 completed trajectories; B50 has34/60, including all30 full-method trajectories and4 baselines. Comparisons at B50 use only those4 matched systems, not the unequal completed-arm populations. Historical snapshots and all negative or tied outcomes are retained; unfinished final metrics remain unavailable.
+See [the latest per-system and aggregate report](results/budget_sweep/20260919T052138_CST/report.md), [all 180 planned trajectory rows](results/budget_sweep/20260919T052138_CST/all_system_results.csv), [the results chronology](docs/results.md), and [the export manifest](results/manifest.json). The final observation is September19 at05:21:38 CST: B10, B30 and B50 each have60/60 completed trajectories, for180 total and90 matched comparisons. B50 includes59 original accepted trajectories and one explicitly reconciled Ga–Pt–Tm trajectory; its original failed verification is preserved. B10 improved in aggregate for this single seed, while B30 and B50 declined. Historical snapshots and all negative or tied outcomes are retained. Repeated-seed variance and general efficacy are not established by this matrix.
 
 The registered expansion preserves the prior60 B10 trajectories and adds120 independent B30/B50 trajectories over the same30 official MADE test systems. It reuses the selected G2 policy and frozen uncertainty/transcoder models; it does not retrain on these test results. The scheduler reserves all B30 jobs before it can reserve B50 jobs. This is a **claim-order** guarantee, not a guarantee that every B30 trajectory finishes before B50 starts.
+
+A subsequent [paired development mechanism audit](results/development/schema_repair_seed2/20260919T074355_CST/report.md) identifies an adapter-compatible composition Mapping that the original controller incorrectly rejected. Correcting that gate changed one Al–Pd–Sm seed2 B50 rollout from SUN9 to15, with31 additional MACE screening evaluations. The neural models were unchanged, and this pair does not establish an independent benefit from neural uncertainty. These development results and costs are separate from the original180 test trajectories; the ongoing multi-seed component study will assess the corrected method.
 
 The larger multi-model, multi-scale and CrystalGym study remains deferred. These exports do not establish a general improvement, an independent causal effect of uncertainty, or performance for model sizes other than the evaluated4B checkpoint.
 
@@ -56,7 +58,7 @@ For result-export consistency without model loading:
 
 ```sh
 python3 results/validate_exports.py
-python3 results/budget_sweep/20260919T010939_CST/recompute.py
+python3 results/budget_sweep/20260919T052138_CST/recompute.py
 ```
 
 ## Scientific execution

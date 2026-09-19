@@ -1,0 +1,2830 @@
+[
+  {
+    "arm": "original_controller",
+    "first_steps": [
+      {
+        "id": 12,
+        "ok": true,
+        "result_keys": [
+          "observation",
+          "official_observation",
+          "official_metrics",
+          "event",
+          "done"
+        ],
+        "official_observation": {
+          "reduced_formula": "Al1 Pd1 Sm1",
+          "formation_energy_per_atom": 0.7737111250559489,
+          "energy_per_atom": -3.753289540608724,
+          "e_above_hull": 1.6174799601236978,
+          "is_stable": false,
+          "is_newly_discovered": true,
+          "validity_distance_valid_count": 1.0,
+          "validity_distance_valid_fraction": 1.0,
+          "validity_min_interatomic_distance_min": 3.694541561902339,
+          "validity_min_interatomic_distance_mean": 3.694541561902339,
+          "validity_min_interatomic_distance_std": 0.0,
+          "validity_smact_valid_count": 1.0,
+          "validity_smact_valid_fraction": 1.0,
+          "validity_distance_and_smact_valid_count": 1.0,
+          "validity_distance_and_smact_valid_fraction": 1.0
+        },
+        "nested_keys": {
+          "observation": [
+            "benchmark",
+            "seed",
+            "episode_index",
+            "episode_seed",
+            "budget",
+            "counts",
+            "episode_counts",
+            "faulted",
+            "closed",
+            "done",
+            "state",
+            "buffer",
+            "selected"
+          ],
+          "official_observation": [
+            "proposal",
+            "oracle_result",
+            "reduced_formula",
+            "formation_energy_per_atom",
+            "energy_per_atom",
+            "e_above_hull",
+            "is_stable",
+            "is_newly_discovered",
+            "validity_distance_valid_count",
+            "validity_distance_valid_fraction",
+            "validity_min_interatomic_distance_min",
+            "validity_min_interatomic_distance_mean",
+            "validity_min_interatomic_distance_std",
+            "validity_smact_valid_count",
+            "validity_smact_valid_fraction",
+            "validity_distance_and_smact_valid_count",
+            "validity_distance_and_smact_valid_fraction"
+          ],
+          "official_metrics": [
+            "queries_used",
+            "num_newly_discovered_structures",
+            "num_newly_discovered_stable",
+            "discovery_efficiency",
+            "stable_discovery_efficiency",
+            "validity_distance_valid_count",
+            "validity_distance_valid_fraction",
+            "validity_min_interatomic_distance_min",
+            "validity_min_interatomic_distance_mean",
+            "validity_min_interatomic_distance_std",
+            "validity_smact_valid_count",
+            "validity_smact_valid_fraction",
+            "validity_distance_and_smact_valid_count",
+            "validity_distance_and_smact_valid_fraction",
+            "diversity_all_composition_unique_composition_count",
+            "diversity_all_composition_unique_composition_fraction",
+            "diversity_all_composition_l1_distance_min",
+            "diversity_all_composition_l1_distance_mean",
+            "diversity_all_composition_l1_distance_max",
+            "diversity_all_composition_l1_distance_std",
+            "diversity_all_composition_l2_distance_min",
+            "diversity_all_composition_l2_distance_mean",
+            "diversity_all_composition_l2_distance_max",
+            "diversity_all_composition_l2_distance_std",
+            "diversity_all_structure_unique_structure_count",
+            "diversity_all_structure_unique_structure_fraction",
+            "diversity_all_structure_spacegroup_entropy",
+            "diversity_all_structure_unique_spacegroups_count",
+            "diversity_all_structure_unique_spacegroups_fraction",
+            "diversity_all_structure_lattice_parameter_variance",
+            "diversity_all_structure_amd_distance_min",
+            "diversity_all_structure_amd_distance_mean",
+            "diversity_all_structure_amd_distance_max",
+            "novelty_unique_structure_count",
+            "novelty_unique_structure_fraction",
+            "novelty_novel_structure_count",
+            "novelty_novel_structure_fraction",
+            "novelty_stable_count",
+            "novelty_stable_unique_count",
+            "novelty_stable_novel_count",
+            "novelty_stable_unique_novel_count",
+            "novelty_stable_fraction",
+            "novelty_stable_unique_fraction",
+            "novelty_stable_novel_fraction",
+            "novelty_stable_unique_novel_fraction",
+            "discovery_curve_area_under_discovery_curve",
+            "discovery_curve_area_under_discovery_curve_normalized",
+            "discovery_curve_enhancement_factor",
+            "discovery_curve_acceleration_factor"
+          ],
+          "event": [
+            "sequence",
+            "episode_index",
+            "kind",
+            "candidate_hash",
+            "observation",
+            "metrics",
+            "elapsed_seconds"
+          ]
+        }
+      },
+      {
+        "id": 18,
+        "ok": true,
+        "result_keys": [
+          "observation",
+          "official_observation",
+          "official_metrics",
+          "event",
+          "done"
+        ],
+        "official_observation": {
+          "reduced_formula": "Al1 Pd2 Sm1",
+          "formation_energy_per_atom": -0.87149578332901,
+          "energy_per_atom": -5.57191801071167,
+          "e_above_hull": 0.00555109977722168,
+          "is_stable": true,
+          "is_newly_discovered": true,
+          "validity_distance_valid_count": 1.0,
+          "validity_distance_valid_fraction": 1.0,
+          "validity_min_interatomic_distance_min": 2.576144599731333,
+          "validity_min_interatomic_distance_mean": 2.576144599731333,
+          "validity_min_interatomic_distance_std": 0.0,
+          "validity_smact_valid_count": 1.0,
+          "validity_smact_valid_fraction": 1.0,
+          "validity_distance_and_smact_valid_count": 1.0,
+          "validity_distance_and_smact_valid_fraction": 1.0
+        },
+        "nested_keys": {
+          "observation": [
+            "benchmark",
+            "seed",
+            "episode_index",
+            "episode_seed",
+            "budget",
+            "counts",
+            "episode_counts",
+            "faulted",
+            "closed",
+            "done",
+            "state",
+            "buffer",
+            "selected"
+          ],
+          "official_observation": [
+            "proposal",
+            "oracle_result",
+            "reduced_formula",
+            "formation_energy_per_atom",
+            "energy_per_atom",
+            "e_above_hull",
+            "is_stable",
+            "is_newly_discovered",
+            "validity_distance_valid_count",
+            "validity_distance_valid_fraction",
+            "validity_min_interatomic_distance_min",
+            "validity_min_interatomic_distance_mean",
+            "validity_min_interatomic_distance_std",
+            "validity_smact_valid_count",
+            "validity_smact_valid_fraction",
+            "validity_distance_and_smact_valid_count",
+            "validity_distance_and_smact_valid_fraction"
+          ],
+          "official_metrics": [
+            "queries_used",
+            "num_newly_discovered_structures",
+            "num_newly_discovered_stable",
+            "discovery_efficiency",
+            "stable_discovery_efficiency",
+            "validity_distance_valid_count",
+            "validity_distance_valid_fraction",
+            "validity_min_interatomic_distance_min",
+            "validity_min_interatomic_distance_mean",
+            "validity_min_interatomic_distance_std",
+            "validity_smact_valid_count",
+            "validity_smact_valid_fraction",
+            "validity_distance_and_smact_valid_count",
+            "validity_distance_and_smact_valid_fraction",
+            "diversity_all_composition_unique_composition_count",
+            "diversity_all_composition_unique_composition_fraction",
+            "diversity_all_composition_l1_distance_min",
+            "diversity_all_composition_l1_distance_mean",
+            "diversity_all_composition_l1_distance_max",
+            "diversity_all_composition_l1_distance_std",
+            "diversity_all_composition_l2_distance_min",
+            "diversity_all_composition_l2_distance_mean",
+            "diversity_all_composition_l2_distance_max",
+            "diversity_all_composition_l2_distance_std",
+            "diversity_all_structure_unique_structure_count",
+            "diversity_all_structure_unique_structure_fraction",
+            "diversity_all_structure_spacegroup_entropy",
+            "diversity_all_structure_unique_spacegroups_count",
+            "diversity_all_structure_unique_spacegroups_fraction",
+            "diversity_all_structure_lattice_parameter_variance",
+            "diversity_all_structure_amd_distance_min",
+            "diversity_all_structure_amd_distance_mean",
+            "diversity_all_structure_amd_distance_max",
+            "diversity_stable_composition_unique_composition_count",
+            "diversity_stable_composition_unique_composition_fraction",
+            "diversity_stable_composition_l1_distance_min",
+            "diversity_stable_composition_l1_distance_mean",
+            "diversity_stable_composition_l1_distance_max",
+            "diversity_stable_composition_l1_distance_std",
+            "diversity_stable_composition_l2_distance_min",
+            "diversity_stable_composition_l2_distance_mean",
+            "diversity_stable_composition_l2_distance_max",
+            "diversity_stable_composition_l2_distance_std",
+            "diversity_stable_structure_unique_structure_count",
+            "diversity_stable_structure_unique_structure_fraction",
+            "diversity_stable_structure_spacegroup_entropy",
+            "diversity_stable_structure_unique_spacegroups_count",
+            "diversity_stable_structure_unique_spacegroups_fraction",
+            "diversity_stable_structure_lattice_parameter_variance",
+            "diversity_stable_structure_amd_distance_min",
+            "diversity_stable_structure_amd_distance_mean",
+            "diversity_stable_structure_amd_distance_max",
+            "novelty_unique_structure_count",
+            "novelty_unique_structure_fraction",
+            "novelty_novel_structure_count",
+            "novelty_novel_structure_fraction",
+            "novelty_stable_count",
+            "novelty_stable_unique_count",
+            "novelty_stable_novel_count",
+            "novelty_stable_unique_novel_count",
+            "novelty_stable_fraction",
+            "novelty_stable_unique_fraction",
+            "novelty_stable_novel_fraction",
+            "novelty_stable_unique_novel_fraction",
+            "discovery_curve_area_under_discovery_curve",
+            "discovery_curve_area_under_discovery_curve_normalized",
+            "discovery_curve_enhancement_factor",
+            "discovery_curve_acceleration_factor"
+          ],
+          "event": [
+            "sequence",
+            "episode_index",
+            "kind",
+            "candidate_hash",
+            "observation",
+            "metrics",
+            "elapsed_seconds"
+          ]
+        }
+      }
+    ],
+    "first_tool": {
+      "request": {
+        "id": 1,
+        "op": "tool",
+        "args": {
+          "name": "get_buffer_stats",
+          "arguments": {}
+        }
+      },
+      "response_top": {
+        "id": 1,
+        "ok": true
+      },
+      "result": {
+        "tool": "get_buffer_stats",
+        "output": "Buffer is empty. Use generate_structures or create_structure to add candidates.",
+        "event": {
+          "sequence": 27,
+          "episode_index": 0,
+          "kind": "tool_result",
+          "tool": "get_buffer_stats",
+          "elapsed_seconds": 0.000168532133102417,
+          "result": "Buffer is empty. Use generate_structures or create_structure to add candidates."
+        },
+        "status": {
+          "benchmark": "made",
+          "seed": 2,
+          "episode_index": 0,
+          "episode_seed": 2,
+          "budget": 50,
+          "counts": {
+            "initialization_oracle_attempts": 26,
+            "rpc_attempts": 1,
+            "tool_attempts": 1
+          },
+          "episode_counts": {
+            "initialization_oracle_attempts": 26,
+            "rpc_attempts": 1,
+            "tool_attempts": 1
+          },
+          "faulted": false,
+          "closed": false
+        }
+      }
+    },
+    "rpc_bytes": 10261063,
+    "journal_files": [
+      "environment/oracle_attempts.jsonl"
+    ]
+  },
+  {
+    "arm": "schema_repaired_controller",
+    "first_steps": [
+      {
+        "id": 4,
+        "ok": true,
+        "result_keys": [
+          "observation",
+          "official_observation",
+          "official_metrics",
+          "event",
+          "done"
+        ],
+        "official_observation": {
+          "reduced_formula": "Al1 Pd3 Sm1",
+          "formation_energy_per_atom": -0.8010076999664306,
+          "energy_per_atom": -5.605482864379883,
+          "e_above_hull": 0.06241737365722688,
+          "is_stable": true,
+          "is_newly_discovered": true,
+          "validity_distance_valid_count": 1.0,
+          "validity_distance_valid_fraction": 1.0,
+          "validity_min_interatomic_distance_min": 2.3304208840018723,
+          "validity_min_interatomic_distance_mean": 2.3304208840018723,
+          "validity_min_interatomic_distance_std": 0.0,
+          "validity_smact_valid_count": 1.0,
+          "validity_smact_valid_fraction": 1.0,
+          "validity_distance_and_smact_valid_count": 1.0,
+          "validity_distance_and_smact_valid_fraction": 1.0
+        },
+        "nested_keys": {
+          "observation": [
+            "benchmark",
+            "seed",
+            "episode_index",
+            "episode_seed",
+            "budget",
+            "counts",
+            "episode_counts",
+            "faulted",
+            "closed",
+            "done",
+            "state",
+            "buffer",
+            "selected"
+          ],
+          "official_observation": [
+            "proposal",
+            "oracle_result",
+            "reduced_formula",
+            "formation_energy_per_atom",
+            "energy_per_atom",
+            "e_above_hull",
+            "is_stable",
+            "is_newly_discovered",
+            "validity_distance_valid_count",
+            "validity_distance_valid_fraction",
+            "validity_min_interatomic_distance_min",
+            "validity_min_interatomic_distance_mean",
+            "validity_min_interatomic_distance_std",
+            "validity_smact_valid_count",
+            "validity_smact_valid_fraction",
+            "validity_distance_and_smact_valid_count",
+            "validity_distance_and_smact_valid_fraction"
+          ],
+          "official_metrics": [
+            "queries_used",
+            "num_newly_discovered_structures",
+            "num_newly_discovered_stable",
+            "discovery_efficiency",
+            "stable_discovery_efficiency",
+            "validity_distance_valid_count",
+            "validity_distance_valid_fraction",
+            "validity_min_interatomic_distance_min",
+            "validity_min_interatomic_distance_mean",
+            "validity_min_interatomic_distance_std",
+            "validity_smact_valid_count",
+            "validity_smact_valid_fraction",
+            "validity_distance_and_smact_valid_count",
+            "validity_distance_and_smact_valid_fraction",
+            "diversity_all_composition_unique_composition_count",
+            "diversity_all_composition_unique_composition_fraction",
+            "diversity_all_composition_l1_distance_min",
+            "diversity_all_composition_l1_distance_mean",
+            "diversity_all_composition_l1_distance_max",
+            "diversity_all_composition_l1_distance_std",
+            "diversity_all_composition_l2_distance_min",
+            "diversity_all_composition_l2_distance_mean",
+            "diversity_all_composition_l2_distance_max",
+            "diversity_all_composition_l2_distance_std",
+            "diversity_all_structure_unique_structure_count",
+            "diversity_all_structure_unique_structure_fraction",
+            "diversity_all_structure_spacegroup_entropy",
+            "diversity_all_structure_unique_spacegroups_count",
+            "diversity_all_structure_unique_spacegroups_fraction",
+            "diversity_all_structure_lattice_parameter_variance",
+            "diversity_all_structure_amd_distance_min",
+            "diversity_all_structure_amd_distance_mean",
+            "diversity_all_structure_amd_distance_max",
+            "diversity_stable_composition_unique_composition_count",
+            "diversity_stable_composition_unique_composition_fraction",
+            "diversity_stable_composition_l1_distance_min",
+            "diversity_stable_composition_l1_distance_mean",
+            "diversity_stable_composition_l1_distance_max",
+            "diversity_stable_composition_l1_distance_std",
+            "diversity_stable_composition_l2_distance_min",
+            "diversity_stable_composition_l2_distance_mean",
+            "diversity_stable_composition_l2_distance_max",
+            "diversity_stable_composition_l2_distance_std",
+            "diversity_stable_structure_unique_structure_count",
+            "diversity_stable_structure_unique_structure_fraction",
+            "diversity_stable_structure_spacegroup_entropy",
+            "diversity_stable_structure_unique_spacegroups_count",
+            "diversity_stable_structure_unique_spacegroups_fraction",
+            "diversity_stable_structure_lattice_parameter_variance",
+            "diversity_stable_structure_amd_distance_min",
+            "diversity_stable_structure_amd_distance_mean",
+            "diversity_stable_structure_amd_distance_max",
+            "novelty_unique_structure_count",
+            "novelty_unique_structure_fraction",
+            "novelty_novel_structure_count",
+            "novelty_novel_structure_fraction",
+            "novelty_stable_count",
+            "novelty_stable_unique_count",
+            "novelty_stable_novel_count",
+            "novelty_stable_unique_novel_count",
+            "novelty_stable_fraction",
+            "novelty_stable_unique_fraction",
+            "novelty_stable_novel_fraction",
+            "novelty_stable_unique_novel_fraction",
+            "discovery_curve_area_under_discovery_curve",
+            "discovery_curve_area_under_discovery_curve_normalized",
+            "discovery_curve_enhancement_factor",
+            "discovery_curve_acceleration_factor"
+          ],
+          "event": [
+            "sequence",
+            "episode_index",
+            "kind",
+            "candidate_hash",
+            "observation",
+            "metrics",
+            "elapsed_seconds"
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "ok": true,
+        "result_keys": [
+          "observation",
+          "official_observation",
+          "official_metrics",
+          "event",
+          "done"
+        ],
+        "official_observation": {
+          "reduced_formula": "Al2 Pd2 Sm1",
+          "formation_energy_per_atom": -0.8017885208129882,
+          "energy_per_atom": -5.307817459106445,
+          "e_above_hull": 0.06955757141113317,
+          "is_stable": true,
+          "is_newly_discovered": true,
+          "validity_distance_valid_count": 1.0,
+          "validity_distance_valid_fraction": 1.0,
+          "validity_min_interatomic_distance_min": 2.5002804811488866,
+          "validity_min_interatomic_distance_mean": 2.5002804811488866,
+          "validity_min_interatomic_distance_std": 0.0,
+          "validity_smact_valid_count": 1.0,
+          "validity_smact_valid_fraction": 1.0,
+          "validity_distance_and_smact_valid_count": 1.0,
+          "validity_distance_and_smact_valid_fraction": 1.0
+        },
+        "nested_keys": {
+          "observation": [
+            "benchmark",
+            "seed",
+            "episode_index",
+            "episode_seed",
+            "budget",
+            "counts",
+            "episode_counts",
+            "faulted",
+            "closed",
+            "done",
+            "state",
+            "buffer",
+            "selected"
+          ],
+          "official_observation": [
+            "proposal",
+            "oracle_result",
+            "reduced_formula",
+            "formation_energy_per_atom",
+            "energy_per_atom",
+            "e_above_hull",
+            "is_stable",
+            "is_newly_discovered",
+            "validity_distance_valid_count",
+            "validity_distance_valid_fraction",
+            "validity_min_interatomic_distance_min",
+            "validity_min_interatomic_distance_mean",
+            "validity_min_interatomic_distance_std",
+            "validity_smact_valid_count",
+            "validity_smact_valid_fraction",
+            "validity_distance_and_smact_valid_count",
+            "validity_distance_and_smact_valid_fraction"
+          ],
+          "official_metrics": [
+            "queries_used",
+            "num_newly_discovered_structures",
+            "num_newly_discovered_stable",
+            "discovery_efficiency",
+            "stable_discovery_efficiency",
+            "validity_distance_valid_count",
+            "validity_distance_valid_fraction",
+            "validity_min_interatomic_distance_min",
+            "validity_min_interatomic_distance_mean",
+            "validity_min_interatomic_distance_std",
+            "validity_smact_valid_count",
+            "validity_smact_valid_fraction",
+            "validity_distance_and_smact_valid_count",
+            "validity_distance_and_smact_valid_fraction",
+            "diversity_all_composition_unique_composition_count",
+            "diversity_all_composition_unique_composition_fraction",
+            "diversity_all_composition_l1_distance_min",
+            "diversity_all_composition_l1_distance_mean",
+            "diversity_all_composition_l1_distance_max",
+            "diversity_all_composition_l1_distance_std",
+            "diversity_all_composition_l2_distance_min",
+            "diversity_all_composition_l2_distance_mean",
+            "diversity_all_composition_l2_distance_max",
+            "diversity_all_composition_l2_distance_std",
+            "diversity_all_structure_unique_structure_count",
+            "diversity_all_structure_unique_structure_fraction",
+            "diversity_all_structure_spacegroup_entropy",
+            "diversity_all_structure_unique_spacegroups_count",
+            "diversity_all_structure_unique_spacegroups_fraction",
+            "diversity_all_structure_lattice_parameter_variance",
+            "diversity_all_structure_amd_distance_min",
+            "diversity_all_structure_amd_distance_mean",
+            "diversity_all_structure_amd_distance_max",
+            "diversity_stable_composition_unique_composition_count",
+            "diversity_stable_composition_unique_composition_fraction",
+            "diversity_stable_composition_l1_distance_min",
+            "diversity_stable_composition_l1_distance_mean",
+            "diversity_stable_composition_l1_distance_max",
+            "diversity_stable_composition_l1_distance_std",
+            "diversity_stable_composition_l2_distance_min",
+            "diversity_stable_composition_l2_distance_mean",
+            "diversity_stable_composition_l2_distance_max",
+            "diversity_stable_composition_l2_distance_std",
+            "diversity_stable_structure_unique_structure_count",
+            "diversity_stable_structure_unique_structure_fraction",
+            "diversity_stable_structure_spacegroup_entropy",
+            "diversity_stable_structure_unique_spacegroups_count",
+            "diversity_stable_structure_unique_spacegroups_fraction",
+            "diversity_stable_structure_lattice_parameter_variance",
+            "diversity_stable_structure_amd_distance_min",
+            "diversity_stable_structure_amd_distance_mean",
+            "diversity_stable_structure_amd_distance_max",
+            "novelty_unique_structure_count",
+            "novelty_unique_structure_fraction",
+            "novelty_novel_structure_count",
+            "novelty_novel_structure_fraction",
+            "novelty_stable_count",
+            "novelty_stable_unique_count",
+            "novelty_stable_novel_count",
+            "novelty_stable_unique_novel_count",
+            "novelty_stable_fraction",
+            "novelty_stable_unique_fraction",
+            "novelty_stable_novel_fraction",
+            "novelty_stable_unique_novel_fraction",
+            "discovery_curve_area_under_discovery_curve",
+            "discovery_curve_area_under_discovery_curve_normalized",
+            "discovery_curve_enhancement_factor",
+            "discovery_curve_acceleration_factor"
+          ],
+          "event": [
+            "sequence",
+            "episode_index",
+            "kind",
+            "candidate_hash",
+            "observation",
+            "metrics",
+            "elapsed_seconds"
+          ]
+        }
+      }
+    ],
+    "first_tool": {
+      "request": {
+        "id": 1,
+        "op": "tool",
+        "args": {
+          "name": "generate_structures",
+          "arguments": {
+            "compositions": [
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 2.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 2.0
+              },
+              {
+                "Al": 2.0,
+                "Pd": 1.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 3.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 3.0
+              },
+              {
+                "Al": 2.0,
+                "Pd": 2.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 2.0,
+                "Sm": 2.0
+              }
+            ],
+            "generator_name": "chemeleon",
+            "num_candidates": 32
+          }
+        }
+      },
+      "response_top": {
+        "id": 1,
+        "ok": true
+      },
+      "result": {
+        "tool": "generate_structures",
+        "output": {
+          "generated": 32,
+          "accepted": 32,
+          "records": [
+            {
+              "accepted": true,
+              "composition": "SmAlPd",
+              "structure_index": 0,
+              "hash": "7675aeb49b990f76beb4f2ba791c451c13a8882584bdd04be74be45c2411c970",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm2AlPd",
+              "structure_index": 0,
+              "hash": "33f238a9e4604f2d5cc13f27bbf69832eb76663e34675ed69aef6d54c6f64350",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm2AlPd",
+              "structure_index": 1,
+              "hash": "1aec027b0b30b1743109b41151edc73686320dab2fd9bb36e80f34c839c9f644",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAl2Pd",
+              "structure_index": 0,
+              "hash": "06398dcac400e388f392914072903503a92e06d61bdf72c5c98ddb55552391eb",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAl2Pd",
+              "structure_index": 1,
+              "hash": "6b1cf89461e2f353d7ebb33965ebdbff651bad93eb3df988a491a82438ce110d",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAl2Pd",
+              "structure_index": 2,
+              "hash": "2ff309914a9060d0ec02a1bb97aee2bc4240fdf06118a3afa4d1a93fa1ddedc5",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAl2Pd",
+              "structure_index": 3,
+              "hash": "775d976efa476da31df8867b255cc7dc1bdd0b1c15dc32f58f0993d0afd0affd",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd3",
+              "structure_index": 0,
+              "hash": "7ecc8c8ba71111cf6cb601a5d2f7f9eef280a3a6201027048217ced726013344",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd3",
+              "structure_index": 1,
+              "hash": "835605b2bb6d13cb956322c610a5b1d788d52c9dc0aae07d45693c797fee06dc",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd3",
+              "structure_index": 2,
+              "hash": "9624e6a05675c2de1f3b20473a5574fa792f0fe6f03d7abf97e88f3ad8f1bd04",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd3",
+              "structure_index": 3,
+              "hash": "154891e6d99100f6cafaa1c513fb4af6916efd653d9acad008ea89e118da9ec5",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd",
+              "structure_index": 1,
+              "hash": "e18d72178f9ce79e16c9378778c7c48e3faa7aa2e4222d4b452faba246e62e8c",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm3AlPd",
+              "structure_index": 0,
+              "hash": "19fca42103740028d5769bcdbfe721eb8981355bcdc7cfda66191e4f2661a885",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm3AlPd",
+              "structure_index": 1,
+              "hash": "e9e9466fe00ced629b41ab65a2136eae028ebdc8870e0b5b7fc3ac08de0e202b",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm3AlPd",
+              "structure_index": 2,
+              "hash": "d8f1e3f74df2a352c513ca56c73dd64f6671441ad2e4a23914cfade736672058",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm3AlPd",
+              "structure_index": 3,
+              "hash": "b67216d89d065e74b7d1015027f0dd2ecff59d4a6319d0aa17d308f81c9ad2d1",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm(AlPd)2",
+              "structure_index": 0,
+              "hash": "7c3bd5119b67e3863c49bec423868d48c50075450adfafb2f06c1c3a3af7fc53",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm(AlPd)2",
+              "structure_index": 1,
+              "hash": "dadd1d907e8354c0499e5aaafc3776de1a8b0ae842236170c309557a2c1589fe",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm(AlPd)2",
+              "structure_index": 2,
+              "hash": "642dbcb36e6ff6ecd1ef3916bb699400404a0ee34c4d30001a55c69fa2dda080",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm(AlPd)2",
+              "structure_index": 3,
+              "hash": "60a752ae0b93fd0802104624137f8ce4044c5dc6609411740d1cb9c5a32c8082",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm2AlPd2",
+              "structure_index": 0,
+              "hash": "0b71eb4e062689d55bbdeaf03cd5297d9ff4e71a57c2097e37719acd758bc850",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm2AlPd2",
+              "structure_index": 1,
+              "hash": "837096c72327fa2ab4185f985466e294c7d9bb7849a7134dcc2883bd31e9c69f",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd",
+              "structure_index": 2,
+              "hash": "c38449271fd6e932ef329910e6d18540588525c5cc725aba943c17e009f3a572",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm2AlPd2",
+              "structure_index": 2,
+              "hash": "7c74d1c41d9b13a63bc8bd075e8645b091b74489e5a28c0ff0350f3efd7caee3",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm2AlPd2",
+              "structure_index": 3,
+              "hash": "94adf90e54cb9c5d6582eb5ac5ab93c0cec015508854b5915aacc9656e0bf260",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd",
+              "structure_index": 3,
+              "hash": "de43748bb95ad518b7244f706cd70eaaa4d62966f187e829c361d1d5cdcde77f",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd2",
+              "structure_index": 0,
+              "hash": "bf6f8361489345cb12d0e029396015e435e0617f41e313e81070e89701741870",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd2",
+              "structure_index": 1,
+              "hash": "afc8a546c3e64eb6deb2996e4976d8a2ddf129e1c616c5b1d182dfcdd5f9f90c",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd2",
+              "structure_index": 2,
+              "hash": "07183db72165a62e1be25859bf2c2e6abfef938b928094484069287ff30ac844",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "SmAlPd2",
+              "structure_index": 3,
+              "hash": "2a2450ec9f198f048bb99d2789e1d11da7eed96f4a2a57eac66f1b35328fc97b",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm2AlPd",
+              "structure_index": 2,
+              "hash": "f8c3e2dd5585800b0b81df8c18b9e9a46d988ceb8f65f9fbf6671f5d1d0a6378",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            },
+            {
+              "accepted": true,
+              "composition": "Sm2AlPd",
+              "structure_index": 3,
+              "hash": "947d8b8ff00448e093f6d32a50ab06a1a52d0583fc53a60eb986b8ccdeaa7735",
+              "filters": [
+                {
+                  "passed": true,
+                  "filter_name": "FilterChain",
+                  "rejection_reason": null,
+                  "details": {
+                    "filter_results": [
+                      {
+                        "filter": "MinDistance",
+                        "passed": true
+                      },
+                      {
+                        "filter": "SMACTValidity",
+                        "passed": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "passed": true,
+                  "filter_name": "Uniqueness",
+                  "rejection_reason": null,
+                  "details": {
+                    "num_references": 35
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "event": {
+          "sequence": 27,
+          "episode_index": 0,
+          "kind": "tool_result",
+          "tool": "generate_structures",
+          "elapsed_seconds": 4.673989448696375,
+          "result": {
+            "generated": 32,
+            "accepted": 32,
+            "records": [
+              {
+                "accepted": true,
+                "composition": "SmAlPd",
+                "structure_index": 0,
+                "hash": "7675aeb49b990f76beb4f2ba791c451c13a8882584bdd04be74be45c2411c970",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm2AlPd",
+                "structure_index": 0,
+                "hash": "33f238a9e4604f2d5cc13f27bbf69832eb76663e34675ed69aef6d54c6f64350",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm2AlPd",
+                "structure_index": 1,
+                "hash": "1aec027b0b30b1743109b41151edc73686320dab2fd9bb36e80f34c839c9f644",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAl2Pd",
+                "structure_index": 0,
+                "hash": "06398dcac400e388f392914072903503a92e06d61bdf72c5c98ddb55552391eb",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAl2Pd",
+                "structure_index": 1,
+                "hash": "6b1cf89461e2f353d7ebb33965ebdbff651bad93eb3df988a491a82438ce110d",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAl2Pd",
+                "structure_index": 2,
+                "hash": "2ff309914a9060d0ec02a1bb97aee2bc4240fdf06118a3afa4d1a93fa1ddedc5",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAl2Pd",
+                "structure_index": 3,
+                "hash": "775d976efa476da31df8867b255cc7dc1bdd0b1c15dc32f58f0993d0afd0affd",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd3",
+                "structure_index": 0,
+                "hash": "7ecc8c8ba71111cf6cb601a5d2f7f9eef280a3a6201027048217ced726013344",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd3",
+                "structure_index": 1,
+                "hash": "835605b2bb6d13cb956322c610a5b1d788d52c9dc0aae07d45693c797fee06dc",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd3",
+                "structure_index": 2,
+                "hash": "9624e6a05675c2de1f3b20473a5574fa792f0fe6f03d7abf97e88f3ad8f1bd04",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd3",
+                "structure_index": 3,
+                "hash": "154891e6d99100f6cafaa1c513fb4af6916efd653d9acad008ea89e118da9ec5",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd",
+                "structure_index": 1,
+                "hash": "e18d72178f9ce79e16c9378778c7c48e3faa7aa2e4222d4b452faba246e62e8c",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm3AlPd",
+                "structure_index": 0,
+                "hash": "19fca42103740028d5769bcdbfe721eb8981355bcdc7cfda66191e4f2661a885",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm3AlPd",
+                "structure_index": 1,
+                "hash": "e9e9466fe00ced629b41ab65a2136eae028ebdc8870e0b5b7fc3ac08de0e202b",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm3AlPd",
+                "structure_index": 2,
+                "hash": "d8f1e3f74df2a352c513ca56c73dd64f6671441ad2e4a23914cfade736672058",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm3AlPd",
+                "structure_index": 3,
+                "hash": "b67216d89d065e74b7d1015027f0dd2ecff59d4a6319d0aa17d308f81c9ad2d1",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm(AlPd)2",
+                "structure_index": 0,
+                "hash": "7c3bd5119b67e3863c49bec423868d48c50075450adfafb2f06c1c3a3af7fc53",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm(AlPd)2",
+                "structure_index": 1,
+                "hash": "dadd1d907e8354c0499e5aaafc3776de1a8b0ae842236170c309557a2c1589fe",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm(AlPd)2",
+                "structure_index": 2,
+                "hash": "642dbcb36e6ff6ecd1ef3916bb699400404a0ee34c4d30001a55c69fa2dda080",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm(AlPd)2",
+                "structure_index": 3,
+                "hash": "60a752ae0b93fd0802104624137f8ce4044c5dc6609411740d1cb9c5a32c8082",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm2AlPd2",
+                "structure_index": 0,
+                "hash": "0b71eb4e062689d55bbdeaf03cd5297d9ff4e71a57c2097e37719acd758bc850",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm2AlPd2",
+                "structure_index": 1,
+                "hash": "837096c72327fa2ab4185f985466e294c7d9bb7849a7134dcc2883bd31e9c69f",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd",
+                "structure_index": 2,
+                "hash": "c38449271fd6e932ef329910e6d18540588525c5cc725aba943c17e009f3a572",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm2AlPd2",
+                "structure_index": 2,
+                "hash": "7c74d1c41d9b13a63bc8bd075e8645b091b74489e5a28c0ff0350f3efd7caee3",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm2AlPd2",
+                "structure_index": 3,
+                "hash": "94adf90e54cb9c5d6582eb5ac5ab93c0cec015508854b5915aacc9656e0bf260",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd",
+                "structure_index": 3,
+                "hash": "de43748bb95ad518b7244f706cd70eaaa4d62966f187e829c361d1d5cdcde77f",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd2",
+                "structure_index": 0,
+                "hash": "bf6f8361489345cb12d0e029396015e435e0617f41e313e81070e89701741870",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd2",
+                "structure_index": 1,
+                "hash": "afc8a546c3e64eb6deb2996e4976d8a2ddf129e1c616c5b1d182dfcdd5f9f90c",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd2",
+                "structure_index": 2,
+                "hash": "07183db72165a62e1be25859bf2c2e6abfef938b928094484069287ff30ac844",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "SmAlPd2",
+                "structure_index": 3,
+                "hash": "2a2450ec9f198f048bb99d2789e1d11da7eed96f4a2a57eac66f1b35328fc97b",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm2AlPd",
+                "structure_index": 2,
+                "hash": "f8c3e2dd5585800b0b81df8c18b9e9a46d988ceb8f65f9fbf6671f5d1d0a6378",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "accepted": true,
+                "composition": "Sm2AlPd",
+                "structure_index": 3,
+                "hash": "947d8b8ff00448e093f6d32a50ab06a1a52d0583fc53a60eb986b8ccdeaa7735",
+                "filters": [
+                  {
+                    "passed": true,
+                    "filter_name": "FilterChain",
+                    "rejection_reason": null,
+                    "details": {
+                      "filter_results": [
+                        {
+                          "filter": "MinDistance",
+                          "passed": true
+                        },
+                        {
+                          "filter": "SMACTValidity",
+                          "passed": true
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "passed": true,
+                    "filter_name": "Uniqueness",
+                    "rejection_reason": null,
+                    "details": {
+                      "num_references": 35
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "status": {
+          "benchmark": "made",
+          "seed": 2,
+          "episode_index": 0,
+          "episode_seed": 2,
+          "budget": 50,
+          "counts": {
+            "initialization_oracle_attempts": 26,
+            "rpc_attempts": 1,
+            "tool_attempts": 1
+          },
+          "episode_counts": {
+            "initialization_oracle_attempts": 26,
+            "rpc_attempts": 1,
+            "tool_attempts": 1
+          },
+          "faulted": false,
+          "closed": false
+        }
+      }
+    },
+    "rpc_bytes": 10999347,
+    "journal_files": [
+      "environment/oracle_attempts.jsonl"
+    ]
+  }
+]

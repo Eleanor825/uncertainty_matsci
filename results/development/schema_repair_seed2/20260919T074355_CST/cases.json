@@ -1,0 +1,2216 @@
+[
+  {
+    "case": "identical_first_proposal_schema_branch",
+    "observed": "The exact same Mapping action passes the frozen adapter but the old controller rejects its shape before execution.",
+    "proposals": [
+      {
+        "local_decision_id": "d0000000-c0",
+        "line": 1,
+        "prefix_hash": "5018b874c84df81aea3e8fd1ec4a2016b666fc11dedc27308c6015146fe6d5f1",
+        "action": {
+          "tool": "generate_structures",
+          "arguments": {
+            "compositions": [
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 2.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 2.0
+              },
+              {
+                "Al": 2.0,
+                "Pd": 1.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 3.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 3.0
+              },
+              {
+                "Al": 2.0,
+                "Pd": 2.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 2.0,
+                "Sm": 2.0
+              }
+            ],
+            "generator_name": "chemeleon",
+            "num_candidates": 32
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "88f7692ece0ce1a139037f554746a36482ff100f3ab52dda48c6b1eab03567e7",
+        "seed": 20000038,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "rejected_not_executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.4991152584552765,
+        "failure_type_probabilities": {
+          "generation_invalid": 6.247363996784457e-234,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 2.746317246632228e-06,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.4047512540225556,
+          "not_new": 0.13368326822241947
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": null,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": null,
+          "not_new": null
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [],
+          "unstable": [],
+          "not_new": []
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": "generation_invalid",
+          "trigger_source": "local_schema_validation",
+          "request_retry": true,
+          "controller_action": "retry_with_type_feedback",
+          "local_schema_issues": [
+            "explicit_compositions_required"
+          ],
+          "triggered_heads": [],
+          "feedback_for_retry": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+          "reason": "A current-proposal schema issue is observed; this is not a future scientific label."
+        },
+        "selection": {
+          "selected_index": 1,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 1,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.3666309844273913,
+                0.07932281416391436,
+                0,
+                0.4996511936187744,
+                1
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 9.21080746368807e-178,
+                "tool_execution_failure": 4.3115605439884e-06,
+                "unstable": 0.3666309844273913,
+                "not_new": 0.1092972774350069
+              }
+            },
+            {
+              "candidate_index": 0,
+              "valid": false,
+              "rank_key": [
+                1,
+                0.0,
+                0.0,
+                0,
+                0.4991152584552765,
+                0
+              ],
+              "compared_head_probabilities": {}
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [
+            "explicit_compositions_required"
+          ],
+          "schema_repaired_controller": []
+        },
+        "arm": "original_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-original_controller/8405744691f148a0907d3e292bfc7638/decisions.jsonl",
+          "sha256": "bcf66904a3cfda3ac884ae628709994e507e65d5d6fda9fd5771dafc1c787ebe",
+          "bytes": 9508210
+        }
+      },
+      {
+        "local_decision_id": "d0000000-c0",
+        "line": 1,
+        "prefix_hash": "5018b874c84df81aea3e8fd1ec4a2016b666fc11dedc27308c6015146fe6d5f1",
+        "action": {
+          "tool": "generate_structures",
+          "arguments": {
+            "compositions": [
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 2.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 2.0
+              },
+              {
+                "Al": 2.0,
+                "Pd": 1.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 3.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 3.0
+              },
+              {
+                "Al": 2.0,
+                "Pd": 2.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 2.0,
+                "Sm": 2.0
+              }
+            ],
+            "generator_name": "chemeleon",
+            "num_candidates": 32
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "88f7692ece0ce1a139037f554746a36482ff100f3ab52dda48c6b1eab03567e7",
+        "seed": 20000038,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.4991152584552765,
+        "failure_type_probabilities": {
+          "generation_invalid": 6.247363996784457e-234,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 2.746317246632228e-06,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.4047512540225556,
+          "not_new": 0.13368326822241947
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": 0,
+          "tool_execution_failure": 0,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 0
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [
+            1
+          ],
+          "tool_execution_failure": [
+            1
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            4
+          ],
+          "unstable": [
+            4
+          ],
+          "not_new": [
+            4
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": null,
+          "trigger_source": null,
+          "request_retry": false,
+          "controller_action": "keep_candidate",
+          "local_schema_issues": [],
+          "triggered_heads": [],
+          "feedback_for_retry": "",
+          "reason": "No available risk exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.4047512540225556,
+                0.08974000247991139,
+                0,
+                0.4991152584552765,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 6.247363996784457e-234,
+                "tool_execution_failure": 2.746317246632228e-06,
+                "unstable": 0.4047512540225556,
+                "not_new": 0.13368326822241947
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [
+            "explicit_compositions_required"
+          ],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      }
+    ],
+    "tools": [
+      {
+        "rpc_id": 1,
+        "request_line": 3,
+        "response_line": 4,
+        "ok": true,
+        "action": {
+          "tool": "get_buffer_stats",
+          "arguments": {},
+          "large_geometry_fields_omitted": []
+        },
+        "error": null,
+        "candidate_count_at_error": null,
+        "output_summary": {
+          "text": "Buffer is empty. Use generate_structures or create_structure to add candidates."
+        },
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-original_controller/8405744691f148a0907d3e292bfc7638/rpc/rpc.jsonl",
+          "sha256": "805fd114f2f8437d8bc8d72d0b02923c2de17100fff0485e0612be299e9fe8fc",
+          "bytes": 10261063
+        }
+      },
+      {
+        "rpc_id": 3,
+        "request_line": 7,
+        "response_line": 8,
+        "ok": false,
+        "action": {
+          "tool": "generate_structures",
+          "arguments": {
+            "compositions": [
+              "Al:1 Pd:1 Sm:1",
+              "Al:2 Pd:1 Sm:1",
+              "Al:1 Pd:2 Sm:1",
+              "Al:1 Pd:1 Sm:2",
+              "Al:2 Pd:2 Sm:1",
+              "Al:1 Pd:2 Sm:2"
+            ],
+            "generator_name": "chemeleon",
+            "num_candidates": 32
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": {
+          "code": "tool_exception",
+          "type": "AdapterError",
+          "message": ":1 :1 :1 is an invalid formula!"
+        },
+        "candidate_count_at_error": null,
+        "output_summary": {},
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-original_controller/8405744691f148a0907d3e292bfc7638/rpc/rpc.jsonl",
+          "sha256": "805fd114f2f8437d8bc8d72d0b02923c2de17100fff0485e0612be299e9fe8fc",
+          "bytes": 10261063
+        }
+      },
+      {
+        "rpc_id": 9,
+        "request_line": 19,
+        "response_line": 20,
+        "ok": true,
+        "action": {
+          "tool": "generate_structures",
+          "arguments": {
+            "generator_name": "random",
+            "compositions": [
+              "AlPdSm1"
+            ],
+            "num_candidates": 32
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": null,
+        "candidate_count_at_error": null,
+        "output_summary": {
+          "generated": 32,
+          "accepted": 32
+        },
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-original_controller/8405744691f148a0907d3e292bfc7638/rpc/rpc.jsonl",
+          "sha256": "805fd114f2f8437d8bc8d72d0b02923c2de17100fff0485e0612be299e9fe8fc",
+          "bytes": 10261063
+        }
+      },
+      {
+        "rpc_id": 1,
+        "request_line": 3,
+        "response_line": 4,
+        "ok": true,
+        "action": {
+          "tool": "generate_structures",
+          "arguments": {
+            "compositions": [
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 2.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 2.0
+              },
+              {
+                "Al": 2.0,
+                "Pd": 1.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 3.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 1.0,
+                "Sm": 3.0
+              },
+              {
+                "Al": 2.0,
+                "Pd": 2.0,
+                "Sm": 1.0
+              },
+              {
+                "Al": 1.0,
+                "Pd": 2.0,
+                "Sm": 2.0
+              }
+            ],
+            "generator_name": "chemeleon",
+            "num_candidates": 32
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": null,
+        "candidate_count_at_error": null,
+        "output_summary": {
+          "generated": 32,
+          "accepted": 32
+        },
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      },
+      {
+        "rpc_id": 3,
+        "request_line": 7,
+        "response_line": 8,
+        "ok": true,
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "SmAlPd3",
+            "structure_hash": "7ecc8c8ba71111cf6cb601a5d2f7f9eef280a3a6201027048217ced726013344"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": null,
+        "candidate_count_at_error": null,
+        "output_summary": {
+          "hash": "7ecc8c8ba71111cf6cb601a5d2f7f9eef280a3a6201027048217ced726013344",
+          "composition": "SmAlPd3",
+          "full_formula": "Sm1Al1Pd3",
+          "source": "chemeleon",
+          "num_sites": 5
+        },
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      },
+      {
+        "rpc_id": 5,
+        "request_line": 11,
+        "response_line": 12,
+        "ok": true,
+        "action": {
+          "tool": "score_buffer",
+          "arguments": {
+            "scorer_name": "oracle"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": null,
+        "candidate_count_at_error": null,
+        "output_summary": {
+          "list_length": 8
+        },
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      }
+    ],
+    "first_scientific_steps": {
+      "original_controller": {
+        "step": 1,
+        "rpc_id": 12,
+        "response_line": 26,
+        "time": 1789759341.384796,
+        "ok": true,
+        "error": null,
+        "candidate_hash": "caec77159cd3d437bece39744057ea363887ff54acb5177f2759f2d662fafa18",
+        "official": {
+          "reduced_formula": "Al1 Pd1 Sm1",
+          "formation_energy_per_atom": 0.7737111250559489,
+          "energy_per_atom": -3.753289540608724,
+          "e_above_hull": 1.6174799601236978,
+          "is_stable": false,
+          "is_newly_discovered": true,
+          "validity_distance_valid_count": 1.0,
+          "validity_distance_valid_fraction": 1.0,
+          "validity_min_interatomic_distance_min": 3.694541561902339,
+          "validity_min_interatomic_distance_mean": 3.694541561902339,
+          "validity_min_interatomic_distance_std": 0.0,
+          "validity_smact_valid_count": 1.0,
+          "validity_smact_valid_fraction": 1.0,
+          "validity_distance_and_smact_valid_count": 1.0,
+          "validity_distance_and_smact_valid_fraction": 1.0
+        },
+        "metrics": {
+          "queries_used": 1,
+          "num_newly_discovered_structures": 1,
+          "num_newly_discovered_stable": 0,
+          "diversity_all_composition_unique_composition_count": 1.0,
+          "diversity_all_structure_unique_structure_count": 1.0,
+          "novelty_unique_structure_count": 1.0,
+          "novelty_unique_structure_fraction": 1.0,
+          "novelty_novel_structure_count": 1.0,
+          "novelty_novel_structure_fraction": 1.0,
+          "novelty_stable_count": 0.0,
+          "novelty_stable_unique_count": 0.0,
+          "novelty_stable_novel_count": 0.0,
+          "novelty_stable_unique_novel_count": 0.0,
+          "novelty_stable_fraction": 0.0,
+          "novelty_stable_unique_fraction": 0.0,
+          "novelty_stable_novel_fraction": 0.0,
+          "novelty_stable_unique_novel_fraction": 0.0
+        }
+      },
+      "schema_repaired_controller": {
+        "step": 1,
+        "rpc_id": 4,
+        "response_line": 10,
+        "time": 1789761276.3392131,
+        "ok": true,
+        "error": null,
+        "candidate_hash": "7ecc8c8ba71111cf6cb601a5d2f7f9eef280a3a6201027048217ced726013344",
+        "official": {
+          "reduced_formula": "Al1 Pd3 Sm1",
+          "formation_energy_per_atom": -0.8010076999664306,
+          "energy_per_atom": -5.605482864379883,
+          "e_above_hull": 0.06241737365722688,
+          "is_stable": true,
+          "is_newly_discovered": true,
+          "validity_distance_valid_count": 1.0,
+          "validity_distance_valid_fraction": 1.0,
+          "validity_min_interatomic_distance_min": 2.3304208840018723,
+          "validity_min_interatomic_distance_mean": 2.3304208840018723,
+          "validity_min_interatomic_distance_std": 0.0,
+          "validity_smact_valid_count": 1.0,
+          "validity_smact_valid_fraction": 1.0,
+          "validity_distance_and_smact_valid_count": 1.0,
+          "validity_distance_and_smact_valid_fraction": 1.0
+        },
+        "metrics": {
+          "queries_used": 1,
+          "num_newly_discovered_structures": 1,
+          "num_newly_discovered_stable": 1,
+          "diversity_all_composition_unique_composition_count": 1.0,
+          "diversity_all_structure_unique_structure_count": 1.0,
+          "novelty_unique_structure_count": 1.0,
+          "novelty_unique_structure_fraction": 1.0,
+          "novelty_novel_structure_count": 1.0,
+          "novelty_novel_structure_fraction": 1.0,
+          "novelty_stable_count": 1.0,
+          "novelty_stable_unique_count": 1.0,
+          "novelty_stable_novel_count": 1.0,
+          "novelty_stable_unique_novel_count": 1.0,
+          "novelty_stable_fraction": 1.0,
+          "novelty_stable_unique_fraction": 1.0,
+          "novelty_stable_novel_fraction": 1.0,
+          "novelty_stable_unique_novel_fraction": 1.0
+        }
+      }
+    },
+    "inference_boundary": "Local rejection cause is identified; the two first evaluated structures are different, not counterfactual evaluations of the same structure."
+  },
+  {
+    "case": "valid_missing_graph_still_triggers_wrong_type",
+    "observed": "Repaired d21-c0 is syntactically valid, but FVU rejection yields no graph and generation_invalid=1; it is replaced by a query.",
+    "proposals": [
+      {
+        "local_decision_id": "d0000021-c0",
+        "line": 25,
+        "prefix_hash": "6605c16f3c68c5125b4e223b03494391792b912f52e783ee844be09d1bbde804",
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm(AlPd)2",
+            "structure_hash": "642dbcb36e6ff6ecd1ef3916bb699400404a0ee34c4d30001a55c69fa2dda080"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "f0c43ef0ea71b8c732cde50fc8f98ecf20b897264084ff4161bb9d2088afeb92",
+        "seed": 20002075,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "rejected_not_executed",
+        "graph_status": "unavailable",
+        "graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.16.mlp: FVU=0.5009332299232483, defined=True.",
+        "predicted_failure_probability": 0.500788152217865,
+        "failure_type_probabilities": {
+          "generation_invalid": 1.0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.8290763672961061,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5529449053039687,
+          "not_new": 0.5264510712175456
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": null,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": null,
+          "not_new": null
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [],
+          "unstable": [],
+          "not_new": []
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": "generation_invalid",
+          "trigger_source": "predicted_failure_type",
+          "request_retry": true,
+          "controller_action": "retry_with_type_feedback",
+          "local_schema_issues": [],
+          "triggered_heads": [
+            "generation_invalid",
+            "tool_execution_failure"
+          ],
+          "feedback_for_retry": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+          "reason": "An applicable predicted failure type exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 1,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 1,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.4733574995248589,
+                0.12643888117837807,
+                0,
+                0.49972715973854065,
+                1
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.8824435688618507e-118,
+                "tool_execution_failure": 0.003893188810113227,
+                "unstable": 0.4733574995248589,
+                "not_new": 0.27748940992518306
+              }
+            },
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                1.0,
+                0.7895914518522877,
+                0,
+                0.500788152217865,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.0,
+                "tool_execution_failure": 0.8290763672961061,
+                "unstable": 0.5529449053039687,
+                "not_new": 0.5264510712175456
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      },
+      {
+        "local_decision_id": "d0000021-c1",
+        "line": 26,
+        "prefix_hash": "d0492394ee2267918b2ccffd17b19a4f6ace63243a7b75ec4ad1c86bf881f5be",
+        "action": {
+          "tool": "query_structures",
+          "arguments": {
+            "composition": "Sm(AlPd)2",
+            "k": 5,
+            "mode": "all"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "6f502171145e28338b1fbb156210f61f187f38456a3afb395becf74fa8d5ecb2",
+        "seed": 20002076,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.49972715973854065,
+        "failure_type_probabilities": {
+          "generation_invalid": 1.8824435688618507e-118,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.003893188810113227,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.4733574995248589,
+          "not_new": 0.27748940992518306
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 1
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [
+            43
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            46
+          ],
+          "unstable": [
+            46
+          ],
+          "not_new": [
+            46
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": null,
+          "trigger_source": null,
+          "request_retry": false,
+          "controller_action": "keep_candidate",
+          "local_schema_issues": [],
+          "triggered_heads": [],
+          "feedback_for_retry": "",
+          "reason": "No available risk exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 1,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 1,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.4733574995248589,
+                0.12643888117837807,
+                0,
+                0.49972715973854065,
+                1
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.8824435688618507e-118,
+                "tool_execution_failure": 0.003893188810113227,
+                "unstable": 0.4733574995248589,
+                "not_new": 0.27748940992518306
+              }
+            },
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                1.0,
+                0.7895914518522877,
+                0,
+                0.500788152217865,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.0,
+                "tool_execution_failure": 0.8290763672961061,
+                "unstable": 0.5529449053039687,
+                "not_new": 0.5264510712175456
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      }
+    ],
+    "tools": [
+      {
+        "rpc_id": 43,
+        "request_line": 87,
+        "response_line": 88,
+        "ok": true,
+        "action": {
+          "tool": "query_structures",
+          "arguments": {
+            "composition": "Sm(AlPd)2",
+            "k": 5,
+            "mode": "all"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": null,
+        "candidate_count_at_error": null,
+        "output_summary": {
+          "composition": "Sm(AlPd)2",
+          "selection_key": "structure_hash"
+        },
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      }
+    ],
+    "next_scientific_step": {
+      "step": 13,
+      "rpc_id": 46,
+      "response_line": 94,
+      "time": 1789762917.8262208,
+      "ok": true,
+      "error": null,
+      "candidate_hash": "2a2450ec9f198f048bb99d2789e1d11da7eed96f4a2a57eac66f1b35328fc97b",
+      "official": {
+        "reduced_formula": "Al1 Pd2 Sm1",
+        "formation_energy_per_atom": -0.8714466691017151,
+        "energy_per_atom": -5.571868896484375,
+        "e_above_hull": 0.005600452423095703,
+        "is_stable": true,
+        "is_newly_discovered": false,
+        "validity_distance_valid_count": 1.0,
+        "validity_distance_valid_fraction": 1.0,
+        "validity_min_interatomic_distance_min": 2.6200365459228827,
+        "validity_min_interatomic_distance_mean": 2.6200365459228827,
+        "validity_min_interatomic_distance_std": 0.0,
+        "validity_smact_valid_count": 1.0,
+        "validity_smact_valid_fraction": 1.0,
+        "validity_distance_and_smact_valid_count": 1.0,
+        "validity_distance_and_smact_valid_fraction": 1.0
+      },
+      "metrics": {
+        "queries_used": 13,
+        "num_newly_discovered_structures": 5,
+        "num_newly_discovered_stable": 5,
+        "diversity_all_composition_unique_composition_count": 4.0,
+        "diversity_all_structure_unique_structure_count": 5.0,
+        "novelty_unique_structure_count": 5.0,
+        "novelty_unique_structure_fraction": 0.38461538461538464,
+        "novelty_novel_structure_count": 13.0,
+        "novelty_novel_structure_fraction": 1.0,
+        "novelty_stable_count": 12.0,
+        "novelty_stable_unique_count": 5.0,
+        "novelty_stable_novel_count": 12.0,
+        "novelty_stable_unique_novel_count": 5.0,
+        "novelty_stable_fraction": 0.9230769230769231,
+        "novelty_stable_unique_fraction": 0.38461538461538464,
+        "novelty_stable_novel_fraction": 0.9230769230769231,
+        "novelty_stable_unique_novel_fraction": 0.38461538461538464
+      }
+    },
+    "inference_boundary": "Generation-invalid false positive is observable from parsing. The rejected structure was not evaluated here; its potential SUN is unknown."
+  },
+  {
+    "case": "buffer_hash_error_persists_at_step47",
+    "observed": "Eight AdapterError tool returns occur while candidate count stays 47. Both final retry candidates lack graphs; high generation-invalid is the wrong diagnosis for valid JSON.",
+    "proposals": [
+      {
+        "local_decision_id": "d0000068-c0",
+        "line": 73,
+        "prefix_hash": "eedcc15cd3912d35e7a94213fe3aed0ddffd2356289a21fb49de06e0d1ee7015",
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "551aaf8ddea9e19ffead68d7bca1de09a4e27816ced9cb0bab1505bf5d6454d6",
+        "seed": 20006634,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.5003535747528076,
+        "failure_type_probabilities": {
+          "generation_invalid": 8.800599983691092e-80,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.4623160438245382,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5850687925848378,
+          "not_new": 0.23009846771969078
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 1,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 1
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [
+            137
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            154
+          ],
+          "unstable": [
+            154
+          ],
+          "not_new": [
+            154
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": null,
+          "trigger_source": null,
+          "request_retry": false,
+          "controller_action": "keep_candidate",
+          "local_schema_issues": [],
+          "triggered_heads": [],
+          "feedback_for_retry": "",
+          "reason": "No available risk exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.5850687925848378,
+                0.2899665579922675,
+                0,
+                0.5003535747528076,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 8.800599983691092e-80,
+                "tool_execution_failure": 0.4623160438245382,
+                "unstable": 0.5850687925848378,
+                "not_new": 0.23009846771969078
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      },
+      {
+        "local_decision_id": "d0000069-c0",
+        "line": 74,
+        "prefix_hash": "f31135eff7b9b3b8ded0d54b7369c955a8f80190ddf88f9a578454dcaa52a450",
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e38e3ab32c87025272e1c332b3fabcbc815ae8ef64920127306822cadb"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "622242b018a983e924075de0d35426e0c4541befcda7b264083df1ac6b4bf114",
+        "seed": 20006731,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.5004163980484009,
+        "failure_type_probabilities": {
+          "generation_invalid": 3.6592975540793405e-78,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.3896455130245642,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5748874933411765,
+          "not_new": 0.2502350609748863
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 1,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 1
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [
+            139
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            154
+          ],
+          "unstable": [
+            154
+          ],
+          "not_new": [
+            154
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": null,
+          "trigger_source": null,
+          "request_retry": false,
+          "controller_action": "keep_candidate",
+          "local_schema_issues": [],
+          "triggered_heads": [],
+          "feedback_for_retry": "",
+          "reason": "No available risk exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.5748874933411765,
+                0.26740226339419854,
+                0,
+                0.5004163980484009,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 3.6592975540793405e-78,
+                "tool_execution_failure": 0.3896455130245642,
+                "unstable": 0.5748874933411765,
+                "not_new": 0.2502350609748863
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      },
+      {
+        "local_decision_id": "d0000070-c0",
+        "line": 75,
+        "prefix_hash": "a99eb4ef3ee4de12a02df8648343ff37bed17374a9e291de3023e8dc2409f90e",
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e38e3ab32c87025272e1c332b3fabcbc815ae8ef64920127306822cadb"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "dac88fb2dbc8ae3865d85090e8e026ac2ff11c73800290cdf32d33f24e85956c",
+        "seed": 20006828,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.5004194378852844,
+        "failure_type_probabilities": {
+          "generation_invalid": 1.4208662838346681e-90,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.3440352130579829,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5712926339490025,
+          "not_new": 0.20813628151315763
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 1,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 1
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [
+            141
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            154
+          ],
+          "unstable": [
+            154
+          ],
+          "not_new": [
+            154
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": null,
+          "trigger_source": null,
+          "request_retry": false,
+          "controller_action": "keep_candidate",
+          "local_schema_issues": [],
+          "triggered_heads": [],
+          "feedback_for_retry": "",
+          "reason": "No available risk exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.5712926339490025,
+                0.24458322359635432,
+                0,
+                0.5004194378852844,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.4208662838346681e-90,
+                "tool_execution_failure": 0.3440352130579829,
+                "unstable": 0.5712926339490025,
+                "not_new": 0.20813628151315763
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      },
+      {
+        "local_decision_id": "d0000071-c0",
+        "line": 76,
+        "prefix_hash": "fc3d17a4e760dbdfd4e956e0bf97fed5feb61a0b567838ada1ed93872fed8029",
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "9a036be2d8cc697268efd0af1da241bea95332bed37d1647c78c7df12d040752",
+        "seed": 20006925,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.500264048576355,
+        "failure_type_probabilities": {
+          "generation_invalid": 1.0935636121489811e-85,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.38017995163302165,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5668740610361063,
+          "not_new": 0.21925900380593547
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 1,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 1
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [
+            143
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            154
+          ],
+          "unstable": [
+            154
+          ],
+          "not_new": [
+            154
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": null,
+          "trigger_source": null,
+          "request_retry": false,
+          "controller_action": "keep_candidate",
+          "local_schema_issues": [],
+          "triggered_heads": [],
+          "feedback_for_retry": "",
+          "reason": "No available risk exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.5668740610361063,
+                0.2577488280180142,
+                0,
+                0.500264048576355,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.0935636121489811e-85,
+                "tool_execution_failure": 0.38017995163302165,
+                "unstable": 0.5668740610361063,
+                "not_new": 0.21925900380593547
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      },
+      {
+        "local_decision_id": "d0000072-c0",
+        "line": 77,
+        "prefix_hash": "b42ee8dc364f8554fbc160caff4b923797f428869dd64fad9913de9e4f5f0c13",
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "41ef3f50ae6fdf69e6b0eabdfd8c6ae4bce317238e2d39929e10d02fb5ba8242",
+        "seed": 20007022,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.5003450512886047,
+        "failure_type_probabilities": {
+          "generation_invalid": 1.566226833228035e-89,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.47415525513276996,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5843709163304867,
+          "not_new": 0.19633047821642283
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 1,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 1
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [
+            145
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            154
+          ],
+          "unstable": [
+            154
+          ],
+          "not_new": [
+            154
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": null,
+          "trigger_source": null,
+          "request_retry": false,
+          "controller_action": "keep_candidate",
+          "local_schema_issues": [],
+          "triggered_heads": [],
+          "feedback_for_retry": "",
+          "reason": "No available risk exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.5843709163304867,
+                0.28816865080207493,
+                0,
+                0.5003450512886047,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.566226833228035e-89,
+                "tool_execution_failure": 0.47415525513276996,
+                "unstable": 0.5843709163304867,
+                "not_new": 0.19633047821642283
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      },
+      {
+        "local_decision_id": "d0000073-c0",
+        "line": 78,
+        "prefix_hash": "4635c2616debe0fa00bfb79e17c30c981b4ab8d7e2c9d469892edb0d9fbc115b",
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "d0521879e94eecea769afba36965ca10652baa008cb43c98ddeefb453002f154",
+        "seed": 20007119,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.5003147721290588,
+        "failure_type_probabilities": {
+          "generation_invalid": 4.72389038722995e-87,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.4728697286532825,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5818386708221847,
+          "not_new": 0.20338691996581276
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 1,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 1
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [
+            147
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            154
+          ],
+          "unstable": [
+            154
+          ],
+          "not_new": [
+            154
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": null,
+          "trigger_source": null,
+          "request_retry": false,
+          "controller_action": "keep_candidate",
+          "local_schema_issues": [],
+          "triggered_heads": [],
+          "feedback_for_retry": "",
+          "reason": "No available risk exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.5818386708221847,
+                0.28849417468242705,
+                0,
+                0.5003147721290588,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 4.72389038722995e-87,
+                "tool_execution_failure": 0.4728697286532825,
+                "unstable": 0.5818386708221847,
+                "not_new": 0.20338691996581276
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      },
+      {
+        "local_decision_id": "d0000074-c0",
+        "line": 79,
+        "prefix_hash": "164d741c5cd0754e2ae6c04da8dbccfad7a29a65f8b62f8079d321c3c7a8805a",
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "a9885b11ed8a6441151945ad6fa589be19d86b7c2613fc356fc94f9adda1c963",
+        "seed": 20007216,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "succeeded",
+        "graph_error": null,
+        "predicted_failure_probability": 0.5002954006195068,
+        "failure_type_probabilities": {
+          "generation_invalid": 6.853343431151672e-86,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.5013842777332508,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5787484638883312,
+          "not_new": 0.2087438255971028
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 1,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 1
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [
+            149
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            154
+          ],
+          "unstable": [
+            154
+          ],
+          "not_new": [
+            154
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": null,
+          "trigger_source": null,
+          "request_retry": false,
+          "controller_action": "keep_candidate",
+          "local_schema_issues": [],
+          "triggered_heads": [],
+          "feedback_for_retry": "",
+          "reason": "No available risk exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                0.5787484638883312,
+                0.29837680749198925,
+                0,
+                0.5002954006195068,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 6.853343431151672e-86,
+                "tool_execution_failure": 0.5013842777332508,
+                "unstable": 0.5787484638883312,
+                "not_new": 0.2087438255971028
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      },
+      {
+        "local_decision_id": "d0000075-c0",
+        "line": 80,
+        "prefix_hash": "d5eca0c1431a03dd760b2c2cf58a292c51f5e51a18bb4d663b43180e941c510a",
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e38e3ab32c87025272e1c332b3fabcbc815ae8ef64920127306822cadb"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "9e78519acdc7ded31900d5561632d61d831142224c6b9dda7e56743bf63d44a5",
+        "seed": 20007313,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "executed",
+        "graph_status": "unavailable",
+        "graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.16.mlp: FVU=0.501804769039154, defined=True.",
+        "predicted_failure_probability": 0.5004172921180725,
+        "failure_type_probabilities": {
+          "generation_invalid": 1.0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.9173278009304343,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5551272659347933,
+          "not_new": 0.6221577422640745
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 1,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": 0,
+          "unstable": 0,
+          "not_new": 1
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [
+            151
+          ],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [
+            154
+          ],
+          "unstable": [
+            154
+          ],
+          "not_new": [
+            154
+          ]
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": "generation_invalid",
+          "trigger_source": "predicted_failure_type",
+          "request_retry": true,
+          "controller_action": "retry_with_type_feedback",
+          "local_schema_issues": [],
+          "triggered_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "not_new"
+          ],
+          "feedback_for_retry": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+          "reason": "An applicable predicted failure type exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                1.0,
+                0.835323435009956,
+                0,
+                0.5004172921180725,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.0,
+                "tool_execution_failure": 0.9173278009304343,
+                "unstable": 0.5551272659347933,
+                "not_new": 0.6221577422640745
+              }
+            },
+            {
+              "candidate_index": 1,
+              "valid": true,
+              "rank_key": [
+                0,
+                1.0,
+                0.8440735764333902,
+                0,
+                0.5002801418304443,
+                1
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.0,
+                "tool_execution_failure": 0.9280739027350369,
+                "unstable": 0.5417028848330512,
+                "not_new": 0.6665907682972164
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      },
+      {
+        "local_decision_id": "d0000075-c1",
+        "line": 81,
+        "prefix_hash": "2870d8fa3a093928abe1f38527c47e0cd15300979deb1632dccb668b5b3237cf",
+        "action": {
+          "tool": "query_structures",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "k": 5,
+            "mode": "all"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "action_sha256": "65a3cdca67b6adf2376643ddfff4f60fd6c7567ad0bc0c6e632e2a90dc234687",
+        "seed": 20007314,
+        "generation_success": true,
+        "generation_failure_code": null,
+        "disposition": "rejected_not_executed",
+        "graph_status": "unavailable",
+        "graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.13.mlp: FVU=0.5058184862136841, defined=True.",
+        "predicted_failure_probability": 0.5002801418304443,
+        "failure_type_probabilities": {
+          "generation_invalid": 1.0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": 0.9280739027350369,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": 0.5417028848330512,
+          "not_new": 0.6665907682972164
+        },
+        "observed_failure_types": {
+          "generation_invalid": 0,
+          "candidate_generation_failure": null,
+          "tool_execution_failure": null,
+          "screening_unavailable": null,
+          "scientific_evaluation_failure": null,
+          "unstable": null,
+          "not_new": null
+        },
+        "failure_type_observation_rpc_ids": {
+          "generation_invalid": [],
+          "candidate_generation_failure": [],
+          "tool_execution_failure": [],
+          "screening_unavailable": [],
+          "scientific_evaluation_failure": [],
+          "unstable": [],
+          "not_new": []
+        },
+        "controller": {
+          "threshold": 0.6,
+          "trigger": "generation_invalid",
+          "trigger_source": "predicted_failure_type",
+          "request_retry": true,
+          "controller_action": "retry_with_type_feedback",
+          "local_schema_issues": [],
+          "triggered_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "not_new"
+          ],
+          "feedback_for_retry": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+          "reason": "An applicable predicted failure type exceeds the fixed threshold."
+        },
+        "selection": {
+          "selected_index": 0,
+          "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+          "common_comparison_heads": [
+            "generation_invalid",
+            "tool_execution_failure",
+            "unstable",
+            "not_new"
+          ],
+          "type_signals_used": true,
+          "ranking": [
+            {
+              "candidate_index": 0,
+              "valid": true,
+              "rank_key": [
+                0,
+                1.0,
+                0.835323435009956,
+                0,
+                0.5004172921180725,
+                0
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.0,
+                "tool_execution_failure": 0.9173278009304343,
+                "unstable": 0.5551272659347933,
+                "not_new": 0.6221577422640745
+              }
+            },
+            {
+              "candidate_index": 1,
+              "valid": true,
+              "rank_key": [
+                0,
+                1.0,
+                0.8440735764333902,
+                0,
+                0.5002801418304443,
+                1
+              ],
+              "compared_head_probabilities": {
+                "generation_invalid": 1.0,
+                "tool_execution_failure": 0.9280739027350369,
+                "unstable": 0.5417028848330512,
+                "not_new": 0.6665907682972164
+              }
+            }
+          ]
+        },
+        "schema_replay": {
+          "original_controller": [],
+          "schema_repaired_controller": []
+        },
+        "arm": "schema_repaired_controller",
+        "original_decisions_source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/decisions.jsonl",
+          "sha256": "a233f26dcd00eb7b66c9a43634a11676501c7142b09bcfbd3d70f02c8ed1e1ad",
+          "bytes": 10501425
+        }
+      }
+    ],
+    "tools": [
+      {
+        "rpc_id": 137,
+        "request_line": 275,
+        "response_line": 276,
+        "ok": false,
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": {
+          "code": "tool_exception",
+          "type": "AdapterError",
+          "message": "The selected hash is not in this composition buffer."
+        },
+        "candidate_count_at_error": 47,
+        "output_summary": {},
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      },
+      {
+        "rpc_id": 139,
+        "request_line": 279,
+        "response_line": 280,
+        "ok": false,
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e38e3ab32c87025272e1c332b3fabcbc815ae8ef64920127306822cadb"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": {
+          "code": "tool_exception",
+          "type": "AdapterError",
+          "message": "The selected hash is not in this composition buffer."
+        },
+        "candidate_count_at_error": 47,
+        "output_summary": {},
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      },
+      {
+        "rpc_id": 141,
+        "request_line": 283,
+        "response_line": 284,
+        "ok": false,
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e38e3ab32c87025272e1c332b3fabcbc815ae8ef64920127306822cadb"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": {
+          "code": "tool_exception",
+          "type": "AdapterError",
+          "message": "The selected hash is not in this composition buffer."
+        },
+        "candidate_count_at_error": 47,
+        "output_summary": {},
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      },
+      {
+        "rpc_id": 143,
+        "request_line": 287,
+        "response_line": 288,
+        "ok": false,
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": {
+          "code": "tool_exception",
+          "type": "AdapterError",
+          "message": "The selected hash is not in this composition buffer."
+        },
+        "candidate_count_at_error": 47,
+        "output_summary": {},
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      },
+      {
+        "rpc_id": 145,
+        "request_line": 291,
+        "response_line": 292,
+        "ok": false,
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": {
+          "code": "tool_exception",
+          "type": "AdapterError",
+          "message": "The selected hash is not in this composition buffer."
+        },
+        "candidate_count_at_error": 47,
+        "output_summary": {},
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      },
+      {
+        "rpc_id": 147,
+        "request_line": 295,
+        "response_line": 296,
+        "ok": false,
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": {
+          "code": "tool_exception",
+          "type": "AdapterError",
+          "message": "The selected hash is not in this composition buffer."
+        },
+        "candidate_count_at_error": 47,
+        "output_summary": {},
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      },
+      {
+        "rpc_id": 149,
+        "request_line": 299,
+        "response_line": 300,
+        "ok": false,
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e9475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": {
+          "code": "tool_exception",
+          "type": "AdapterError",
+          "message": "The selected hash is not in this composition buffer."
+        },
+        "candidate_count_at_error": 47,
+        "output_summary": {},
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      },
+      {
+        "rpc_id": 151,
+        "request_line": 303,
+        "response_line": 304,
+        "ok": false,
+        "action": {
+          "tool": "select_for_evaluation",
+          "arguments": {
+            "composition": "Sm3AlPd2",
+            "structure_hash": "090e65e38e3ab32c87025272e1c332b3fabcbc815ae8ef64920127306822cadb"
+          },
+          "large_geometry_fields_omitted": []
+        },
+        "error": {
+          "code": "tool_exception",
+          "type": "AdapterError",
+          "message": "The selected hash is not in this composition buffer."
+        },
+        "candidate_count_at_error": 47,
+        "output_summary": {},
+        "source": {
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/rpc/rpc.jsonl",
+          "sha256": "ca57612e3e980fe39b9698e7010684c106a98c9bed2d5bc43fad905ecbc5cb5a",
+          "bytes": 10999347
+        }
+      }
+    ],
+    "next_scientific_step": {
+      "step": 48,
+      "rpc_id": 154,
+      "response_line": 310,
+      "time": 1789768130.6632946,
+      "ok": true,
+      "error": null,
+      "candidate_hash": "090e6589475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413",
+      "official": {
+        "reduced_formula": "Al1 Pd2 Sm3",
+        "formation_energy_per_atom": -0.6541702349980673,
+        "energy_per_atom": -5.331738154093425,
+        "e_above_hull": 0.05210868517557632,
+        "is_stable": true,
+        "is_newly_discovered": false,
+        "validity_distance_valid_count": 1.0,
+        "validity_distance_valid_fraction": 1.0,
+        "validity_min_interatomic_distance_min": 3.0838105703270116,
+        "validity_min_interatomic_distance_mean": 3.0838105703270116,
+        "validity_min_interatomic_distance_std": 0.0,
+        "validity_smact_valid_count": 1.0,
+        "validity_smact_valid_fraction": 1.0,
+        "validity_distance_and_smact_valid_count": 1.0,
+        "validity_distance_and_smact_valid_fraction": 1.0
+      },
+      "metrics": {
+        "queries_used": 48,
+        "num_newly_discovered_structures": 17,
+        "num_newly_discovered_stable": 15,
+        "diversity_all_composition_unique_composition_count": 10.0,
+        "diversity_all_structure_unique_structure_count": 17.0,
+        "novelty_unique_structure_count": 17.0,
+        "novelty_unique_structure_fraction": 0.3541666666666667,
+        "novelty_novel_structure_count": 48.0,
+        "novelty_novel_structure_fraction": 1.0,
+        "novelty_stable_count": 42.0,
+        "novelty_stable_unique_count": 15.0,
+        "novelty_stable_novel_count": 42.0,
+        "novelty_stable_unique_novel_count": 15.0,
+        "novelty_stable_fraction": 0.875,
+        "novelty_stable_unique_fraction": 0.3125,
+        "novelty_stable_novel_fraction": 0.875,
+        "novelty_stable_unique_novel_fraction": 0.3125
+      }
+    },
+    "inference_boundary": "The tool_failure head on the final chosen proposal is high and agrees with an observed error, but ranking does not avert it. No claim that all NN heads contain no information."
+  }
+]

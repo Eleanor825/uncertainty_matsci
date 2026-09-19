@@ -1,0 +1,1220 @@
+{
+  "read_at": 1789775348.2834425,
+  "arms": {
+    "original_controller": {
+      "source": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-original_controller/8405744691f148a0907d3e292bfc7638/environment/oracle_attempts.jsonl",
+        "sha256": "d3fbd8e5544e70725febfa3e5a5a4ba91ddc695f3d5be8007c1782f3e1ef1f3e",
+        "bytes": 177170
+      },
+      "kind_counts": {
+        "oracle_constructor_started": 1,
+        "oracle_constructor_finished": 1,
+        "oracle_batch_started": 76,
+        "oracle_attempt_started": 76,
+        "oracle_attempt_returned": 76,
+        "oracle_batch_finished": 76
+      },
+      "attempts_by_role_phase": {
+        "orb|initialization": 26,
+        "orb|candidate": 50
+      },
+      "attempts_by_counter": {
+        "initialization_oracle_attempts": 26,
+        "candidate_oracle_attempts": 50
+      },
+      "returned_attempts": 76,
+      "unclosed_attempts": 0,
+      "other_kinds": {},
+      "candidate_hashes": [
+        {
+          "sequence": 107,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:26",
+          "candidate_hash": "caec77159cd3d437bece39744057ea363887ff54acb5177f2759f2d662fafa18",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 111,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:27",
+          "candidate_hash": "dbd76759294e033a5ce99afb626a65c78a54244e6182e3469b080c3d7274d8f9",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 115,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:28",
+          "candidate_hash": "bf765e206ae9efcd88429394286d476d3b22984b5248e71feb40d5bd21653b5d",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 119,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:29",
+          "candidate_hash": "70611aebe01b5d678471d8144151cf9f1ecdef60ed8f7f3033bc1808ab76e790",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 123,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:30",
+          "candidate_hash": "4a0d523fe160316e0d1243473927c6c90614663df5906098ac52437b7e4cdc06",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 127,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:31",
+          "candidate_hash": "70d2980ccec7ef949a863d0d72db8274ed935ed30a2bec7a85b7ecc7fb97bbdc",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 131,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:32",
+          "candidate_hash": "6bc28596fbf3e72387ce1936e6047d2cce1c502d55ab5af2f50ada4aa3ef47b3",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 135,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:33",
+          "candidate_hash": "cb077b154859a70d5df1d4f1b8f06314c17bc64e29a6ded92de19d9be6af09f4",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 139,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:34",
+          "candidate_hash": "3dff27498df75634411c4fb8f540a291d12dd3385eb5f415313b79101939a7b9",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 143,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:35",
+          "candidate_hash": "22dbd5069c56b5b992476506722062c9c496e5b32aa559eafd5724200870ebb8",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 147,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:36",
+          "candidate_hash": "34c80824b452226ebd995592b5ab9a78c8a5fdf71f3036eba6282556efac0002",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 151,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:37",
+          "candidate_hash": "7489c04315b6214d1d7db6b4ab28a926cc138758c1314774af301f18f22278e0",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 155,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:38",
+          "candidate_hash": "a449dc849b27be76a4f2446d2dbb7a8aabc9d2e37d46b9d29525161c64ddebee",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 159,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:39",
+          "candidate_hash": "0ff64469460734a93103d23820911ee629e096f29f0ce96adc2de7008d8fbb2d",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 163,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:40",
+          "candidate_hash": "79be8f2b627ff3d2a2ee2c6eb2b6437c5a134270a7c752d6f8e49f1332bf6faf",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 167,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:41",
+          "candidate_hash": "a2fdc78c4837ab0aa42af6f750299bc5fb21ce4f21780895dfa4d8156643f9df",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 171,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:42",
+          "candidate_hash": "6d366ae1f6ce20e7cbe5b3fc565c6b80ffc9a0ce46ffe79947afe4d0310d09f5",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 175,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:43",
+          "candidate_hash": "33616d9f9ac2d0accf236965980d9163f7e668a7f0e7c4dcc971ee401922780f",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 179,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:44",
+          "candidate_hash": "1b2dadcde8f42266719ff9309b209bbd6892e06118547e4895c68938021469fc",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 183,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:45",
+          "candidate_hash": "fec45910992a6f56d483ee1195c6396e706cdb8f95fecca815deec15579555d4",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 187,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:46",
+          "candidate_hash": "7a3a6972b5a00b0a42d557df2f8a5691d9e2343d5235527a6d2e1825796e07dc",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 191,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:47",
+          "candidate_hash": "56f46c01f4bbac81c8e6bb0344e8da32cae486b6ed502e4659054d531e5e896f",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 195,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:48",
+          "candidate_hash": "7d7668966e25cb932ebf265a00a12bfc279a0669ad85db1e6675fb613521f652",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 199,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:49",
+          "candidate_hash": "17f0b5fe5d90f238c8d7165289943740f3efb97a8263c97e1dd25d6587b5b1a3",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 203,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:50",
+          "candidate_hash": "4772ee12e6a1dfd0c601a76481c0ac30aeb9faa5acda8c1534b91ca8b13e4635",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 207,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:51",
+          "candidate_hash": "2483251f55b41be3b123202bd614143835d531c0a96ee296251115b7deb42fed",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 211,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:52",
+          "candidate_hash": "07d27a701ea24a62b240fcb17911c512f78628d37c9ef245ddd25d361c5cedca",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 215,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:53",
+          "candidate_hash": "d09c2533d69a231527e3b8b66aeea86235c9de57f95a97223fd278f73d917ca1",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 219,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:54",
+          "candidate_hash": "48c93313dc6c9cdbe1fa4ceec4ae3aad79bd5b74ee30348c5f7e13f24cbc765b",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 223,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:55",
+          "candidate_hash": "d308e2399b14083352b1e5c5fcdad96700e110c941a8855181370371f09e9c47",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 227,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:56",
+          "candidate_hash": "9065f7daa4460066e3b295f56d140effee4cee70e702c5a1c38efa87120c6d6b",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 231,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:57",
+          "candidate_hash": "a5ab6a441fa25dc1fbef052e26a18edb2afa400d3de0d1f22b168f5fe4f01838",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 235,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:58",
+          "candidate_hash": "839e6d4e7ab248f7e5504c83d695e221081f118dfffc609fb1bbd86e3652ff89",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 239,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:59",
+          "candidate_hash": "44b7be53f1340bf7afae240ce04b484f1614604f85ded753806eacda1572f9bc",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 243,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:60",
+          "candidate_hash": "12b55a8c5ea47fe81f97f64f1e0a26aaaf260ac2e8a36852923186a87f8bc3fd",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 247,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:61",
+          "candidate_hash": "f756e3e5f944c5575c947e028fc92ea978f67c0f381a12a9d8ba503d1532c04e",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 251,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:62",
+          "candidate_hash": "2b411977eb40332972bb24a34b5d7b2c06be2880e9b3a38332a14b1d8042f790",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 255,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:63",
+          "candidate_hash": "2eb3c367ba5ab43fb1d0b4ffe42d4afcaed3f9e8d3a499878a2ebda3a181b200",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 259,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:64",
+          "candidate_hash": "70956e4f799cf88fb48d751e0013ad169bdfb33ed94f04dbb5549621c679bdb0",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 263,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:65",
+          "candidate_hash": "444f49cb2c065b8c2c6facec096ef49a55d4cb74c401287606ded5705b21d8b9",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 267,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:66",
+          "candidate_hash": "a3b7ce7637de4d68fe31337d82b01f95c36238760c432e3ddc8176fe400bbc92",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 271,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:67",
+          "candidate_hash": "f9697262a4e265f48c9360da1d3fbed47faa0c558e2413becc43c0459626267e",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 275,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:68",
+          "candidate_hash": "108b6f6467fede29eae032212908885da469329a1ffc0913b06e1d0a2b27f0a8",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 279,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:69",
+          "candidate_hash": "e4eace8b62ece3b03af5b4e5f2629b0fb54fa3ad9e103e6795dd792fd422d0df",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 283,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:70",
+          "candidate_hash": "539fc5bfb995725a1b1312d73bbc6a0a64f256d4de2aef2b94c24058beef91e9",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 287,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:71",
+          "candidate_hash": "ca9165388249e91548ea86e4e46dedb18f733bae4325a12f652d4aef15b7ff09",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 291,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:72",
+          "candidate_hash": "6fa95df9978987784e1c5ff9742e2acf743425d2e7d5f2b9394f1a33c053e502",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 295,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:73",
+          "candidate_hash": "de0b02cdc0f7f2a8a8e8418a9a5f2ab7818ec0b18b2dc6d18ccb3e7eb078b4c6",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 299,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:74",
+          "candidate_hash": "1c47f10aae176c89994767a795f291920730538cf9e7343f3260b085b81b71ad",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 303,
+          "attempt_id": "9b7af1a39eb44143b52da8e1d520e54c:75",
+          "candidate_hash": "46f8365bec46c16c6c1d7c0cc600ab397316f9ebe7c086b7838e0fa0466be80f",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        }
+      ]
+    },
+    "schema_repaired_controller": {
+      "source": {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/jobs/dev-schema-Al-Pd-Sm-B50-seed2-schema_repaired_controller/53429ab1c2854b62ad8b6a59019af9bf/environment/oracle_attempts.jsonl",
+        "sha256": "a70449ddad68577da45731eee8fd6f77ffeab7d795f6d6450d566c9c80c040a0",
+        "bytes": 272779
+      },
+      "kind_counts": {
+        "oracle_constructor_started": 2,
+        "oracle_constructor_finished": 2,
+        "oracle_batch_started": 84,
+        "oracle_attempt_started": 107,
+        "oracle_attempt_returned": 107,
+        "oracle_batch_finished": 84,
+        "calculator_constructor_started": 31,
+        "calculator_constructor_finished": 31,
+        "all_calculators_ready": 8,
+        "calculator_assigned": 31
+      },
+      "attempts_by_role_phase": {
+        "orb|initialization": 26,
+        "orb|candidate": 50,
+        "mace|candidate": 31
+      },
+      "attempts_by_counter": {
+        "initialization_oracle_attempts": 26,
+        "candidate_oracle_attempts": 50,
+        "surrogate_oracle_attempts": 31
+      },
+      "returned_attempts": 107,
+      "unclosed_attempts": 0,
+      "other_kinds": {
+        "calculator_constructor_started": 31,
+        "calculator_constructor_finished": 31,
+        "all_calculators_ready": 8,
+        "calculator_assigned": 31
+      },
+      "candidate_hashes": [
+        {
+          "sequence": 107,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:26",
+          "candidate_hash": "7ecc8c8ba71111cf6cb601a5d2f7f9eef280a3a6201027048217ced726013344",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 122,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:27",
+          "candidate_hash": "7675aeb49b990f76beb4f2ba791c451c13a8882584bdd04be74be45c2411c970",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 123,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:28",
+          "candidate_hash": "e18d72178f9ce79e16c9378778c7c48e3faa7aa2e4222d4b452faba246e62e8c",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 124,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:29",
+          "candidate_hash": "c38449271fd6e932ef329910e6d18540588525c5cc725aba943c17e009f3a572",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 125,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:30",
+          "candidate_hash": "de43748bb95ad518b7244f706cd70eaaa4d62966f187e829c361d1d5cdcde77f",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 145,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:31",
+          "candidate_hash": "33f238a9e4604f2d5cc13f27bbf69832eb76663e34675ed69aef6d54c6f64350",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 146,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:32",
+          "candidate_hash": "1aec027b0b30b1743109b41151edc73686320dab2fd9bb36e80f34c839c9f644",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 147,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:33",
+          "candidate_hash": "f8c3e2dd5585800b0b81df8c18b9e9a46d988ceb8f65f9fbf6671f5d1d0a6378",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 148,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:34",
+          "candidate_hash": "947d8b8ff00448e093f6d32a50ab06a1a52d0583fc53a60eb986b8ccdeaa7735",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 168,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:35",
+          "candidate_hash": "06398dcac400e388f392914072903503a92e06d61bdf72c5c98ddb55552391eb",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 169,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:36",
+          "candidate_hash": "6b1cf89461e2f353d7ebb33965ebdbff651bad93eb3df988a491a82438ce110d",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 170,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:37",
+          "candidate_hash": "2ff309914a9060d0ec02a1bb97aee2bc4240fdf06118a3afa4d1a93fa1ddedc5",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 171,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:38",
+          "candidate_hash": "775d976efa476da31df8867b255cc7dc1bdd0b1c15dc32f58f0993d0afd0affd",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 189,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:39",
+          "candidate_hash": "835605b2bb6d13cb956322c610a5b1d788d52c9dc0aae07d45693c797fee06dc",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 190,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:40",
+          "candidate_hash": "9624e6a05675c2de1f3b20473a5574fa792f0fe6f03d7abf97e88f3ad8f1bd04",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 191,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:41",
+          "candidate_hash": "154891e6d99100f6cafaa1c513fb4af6916efd653d9acad008ea89e118da9ec5",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 209,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:42",
+          "candidate_hash": "19fca42103740028d5769bcdbfe721eb8981355bcdc7cfda66191e4f2661a885",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 210,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:43",
+          "candidate_hash": "e9e9466fe00ced629b41ab65a2136eae028ebdc8870e0b5b7fc3ac08de0e202b",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 211,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:44",
+          "candidate_hash": "d8f1e3f74df2a352c513ca56c73dd64f6671441ad2e4a23914cfade736672058",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 212,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:45",
+          "candidate_hash": "b67216d89d065e74b7d1015027f0dd2ecff59d4a6319d0aa17d308f81c9ad2d1",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 232,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:46",
+          "candidate_hash": "7c3bd5119b67e3863c49bec423868d48c50075450adfafb2f06c1c3a3af7fc53",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 233,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:47",
+          "candidate_hash": "dadd1d907e8354c0499e5aaafc3776de1a8b0ae842236170c309557a2c1589fe",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 234,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:48",
+          "candidate_hash": "642dbcb36e6ff6ecd1ef3916bb699400404a0ee34c4d30001a55c69fa2dda080",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 235,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:49",
+          "candidate_hash": "60a752ae0b93fd0802104624137f8ce4044c5dc6609411740d1cb9c5a32c8082",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 255,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:50",
+          "candidate_hash": "0b71eb4e062689d55bbdeaf03cd5297d9ff4e71a57c2097e37719acd758bc850",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 256,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:51",
+          "candidate_hash": "837096c72327fa2ab4185f985466e294c7d9bb7849a7134dcc2883bd31e9c69f",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 257,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:52",
+          "candidate_hash": "7c74d1c41d9b13a63bc8bd075e8645b091b74489e5a28c0ff0350f3efd7caee3",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 258,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:53",
+          "candidate_hash": "94adf90e54cb9c5d6582eb5ac5ab93c0cec015508854b5915aacc9656e0bf260",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 278,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:54",
+          "candidate_hash": "bf6f8361489345cb12d0e029396015e435e0617f41e313e81070e89701741870",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 279,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:55",
+          "candidate_hash": "afc8a546c3e64eb6deb2996e4976d8a2ddf129e1c616c5b1d182dfcdd5f9f90c",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 280,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:56",
+          "candidate_hash": "07183db72165a62e1be25859bf2c2e6abfef938b928094484069287ff30ac844",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 281,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:57",
+          "candidate_hash": "2a2450ec9f198f048bb99d2789e1d11da7eed96f4a2a57eac66f1b35328fc97b",
+          "role": "mace",
+          "phase": "candidate",
+          "counter": "surrogate_oracle_attempts"
+        },
+        {
+          "sequence": 292,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:58",
+          "candidate_hash": "60a752ae0b93fd0802104624137f8ce4044c5dc6609411740d1cb9c5a32c8082",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 296,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:59",
+          "candidate_hash": "835605b2bb6d13cb956322c610a5b1d788d52c9dc0aae07d45693c797fee06dc",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 300,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:60",
+          "candidate_hash": "154891e6d99100f6cafaa1c513fb4af6916efd653d9acad008ea89e118da9ec5",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 304,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:61",
+          "candidate_hash": "9624e6a05675c2de1f3b20473a5574fa792f0fe6f03d7abf97e88f3ad8f1bd04",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 308,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:62",
+          "candidate_hash": "57758a36ba6118bd9e1daf3d3a5c5a9999cd8d073951117b0e50af99b971124d",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 312,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:63",
+          "candidate_hash": "c30fd12867b5eced7102d045e631387a48f559a0444ea7d5d72c904374e7da86",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 316,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:64",
+          "candidate_hash": "bf6f8361489345cb12d0e029396015e435e0617f41e313e81070e89701741870",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 320,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:65",
+          "candidate_hash": "9c9702cffad3463bfca36275801e89b62ec269a5506bf8b6b0dac2ebeec7f79d",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 324,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:66",
+          "candidate_hash": "afc8a546c3e64eb6deb2996e4976d8a2ddf129e1c616c5b1d182dfcdd5f9f90c",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 328,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:67",
+          "candidate_hash": "07183db72165a62e1be25859bf2c2e6abfef938b928094484069287ff30ac844",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 332,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:68",
+          "candidate_hash": "dadd1d907e8354c0499e5aaafc3776de1a8b0ae842236170c309557a2c1589fe",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 336,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:69",
+          "candidate_hash": "2a2450ec9f198f048bb99d2789e1d11da7eed96f4a2a57eac66f1b35328fc97b",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 340,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:70",
+          "candidate_hash": "0b71eb4e062689d55bbdeaf03cd5297d9ff4e71a57c2097e37719acd758bc850",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 344,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:71",
+          "candidate_hash": "70ee7028a8a99d8cb35f938aaca3f889104994a5ff989d2e7af99e5b1456af86",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 348,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:72",
+          "candidate_hash": "b67216d89d065e74b7d1015027f0dd2ecff59d4a6319d0aa17d308f81c9ad2d1",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 352,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:73",
+          "candidate_hash": "e9e9466fe00ced629b41ab65a2136eae028ebdc8870e0b5b7fc3ac08de0e202b",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 356,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:74",
+          "candidate_hash": "19fca42103740028d5769bcdbfe721eb8981355bcdc7cfda66191e4f2661a885",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 360,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:75",
+          "candidate_hash": "d8f1e3f74df2a352c513ca56c73dd64f6671441ad2e4a23914cfade736672058",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 364,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:76",
+          "candidate_hash": "7c3bd5119b67e3863c49bec423868d48c50075450adfafb2f06c1c3a3af7fc53",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 368,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:77",
+          "candidate_hash": "f69291ede4937ee7e96c87cc5348516c7b5752ffa6d46a00269ea9ac73c8eb86",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 372,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:78",
+          "candidate_hash": "642dbcb36e6ff6ecd1ef3916bb699400404a0ee34c4d30001a55c69fa2dda080",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 376,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:79",
+          "candidate_hash": "fc7669c87526ee1b3ce25ef0a6a1eb8c6038829114579ee728927dfe16c0243e",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 380,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:80",
+          "candidate_hash": "32b6eb39ee11a96b17f57ed591b776b863300db383697381598b09acd8702200",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 384,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:81",
+          "candidate_hash": "837096c72327fa2ab4185f985466e294c7d9bb7849a7134dcc2883bd31e9c69f",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 388,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:82",
+          "candidate_hash": "2ff309914a9060d0ec02a1bb97aee2bc4240fdf06118a3afa4d1a93fa1ddedc5",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 392,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:83",
+          "candidate_hash": "6b1cf89461e2f353d7ebb33965ebdbff651bad93eb3df988a491a82438ce110d",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 396,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:84",
+          "candidate_hash": "06398dcac400e388f392914072903503a92e06d61bdf72c5c98ddb55552391eb",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 400,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:85",
+          "candidate_hash": "775d976efa476da31df8867b255cc7dc1bdd0b1c15dc32f58f0993d0afd0affd",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 404,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:86",
+          "candidate_hash": "f8c3e2dd5585800b0b81df8c18b9e9a46d988ceb8f65f9fbf6671f5d1d0a6378",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 408,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:87",
+          "candidate_hash": "33f238a9e4604f2d5cc13f27bbf69832eb76663e34675ed69aef6d54c6f64350",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 412,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:88",
+          "candidate_hash": "1aec027b0b30b1743109b41151edc73686320dab2fd9bb36e80f34c839c9f644",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 416,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:89",
+          "candidate_hash": "69fa581c0fb8128ce08d0f28a95a0d70693e58967d81eb9897b8f53517c29ae1",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 420,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:90",
+          "candidate_hash": "e5fdaecf65fb26d0c384ee397f43c00803d7d1be64d12cd6b93048494983c610",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 424,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:91",
+          "candidate_hash": "8c7be2919422fc164fb71701037108b3c4cfce4fd040310c5555bf8350559263",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 428,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:92",
+          "candidate_hash": "d69f75367438568e671182d5d27c614c16f4e2aabb6ffdf601ab51c1a7fd63d7",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 432,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:93",
+          "candidate_hash": "69e522f15d0b733b2212ce02eacd60e1d63fa64a9ba5aeee0a6802ea31c81a48",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 436,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:94",
+          "candidate_hash": "8916f4aff3ebce0b856bf8fc09982363ea105ade85031740f3448852b97c54fb",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 440,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:95",
+          "candidate_hash": "0882cf2451b7f5d00474b70485c7d68f967be40f3e4627b975c2e0532435512d",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 444,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:96",
+          "candidate_hash": "1977cab724e3a320a3f6adf809905338ab8307254c81b2470821f39bcb0fa9c8",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 448,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:97",
+          "candidate_hash": "dc0839d53b9c977be2634fa9cc16ef769f7328b719e912b36c4b93bd4096ca2f",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 452,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:98",
+          "candidate_hash": "e18d72178f9ce79e16c9378778c7c48e3faa7aa2e4222d4b452faba246e62e8c",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 456,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:99",
+          "candidate_hash": "c38449271fd6e932ef329910e6d18540588525c5cc725aba943c17e009f3a572",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 460,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:100",
+          "candidate_hash": "7675aeb49b990f76beb4f2ba791c451c13a8882584bdd04be74be45c2411c970",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 464,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:101",
+          "candidate_hash": "de43748bb95ad518b7244f706cd70eaaa4d62966f187e829c361d1d5cdcde77f",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 468,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:102",
+          "candidate_hash": "0d8b7c6e92cffddc6062faca7692c66e063748c429e5de3256709cfe6aa3849b",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 472,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:103",
+          "candidate_hash": "77935a68cbcb182b6d0782520371c6934907ec7d96276a98ea6d140a22e02b20",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 476,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:104",
+          "candidate_hash": "090e6589475d242f398ab5e5e5043ee4797602ca438ce5625c9e69839ae72413",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 480,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:105",
+          "candidate_hash": "148e15e2dae830e6ad9315bb0aa6bc243c54640655d0361fed76fa074fff58f6",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        },
+        {
+          "sequence": 484,
+          "attempt_id": "baf09fd4fb8c4a7caf402fca4c80e26a:106",
+          "candidate_hash": "cb5820e38e3ab32c87025272e1c332b3fabcbc815ae8ef64920127306822cadb",
+          "role": "orb",
+          "phase": "candidate",
+          "counter": "candidate_oracle_attempts"
+        }
+      ]
+    }
+  },
+  "source_files": {
+    "original_controller/failure_controller.py": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/original_controller/src/matdiscovery/failure_controller.py",
+      "sha256": "d37ffb203b5299067e26f403ddd4ab4380544466d6d73fd67378db19613c5d2f",
+      "excerpts": [
+        {
+          "first_line": 1,
+          "last_line": 319,
+          "text": "\"\"\"Deterministic MADE failure-type control; no tool, oracle, model or I/O calls.\n\nOnly pass the observation actually rendered in the policy's user message.\nThe output is advisory: the caller owns its existing two-candidate loop and\nmax_tools_per_query recovery. No request or budget is created here. Head\napplicability and ranking are identical across method arms; missing predictions\nremain None and never become a predicted zero probability.\n\nTool contracts audited against rollouts.TOOL_ARGUMENTS and\nbenchmark_adapters.MADEAdapter._tool. CrystalGym is explicitly unsupported.\n\"\"\"\nfrom __future__ import annotations\n\nfrom collections.abc import Mapping, Sequence\nimport math\nfrom numbers import Real\nfrom typing import Any\n\nSCHEMA = \"made_failure_type_controller_v1\"\nMAX_FEEDBACK_CHARS = 240\nHEADS = (\n    \"generation_invalid\", \"candidate_generation_failure\", \"tool_execution_failure\",\n    \"screening_unavailable\", \"scientific_evaluation_failure\", \"unstable\", \"not_new\",\n)\nTOOL_ARGUMENTS = {\n    \"generate_structures\": {\"compositions\", \"generator_name\", \"num_candidates\"},\n    \"create_structure\": {\"structure\", \"a\", \"b\", \"c\", \"alpha\", \"beta\", \"gamma\", \"species\", \"frac_coords\"},\n    \"score_buffer\": {\"scorer_name\", \"composition\"},\n    \"query_structures\": {\"composition\", \"k\", \"mode\", \"scorer_name\", \"include_structure_details\"},\n    \"list_compositions\": set(), \"get_buffer_stats\": set(),\n    \"select_for_evaluation\": {\"composition\", \"structure_hash\", \"structure_index\", \"scorer_name\"},\n}\nHEAD_WEIGHTS = dict(zip(HEADS, (2., 1., 2., 1., 2., 1., 1.)))\nHORIZONS = {\n    \"generation_invalid\": \"current_proposal_JSON_or_action_schema\",\n    \"candidate_generation_failure\": \"generate_or_create_zero_accepted_candidates\",\n    \"tool_execution_failure\": \"proposed_tool_execution\",\n    \"screening_unavailable\": \"surrogate_screening_availability\",\n    \"scientific_evaluation_failure\": \"next_scientific_evaluation\",\n    \"unstable\": \"next_scientific_evaluation\",\n    \"not_new\": \"next_scientific_evaluation\",\n}\n_FEEDBACK = {\n    \"generation_invalid\": \"Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results.\",\n    \"candidate_generation_failure\": \"Revise the allowed integer composition or valid geometry; use chemeleon or random for generation. Acceptance and stability remain unmeasured.\",\n    \"tool_execution_failure\": \"Repair the tool arguments. Use an actual visible composition/hash and documented modes or scorers; do not repeat an invalid call.\",\n    \"screening_unavailable\": \"Do not rank by unavailable/nonfinite oracle-surrogate scores. Query without ranking or use diversity/random; no stability conclusion follows.\",\n    \"scientific_evaluation_failure\": \"Check candidate geometry and legality; prefer another real buffered hash. Keep the fixed ORB settings and do not add a validation evaluation.\",\n    \"unstable\": \"Compare candidates using finite existing scores, or propose a different valid candidate. Surrogate scores do not establish final stability.\",\n    \"not_new\": \"Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty.\",\n    \"overall_risk\": \"Reconsider this action using only visible evidence and documented tools. Do not invent observations or add an evaluation.\",\n    \"risk_unavailable\": \"Type/overall confidence is unavailable. Recheck the legal action using visible evidence; unavailable confidence is not a low-risk prediction.\",\n}\n_BUDGET_NOTE = \" Use only the existing retry and tool/query limits.\"\nRANK_RULE = \"valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index\"\n\n\ndef _probability(value):\n    return float(value) if isinstance(value, Real) and not isinstance(value, bool) and math.isfinite(value) and 0 <= value <= 1 else None\n\n\ndef _normalize(risk_types):\n    if risk_types is None:\n        risk_types = {}\n    if not isinstance(risk_types, Mapping):\n        raise TypeError(\"risk_types must be a head -> probability/None mapping.\")\n    values = {head: _probability(risk_types.get(head)) for head in HEADS}\n    unavailable = {head: \"missing\" if risk_types.get(head) is None else \"invalid_probability\" for head in HEADS if values[head] is None}\n    return values, unavailable\n\n\ndef _visible(observation):\n    if not isinstance(observation, Mapping):\n        return {}\n    # Accept the already rendered observation or its user-message wrapper only.\n    return observation.get(\"observation\", observation) if isinstance(observation.get(\"observation\", observation), Mapping) else {}\n\n\ndef _entries(observation):\n    result = []\n    buffer = observation.get(\"buffer\", {})\n    if isinstance(buffer, Mapping):\n        for composition, rows in buffer.items():\n            if not isinstance(composition, str) or not composition or not isinstance(rows, list):\n                continue\n            for row in rows:\n                if not isinstance(row, Mapping):\n                    continue\n                digest = row.get(\"hash\", row.get(\"structure_hash\"))\n                if isinstance(digest, str) and digest:\n                    result.append((composition, digest, row))\n    return sorted(result, key=lambda item: (item[0], item[1]))\n\n\ndef _action_parts(action):\n    if not isinstance(action, Mapping):\n        return None, {}\n    args = action.get(\"arguments\", {})\n    return action.get(\"tool\"), dict(args) if isinstance(args, Mapping) else {}\n\n\ndef applicable_heads(action):\n    \"\"\"Generation-invalid is JSON validity for EVERY proposal, not crystal quality.\"\"\"\n    tool, args = _action_parts(action)\n    applicable = {\"generation_invalid\", \"tool_execution_failure\"}\n    if tool in TOOL_ARGUMENTS:\n        applicable.update({\"scientific_evaluation_failure\", \"unstable\", \"not_new\"})\n    if tool in {\"generate_structures\", \"create_structure\"}:\n        applicable.add(\"candidate_generation_failure\")\n    uses_oracle = tool == \"score_buffer\" and args.get(\"scorer_name\", \"oracle\") == \"oracle\"\n    uses_oracle |= tool in {\"query_structures\", \"select_for_evaluation\"} and args.get(\"scorer_name\") == \"oracle\"\n    if uses_oracle:\n        applicable.add(\"screening_unavailable\")\n    return [head for head in HEADS if head in applicable]\n\n\ndef _action_issues(action):\n    \"\"\"Schema checks only; absent entries in a summarized buffer are not invalid.\"\"\"\n    if not isinstance(action, Mapping) or action.get(\"tool\") not in TOOL_ARGUMENTS or not isinstance(action.get(\"arguments\"), Mapping):\n        return [\"expected_allowed_tool_and_arguments_object\"]\n    tool, args = _action_parts(action)\n    issues = []\n    if set(args) - TOOL_ARGUMENTS[tool]: issues.append(\"unknown_tool_arguments\")\n    if tool == \"generate_structures\":\n        formulas = args.get(\"compositions\")\n        if isinstance(formulas, str): formulas = [part.strip() for part in formulas.split(\",\") if part.strip()]\n        if not isinstance(formulas, list) or not formulas or any(not isinstance(item, str) or not item for item in formulas):\n            issues.append(\"explicit_compositions_required\")\n        if args.get(\"generator_name\", \"chemeleon\") not in {\"chemeleon\", \"random\"}: issues.append(\"invalid_generator\")\n        count = args.get(\"num_candidates\", 32)\n        if type(count) is not int or not 1 <= count <= 1024: issues.append(\"invalid_num_candidates\")\n    if tool in {\"query_structures\", \"select_for_evaluation\"} and (not isinstance(args.get(\"composition\"), str) or not args[\"composition\"]):\n        issues.append(\"composition_required\")\n    if \"scorer_name\" in args and args[\"scorer_name\"] not in {\"oracle\", \"diversity\", \"random\"}: issues.append(\"invalid_scorer\")\n    if tool == \"query_structures\":\n        if args.get(\"mode\", \"all\") not in {\"all\", \"top\", \"bottom\", \"random\"}: issues.append(\"invalid_query_mode\")\n        if args.get(\"mode\", \"all\") in {\"top\", \"bottom\"} and not args.get(\"scorer_name\"): issues.append(\"ranked_query_requires_scorer\")\n        if type(args.get(\"k\", 5)) is not int or args.get(\"k\", 5) < 1: issues.append(\"invalid_query_k\")\n    if tool == \"select_for_evaluation\":\n        if \"structure_hash\" in args and (not isinstance(args[\"structure_hash\"], str) or not args[\"structure_hash\"]): issues.append(\"invalid_structure_hash\")\n        if \"structure_index\" in args and (type(args[\"structure_index\"]) is not int or args[\"structure_index\"] < 0): issues.append(\"invalid_structure_index\")\n    if tool == \"create_structure\":\n        if \"structure\" in args:\n            if not isinstance(args[\"structure\"], Mapping): issues.append(\"structure_must_be_object\")\n        else:\n            for key in (\"a\", \"b\", \"c\"):\n                value = args.get(key)\n                if not isinstance(value, Real) or isinstance(value, bool) or not math.isfinite(value) or value <= 0:\n                    issues.append(\"invalid_lattice_lengths\"); break\n            if not args.get(\"species\") or not args.get(\"frac_coords\"): issues.append(\"species_and_coordinates_required\")\n    return issues\n\n\ndef _safe_query(observation, composition=None):\n    entries = _entries(observation)\n    available = sorted({row[0] for row in entries})\n    if not available:\n        return {\"tool\": \"get_buffer_stats\", \"arguments\": {}}\n    comp = composition if composition in available else available[0]\n    return {\"tool\": \"query_structures\", \"arguments\": {\"composition\": comp, \"k\": 5, \"mode\": \"all\"}}\n\n\ndef _preference(head, action, observation):\n    tool, args = _action_parts(action)\n    entries = _entries(observation)\n    if head in {\"scientific_evaluation_failure\", \"not_new\"}:\n        alternatives = [item for item in entries if item[1] != args.get(\"structure_hash\")]\n        if alternatives:\n            composition, digest, _ = alternatives[0]\n            return {\"tool\": \"select_for_evaluation\", \"arguments\": {\"composition\": composition, \"structure_hash\": digest}}\n    if head == \"candidate_generation_failure\":\n        formulas = args.get(\"compositions\") if tool == \"generate_structures\" else None\n        if not formulas and entries: formulas = [entries[0][0]]\n        if isinstance(formulas, str): formulas = [part.strip() for part in formulas.split(\",\") if part.strip()]\n        if isinstance(formulas, list) and formulas and all(isinstance(item, str) and item for item in formulas):\n            count = args.get(\"num_candidates\", 32)\n            count = count if type(count) is int and 1 <= count <= 1024 else 32\n            return {\"tool\": \"generate_structures\", \"arguments\": {\"compositions\": list(formulas),\n                \"generator_name\": \"random\" if args.get(\"generator_name\", \"chemeleon\") == \"chemeleon\" else \"chemeleon\", \"num_candidates\": count}}\n    if head == \"unstable\" and entries:\n        composition = args.get(\"composition\", entries[0][0])\n        same = [row for comp, _, row in entries if comp == composition]\n        scores = [row.get(\"scores\", {}).get(\"oracle\") if isinstance(row.get(\"scores\"), Mapping) else None for row in same]\n        # Only previously visible finite scores are used; never request a new MACE/ORB validation.\n        if same and all(isinstance(score, Real) and not isinstance(score, bool) and math.isfinite(score) for score in scores):\n            return {\"tool\": \"query_structures\", \"arguments\": {\"composition\": composition, \"k\": 5, \"mode\": \"top\", \"scorer_name\": \"oracle\"}}\n    if head == \"screening_unavailable\":\n        # Querying all candidates avoids any dependency on unavailable oracle scores.\n        return _safe_query(observation, args.get(\"composition\"))\n    return _safe_query(observation, args.get(\"composition\"))\n\n\ndef plan_failure_response(benchmark, proposed_action, risk_types, overall_risk,\n                          public_observation, threshold=.6):\n    \"\"\"Return a JSON-safe plan for the remaining EXISTING candidate retry only.\"\"\"\n    threshold = _probability(threshold)\n    if threshold is None: raise ValueError(\"threshold must be a finite probability.\")\n    values, unavailable = _normalize(risk_types)\n    overall = _probability(overall_risk)\n    observation = _visible(public_observation)\n    applicable = applicable_heads(proposed_action) if benchmark == \"made\" else []\n    available = [head for head in HEADS if values[head] is not None]\n    usable = [head for head in applicable if values[head] is not None]\n    plan = {\"schema\": SCHEMA, \"benchmark\": benchmark, \"supported\": benchmark == \"made\",\n        \"available_heads\": available, \"applicable_heads\": applicable, \"available_applicable_heads\": usable,\n        \"unavailable_heads\": unavailable, \"risk_types\": values, \"overall_risk\": overall,\n        \"head_coverage\": {\"available\": len(usable), \"applicable\": len(applicable), \"fraction\": len(usable) / len(applicable) if applicable else None},\n        \"head_horizons\": dict(HORIZONS), \"threshold\": threshold, \"trigger\": None, \"triggered_heads\": [],\n        \"controller_action\": \"keep_candidate\", \"request_retry\": False, \"feedback_for_retry\": \"\",\n        \"optional_tool_preference\": None, \"reason\": \"No available risk exceeds the fixed threshold.\",\n        \"extra_physical_budget\": 0, \"extra_generation_budget\": 0, \"executes_tools\": False,\n        \"tool_preference_is_advisory\": True, \"overrides_fixed_recovery\": False,\n        \"retry_scope\": \"remaining_preexisting_candidate_slots_only\", \"fallback\": None}\n    if benchmark != \"made\":\n        plan.update(controller_action=\"unsupported\", trigger=\"unsupported_benchmark\", reason=\"This controller is enabled only for MADE; retain the existing CrystalGym policy.\")\n        return plan\n    limit, used = observation.get(\"max_tools_per_query\"), observation.get(\"tools_since_query\")\n    if type(limit) is int and type(used) is int and limit > 0 and used >= limit:\n        plan.update(controller_action=\"defer_to_fixed_recovery\", trigger=\"existing_tool_limit\", reason=\"The unchanged rollout recovery owns the exhausted tool allowance.\")\n        return plan\n    if observation.get(\"selected\") is True:\n        plan.update(controller_action=\"defer_to_existing_execution\", trigger=\"selection_pending\", reason=\"An existing selected candidate must be handled by the unchanged rollout; do not schedule another tool.\")\n        return plan\n    issues = _action_issues(proposed_action)\n    plan[\"local_schema_issues\"] = issues\n    triggered = [head for head in usable if values[head] >= threshold]\n    plan[\"triggered_heads\"] = sorted(triggered, key=lambda head: (-values[head], HEADS.index(head)))\n    if issues:\n        trigger = \"generation_invalid\"\n        plan[\"reason\"] = \"A current-proposal schema issue is observed; this is not a future scientific label.\"\n        plan[\"trigger_source\"] = \"local_schema_validation\"\n    elif triggered:\n        trigger = plan[\"triggered_heads\"][0]\n        plan[\"reason\"] = \"An applicable predicted failure type exceeds the fixed threshold.\"\n        plan[\"trigger_source\"] = \"predicted_failure_type\"\n    elif overall is not None and overall >= threshold:\n        trigger = \"overall_risk\"\n        plan[\"reason\"] = \"Overall risk exceeds threshold; no subtype is asserted high.\"\n    elif not usable and overall is None:\n        trigger = \"risk_unavailable\"\n        plan[\"reason\"] = \"Neither applicable type predictions nor overall confidence are available.\"\n    else:\n        if not usable:\n            plan.update(controller_action=\"scalar_fallback\", fallback=\"no_available_applicable_type_heads\",\n                        reason=\"Explicit scalar-only fallback; missing type probabilities remain unknown.\")\n        elif len(usable) != len(applicable):\n            plan[\"fallback\"] = \"partial_type_coverage_recorded; compare_only_common_available_heads\"\n        return plan\n    plan.update(trigger=trigger, controller_action=\"retry_with_type_feedback\" if trigger in HEADS else \"retry_with_fallback_feedback\", request_retry=True)\n    if not usable: plan[\"fallback\"] = \"no_available_applicable_type_heads\"\n    plan[\"feedback_for_retry\"] = _FEEDBACK[trigger] + _BUDGET_NOTE\n    if trigger in HEADS:\n        plan[\"optional_tool_preference\"] = _preference(trigger, proposed_action, observation)\n    if plan[\"optional_tool_preference\"] is not None and _action_issues(plan[\"optional_tool_preference\"]):\n        plan[\"optional_tool_preference\"] = None\n    assert len(plan[\"feedback_for_retry\"]) <= MAX_FEEDBACK_CHARS\n    return plan\n\n\ndef rank_failure_candidates(benchmark, candidates, public_observation, threshold=.6):\n    \"\"\"Compare only the SAME calibrated event heads across valid proposals.\n\n    A head participates only when applicable to every valid candidate and every\n    candidate has a finite prediction. Exclusive heads still drive their own\n    retry feedback, but cannot create a cross-action missingness penalty.\n    Unknown/NA heads are never imputed. If the common set is empty, explicitly\n    fall back to known overall confidence, then original order for unknowns.\n    \"\"\"\n    if not isinstance(candidates, Sequence) or isinstance(candidates, (str, bytes)) or len(candidates) > 2:\n        raise ValueError(\"Supply only the existing one or two candidate proposals.\")\n    if benchmark != \"made\":\n        return {\"schema\": SCHEMA, \"supported\": False, \"selected_index\": None, \"ranking\": [],\n                \"fallback\": \"unsupported_benchmark\", \"extra_physical_budget\": 0, \"extra_generation_budget\": 0}\n    records = []\n    for index, candidate in enumerate(candidates):\n        if not isinstance(candidate, Mapping): raise TypeError(\"Candidates must be mappings.\")\n        action = candidate.get(\"action\", candidate.get(\"proposed_action\"))\n        if \"action\" in candidate and \"proposed_action\" in candidate and candidate[\"action\"] != candidate[\"proposed_action\"]:\n            raise ValueError(\"Conflicting action/proposed_action fields.\")\n        plan = plan_failure_response(benchmark, action, candidate.get(\"risk_types\"), candidate.get(\"overall_risk\"), public_observation, threshold)\n        valid = candidate.get(\"valid\", True) is True and not _action_issues(action) and plan[\"controller_action\"] not in {\"defer_to_fixed_recovery\", \"defer_to_existing_execution\"}\n        records.append({\"candidate_index\": index, \"valid\": valid, \"plan\": plan})\n    valid_records = [record for record in records if record[\"valid\"]]\n    common = [head for head in HEADS if valid_records and all(head in record[\"plan\"][\"available_applicable_heads\"] for record in valid_records)]\n    for record in records:\n        plan = record[\"plan\"]\n        excluded = {head: \"not_applicable_to_this_action\" if head not in plan[\"applicable_heads\"]\n                    else \"prediction_unavailable_for_this_candidate\" if plan[\"risk_types\"][head] is None\n                    else \"not_available_and_applicable_for_every_valid_candidate\"\n                    for head in HEADS if head not in common}\n        compared = {head: plan[\"risk_types\"][head] for head in common} if record[\"valid\"] else {}\n        # Missingness is a separate sort field. The zero below is only an unused\n        # numeric placeholder within the missing-overall stratum, never a risk.\n        overall = plan[\"overall_risk\"]\n        overall_order = [int(overall is None), overall if overall is not None else 0.0]\n        if common and record[\"valid\"]:\n            maximum = max(compared.values())\n            mean = sum(compared[head] * HEAD_WEIGHTS[head] for head in common) / sum(HEAD_WEIGHTS[head] for head in common)\n            key = [0, maximum, mean, *overall_order, record[\"candidate_index\"]]\n        elif common:\n            key = [1, 0.0, 0.0, *overall_order, record[\"candidate_index\"]]\n        else:\n            key = [int(not record[\"valid\"]), *overall_order, record[\"candidate_index\"]]\n        record.update(rank_key=key, compared_head_probabilities=compared, head_coverage=plan[\"head_coverage\"],\n                      unknown_applicable_heads=[head for head in plan[\"applicable_heads\"] if plan[\"risk_types\"][head] is None],\n                      excluded_from_cross_action_ranking=excluded, missing_probabilities_are_not_imputed=True)\n    ranking = sorted(records, key=lambda record: record[\"rank_key\"])\n    selected = next((record[\"candidate_index\"] for record in ranking if record[\"valid\"]), None)\n    return {\"schema\": SCHEMA, \"supported\": True, \"selected_index\": selected, \"ranking\": ranking,\n            \"ranking_rule\": RANK_RULE if common else \"valid_first; known_overall_then_probability; original_index\",\n            \"common_comparison_heads\": common, \"type_signals_used\": bool(common),\n            \"fallback\": None if common else \"scalar_only_no_common_available_types\" if valid_records else \"no_valid_candidate\",\n            \"missing_probabilities_are_not_imputed\": True,\n            \"extra_physical_budget\": 0, \"extra_generation_budget\": 0, \"overrides_fixed_recovery\": False}\n\n\ndef select_failure_candidate(benchmark, candidates, public_observation, threshold=.6):\n    \"\"\"Alias returning the same full selection audit, not only an opaque index.\"\"\"\n    return rank_failure_candidates(benchmark, candidates, public_observation, threshold)"
+        }
+      ]
+    },
+    "original_controller/benchmark_adapters.py": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/original_controller/src/matdiscovery/benchmark_adapters.py",
+      "sha256": "0f48431db71251c2793d161efcaa6209512735cf77ce1f5ab3dd048f11917d1e",
+      "excerpts": [
+        {
+          "first_line": 350,
+          "last_line": 430,
+          "text": "        except ValueError as exc:\n            raise AdapterError(\"invalid_config\", str(exc)) from exc\n        self.elements = args.get(\"elements\")\n        if not isinstance(self.elements, list) or not self.elements or not all(isinstance(x, str) for x in self.elements) or len(set(self.elements)) != len(self.elements):\n            raise AdapterError(\"invalid_config\", \"elements must be distinct chemical symbols.\")\n        # Fail on absent/partial raw data before importing any heavyweight dependencies.\n        payload, snapshot = load_snapshot(args.get(\"mp_cache_path\"), args.get(\"mp_cache_sha256\"), self.elements)\n        assets = args.get(\"assets\", {})\n        self.assets = {key: asset(assets.get(key), key) for key in (\"orb_checkpoint\", \"mace_checkpoint\", \"chemeleon_checkpoint\", \"element_reference_energies\")}\n        self.tolerance = args.get(\"stability_tolerance\", 0.1)\n        if self.tolerance not in (0.1, 0.01):\n            raise AdapterError(\"invalid_config\", \"MADE supported paper thresholds are 0.1 and 0.01 eV/atom.\")\n        self.device = args.get(\"device\", \"cuda\")\n        if self.device not in {\"cuda\", \"cpu\"}:\n            raise AdapterError(\"invalid_config\", \"Specify a fixed cpu or cuda device.\")\n        if self.mace_num_workers == 4 and self.device != \"cpu\":\n            raise AdapterError(\"invalid_config\", \"MACE workers=4 is verified only for the fixed CPU/float32 oracle.\")\n        self.generator_device = args.get(\"generator_device\", self.device)\n        if self.generator_device not in {\"cuda\", \"cpu\"}:\n            raise AdapterError(\"invalid_config\", \"generator_device must be cpu or cuda.\")\n        self.metadata = {\"vendor\": verify_vendor(self.vendor_root, \"made\", MADE_COMMIT), \"snapshot\": snapshot,\n                         \"assets\": self.assets, \"oracle\": {\"model\": \"orb-v3-conservative-inf-omat\", \"relax\": True, **RELAX},\n                         \"oracle_device\": self.device, \"generator_device\": self.generator_device,\n                         \"mace_num_workers\": self.mace_num_workers, \"orb_num_workers\": 1,\n                         \"mace_execution\": mace_execution,\n                         \"stability_tolerance\": self.tolerance, \"max_stoichiometry\": 20,\n                         \"budget_unit\": \"candidate_oracle_attempts_per_episode\", \"seed_schedule\": \"(seed + episode_index) mod 2**32\",\n                         \"deviation\": \"Exceptions consume attempted-query budget; raw official accepted-query metrics are also preserved.\"}\n        self.start_output()\n        seed_all(self.seed)\n        verify_import(\"made.envs.convex_hull\", self.vendor_root)\n        from made.data.chemical_system import PhaseDiagramDataset\n        from made.envs.convex_hull import ConvexHullEnvironment\n        from pymatgen.analysis.phase_diagram import PhaseDiagram, PDEntry\n        from pymatgen.entries.computed_entries import ComputedStructureEntry\n        from pymatgen.core import Structure\n\n        decoded = []\n        for record in payload[\"entries\"]:\n            if record.get(\"structure\"):\n                original = ComputedStructureEntry.from_dict(record)\n                structure, energy = original.structure, original.energy\n            else:\n                original = PDEntry.from_dict(record)\n                structure, energy = Structure.from_dict(record[\"attribute\"][\"structure\"]), original.energy\n            if not math.isfinite(float(energy)) or not {str(e) for e in structure.composition.elements}.issubset(self.elements):\n                raise AdapterError(\"invalid_snapshot\", \"Nonfinite energy or out-of-system entry in snapshot.\")\n            decoded.append(PDEntry(structure.composition, energy, attribute={\"structure\": structure.as_dict()}))\n\n        class FrozenPhaseDiagramDataset(PhaseDiagramDataset):\n            def _load_dataset(inner_self):\n                return PhaseDiagram(decoded)\n\n        self.dataset = FrozenPhaseDiagramDataset(elements=self.elements, thermo_types=[\"GGA_GGA+U\"])\n        self.oracle = self._make_oracle(\"orb\")\n        self.env = ConvexHullEnvironment(dataset=self.dataset, oracle=self.oracle, budget=self.budget,\n            start_with_all_stable=True, compute_elemental_from_oracle=True, stability_tolerance=self.tolerance,\n            include_near_stable_from_ground_truth=True, filter_by_smact=True, max_stoichiometry=20,\n            structure_matcher_ltol=0.2, structure_matcher_stol=0.3, structure_matcher_angle_tol=5,\n            structure_matcher_primitive_cell=True)\n        self._build_tools()\n        self._phase = \"candidate\"\n        self.event(\"initialized\", metadata=self.metadata)\n\n    def _make_oracle(self, kind: str):\n        if kind not in {\"orb\", \"mace\"}:\n            raise AdapterError(\"invalid_oracle\", \"Only the fixed ORB and MACE oracles are supported.\")\n        from made.oracles.orb.orb_oracle import ORBOracle\n        from made.oracles.mace.mace_oracle import MACEOracle\n        from made.utils.structure_hash import structure_hash\n\n        workers = 1 if kind == \"orb\" else self.mace_num_workers\n        options = dict(device=self.device, element_reference_energies_path=self.assets[\"element_reference_energies\"][\"path\"],\n                       relax=True, relax_kwargs=dict(RELAX), num_workers=workers)\n        constructor_id = uuid.uuid4().hex\n        with ORACLE_LIFECYCLE_LOCK:\n            guard = TorchFXGuard() if workers == 4 else None\n            self.oracle_audit(\"oracle_constructor_started\", constructor_id=constructor_id,\n                              role=kind, num_workers=workers)\n            started = time.monotonic()\n            try:"
+        },
+        {
+          "first_line": 540,
+          "last_line": 640,
+          "text": "            status = (\"finite\" if math.isfinite(value) else\n                      \"official_negative_infinity_sentinel\" if value == -math.inf else\n                      \"invalid_nan\" if math.isnan(value) else \"invalid_positive_infinity\")\n            outcome = {\"structure_hash\": entry[\"hash\"], \"score\": value,\n                       \"status\": status, \"rankable\": score_rankable(value), \"official_result\": jsonable(record)}\n            entry[\"scores\"][scorer_name] = value\n            entry.setdefault(\"score_status\", {})[scorer_name] = {\"status\": status, \"rankable\": score_rankable(value)}\n            outcomes.append(outcome)\n            if not math.isfinite(value):\n                self.count(\"score_sentinels\" if value == -math.inf else \"score_failures\")\n                self.event(\"score_sentinel\" if value == -math.inf else \"score_failure\",\n                           scorer=scorer_name, **outcome)\n        entries.sort(key=lambda entry: score_order(entry[\"scores\"][scorer_name]))\n        return outcomes\n\n    def _buffer_add(self, structure, source: str) -> dict:\n        from made.utils.structure_hash import structure_hash\n        self._validate_structure(structure)\n        digest = structure_hash(structure)\n        if digest in self.structure_cache:\n            return {\"accepted\": False, \"reason\": \"already_in_buffer\", \"hash\": digest}\n        records = []\n        for filter_object in (self.static_filter, self.uniqueness_filter):\n            passed, results = filter_object.filter([structure], self.env.get_state(), return_results=True)\n            records.extend(jsonable(results))\n            if not passed:\n                return {\"accepted\": False, \"reason\": \"official_filter_rejection\", \"hash\": digest, \"filters\": records}\n        comp = structure.composition.reduced_formula\n        entry = {\"structure\": structure, \"hash\": digest, \"composition\": comp,\n                 \"full_formula\": structure.composition.formula.replace(\" \", \"\"), \"source\": source,\n                 \"scores\": {}, \"num_sites\": len(structure)}\n        self.buffer.setdefault(comp, []).append(entry)\n        self.structure_cache[digest] = entry\n        return {\"accepted\": True, \"composition\": comp, \"structure_index\": len(self.buffer[comp])-1, \"hash\": digest, \"filters\": records}\n\n    @serialized_operation\n    def tool(self, args: dict) -> dict:\n        self.count(\"tool_attempts\")\n        if self.done():\n            raise AdapterError(\"budget_exhausted\", \"MADE attempted-query budget exhausted.\", self.status())\n        aliases = {\"generate\": \"generate_structures\", \"create\": \"create_structure\", \"score\": \"score_buffer\", \"query\": \"query_structures\", \"select\": \"select_for_evaluation\"}\n        name = args.get(\"name\", args.get(\"tool\"))\n        name = aliases.get(name, name)\n        params = args.get(\"arguments\", {})\n        if not isinstance(params, dict):\n            raise AdapterError(\"invalid_tool\", \"tool.arguments must be an object.\")\n        started = time.monotonic()\n        try:\n            result = self._tool(name, params)\n        except Exception as exc:\n            event = self.event(\"tool_exception\", tool=name, elapsed_seconds=time.monotonic()-started,\n                               error_type=type(exc).__name__, message=str(exc))\n            raise AdapterError(\"tool_exception\", str(exc), {\"event\": event, **self.status()}) from exc\n        event = self.event(\"tool_result\", tool=name, elapsed_seconds=time.monotonic()-started, result=result)\n        return {\"tool\": name, \"output\": result, \"event\": event, \"status\": self.status()}\n\n    def _tool(self, name: str, params: dict) -> Any:\n        from made.agents.base import Plan\n        from pymatgen.core import Composition, Lattice, Structure\n        if name == \"generate_structures\":\n            generator_name = params.get(\"generator_name\", \"chemeleon\")\n            if generator_name not in self.generators:\n                raise AdapterError(\"invalid_generator\", \"Allowed generators: chemeleon, random.\")\n            formulas = params.get(\"compositions\", [])\n            if isinstance(formulas, str):\n                formulas = [x.strip() for x in formulas.split(\",\") if x.strip()]\n            if not isinstance(formulas, list) or not formulas:\n                raise AdapterError(\"invalid_composition\", \"Explicit compositions are required; no fallback composition is generated.\")\n            compositions = [Composition(formula) for formula in formulas]\n            for comp in compositions:\n                if not {str(e) for e in comp.elements}.issubset(self.elements) or not 1 <= comp.num_atoms <= 20 or any(float(v) != int(v) for v in comp.values()):\n                    raise AdapterError(\"invalid_composition\", \"Compositions need integral allowed-element counts and 1\u201320 atoms.\")\n            count = positive_int(params.get(\"num_candidates\", 32), \"num_candidates\")\n            if count > 1024 or len(compositions) > 1024:\n                raise AdapterError(\"invalid_config\", \"At most 1024 requested candidates/compositions per tool call.\")\n            structures = self.generators[generator_name].generate(Plan(compositions=compositions, num_candidates=count,\n                constraints={\"elements\": self.elements, \"max_stoichiometry\": 20}), self.env.get_state())\n            records = [self._buffer_add(s, generator_name) for s in structures]\n            return {\"generated\": len(structures), \"accepted\": sum(r[\"accepted\"] for r in records), \"records\": records}\n        if name == \"create_structure\":\n            if \"structure\" in params:\n                structure = Structure.from_dict(params[\"structure\"])\n            else:\n                species = params.get(\"species\", [])\n                coords = params.get(\"frac_coords\", [])\n                if isinstance(species, str):\n                    species = [x.strip() for x in species.split(\",\") if x.strip()]\n                if isinstance(coords, str):\n                    coords = [[float(v) for v in row.split(\",\")] for row in coords.split(\";\") if row.strip()]\n                lattice = Lattice.from_parameters(**{k: params.get(k, 90.0 if k in {\"alpha\", \"beta\", \"gamma\"} else None) for k in (\"a\", \"b\", \"c\", \"alpha\", \"beta\", \"gamma\")})\n                structure = Structure(lattice, species, coords)\n            return self._buffer_add(structure, \"controller_created\")\n        if name == \"score_buffer\":\n            scorer_name = params.get(\"scorer_name\", \"oracle\")\n            if scorer_name == \"oracle\" and \"oracle\" not in self.scorers:\n                from made.agents.scorers.oracle import OracleScorer\n                self.scorers[\"oracle\"] = OracleScorer(self._make_oracle(\"mace\"), score_function=\"e_above_hull\", enable_cache=True, rerank_on_state_change=True)\n            if scorer_name not in self.scorers:\n                raise AdapterError(\"invalid_scorer\", \"Allowed scorers: oracle, random, diversity. No LLM scorer is called.\")\n            groups = [params[\"composition\"]] if params.get(\"composition\") else list(self.buffer)\n            result = []"
+        }
+      ]
+    },
+    "original_controller/rollouts.py": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/original_controller/src/matdiscovery/rollouts.py",
+      "sha256": "4c6436beb0c65a8a954f968ffcadbd7a2ede457843c6570f0b992dfa57a63867",
+      "excerpts": [
+        {
+          "first_line": 270,
+          "last_line": 465,
+          "text": "                except PolicyContextError:\n                    if memory_level == 2:\n                        raise\n            identifier = f\"d{sequence:07d}-c{attempt}\"\n            token_path = output / \"tokens\" / (identifier + \".pt\")\n            token_path.parent.mkdir(exist_ok=True)\n            torch.save({\"input_ids\": generated.input_ids_with_completion, \"policy_stamp\": asdict(generated.model_stamp)}, token_path)\n            prefix_hash = tensor_state_hash({\"input_ids\": generated.input_ids_with_completion, \"attention_mask\": torch.ones_like(generated.input_ids_with_completion)})\n            split = job.get(\"split\", \"test\" if job[\"stage\"] == \"final_eval\" else \"train\")\n            generation_record = generated.to_record()\n            generation_record[\"policy_runtime\"] = self.policy.runtime_precision_record()\n            row = {\"decision_id\": job[\"job_id\"] + \":\" + identifier, \"local_decision_id\": identifier,\n                   \"benchmark\": benchmark, \"model_key\": job[\"model_key\"], \"split\": split, \"task_id\": job[\"task_id\"],\n                   \"group_id\": job.get(\"group_id\", job[\"task_id\"]), \"episode_id\": job[\"job_id\"] + \":episode:\" + str(observation.get(\"episode_index\", 0)),\n                   \"episode_index\": int(observation.get(\"episode_index\", 0)),\n                   \"input_ids_file\": str(token_path), \"prefix_hash\": prefix_hash, \"policy_stamp\": asdict(generated.model_stamp),\n                   \"generation\": generation_record, \"label_immediate_error\": int(not generated.success), \"label_future_failure\": None,\n                   \"generation_seconds\": time.monotonic() - started, \"disposition\": \"candidate\", \"memory_summary_level\": memory_level}\n            if benchmark == \"made\":\n                row[\"observed_failure_types\"] = {head: None for head in HEADS}\n                row[\"observed_failure_types\"][\"generation_invalid\"] = int(not generated.success)\n                row[\"failure_type_horizons\"] = dict(HORIZONS)\n                row[\"failure_type_observation_rpc_ids\"] = {head: [] for head in HEADS}\n            # Separate durable pre-action evidence from labels that only exist later.\n            with (output / \"decision_events.jsonl\").open(\"a\") as f:\n                f.write(json.dumps({\"decision_id\": row[\"decision_id\"], \"event\": \"proposed\", \"policy_stamp\": row[\"policy_stamp\"], \"prefix_hash\": prefix_hash, \"input_ids_file\": str(token_path)}) + \"\\n\")\n            row[\"features\"] = self._features(generated, row, capture=collection or method in {\"hidden_risk\", \"graph_risk\", \"esopt_graph_risk\"}, collection=collection, output=output, method=method)\n            risk = 1.0 if not generated.success else None\n            if generated.success and method in {\"entropy_risk\", \"hidden_risk\", \"graph_risk\", \"esopt_graph_risk\"}:\n                if self.risk_model is None:\n                    raise RuntimeError(\"Risk method requires a fitted train/dev checkpoint\")\n                names = self.risk_model.features.names\n                x = np.array([[row[\"features\"].get(name, np.nan) for name in names]], dtype=float)\n                risk = float(self.risk_model.predict_proba(x, names)[0])\n            row[\"predicted_failure_probability\"] = risk\n            if generated.success and method in {\"baseline\", \"esopt\"} and self.risk_model is not None:\n                # Record calibrated entropy confidence for analysis without changing\n                # baseline decisions, resampling, or candidate selection.\n                names = self.risk_model.features.names\n                x = np.array([[row[\"features\"].get(name, np.nan) for name in names]], dtype=float)\n                row[\"predicted_failure_probability\"] = float(self.risk_model.predict_proba(x, names)[0])\n                row[\"confidence_used_for_control\"] = False\n            type_plan = None\n            if typed_enabled:\n                names = self.risk_model.features.names\n                x = np.array([[row[\"features\"].get(name, np.nan) for name in names]], dtype=float)\n                predictions = self.risk_model.predict_failure_types(x, names)\n                row[\"failure_type_probabilities\"] = {head: None if predictions[head] is None\n                    else float(predictions[head][0]) for head in HEADS}\n                row[\"failure_types_used_for_control\"] = typed_control\n                if typed_control:\n                    visible = json.loads(messages[-1][\"content\"])[\"observation\"]\n                    type_plan = plan_failure_response(benchmark, generated.parsed_action,\n                        row[\"failure_type_probabilities\"], row[\"predicted_failure_probability\"],\n                        visible, threshold=self.settings.risk_threshold)\n                    row[\"failure_controller\"] = type_plan\n                    row[\"feedback_received_for_this_candidate\"] = retry_feedback\n                    if type_plan[\"request_retry\"]:\n                        retry_feedback = {\"predicted_failure_type\": type_plan[\"trigger\"],\n                            \"instruction\": type_plan[\"feedback_for_retry\"],\n                            \"suggested_legal_tool\": type_plan[\"optional_tool_preference\"],\n                            \"source\": \"current_candidate_predictions_or_visible_schema_issue\",\n                            \"not_a_measured_scientific_result\": True}\n            rows.append(row)\n            candidates.append((generated, row, risk))\n            if generated.success and (risk is None or risk < self.settings.risk_threshold) and not (type_plan and type_plan[\"request_retry\"]):\n                break\n        valid = [candidate for candidate in candidates if candidate[0].success]\n        if not valid:\n            for _, row, _ in candidates:\n                row[\"disposition\"] = \"invalid_not_executed\"\n            return None, candidates[-1][1]\n        if typed_control:\n            selection = rank_failure_candidates(benchmark, [\n                {\"action\": candidate[0].parsed_action, \"valid\": candidate[0].success,\n                 \"risk_types\": candidate[1][\"failure_type_probabilities\"],\n                 \"overall_risk\": candidate[1][\"predicted_failure_probability\"]}\n                for candidate in candidates], visible, threshold=self.settings.risk_threshold)\n            for candidate in candidates:\n                candidate[1][\"failure_candidate_selection\"] = selection\n            if selection[\"selected_index\"] is None:\n                for candidate in candidates:\n                    candidate[1][\"disposition\"] = \"invalid_not_executed\"\n                return None, candidates[-1][1]\n            chosen = candidates[selection[\"selected_index\"]]\n        else:\n            chosen = min(valid, key=lambda x: x[2] if x[2] is not None else 0)\n        for candidate in candidates:\n            candidate[1][\"disposition\"] = \"executed\" if candidate is chosen else \"rejected_not_executed\"\n        return chosen[0].parsed_action, chosen[1]\n\n    @staticmethod\n    def _label_rows(output, rows, failure, scientific_response=None):\n        with (output / \"decisions.jsonl\").open(\"a\") as f:\n            for row in rows:\n                if row[\"disposition\"] == \"executed\":\n                    row[\"label_future_failure\"] = failure\n                    if scientific_response is not None and row.get(\"benchmark\") == \"made\":\n                        measured = scientific_failure_labels(scientific_response)\n                        row[\"observed_failure_types\"].update(measured)\n                        for head, value in measured.items():\n                            row[\"failure_type_observation_rpc_ids\"][head] = [scientific_response[\"id\"]]\n                # The risk target is a subsequent outcome, never proof of a causal step error.\n                row[\"label_kind\"] = \"next_scientific_evaluation_failure\"\n                f.write(json.dumps(row, allow_nan=False) + \"\\n\")\n        rows.clear()\n\n    def run(self, job, output: Path, *, collection=False):\n        output = Path(output).resolve()\n        output.mkdir(parents=True, exist_ok=False)\n        self._activation_buffer = {}\n        dump_json(output / \"job.json\", {**job, \"rollout_settings\": asdict(self.settings), \"policy_configuration_fingerprint\": self.policy.configuration_fingerprint})\n        arguments = make_environment_arguments(self.project, job, output, self.settings)\n        all_summaries, history, recent, rows = [], [], [], []\n        sequence, tools_since_query = 0, 0\n        random_recovery = random.Random(job.get(\"policy_sampling_seed\", job[\"seed\"]))\n        curve, last_metrics, last_observation = [(0, 0)], {}, None\n        started = time.monotonic()\n        with EnvironmentClient(self.project, job[\"benchmark\"], output / \"rpc\") as environment:\n            initialized = environment.request(\"init\", arguments)\n            observation = initialized[\"observation\"]\n            initialization_seconds = time.monotonic() - started\n            dump_json(output / \"environment_metadata.json\", initialized[\"metadata\"])\n            episode_start_counts = dict(observation.get(\"counts\", {}))\n            episode_start_time = time.monotonic()\n            while not observation.get(\"done\", False):\n                if job[\"benchmark\"] == \"made\" and tools_since_query >= self.settings.max_tools_per_query:\n                    # A fixed, shared, logged recovery completes the physical budget;\n                    # it is never represented as a successful LLM decision.\n                    buffer = observation.get(\"buffer\", {})\n                    nonempty = [(comp, entries) for comp, entries in buffer.items() if entries]\n                    if nonempty:\n                        comp, entries = sorted(nonempty)[0]\n                        action = {\"tool\": \"select_for_evaluation\", \"arguments\": {\"composition\": comp, \"structure_hash\": entries[0][\"hash\"]}}\n                    else:\n                        elements = arguments[\"elements\"]\n                        formula = \"\".join(elements) + str(1 + random_recovery.randrange(2))\n                        action = {\"tool\": \"generate_structures\", \"arguments\": {\"generator_name\": \"random\", \"compositions\": [formula], \"num_candidates\": 32}}\n                    decision = None\n                    with (output / \"decision_events.jsonl\").open(\"a\") as f:\n                        f.write(json.dumps({\"event\": \"fixed_failure_recovery\", \"sequence\": sequence, \"action\": action}) + \"\\n\")\n                    if tools_since_query > self.settings.max_tools_per_query + 10:\n                        raise RuntimeError(\"Recovery could not produce a legal crystal; the budget is incomplete\")\n                else:\n                    action, decision = self._generate(job, output, observation, recent, history, rows, sequence, collection=collection)\n                sequence += 1\n                if action is None:\n                    recent.append({\"error\": \"invalid_action_generation\"})\n                    tools_since_query += 1\n                    if job[\"benchmark\"] == \"crystalgym\":\n                        action = {\"action\": random_recovery.choice(observation[\"legal_actions\"])[\"element\"]}\n                        with (output / \"decision_events.jsonl\").open(\"a\") as f:\n                            f.write(json.dumps({\"event\": \"fixed_failure_recovery\", \"sequence\": sequence, \"action\": action}) + \"\\n\")\n                    else:\n                        continue\n                if job[\"benchmark\"] == \"made\":\n                    response = environment.request(\"tool\", {\"name\": action[\"tool\"], \"arguments\": action[\"arguments\"]}, check=False)\n                    if decision is not None:\n                        measured = tool_failure_labels(action, response)\n                        decision[\"observed_failure_types\"].update(measured)\n                        for head, value in measured.items():\n                            if value is not None or (head == \"candidate_generation_failure\"\n                                    and action[\"tool\"] in {\"generate_structures\", \"create_structure\"}):\n                                decision[\"failure_type_observation_rpc_ids\"][head] = [response[\"id\"]]\n                    tools_since_query += 1\n                    recent.append(_small(response))\n                    if not response[\"ok\"]:\n                        if decision:\n                            decision[\"label_immediate_error\"] = 1\n                            decision[\"tool_error\"] = response[\"error\"]\n                        observation = environment.request(\"observe\")\n                        continue\n                    if action[\"tool\"] != \"select_for_evaluation\":\n                        observation = environment.request(\"observe\")\n                        continue\n                    response = environment.request(\"step\", check=False)\n                    if response[\"ok\"]:\n                        result = response[\"result\"]\n                        last_metrics = result[\"official_metrics\"]\n                        last_observation = result[\"official_observation\"]\n                        failure = int(not (last_observation.get(\"is_stable\", False) and last_observation.get(\"is_newly_discovered\", False)))\n                        history.append(_small(last_observation))\n                        observation = result[\"observation\"]\n                        curve.append((int(observation[\"counts\"].get(\"candidate_oracle_attempts\", 0)), int(last_metrics.get(\"num_newly_discovered_stable\", 0))))\n                    else:\n                        failure = 1\n                        if decision:\n                            decision[\"label_immediate_error\"] = 1\n                        history.append({\"oracle_exception\": response[\"error\"]})\n                        observation = environment.request(\"observe\")\n                        curve.append((int(observation[\"counts\"].get(\"candidate_oracle_attempts\", 0)), curve[-1][1]))\n                    self._label_rows(output, rows, failure, scientific_response=response)\n                    tools_since_query = 0\n                else:\n                    response = environment.request(\"step\", {\"action\": action[\"action\"]}, check=False)\n                    if not response[\"ok\"]:"
+        }
+      ]
+    },
+    "original_controller/failure_labels.py": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/original_controller/src/matdiscovery/failure_labels.py",
+      "sha256": "acd7786273bb22bb2503d4d430fad3c59dfa0da456a4ec373d362e4a46dd6ba5",
+      "excerpts": [
+        {
+          "first_line": 120,
+          "last_line": 170,
+          "text": "    _require(accepted is None or (type(accepted) is int and accepted >= 0), \"Generated accepted count must be a nonnegative integer\")\n    records = output.get(\"records\")\n    if isinstance(records, list) and all(isinstance(r, Mapping) and type(r.get(\"accepted\")) is bool for r in records):\n        counted = sum(r[\"accepted\"] for r in records)\n        _require(accepted is None or accepted == counted, \"Generated accepted count contradicts candidate records\")\n        if \"generated\" in output:\n            _require(type(output[\"generated\"]) is int and output[\"generated\"] == len(records), \"Generated count contradicts candidate records\")\n        accepted = counted\n    return int(accepted == 0) if accepted is not None else None\n\n\ndef tool_failure_labels(action: Mapping, response: Mapping) -> dict:\n    \"\"\"Pure post-response labels for an actually executed MADE tool action.\"\"\"\n    _require(isinstance(action, Mapping) and action.get(\"tool\") in TOOLS, \"Unknown MADE action\")\n    success = _ok(response)\n    if success:\n        _require(isinstance(response.get(\"result\"), Mapping) and response[\"result\"].get(\"tool\") == action[\"tool\"],\n                 \"Tool response belongs to another action\")\n    screen = screening_evidence(action, response)\n    return {\"candidate_generation_failure\": _candidate_generation_label(action, response),\n            \"tool_execution_failure\": int(not success), \"screening_unavailable\": screen.get(\"label\")}\n\n\ndef scientific_failure_labels(response: Mapping) -> dict:\n    \"\"\"Pure MADE scientific-return labels; never labels an unexecuted candidate.\"\"\"\n    if not _ok(response):\n        return {\"scientific_evaluation_failure\": 1, \"unstable\": None, \"not_new\": None}\n    result = response.get(\"result\")\n    _require(isinstance(result, Mapping) and isinstance(result.get(\"official_observation\"), Mapping),\n             \"Successful MADE scientific response lacks official_observation\")\n    observation = result[\"official_observation\"]\n    labels = {\"scientific_evaluation_failure\": 0}\n    for name, field in ((\"unstable\", \"is_stable\"), (\"not_new\", \"is_newly_discovered\")):\n        value = observation.get(field)\n        _require(value is None or type(value) is bool, \"Scientific classification must be an observed boolean or unknown\")\n        labels[name] = None if value is None else int(not value)\n    return labels\n\n\ndef _json(data, context):\n    def pairs(items):\n        result = {}\n        for key, value in items:\n            _require(key not in result, f\"Duplicate JSON key in {context}: {key}\")\n            result[key] = value\n        return result\n    def invalid(value):\n        raise FailureLabelError(f\"Bare nonfinite JSON in {context}: {value}\")\n    try:\n        return json.loads(data, object_pairs_hook=pairs, parse_constant=invalid)\n    except (ValueError, UnicodeError) as exc:"
+        }
+      ]
+    },
+    "schema_repaired_controller/failure_controller.py": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/schema_repaired_controller/src/matdiscovery/failure_controller.py",
+      "sha256": "d8202d3a36612d62b720424ad18f8b4963b0f411cc202feb04c6188f770cb538",
+      "excerpts": [
+        {
+          "first_line": 1,
+          "last_line": 330,
+          "text": "\"\"\"Deterministic MADE failure-type control; no tool, oracle, model or I/O calls.\n\nOnly pass the observation actually rendered in the policy's user message.\nThe output is advisory: the caller owns its existing two-candidate loop and\nmax_tools_per_query recovery. No request or budget is created here. Head\napplicability and ranking are identical across method arms; missing predictions\nremain None and never become a predicted zero probability.\n\nTool contracts audited against rollouts.TOOL_ARGUMENTS and\nbenchmark_adapters.MADEAdapter._tool. CrystalGym is explicitly unsupported.\n\"\"\"\nfrom __future__ import annotations\n\nfrom collections.abc import Mapping, Sequence\nimport math\nfrom numbers import Real\nfrom typing import Any\n\nSCHEMA = \"made_failure_type_controller_v1\"\nMAX_FEEDBACK_CHARS = 240\nHEADS = (\n    \"generation_invalid\", \"candidate_generation_failure\", \"tool_execution_failure\",\n    \"screening_unavailable\", \"scientific_evaluation_failure\", \"unstable\", \"not_new\",\n)\nTOOL_ARGUMENTS = {\n    \"generate_structures\": {\"compositions\", \"generator_name\", \"num_candidates\"},\n    \"create_structure\": {\"structure\", \"a\", \"b\", \"c\", \"alpha\", \"beta\", \"gamma\", \"species\", \"frac_coords\"},\n    \"score_buffer\": {\"scorer_name\", \"composition\"},\n    \"query_structures\": {\"composition\", \"k\", \"mode\", \"scorer_name\", \"include_structure_details\"},\n    \"list_compositions\": set(), \"get_buffer_stats\": set(),\n    \"select_for_evaluation\": {\"composition\", \"structure_hash\", \"structure_index\", \"scorer_name\"},\n}\nHEAD_WEIGHTS = dict(zip(HEADS, (2., 1., 2., 1., 2., 1., 1.)))\nHORIZONS = {\n    \"generation_invalid\": \"current_proposal_JSON_or_action_schema\",\n    \"candidate_generation_failure\": \"generate_or_create_zero_accepted_candidates\",\n    \"tool_execution_failure\": \"proposed_tool_execution\",\n    \"screening_unavailable\": \"surrogate_screening_availability\",\n    \"scientific_evaluation_failure\": \"next_scientific_evaluation\",\n    \"unstable\": \"next_scientific_evaluation\",\n    \"not_new\": \"next_scientific_evaluation\",\n}\n_FEEDBACK = {\n    \"generation_invalid\": \"Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results.\",\n    \"candidate_generation_failure\": \"Revise the allowed integer composition or valid geometry; use chemeleon or random for generation. Acceptance and stability remain unmeasured.\",\n    \"tool_execution_failure\": \"Repair the tool arguments. Use an actual visible composition/hash and documented modes or scorers; do not repeat an invalid call.\",\n    \"screening_unavailable\": \"Do not rank by unavailable/nonfinite oracle-surrogate scores. Query without ranking or use diversity/random; no stability conclusion follows.\",\n    \"scientific_evaluation_failure\": \"Check candidate geometry and legality; prefer another real buffered hash. Keep the fixed ORB settings and do not add a validation evaluation.\",\n    \"unstable\": \"Compare candidates using finite existing scores, or propose a different valid candidate. Surrogate scores do not establish final stability.\",\n    \"not_new\": \"Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty.\",\n    \"overall_risk\": \"Reconsider this action using only visible evidence and documented tools. Do not invent observations or add an evaluation.\",\n    \"risk_unavailable\": \"Type/overall confidence is unavailable. Recheck the legal action using visible evidence; unavailable confidence is not a low-risk prediction.\",\n}\n_BUDGET_NOTE = \" Use only the existing retry and tool/query limits.\"\nRANK_RULE = \"valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index\"\n\n\ndef _probability(value):\n    return float(value) if isinstance(value, Real) and not isinstance(value, bool) and math.isfinite(value) and 0 <= value <= 1 else None\n\n\ndef _normalize(risk_types):\n    if risk_types is None:\n        risk_types = {}\n    if not isinstance(risk_types, Mapping):\n        raise TypeError(\"risk_types must be a head -> probability/None mapping.\")\n    values = {head: _probability(risk_types.get(head)) for head in HEADS}\n    unavailable = {head: \"missing\" if risk_types.get(head) is None else \"invalid_probability\" for head in HEADS if values[head] is None}\n    return values, unavailable\n\n\ndef _visible(observation):\n    if not isinstance(observation, Mapping):\n        return {}\n    # Accept the already rendered observation or its user-message wrapper only.\n    return observation.get(\"observation\", observation) if isinstance(observation.get(\"observation\", observation), Mapping) else {}\n\n\ndef _entries(observation):\n    result = []\n    buffer = observation.get(\"buffer\", {})\n    if isinstance(buffer, Mapping):\n        for composition, rows in buffer.items():\n            if not isinstance(composition, str) or not composition or not isinstance(rows, list):\n                continue\n            for row in rows:\n                if not isinstance(row, Mapping):\n                    continue\n                digest = row.get(\"hash\", row.get(\"structure_hash\"))\n                if isinstance(digest, str) and digest:\n                    result.append((composition, digest, row))\n    return sorted(result, key=lambda item: (item[0], item[1]))\n\n\ndef _action_parts(action):\n    if not isinstance(action, Mapping):\n        return None, {}\n    args = action.get(\"arguments\", {})\n    return action.get(\"tool\"), dict(args) if isinstance(args, Mapping) else {}\n\n\ndef applicable_heads(action):\n    \"\"\"Generation-invalid is JSON validity for EVERY proposal, not crystal quality.\"\"\"\n    tool, args = _action_parts(action)\n    applicable = {\"generation_invalid\", \"tool_execution_failure\"}\n    if tool in TOOL_ARGUMENTS:\n        applicable.update({\"scientific_evaluation_failure\", \"unstable\", \"not_new\"})\n    if tool in {\"generate_structures\", \"create_structure\"}:\n        applicable.add(\"candidate_generation_failure\")\n    uses_oracle = tool == \"score_buffer\" and args.get(\"scorer_name\", \"oracle\") == \"oracle\"\n    uses_oracle |= tool in {\"query_structures\", \"select_for_evaluation\"} and args.get(\"scorer_name\") == \"oracle\"\n    if uses_oracle:\n        applicable.add(\"screening_unavailable\")\n    return [head for head in HEADS if head in applicable]\n\n\ndef _composition_item_has_shape(value):\n    \"\"\"Match the frozen adapter's string/mapping input shapes, not chemistry.\n\n    MADEAdapter._tool passes each item to pymatgen.Composition and then checks\n    allowed elements, integral counts and the atom limit. Keep that authority;\n    this pure controller must not reject its supported nonempty mappings or\n    invent a second approximate chemistry parser.\n    \"\"\"\n    return isinstance(value, (str, Mapping)) and bool(value)\n\n\ndef _action_issues(action):\n    \"\"\"Schema checks only; absent entries in a summarized buffer are not invalid.\"\"\"\n    if not isinstance(action, Mapping) or action.get(\"tool\") not in TOOL_ARGUMENTS or not isinstance(action.get(\"arguments\"), Mapping):\n        return [\"expected_allowed_tool_and_arguments_object\"]\n    tool, args = _action_parts(action)\n    issues = []\n    if set(args) - TOOL_ARGUMENTS[tool]: issues.append(\"unknown_tool_arguments\")\n    if tool == \"generate_structures\":\n        formulas = args.get(\"compositions\")\n        if isinstance(formulas, str): formulas = [part.strip() for part in formulas.split(\",\") if part.strip()]\n        if not isinstance(formulas, list) or not formulas or any(not _composition_item_has_shape(item) for item in formulas):\n            issues.append(\"explicit_compositions_required\")\n        if args.get(\"generator_name\", \"chemeleon\") not in {\"chemeleon\", \"random\"}: issues.append(\"invalid_generator\")\n        count = args.get(\"num_candidates\", 32)\n        if type(count) is not int or not 1 <= count <= 1024: issues.append(\"invalid_num_candidates\")\n    if tool in {\"query_structures\", \"select_for_evaluation\"} and (not isinstance(args.get(\"composition\"), str) or not args[\"composition\"]):\n        issues.append(\"composition_required\")\n    if \"scorer_name\" in args and args[\"scorer_name\"] not in {\"oracle\", \"diversity\", \"random\"}: issues.append(\"invalid_scorer\")\n    if tool == \"query_structures\":\n        if args.get(\"mode\", \"all\") not in {\"all\", \"top\", \"bottom\", \"random\"}: issues.append(\"invalid_query_mode\")\n        if args.get(\"mode\", \"all\") in {\"top\", \"bottom\"} and not args.get(\"scorer_name\"): issues.append(\"ranked_query_requires_scorer\")\n        if type(args.get(\"k\", 5)) is not int or args.get(\"k\", 5) < 1: issues.append(\"invalid_query_k\")\n    if tool == \"select_for_evaluation\":\n        if \"structure_hash\" in args and (not isinstance(args[\"structure_hash\"], str) or not args[\"structure_hash\"]): issues.append(\"invalid_structure_hash\")\n        if \"structure_index\" in args and (type(args[\"structure_index\"]) is not int or args[\"structure_index\"] < 0): issues.append(\"invalid_structure_index\")\n    if tool == \"create_structure\":\n        if \"structure\" in args:\n            if not isinstance(args[\"structure\"], Mapping): issues.append(\"structure_must_be_object\")\n        else:\n            for key in (\"a\", \"b\", \"c\"):\n                value = args.get(key)\n                if not isinstance(value, Real) or isinstance(value, bool) or not math.isfinite(value) or value <= 0:\n                    issues.append(\"invalid_lattice_lengths\"); break\n            if not args.get(\"species\") or not args.get(\"frac_coords\"): issues.append(\"species_and_coordinates_required\")\n    return issues\n\n\ndef _safe_query(observation, composition=None):\n    entries = _entries(observation)\n    available = sorted({row[0] for row in entries})\n    if not available:\n        return {\"tool\": \"get_buffer_stats\", \"arguments\": {}}\n    comp = composition if composition in available else available[0]\n    return {\"tool\": \"query_structures\", \"arguments\": {\"composition\": comp, \"k\": 5, \"mode\": \"all\"}}\n\n\ndef _preference(head, action, observation):\n    tool, args = _action_parts(action)\n    entries = _entries(observation)\n    if head in {\"scientific_evaluation_failure\", \"not_new\"}:\n        alternatives = [item for item in entries if item[1] != args.get(\"structure_hash\")]\n        if alternatives:\n            composition, digest, _ = alternatives[0]\n            return {\"tool\": \"select_for_evaluation\", \"arguments\": {\"composition\": composition, \"structure_hash\": digest}}\n    if head == \"candidate_generation_failure\":\n        formulas = args.get(\"compositions\") if tool == \"generate_structures\" else None\n        if not formulas and entries: formulas = [entries[0][0]]\n        if isinstance(formulas, str): formulas = [part.strip() for part in formulas.split(\",\") if part.strip()]\n        if isinstance(formulas, list) and formulas and all(_composition_item_has_shape(item) for item in formulas):\n            count = args.get(\"num_candidates\", 32)\n            count = count if type(count) is int and 1 <= count <= 1024 else 32\n            return {\"tool\": \"generate_structures\", \"arguments\": {\"compositions\": list(formulas),\n                \"generator_name\": \"random\" if args.get(\"generator_name\", \"chemeleon\") == \"chemeleon\" else \"chemeleon\", \"num_candidates\": count}}\n    if head == \"unstable\" and entries:\n        composition = args.get(\"composition\", entries[0][0])\n        same = [row for comp, _, row in entries if comp == composition]\n        scores = [row.get(\"scores\", {}).get(\"oracle\") if isinstance(row.get(\"scores\"), Mapping) else None for row in same]\n        # Only previously visible finite scores are used; never request a new MACE/ORB validation.\n        if same and all(isinstance(score, Real) and not isinstance(score, bool) and math.isfinite(score) for score in scores):\n            return {\"tool\": \"query_structures\", \"arguments\": {\"composition\": composition, \"k\": 5, \"mode\": \"top\", \"scorer_name\": \"oracle\"}}\n    if head == \"screening_unavailable\":\n        # Querying all candidates avoids any dependency on unavailable oracle scores.\n        return _safe_query(observation, args.get(\"composition\"))\n    return _safe_query(observation, args.get(\"composition\"))\n\n\ndef plan_failure_response(benchmark, proposed_action, risk_types, overall_risk,\n                          public_observation, threshold=.6):\n    \"\"\"Return a JSON-safe plan for the remaining EXISTING candidate retry only.\"\"\"\n    threshold = _probability(threshold)\n    if threshold is None: raise ValueError(\"threshold must be a finite probability.\")\n    values, unavailable = _normalize(risk_types)\n    overall = _probability(overall_risk)\n    observation = _visible(public_observation)\n    applicable = applicable_heads(proposed_action) if benchmark == \"made\" else []\n    available = [head for head in HEADS if values[head] is not None]\n    usable = [head for head in applicable if values[head] is not None]\n    plan = {\"schema\": SCHEMA, \"benchmark\": benchmark, \"supported\": benchmark == \"made\",\n        \"available_heads\": available, \"applicable_heads\": applicable, \"available_applicable_heads\": usable,\n        \"unavailable_heads\": unavailable, \"risk_types\": values, \"overall_risk\": overall,\n        \"head_coverage\": {\"available\": len(usable), \"applicable\": len(applicable), \"fraction\": len(usable) / len(applicable) if applicable else None},\n        \"head_horizons\": dict(HORIZONS), \"threshold\": threshold, \"trigger\": None, \"triggered_heads\": [],\n        \"controller_action\": \"keep_candidate\", \"request_retry\": False, \"feedback_for_retry\": \"\",\n        \"optional_tool_preference\": None, \"reason\": \"No available risk exceeds the fixed threshold.\",\n        \"extra_physical_budget\": 0, \"extra_generation_budget\": 0, \"executes_tools\": False,\n        \"tool_preference_is_advisory\": True, \"overrides_fixed_recovery\": False,\n        \"retry_scope\": \"remaining_preexisting_candidate_slots_only\", \"fallback\": None}\n    if benchmark != \"made\":\n        plan.update(controller_action=\"unsupported\", trigger=\"unsupported_benchmark\", reason=\"This controller is enabled only for MADE; retain the existing CrystalGym policy.\")\n        return plan\n    limit, used = observation.get(\"max_tools_per_query\"), observation.get(\"tools_since_query\")\n    if type(limit) is int and type(used) is int and limit > 0 and used >= limit:\n        plan.update(controller_action=\"defer_to_fixed_recovery\", trigger=\"existing_tool_limit\", reason=\"The unchanged rollout recovery owns the exhausted tool allowance.\")\n        return plan\n    if observation.get(\"selected\") is True:\n        plan.update(controller_action=\"defer_to_existing_execution\", trigger=\"selection_pending\", reason=\"An existing selected candidate must be handled by the unchanged rollout; do not schedule another tool.\")\n        return plan\n    issues = _action_issues(proposed_action)\n    plan[\"local_schema_issues\"] = issues\n    triggered = [head for head in usable if values[head] >= threshold]\n    plan[\"triggered_heads\"] = sorted(triggered, key=lambda head: (-values[head], HEADS.index(head)))\n    if issues:\n        trigger = \"generation_invalid\"\n        plan[\"reason\"] = \"A current-proposal schema issue is observed; this is not a future scientific label.\"\n        plan[\"trigger_source\"] = \"local_schema_validation\"\n    elif triggered:\n        trigger = plan[\"triggered_heads\"][0]\n        plan[\"reason\"] = \"An applicable predicted failure type exceeds the fixed threshold.\"\n        plan[\"trigger_source\"] = \"predicted_failure_type\"\n    elif overall is not None and overall >= threshold:\n        trigger = \"overall_risk\"\n        plan[\"reason\"] = \"Overall risk exceeds threshold; no subtype is asserted high.\"\n    elif not usable and overall is None:\n        trigger = \"risk_unavailable\"\n        plan[\"reason\"] = \"Neither applicable type predictions nor overall confidence are available.\"\n    else:\n        if not usable:\n            plan.update(controller_action=\"scalar_fallback\", fallback=\"no_available_applicable_type_heads\",\n                        reason=\"Explicit scalar-only fallback; missing type probabilities remain unknown.\")\n        elif len(usable) != len(applicable):\n            plan[\"fallback\"] = \"partial_type_coverage_recorded; compare_only_common_available_heads\"\n        return plan\n    plan.update(trigger=trigger, controller_action=\"retry_with_type_feedback\" if trigger in HEADS else \"retry_with_fallback_feedback\", request_retry=True)\n    if not usable: plan[\"fallback\"] = \"no_available_applicable_type_heads\"\n    plan[\"feedback_for_retry\"] = _FEEDBACK[trigger] + _BUDGET_NOTE\n    if trigger in HEADS:\n        plan[\"optional_tool_preference\"] = _preference(trigger, proposed_action, observation)\n    if plan[\"optional_tool_preference\"] is not None and _action_issues(plan[\"optional_tool_preference\"]):\n        plan[\"optional_tool_preference\"] = None\n    assert len(plan[\"feedback_for_retry\"]) <= MAX_FEEDBACK_CHARS\n    return plan\n\n\ndef rank_failure_candidates(benchmark, candidates, public_observation, threshold=.6):\n    \"\"\"Compare only the SAME calibrated event heads across valid proposals.\n\n    A head participates only when applicable to every valid candidate and every\n    candidate has a finite prediction. Exclusive heads still drive their own\n    retry feedback, but cannot create a cross-action missingness penalty.\n    Unknown/NA heads are never imputed. If the common set is empty, explicitly\n    fall back to known overall confidence, then original order for unknowns.\n    \"\"\"\n    if not isinstance(candidates, Sequence) or isinstance(candidates, (str, bytes)) or len(candidates) > 2:\n        raise ValueError(\"Supply only the existing one or two candidate proposals.\")\n    if benchmark != \"made\":\n        return {\"schema\": SCHEMA, \"supported\": False, \"selected_index\": None, \"ranking\": [],\n                \"fallback\": \"unsupported_benchmark\", \"extra_physical_budget\": 0, \"extra_generation_budget\": 0}\n    records = []\n    for index, candidate in enumerate(candidates):\n        if not isinstance(candidate, Mapping): raise TypeError(\"Candidates must be mappings.\")\n        action = candidate.get(\"action\", candidate.get(\"proposed_action\"))\n        if \"action\" in candidate and \"proposed_action\" in candidate and candidate[\"action\"] != candidate[\"proposed_action\"]:\n            raise ValueError(\"Conflicting action/proposed_action fields.\")\n        plan = plan_failure_response(benchmark, action, candidate.get(\"risk_types\"), candidate.get(\"overall_risk\"), public_observation, threshold)\n        valid = candidate.get(\"valid\", True) is True and not _action_issues(action) and plan[\"controller_action\"] not in {\"defer_to_fixed_recovery\", \"defer_to_existing_execution\"}\n        records.append({\"candidate_index\": index, \"valid\": valid, \"plan\": plan})\n    valid_records = [record for record in records if record[\"valid\"]]\n    common = [head for head in HEADS if valid_records and all(head in record[\"plan\"][\"available_applicable_heads\"] for record in valid_records)]\n    for record in records:\n        plan = record[\"plan\"]\n        excluded = {head: \"not_applicable_to_this_action\" if head not in plan[\"applicable_heads\"]\n                    else \"prediction_unavailable_for_this_candidate\" if plan[\"risk_types\"][head] is None\n                    else \"not_available_and_applicable_for_every_valid_candidate\"\n                    for head in HEADS if head not in common}\n        compared = {head: plan[\"risk_types\"][head] for head in common} if record[\"valid\"] else {}\n        # Missingness is a separate sort field. The zero below is only an unused\n        # numeric placeholder within the missing-overall stratum, never a risk.\n        overall = plan[\"overall_risk\"]\n        overall_order = [int(overall is None), overall if overall is not None else 0.0]\n        if common and record[\"valid\"]:\n            maximum = max(compared.values())\n            mean = sum(compared[head] * HEAD_WEIGHTS[head] for head in common) / sum(HEAD_WEIGHTS[head] for head in common)\n            key = [0, maximum, mean, *overall_order, record[\"candidate_index\"]]\n        elif common:\n            key = [1, 0.0, 0.0, *overall_order, record[\"candidate_index\"]]\n        else:\n            key = [int(not record[\"valid\"]), *overall_order, record[\"candidate_index\"]]\n        record.update(rank_key=key, compared_head_probabilities=compared, head_coverage=plan[\"head_coverage\"],\n                      unknown_applicable_heads=[head for head in plan[\"applicable_heads\"] if plan[\"risk_types\"][head] is None],\n                      excluded_from_cross_action_ranking=excluded, missing_probabilities_are_not_imputed=True)\n    ranking = sorted(records, key=lambda record: record[\"rank_key\"])\n    selected = next((record[\"candidate_index\"] for record in ranking if record[\"valid\"]), None)\n    return {\"schema\": SCHEMA, \"supported\": True, \"selected_index\": selected, \"ranking\": ranking,\n            \"ranking_rule\": RANK_RULE if common else \"valid_first; known_overall_then_probability; original_index\",\n            \"common_comparison_heads\": common, \"type_signals_used\": bool(common),\n            \"fallback\": None if common else \"scalar_only_no_common_available_types\" if valid_records else \"no_valid_candidate\",\n            \"missing_probabilities_are_not_imputed\": True,\n            \"extra_physical_budget\": 0, \"extra_generation_budget\": 0, \"overrides_fixed_recovery\": False}\n\n\ndef select_failure_candidate(benchmark, candidates, public_observation, threshold=.6):\n    \"\"\"Alias returning the same full selection audit, not only an opaque index.\"\"\"\n    return rank_failure_candidates(benchmark, candidates, public_observation, threshold)"
+        }
+      ]
+    },
+    "schema_repaired_controller/benchmark_adapters.py": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/schema_repaired_controller/src/matdiscovery/benchmark_adapters.py",
+      "sha256": "0f48431db71251c2793d161efcaa6209512735cf77ce1f5ab3dd048f11917d1e",
+      "excerpts": [
+        {
+          "first_line": 350,
+          "last_line": 430,
+          "text": "        except ValueError as exc:\n            raise AdapterError(\"invalid_config\", str(exc)) from exc\n        self.elements = args.get(\"elements\")\n        if not isinstance(self.elements, list) or not self.elements or not all(isinstance(x, str) for x in self.elements) or len(set(self.elements)) != len(self.elements):\n            raise AdapterError(\"invalid_config\", \"elements must be distinct chemical symbols.\")\n        # Fail on absent/partial raw data before importing any heavyweight dependencies.\n        payload, snapshot = load_snapshot(args.get(\"mp_cache_path\"), args.get(\"mp_cache_sha256\"), self.elements)\n        assets = args.get(\"assets\", {})\n        self.assets = {key: asset(assets.get(key), key) for key in (\"orb_checkpoint\", \"mace_checkpoint\", \"chemeleon_checkpoint\", \"element_reference_energies\")}\n        self.tolerance = args.get(\"stability_tolerance\", 0.1)\n        if self.tolerance not in (0.1, 0.01):\n            raise AdapterError(\"invalid_config\", \"MADE supported paper thresholds are 0.1 and 0.01 eV/atom.\")\n        self.device = args.get(\"device\", \"cuda\")\n        if self.device not in {\"cuda\", \"cpu\"}:\n            raise AdapterError(\"invalid_config\", \"Specify a fixed cpu or cuda device.\")\n        if self.mace_num_workers == 4 and self.device != \"cpu\":\n            raise AdapterError(\"invalid_config\", \"MACE workers=4 is verified only for the fixed CPU/float32 oracle.\")\n        self.generator_device = args.get(\"generator_device\", self.device)\n        if self.generator_device not in {\"cuda\", \"cpu\"}:\n            raise AdapterError(\"invalid_config\", \"generator_device must be cpu or cuda.\")\n        self.metadata = {\"vendor\": verify_vendor(self.vendor_root, \"made\", MADE_COMMIT), \"snapshot\": snapshot,\n                         \"assets\": self.assets, \"oracle\": {\"model\": \"orb-v3-conservative-inf-omat\", \"relax\": True, **RELAX},\n                         \"oracle_device\": self.device, \"generator_device\": self.generator_device,\n                         \"mace_num_workers\": self.mace_num_workers, \"orb_num_workers\": 1,\n                         \"mace_execution\": mace_execution,\n                         \"stability_tolerance\": self.tolerance, \"max_stoichiometry\": 20,\n                         \"budget_unit\": \"candidate_oracle_attempts_per_episode\", \"seed_schedule\": \"(seed + episode_index) mod 2**32\",\n                         \"deviation\": \"Exceptions consume attempted-query budget; raw official accepted-query metrics are also preserved.\"}\n        self.start_output()\n        seed_all(self.seed)\n        verify_import(\"made.envs.convex_hull\", self.vendor_root)\n        from made.data.chemical_system import PhaseDiagramDataset\n        from made.envs.convex_hull import ConvexHullEnvironment\n        from pymatgen.analysis.phase_diagram import PhaseDiagram, PDEntry\n        from pymatgen.entries.computed_entries import ComputedStructureEntry\n        from pymatgen.core import Structure\n\n        decoded = []\n        for record in payload[\"entries\"]:\n            if record.get(\"structure\"):\n                original = ComputedStructureEntry.from_dict(record)\n                structure, energy = original.structure, original.energy\n            else:\n                original = PDEntry.from_dict(record)\n                structure, energy = Structure.from_dict(record[\"attribute\"][\"structure\"]), original.energy\n            if not math.isfinite(float(energy)) or not {str(e) for e in structure.composition.elements}.issubset(self.elements):\n                raise AdapterError(\"invalid_snapshot\", \"Nonfinite energy or out-of-system entry in snapshot.\")\n            decoded.append(PDEntry(structure.composition, energy, attribute={\"structure\": structure.as_dict()}))\n\n        class FrozenPhaseDiagramDataset(PhaseDiagramDataset):\n            def _load_dataset(inner_self):\n                return PhaseDiagram(decoded)\n\n        self.dataset = FrozenPhaseDiagramDataset(elements=self.elements, thermo_types=[\"GGA_GGA+U\"])\n        self.oracle = self._make_oracle(\"orb\")\n        self.env = ConvexHullEnvironment(dataset=self.dataset, oracle=self.oracle, budget=self.budget,\n            start_with_all_stable=True, compute_elemental_from_oracle=True, stability_tolerance=self.tolerance,\n            include_near_stable_from_ground_truth=True, filter_by_smact=True, max_stoichiometry=20,\n            structure_matcher_ltol=0.2, structure_matcher_stol=0.3, structure_matcher_angle_tol=5,\n            structure_matcher_primitive_cell=True)\n        self._build_tools()\n        self._phase = \"candidate\"\n        self.event(\"initialized\", metadata=self.metadata)\n\n    def _make_oracle(self, kind: str):\n        if kind not in {\"orb\", \"mace\"}:\n            raise AdapterError(\"invalid_oracle\", \"Only the fixed ORB and MACE oracles are supported.\")\n        from made.oracles.orb.orb_oracle import ORBOracle\n        from made.oracles.mace.mace_oracle import MACEOracle\n        from made.utils.structure_hash import structure_hash\n\n        workers = 1 if kind == \"orb\" else self.mace_num_workers\n        options = dict(device=self.device, element_reference_energies_path=self.assets[\"element_reference_energies\"][\"path\"],\n                       relax=True, relax_kwargs=dict(RELAX), num_workers=workers)\n        constructor_id = uuid.uuid4().hex\n        with ORACLE_LIFECYCLE_LOCK:\n            guard = TorchFXGuard() if workers == 4 else None\n            self.oracle_audit(\"oracle_constructor_started\", constructor_id=constructor_id,\n                              role=kind, num_workers=workers)\n            started = time.monotonic()\n            try:"
+        },
+        {
+          "first_line": 540,
+          "last_line": 640,
+          "text": "            status = (\"finite\" if math.isfinite(value) else\n                      \"official_negative_infinity_sentinel\" if value == -math.inf else\n                      \"invalid_nan\" if math.isnan(value) else \"invalid_positive_infinity\")\n            outcome = {\"structure_hash\": entry[\"hash\"], \"score\": value,\n                       \"status\": status, \"rankable\": score_rankable(value), \"official_result\": jsonable(record)}\n            entry[\"scores\"][scorer_name] = value\n            entry.setdefault(\"score_status\", {})[scorer_name] = {\"status\": status, \"rankable\": score_rankable(value)}\n            outcomes.append(outcome)\n            if not math.isfinite(value):\n                self.count(\"score_sentinels\" if value == -math.inf else \"score_failures\")\n                self.event(\"score_sentinel\" if value == -math.inf else \"score_failure\",\n                           scorer=scorer_name, **outcome)\n        entries.sort(key=lambda entry: score_order(entry[\"scores\"][scorer_name]))\n        return outcomes\n\n    def _buffer_add(self, structure, source: str) -> dict:\n        from made.utils.structure_hash import structure_hash\n        self._validate_structure(structure)\n        digest = structure_hash(structure)\n        if digest in self.structure_cache:\n            return {\"accepted\": False, \"reason\": \"already_in_buffer\", \"hash\": digest}\n        records = []\n        for filter_object in (self.static_filter, self.uniqueness_filter):\n            passed, results = filter_object.filter([structure], self.env.get_state(), return_results=True)\n            records.extend(jsonable(results))\n            if not passed:\n                return {\"accepted\": False, \"reason\": \"official_filter_rejection\", \"hash\": digest, \"filters\": records}\n        comp = structure.composition.reduced_formula\n        entry = {\"structure\": structure, \"hash\": digest, \"composition\": comp,\n                 \"full_formula\": structure.composition.formula.replace(\" \", \"\"), \"source\": source,\n                 \"scores\": {}, \"num_sites\": len(structure)}\n        self.buffer.setdefault(comp, []).append(entry)\n        self.structure_cache[digest] = entry\n        return {\"accepted\": True, \"composition\": comp, \"structure_index\": len(self.buffer[comp])-1, \"hash\": digest, \"filters\": records}\n\n    @serialized_operation\n    def tool(self, args: dict) -> dict:\n        self.count(\"tool_attempts\")\n        if self.done():\n            raise AdapterError(\"budget_exhausted\", \"MADE attempted-query budget exhausted.\", self.status())\n        aliases = {\"generate\": \"generate_structures\", \"create\": \"create_structure\", \"score\": \"score_buffer\", \"query\": \"query_structures\", \"select\": \"select_for_evaluation\"}\n        name = args.get(\"name\", args.get(\"tool\"))\n        name = aliases.get(name, name)\n        params = args.get(\"arguments\", {})\n        if not isinstance(params, dict):\n            raise AdapterError(\"invalid_tool\", \"tool.arguments must be an object.\")\n        started = time.monotonic()\n        try:\n            result = self._tool(name, params)\n        except Exception as exc:\n            event = self.event(\"tool_exception\", tool=name, elapsed_seconds=time.monotonic()-started,\n                               error_type=type(exc).__name__, message=str(exc))\n            raise AdapterError(\"tool_exception\", str(exc), {\"event\": event, **self.status()}) from exc\n        event = self.event(\"tool_result\", tool=name, elapsed_seconds=time.monotonic()-started, result=result)\n        return {\"tool\": name, \"output\": result, \"event\": event, \"status\": self.status()}\n\n    def _tool(self, name: str, params: dict) -> Any:\n        from made.agents.base import Plan\n        from pymatgen.core import Composition, Lattice, Structure\n        if name == \"generate_structures\":\n            generator_name = params.get(\"generator_name\", \"chemeleon\")\n            if generator_name not in self.generators:\n                raise AdapterError(\"invalid_generator\", \"Allowed generators: chemeleon, random.\")\n            formulas = params.get(\"compositions\", [])\n            if isinstance(formulas, str):\n                formulas = [x.strip() for x in formulas.split(\",\") if x.strip()]\n            if not isinstance(formulas, list) or not formulas:\n                raise AdapterError(\"invalid_composition\", \"Explicit compositions are required; no fallback composition is generated.\")\n            compositions = [Composition(formula) for formula in formulas]\n            for comp in compositions:\n                if not {str(e) for e in comp.elements}.issubset(self.elements) or not 1 <= comp.num_atoms <= 20 or any(float(v) != int(v) for v in comp.values()):\n                    raise AdapterError(\"invalid_composition\", \"Compositions need integral allowed-element counts and 1\u201320 atoms.\")\n            count = positive_int(params.get(\"num_candidates\", 32), \"num_candidates\")\n            if count > 1024 or len(compositions) > 1024:\n                raise AdapterError(\"invalid_config\", \"At most 1024 requested candidates/compositions per tool call.\")\n            structures = self.generators[generator_name].generate(Plan(compositions=compositions, num_candidates=count,\n                constraints={\"elements\": self.elements, \"max_stoichiometry\": 20}), self.env.get_state())\n            records = [self._buffer_add(s, generator_name) for s in structures]\n            return {\"generated\": len(structures), \"accepted\": sum(r[\"accepted\"] for r in records), \"records\": records}\n        if name == \"create_structure\":\n            if \"structure\" in params:\n                structure = Structure.from_dict(params[\"structure\"])\n            else:\n                species = params.get(\"species\", [])\n                coords = params.get(\"frac_coords\", [])\n                if isinstance(species, str):\n                    species = [x.strip() for x in species.split(\",\") if x.strip()]\n                if isinstance(coords, str):\n                    coords = [[float(v) for v in row.split(\",\")] for row in coords.split(\";\") if row.strip()]\n                lattice = Lattice.from_parameters(**{k: params.get(k, 90.0 if k in {\"alpha\", \"beta\", \"gamma\"} else None) for k in (\"a\", \"b\", \"c\", \"alpha\", \"beta\", \"gamma\")})\n                structure = Structure(lattice, species, coords)\n            return self._buffer_add(structure, \"controller_created\")\n        if name == \"score_buffer\":\n            scorer_name = params.get(\"scorer_name\", \"oracle\")\n            if scorer_name == \"oracle\" and \"oracle\" not in self.scorers:\n                from made.agents.scorers.oracle import OracleScorer\n                self.scorers[\"oracle\"] = OracleScorer(self._make_oracle(\"mace\"), score_function=\"e_above_hull\", enable_cache=True, rerank_on_state_change=True)\n            if scorer_name not in self.scorers:\n                raise AdapterError(\"invalid_scorer\", \"Allowed scorers: oracle, random, diversity. No LLM scorer is called.\")\n            groups = [params[\"composition\"]] if params.get(\"composition\") else list(self.buffer)\n            result = []"
+        }
+      ]
+    },
+    "schema_repaired_controller/rollouts.py": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/schema_repaired_controller/src/matdiscovery/rollouts.py",
+      "sha256": "4c6436beb0c65a8a954f968ffcadbd7a2ede457843c6570f0b992dfa57a63867",
+      "excerpts": [
+        {
+          "first_line": 270,
+          "last_line": 465,
+          "text": "                except PolicyContextError:\n                    if memory_level == 2:\n                        raise\n            identifier = f\"d{sequence:07d}-c{attempt}\"\n            token_path = output / \"tokens\" / (identifier + \".pt\")\n            token_path.parent.mkdir(exist_ok=True)\n            torch.save({\"input_ids\": generated.input_ids_with_completion, \"policy_stamp\": asdict(generated.model_stamp)}, token_path)\n            prefix_hash = tensor_state_hash({\"input_ids\": generated.input_ids_with_completion, \"attention_mask\": torch.ones_like(generated.input_ids_with_completion)})\n            split = job.get(\"split\", \"test\" if job[\"stage\"] == \"final_eval\" else \"train\")\n            generation_record = generated.to_record()\n            generation_record[\"policy_runtime\"] = self.policy.runtime_precision_record()\n            row = {\"decision_id\": job[\"job_id\"] + \":\" + identifier, \"local_decision_id\": identifier,\n                   \"benchmark\": benchmark, \"model_key\": job[\"model_key\"], \"split\": split, \"task_id\": job[\"task_id\"],\n                   \"group_id\": job.get(\"group_id\", job[\"task_id\"]), \"episode_id\": job[\"job_id\"] + \":episode:\" + str(observation.get(\"episode_index\", 0)),\n                   \"episode_index\": int(observation.get(\"episode_index\", 0)),\n                   \"input_ids_file\": str(token_path), \"prefix_hash\": prefix_hash, \"policy_stamp\": asdict(generated.model_stamp),\n                   \"generation\": generation_record, \"label_immediate_error\": int(not generated.success), \"label_future_failure\": None,\n                   \"generation_seconds\": time.monotonic() - started, \"disposition\": \"candidate\", \"memory_summary_level\": memory_level}\n            if benchmark == \"made\":\n                row[\"observed_failure_types\"] = {head: None for head in HEADS}\n                row[\"observed_failure_types\"][\"generation_invalid\"] = int(not generated.success)\n                row[\"failure_type_horizons\"] = dict(HORIZONS)\n                row[\"failure_type_observation_rpc_ids\"] = {head: [] for head in HEADS}\n            # Separate durable pre-action evidence from labels that only exist later.\n            with (output / \"decision_events.jsonl\").open(\"a\") as f:\n                f.write(json.dumps({\"decision_id\": row[\"decision_id\"], \"event\": \"proposed\", \"policy_stamp\": row[\"policy_stamp\"], \"prefix_hash\": prefix_hash, \"input_ids_file\": str(token_path)}) + \"\\n\")\n            row[\"features\"] = self._features(generated, row, capture=collection or method in {\"hidden_risk\", \"graph_risk\", \"esopt_graph_risk\"}, collection=collection, output=output, method=method)\n            risk = 1.0 if not generated.success else None\n            if generated.success and method in {\"entropy_risk\", \"hidden_risk\", \"graph_risk\", \"esopt_graph_risk\"}:\n                if self.risk_model is None:\n                    raise RuntimeError(\"Risk method requires a fitted train/dev checkpoint\")\n                names = self.risk_model.features.names\n                x = np.array([[row[\"features\"].get(name, np.nan) for name in names]], dtype=float)\n                risk = float(self.risk_model.predict_proba(x, names)[0])\n            row[\"predicted_failure_probability\"] = risk\n            if generated.success and method in {\"baseline\", \"esopt\"} and self.risk_model is not None:\n                # Record calibrated entropy confidence for analysis without changing\n                # baseline decisions, resampling, or candidate selection.\n                names = self.risk_model.features.names\n                x = np.array([[row[\"features\"].get(name, np.nan) for name in names]], dtype=float)\n                row[\"predicted_failure_probability\"] = float(self.risk_model.predict_proba(x, names)[0])\n                row[\"confidence_used_for_control\"] = False\n            type_plan = None\n            if typed_enabled:\n                names = self.risk_model.features.names\n                x = np.array([[row[\"features\"].get(name, np.nan) for name in names]], dtype=float)\n                predictions = self.risk_model.predict_failure_types(x, names)\n                row[\"failure_type_probabilities\"] = {head: None if predictions[head] is None\n                    else float(predictions[head][0]) for head in HEADS}\n                row[\"failure_types_used_for_control\"] = typed_control\n                if typed_control:\n                    visible = json.loads(messages[-1][\"content\"])[\"observation\"]\n                    type_plan = plan_failure_response(benchmark, generated.parsed_action,\n                        row[\"failure_type_probabilities\"], row[\"predicted_failure_probability\"],\n                        visible, threshold=self.settings.risk_threshold)\n                    row[\"failure_controller\"] = type_plan\n                    row[\"feedback_received_for_this_candidate\"] = retry_feedback\n                    if type_plan[\"request_retry\"]:\n                        retry_feedback = {\"predicted_failure_type\": type_plan[\"trigger\"],\n                            \"instruction\": type_plan[\"feedback_for_retry\"],\n                            \"suggested_legal_tool\": type_plan[\"optional_tool_preference\"],\n                            \"source\": \"current_candidate_predictions_or_visible_schema_issue\",\n                            \"not_a_measured_scientific_result\": True}\n            rows.append(row)\n            candidates.append((generated, row, risk))\n            if generated.success and (risk is None or risk < self.settings.risk_threshold) and not (type_plan and type_plan[\"request_retry\"]):\n                break\n        valid = [candidate for candidate in candidates if candidate[0].success]\n        if not valid:\n            for _, row, _ in candidates:\n                row[\"disposition\"] = \"invalid_not_executed\"\n            return None, candidates[-1][1]\n        if typed_control:\n            selection = rank_failure_candidates(benchmark, [\n                {\"action\": candidate[0].parsed_action, \"valid\": candidate[0].success,\n                 \"risk_types\": candidate[1][\"failure_type_probabilities\"],\n                 \"overall_risk\": candidate[1][\"predicted_failure_probability\"]}\n                for candidate in candidates], visible, threshold=self.settings.risk_threshold)\n            for candidate in candidates:\n                candidate[1][\"failure_candidate_selection\"] = selection\n            if selection[\"selected_index\"] is None:\n                for candidate in candidates:\n                    candidate[1][\"disposition\"] = \"invalid_not_executed\"\n                return None, candidates[-1][1]\n            chosen = candidates[selection[\"selected_index\"]]\n        else:\n            chosen = min(valid, key=lambda x: x[2] if x[2] is not None else 0)\n        for candidate in candidates:\n            candidate[1][\"disposition\"] = \"executed\" if candidate is chosen else \"rejected_not_executed\"\n        return chosen[0].parsed_action, chosen[1]\n\n    @staticmethod\n    def _label_rows(output, rows, failure, scientific_response=None):\n        with (output / \"decisions.jsonl\").open(\"a\") as f:\n            for row in rows:\n                if row[\"disposition\"] == \"executed\":\n                    row[\"label_future_failure\"] = failure\n                    if scientific_response is not None and row.get(\"benchmark\") == \"made\":\n                        measured = scientific_failure_labels(scientific_response)\n                        row[\"observed_failure_types\"].update(measured)\n                        for head, value in measured.items():\n                            row[\"failure_type_observation_rpc_ids\"][head] = [scientific_response[\"id\"]]\n                # The risk target is a subsequent outcome, never proof of a causal step error.\n                row[\"label_kind\"] = \"next_scientific_evaluation_failure\"\n                f.write(json.dumps(row, allow_nan=False) + \"\\n\")\n        rows.clear()\n\n    def run(self, job, output: Path, *, collection=False):\n        output = Path(output).resolve()\n        output.mkdir(parents=True, exist_ok=False)\n        self._activation_buffer = {}\n        dump_json(output / \"job.json\", {**job, \"rollout_settings\": asdict(self.settings), \"policy_configuration_fingerprint\": self.policy.configuration_fingerprint})\n        arguments = make_environment_arguments(self.project, job, output, self.settings)\n        all_summaries, history, recent, rows = [], [], [], []\n        sequence, tools_since_query = 0, 0\n        random_recovery = random.Random(job.get(\"policy_sampling_seed\", job[\"seed\"]))\n        curve, last_metrics, last_observation = [(0, 0)], {}, None\n        started = time.monotonic()\n        with EnvironmentClient(self.project, job[\"benchmark\"], output / \"rpc\") as environment:\n            initialized = environment.request(\"init\", arguments)\n            observation = initialized[\"observation\"]\n            initialization_seconds = time.monotonic() - started\n            dump_json(output / \"environment_metadata.json\", initialized[\"metadata\"])\n            episode_start_counts = dict(observation.get(\"counts\", {}))\n            episode_start_time = time.monotonic()\n            while not observation.get(\"done\", False):\n                if job[\"benchmark\"] == \"made\" and tools_since_query >= self.settings.max_tools_per_query:\n                    # A fixed, shared, logged recovery completes the physical budget;\n                    # it is never represented as a successful LLM decision.\n                    buffer = observation.get(\"buffer\", {})\n                    nonempty = [(comp, entries) for comp, entries in buffer.items() if entries]\n                    if nonempty:\n                        comp, entries = sorted(nonempty)[0]\n                        action = {\"tool\": \"select_for_evaluation\", \"arguments\": {\"composition\": comp, \"structure_hash\": entries[0][\"hash\"]}}\n                    else:\n                        elements = arguments[\"elements\"]\n                        formula = \"\".join(elements) + str(1 + random_recovery.randrange(2))\n                        action = {\"tool\": \"generate_structures\", \"arguments\": {\"generator_name\": \"random\", \"compositions\": [formula], \"num_candidates\": 32}}\n                    decision = None\n                    with (output / \"decision_events.jsonl\").open(\"a\") as f:\n                        f.write(json.dumps({\"event\": \"fixed_failure_recovery\", \"sequence\": sequence, \"action\": action}) + \"\\n\")\n                    if tools_since_query > self.settings.max_tools_per_query + 10:\n                        raise RuntimeError(\"Recovery could not produce a legal crystal; the budget is incomplete\")\n                else:\n                    action, decision = self._generate(job, output, observation, recent, history, rows, sequence, collection=collection)\n                sequence += 1\n                if action is None:\n                    recent.append({\"error\": \"invalid_action_generation\"})\n                    tools_since_query += 1\n                    if job[\"benchmark\"] == \"crystalgym\":\n                        action = {\"action\": random_recovery.choice(observation[\"legal_actions\"])[\"element\"]}\n                        with (output / \"decision_events.jsonl\").open(\"a\") as f:\n                            f.write(json.dumps({\"event\": \"fixed_failure_recovery\", \"sequence\": sequence, \"action\": action}) + \"\\n\")\n                    else:\n                        continue\n                if job[\"benchmark\"] == \"made\":\n                    response = environment.request(\"tool\", {\"name\": action[\"tool\"], \"arguments\": action[\"arguments\"]}, check=False)\n                    if decision is not None:\n                        measured = tool_failure_labels(action, response)\n                        decision[\"observed_failure_types\"].update(measured)\n                        for head, value in measured.items():\n                            if value is not None or (head == \"candidate_generation_failure\"\n                                    and action[\"tool\"] in {\"generate_structures\", \"create_structure\"}):\n                                decision[\"failure_type_observation_rpc_ids\"][head] = [response[\"id\"]]\n                    tools_since_query += 1\n                    recent.append(_small(response))\n                    if not response[\"ok\"]:\n                        if decision:\n                            decision[\"label_immediate_error\"] = 1\n                            decision[\"tool_error\"] = response[\"error\"]\n                        observation = environment.request(\"observe\")\n                        continue\n                    if action[\"tool\"] != \"select_for_evaluation\":\n                        observation = environment.request(\"observe\")\n                        continue\n                    response = environment.request(\"step\", check=False)\n                    if response[\"ok\"]:\n                        result = response[\"result\"]\n                        last_metrics = result[\"official_metrics\"]\n                        last_observation = result[\"official_observation\"]\n                        failure = int(not (last_observation.get(\"is_stable\", False) and last_observation.get(\"is_newly_discovered\", False)))\n                        history.append(_small(last_observation))\n                        observation = result[\"observation\"]\n                        curve.append((int(observation[\"counts\"].get(\"candidate_oracle_attempts\", 0)), int(last_metrics.get(\"num_newly_discovered_stable\", 0))))\n                    else:\n                        failure = 1\n                        if decision:\n                            decision[\"label_immediate_error\"] = 1\n                        history.append({\"oracle_exception\": response[\"error\"]})\n                        observation = environment.request(\"observe\")\n                        curve.append((int(observation[\"counts\"].get(\"candidate_oracle_attempts\", 0)), curve[-1][1]))\n                    self._label_rows(output, rows, failure, scientific_response=response)\n                    tools_since_query = 0\n                else:\n                    response = environment.request(\"step\", {\"action\": action[\"action\"]}, check=False)\n                    if not response[\"ok\"]:"
+        }
+      ]
+    },
+    "schema_repaired_controller/failure_labels.py": {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_controller_repair_20260919/development_validation/schema_repaired_controller/src/matdiscovery/failure_labels.py",
+      "sha256": "acd7786273bb22bb2503d4d430fad3c59dfa0da456a4ec373d362e4a46dd6ba5",
+      "excerpts": [
+        {
+          "first_line": 120,
+          "last_line": 170,
+          "text": "    _require(accepted is None or (type(accepted) is int and accepted >= 0), \"Generated accepted count must be a nonnegative integer\")\n    records = output.get(\"records\")\n    if isinstance(records, list) and all(isinstance(r, Mapping) and type(r.get(\"accepted\")) is bool for r in records):\n        counted = sum(r[\"accepted\"] for r in records)\n        _require(accepted is None or accepted == counted, \"Generated accepted count contradicts candidate records\")\n        if \"generated\" in output:\n            _require(type(output[\"generated\"]) is int and output[\"generated\"] == len(records), \"Generated count contradicts candidate records\")\n        accepted = counted\n    return int(accepted == 0) if accepted is not None else None\n\n\ndef tool_failure_labels(action: Mapping, response: Mapping) -> dict:\n    \"\"\"Pure post-response labels for an actually executed MADE tool action.\"\"\"\n    _require(isinstance(action, Mapping) and action.get(\"tool\") in TOOLS, \"Unknown MADE action\")\n    success = _ok(response)\n    if success:\n        _require(isinstance(response.get(\"result\"), Mapping) and response[\"result\"].get(\"tool\") == action[\"tool\"],\n                 \"Tool response belongs to another action\")\n    screen = screening_evidence(action, response)\n    return {\"candidate_generation_failure\": _candidate_generation_label(action, response),\n            \"tool_execution_failure\": int(not success), \"screening_unavailable\": screen.get(\"label\")}\n\n\ndef scientific_failure_labels(response: Mapping) -> dict:\n    \"\"\"Pure MADE scientific-return labels; never labels an unexecuted candidate.\"\"\"\n    if not _ok(response):\n        return {\"scientific_evaluation_failure\": 1, \"unstable\": None, \"not_new\": None}\n    result = response.get(\"result\")\n    _require(isinstance(result, Mapping) and isinstance(result.get(\"official_observation\"), Mapping),\n             \"Successful MADE scientific response lacks official_observation\")\n    observation = result[\"official_observation\"]\n    labels = {\"scientific_evaluation_failure\": 0}\n    for name, field in ((\"unstable\", \"is_stable\"), (\"not_new\", \"is_newly_discovered\")):\n        value = observation.get(field)\n        _require(value is None or type(value) is bool, \"Scientific classification must be an observed boolean or unknown\")\n        labels[name] = None if value is None else int(not value)\n    return labels\n\n\ndef _json(data, context):\n    def pairs(items):\n        result = {}\n        for key, value in items:\n            _require(key not in result, f\"Duplicate JSON key in {context}: {key}\")\n            result[key] = value\n        return result\n    def invalid(value):\n        raise FailureLabelError(f\"Bare nonfinite JSON in {context}: {value}\")\n    try:\n        return json.loads(data, object_pairs_hook=pairs, parse_constant=invalid)\n    except (ValueError, UnicodeError) as exc:"
+        }
+      ]
+    }
+  }
+}
