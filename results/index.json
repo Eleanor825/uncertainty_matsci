@@ -2058,5 +2058,21 @@
       "new_scientific_calls_for_planning": 0,
       "excluded_from_result_means": true
     }
+  ],
+  "additional_scope_exports": [
+    {
+      "snapshot_id": "qwen35_9b_stage1_20260920T014640_CST",
+      "scope": "qwen35_9b_stage1",
+      "observed_CST": "2026-09-20T01:46:40.697369+08:00",
+      "accepted_test_trajectories": 1,
+      "planned_test_trajectories": 15,
+      "report": "results/qwen35_9b_core/stage1/20260920T014640_CST/report.md",
+      "snapshot": "results/qwen35_9b_core/stage1/20260920T014640_CST/snapshot.json",
+      "summary": "results/qwen35_9b_core/stage1/20260920T014640_CST/summary.json",
+      "recompute": "results/qwen35_9b_core/stage1/20260920T014640_CST/recompute.py",
+      "terminal_signature": "2f6b8cd83a7479679bae247aa4b9c7e08a8820646e65324320aeb78bad870299",
+      "snapshots_overlap_not_additive": true,
+      "new_scientific_calls": 0
+    }
   ]
 }

@@ -1,0 +1,12 @@
+job_id,quantity,value
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,candidate_oracle_attempts,10
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,completion_tokens,6786
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,graph_seconds,0
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,initialization_oracle_attempts,16
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,initialization_wall_seconds,51.897051718086004
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,llm_calls,35
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,prompt_tokens,66661
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,rpc_attempts,68
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,step_attempts,10
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,tool_attempts,34
+qwen35-9b-core-baseline-v1-457357831752a303f15a4950,wall_seconds,1164.2094949670136
