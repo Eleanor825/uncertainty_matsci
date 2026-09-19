@@ -1,0 +1,13 @@
+arm,job_id,queries,seed,status,final_hv,final_hv_gain,mean_querywise_hv,mean_querywise_hv_gain,brier,receipt_sha256,failure_sha256
+uq_esopt,additional_v1_test_uq_esopt_5201,50,5201,accepted,0.8810117795428745,0.0,0.8810117795428739,0.0,0.731628809501768,44670da6aba59d9e2e026ced5f2c4753ea2dcd4aeac7fb29887e24d72d44493e,
+uq_only,additional_v1_test_uq_only_5201,50,5201,accepted,0.8810117795428745,0.0,0.8810117795428739,0.0,0.731628809501768,8d6e431e5ceed1360b7539c9071cf8239d9e2dc2da620e84b295f72c2ae32a4c,
+qwen_base,additional_v1_test_qwen_base_5201,50,5201,accepted,0.8810196594581099,7.879915235431412e-06,0.881016822688626,5.043145750676104e-06,,4139c69274624f2a96d13bf7d5ea373545dc039d05c3a8b9df889741061ebe57,
+es_only,additional_v1_test_es_only_5201,50,5201,original_result_present_CPU_audit_pending,,,,,,9f805139f40069b8de2e2200a4a94959d45a4a0c43283330645edaaaed960d9d,
+uq_esopt,additional_v1_test_uq_esopt_5202,50,5202,claimed_pending,,,,,,,
+uq_only,additional_v1_test_uq_only_5202,50,5202,unclaimed,,,,,,,
+qwen_base,additional_v1_test_qwen_base_5202,50,5202,unclaimed,,,,,,,
+es_only,additional_v1_test_es_only_5202,50,5202,unclaimed,,,,,,,
+uq_esopt,additional_v1_test_uq_esopt_5203,50,5203,unclaimed,,,,,,,
+uq_only,additional_v1_test_uq_only_5203,50,5203,unclaimed,,,,,,,
+qwen_base,additional_v1_test_qwen_base_5203,50,5203,unclaimed,,,,,,,
+es_only,additional_v1_test_es_only_5203,50,5203,unclaimed,,,,,,,
