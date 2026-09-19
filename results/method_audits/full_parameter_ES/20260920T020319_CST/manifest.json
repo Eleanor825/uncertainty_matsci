@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "bytes": 888,
+      "path": "README.md",
+      "sha256": "0f0aad3685986d047770c52990b5c4f18ac12a9bfa16bde29a2955ada01e397f"
+    },
+    {
+      "bytes": 2649,
+      "path": "REPORT.md",
+      "sha256": "0411882e72a88b8cbe2b6e347f13adf6f7d8f891dd2ccc19cc1e75c5505db93d"
+    },
+    {
+      "bytes": 1909,
+      "path": "actual_updates.csv",
+      "sha256": "778f689a8a5bdc7770e8f4719214c8a7ca5beb97de735c3d8dcc18c799a1d6be"
+    },
+    {
+      "bytes": 25560,
+      "path": "snapshot.json",
+      "sha256": "6650f1c66626a28a7944f7e13e3361fb96a13b8087dc2605a3069c5dd5e6bc63"
+    },
+    {
+      "bytes": 1116,
+      "path": "source_provenance.json",
+      "sha256": "7538df0b64c2bf8904ee7f8a8d29f36f49793205b5443cb0deb7daa5938d9515"
+    },
+    {
+      "bytes": 2137,
+      "path": "verify.py",
+      "sha256": "3b9ca2fa85ce78cdb6bcec3c04a7840ce3d23e33c6d98f3c0ecb4d8d9c965d1b"
+    }
+  ],
+  "new_scientific_calls": 0,
+  "schema": "portable_scientific_evidence_v1"
+}

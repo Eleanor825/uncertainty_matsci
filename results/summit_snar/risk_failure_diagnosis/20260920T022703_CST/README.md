@@ -1,0 +1,9 @@
+# SnAr risk diagnosis and archive-dependent labels
+
+Read `REPORT.md` together with `ARCHIVE_ACTUAL_ADDENDUM.md`. The addendum records the actual zero-call archive-label rescoring and supersedes the earlier90-row-prior proposal with the later planned550-prior collection; neither proposal is reported as completed science here. No original test data were used for a new fit or threshold choice in this analysis.
+
+The package retains the full scientific input arrays as gzip files. Machine-bound paths were changed to logical project references and host identity removed; all features, labels, predictions, histories, metrics and ES arrays are unchanged. `source_provenance.json` distinguishes the original input hashes from exported hashes. `analyze.py` is the original deterministic calculation with input/output paths and reference serialization changed only; its five numerical CSVs match the original outputs exactly. It uses only the standard library.
+
+Run `python3 -B analyze.py` then `python3 -B verify.py`. The first recomputes feature-support, calibration and ES-scale statistics without fitting. The second checks stored archive-delta/label consistency, original train-prior constant controls and bundle hashes. The portable archive projection contains the already-audited delta/label events, not all original150 physical geometries; it does not independently replay their oracle or recompute HV from unpublished raw objects.
+
+Archive dependence and feature-support differences are observed conditions and mechanism hypotheses. They do not isolate a causal OOD explanation or establish an effective repaired controller. The extra seed5201 observation is descriptive and is not added to the original224-action training/diagnostic cohort. The original35 results, including negative outcomes and bothG0 selections, remain unchanged.

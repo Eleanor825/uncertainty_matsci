@@ -1,0 +1,27 @@
+{
+  "machine_paths_projected_to_logical_paths": true,
+  "new_model_graph_fit_or_oracle_calls": 0,
+  "original_and_export_SHA_are_distinct": true,
+  "source_files": [
+    {
+      "logical_path": "technical_not_main/made_missing_asset_preexecution_audit_20260920_v1/results/audit.json",
+      "original_bytes": 107517,
+      "original_sha256": "78009d308cb8ccf05f60d3d94fb0b587ae1e2f6f203c734368efef62a68488e5"
+    },
+    {
+      "logical_path": "technical_not_main/made_missing_asset_preexecution_audit_20260920_v1/REPORT.md",
+      "original_bytes": 6490,
+      "original_sha256": "8396d34f7c7e21e0d238dccfa61fb5c349522f3cf9a1aab761a4e3321ff2fc61"
+    },
+    {
+      "logical_path": "technical_not_main/made_missing_asset_preexecution_audit_20260920_v1/receipt_SHA_correction.json",
+      "original_bytes": 531,
+      "original_sha256": "fe4242475b465dfdea99f0a971887b48b14f0d41d92616a9585d1c21e8f30489"
+    },
+    {
+      "logical_path": "technical_not_main/registered_subset_actor_deploy_20260920_v1/snapshot.json",
+      "original_bytes": 2645,
+      "original_sha256": "60f4e9480c559f1edf8f95e7d41550c333dc556250cf62c87da67807f326b82b"
+    }
+  ]
+}

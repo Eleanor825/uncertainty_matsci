@@ -1,0 +1,23 @@
+{
+  "train": {
+    "n": 75,
+    "observed_no_hvi_fraction": 0.9333333333333333,
+    "constant_train_prior": 0.9333333333333333,
+    "brier": 0.06222222222222221,
+    "nll": 0.24493002679463532
+  },
+  "dev": {
+    "n": 50,
+    "observed_no_hvi_fraction": 0.9,
+    "constant_train_prior": 0.9333333333333333,
+    "brier": 0.0911111111111111,
+    "nll": 0.3328986044484773
+  },
+  "selected_old_test": {
+    "n": 224,
+    "observed_no_hvi_fraction": 0.9732142857142857,
+    "constant_train_prior": 0.9333333333333333,
+    "brier": 0.02765873015873017,
+    "nll": 0.1396819071016459
+  }
+}

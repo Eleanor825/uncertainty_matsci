@@ -1,0 +1,27 @@
+{
+  "machine_paths_projected_to_logical_paths": true,
+  "new_model_graph_fit_or_oracle_calls": 0,
+  "original_and_export_SHA_are_distinct": true,
+  "source_files": [
+    {
+      "logical_path": "technical_not_main/ES_parameter_update_audit_20260920_v1/snapshot.json",
+      "original_bytes": 28387,
+      "original_sha256": "114357c0259d4743b46e83e892e61f82867ce2be1e1d58bd6c1baef48415f57c"
+    },
+    {
+      "logical_path": "technical_not_main/ES_parameter_update_audit_20260920_v1/actual_updates.csv",
+      "original_bytes": 1909,
+      "original_sha256": "778f689a8a5bdc7770e8f4719214c8a7ca5beb97de735c3d8dcc18c799a1d6be"
+    },
+    {
+      "logical_path": "technical_not_main/ES_parameter_update_audit_20260920_v1/REPORT_actual_v2.md",
+      "original_bytes": 2649,
+      "original_sha256": "0411882e72a88b8cbe2b6e347f13adf6f7d8f891dd2ccc19cc1e75c5505db93d"
+    },
+    {
+      "logical_path": "technical_not_main/ES_parameter_update_audit_20260920_v1/manifest_actual_v2.json",
+      "original_bytes": 688,
+      "original_sha256": "13713a43daca9cccf45f76b72c5236dcc04394b8d12fc6dc72c7fbfda609fc50"
+    }
+  ]
+}

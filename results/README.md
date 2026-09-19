@@ -80,3 +80,10 @@ A [source-bound support-method mechanism audit](development/support_mechanism_au
 The snapshots overlap. Original trajectories are reused read-only; **do not add trajectory or cost totals across snapshots**. The15:32 curve snapshot contains105 distinct completed test trajectories (60 B10 +45 B30), accounting for1950 candidate evaluations in completed trajectories. The18:44 statistical export covers120 distinct completed trajectories (60 B10 +60 B30), accounting for2400 candidate evaluations in completed trajectories. This excludes unfinished trajectories and all training/development/diagnostic costs; it is not the end-to-end research cost.
 
 Detailed interpretation, method/source identities and limitations: [docs/results.md](../docs/results.md).
+
+## Evidence recheck and recovery provenance — 2026-09-20
+
+- [Actual full-parameter ES metadata audit:723 tensors/4,539,265,536 parameters; SnAr selectedG0 despite recorded training updates.](method_audits/full_parameter_ES/20260920T020319_CST/REPORT.md)
+- [MADE baseline/full B10:24 systems with all three paired seeds; SUN6 positive/9 tied/9 negative, AUDC8/7/9. The old seed1 B50 result is kept separate.](made_components/full_baseline_recheck/20260920T024720_CST/REPORT.md)
+- [The exact23 missing-asset initialization failures had zero physical calls. Archived recovery provenance does not declare the430 pending candidate calls completed.](provenance/zero_physics_initialization_recovery/20260920T021929_CST/REPORT.md)
+- [SnAr probability failure and archive-label diagnosis: descriptive evidence, no isolated causal OOD claim and no test-based recalibration.](summit_snar/risk_failure_diagnosis/20260920T022703_CST/REPORT.md)

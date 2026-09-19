@@ -1,0 +1,22 @@
+{
+  "machine_paths_projected_to_logical_paths": true,
+  "new_model_graph_fit_or_oracle_calls": 0,
+  "original_and_export_SHA_are_distinct": true,
+  "source_files": [
+    {
+      "logical_path": "results/made_components/incremental/20260920T024720_CST/snapshot.json",
+      "original_bytes": 1137087,
+      "original_sha256": "e62df9f2fa58b49cf39b3d18316050a92f8d9f24c484bb97956a0de0d02fc30e"
+    },
+    {
+      "logical_path": "results/budget_sweep/20260919T052138_CST/trajectories.csv",
+      "original_bytes": 220850,
+      "original_sha256": "4e589f9e2ccea48177c80343a817c621349fe60081bcc4b327c041e866a1c4bd"
+    },
+    {
+      "logical_path": "results/budget_sweep/20260919T052138_CST/curves.csv",
+      "original_bytes": 436571,
+      "original_sha256": "ab72280981b04ff3ebf8dacc9de4fe845245645d44ef4e31bba9dd748a6ba490"
+    }
+  ]
+}

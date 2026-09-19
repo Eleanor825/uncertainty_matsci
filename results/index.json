@@ -1987,6 +1987,93 @@
       "test_tuning": false,
       "additional_independent_experiments": false,
       "NN_contribution_causally_isolated": false
+    },
+    {
+      "export_id": "paper_evidence_ES_20260920T020319_CST",
+      "report": "results/method_audits/full_parameter_ES/20260920T020319_CST/REPORT.md",
+      "manifest": "results/method_audits/full_parameter_ES/20260920T020319_CST/manifest.json",
+      "new_scientific_calls": 0,
+      "additional_independent_experiment": false,
+      "verification_scripts": [
+        "results/method_audits/full_parameter_ES/20260920T020319_CST/verify.py"
+      ],
+      "benchmarks": [
+        "MADE",
+        "Summit SnAr"
+      ],
+      "parameter_tensors": 723,
+      "parameter_numel": 4539265536,
+      "metadata_audit": true,
+      "selected_generations": {
+        "MADE_full": 2,
+        "MADE_ES_only": 1,
+        "SnAr_full": 0,
+        "SnAr_ES_only": 0
+      }
+    },
+    {
+      "export_id": "paper_evidence_framing_20260920T024720_CST",
+      "report": "results/made_components/full_baseline_recheck/20260920T024720_CST/REPORT.md",
+      "manifest": "results/made_components/full_baseline_recheck/20260920T024720_CST/manifest.json",
+      "new_scientific_calls": 0,
+      "additional_independent_experiment": false,
+      "verification_scripts": [
+        "results/made_components/full_baseline_recheck/20260920T024720_CST/recompute.py"
+      ],
+      "benchmark": "MADE",
+      "snapshot_accepted": 395,
+      "planned": 1080,
+      "complete_three_seed_B10_baseline_full_systems": 24,
+      "positive_tie_negative_systems": {
+        "SUN": [
+          6,
+          9,
+          9
+        ],
+        "AUDC": [
+          8,
+          7,
+          9
+        ]
+      },
+      "old_seed1_B50_scope_separate": true,
+      "current_B50_matched_pairs": 0
+    },
+    {
+      "export_id": "paper_evidence_recovery_20260920T021929_CST",
+      "report": "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/REPORT.md",
+      "manifest": "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/manifest.json",
+      "new_scientific_calls": 0,
+      "additional_independent_experiment": false,
+      "verification_scripts": [
+        "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/verify.py"
+      ],
+      "benchmark": "MADE",
+      "provenance_only": true,
+      "original_preexecution_failures": 23,
+      "original_candidate_budget": 430,
+      "physical_calls_before_recovery": 0,
+      "original_failed_attempts_preserved": true,
+      "recovery_not_scientific_completion": true
+    },
+    {
+      "export_id": "paper_evidence_snar_20260920T022703_CST",
+      "report": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/REPORT.md",
+      "manifest": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/manifest.json",
+      "new_scientific_calls": 0,
+      "additional_independent_experiment": false,
+      "verification_scripts": [
+        "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/analyze.py",
+        "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/verify.py"
+      ],
+      "benchmark": "Summit SnAr",
+      "descriptive_failure_diagnosis": true,
+      "archive_rescored_rows": 125,
+      "train_label_flips": 3,
+      "dev_label_flips": 3,
+      "archive_addendum": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/ARCHIVE_ACTUAL_ADDENDUM.md",
+      "no_test_based_fitting": true,
+      "causal_mechanism_isolated": false
     }
   ],
   "incremental_component_exports": [

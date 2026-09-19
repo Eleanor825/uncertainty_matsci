@@ -1,0 +1,67 @@
+{
+  "machine_paths_projected_to_logical_paths": true,
+  "new_model_graph_fit_or_oracle_calls": 0,
+  "original_and_export_SHA_are_distinct": true,
+  "source_files": [
+    {
+      "logical_path": "technical_not_main/ES_parameter_update_audit_20260920_v1/snapshot.json",
+      "original_bytes": 28387,
+      "original_sha256": "114357c0259d4743b46e83e892e61f82867ce2be1e1d58bd6c1baef48415f57c"
+    },
+    {
+      "logical_path": "technical_not_main/snar_feature_family_artifacts_readback_20260919_v1/original_files/report.json",
+      "original_bytes": 962112,
+      "original_sha256": "b358c7dfb107884f5c471bff327d8043747e74a9ddc345308c4609a08609ac5c"
+    },
+    {
+      "logical_path": "technical_not_main/snar_case_mechanisms_20260919_v1/inputs/full_development_episodes.json",
+      "original_bytes": 13522,
+      "original_sha256": "7e746abf9b615097351775e20516077952e645031df7e75ef69c2683721b81a1"
+    },
+    {
+      "logical_path": "technical_not_main/snar_feature_family_scientific_bundle_20260919_v2/sources/input_projection.json.gz",
+      "original_bytes": 868578,
+      "original_sha256": "ddff0650b9b1373925d19c0212dbc23c73b6f4d6f9a90af1bb4d00d58af0894a"
+    },
+    {
+      "logical_path": "technical_not_main/snar_feature_family_artifacts_readback_20260919_v1/original_files/original_reproduction_gate.json",
+      "original_bytes": 648,
+      "original_sha256": "5a221193c4c398855e7f7868019c0f44e443bbea3bef1f7ba2a0cc13a3b5123f"
+    },
+    {
+      "logical_path": "technical_not_main/snar_sampling_hidden_CPU_execution_20260919_v1/original_files/report.json",
+      "original_bytes": 194138,
+      "original_sha256": "9838d2addb473446acc7a76dacf4cb9d1585915ba4e8fd54ea0629dac52eb61e"
+    },
+    {
+      "logical_path": "technical_not_main/snar_risk_failure_diagnosis_20260920_v1/analysis.json",
+      "original_bytes": 12850,
+      "original_sha256": "6bec5e7d966ed9a3343f43b77e5cd2fbef7888cdda339e1ccef8fd1b88d8729b"
+    },
+    {
+      "logical_path": "technical_not_main/snar_risk_failure_diagnosis_20260920_v1/analyze.py",
+      "original_bytes": 8996,
+      "original_sha256": "efb59e83a44f96d8cd1eeb2e1254fcf51ab93aa2e5763749797b4dd2395cb494"
+    },
+    {
+      "logical_path": "technical_not_main/snar_risk_failure_diagnosis_20260920_v1/REPORT.md",
+      "original_bytes": 9871,
+      "original_sha256": "6c75c42a7e05d285410dea587a087d3e194137d2e5ea02db94a2813002d19133"
+    },
+    {
+      "logical_path": "technical_not_main/snar_risk_failure_diagnosis_20260920_v1/ARCHIVE_ACTUAL_ADDENDUM.md",
+      "original_bytes": 2406,
+      "original_sha256": "a55b39f3cd3c85a755533fbe70061efd302ce000d2531c9988886a3333e85c90"
+    },
+    {
+      "logical_path": "technical_not_main/snar_risk_failure_diagnosis_20260920_v1/constant_train_prior_controls.json",
+      "original_bytes": 584,
+      "original_sha256": "c37f5dbb1a6992ad51409986a26ddd9913dd26a0405d1995b8814635bb006497"
+    },
+    {
+      "logical_path": "technical_not_main/snar_risk_failure_diagnosis_20260920_v1/archive_label_actual/snapshot.json",
+      "original_bytes": 138524,
+      "original_sha256": "1f1a67d21a7b45d981c6f0ea75b3ea2208495aab3a207320eceebcda202c7526"
+    }
+  ]
+}

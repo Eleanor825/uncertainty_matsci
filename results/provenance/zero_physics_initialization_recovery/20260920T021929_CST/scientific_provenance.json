@@ -1,0 +1,2020 @@
+{
+  "audit": {
+    "actual_runtime_project": "core_workspaces/made_fast_subset_causal_v5",
+    "eligible_by_arm": {
+      "baseline_reference": 4,
+      "es_only_independent": 5,
+      "full_support_aware": 6,
+      "uq_only_support_aware": 8
+    },
+    "eligible_by_budget": {
+      "10": 13,
+      "30": 10
+    },
+    "eligible_count": 23,
+    "excluded_count": 0,
+    "new_scientific_calls_for_this_audit": 0,
+    "observed_failure_count": 23,
+    "remaining_original_candidate_budget_for_eligible": 430,
+    "rows": [
+      {
+        "arm": "baseline_reference",
+        "attempt_id": "39ef3e24c15d4ff8b9ab3d08963d8b6c",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "24927f086d2cd6e3b3a0eb380d4c418822c0f1302dccb6f8e8b4d5a985378c91",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1581,
+            "exists": true,
+            "mtime_ns": 1789834209000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c016f48b9e3c30f735dfc9c/claim.json",
+            "sha256": "75612cc521c1999356c4fc263a3e0a61ef932fe449d254be51a1562e8f8e70c0",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c016f48b9e3c30f735dfc9c/39ef3e24c15d4ff8b9ab3d08963d8b6c/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1803,
+            "exists": true,
+            "mtime_ns": 1789834372000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c016f48b9e3c30f735dfc9c/39ef3e24c15d4ff8b9ab3d08963d8b6c/job.json",
+            "sha256": "a8d0fc61f3c5cd4972a91a2bfb1eee16b1576d081174e2be7847cb0d1926fc2d",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 271,
+            "exists": true,
+            "mtime_ns": 1789834373000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c016f48b9e3c30f735dfc9c/failure.json",
+            "sha256": "a71ad4249ceab62320e51f817b504509fe5fd8c501deeca792647fc3c9e4b3eb",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c016f48b9e3c30f735dfc9c/39ef3e24c15d4ff8b9ab3d08963d8b6c/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2324,
+            "exists": true,
+            "mtime_ns": 1789834374000000003,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c016f48b9e3c30f735dfc9c/39ef3e24c15d4ff8b9ab3d08963d8b6c/rpc/rpc.jsonl",
+            "sha256": "2de5d880caaaeff36f81764a1c1e4ee4ac119a804ebb4018013033f4023fec1c",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "component-final-3c016f48b9e3c30f735dfc9c",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Co-Pd-Tl",
+        "tool_requests": 0
+      },
+      {
+        "arm": "baseline_reference",
+        "attempt_id": "359c39b24adf4910a0ebdd57751f416b",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "b9fd1fb053e7deb2ca847390fe3dc1496980c36245df46f7795b700abdbaad1b",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1581,
+            "exists": true,
+            "mtime_ns": 1789834573000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-0cbb5ebed238f72ad5c62449/claim.json",
+            "sha256": "a3c46e4fa4834dba604a6779b1662420f3b2d3504149a418d05a904e7ffc6598",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-0cbb5ebed238f72ad5c62449/359c39b24adf4910a0ebdd57751f416b/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1803,
+            "exists": true,
+            "mtime_ns": 1789834745000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-0cbb5ebed238f72ad5c62449/359c39b24adf4910a0ebdd57751f416b/job.json",
+            "sha256": "f3a81e4b1d645c6065a177e735b4b3bc3433a5f7f946077f94fd4b408ebdca72",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 271,
+            "exists": true,
+            "mtime_ns": 1789834746000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-0cbb5ebed238f72ad5c62449/failure.json",
+            "sha256": "d94d642ee6ca0ca8bef8f443cb2eea1179d8842f81e0ccb0884b0b2e0ce8bd53",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-0cbb5ebed238f72ad5c62449/359c39b24adf4910a0ebdd57751f416b/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2325,
+            "exists": true,
+            "mtime_ns": 1789834746000000003,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-0cbb5ebed238f72ad5c62449/359c39b24adf4910a0ebdd57751f416b/rpc/rpc.jsonl",
+            "sha256": "c7829ba6c922a636a09db40edc2f1c3b26a67300f008c5e215c322afdb485913",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "component-final-0cbb5ebed238f72ad5c62449",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Ga-Ho-Lu",
+        "tool_requests": 0
+      },
+      {
+        "arm": "baseline_reference",
+        "attempt_id": "1a2a2c4691eb46b380130bc0d0a7430d",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "b36deb86a08d60a56c8823d9e0448939059aaae9d294437cba42eea748f655c5",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1581,
+            "exists": true,
+            "mtime_ns": 1789834573000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c6948445e21517eab423ae6/claim.json",
+            "sha256": "1418ce0891d72f55fd8542a28ab3f1554989d4c39005f936abca68b5c8b07dfd",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c6948445e21517eab423ae6/1a2a2c4691eb46b380130bc0d0a7430d/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1803,
+            "exists": true,
+            "mtime_ns": 1789834745000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c6948445e21517eab423ae6/1a2a2c4691eb46b380130bc0d0a7430d/job.json",
+            "sha256": "8fb4d408f4d064f5d3b93e0cac1cdc6eda7605c977b5be68bf5bdd7a22a2fd30",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 272,
+            "exists": true,
+            "mtime_ns": 1789834746000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c6948445e21517eab423ae6/failure.json",
+            "sha256": "374abed226ce6a19977163ead73ffa52e80ff4af49a7592ba86f5e7c970e1622",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c6948445e21517eab423ae6/1a2a2c4691eb46b380130bc0d0a7430d/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2323,
+            "exists": true,
+            "mtime_ns": 1789834747000000003,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3c6948445e21517eab423ae6/1a2a2c4691eb46b380130bc0d0a7430d/rpc/rpc.jsonl",
+            "sha256": "36e7e2109117858331e1548fd2e898b00a905fcafb798eeff21e69d30f3538be",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "component-final-3c6948445e21517eab423ae6",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Ga-Pt-Tm",
+        "tool_requests": 0
+      },
+      {
+        "arm": "baseline_reference",
+        "attempt_id": "d821410f99d64e2fa2d38ffae09703bc",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "0740d69d34b458ac01f6ada7d4d592217a8ec678dc0cc600b8fac8356e1498d7",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1581,
+            "exists": true,
+            "mtime_ns": 1789834574000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fd8319dc586213dd6bc760e8/claim.json",
+            "sha256": "2157ec9c90784f579d805a241bf9fc3860eb3030a9008a39c5d109f43b87dd9d",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fd8319dc586213dd6bc760e8/d821410f99d64e2fa2d38ffae09703bc/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1803,
+            "exists": true,
+            "mtime_ns": 1789834745000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fd8319dc586213dd6bc760e8/d821410f99d64e2fa2d38ffae09703bc/job.json",
+            "sha256": "09f263601e62284cc3cce9e04376617b1e16766d9c449dbdc5d17c59339dea9a",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 272,
+            "exists": true,
+            "mtime_ns": 1789834746000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fd8319dc586213dd6bc760e8/failure.json",
+            "sha256": "ce6f835928fbe0333e81b05ca60c8dc2e190e4fbc98e462ac9bdac259fe26fd7",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fd8319dc586213dd6bc760e8/d821410f99d64e2fa2d38ffae09703bc/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2323,
+            "exists": true,
+            "mtime_ns": 1789834747000000003,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fd8319dc586213dd6bc760e8/d821410f99d64e2fa2d38ffae09703bc/rpc/rpc.jsonl",
+            "sha256": "9248be7f25ac810d029420b51f4b8121aaa4df1267394ff4a741b89dd1caa66e",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "component-final-fd8319dc586213dd6bc760e8",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Hf-Ni-Zr",
+        "tool_requests": 0
+      },
+      {
+        "arm": "es_only_independent",
+        "attempt_id": "eaef869e041649aa8c968efca053b857",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "1b62185fc126b17e351238eb72ad7a833fed42212102a1257854f71d8eb3fa3b",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1579,
+            "exists": true,
+            "mtime_ns": 1789832139000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-8e961625e5f8d2262b53b613/claim.json",
+            "sha256": "0e3bc09332612727f4dc07a586d581ea1e2658b7ea418f563f6c2723bed00af8",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-8e961625e5f8d2262b53b613/eaef869e041649aa8c968efca053b857/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1803,
+            "exists": true,
+            "mtime_ns": 1789832514000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-8e961625e5f8d2262b53b613/eaef869e041649aa8c968efca053b857/job.json",
+            "sha256": "4d3a09ee2b45a156b4baa6961669b330af16bdb62773791aca8555e83d69fa2c",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 272,
+            "exists": true,
+            "mtime_ns": 1789832515000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-8e961625e5f8d2262b53b613/failure.json",
+            "sha256": "4a08bcb31cdb6f9ca0da63936c2937fd6402872c952faa7704fc5c29708b82a1",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-8e961625e5f8d2262b53b613/eaef869e041649aa8c968efca053b857/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2325,
+            "exists": true,
+            "mtime_ns": 1789832515000000003,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-8e961625e5f8d2262b53b613/eaef869e041649aa8c968efca053b857/rpc/rpc.jsonl",
+            "sha256": "563e2c04d1890002e8f989f1c93c9df5c0aa41c026af665a973d13b841fa0d16",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "component-final-8e961625e5f8d2262b53b613",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Ga-Ho-Lu",
+        "tool_requests": 0
+      },
+      {
+        "arm": "es_only_independent",
+        "attempt_id": "15894aa50b64496ab78adc56b1bc4885",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "d6ebdebfdb2ecce9f57a882b9781bee515fb398f7b2f674061a1088071680bf6",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1580,
+            "exists": true,
+            "mtime_ns": 1789834820000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-9dee8e34bf5bc70d4bac4cd3/claim.json",
+            "sha256": "5febb6491b10a86f7f522f291ca24c1133b2f3cad05f988f28e0aba8361e04d4",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-9dee8e34bf5bc70d4bac4cd3/15894aa50b64496ab78adc56b1bc4885/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1803,
+            "exists": true,
+            "mtime_ns": 1789835117000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-9dee8e34bf5bc70d4bac4cd3/15894aa50b64496ab78adc56b1bc4885/job.json",
+            "sha256": "3485baae786a244d16ecaefbdbe703181e293ee2f0a6fa64e616844b2a8491ec",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 271,
+            "exists": true,
+            "mtime_ns": 1789835117000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-9dee8e34bf5bc70d4bac4cd3/failure.json",
+            "sha256": "00e71765fd8b01de0ee3cc775bd78a039f85512328949213b4a228d52393e108",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-9dee8e34bf5bc70d4bac4cd3/15894aa50b64496ab78adc56b1bc4885/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2326,
+            "exists": true,
+            "mtime_ns": 1789835117000000003,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-9dee8e34bf5bc70d4bac4cd3/15894aa50b64496ab78adc56b1bc4885/rpc/rpc.jsonl",
+            "sha256": "e414e4fb4397b30fb194da1a1735d27911dde53f5ae7d67391ab92885d86b6e3",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "component-final-9dee8e34bf5bc70d4bac4cd3",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Mg-Sn-Sr",
+        "tool_requests": 0
+      },
+      {
+        "arm": "es_only_independent",
+        "attempt_id": "3b349d8f0b8d452c8a60180c23831df7",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "7fdfc72775047bef2bed3c16bf2e061f7fe7fe57bb93034a3d05b0f0ff50d4c0",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1603,
+            "exists": true,
+            "mtime_ns": 1789835186000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f4a3709e5664ecb9c4b2b3ce/claim.json",
+            "sha256": "8ce5b6dfc8f92b54dab108eaff65cff6903a04447233622eb689b88b24768b23",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f4a3709e5664ecb9c4b2b3ce/3b349d8f0b8d452c8a60180c23831df7/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1818,
+            "exists": true,
+            "mtime_ns": 1789835493000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f4a3709e5664ecb9c4b2b3ce/3b349d8f0b8d452c8a60180c23831df7/job.json",
+            "sha256": "fc68c2af34250f0d7320190daf2d94a3da77b24b8fb4a128ce71d369a89972ce",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 271,
+            "exists": true,
+            "mtime_ns": 1789835494000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f4a3709e5664ecb9c4b2b3ce/failure.json",
+            "sha256": "3c36a31de82474e24c69c489cd38fbb550b722d29bf59d4f1428764e5b04ddf4",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f4a3709e5664ecb9c4b2b3ce/3b349d8f0b8d452c8a60180c23831df7/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2333,
+            "exists": true,
+            "mtime_ns": 1789835494000000003,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f4a3709e5664ecb9c4b2b3ce/3b349d8f0b8d452c8a60180c23831df7/rpc/rpc.jsonl",
+            "sha256": "d078f34e31b5f4b1dd4c72b1d57adafea9f9c19e13dc7554e997776d290b6a7d",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "component-final-f4a3709e5664ecb9c4b2b3ce",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Au-Cr-Cs-Dy",
+        "tool_requests": 0
+      },
+      {
+        "arm": "es_only_independent",
+        "attempt_id": "3e578a29b8ab4d92b01c08122c26b2d7",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "b933d04cf21ec087865c1829d5ec2562ed66aa4b1e8c34919216bdbbd2f6ffc8",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1595,
+            "exists": true,
+            "mtime_ns": 1789835187000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3f8fc5afd0b271bd7b06a4e9/claim.json",
+            "sha256": "7391637f2b776cf264e9e7ff7bbd7c505e803d7261be8d1bcc6a1a616d43c447",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3f8fc5afd0b271bd7b06a4e9/3e578a29b8ab4d92b01c08122c26b2d7/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1810,
+            "exists": true,
+            "mtime_ns": 1789835493000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3f8fc5afd0b271bd7b06a4e9/3e578a29b8ab4d92b01c08122c26b2d7/job.json",
+            "sha256": "6c8456d9f29e1a24510fc77242b48f59f66f7d1af7438d3f1876fe0dd47a08d9",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 272,
+            "exists": true,
+            "mtime_ns": 1789835493000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3f8fc5afd0b271bd7b06a4e9/failure.json",
+            "sha256": "a17c2cede0a21c38e48a375b4da63fade28e539cb7f8aa0b610e7ecdcdddc199",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3f8fc5afd0b271bd7b06a4e9/3e578a29b8ab4d92b01c08122c26b2d7/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2328,
+            "exists": true,
+            "mtime_ns": 1789835494000000003,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3f8fc5afd0b271bd7b06a4e9/3e578a29b8ab4d92b01c08122c26b2d7/rpc/rpc.jsonl",
+            "sha256": "e4dc4e8673d58f330338ba79d511c2b5dbcbe7402d72645b5b8fc4724367cf23",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "component-final-3f8fc5afd0b271bd7b06a4e9",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Au-Tb-V-Y",
+        "tool_requests": 0
+      },
+      {
+        "arm": "es_only_independent",
+        "attempt_id": "e2e72a37c2e64a1cace61578ce2039e2",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "85cb6448670601acec679720035e895536246391ebaef56243fc4b849c1bdc5f",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1603,
+            "exists": true,
+            "mtime_ns": 1789835187000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dd13c6c7073de0c9cf3f0c0c/claim.json",
+            "sha256": "db9c395769c7612293a82ff05f6bf04d1f042aba93794f2dfbbf745e2f0908f1",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dd13c6c7073de0c9cf3f0c0c/e2e72a37c2e64a1cace61578ce2039e2/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1818,
+            "exists": true,
+            "mtime_ns": 1789835493000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dd13c6c7073de0c9cf3f0c0c/e2e72a37c2e64a1cace61578ce2039e2/job.json",
+            "sha256": "e9da95b44ac8ac01d7cb3bf9a254523a7c448afe7f3c61c759b8152779c42963",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 272,
+            "exists": true,
+            "mtime_ns": 1789835494000000002,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dd13c6c7073de0c9cf3f0c0c/failure.json",
+            "sha256": "ae14a22fa93d9926877723f2030d3df5af1d476b16842f2fbc17647c4ca37d0c",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dd13c6c7073de0c9cf3f0c0c/e2e72a37c2e64a1cace61578ce2039e2/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2335,
+            "exists": true,
+            "mtime_ns": 1789835494000000003,
+            "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dd13c6c7073de0c9cf3f0c0c/e2e72a37c2e64a1cace61578ce2039e2/rpc/rpc.jsonl",
+            "sha256": "80116fdce227fd651588880a5180d654b1af5f388a3c1e902d2d2385295270e0",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "component-final-dd13c6c7073de0c9cf3f0c0c",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Ba-Be-Hf-Li",
+        "tool_requests": 0
+      },
+      {
+        "arm": "uq_only_support_aware",
+        "attempt_id": "19edd71d4e7444758baab2f1b4adefe9",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "4d650c41fb2e5f9263ac24f5d52982a8a865c52d44d3d05eb78b2ff776fea939",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1594,
+            "exists": true,
+            "mtime_ns": 1789831726000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-01d87f9e1ee522f77481f276/claim.json",
+            "sha256": "7b4655b5e7633861fd81851554b4dd7c203c5940cbb5efac2b1a1e4168928f24",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-01d87f9e1ee522f77481f276/19edd71d4e7444758baab2f1b4adefe9/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1816,
+            "exists": true,
+            "mtime_ns": 1789832208000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-01d87f9e1ee522f77481f276/19edd71d4e7444758baab2f1b4adefe9/job.json",
+            "sha256": "0ebe781005f7b3929e03f1e01f10694c56c96080c42570f1a8390f35b87cf8b4",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789832209000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-01d87f9e1ee522f77481f276/failure.json",
+            "sha256": "0a19b3542b02326c29903fec9679a5f7e38cd6f529c6dbd93aaacf1e2a993085",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-01d87f9e1ee522f77481f276/19edd71d4e7444758baab2f1b4adefe9/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2330,
+            "exists": true,
+            "mtime_ns": 1789832210000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-01d87f9e1ee522f77481f276/19edd71d4e7444758baab2f1b4adefe9/rpc/rpc.jsonl",
+            "sha256": "2e4b467fd37edb1ff8cc792efb8d999de716a93993c8f8ef2f0b788b5db0bdd8",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-01d87f9e1ee522f77481f276",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Co-Dy-Ta-Y",
+        "tool_requests": 0
+      },
+      {
+        "arm": "uq_only_support_aware",
+        "attempt_id": "e1e3c1f310fb4f138898629bf2872c71",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "42f1042eb962ff7953b55d8684094644a2a3cbe18332e7778f8385125a48d766",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1598,
+            "exists": true,
+            "mtime_ns": 1789831833000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3ebbaea5d932913d8d34e83c/claim.json",
+            "sha256": "d26520aff97170ebbc69af977656fbf3a40cb9bc5c824c6977ea8b15533d188e",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3ebbaea5d932913d8d34e83c/e1e3c1f310fb4f138898629bf2872c71/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1820,
+            "exists": true,
+            "mtime_ns": 1789832290000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3ebbaea5d932913d8d34e83c/e1e3c1f310fb4f138898629bf2872c71/job.json",
+            "sha256": "acff0cdb24651e681b25c8bb0674b44399c91a0c12ee810663a3288df210f8dd",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789832290000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3ebbaea5d932913d8d34e83c/failure.json",
+            "sha256": "7e884bda47f546ed9f62ec99d38503923391246cc6be8f255e46be0adc702153",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3ebbaea5d932913d8d34e83c/e1e3c1f310fb4f138898629bf2872c71/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2330,
+            "exists": true,
+            "mtime_ns": 1789832291000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3ebbaea5d932913d8d34e83c/e1e3c1f310fb4f138898629bf2872c71/rpc/rpc.jsonl",
+            "sha256": "d286b17c7674925627b44265f56440dff7606e97c6658fd5927045a1b2626fd7",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-3ebbaea5d932913d8d34e83c",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Eu-Nb-Sn-Tl",
+        "tool_requests": 0
+      },
+      {
+        "arm": "uq_only_support_aware",
+        "attempt_id": "f77fde03eb7d4d638334b8d187b56dad",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "630016a78e4fbc364fd33b68547ca464a01bb5e77494124efae6718c7e54cbd5",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1621,
+            "exists": true,
+            "mtime_ns": 1789832138000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1b062e6f8b3ad484ad7351e0/claim.json",
+            "sha256": "74925c25dee995b91bd3dbea67e36a29d415745149dfca5ceeb6f5032f219bde",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1b062e6f8b3ad484ad7351e0/f77fde03eb7d4d638334b8d187b56dad/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1835,
+            "exists": true,
+            "mtime_ns": 1789832636000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1b062e6f8b3ad484ad7351e0/f77fde03eb7d4d638334b8d187b56dad/job.json",
+            "sha256": "295069bc2e34d592232faec0ba902d9ae9ccbace90db32eab8b0ae1bc3223203",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 264,
+            "exists": true,
+            "mtime_ns": 1789832637000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1b062e6f8b3ad484ad7351e0/failure.json",
+            "sha256": "2f562c10ac308bcb03d4bc478b3d7b43ab2653a9eeba60f412107be077a7273b",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1b062e6f8b3ad484ad7351e0/f77fde03eb7d4d638334b8d187b56dad/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2339,
+            "exists": true,
+            "mtime_ns": 1789832638000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1b062e6f8b3ad484ad7351e0/f77fde03eb7d4d638334b8d187b56dad/rpc/rpc.jsonl",
+            "sha256": "d4c1ec10c86f163161cd009ad44257a3ce04a99c48ccdca1c5ec9c2f982b4031",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-1b062e6f8b3ad484ad7351e0",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Ag-Nd-Pd-Pt-Tb",
+        "tool_requests": 0
+      },
+      {
+        "arm": "uq_only_support_aware",
+        "attempt_id": "0cecffd06c174fbd9c04f2bd2a739c31",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "494cea303b76dd67953583e47bf1239984f7dc31c4b4d9309b5619b84344ab1d",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1613,
+            "exists": true,
+            "mtime_ns": 1789832139000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-4ce63d4707774df5cb861a26/claim.json",
+            "sha256": "ca3e29de3f078f80bdc78b900df8987fe25720c997d7fca721b39857381858d7",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-4ce63d4707774df5cb861a26/0cecffd06c174fbd9c04f2bd2a739c31/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1827,
+            "exists": true,
+            "mtime_ns": 1789832636000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-4ce63d4707774df5cb861a26/0cecffd06c174fbd9c04f2bd2a739c31/job.json",
+            "sha256": "bd182d3986a6b1796bfbf190a17998dc9d8e632588a31aca89cfb8ec04c66383",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789832637000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-4ce63d4707774df5cb861a26/failure.json",
+            "sha256": "69860635d86366397928039f457b38cf274cb612ce18da440b5afb67498421f6",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-4ce63d4707774df5cb861a26/0cecffd06c174fbd9c04f2bd2a739c31/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2336,
+            "exists": true,
+            "mtime_ns": 1789832638000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-4ce63d4707774df5cb861a26/0cecffd06c174fbd9c04f2bd2a739c31/rpc/rpc.jsonl",
+            "sha256": "128cebf1cb6f780537aa3b9e2ee8a8c93baf29963ba3bb5c68190b894d488dbe",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-4ce63d4707774df5cb861a26",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Al-Hg-K-Mg-W",
+        "tool_requests": 0
+      },
+      {
+        "arm": "uq_only_support_aware",
+        "attempt_id": "c54848fa6ea64f409167322e08537c40",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "62cda1e686a31e8eb10faa20b26a064326394042608045cc6978f62bd7bb632d",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1619,
+            "exists": true,
+            "mtime_ns": 1789832652000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-024bd41fbe36d1b920436aed/claim.json",
+            "sha256": "c63c3ddae60b1b6ede0bdd5d29899eccc2a555923dd531f5920e9eee455e6dda",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-024bd41fbe36d1b920436aed/c54848fa6ea64f409167322e08537c40/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1835,
+            "exists": true,
+            "mtime_ns": 1789833104000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-024bd41fbe36d1b920436aed/c54848fa6ea64f409167322e08537c40/job.json",
+            "sha256": "fc5224c412bbf2700b78db5df8ebc6366d5194cc9df085e1ed0f55ec9b663303",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 264,
+            "exists": true,
+            "mtime_ns": 1789833105000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-024bd41fbe36d1b920436aed/failure.json",
+            "sha256": "1e0697ef9e027c390bb43f6c3209df2fba62f6640fb8ed578a6dc79e681f864c",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-024bd41fbe36d1b920436aed/c54848fa6ea64f409167322e08537c40/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2339,
+            "exists": true,
+            "mtime_ns": 1789833106000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-024bd41fbe36d1b920436aed/c54848fa6ea64f409167322e08537c40/rpc/rpc.jsonl",
+            "sha256": "a8d2ae156ad601ae7baadbdc014e794c15140556313205534061f641695c4d4c",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-024bd41fbe36d1b920436aed",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Cd-Gd-Mn-Na-Ta",
+        "tool_requests": 0
+      },
+      {
+        "arm": "uq_only_support_aware",
+        "attempt_id": "d40e118b5bbe48ef94393f12abc517f3",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "977f33c9f139816434a2c1936a0df77a9e1f2f9ec93f25c21567fffdfef3ab13",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1617,
+            "exists": true,
+            "mtime_ns": 1789832653000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-75d178e34f1cc2be571810d0/claim.json",
+            "sha256": "34481aaf3417a4fac259e540f14c3f12e636e67bbe775320e4e0ef8937cf7a55",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-75d178e34f1cc2be571810d0/d40e118b5bbe48ef94393f12abc517f3/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1831,
+            "exists": true,
+            "mtime_ns": 1789833104000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-75d178e34f1cc2be571810d0/d40e118b5bbe48ef94393f12abc517f3/job.json",
+            "sha256": "7762a1fdb216f87bd0024db822f0660d5e06aadfe06652d82aab21a5788e05e8",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789833105000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-75d178e34f1cc2be571810d0/failure.json",
+            "sha256": "4049538ff98ddc42c3a03c8a51c3fbab18f2462e98633d4aaa138c8b40c10d6b",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-75d178e34f1cc2be571810d0/d40e118b5bbe48ef94393f12abc517f3/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2337,
+            "exists": true,
+            "mtime_ns": 1789833105000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-75d178e34f1cc2be571810d0/d40e118b5bbe48ef94393f12abc517f3/rpc/rpc.jsonl",
+            "sha256": "2508225c4d45fd7a1f0c7ebc28ff521182178e4fea8c4fc7ba7f9de7de9512ce",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-75d178e34f1cc2be571810d0",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Cd-Li-Nd-Ti-W",
+        "tool_requests": 0
+      },
+      {
+        "arm": "uq_only_support_aware",
+        "attempt_id": "4fd4ffd856c74bec82d5ebfc45f87d47",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "aa68aede14e4b6d4a0c9c0abd427766651a593e3d6a80cbcaa4c73741343bc10",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1621,
+            "exists": true,
+            "mtime_ns": 1789832653000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3f8684689a9babe5b4a4b638/claim.json",
+            "sha256": "826169ab7f3b6d3e810a86affec10a5762d0747080d7ce58f3ef966755903ae8",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3f8684689a9babe5b4a4b638/4fd4ffd856c74bec82d5ebfc45f87d47/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1835,
+            "exists": true,
+            "mtime_ns": 1789833105000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3f8684689a9babe5b4a4b638/4fd4ffd856c74bec82d5ebfc45f87d47/job.json",
+            "sha256": "f187698b820dc83c9627dc99b73f6d108293c83a8e6f5f5c0c7ad71e594aa571",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 264,
+            "exists": true,
+            "mtime_ns": 1789833105000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3f8684689a9babe5b4a4b638/failure.json",
+            "sha256": "a3d30ebe50376bde55c8b4a8b29aa7525d5f512478f1d87b1c3af3923040704d",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3f8684689a9babe5b4a4b638/4fd4ffd856c74bec82d5ebfc45f87d47/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2339,
+            "exists": true,
+            "mtime_ns": 1789833106000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3f8684689a9babe5b4a4b638/4fd4ffd856c74bec82d5ebfc45f87d47/rpc/rpc.jsonl",
+            "sha256": "a059321c55a2668f7d3975dcb12cd27707f2e38a100cbdaecb8defc0583f8679",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-3f8684689a9babe5b4a4b638",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Co-Hf-In-Ru-Tm",
+        "tool_requests": 0
+      },
+      {
+        "arm": "full_support_aware",
+        "attempt_id": "51ac86f1fb3c4cac8618fd8f37d7e7f4",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "61011fd6bd2ac294a86faaf6b7103e0793102bc97a159dd1070f85bea26b8095",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1599,
+            "exists": true,
+            "mtime_ns": 1789831727000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-66144b0f1b865f7ebac06010/claim.json",
+            "sha256": "de31165b4b1080dee08ae4204920d5dd2485eb986179b9d2adb0c1175fefd092",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-66144b0f1b865f7ebac06010/51ac86f1fb3c4cac8618fd8f37d7e7f4/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1820,
+            "exists": true,
+            "mtime_ns": 1789832466000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-66144b0f1b865f7ebac06010/51ac86f1fb3c4cac8618fd8f37d7e7f4/job.json",
+            "sha256": "6818802f1edc31a815b1b491c9e16dac224d022da8b8daf68031834592d6dbff",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789832467000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-66144b0f1b865f7ebac06010/failure.json",
+            "sha256": "eb2fcb0038c65934a7f6bed3cabcdaeac09308d61316bca607e3210d32a8cafd",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-66144b0f1b865f7ebac06010/51ac86f1fb3c4cac8618fd8f37d7e7f4/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2332,
+            "exists": true,
+            "mtime_ns": 1789832467000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-66144b0f1b865f7ebac06010/51ac86f1fb3c4cac8618fd8f37d7e7f4/rpc/rpc.jsonl",
+            "sha256": "b6eb82d60edb6a6b735268f88f4ffd64b2cf7f3c4b6bd828fd9995e9731ddae3",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-66144b0f1b865f7ebac06010",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Ba-Be-Hf-Li",
+        "tool_requests": 0
+      },
+      {
+        "arm": "full_support_aware",
+        "attempt_id": "f6066670f3ce4cb79d3b38f82eed5d61",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "9076848bc6c347d30c3a99f10f7eb9d3107f1191ada034b963ab98d6e80ec91c",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1594,
+            "exists": true,
+            "mtime_ns": 1789832018000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-9e13512e7e0fb227805b08f2/claim.json",
+            "sha256": "d535a068ad671326c24cfe752fd3e7303b8cb5c0b4d0af9008f7eb9f45dd1afc",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-9e13512e7e0fb227805b08f2/f6066670f3ce4cb79d3b38f82eed5d61/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1816,
+            "exists": true,
+            "mtime_ns": 1789832678000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-9e13512e7e0fb227805b08f2/f6066670f3ce4cb79d3b38f82eed5d61/job.json",
+            "sha256": "c3ad0dd20f24c98ef52ef881bd35e62f6070f2d0acb869445430eacccc5a5852",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789832678000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-9e13512e7e0fb227805b08f2/failure.json",
+            "sha256": "97d7233ec4f695f9f844b91fc0db1692a2af85757da2602faf74f492ddf9f11e",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-9e13512e7e0fb227805b08f2/f6066670f3ce4cb79d3b38f82eed5d61/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2329,
+            "exists": true,
+            "mtime_ns": 1789832679000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-9e13512e7e0fb227805b08f2/f6066670f3ce4cb79d3b38f82eed5d61/rpc/rpc.jsonl",
+            "sha256": "6ee3720ba4f43c65427ee0506ef77b01ca81ec4ad30b35a5694d30608a45ec69",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-9e13512e7e0fb227805b08f2",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Ca-Pd-Sn-W",
+        "tool_requests": 0
+      },
+      {
+        "arm": "full_support_aware",
+        "attempt_id": "795f8a516c3d42f39e312803b8475e3c",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "2286da147af9fd6dd4abaa87ae83e368f19f249bfc45331e27865c24cf8b537f",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1597,
+            "exists": true,
+            "mtime_ns": 1789832138000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1ec8edc38809b3db9d12c910/claim.json",
+            "sha256": "529276bd62832c51233060898d7cf76c910202e57fdf03c7a881c1b065788d2a",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1ec8edc38809b3db9d12c910/795f8a516c3d42f39e312803b8475e3c/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1820,
+            "exists": true,
+            "mtime_ns": 1789832883000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1ec8edc38809b3db9d12c910/795f8a516c3d42f39e312803b8475e3c/job.json",
+            "sha256": "c1bf59dbd79611992e1d0b6549f47b102df7776c277daf76323725dbf0a2a0ee",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789832883000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1ec8edc38809b3db9d12c910/failure.json",
+            "sha256": "21526f377d4ff12d717dee27ea2c2f4f778e5d75e87a0636fa19de45f75c5385",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1ec8edc38809b3db9d12c910/795f8a516c3d42f39e312803b8475e3c/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2332,
+            "exists": true,
+            "mtime_ns": 1789832884000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1ec8edc38809b3db9d12c910/795f8a516c3d42f39e312803b8475e3c/rpc/rpc.jsonl",
+            "sha256": "a2d4bf6a14cbbfa04509bdce0b8bebb084579ec26cd7ca6c662fae380fc0b1f8",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-1ec8edc38809b3db9d12c910",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Ce-Er-Pb-Rh",
+        "tool_requests": 0
+      },
+      {
+        "arm": "full_support_aware",
+        "attempt_id": "e48b22f6ae094b04b2079e1bd5493f85",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "e98719fad3eceef5e909b64eec73006297ff8ed368a8e8a427a44c2b7e6ce368",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1622,
+            "exists": true,
+            "mtime_ns": 1789833487000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b1bff435eeb0ba90d08b0d5/claim.json",
+            "sha256": "d87e922cf5b841f3211f37a062c075eb62d94eab4e3f48ed2b1d6183b459e395",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b1bff435eeb0ba90d08b0d5/e48b22f6ae094b04b2079e1bd5493f85/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1835,
+            "exists": true,
+            "mtime_ns": 1789834163000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b1bff435eeb0ba90d08b0d5/e48b22f6ae094b04b2079e1bd5493f85/job.json",
+            "sha256": "d7a25e951339882f9e7eb3e1cb7a919393516a61428b34ff141b9ceeb7008366",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789834163000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b1bff435eeb0ba90d08b0d5/failure.json",
+            "sha256": "49d2ebb7e19182bbc279f6586bc86bb7b74c4622953532a56c9e9d56a4a11cbd",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b1bff435eeb0ba90d08b0d5/e48b22f6ae094b04b2079e1bd5493f85/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2340,
+            "exists": true,
+            "mtime_ns": 1789834164000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b1bff435eeb0ba90d08b0d5/e48b22f6ae094b04b2079e1bd5493f85/rpc/rpc.jsonl",
+            "sha256": "3d919427d937bf6e10515df7428c925edfbfa93f587a5bf0bb12f4946320bc6f",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-5b1bff435eeb0ba90d08b0d5",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Cd-Gd-Mn-Na-Ta",
+        "tool_requests": 0
+      },
+      {
+        "arm": "full_support_aware",
+        "attempt_id": "6c6644d362c9456e8927b3a39242df20",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "0803b239dd18bdad1e9fa7cee3de31d6605277eff3a9a9c164ea4f443a46887d",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1618,
+            "exists": true,
+            "mtime_ns": 1789833487000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2288eea097bb18ef7df5cfeb/claim.json",
+            "sha256": "fb9487490bac488c199701138ac0a0a8ee6ffcc51ae05f1fad51adace69b1a83",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2288eea097bb18ef7df5cfeb/6c6644d362c9456e8927b3a39242df20/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1831,
+            "exists": true,
+            "mtime_ns": 1789834163000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2288eea097bb18ef7df5cfeb/6c6644d362c9456e8927b3a39242df20/job.json",
+            "sha256": "473c07e2780fada02d064f3a8e4f2b3bdf15ea2772fc821e75d6bdb124a5e84a",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 264,
+            "exists": true,
+            "mtime_ns": 1789834164000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2288eea097bb18ef7df5cfeb/failure.json",
+            "sha256": "b4c7d9e7f3d6dd253461db994b2d581c7fe5d33a55e3721bd79c9e4c15056481",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2288eea097bb18ef7df5cfeb/6c6644d362c9456e8927b3a39242df20/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2338,
+            "exists": true,
+            "mtime_ns": 1789834164000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2288eea097bb18ef7df5cfeb/6c6644d362c9456e8927b3a39242df20/rpc/rpc.jsonl",
+            "sha256": "5f2c902cc1adfab726add32fa346522acfb02664f5a94b4ac4697e37177ecfc0",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-2288eea097bb18ef7df5cfeb",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Cd-Li-Nd-Ti-W",
+        "tool_requests": 0
+      },
+      {
+        "arm": "full_support_aware",
+        "attempt_id": "074a64f59ab64d27b75f98ca989e6d61",
+        "budget": 10,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "b97727027d86d4fc751c46b647f4f26355c80292f3a6dcd431bdaab52d238403",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1622,
+            "exists": true,
+            "mtime_ns": 1789833488000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bef411f22c209c41f37d8c75/claim.json",
+            "sha256": "363979751e132d9491cf2d109fe497aa12c89fac62b17e1254cb30b50d069209",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bef411f22c209c41f37d8c75/074a64f59ab64d27b75f98ca989e6d61/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1835,
+            "exists": true,
+            "mtime_ns": 1789834164000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bef411f22c209c41f37d8c75/074a64f59ab64d27b75f98ca989e6d61/job.json",
+            "sha256": "c18352e025677d9fc9adb8b672ccf0f6bf8e6de44f7b86ae2a65b910a1cf256f",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789834164000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bef411f22c209c41f37d8c75/failure.json",
+            "sha256": "695cb3e9db4d7e0bd446db325a86b109744b351c86c6def46ba023b95c5dba31",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bef411f22c209c41f37d8c75/074a64f59ab64d27b75f98ca989e6d61/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2338,
+            "exists": true,
+            "mtime_ns": 1789834164000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bef411f22c209c41f37d8c75/074a64f59ab64d27b75f98ca989e6d61/rpc/rpc.jsonl",
+            "sha256": "12a806b7247e2be92a98adfe0bf70b9ebcd666128a747dcc2b123c440e1335bb",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-bef411f22c209c41f37d8c75",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 4,
+        "step_requests": 0,
+        "system": "Co-Hf-In-Ru-Tm",
+        "tool_requests": 0
+      },
+      {
+        "arm": "uq_only_support_aware",
+        "attempt_id": "08827b1b56794745a3671be0e198bac5",
+        "budget": 30,
+        "checks": {
+          "actor_matches_failed_claim": true,
+          "actual_009a_closure": true,
+          "claim_failure_bytes_stable": true,
+          "complete_rpc_matches_projection": true,
+          "environment_empty_or_absent": true,
+          "exact_missing_cache_asset_error": true,
+          "extraction_complete": true,
+          "lifecycle_times_ordered": true,
+          "no_accepted_or_result_file": true,
+          "no_post_init_or_decision_outputs": true,
+          "no_unknown_rpc_event": true,
+          "one_source_bound_original_phase": true,
+          "only_one_init_request_response": true,
+          "only_pre_init_files": true,
+          "original_registered_job_claim": true,
+          "reviewed_sources_match": true,
+          "zero_environment_event_content": true,
+          "zero_oracle_journal_content": true
+        },
+        "classification": "confirmed_pre_execution_missing_asset",
+        "closed_phase_exit_sha256": "e9c4b27caa2d129471aba93ffa0b39389a2d56df9877bd27586331e5b1a15d4c",
+        "eligible": true,
+        "error": {
+          "code": "missing_asset",
+          "details": {},
+          "message": "orb_checkpoint does not exist: node-private-cache/orb-v3-conservative-inf-omat-20250404.ckpt",
+          "type": "AdapterError"
+        },
+        "evidence": {
+          "claim": {
+            "bytes": 1572,
+            "exists": true,
+            "mtime_ns": 1789833306000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68828fe321b15bfa6a93f335/claim.json",
+            "sha256": "ffcfc3968ff155ae43a452666bb76a649a6f4deeb2a07fa857173f0ccadc0cb9",
+            "stable_during_read": true
+          },
+          "environment_events": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68828fe321b15bfa6a93f335/08827b1b56794745a3671be0e198bac5/environment/env_events.jsonl"
+          },
+          "execution_job": {
+            "bytes": 1801,
+            "exists": true,
+            "mtime_ns": 1789833772000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68828fe321b15bfa6a93f335/08827b1b56794745a3671be0e198bac5/job.json",
+            "sha256": "dbcc4031f28aeffa535f121dea9fd9d3a8fa9d75cc7a614c817099d51bbd00a5",
+            "stable_during_read": true
+          },
+          "failure": {
+            "bytes": 265,
+            "exists": true,
+            "mtime_ns": 1789833773000000002,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68828fe321b15bfa6a93f335/failure.json",
+            "sha256": "2ed3b69a1acea08a374d01aef5e3409d08f9962e49015a41659b488b3d7f0382",
+            "stable_during_read": true
+          },
+          "oracle_journal": {
+            "exists": false,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68828fe321b15bfa6a93f335/08827b1b56794745a3671be0e198bac5/environment/oracle_attempts.jsonl"
+          },
+          "rpc": {
+            "bytes": 2318,
+            "exists": true,
+            "mtime_ns": 1789833773000000003,
+            "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68828fe321b15bfa6a93f335/08827b1b56794745a3671be0e198bac5/rpc/rpc.jsonl",
+            "sha256": "16db6835ff9b47bb578984b34dc9b8ef8e9e3acda0c3093d9ca946f3f6e97dfe",
+            "stable_during_read": true
+          }
+        },
+        "failed_checks": [],
+        "initialization_requests": 1,
+        "job_id": "support-final-68828fe321b15bfa6a93f335",
+        "physical_oracle_attempts_proved": 0,
+        "seed": 2,
+        "step_requests": 0,
+        "system": "Al-Li-V",
+        "tool_requests": 0
+      }
+    ],
+    "runtime_source_snapshot_sha256": "f522652a58ebd99b58ddb792485e4f6e164859a731b19ceaf6fac03970ea40f1",
+    "sampled_CST": "2026-09-20T01:29:41.956592+08:00",
+    "snapshot_sha256": "8c2ae82504059bcc0939a52cf16b20b3a1bb4daebe6c4a787225ff2b076f77fa",
+    "source_checks": {
+      "all_jobs_bind_original_core_fingerprint": true,
+      "all_rpc_vendor_roots_match_actual_core": true,
+      "benchmark_extensions/made_component_ablations_20260919/frozen_src/matdiscovery/rpc.py": true,
+      "benchmark_extensions/made_fresh_task_dispatch_20260919_v1/common.py": true,
+      "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/rpc.py": true,
+      "benchmark_extensions/snar_gpu_queue_worker_20260919_v1/worker.py": true,
+      "core_workspaces/made_fast_subset_causal_v5/src/matdiscovery/benchmark_adapters.py": true,
+      "core_workspaces/made_fast_subset_causal_v5/src/matdiscovery/env_server.py": true
+    },
+    "source_selection_correction": "CoreFinalRunner.project is core.workspace; EnvironmentClient imports core/src. Unused R/src is not the execution source. Initial wrong-project gate retained separately."
+  },
+  "recovery": {
+    "batch_requeued.json": {
+      "sha256": "0878ce48531ff9b482e5c45e2e24e28f0c63efab344459f57e7309d96b3c5dfa",
+      "value": {
+        "all_archived": true,
+        "rows": 23
+      }
+    },
+    "driver_apply_receipt.json": {
+      "sha256": "0eef42e24affe2768ad923c33c4f936384cc27bfaa4623e98039cca4f1b853bf",
+      "value": {
+        "archived_jobs": 23,
+        "batch_receipt": "technical_not_main/made_missing_asset_preexecution_audit_20260920_v1/batch_requeued.json",
+        "batch_receipt_sha256": "0878ce48531ff9b482e5c45e2e24e28f0c63efab344459f57e7309d96b3c5dfa",
+        "complete": true,
+        "direct_scientific_calls": 0,
+        "new_claims_observed": 0,
+        "new_receipts_observed": 0,
+        "original_candidate_budget": 430,
+        "original_jobs_not_declared_scientifically_complete": true,
+        "pins": {
+          "requeue.py": "786e9c07f377c364d521ac18ea8c28325db59efbf1ca349f1871b74bcfb7072a",
+          "requeue_plan.json": "b996bdb2a64a2867d7dc822dc9fddd036fbc5cbcf27cd52e27028849b666766f"
+        },
+        "time": 1789840621.358822
+      }
+    },
+    "driver_check.json": {
+      "sha256": "b5d2b90731440375cce2ff465e70d6f264790d3b3a748e1ed0d504af28ceb813",
+      "value": {
+        "checked_jobs": 23,
+        "complete": true,
+        "old_physical_calls": 0,
+        "original_candidate_budget": 430,
+        "pins": {
+          "requeue.py": "786e9c07f377c364d521ac18ea8c28325db59efbf1ca349f1871b74bcfb7072a",
+          "requeue_plan.json": "b996bdb2a64a2867d7dc822dc9fddd036fbc5cbcf27cd52e27028849b666766f"
+        },
+        "time": 1789840607.21269
+      }
+    }
+  },
+  "recovery_observed_CST": "2026-09-20T02:19:29.531083+08:00",
+  "source_selection_correction": {
+    "actual_original_file_sha256": "0878ce48531ff9b482e5c45e2e24e28f0c63efab344459f57e7309d96b3c5dfa",
+    "authoritative_readback": {
+      "path": "technical_not_main/registered_subset_actor_deploy_20260920_v1/snapshot.json",
+      "sha256": "60f4e9480c559f1edf8f95e7d41550c333dc556250cf62c87da67807f326b82b"
+    },
+    "old_screenshot_transcription": "0878ce48531ff9b482e5c45e2e24e28f0c63efab344459f57e7309d9b6c35dfa",
+    "recovery_source_and_plan_unchanged": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "name": "analysis.json",
+      "sha256": "fe84b3a74a9dce35ace5c6717ce7130778dcc10a3c504dc6b93a4fd072bddc2b"
+    },
+    {
+      "name": "feature_support.csv",
+      "sha256": "d4c7cc076fae774285915a011efed18ca0a8b3821bad793b165a62923f861ffc"
+    },
+    {
+      "name": "normalization_support.csv",
+      "sha256": "6826f71f7cb6773b32f746a58b0d025217b41efeee0850b8f56132506aa40792"
+    },
+    {
+      "name": "full_development_reward.csv",
+      "sha256": "7fecf323d54ddb4418b2f5e09d76c519ba94b4ee5d94987a4c701c30696721c1"
+    },
+    {
+      "name": "ES_update_scale.csv",
+      "sha256": "77b7631ca0ce230fa83012943b0d4e7ff1fc6d1e36684f539fc8f27260ea2ec2"
+    },
+    {
+      "name": "model_calibration.csv",
+      "sha256": "52705e8f5254c7f74474db15d6a39d45f48933f894ec9e9989188da99e4ce2aa"
+    }
+  ],
+  "inputs": {
+    "es": {
+      "path": "inputs/es.json.gz",
+      "sha256": "81d28248d914b13971741e716c9bd58e48a19934a3b2059ece0cd5f8c1903fed"
+    },
+    "families": {
+      "path": "inputs/families.json.gz",
+      "sha256": "91430cab2ffd90947c3bad4823056078c18165dc633ea0b3c06340155c154e12"
+    },
+    "full_dev": {
+      "path": "inputs/full_dev.json.gz",
+      "sha256": "83787c12e99ac6f7b7122c97db600856f26b97d4d82034cb6ea4e18b6d253ff7"
+    },
+    "projection": {
+      "path": "inputs/projection.json.gz",
+      "sha256": "bae768c706e57e2c7fb08a0f142f9531ca4aaa0a180591dc544405b7bd95223d"
+    },
+    "reproduction": {
+      "path": "inputs/reproduction.json.gz",
+      "sha256": "b6d70ebb710cb77214202e19ab1532b7a7b09c1f17e974e3a834f5f823cb5e4e"
+    },
+    "union": {
+      "path": "inputs/union.json.gz",
+      "sha256": "ca0204af218bedaeb31cd08535d26371b1464cb57917279f4f8b970e229116ad"
+    }
+  },
+  "source": {
+    "path": "analyze.py",
+    "sha256": "0fad2ec2ec0fd6217ac5391eae0769fb9893c4135171059562987a08d660d80b"
+  }
+}

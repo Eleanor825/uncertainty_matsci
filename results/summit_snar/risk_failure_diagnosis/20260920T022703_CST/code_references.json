@@ -1,0 +1,42 @@
+[
+  {
+    "path": "benchmark_extensions/summit_snar_20260918/pipeline.py",
+    "sha256": "3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_20260918/study.py",
+    "sha256": "cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_20260918/method/features.py",
+    "sha256": "cd04aed9e292675ed490ffbf96395aa6b98d1f51723a445a6bd8aa8d984956b3"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_20260918/method/snar_policy.py",
+    "sha256": "699a8f8414f90bc072cce6457473469e2e5efb99c4be8e4fa14c46effb1aa121"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_20260918/protocol.json",
+    "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/repair_pipeline.py",
+    "sha256": "b9179c9058572cca44db6d22b9776edfa2f20a6b401505b86f66d57693f90903"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/acceptance_repair.py",
+    "sha256": "57567104060e594b5e7713faec62ed36f75bb060064b4b38d58ada7c3e7a26c9"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_seed_extension_20260920_v1/runner.py",
+    "sha256": "ab6fe5afc5891a628bb2615628d4ef39062630dc60e9e014fbf855f117e05d32"
+  },
+  {
+    "path": "technical_not_main/snar_sampling_hidden_scientific_bundle_20260919_v1/sources/original_uncertainty.py",
+    "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+  },
+  {
+    "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/policy.py",
+    "sha256": "beb62b4d8d4bf9c9db4f3cb31db819f5f64f06fcfc827fd2c8fb8269c44aa495"
+  }
+]

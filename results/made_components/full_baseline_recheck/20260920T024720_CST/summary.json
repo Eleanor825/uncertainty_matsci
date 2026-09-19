@@ -1,0 +1,120 @@
+{
+  "observed_CST": "2026-09-20T02:47:20.330199+08:00",
+  "current_main_accepted": 395,
+  "current_planned": 1080,
+  "B10_complete_three_seed_baseline_full_systems": 24,
+  "systems": [
+    "Al-Li-V",
+    "Al-V-Zn",
+    "Au-K-Tb",
+    "Co-Dy-W",
+    "Co-Mg-Na",
+    "Co-Pd-Tl",
+    "Ga-Ho-Lu",
+    "Ga-Pt-Tm",
+    "Hf-Ni-Zr",
+    "Mg-Sn-Sr",
+    "Au-Cr-Cs-Dy",
+    "Au-Tb-V-Y",
+    "Ba-Nd-Ni-W",
+    "Ce-Ir-Pt-Sn",
+    "Co-Dy-Ta-Y",
+    "Dy-K-Pd-Sm",
+    "Eu-Nb-Sn-Tl",
+    "Ag-Nd-Pd-Pt-Tb",
+    "Al-Hg-K-Mg-W",
+    "Al-Lu-Pt-Rb-Sm",
+    "Ca-Fe-Gd-Pb-Tb",
+    "Co-Hg-Mg-Sr-W",
+    "Cr-Fe-Lu-Pt-Sc",
+    "Ho-In-Mg-Pd-Zr"
+  ],
+  "missing_complete_three_seed_baseline_full_systems": [
+    "Ba-Be-Hf-Li",
+    "Ca-Pd-Sn-W",
+    "Ce-Er-Pb-Rh",
+    "Cd-Gd-Mn-Na-Ta",
+    "Cd-Li-Nd-Ti-W",
+    "Co-Hf-In-Ru-Tm"
+  ],
+  "sign_counts": {
+    "SUN": {
+      "positive": 6,
+      "tie": 9,
+      "negative": 9
+    },
+    "AUDC": {
+      "positive": 8,
+      "tie": 7,
+      "negative": 9
+    }
+  },
+  "current_B50_baseline_full_matched_task_seeds": 0,
+  "positive_example": {
+    "SUN": {
+      "baseline": [
+        1,
+        5,
+        3
+      ],
+      "full": [
+        4,
+        6,
+        3
+      ],
+      "task_id": "Ag-Nd-Pd-Pt-Tb",
+      "metric": "SUN",
+      "baseline_mean": 3,
+      "full_mean": 4.333333333333333,
+      "baseline_sample_variance_ddof1": 4,
+      "full_sample_variance_ddof1": 2.333333333333333,
+      "baseline_SD": 2.0,
+      "full_SD": 1.5275252316519465,
+      "mean_delta": 1.333333333333333,
+      "mean_sign": "positive",
+      "seed_wins": 2,
+      "seed_ties": 1,
+      "seed_losses": 0
+    },
+    "AUDC": {
+      "baseline": [
+        0.19,
+        0.43,
+        0.51
+      ],
+      "full": [
+        0.46,
+        0.6,
+        0.51
+      ],
+      "task_id": "Ag-Nd-Pd-Pt-Tb",
+      "metric": "AUDC",
+      "baseline_mean": 0.37666666666666665,
+      "full_mean": 0.5233333333333333,
+      "baseline_sample_variance_ddof1": 0.027733333333333332,
+      "full_sample_variance_ddof1": 0.005033333333333331,
+      "baseline_SD": 0.16653327995729061,
+      "full_SD": 0.07094598884597586,
+      "mean_delta": 0.14666666666666667,
+      "mean_sign": "positive",
+      "seed_wins": 2,
+      "seed_ties": 1,
+      "seed_losses": 0
+    }
+  },
+  "old_seed1_B50": {
+    "SUN": {
+      "baseline_sum": 233,
+      "full_sum": 147,
+      "baseline_mean": 7.766666666666667,
+      "full_mean": 4.9
+    },
+    "AUDC": {
+      "baseline_sum": 4.7652,
+      "full_sum": 3.3836,
+      "baseline_mean": 0.15884,
+      "full_mean": 0.11278666666666667
+    }
+  },
+  "new_scientific_calls": 0
+}

@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "bytes": 2160,
+      "path": "REPORT.md",
+      "sha256": "2d4dbe3de84250a5f226b3618093dbc8758eedea469da50fedfa0b3fd04360a6"
+    },
+    {
+      "bytes": 487808,
+      "path": "inputs.json",
+      "sha256": "2d4a1bfa8c2ca3e0aeb735e07b7575282c286f44ca55e611bdf13c97c40085a8"
+    },
+    {
+      "bytes": 4203,
+      "path": "paired_seeds.csv",
+      "sha256": "f6568f404740e825fa9097d6b14c6ba25fcefa6cafba3e938efaa3ccb8467834"
+    },
+    {
+      "bytes": 6549,
+      "path": "recompute.py",
+      "sha256": "29409b8182c1b4c6a7ec783adac73ff714d672d5e911d02f395e87cdb0960b93"
+    },
+    {
+      "bytes": 838,
+      "path": "source_provenance.json",
+      "sha256": "d2671eb2bb16437f7310b75cb20da14d5a9867888147231ee5e5d80f6cda90e9"
+    },
+    {
+      "bytes": 2598,
+      "path": "summary.json",
+      "sha256": "919fe5a7a661aad8ad22c5ef987f0bce44372e6be84cbe3bda26629ac8fa0252"
+    },
+    {
+      "bytes": 5336,
+      "path": "system_statistics.csv",
+      "sha256": "83c300cfe1a5a06fd58c2117a9b6ace7b9d7b0e61c1b03cc3c8c44b32c655870"
+    }
+  ],
+  "new_scientific_calls": 0,
+  "schema": "portable_scientific_evidence_v1"
+}
