@@ -1,0 +1,9 @@
+{
+  "schema": "planning_only_publication_v1",
+  "original_package_manifest_sha256": "4ce112df1d86cf1d37e331e6a0361ca1804ca14481443e562634b8af046390a3",
+  "original_report_sha256": "3acee58b7c51ccba1294660ccf8301c635f3e96abe7016f6bfa4244642094b03",
+  "export_report_sha256": "f64c1c58cc33054af2f3f7c352f673cb827335c3c4cf25596dd31788a388ab21",
+  "changes": "Only explicit362@01:03 baseline and independent369@01:17 publication reference; all service costs, forecast numbers and computation unchanged",
+  "not_experimental_results": true,
+  "new_scientific_calls": 0
+}

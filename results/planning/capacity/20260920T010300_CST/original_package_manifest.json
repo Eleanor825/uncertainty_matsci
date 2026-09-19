@@ -1,0 +1,52 @@
+{
+  "schema": "actual_allocation_capacity_forecast_v1",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 9169,
+      "sha256": "3acee58b7c51ccba1294660ccf8301c635f3e96abe7016f6bfa4244642094b03"
+    },
+    {
+      "path": "SnAr_queue_times.csv",
+      "bytes": 2107,
+      "sha256": "90dc3d5b5f7d21be46fe91f9362b97c8de53fde62939317fb5ed2a8fd9e7acbd"
+    },
+    {
+      "path": "actual_allocation_scenarios.json",
+      "bytes": 1965,
+      "sha256": "6004f1fc8422ccd2625ce26945b3c2a7b5107cae17248a45f806aaadae332745"
+    },
+    {
+      "path": "inputs/MADE_360.json",
+      "bytes": 1053632,
+      "sha256": "0c9d46ca29c93e4da54ef683289c4a9e15491ba996587150fa11c9e02a33d91f"
+    },
+    {
+      "path": "inputs/measured_job_times.json",
+      "bytes": 217668,
+      "sha256": "c9a6cd812003a97b58412f37157f6614c2001661252f632d0db167d2151c04be"
+    },
+    {
+      "path": "inputs/old180_timings.csv",
+      "bytes": 37878,
+      "sha256": "dcd91dc6aace95bb75a59e72c13e9a02f510569c4b79d08cd133b6429da41058"
+    },
+    {
+      "path": "recompute.py",
+      "bytes": 6853,
+      "sha256": "b2c0fb5d40d81220473c5644006b2c0251af1f10fb3c16a32c8e486591965bd7"
+    },
+    {
+      "path": "services.csv",
+      "bytes": 1666,
+      "sha256": "ad0599c27b6ce7bc8977c91de2c430f3c044d822d46f075ad3c75ed4e1dbaab1"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 964,
+      "sha256": "eb4c0cec556abb6291c4bc5c005389eedfec7be5f8edd2278bc4434b0df66458"
+    }
+  ],
+  "planning_only_not_experimental_result": true,
+  "scientific_calls": 0
+}

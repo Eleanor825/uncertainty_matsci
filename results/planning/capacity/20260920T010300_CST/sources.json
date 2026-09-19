@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "file": "inputs/MADE_360.json",
+      "sha256": "0c9d46ca29c93e4da54ef683289c4a9e15491ba996587150fa11c9e02a33d91f",
+      "byte_exact": true
+    },
+    {
+      "file": "inputs/old180_timings.csv",
+      "sha256": "dcd91dc6aace95bb75a59e72c13e9a02f510569c4b79d08cd133b6429da41058",
+      "byte_exact": true
+    },
+    {
+      "file": "inputs/measured_job_times.json",
+      "sha256": "c9a6cd812003a97b58412f37157f6614c2001661252f632d0db167d2151c04be",
+      "original_readback_sha256": "8ae361eb7cba0a0b2858d2801767f2e101d34cd430fa568f65524d1e730ef835",
+      "export_change": "removed only operator read_host field; all numeric timings and result/receipt hashes unchanged"
+    }
+  ],
+  "baseline_snapshot_CST": "2026-09-20T00:47:24.240443+08:00",
+  "later_root_count": 362,
+  "later_root_count_not_a_new_source_result_export": true,
+  "all_timing_observations": "2026-09-20T01:09:13.056660+08:00",
+  "scientific_calls_for_forecast": 0,
+  "later_root_count_observed_CST": "2026-09-20T01:03:00+08:00",
+  "separate_new_actual_export": {
+    "accepted": 369,
+    "observed_CST": "2026-09-20T01:17:20+08:00",
+    "snapshot_sha256": "b551ffdba1fc72c63132b589659ec8d66a1f2eabd3adff7a65cb2b33dd02484f",
+    "commit": "7ec3b4018148868e410f074e6225b5477a8ae4ed",
+    "forecast_not_in_experimental_results": true
+  }
+}

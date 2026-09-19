@@ -1,0 +1,19 @@
+scenario,new_trajectories,cards,new_oracle_calls,job_duration_basis,minutes,no_new_training,not_registered_except12
+median,6,1,300,actual original accepted job elapsed incl load/domain audit,106.81946519613267,True,True
+median,6,2,300,actual original accepted job elapsed incl load/domain audit,65.77801196575165,True,True
+median,6,4,300,actual original accepted job elapsed incl load/domain audit,35.60648839871089,True,True
+median,12,1,600,actual original accepted job elapsed incl load/domain audit,213.03129346370696,True,False
+median,12,2,600,actual original accepted job elapsed incl load/domain audit,107.57131751775741,True,False
+median,12,4,600,actual original accepted job elapsed incl load/domain audit,64.41852271556854,True,False
+median,20,1,1000,actual original accepted job elapsed incl load/domain audit,355.05215577284497,True,True
+median,20,2,1000,actual original accepted job elapsed incl load/domain audit,178.3792030294736,True,True
+median,20,4,1000,actual original accepted job elapsed incl load/domain audit,99.82246547142665,True,True
+conservative_p75,6,1,300,actual original accepted job elapsed incl load/domain audit,107.34449416399,True,True
+conservative_p75,6,2,300,actual original accepted job elapsed incl load/domain audit,66.02270144621531,True,True
+conservative_p75,6,4,300,actual original accepted job elapsed incl load/domain audit,35.78149805466334,True,True
+conservative_p75,12,1,600,actual original accepted job elapsed incl load/domain audit,215.22644979953773,True,False
+conservative_p75,12,2,600,actual original accepted job elapsed incl load/domain audit,108.8397322177887,True,False
+conservative_p75,12,4,600,actual original accepted job elapsed incl load/domain audit,65.06492486397426,True,False
+conservative_p75,20,1,1000,actual original accepted job elapsed incl load/domain audit,358.7107496658961,True,True
+conservative_p75,20,2,1000,actual original accepted job elapsed incl load/domain audit,180.7610359748205,True,True
+conservative_p75,20,4,1000,actual original accepted job elapsed incl load/domain audit,101.02557674249013,True,True

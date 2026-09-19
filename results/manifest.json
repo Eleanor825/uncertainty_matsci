@@ -8,13 +8,13 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 19358,
-      "export_sha256": "1b3250232e1e9d645db72b62d824f435e710e09802da5cabcca52f4d76bb6c75"
+      "bytes": 20038,
+      "export_sha256": "c243f5876be6bdd3966cb60cbc944d3ebc185ec6a38c6b302f77134a249cf4cb"
     },
     {
       "path": "docs/results.md",
-      "bytes": 16253,
-      "export_sha256": "cf0bbea98083003461d3ae76bc88ff1f7729301b4419f19070d16aa95d26e344"
+      "bytes": 16986,
+      "export_sha256": "bc76f8849b5b539a353ca249df8f5a9d8a940a4ab5d693ab076913d3703d585e"
     },
     {
       "path": "results/README.md",
@@ -583,8 +583,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 67490,
-      "export_sha256": "c2f0e503014d6fbefc1237284c7da714f1ca2883d9ef8c43f4970a1e97a0e4a3"
+      "bytes": 68287,
+      "export_sha256": "b7ba8ac5be37558e36c8e2b780c36592e247a0c6ce255c4f823a633a27d3ecdf"
     },
     {
       "path": "results/made_components/20260919T172603_CST/all17_cases.csv",
@@ -1170,6 +1170,66 @@
       "path": "results/made_components/incremental/README.md",
       "bytes": 425,
       "export_sha256": "d0a306d7a4126d10612c44b67bd7181010178dd787a6abe9bdb437847e2ce08f"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/REPORT.md",
+      "bytes": 9648,
+      "export_sha256": "f64c1c58cc33054af2f3f7c352f673cb827335c3c4cf25596dd31788a388ab21"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/SnAr_queue_times.csv",
+      "bytes": 2107,
+      "export_sha256": "90dc3d5b5f7d21be46fe91f9362b97c8de53fde62939317fb5ed2a8fd9e7acbd"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/actual_allocation_scenarios.json",
+      "bytes": 1965,
+      "export_sha256": "6004f1fc8422ccd2625ce26945b3c2a7b5107cae17248a45f806aaadae332745"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/inputs/MADE_360.json",
+      "bytes": 1053632,
+      "export_sha256": "0c9d46ca29c93e4da54ef683289c4a9e15491ba996587150fa11c9e02a33d91f"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/inputs/measured_job_times.json",
+      "bytes": 217668,
+      "export_sha256": "c9a6cd812003a97b58412f37157f6614c2001661252f632d0db167d2151c04be"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/inputs/old180_timings.csv",
+      "bytes": 37878,
+      "export_sha256": "dcd91dc6aace95bb75a59e72c13e9a02f510569c4b79d08cd133b6429da41058"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/manifest.json",
+      "bytes": 1856,
+      "export_sha256": "a149cf14bca7261c6faf378f6135e1839d45a68e503088312a217cbcd2cea32c"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/original_package_manifest.json",
+      "bytes": 1540,
+      "export_sha256": "4ce112df1d86cf1d37e331e6a0361ca1804ca14481443e562634b8af046390a3"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/publication.json",
+      "bytes": 566,
+      "export_sha256": "320eff039a9a1b2f01a5050ad96ea6bcd494521881d7e42d2068e40584144010"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/recompute.py",
+      "bytes": 6853,
+      "export_sha256": "b2c0fb5d40d81220473c5644006b2c0251af1f10fb3c16a32c8e486591965bd7"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/services.csv",
+      "bytes": 1666,
+      "export_sha256": "ad0599c27b6ce7bc8977c91de2c430f3c044d822d46f075ad3c75ed4e1dbaab1"
+    },
+    {
+      "path": "results/planning/capacity/20260920T010300_CST/sources.json",
+      "bytes": 1335,
+      "export_sha256": "42012225038f092463f65df1167e00675903bfc44a4d127375bbdeb93f556560"
     },
     {
       "path": "results/snapshots/core2_b10_20260917T083208Z/curves.csv",

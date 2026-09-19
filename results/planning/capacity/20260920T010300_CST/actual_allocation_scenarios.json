@@ -1,0 +1,64 @@
+[
+  {
+    "scenario": "median",
+    "horizon_hours": 24,
+    "original_cards_B_U_E_F": [
+      1,
+      7,
+      1,
+      8
+    ],
+    "additional_priority_cards": 1,
+    "priority_blocks": [
+      "baseline first2systems \u00d73seeds",
+      "ES first2systems \u00d73seeds",
+      "baseline last3systems \u00d73seeds",
+      "ES last3systems \u00d73seeds"
+    ],
+    "new_B30_from360_origin": 269,
+    "new_B50_from360_origin": 125,
+    "new_total_from360_origin": 394,
+    "later_completed2_deducted_from_B30": 2,
+    "conservative_new_B30_after_reported362": 267,
+    "conservative_new_total_after_reported362": 392,
+    "projected_total_from360_frozen_origin": 754,
+    "priority_new_B50_in24h": 30,
+    "hours_for_priority30": 23.959584603139778,
+    "core_B30_complete4arm_pairs_out_of15": 9,
+    "core_B50_complete4arm_pairs_out_of15": 5,
+    "new_failure_or_node_outage_modelled": false,
+    "old_failed_jobs_replayed": 0,
+    "nine_B_model_new_results_credited": 0
+  },
+  {
+    "scenario": "conservative_p75",
+    "horizon_hours": 24,
+    "original_cards_B_U_E_F": [
+      1,
+      7,
+      1,
+      8
+    ],
+    "additional_priority_cards": 1,
+    "priority_blocks": [
+      "baseline first2systems \u00d73seeds",
+      "ES first2systems \u00d73seeds",
+      "baseline last3systems \u00d73seeds",
+      "ES last3systems \u00d73seeds"
+    ],
+    "new_B30_from360_origin": 259,
+    "new_B50_from360_origin": 64,
+    "new_total_from360_origin": 323,
+    "later_completed2_deducted_from_B30": 2,
+    "conservative_new_B30_after_reported362": 257,
+    "conservative_new_total_after_reported362": 321,
+    "projected_total_from360_frozen_origin": 683,
+    "priority_new_B50_in24h": 17,
+    "hours_for_priority30": 39.75794740350373,
+    "core_B30_complete4arm_pairs_out_of15": 9,
+    "core_B50_complete4arm_pairs_out_of15": 2,
+    "new_failure_or_node_outage_modelled": false,
+    "old_failed_jobs_replayed": 0,
+    "nine_B_model_new_results_credited": 0
+  }
+]

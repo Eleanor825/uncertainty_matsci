@@ -2023,5 +2023,24 @@
       "pending_failed_unknown_excluded_from_means": true
     }
   ],
-  "latest_incremental_component_export_id": "made_incremental_20260920T011720_CST"
+  "latest_incremental_component_export_id": "made_incremental_20260920T011720_CST",
+  "planning_exports": [
+    {
+      "planning_id": "capacity_actual_allocation_20260920T010300_CST",
+      "kind": "conditional_24hour_capacity_not_experimental_result",
+      "report": "results/planning/capacity/20260920T010300_CST/REPORT.md",
+      "manifest": "results/planning/capacity/20260920T010300_CST/manifest.json",
+      "validation_script": "results/planning/capacity/20260920T010300_CST/recompute.py",
+      "planning_baseline_completed": 362,
+      "planning_baseline_CST": "2026-09-20T01:03:00+08:00",
+      "later_separate_actual_completed": 369,
+      "later_separate_actual_CST": "2026-09-20T01:17:20+08:00",
+      "forecast_new_4B_MADE_range": [
+        321,
+        392
+      ],
+      "new_scientific_calls_for_planning": 0,
+      "excluded_from_result_means": true
+    }
+  ]
 }
