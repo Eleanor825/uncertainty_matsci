@@ -1,0 +1,6 @@
+arm,seed,final_hv_gain_minus_baseline,mean_querywise_hv_gain_minus_baseline
+uq_esopt,5201,-7.879915235431412e-06,-5.043145750676104e-06
+uq_esopt,5202,0.0,0.0
+uq_only,5201,-7.879915235431412e-06,-5.043145750676104e-06
+uq_only,5202,0.0,0.0
+es_only,5201,0.0,0.0
