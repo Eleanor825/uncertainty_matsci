@@ -1,0 +1,54 @@
+{
+  "schema": "derived_support_mechanism_public_manifest_v1",
+  "observed_utc": "2026-09-19T09:41:19.132087+00:00",
+  "source_snapshot_sha256": "2d1c1ff98a9f107289f039048f9430652d27b67d662da44d698e73d582db92fb",
+  "original_files_and_derived_exports_are_distinct": true,
+  "scientific_calls_for_export": 0,
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 10531,
+      "export_sha256": "f9fb89837d66756c43408a630903a128ba41269021da31c70e05ee9bc7735871"
+    },
+    {
+      "path": "analysis.json",
+      "bytes": 28196,
+      "export_sha256": "3283f4f72107bf48675986b2b0065187f1acd92adf41bef45a17b709087e50d9"
+    },
+    {
+      "path": "fixed17_all68_mechanisms.csv",
+      "bytes": 22889,
+      "export_sha256": "e6d8295d428c5a4968668aa59b9bbc9f175242acc42f7172c26885dd90498adb"
+    },
+    {
+      "path": "fixed17_cases.json",
+      "bytes": 3461,
+      "export_sha256": "4118f3ac0c1bf5dfe1132797e94c72884fed1e8acf9a3bd7f3e85e566b74b622"
+    },
+    {
+      "path": "recompute.py",
+      "bytes": 12627,
+      "export_sha256": "fc3db0e3d3bc559c4cfc42141a606e82bcbb091019baa5320009eccb67821d71"
+    },
+    {
+      "path": "source_provenance.json",
+      "bytes": 191049,
+      "export_sha256": "92769c0d33b447c67d1460cb454dd18f55a58fd4ca9ad6cdcbe9997cfbae777c"
+    },
+    {
+      "path": "train_dev_event_deduplicated.csv",
+      "bytes": 15065,
+      "export_sha256": "37d846e62ba64ca5823014a78f6aa252c8010dd7795e40f5143c50d5c35d8fc9"
+    },
+    {
+      "path": "train_dev_event_deduplicated_summary.json",
+      "bytes": 3282,
+      "export_sha256": "2d5a19d5011d40ca37ca55ea6360e51acf4b7e4341d33a34b8d3a838f3e4a55f"
+    },
+    {
+      "path": "trajectory_evidence.json",
+      "bytes": 1089582,
+      "export_sha256": "4590a3faed4603e76c14a7a38e5550b566ea937b45ff89672adc7b009e2d7eaf"
+    }
+  ]
+}

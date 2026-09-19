@@ -1,0 +1,2674 @@
+{
+  "schema": "support_mechanism_public_export_provenance_v1",
+  "source_snapshot_sha256": "2d1c1ff98a9f107289f039048f9430652d27b67d662da44d698e73d582db92fb",
+  "source_snapshot_bytes": 2684088,
+  "source_snapshot_published": false,
+  "source_manifest_sha256": "4374add0f44cb2a171cd7ee9e7ecd61c85f63d90a83ad8441512b8be31b4f295",
+  "source_report_sha256": "e62029e3705be05da10258ad00484e4b1c12bc7282cce458e23e9dc517423a53",
+  "source_extractor_sha256": "564d1399e19f09453623199aa0ef2334f4b19e06406b790de62e20563b27301e",
+  "source_extraction_manifest_sha256": "af690f37c4d11f319b90bfb51197827317550b7890534fc644c76bb6b6005177",
+  "source_files_verified_by_original_extractor": [
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/arm_runtime.py",
+      "sha256": "972bcd1f5ba3289e3f965ae7dd26de90fcda4c0717e68c4d302711c965a1baa9"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/full_es_training.py",
+      "sha256": "6022bd57c0ab70f59ac1521e86b1858daa02ce28076d970293779227c67b31c9"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/support_control.py",
+      "sha256": "b0a5773a74e54cc178a9ab913dc3524207f094937a9f181dfcbe376951f7fa5d"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/rollouts.py",
+      "sha256": "ad67538c5b57f82d3ae3c7dc29e486bca43443e953aa7de68952fb51f8a2ad0c"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/failure_controller.py",
+      "sha256": "d8202d3a36612d62b720424ad18f8b4963b0f411cc202feb04c6188f770cb538"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/uncertainty.py",
+      "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/es_training.py",
+      "sha256": "3b10890282ab4a399cf0f41fb1aca46f160df0b48cacf243d6ff1b483cf80fc5"
+    }
+  ],
+  "scientific_artifact_references_recorded_by_original_extractor": [
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/arm_runtime.py",
+      "sha256": "972bcd1f5ba3289e3f965ae7dd26de90fcda4c0717e68c4d302711c965a1baa9",
+      "bytes": 6885
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/full_es_training.py",
+      "sha256": "6022bd57c0ab70f59ac1521e86b1858daa02ce28076d970293779227c67b31c9",
+      "bytes": 40113
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/support_control.py",
+      "sha256": "b0a5773a74e54cc178a9ab913dc3524207f094937a9f181dfcbe376951f7fa5d",
+      "bytes": 5552
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/rollouts.py",
+      "sha256": "ad67538c5b57f82d3ae3c7dc29e486bca43443e953aa7de68952fb51f8a2ad0c",
+      "bytes": 38556
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/failure_controller.py",
+      "sha256": "d8202d3a36612d62b720424ad18f8b4963b0f411cc202feb04c6188f770cb538",
+      "bytes": 21400
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/uncertainty.py",
+      "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656",
+      "bytes": 10963
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/es_training.py",
+      "sha256": "3b10890282ab4a399cf0f41fb1aca46f160df0b48cacf243d6ff1b483cf80fc5",
+      "bytes": 50571
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-32355a4d9bcc6137d52ada7b/result.json",
+      "sha256": "ecd5adb1d0b577a0f9a373827a2d6ad371861e99c56a97d93ed3a585a76edf97",
+      "bytes": 139277
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-32355a4d9bcc6137d52ada7b/receipt.json",
+      "sha256": "59c4514daf8eebdf454c8a7173436a0fac15b6a3c161d480c33fa84075b58ee2",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-32355a4d9bcc6137d52ada7b/claim.json",
+      "sha256": "9b39aa89a63b4cfeeaf5e32ac2b9d3da5ba34af247bbbef4e69ed611f6ccab69",
+      "bytes": 1578
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-32355a4d9bcc6137d52ada7b/9e9dc35331fb46a6bf40dc7340ae4af8/decisions.jsonl",
+      "sha256": "83cd18d80a39820c23a56c4a93d181d733daf10f90fca47a2cd137d0d3cd5af4",
+      "bytes": 611005
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-32355a4d9bcc6137d52ada7b/9e9dc35331fb46a6bf40dc7340ae4af8/rpc/rpc.jsonl",
+      "sha256": "a93f519603804281807d1b477cd1f874f43fb6125a66de0410b8045cf896316c",
+      "bytes": 2620409
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-32355a4d9bcc6137d52ada7b/9e9dc35331fb46a6bf40dc7340ae4af8/environment/oracle_attempts.jsonl",
+      "sha256": "97abdd712dd20c55e32fca5fc7555c4e9231d1de2b3dd0b56edf4df262b63c45",
+      "bytes": 495277
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-32355a4d9bcc6137d52ada7b/9e9dc35331fb46a6bf40dc7340ae4af8/decision_events.jsonl",
+      "sha256": "178ca9d664b011d8ceaef86c48a913f498f7662d6a34e65f3422d7c50dc7014f",
+      "bytes": 17472
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ccd9a242b4945d6cfcdb68dc/result.json",
+      "sha256": "6e704bae79f53cc75724be0693d79838eb4056138c1366461dbf7f6ccbf31344",
+      "bytes": 669184
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ccd9a242b4945d6cfcdb68dc/receipt.json",
+      "sha256": "4c2896fdc84c36c850bc254a2fe2798e3405b151c9ad089d0c0fe2310acaf979",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ccd9a242b4945d6cfcdb68dc/claim.json",
+      "sha256": "439d67da99d2a4c6bc3bb82b05b33c9d6cb3eaa0361fdbe6b44e29de01033de6",
+      "bytes": 1573
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ccd9a242b4945d6cfcdb68dc/03c79dcb1cb44b70b809884036238ae3/decisions.jsonl",
+      "sha256": "1c00694e6929721c627f3d15440ca9876abe8c71a2912fef1ad5d761380b4678",
+      "bytes": 2826698
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ccd9a242b4945d6cfcdb68dc/03c79dcb1cb44b70b809884036238ae3/rpc/rpc.jsonl",
+      "sha256": "5adfd740b2f82f070869cb18837ba4dc3f682ea76ac82fa0681e9f5e3b8d8015",
+      "bytes": 2277435
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ccd9a242b4945d6cfcdb68dc/03c79dcb1cb44b70b809884036238ae3/environment/oracle_attempts.jsonl",
+      "sha256": "e3ab0e2ea0ec34c7d3b72a25c81476a70acf5642ab449e74bc4f04e8e02f0560",
+      "bytes": 287039
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ccd9a242b4945d6cfcdb68dc/03c79dcb1cb44b70b809884036238ae3/decision_events.jsonl",
+      "sha256": "4ad88483adc233b00b86a78f00a1a448122a44656be2a3663c3536a1653dca8f",
+      "bytes": 16629
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2e27f5563acb699daae1d131/result.json",
+      "sha256": "3def5a89eaf3f089ed59ffe1070e84d683f0ec252f3e5e0d5d9dff12099d4521",
+      "bytes": 186599
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2e27f5563acb699daae1d131/receipt.json",
+      "sha256": "e3c884a9c112424d3e7235e029684703a7a5351d896b3181c23baa10e9879631",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2e27f5563acb699daae1d131/claim.json",
+      "sha256": "209ba98bd424fe5a367276c90d6037eea744219cb70ea595d20276542b31dc48",
+      "bytes": 1576
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2e27f5563acb699daae1d131/dc981c9f704e4788817cba7c2b6d9bfc/decisions.jsonl",
+      "sha256": "f3e003c3e8ddb99d53a9e7b5890356b926b9be9b4b2ea7cfb611923016ddecc7",
+      "bytes": 457707
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2e27f5563acb699daae1d131/dc981c9f704e4788817cba7c2b6d9bfc/rpc/rpc.jsonl",
+      "sha256": "f61dbf464b443016853b0eeaa7203078deebab744a48cca36039873255d89c5e",
+      "bytes": 1347958
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2e27f5563acb699daae1d131/dc981c9f704e4788817cba7c2b6d9bfc/environment/oracle_attempts.jsonl",
+      "sha256": "46c30e1e69b5512c965ccc841610485822fa60bc6c72bac47a038562c42c0aef",
+      "bytes": 155693
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2e27f5563acb699daae1d131/dc981c9f704e4788817cba7c2b6d9bfc/decision_events.jsonl",
+      "sha256": "26a3e5b512f331de07c6fe9c83174039de721c51ceddb55f30141d43fed2a761",
+      "bytes": 12376
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bceab85ac67db411774a2563/result.json",
+      "sha256": "013df0dbfbd0566787fefda46b5a5acde971e2ba99540a3e17a3d21bd554f86e",
+      "bytes": 1480827
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bceab85ac67db411774a2563/receipt.json",
+      "sha256": "892be4df4e2fb41e1d7b1826f5a6c91a85357ad5317091cf3c847723661586d8",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bceab85ac67db411774a2563/claim.json",
+      "sha256": "09df54c26662b27cbbc1db8a077144fda365d664a6657032dfe6d79af6542607",
+      "bytes": 1573
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bceab85ac67db411774a2563/ba66705f96474de7aa91645a1ebe3dc4/decisions.jsonl",
+      "sha256": "a334a8343b326dfc750fac08587abaead8561353426b0a3502161e6e10f67f9b",
+      "bytes": 2220758
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bceab85ac67db411774a2563/ba66705f96474de7aa91645a1ebe3dc4/rpc/rpc.jsonl",
+      "sha256": "177fca792f35299a4160216648489fe58c62ac294050924bb573ed3cd207a2d7",
+      "bytes": 1287268
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bceab85ac67db411774a2563/ba66705f96474de7aa91645a1ebe3dc4/environment/oracle_attempts.jsonl",
+      "sha256": "226e0c3e6b4bfb26c644d434bc9bf57ae509eb46e3da90655b89ed2696e18999",
+      "bytes": 155708
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bceab85ac67db411774a2563/ba66705f96474de7aa91645a1ebe3dc4/decision_events.jsonl",
+      "sha256": "040707cbb313b596b4b95e1ef01197a91a0fdb375ccca73a3cc10631b136aca2",
+      "bytes": 13014
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-50555fb4776e15c94b4beec9/result.json",
+      "sha256": "d9b218c8bad233d3536f23da5a6b9c2c2e74be87c1de93e6e773b919ed431287",
+      "bytes": 139139
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-50555fb4776e15c94b4beec9/receipt.json",
+      "sha256": "f7a15955fdfdde536e1d0dc3af88193c45e3d21114c8ff342b32a6fc61d6160d",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-50555fb4776e15c94b4beec9/claim.json",
+      "sha256": "2e307542289dc70833e542859e8154e59be165b3d9903b3ac9bb2c8a572131e7",
+      "bytes": 1578
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-50555fb4776e15c94b4beec9/1a93bbc1db564d3e9626380e47831f3e/decisions.jsonl",
+      "sha256": "67994668db9a1c6d7976b4bb45d83acfb16d1c8bb5b36e37f8abece33ee454aa",
+      "bytes": 512034
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-50555fb4776e15c94b4beec9/1a93bbc1db564d3e9626380e47831f3e/rpc/rpc.jsonl",
+      "sha256": "32284e1fc3c287c80be0ea90f5563bc93668ebfab0da4cf713d8eea1df5235f7",
+      "bytes": 1565977
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-50555fb4776e15c94b4beec9/1a93bbc1db564d3e9626380e47831f3e/environment/oracle_attempts.jsonl",
+      "sha256": "36c92dea8ede1b7b7a9afd1316f9d2a7b6c39ff471c71ed4e31e9fb0cb273d87",
+      "bytes": 245844
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-50555fb4776e15c94b4beec9/1a93bbc1db564d3e9626380e47831f3e/decision_events.jsonl",
+      "sha256": "5bde87f14efd93c937f1046b954a8926fe8d4c42fe7007454b34cfc0ec11b473",
+      "bytes": 14560
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-50481d7de104501120b84fb5/result.json",
+      "sha256": "9f183bc7c79bc62028d5a43c4d217abc8182464d769a2fec953307d58f40e5a2",
+      "bytes": 670990
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-50481d7de104501120b84fb5/receipt.json",
+      "sha256": "7293964b29eac400a8ed0eada75e246dfbf2285bec429efa128476cdd00d7ae2",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-50481d7de104501120b84fb5/claim.json",
+      "sha256": "0a03f18313cbd9fa6b5637731fdee166e7c90d93b5721a7b8b4cc9fdc8a2847c",
+      "bytes": 1573
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-50481d7de104501120b84fb5/4141bb18fba04da696958c28f3dbaffc/decisions.jsonl",
+      "sha256": "2d6fc472fe4387f25805c9c71818278df276756a7c7fb87b50d105dbe7389c95",
+      "bytes": 2741269
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-50481d7de104501120b84fb5/4141bb18fba04da696958c28f3dbaffc/rpc/rpc.jsonl",
+      "sha256": "4e546fffbdf0597ac144a31f0f6951aeaa3439e69fe372326a6b7e750ef9aebe",
+      "bytes": 1391647
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-50481d7de104501120b84fb5/4141bb18fba04da696958c28f3dbaffc/environment/oracle_attempts.jsonl",
+      "sha256": "1fe6466ba667ad3934b3772f9570e34864613c67d3bd204e056099b988eaefeb",
+      "bytes": 187542
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-50481d7de104501120b84fb5/4141bb18fba04da696958c28f3dbaffc/decision_events.jsonl",
+      "sha256": "b459f16c12e8158a643bc23b784fd3ad98c795040771c73f4e88de0366c2615d",
+      "bytes": 17352
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b20a8fccedb10da7d5ed97a6/result.json",
+      "sha256": "a2d4dddec8c2bb359914f5b829ba17d6a92055b259d67f1b6bb0abf6109822a0",
+      "bytes": 189450
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b20a8fccedb10da7d5ed97a6/receipt.json",
+      "sha256": "b5fb9e5cf80da00c0975cfad0889a127dbb8df412d547dbd1bc1c4e99280b58e",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b20a8fccedb10da7d5ed97a6/claim.json",
+      "sha256": "f65cc12959823f83058a84c09b3124087dd551dc5bff5dea508f17dafbc0fe25",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b20a8fccedb10da7d5ed97a6/d82f5dd99172498bb865e540f2088d3e/decisions.jsonl",
+      "sha256": "a107f884c0c39c2feb5fa20837c0e6d221fb45bf3d8f49ae6103e30c656a1ad3",
+      "bytes": 623640
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b20a8fccedb10da7d5ed97a6/d82f5dd99172498bb865e540f2088d3e/rpc/rpc.jsonl",
+      "sha256": "1a860a9234e4fef6b08e2f3ca59834b8f2ab3a96302fcf4ad5d6a57ae2dcfa62",
+      "bytes": 1687760
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b20a8fccedb10da7d5ed97a6/d82f5dd99172498bb865e540f2088d3e/environment/oracle_attempts.jsonl",
+      "sha256": "646f8cf222cce47448461dd55ffaee7f2fc6c1566e079cb373c2293f1975b0c8",
+      "bytes": 120655
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b20a8fccedb10da7d5ed97a6/d82f5dd99172498bb865e540f2088d3e/decision_events.jsonl",
+      "sha256": "499b81d3bb6027c60b8cc868abea2ca05cef417bacb9ab344e6e87ebf6958176",
+      "bytes": 17472
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ca740c106b65301c3c20f121/result.json",
+      "sha256": "f23bef1538602e0229db2d57a3b1cc8ff0286978a1dbda5710180e2d351c34a0",
+      "bytes": 1481715
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ca740c106b65301c3c20f121/receipt.json",
+      "sha256": "ad83b5f4de5f0d231a95ec6d5bf99270fa199c968f6dbaecaeb27a45210652bb",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ca740c106b65301c3c20f121/claim.json",
+      "sha256": "794876fe142fb2d1aa6790a8f2c9e19142b5a2156334a8967b5c43ec45fc8942",
+      "bytes": 1573
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ca740c106b65301c3c20f121/fcc6e5d9ca3c48088293fc72ff796fb6/decisions.jsonl",
+      "sha256": "ced36faa1019439170c325f34fc8a7397f39d85e6a0e2391371f32680e817755",
+      "bytes": 1853960
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ca740c106b65301c3c20f121/fcc6e5d9ca3c48088293fc72ff796fb6/rpc/rpc.jsonl",
+      "sha256": "5fb932e9f68bacaaea8c807f3b76bc10ca4280511b198cdb0df73519082c42fe",
+      "bytes": 851931
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ca740c106b65301c3c20f121/fcc6e5d9ca3c48088293fc72ff796fb6/environment/oracle_attempts.jsonl",
+      "sha256": "1d84e908d8df613dddbfe60d9f27004578fefde1f01dcc1610d12c11a5ed586f",
+      "bytes": 51835
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ca740c106b65301c3c20f121/fcc6e5d9ca3c48088293fc72ff796fb6/decision_events.jsonl",
+      "sha256": "2d7465bb0198b06011ca3aa52cd61659c38769eadaffa5769849125a5b7db4bb",
+      "bytes": 12291
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-6c30e36bb5b40e6b0e509b55/result.json",
+      "sha256": "308fb83a3f9c23c3413c845ef2561dcbcf8eddf1d97a4aeecf54c226247334cf",
+      "bytes": 138879
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-6c30e36bb5b40e6b0e509b55/receipt.json",
+      "sha256": "5a2151ae02c7e3a9d2ca3b4e5a89c097257991dd22db0c1e4a35594fee2a5063",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-6c30e36bb5b40e6b0e509b55/claim.json",
+      "sha256": "da00a81a3834b786fa5dbcee4b17b6480fc8942edb31f0f2d3757c2896cd6cc3",
+      "bytes": 1605
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-6c30e36bb5b40e6b0e509b55/22edd96f0a214eb3aa8f42edd2f894d7/decisions.jsonl",
+      "sha256": "035995a712112158f92a0317b503cb949838902787e48d143fabbe1f7bfaf599",
+      "bytes": 573378
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-6c30e36bb5b40e6b0e509b55/22edd96f0a214eb3aa8f42edd2f894d7/rpc/rpc.jsonl",
+      "sha256": "45c0c810edb53c8e50ec789a05c899445bba2e24ee2e2b63338a4f23818c2fdf",
+      "bytes": 1803282
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-6c30e36bb5b40e6b0e509b55/22edd96f0a214eb3aa8f42edd2f894d7/environment/oracle_attempts.jsonl",
+      "sha256": "3b9a914d6c910aef2fa3556a97beb47d295c7008002ed63070e3240cc304846d",
+      "bytes": 280638
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-6c30e36bb5b40e6b0e509b55/22edd96f0a214eb3aa8f42edd2f894d7/decision_events.jsonl",
+      "sha256": "850d8352779aa7b116dea2397735d496808c8b8e83c6d0c3804d1b9a5ef01a69",
+      "bytes": 16744
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c421d416e4380380b8401e1a/result.json",
+      "sha256": "7205a844e1ffc1cc8ff9706a869566e7cd53591e44a14e4e4bfc3eb4985bd901",
+      "bytes": 668909
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c421d416e4380380b8401e1a/receipt.json",
+      "sha256": "283ac3cf665b5a557dd6c7abc4425774d5eb8974ee6cb04c51aa88a8f495d99c",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c421d416e4380380b8401e1a/claim.json",
+      "sha256": "5686b3366b2d61a68b0030502ee39ac3472b09628182f4243a8ff070e46c9f7c",
+      "bytes": 1600
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c421d416e4380380b8401e1a/1f06df4105e44749b2640d3b1df49e1b/decisions.jsonl",
+      "sha256": "8c3f128d469395cbdba093145f17774404a05744b99898bd98d549270c43e3bd",
+      "bytes": 2488236
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c421d416e4380380b8401e1a/1f06df4105e44749b2640d3b1df49e1b/rpc/rpc.jsonl",
+      "sha256": "29608a9c4d170df009680eb79107c3e78e546abd46cdd076c591e200115bbf17",
+      "bytes": 1612731
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c421d416e4380380b8401e1a/1f06df4105e44749b2640d3b1df49e1b/environment/oracle_attempts.jsonl",
+      "sha256": "e79ab5b1ae9d6198bc1ca6d9abf6d2f55561c4dd91f052c3cb2cc6119578d0d4",
+      "bytes": 219876
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c421d416e4380380b8401e1a/1f06df4105e44749b2640d3b1df49e1b/decision_events.jsonl",
+      "sha256": "857f35b97ec98a89dd20da68dccb02f2e8ef175eeb51464132ed32f60eaf3418",
+      "bytes": 15906
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7e994fb8ab445a418e08e590/result.json",
+      "sha256": "3e71020d0fa160085cfa79bdc96ce0eb925ac6eac85253b6b9a1e5ddab21fd3a",
+      "bytes": 187882
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7e994fb8ab445a418e08e590/receipt.json",
+      "sha256": "be0657b0ef7ff3b0bd8c0603ef0535389c44734a2dd401c5221cf5e6a2f31397",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7e994fb8ab445a418e08e590/claim.json",
+      "sha256": "35e7e35c9adfbd40408eee6fc401ef178f397d91eabc0cb068ad27b047aaeaa4",
+      "bytes": 1604
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7e994fb8ab445a418e08e590/c77a549239174e1db773ad84821b5a18/decisions.jsonl",
+      "sha256": "fc55478a9baa2acfc71f9a4cc2d605f2f7a19351f548f050895203d88be65843",
+      "bytes": 504269
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7e994fb8ab445a418e08e590/c77a549239174e1db773ad84821b5a18/rpc/rpc.jsonl",
+      "sha256": "aacd6532c3ebeed7b0a5a31f12c2dcb1ab0be45416b3c80d09b825d5d7695f3c",
+      "bytes": 1373975
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7e994fb8ab445a418e08e590/c77a549239174e1db773ad84821b5a18/environment/oracle_attempts.jsonl",
+      "sha256": "766a79365a99eac759bc7426bff1d49d8bb15d7bd955ad5b2fbad188a6fe8512",
+      "bytes": 154737
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7e994fb8ab445a418e08e590/c77a549239174e1db773ad84821b5a18/decision_events.jsonl",
+      "sha256": "0b3f6250e160c95a4a22689131490e0c8eac1ac78de5e53561c303c06a57fdea",
+      "bytes": 14560
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1a6965c14309d0ed9c706be0/result.json",
+      "sha256": "174f3835855cb70cfc167f4ade1f6875ec8f47992db7c155bdf8961909bcbf86",
+      "bytes": 1482357
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1a6965c14309d0ed9c706be0/receipt.json",
+      "sha256": "b583224ecad986313f4c56f1c850a4bddf0b92ada5878e5d7f6bf22faf70833d",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1a6965c14309d0ed9c706be0/claim.json",
+      "sha256": "f33826a6ba1ecc82385775ad74b477d2600ebabcf4def6f5658faa75270cd7a9",
+      "bytes": 1600
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1a6965c14309d0ed9c706be0/44841fdf5c14447e9f7c01c0580d21fc/decisions.jsonl",
+      "sha256": "92efddf19b4ca1603144aac7759809845204245a3cd1499d8e56b2c4513e2b45",
+      "bytes": 1476929
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1a6965c14309d0ed9c706be0/44841fdf5c14447e9f7c01c0580d21fc/rpc/rpc.jsonl",
+      "sha256": "5b4fef9afafc107e138ca1c38a60896a756b1ddb06d370cd9b033dced09d65f0",
+      "bytes": 2009327
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1a6965c14309d0ed9c706be0/44841fdf5c14447e9f7c01c0580d21fc/environment/oracle_attempts.jsonl",
+      "sha256": "271fbca923998b9850fa1893394064a572d2c3455ae29ebf1d8615abb558c93f",
+      "bytes": 181656
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-1a6965c14309d0ed9c706be0/44841fdf5c14447e9f7c01c0580d21fc/decision_events.jsonl",
+      "sha256": "f1a045c6380dd6bb1cb488eb5479aa5f78a2486532e2a00423b2ed4720586e89",
+      "bytes": 15906
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-829f81d1c8b6dff9869aa711/result.json",
+      "sha256": "9f07e57ccac9ecbbb8efdba9bb53f40e01516281d4a483b4ac79549aabcc3581",
+      "bytes": 138371
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-829f81d1c8b6dff9869aa711/receipt.json",
+      "sha256": "7a7f9f6aafa58f37965ee481e6d0c217b06416324ed640c4b58cca29d4a06627",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-829f81d1c8b6dff9869aa711/claim.json",
+      "sha256": "b0eeb0cc49398078da615e378cdebc68607b6fef857f9edeff8ce430cde31dcf",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-829f81d1c8b6dff9869aa711/8b6b8c364a17426abadc6b31e87a2b30/decisions.jsonl",
+      "sha256": "03ecceca89b0bfcd771bb32aa4774d0ac0443183d61ba7881fa1e842f849b00c",
+      "bytes": 466476
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-829f81d1c8b6dff9869aa711/8b6b8c364a17426abadc6b31e87a2b30/rpc/rpc.jsonl",
+      "sha256": "1d0426549d0c8f81ad5db8cbed6687a2b1af92047a40883b3ca366116447c134",
+      "bytes": 1443348
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-829f81d1c8b6dff9869aa711/8b6b8c364a17426abadc6b31e87a2b30/environment/oracle_attempts.jsonl",
+      "sha256": "0d3b21766111c0e9f3f6e0c3ce6bba94a614520cc7b4305127f5e59c1844a903",
+      "bytes": 175571
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-829f81d1c8b6dff9869aa711/8b6b8c364a17426abadc6b31e87a2b30/decision_events.jsonl",
+      "sha256": "f74c164b9320eabf92a33ddd65aa5f24a4901c2b40fab59370afa3ab73d7eced",
+      "bytes": 13104
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-38ae55456a55c01858bdaca6/result.json",
+      "sha256": "3fc8001aa021f8ff6a6e5562112f372f8f547b9b2cbaac2718ae6943753b2f25",
+      "bytes": 671054
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-38ae55456a55c01858bdaca6/receipt.json",
+      "sha256": "bf04cc17b114d3e708db92dd5218f76b6b10e29093284aecce855a25beb0eba6",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-38ae55456a55c01858bdaca6/claim.json",
+      "sha256": "76b83763594eac64935b0e9b1b2181fb0139df6e961d781ee0fcef01aa17b513",
+      "bytes": 1572
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-38ae55456a55c01858bdaca6/9aa097206a4c454c8ae74b5b544f0c80/decisions.jsonl",
+      "sha256": "e438feffa00a31a467fe8de62b62b1e25aa953884011612a7dc5ddadff9a7f5c",
+      "bytes": 2914049
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-38ae55456a55c01858bdaca6/9aa097206a4c454c8ae74b5b544f0c80/rpc/rpc.jsonl",
+      "sha256": "4f42af0d0872185907116df778546dee962ce24dcdb26d0ad765544566084931",
+      "bytes": 2124062
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-38ae55456a55c01858bdaca6/9aa097206a4c454c8ae74b5b544f0c80/environment/oracle_attempts.jsonl",
+      "sha256": "238c43d76072976709eef8cc5c548d681e17df5eb138bc93784316914346a645",
+      "bytes": 163776
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-38ae55456a55c01858bdaca6/9aa097206a4c454c8ae74b5b544f0c80/decision_events.jsonl",
+      "sha256": "00ed3fc03a4436bd4fb5e371e1834f9023822d18acdf3e4b09720b59428326d8",
+      "bytes": 17352
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-637e688029854bff551ffb68/result.json",
+      "sha256": "92177e12c0328dca62ff065968c368284172c75a28226a2cc4186caa4dce8e0b",
+      "bytes": 188188
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-637e688029854bff551ffb68/receipt.json",
+      "sha256": "3ae1ad43291bf6ed130e99f2c619b11f2b2c6cedeae8354b237a65b731abfbf6",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-637e688029854bff551ffb68/claim.json",
+      "sha256": "b60f9c6d0974b41f309dd94bf728280261db1273683befa0ba1f712baa626337",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-637e688029854bff551ffb68/957a0447f6894f0f8fc7cd823c8d919f/decisions.jsonl",
+      "sha256": "5404673051ff41df359d875aed490c65038db22af0b2867b1dcb40e99e507b44",
+      "bytes": 479858
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-637e688029854bff551ffb68/957a0447f6894f0f8fc7cd823c8d919f/rpc/rpc.jsonl",
+      "sha256": "e66951c64f437308f7f105838ef2edc3df809ab2aa87b3a13846b6983e651eb3",
+      "bytes": 1898792
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-637e688029854bff551ffb68/957a0447f6894f0f8fc7cd823c8d919f/environment/oracle_attempts.jsonl",
+      "sha256": "67cbb46b0cef506549873cbbd8836e1ea6c58cfc96478be6e39d6dc2a4293916",
+      "bytes": 204598
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-637e688029854bff551ffb68/957a0447f6894f0f8fc7cd823c8d919f/decision_events.jsonl",
+      "sha256": "31f946b22eb7a7f85037aad8653e624f8c2f60914a1bf64bb55d61de071c2bab",
+      "bytes": 15288
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68807310bf257b755381e67b/result.json",
+      "sha256": "a3c68ad59772d99dfbf3f4cc47cf00631eaa05c0661052a93848bab004f5e261",
+      "bytes": 1481828
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68807310bf257b755381e67b/receipt.json",
+      "sha256": "cd36d966f6ffa2ce3e8431fe5e1ea0f863f352b96c556a49463d205ae52d5f0b",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68807310bf257b755381e67b/claim.json",
+      "sha256": "7ef0225b143de49c51c5bed3f8e12d6818983b83ff2b876c4cdfd886763e890e",
+      "bytes": 1573
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68807310bf257b755381e67b/f6abf1c4455b4e3eb9ff078b2c10e737/decisions.jsonl",
+      "sha256": "5f66acfb3df47957dc42520f589f4599653b580fb5cff865c8c13196f2160836",
+      "bytes": 2270715
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68807310bf257b755381e67b/f6abf1c4455b4e3eb9ff078b2c10e737/rpc/rpc.jsonl",
+      "sha256": "910f109d154f5edcb48f5745ebc7265a7d21b7dbd707ef00e178470410c0bca1",
+      "bytes": 1471029
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68807310bf257b755381e67b/f6abf1c4455b4e3eb9ff078b2c10e737/environment/oracle_attempts.jsonl",
+      "sha256": "d5d0e6bfa742b0ddca8f586c1f47fbba0a286247ff9619251218db2b22644f1c",
+      "bytes": 49517
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68807310bf257b755381e67b/f6abf1c4455b4e3eb9ff078b2c10e737/decision_events.jsonl",
+      "sha256": "ec26368d6fe21f4e37ad7b2cea89fac0eedb5deea1b7f35d75cb503097f1a813",
+      "bytes": 15183
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d162af62e35cb5b102460cac/result.json",
+      "sha256": "b036a3710313abb535bed9ce55603ffee4915099676393028f45f0da30e5a3dd",
+      "bytes": 138640
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d162af62e35cb5b102460cac/receipt.json",
+      "sha256": "0c158f2228aae5dd1011ebc052de88c65c9824282b4d4eb83dcf14ba5745f9d4",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d162af62e35cb5b102460cac/claim.json",
+      "sha256": "8208b3230c69afdfa62273083fd0c9b3f4866d2ab3b8517b83f4429cc1fa9a4f",
+      "bytes": 1595
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d162af62e35cb5b102460cac/9453ca63374b498298f25bb786d0c266/decisions.jsonl",
+      "sha256": "02f1389cef12a540dd91dce53133f01412dabac608dc77de4197d7fa75d793fb",
+      "bytes": 458899
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d162af62e35cb5b102460cac/9453ca63374b498298f25bb786d0c266/rpc/rpc.jsonl",
+      "sha256": "8345226dcb9f1339586c49798a66cd6445ea0122510a3280199b3dc0c143e763",
+      "bytes": 1890675
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d162af62e35cb5b102460cac/9453ca63374b498298f25bb786d0c266/environment/oracle_attempts.jsonl",
+      "sha256": "b4a5d0f78fd7fec2736e91976496c5649e936b0e965d5757e55dbbedf08950da",
+      "bytes": 400474
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d162af62e35cb5b102460cac/9453ca63374b498298f25bb786d0c266/decision_events.jsonl",
+      "sha256": "273d28f9f174bbf450e8ae4644f7efab2058fbc1d1e979ca28516d7aff73113e",
+      "bytes": 13832
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4fb0bc5660e5cbea5ab19fe/result.json",
+      "sha256": "d67e4b7d3233d73695df34a8961e7a82758aa7912359bb6b2fdb3e6f7f07190b",
+      "bytes": 667887
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4fb0bc5660e5cbea5ab19fe/receipt.json",
+      "sha256": "e7832f786de1d55c08b373fd2ed6c5c04f009139c86c7afd6c4895a1538ba37f",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4fb0bc5660e5cbea5ab19fe/claim.json",
+      "sha256": "6d33b46011003e35e298aa68c420e7a95d56680ff7e63b8eb416e4385b886412",
+      "bytes": 1592
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4fb0bc5660e5cbea5ab19fe/95ae28ab308c4104997fbf1b9aaec220/decisions.jsonl",
+      "sha256": "5b47cf92e8c904f13f1066ed6107f82c2e39590e94a2cbfe4a0f3f1d01c3b1ca",
+      "bytes": 2039496
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4fb0bc5660e5cbea5ab19fe/95ae28ab308c4104997fbf1b9aaec220/rpc/rpc.jsonl",
+      "sha256": "d34ef078dcf5f8c614ba03656fcf87515448c147fd612fe0b928098940dd5235",
+      "bytes": 1326017
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4fb0bc5660e5cbea5ab19fe/95ae28ab308c4104997fbf1b9aaec220/environment/oracle_attempts.jsonl",
+      "sha256": "110666d083f698538b6200b9bfb2a8394bae1ead2069a74b5dd4cfe66fef01c1",
+      "bytes": 215459
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4fb0bc5660e5cbea5ab19fe/95ae28ab308c4104997fbf1b9aaec220/decision_events.jsonl",
+      "sha256": "a4534ed716d9a133c18260d0a65b9f2f24b9c5458df48b5e4f1b74b34f29e6c6",
+      "bytes": 11568
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b08dc4996f12b404a474fe8a/result.json",
+      "sha256": "c22370f76dcc57e2c6a29339ab3df9c97f056e546a289d53b28e71ebc20e1bf2",
+      "bytes": 187798
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b08dc4996f12b404a474fe8a/receipt.json",
+      "sha256": "b524ea0e5b52a9b573ff8d48749c2de8427ae65eee9dc7ea3e622b54c6d13e03",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b08dc4996f12b404a474fe8a/claim.json",
+      "sha256": "4a0cd58fa6f9ff4fd2a014862205ebced085d529c9766243a3a4a6d32a9f9aaa",
+      "bytes": 1596
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b08dc4996f12b404a474fe8a/8a7d9534195241be9bb477e52255ac16/decisions.jsonl",
+      "sha256": "552fc931a6930e0805d94f1002d7bf905aea076e31ca3dc69f4b1dcadddf6bae",
+      "bytes": 483475
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b08dc4996f12b404a474fe8a/8a7d9534195241be9bb477e52255ac16/rpc/rpc.jsonl",
+      "sha256": "7b6f033a00e91813974ea9f9a9049fbaa4bebcfc44cefc4b146b71a7f7db0e13",
+      "bytes": 1619568
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b08dc4996f12b404a474fe8a/8a7d9534195241be9bb477e52255ac16/environment/oracle_attempts.jsonl",
+      "sha256": "f3931cefb9b5293a40dd9c2dc021ee955637be305e2dcb7cfbfc75cb363821a0",
+      "bytes": 146231
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b08dc4996f12b404a474fe8a/8a7d9534195241be9bb477e52255ac16/decision_events.jsonl",
+      "sha256": "92f1301aceec9c556b781abfd5384f00c714c1e07d0654ad1c0ec495bb603b7a",
+      "bytes": 14560
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8ddd13950a3b79b7029e9ad3/result.json",
+      "sha256": "093291e9198a1ca405f4365c03e7c66e4f11465418c47092c56c140364b585f7",
+      "bytes": 1480739
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8ddd13950a3b79b7029e9ad3/receipt.json",
+      "sha256": "f52ac95e505ccebb88ff748255e2b82ba342f64bc186609b64db6ab9ac792cb0",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8ddd13950a3b79b7029e9ad3/claim.json",
+      "sha256": "59dfc4fb4494a954d3845bdd0c5bba9a56f0311dea29cf2117bc7eb7a2ba2a7c",
+      "bytes": 1592
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8ddd13950a3b79b7029e9ad3/b45a364a90f246a29b83f596e89735a3/decisions.jsonl",
+      "sha256": "5e35d989100cecb9625ab357eca31e8e13068dbe6e21bcbf1e2c202cc09f2b91",
+      "bytes": 1553555
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8ddd13950a3b79b7029e9ad3/b45a364a90f246a29b83f596e89735a3/rpc/rpc.jsonl",
+      "sha256": "95c78a10604621c4464f1fa787d8d3d7e18ed27a4f8076c1ead39cf5b2c14fab",
+      "bytes": 1369279
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8ddd13950a3b79b7029e9ad3/b45a364a90f246a29b83f596e89735a3/environment/oracle_attempts.jsonl",
+      "sha256": "d497702b79a3d5269e466f8645d9bc2de7d6804f26bffdcdc4223815e8e8f3e2",
+      "bytes": 77479
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8ddd13950a3b79b7029e9ad3/b45a364a90f246a29b83f596e89735a3/decision_events.jsonl",
+      "sha256": "7b7a6cb28e9b264c2196a7d88861e85f165cfb7df0a6a344ac206e039fa6141e",
+      "bytes": 13014
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e055a90cdea61f8b88b11b9d/result.json",
+      "sha256": "147e7feb28d697c1cc5289a3565baad767372ff412267f1962774eb8e4beed74",
+      "bytes": 139284
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e055a90cdea61f8b88b11b9d/receipt.json",
+      "sha256": "29e00fbb456420ad9d4aa1cb636a5ceba3aec232b0bd803b6b3496ad059ab007",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e055a90cdea61f8b88b11b9d/claim.json",
+      "sha256": "6770f2c73d83c41415375d525a554ed86dee42f63f68239a01c5bca074292ffc",
+      "bytes": 1605
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e055a90cdea61f8b88b11b9d/1d82a75114a547bfaf721a65f549c231/decisions.jsonl",
+      "sha256": "24e04538619f3e90706c9b3e3520b37ca1d74143f0fc8e42500ae095d108d464",
+      "bytes": 543771
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e055a90cdea61f8b88b11b9d/1d82a75114a547bfaf721a65f549c231/rpc/rpc.jsonl",
+      "sha256": "a9afa68efd6f3d300471f997989e4d74cef442ebcc39cf80f2e3e55c23b0622b",
+      "bytes": 2277765
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e055a90cdea61f8b88b11b9d/1d82a75114a547bfaf721a65f549c231/environment/oracle_attempts.jsonl",
+      "sha256": "0e528fa9dd5588a1551a67b98ac906f5dfebdccdcb17d2e5f4894a69f4e261cb",
+      "bytes": 316071
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e055a90cdea61f8b88b11b9d/1d82a75114a547bfaf721a65f549c231/decision_events.jsonl",
+      "sha256": "a0c3a0f791594d261caa6c530ee9de3ddbb3ac9f75c326cb2e7ccf13b78b98fe",
+      "bytes": 17472
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3d33302d79a3e5a49db8a089/result.json",
+      "sha256": "c99c2210bc545a75c08b2fdeef13b75a2049a1abe267b19f4682098f15a06a8f",
+      "bytes": 670362
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3d33302d79a3e5a49db8a089/receipt.json",
+      "sha256": "e864a86837ea4fc161644957a0c2796db6f892708748f43a490f474331971d5c",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3d33302d79a3e5a49db8a089/claim.json",
+      "sha256": "59bdd176249279cac031c13e9bba1ce287371faaeef96ec331207f34dd1f7272",
+      "bytes": 1616
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3d33302d79a3e5a49db8a089/4565ba51006e4ad598cb91c172486577/decisions.jsonl",
+      "sha256": "d4914829f2d48a958b73c394e3e5f9f8e5db554091df56701c20dac7704ba5ef",
+      "bytes": 3311088
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3d33302d79a3e5a49db8a089/4565ba51006e4ad598cb91c172486577/rpc/rpc.jsonl",
+      "sha256": "243ef12bac9c79bd83b317981c688a106449d8711b90c57aba4c73b842d8152f",
+      "bytes": 2292693
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3d33302d79a3e5a49db8a089/4565ba51006e4ad598cb91c172486577/environment/oracle_attempts.jsonl",
+      "sha256": "bce226e8c9d848abf610ec905168960132bfede5e3ecf01fe57cf864420c570a",
+      "bytes": 127033
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3d33302d79a3e5a49db8a089/4565ba51006e4ad598cb91c172486577/decision_events.jsonl",
+      "sha256": "bea3ccacfd6717a3958bef9307f7ab74c008ce27dd7bc866c0bce092aa845b92",
+      "bytes": 18798
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-894abe64cc709063a80a0651/result.json",
+      "sha256": "683a16bd0dd654d9a7db26373d7203ceb6ecf16376f842af1b8deb3ce185edf3",
+      "bytes": 185745
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-894abe64cc709063a80a0651/receipt.json",
+      "sha256": "79ea870d12f563986f18e3e5b0d6c3c179ddfa07a6bd2bb04754592d0dd52a91",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-894abe64cc709063a80a0651/claim.json",
+      "sha256": "39ea8664d98545efe176799390ad8e55cef2068dae810aa8ac38e2b5c1540060",
+      "bytes": 1604
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-894abe64cc709063a80a0651/3dab40158dc54f8b81a1ad72404eeb14/decisions.jsonl",
+      "sha256": "d79a7c567e5e31f32095b019c22a77fb029c09ef75db003d1df2a042556beb20",
+      "bytes": 431313
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-894abe64cc709063a80a0651/3dab40158dc54f8b81a1ad72404eeb14/rpc/rpc.jsonl",
+      "sha256": "0d50c871797e3500943c1c60e19cf474072babe4eb666d0d764f3078074d0d1e",
+      "bytes": 1525479
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-894abe64cc709063a80a0651/3dab40158dc54f8b81a1ad72404eeb14/environment/oracle_attempts.jsonl",
+      "sha256": "4f28b15f74422730ac120458584e92f763f1bd07ef76e673d5148cafb12d4a03",
+      "bytes": 114301
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-894abe64cc709063a80a0651/3dab40158dc54f8b81a1ad72404eeb14/decision_events.jsonl",
+      "sha256": "89aade5edcb8239363b699479ba7666014d57ee56afad9639d0ab3fbeede9b2b",
+      "bytes": 13104
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-162b641b9c795ec8cbbca2cd/result.json",
+      "sha256": "41352aef305a3c986b1420b1e7dbc2556fcbc5c83bc552689b5943599ac4e926",
+      "bytes": 1481981
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-162b641b9c795ec8cbbca2cd/receipt.json",
+      "sha256": "ebd4f4ba6c76137bd27f03be3ab5066787680514e4931f57753406d550aaf299",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-162b641b9c795ec8cbbca2cd/claim.json",
+      "sha256": "583bb72667fb1db0dc9106c063adfe58431a721c955ecdcc25b2b69d41bd4336",
+      "bytes": 1599
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-162b641b9c795ec8cbbca2cd/fafc4e98a51d438b875b7657ba13e4c6/decisions.jsonl",
+      "sha256": "6463fee8a6502ec965f2d4ab9eb0e98da4076c1b264f79bd675e998c80e992ce",
+      "bytes": 2238705
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-162b641b9c795ec8cbbca2cd/fafc4e98a51d438b875b7657ba13e4c6/rpc/rpc.jsonl",
+      "sha256": "df8a978dc2632c7a029cadce6634a8c82bd0796d05ca0f1570a331d73b6f5136",
+      "bytes": 1311334
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-162b641b9c795ec8cbbca2cd/fafc4e98a51d438b875b7657ba13e4c6/environment/oracle_attempts.jsonl",
+      "sha256": "d34c2954e36c178e50aec93e6835f1f36ef9405353a0b4fe493d7f55ab64942d",
+      "bytes": 111511
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-162b641b9c795ec8cbbca2cd/fafc4e98a51d438b875b7657ba13e4c6/decision_events.jsonl",
+      "sha256": "270caeabc506ea9065bcbab6bd2b1985d8b322f017008aa1d5e12560001e2a42",
+      "bytes": 15183
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dc0be1ae32cc4968091e77db/result.json",
+      "sha256": "a1625153189681466a1c8b65fee90399d24dc1173213dfb54123418348d683fa",
+      "bytes": 138137
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dc0be1ae32cc4968091e77db/receipt.json",
+      "sha256": "87b225905658274679273936e8eb73af96fb6d8927237ee9189bffddff3a6434",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dc0be1ae32cc4968091e77db/claim.json",
+      "sha256": "8b565acf9239ddb34b026c9698265f7b9313c05aeb3ef12f999a944fa16ec3fc",
+      "bytes": 1600
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dc0be1ae32cc4968091e77db/5a5e3f2f68e5472b94148af137c5c7f9/decisions.jsonl",
+      "sha256": "a4fd97f4a4ff19d9f30f4d19466e2376b7ff35a3a5f85719b6a47c2297596b18",
+      "bytes": 509007
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dc0be1ae32cc4968091e77db/5a5e3f2f68e5472b94148af137c5c7f9/rpc/rpc.jsonl",
+      "sha256": "2f13f83e97ed1ec8fb828ef5c5dbe998cc267409c9ec1ca68e40f8727c4313fd",
+      "bytes": 2170814
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dc0be1ae32cc4968091e77db/5a5e3f2f68e5472b94148af137c5c7f9/environment/oracle_attempts.jsonl",
+      "sha256": "c8edac7b0c4541da69545c06b57418c9d0ad71dc3d80cccd89d0f596514da64d",
+      "bytes": 394114
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-dc0be1ae32cc4968091e77db/5a5e3f2f68e5472b94148af137c5c7f9/decision_events.jsonl",
+      "sha256": "280d8e0325ad622efb304f88d4d531f6061166557f2d8de0b5ac744e8c47955b",
+      "bytes": 15288
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b7a01d4f004bb2a3b984360/result.json",
+      "sha256": "3e613b9107a28022e944946522938b5f9ef717514cb66cb6632fbe19f4bf78d2",
+      "bytes": 669986
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b7a01d4f004bb2a3b984360/receipt.json",
+      "sha256": "9d5269f5d00c325d26fe213f9636df7d823fd4da098adc9f66e67a43147c104b",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b7a01d4f004bb2a3b984360/claim.json",
+      "sha256": "a71e58ea613f63768b3f7d91f96f57bc489756751d59b19a58721f5f97890d9a",
+      "bytes": 1596
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b7a01d4f004bb2a3b984360/0bb7ba24fd0d4c6d9ba39b194557a2dc/decisions.jsonl",
+      "sha256": "36b4576e3c3f75ad1d83386e66b9da36a677cc1cb9456e0e2f740fdae0ca0914",
+      "bytes": 3189069
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b7a01d4f004bb2a3b984360/0bb7ba24fd0d4c6d9ba39b194557a2dc/rpc/rpc.jsonl",
+      "sha256": "aa5b84a91921c74e0ba416686713a54129d9b5f948b2c808f8af19296893e104",
+      "bytes": 2178254
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b7a01d4f004bb2a3b984360/0bb7ba24fd0d4c6d9ba39b194557a2dc/environment/oracle_attempts.jsonl",
+      "sha256": "ded5fae99f267a9cf124921c8bf27bb89c290eff57e1e15fe049cceab85eb516",
+      "bytes": 268594
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b7a01d4f004bb2a3b984360/0bb7ba24fd0d4c6d9ba39b194557a2dc/decision_events.jsonl",
+      "sha256": "1fc27dca364bfb8504d6611978eee11fbc557df71fae1888ad1d495087b2b58b",
+      "bytes": 18075
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-5808a431e2c3d13d62027bd2/result.json",
+      "sha256": "7760ca97fd00999d2de59baa7f20aac5c351781a0380ae028076060c450fb9eb",
+      "bytes": 186132
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-5808a431e2c3d13d62027bd2/receipt.json",
+      "sha256": "3d2bb24793f35e88af5b524925b4f21b35fb343bbb40a47548d29e154be4d819",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-5808a431e2c3d13d62027bd2/claim.json",
+      "sha256": "7a0fa450a445a31cb1470b0cf24bab073298d68c9832f5dcf6fb10bf9a90343a",
+      "bytes": 1600
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-5808a431e2c3d13d62027bd2/8f267b7889ed4f6e85510bad62e56885/decisions.jsonl",
+      "sha256": "13c29627feef5e4c714ef16028ebd1939b22debf0b00ac42cb29ec1f3540ea83",
+      "bytes": 449921
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-5808a431e2c3d13d62027bd2/8f267b7889ed4f6e85510bad62e56885/rpc/rpc.jsonl",
+      "sha256": "10024b81503cf32d22ad6b266c2876fb426bc77f0cb0bd803b77419a38a8c543",
+      "bytes": 1486339
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-5808a431e2c3d13d62027bd2/8f267b7889ed4f6e85510bad62e56885/environment/oracle_attempts.jsonl",
+      "sha256": "04a6ea54c9f5d8f9d21c446b9166a0819451f291cb2b6f6d936db82f21099082",
+      "bytes": 126800
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-5808a431e2c3d13d62027bd2/8f267b7889ed4f6e85510bad62e56885/decision_events.jsonl",
+      "sha256": "3dc464aa9648c9e4710013decfb7e2ebcb3a950b9d62ec55ebc6bc2f58f08b70",
+      "bytes": 13832
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f09b3e784a0ddc04b0a7317a/result.json",
+      "sha256": "2de62d470b8c551222ecefc8d6cf990763d8ff817f29861b8f28eab41978fb65",
+      "bytes": 1480450
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f09b3e784a0ddc04b0a7317a/receipt.json",
+      "sha256": "4d9e45981fa73253639c39147e5e1736ef6a55a68b9ef420635413e70490893e",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f09b3e784a0ddc04b0a7317a/claim.json",
+      "sha256": "ef0faa92c07664c6310488f10d3edb80197e4a252116f1e59f72eab7e2f94cb3",
+      "bytes": 1596
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f09b3e784a0ddc04b0a7317a/e35a4e313fa7484ea6e4df77081f41ec/decisions.jsonl",
+      "sha256": "b51425ea28205b3e22a5caa5b2ee48f4022f33820a8e0f6d0499e9e1a90131f3",
+      "bytes": 1739126
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f09b3e784a0ddc04b0a7317a/e35a4e313fa7484ea6e4df77081f41ec/rpc/rpc.jsonl",
+      "sha256": "10bedc4af8a3c712d616ce41647edfe56877ef5b7417f4ee1d5a59cb697bcb2a",
+      "bytes": 1427669
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f09b3e784a0ddc04b0a7317a/e35a4e313fa7484ea6e4df77081f41ec/environment/oracle_attempts.jsonl",
+      "sha256": "4aff204e5ec4cdd4c45faf66f848633d29bbca5939da378c54b2d72259164711",
+      "bytes": 126805
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f09b3e784a0ddc04b0a7317a/e35a4e313fa7484ea6e4df77081f41ec/decision_events.jsonl",
+      "sha256": "46b3426325af7fc81335486dea0ca41f76b923c43fda7fb94c7f4bbd61e92006",
+      "bytes": 12291
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d0e5088457f94df5fb734d2f/result.json",
+      "sha256": "66c45bea35cd598248937bd3bc527003116f2ddb693fcc9e539c9924696c6743",
+      "bytes": 137357
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d0e5088457f94df5fb734d2f/receipt.json",
+      "sha256": "66a28eaaa29a2aef84fa4df8758b4085c98838207532890a3e06b30f66e54f62",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d0e5088457f94df5fb734d2f/claim.json",
+      "sha256": "cad9110a31ebd2f4737d7954500a9211d18449321a071f4a55260fdb34f6b4ad",
+      "bytes": 1601
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d0e5088457f94df5fb734d2f/16326cbc066146aeac9698deee4acf73/decisions.jsonl",
+      "sha256": "28b965fc88981426debad154a6dd8d3a87d97fd79e44a50b0879821ff1a3d283",
+      "bytes": 449162
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d0e5088457f94df5fb734d2f/16326cbc066146aeac9698deee4acf73/rpc/rpc.jsonl",
+      "sha256": "454744032e7535e9239202a39f2a89f1a328c66efbe24a01e0d7b44c46443d38",
+      "bytes": 2671850
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d0e5088457f94df5fb734d2f/16326cbc066146aeac9698deee4acf73/environment/oracle_attempts.jsonl",
+      "sha256": "c30d046aacf6946af73904dc96d6b4f7565b2ab02dac9481ed3998099a1f0312",
+      "bytes": 426237
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d0e5088457f94df5fb734d2f/16326cbc066146aeac9698deee4acf73/decision_events.jsonl",
+      "sha256": "6b9cb040494b54e629c3e08d1daeff95b2417166b28f59cdbd91868a051bd4d8",
+      "bytes": 13832
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-373029d9b12c74627cb8e1e9/result.json",
+      "sha256": "2a26374cbf567f8fdafbacf984d58783eebe2e7fa47f547de35a3db88df31c96",
+      "bytes": 669228
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-373029d9b12c74627cb8e1e9/receipt.json",
+      "sha256": "3147484d7e73f508206d9166d4403d8aadf98f5b1c75a27a6d975a4c2164b62c",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-373029d9b12c74627cb8e1e9/claim.json",
+      "sha256": "28f0c70f3194ba29276e1d70be672ba2f8b22f422bf3ba3192851554f474c2c5",
+      "bytes": 1612
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-373029d9b12c74627cb8e1e9/6a5b31234f7645c8a83bc568df5cf1be/decisions.jsonl",
+      "sha256": "11cceb5b3234f800ab3dd2d67cc94072f7a3a37eafd709d5802d8ba74a13a970",
+      "bytes": 2809003
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-373029d9b12c74627cb8e1e9/6a5b31234f7645c8a83bc568df5cf1be/rpc/rpc.jsonl",
+      "sha256": "e59d9536c84a8fb679701185fbbb2102e2c09e0ff616efeb72f135e9b63ba08e",
+      "bytes": 3028571
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-373029d9b12c74627cb8e1e9/6a5b31234f7645c8a83bc568df5cf1be/environment/oracle_attempts.jsonl",
+      "sha256": "94bc4281510e0f7b3255f2384d3b886a8a2b5ad8d4080ab24be2c82df3a0ebb2",
+      "bytes": 356809
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-373029d9b12c74627cb8e1e9/6a5b31234f7645c8a83bc568df5cf1be/decision_events.jsonl",
+      "sha256": "09226aa29e53fb93e5743b274b78cebcd14730d0a40c27aa904d189cf733fbad",
+      "bytes": 16629
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-87c47cdf901aa65da9a4fd9d/result.json",
+      "sha256": "1f6b838c039d5afdc5b3519becf9f9569e13f1f3d9d475b9b555bf9a8d71d29d",
+      "bytes": 186886
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-87c47cdf901aa65da9a4fd9d/receipt.json",
+      "sha256": "5b0520f15a9cf50245aaba35bf2dfe6f7b96920abe89a0e5df564e8aa74b8e2b",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-87c47cdf901aa65da9a4fd9d/claim.json",
+      "sha256": "0870801a96384004d0afc556e9ec7472a6b4705dea8eb4c01f2a14ea2047a9a0",
+      "bytes": 1600
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-87c47cdf901aa65da9a4fd9d/334b51bf7caa4658836bffa84c6b31fd/decisions.jsonl",
+      "sha256": "d53b491af918e3d81a6a01419b26cc63931ba0e0ebc030fec9f17778ded3a7aa",
+      "bytes": 504245
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-87c47cdf901aa65da9a4fd9d/334b51bf7caa4658836bffa84c6b31fd/rpc/rpc.jsonl",
+      "sha256": "253ea00e0ce971ac17d9c58880204e9c73875d374232bc4890d6bbcb38df8ff8",
+      "bytes": 2163510
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-87c47cdf901aa65da9a4fd9d/334b51bf7caa4658836bffa84c6b31fd/environment/oracle_attempts.jsonl",
+      "sha256": "7b2d72c3b8d6c61ab95d62e3c45ff42b1d5a0a65804cf7d3aa72c353f4d9e0c3",
+      "bytes": 211834
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-87c47cdf901aa65da9a4fd9d/334b51bf7caa4658836bffa84c6b31fd/decision_events.jsonl",
+      "sha256": "e69829632080ce16cf2208f9fa558db07641b12e1b7a2c31fac5acaab7f4f5d2",
+      "bytes": 15288
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-dc0639b5ff8be613f1c8c6f0/result.json",
+      "sha256": "fbdefae4df5e4542573352247d273a3ef2827ebae6c06025b77f3c773324140c",
+      "bytes": 1480820
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-dc0639b5ff8be613f1c8c6f0/receipt.json",
+      "sha256": "19340dd0444b74190d2133155e62b8cd1560c6b750d4ee3cf03648fa36226e5c",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-dc0639b5ff8be613f1c8c6f0/claim.json",
+      "sha256": "43b624e64fffa39e13c71ba137e9cec4c6203448a449c93a236d2065e71b39ed",
+      "bytes": 1596
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-dc0639b5ff8be613f1c8c6f0/5c2343bf580045209f94567112887580/decisions.jsonl",
+      "sha256": "611613fb83141a44b1aa6160c147c015b2fba3147ce6c5b12ac16ee2dca0bc7d",
+      "bytes": 1863038
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-dc0639b5ff8be613f1c8c6f0/5c2343bf580045209f94567112887580/rpc/rpc.jsonl",
+      "sha256": "31c1cf4189c8b39daeb5655e576e0bb70ea0ccc6068b226db29cb0ffe3167eba",
+      "bytes": 2178179
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-dc0639b5ff8be613f1c8c6f0/5c2343bf580045209f94567112887580/environment/oracle_attempts.jsonl",
+      "sha256": "4c7dea64694d075830a24819c579d2b40d9f6add90d9beeb8415015669050ad3",
+      "bytes": 153470
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-dc0639b5ff8be613f1c8c6f0/5c2343bf580045209f94567112887580/decision_events.jsonl",
+      "sha256": "1c6df5a8b744bf743cb9bf0cb54035d22ddc18c15e10c3c751f8efd272b48564",
+      "bytes": 13014
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f7815acc56142f0958252762/result.json",
+      "sha256": "a743697fb198bd9c45ef70dd0cc7e689534289086b33bd6f23d6d968486d8003",
+      "bytes": 140404
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f7815acc56142f0958252762/receipt.json",
+      "sha256": "8a0fb52b8c0b2d97fd9fc75aef64e5a30f65163d8817308ea1c0672e2717e60b",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f7815acc56142f0958252762/claim.json",
+      "sha256": "8eb938b7605a1c474dc4418f6908020d3ef31b9c6287392c45c1f10ce1a63114",
+      "bytes": 1604
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f7815acc56142f0958252762/69aca7178cf94dadad1f280b99d76240/decisions.jsonl",
+      "sha256": "1fae6532e524e78412128dfcfdd9b9ad58ddf77832d02405ed3494adc6d72443",
+      "bytes": 577903
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f7815acc56142f0958252762/69aca7178cf94dadad1f280b99d76240/rpc/rpc.jsonl",
+      "sha256": "48791a1c0536b23bf87370a4e59090f5f4cc9e23d1879b8404c553f877de87d2",
+      "bytes": 3003080
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f7815acc56142f0958252762/69aca7178cf94dadad1f280b99d76240/environment/oracle_attempts.jsonl",
+      "sha256": "b491eeaee9773e80181b10560cb38dc40c8311be9d98f7a4fead8c12e5edeed6",
+      "bytes": 320043
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f7815acc56142f0958252762/69aca7178cf94dadad1f280b99d76240/decision_events.jsonl",
+      "sha256": "87eeed86ca5508549dd2c4dad8b8734b901cf539304ac6084821f9a68517d8b9",
+      "bytes": 16744
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-6f32364178f6566ce2b61257/result.json",
+      "sha256": "b84ef4de5c296b76afd7ca976a49d60d95f8327acf608940c063308f2037ceda",
+      "bytes": 670207
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-6f32364178f6566ce2b61257/receipt.json",
+      "sha256": "dc367acd90c004e4cc1db9b847be24632f7043d03bed1f0b7adc52fe5e7428ca",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-6f32364178f6566ce2b61257/claim.json",
+      "sha256": "799a980ce940ebb847f8fa7a3b4234ccafa59671f437574a46149a9c9d1545d8",
+      "bytes": 1600
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-6f32364178f6566ce2b61257/aed1c66b4e2e40e6b88c0c7e2583cabe/decisions.jsonl",
+      "sha256": "c8e756dcf3dbd36db5370bddb6a4fa27c2204eadf181201aa3d37dacbc58d607",
+      "bytes": 2249964
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-6f32364178f6566ce2b61257/aed1c66b4e2e40e6b88c0c7e2583cabe/rpc/rpc.jsonl",
+      "sha256": "894529f53e73b416946604145cd4c15e2b1800bb37dc83ee38b2df6b427e2012",
+      "bytes": 2417101
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-6f32364178f6566ce2b61257/aed1c66b4e2e40e6b88c0c7e2583cabe/environment/oracle_attempts.jsonl",
+      "sha256": "d7da08dcd38cf2af9c5b7e3cdccbd956bcc76f6932b9dddd91835ccd40a18846",
+      "bytes": 341115
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-6f32364178f6566ce2b61257/aed1c66b4e2e40e6b88c0c7e2583cabe/decision_events.jsonl",
+      "sha256": "383d7f82d09074742788e4bae9af978354edafe16505669d59be7902bc3e633a",
+      "bytes": 15906
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fa513c699bfc955f9424e95e/result.json",
+      "sha256": "c0d7a3803a233e6d265f0081cb87d1d31b9658068ea3a5998573389aa6f821d8",
+      "bytes": 190107
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fa513c699bfc955f9424e95e/receipt.json",
+      "sha256": "f4cae3dc63ef5a041f5c877e4ce10b34e78b30f41dbb3a53175a4bd637cc69fd",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fa513c699bfc955f9424e95e/claim.json",
+      "sha256": "a164919e0ae7986b47d34f6febd429b0723fd84073ef2616f971fd2a048a22a8",
+      "bytes": 1604
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fa513c699bfc955f9424e95e/0223c82a20914501b4b2484f175336cc/decisions.jsonl",
+      "sha256": "b49c5bbc5123a9cfb2a14362f4d489d62e919adfb8000f53d34af62d3143f040",
+      "bytes": 666308
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fa513c699bfc955f9424e95e/0223c82a20914501b4b2484f175336cc/rpc/rpc.jsonl",
+      "sha256": "3535a2b112a9bc6778705e1dc46997f439a77d22fc66023859bb1dbf4d330b80",
+      "bytes": 3187621
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fa513c699bfc955f9424e95e/0223c82a20914501b4b2484f175336cc/environment/oracle_attempts.jsonl",
+      "sha256": "71c80c96e748944fd8130bdcf7970affe72330c895e464ee02b599cb43678f24",
+      "bytes": 227317
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fa513c699bfc955f9424e95e/0223c82a20914501b4b2484f175336cc/decision_events.jsonl",
+      "sha256": "ab83af1f99e63fea955f651559011e6450001eb13985460e3dba0c2fa2d83cc2",
+      "bytes": 18928
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-45ccef9bb58094559ca4578d/result.json",
+      "sha256": "e064ebdd16fc535417a38e9d5f39f6ac0fb76f08f3a01ddaae649c83fa1a6f42",
+      "bytes": 1482303
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-45ccef9bb58094559ca4578d/receipt.json",
+      "sha256": "5764295924b8b49fb3439c184416ea533a47c8e43b3439a2ed8265db8ee83fb2",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-45ccef9bb58094559ca4578d/claim.json",
+      "sha256": "1d4f25251a28b63e73ed2cc0aeb77213cb3eeb8a445871bc35b59090e62be9ac",
+      "bytes": 1600
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-45ccef9bb58094559ca4578d/6c5a3b368f9f43c6ac11822e8172a895/decisions.jsonl",
+      "sha256": "3bf3f8eb9aab466264c0b772cc8f208f8e6617b50047fc708e305e02eaed4abd",
+      "bytes": 1460643
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-45ccef9bb58094559ca4578d/6c5a3b368f9f43c6ac11822e8172a895/rpc/rpc.jsonl",
+      "sha256": "404ac3b39e3dbcd29469dc441275e50f6eca672bb496c5d0a41bb66998de9397",
+      "bytes": 2321013
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-45ccef9bb58094559ca4578d/6c5a3b368f9f43c6ac11822e8172a895/environment/oracle_attempts.jsonl",
+      "sha256": "3645efac5c95da64d9e0b54da4fef73dc965896c79c3f1761c5ff4f0e1a21a64",
+      "bytes": 277099
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-45ccef9bb58094559ca4578d/6c5a3b368f9f43c6ac11822e8172a895/decision_events.jsonl",
+      "sha256": "bccf85a1d177c3846be68a5081429530d3f52f6b9e90864b730cdf3aae613557",
+      "bytes": 13014
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-251fda107f2a15d6293fdf18/result.json",
+      "sha256": "72cff9d3ca029c16875b4cc61d8113c05f18a69b5b43ac1e93230b8b2a2ec190",
+      "bytes": 141028
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-251fda107f2a15d6293fdf18/receipt.json",
+      "sha256": "5503156d91ab0f890d9d920bab30cf98e1b7d85b19afd7618446b494e604dcfb",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-251fda107f2a15d6293fdf18/claim.json",
+      "sha256": "c1a31af0d9cb042b3ea9bcee81eaec1a22d045a64e93c1f495ffe2af4b6802a1",
+      "bytes": 1605
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-251fda107f2a15d6293fdf18/580870db4f8c4ddea068d8027b4430d9/decisions.jsonl",
+      "sha256": "689308b6144cec44c7a9eac6e10160e5ea73022a0f3753b513770bc589cc4d47",
+      "bytes": 594822
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-251fda107f2a15d6293fdf18/580870db4f8c4ddea068d8027b4430d9/rpc/rpc.jsonl",
+      "sha256": "d64562dd2ec5425d8639e4804b890c2ae429672e028657a5a813f7bc4490f49d",
+      "bytes": 4232269
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-251fda107f2a15d6293fdf18/580870db4f8c4ddea068d8027b4430d9/environment/oracle_attempts.jsonl",
+      "sha256": "93b3b4f97dfe008d93006eb5b18a58818ea39556dc87b3000c8c1e5385d95f9a",
+      "bytes": 362856
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-251fda107f2a15d6293fdf18/580870db4f8c4ddea068d8027b4430d9/decision_events.jsonl",
+      "sha256": "69092a10ab45466358e925d9e5eba75f2067a3b415a8fd9cae1a7c2d32d757ed",
+      "bytes": 18200
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2d0885c75e15e5c1c573f70c/result.json",
+      "sha256": "6519d393cb9634ec9afb235702c93b36e94baf44148bb8606682f4853e241eea",
+      "bytes": 669387
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2d0885c75e15e5c1c573f70c/receipt.json",
+      "sha256": "1ee8098abe6cca1f88bd3c10d96e6e08dbdccb496d3d8319281fca644add8ae9",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2d0885c75e15e5c1c573f70c/claim.json",
+      "sha256": "8edc76a340a41bbbfd9359c27788c9ea9c691397bead73107cacfeb82d29c49a",
+      "bytes": 1616
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2d0885c75e15e5c1c573f70c/40d40c1fa393450eb5de18e3e9c054d4/decisions.jsonl",
+      "sha256": "d52ad03603e4820f2084eb17d761fe00ec51eff6e5d68b3df4655b77b3df0f2c",
+      "bytes": 2544633
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2d0885c75e15e5c1c573f70c/40d40c1fa393450eb5de18e3e9c054d4/rpc/rpc.jsonl",
+      "sha256": "0cbfdc8192fda00ed3531475a6aa08e8aa57aa2b78fac0187986adeba531bb5c",
+      "bytes": 3624537
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2d0885c75e15e5c1c573f70c/40d40c1fa393450eb5de18e3e9c054d4/environment/oracle_attempts.jsonl",
+      "sha256": "9c16b2a986865f079990cc7025a68ef6728f2172fd9be71625a1891079ccbcfc",
+      "bytes": 273194
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2d0885c75e15e5c1c573f70c/40d40c1fa393450eb5de18e3e9c054d4/decision_events.jsonl",
+      "sha256": "13811f87b77ef7aab5865e5a7e8304ee94d533a20ad9e13f96a19eeb6e11ed61",
+      "bytes": 14460
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-c6bdb2034fb9c02596612ae6/result.json",
+      "sha256": "a7a3eec357c6aac94062f85e8b6e67fee4928e2f11fbd18d9e7f1ef9e3510f41",
+      "bytes": 193035
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-c6bdb2034fb9c02596612ae6/receipt.json",
+      "sha256": "2c7bf1c7d88d710cb10cdfa558e9e45f147cd4925894a09b6ea3aeec08e00cf0",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-c6bdb2034fb9c02596612ae6/claim.json",
+      "sha256": "5b3d7a6a0f94d08fc7164e85f28fb043b2690387c467957c8901ce33eec577cb",
+      "bytes": 1604
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-c6bdb2034fb9c02596612ae6/4b4014aec0be43658e3a58451c2c0e0e/decisions.jsonl",
+      "sha256": "e890fc515c50dc72ae7ef259b5b84cffde22514dc47569a1bc4ac4dacbfe9769",
+      "bytes": 805432
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-c6bdb2034fb9c02596612ae6/4b4014aec0be43658e3a58451c2c0e0e/rpc/rpc.jsonl",
+      "sha256": "62888d842c587982901cec1ed080b5f084ee02aa8b9706a91d75ea53f987fee0",
+      "bytes": 6888231
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-c6bdb2034fb9c02596612ae6/4b4014aec0be43658e3a58451c2c0e0e/environment/oracle_attempts.jsonl",
+      "sha256": "4dd80e2e0a30b54a8373710117cd18c0d4faa10d03213a956f20058550146ec0",
+      "bytes": 355388
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-c6bdb2034fb9c02596612ae6/4b4014aec0be43658e3a58451c2c0e0e/decision_events.jsonl",
+      "sha256": "7486e16a521b1f95a794fc091faa9d5bc0e26ba41105779266af38d4853691e4",
+      "bytes": 27164
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4faf6133fc3e50f03662f80/result.json",
+      "sha256": "fee3e46a1bfdd88149e821f47ed22d124fa9d4a147a5383a614aa52f22ef9477",
+      "bytes": 1480842
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4faf6133fc3e50f03662f80/receipt.json",
+      "sha256": "9020861f27ed20e525c37c642d4b119b4255ce4b4217515a09888f4a97d6a995",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4faf6133fc3e50f03662f80/claim.json",
+      "sha256": "35ac92b8d98f4db4b88c1a0bc68fb09d68b800b7f843c2d49b5c25c0ca733b62",
+      "bytes": 1600
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4faf6133fc3e50f03662f80/c55dbeb9bd00428993531792fe85a4ad/decisions.jsonl",
+      "sha256": "3a187a2520210c25007d573c49b87b9e9a8f28d34f9f2bee59ae28d61185bfed",
+      "bytes": 2020332
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4faf6133fc3e50f03662f80/c55dbeb9bd00428993531792fe85a4ad/rpc/rpc.jsonl",
+      "sha256": "93a94290d1f1d8f74639665208108e00f505e476ff8d92b82041f22890601ad4",
+      "bytes": 3157674
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4faf6133fc3e50f03662f80/c55dbeb9bd00428993531792fe85a4ad/environment/oracle_attempts.jsonl",
+      "sha256": "fd1c98172b079ec646bf51862f2bb3eec450d53d153da2433165e480248cedff",
+      "bytes": 197841
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f4faf6133fc3e50f03662f80/c55dbeb9bd00428993531792fe85a4ad/decision_events.jsonl",
+      "sha256": "aef118ccda9438de3fe7776ef135dc30a7f35c2ff401f107398c180aa61e2db8",
+      "bytes": 13014
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2dce2a3709aad3945727809d/result.json",
+      "sha256": "37c8b86237908291514a07069995060c740cbff46380cf93a5a7a5660c241954",
+      "bytes": 138516
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2dce2a3709aad3945727809d/receipt.json",
+      "sha256": "7653fb2dd0ccf599b02b05e9db40a127b7902c04e9bab1ce822827adb4b07aed",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2dce2a3709aad3945727809d/claim.json",
+      "sha256": "dc7b95256f9e7140fbea9dea4088177aa56eaf3e3d1afc787a4b05d973a663aa",
+      "bytes": 1578
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2dce2a3709aad3945727809d/6c517eacc45b40f885472dbe87331a39/decisions.jsonl",
+      "sha256": "942279a60fce8606a60cdad98ca094b827df552d92030ed675b2fdbc1a628efb",
+      "bytes": 542636
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2dce2a3709aad3945727809d/6c517eacc45b40f885472dbe87331a39/rpc/rpc.jsonl",
+      "sha256": "c0e440ad7c90ddfe62f0513705a616f3225f505427356a2fb18787cb804d5f0a",
+      "bytes": 1842602
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2dce2a3709aad3945727809d/6c517eacc45b40f885472dbe87331a39/environment/oracle_attempts.jsonl",
+      "sha256": "b845078277f6e3301828ee9a74c83ade72af57befc3339be02a471a84d37b499",
+      "bytes": 231302
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2dce2a3709aad3945727809d/6c517eacc45b40f885472dbe87331a39/decision_events.jsonl",
+      "sha256": "366fb8a8840c901f64e1202d1c2306ac15553aae39ad07f53551dc8a573e78e6",
+      "bytes": 16016
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5eccea7f5a24da2f5b31b4ab/result.json",
+      "sha256": "adb929114f1932ff8e3d9fbe1e13ad81dbb524061244f3760479559d95c30c57",
+      "bytes": 670288
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5eccea7f5a24da2f5b31b4ab/receipt.json",
+      "sha256": "f4a00683a68be83f526e7486ae25d410717de849ff422351340fc76ad61bca71",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5eccea7f5a24da2f5b31b4ab/claim.json",
+      "sha256": "00f3daf21620ccfcaba26625819291c72005bce7ed5e230c6dd3923663c554ed",
+      "bytes": 1589
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5eccea7f5a24da2f5b31b4ab/7c437beecd014b79acb57f9a736d1af9/decisions.jsonl",
+      "sha256": "c0432e9c1e7c884fe8c93ee737d972db889c44f13a131f540baaf343c69c5330",
+      "bytes": 2615931
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5eccea7f5a24da2f5b31b4ab/7c437beecd014b79acb57f9a736d1af9/rpc/rpc.jsonl",
+      "sha256": "9f7750d06b2f765e0c2309b2a920ef706d0d9e77c38d29482b50d3a4daf7dd62",
+      "bytes": 1802668
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5eccea7f5a24da2f5b31b4ab/7c437beecd014b79acb57f9a736d1af9/environment/oracle_attempts.jsonl",
+      "sha256": "cca71073ec81555a49abcd8904eaf91d977bd9ef5e636de014b31b0756a9bc86",
+      "bytes": 348675
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5eccea7f5a24da2f5b31b4ab/7c437beecd014b79acb57f9a736d1af9/decision_events.jsonl",
+      "sha256": "6a703ef85152411f3a42b738c9665539ddb14ae62672f5ee3ab558efe51b6073",
+      "bytes": 15906
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-309c3c6fb2c047a93c1f8575/result.json",
+      "sha256": "f16fb1f1bfd68b7fc1eccd1cad16b2b6f93f3b14e4fbb7b1e6df59e1bb426c43",
+      "bytes": 187278
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-309c3c6fb2c047a93c1f8575/receipt.json",
+      "sha256": "3b1a64bcadc0e1c3ffa842fbf7f54b924eaac21af21586d9f2ed72f70d0f2ab9",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-309c3c6fb2c047a93c1f8575/claim.json",
+      "sha256": "bffc17ebbf71682035270fc26b49bd5e520f68a0202e35dd3acee80bc2a755c3",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-309c3c6fb2c047a93c1f8575/bb86641a368d4322b597d2dc10c66d95/decisions.jsonl",
+      "sha256": "02e76ca284073c00293c8ad3f8571bb20dfea531aacc4453a7c3e2bdea2178ad",
+      "bytes": 535849
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-309c3c6fb2c047a93c1f8575/bb86641a368d4322b597d2dc10c66d95/rpc/rpc.jsonl",
+      "sha256": "7b23ad67ee458ab4100df37abce9b770d35e82e2b515b7ab708fc398436a5030",
+      "bytes": 1481685
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-309c3c6fb2c047a93c1f8575/bb86641a368d4322b597d2dc10c66d95/environment/oracle_attempts.jsonl",
+      "sha256": "5bf67d9383fd0749dce63d0d099420ecaa5dc8a6cd7eb051d2b8f91f0e4571be",
+      "bytes": 136537
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-309c3c6fb2c047a93c1f8575/bb86641a368d4322b597d2dc10c66d95/decision_events.jsonl",
+      "sha256": "f566923a7b824451b4aa576706ec35e3a1134905a43445c9ab1fa352d449b6ec",
+      "bytes": 16016
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fdb8c5628b1505159c52f7cc/result.json",
+      "sha256": "982e23317a2479b02589dd29cf145635b384511e7920c367b83a7e29b1883064",
+      "bytes": 1480821
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fdb8c5628b1505159c52f7cc/receipt.json",
+      "sha256": "85783620f4f09b484df14d8c1cfa9c87dd8f0a1a4e7b6651675f8dc9fc9139fb",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fdb8c5628b1505159c52f7cc/claim.json",
+      "sha256": "e05adaeecacaa7ea3eef3fcf3a927821f7bbed1637ef379811fc443799f3fafc",
+      "bytes": 1573
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fdb8c5628b1505159c52f7cc/21b215fe8a7148daae60c803b4245149/decisions.jsonl",
+      "sha256": "5e53336876730faa0c1c7b86cc3a3a00c1e5ba8f30f12b41ec9ba76d22b8779e",
+      "bytes": 1799679
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fdb8c5628b1505159c52f7cc/21b215fe8a7148daae60c803b4245149/rpc/rpc.jsonl",
+      "sha256": "3917ac8243b56b696ba9dd28a5f2419e942d16a7ecf7f4b13d217867404d75ea",
+      "bytes": 1209965
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fdb8c5628b1505159c52f7cc/21b215fe8a7148daae60c803b4245149/environment/oracle_attempts.jsonl",
+      "sha256": "8cf292e317ede8890f758681c8e9b3594dcb545140b63632bb02128ba50e8de8",
+      "bytes": 133129
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fdb8c5628b1505159c52f7cc/21b215fe8a7148daae60c803b4245149/decision_events.jsonl",
+      "sha256": "bdc0ed01d1ea8010a639e943fafb3c61d86b33a6350b9862ab19566fd0c0e088",
+      "bytes": 13014
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a8630b6c09e7eed6994a9658/result.json",
+      "sha256": "d73f6d0f6e0d2447bad12190bc1ba9a26bf7afcfae9d935feadb435e99eac58b",
+      "bytes": 139607
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a8630b6c09e7eed6994a9658/receipt.json",
+      "sha256": "f5bade9f702ac246f0f38c834263ca4d87e498fe1ba64b9328eded38ee5d9bc4",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a8630b6c09e7eed6994a9658/claim.json",
+      "sha256": "162ac47d2654d14939f0804bd606bd3a1886b26c7be4a7fa75415810e5de1f9d",
+      "bytes": 1582
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a8630b6c09e7eed6994a9658/064caf64e4754cdda4b671ae1e637857/decisions.jsonl",
+      "sha256": "5f4686d2be80af9ed3bc5c99bcf1e4b8a579d9bb3f2fc8b326b0a5921baf99ea",
+      "bytes": 648135
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a8630b6c09e7eed6994a9658/064caf64e4754cdda4b671ae1e637857/rpc/rpc.jsonl",
+      "sha256": "04da3dd7d8e11d7cf86739120ffa0df9bcda1f752191b136459815f9321da93d",
+      "bytes": 2758100
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a8630b6c09e7eed6994a9658/064caf64e4754cdda4b671ae1e637857/environment/oracle_attempts.jsonl",
+      "sha256": "33ad429e6de412ccc8cbe3107783e48c37a3d6dce092ccecff68a936a10bda80",
+      "bytes": 537906
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a8630b6c09e7eed6994a9658/064caf64e4754cdda4b671ae1e637857/decision_events.jsonl",
+      "sha256": "383261482ec1c0e96f8d9d4fd65b7a3297ad18639db3c373099f6bcaa9ad414e",
+      "bytes": 18200
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fbf58f289d7058d1b56ff33f/result.json",
+      "sha256": "65878688db5d40f5c9c39c2ad35e3fc10e7f405aa1271d1d4b93ab1647629ecc",
+      "bytes": 667652
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fbf58f289d7058d1b56ff33f/receipt.json",
+      "sha256": "2d33c88a5278b308fa13ef597c7212cde6f274a7c8d5a2c5e4803891c27405e0",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fbf58f289d7058d1b56ff33f/claim.json",
+      "sha256": "18a8157b27677f219be4f4b820cc6b80f57686dacd95ca4b70406f926f51c275",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fbf58f289d7058d1b56ff33f/9f4e7d4b154f4675aa25dc2122b4267f/decisions.jsonl",
+      "sha256": "ed9f6df4cfad965691a1fe70af12ed4080042048588eb34212821196c3931a3c",
+      "bytes": 1766669
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fbf58f289d7058d1b56ff33f/9f4e7d4b154f4675aa25dc2122b4267f/rpc/rpc.jsonl",
+      "sha256": "172cfd9b74ba2ef922965917f7602632dd82d88feb1923d904f8c49de90824bc",
+      "bytes": 1425339
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fbf58f289d7058d1b56ff33f/9f4e7d4b154f4675aa25dc2122b4267f/environment/oracle_attempts.jsonl",
+      "sha256": "fc33b6d3118d76ae62011770a95f86c4f31dff102dd112ece4ffc06cdbdd5856",
+      "bytes": 127312
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fbf58f289d7058d1b56ff33f/9f4e7d4b154f4675aa25dc2122b4267f/decision_events.jsonl",
+      "sha256": "134c6a534bd22f120b312c7903144dc06f1c04ab35bc37465e453bcfb339242f",
+      "bytes": 13737
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7cc2c2335ff1e079999ecabb/result.json",
+      "sha256": "8d9e67b75d127c0335be5aad62c1e689779876391e0282ea28af7fae86fdf863",
+      "bytes": 185712
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7cc2c2335ff1e079999ecabb/receipt.json",
+      "sha256": "6c576f7767233558db569e3c556da15037834da8ccd05cdb29f38eb1abf556ad",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7cc2c2335ff1e079999ecabb/claim.json",
+      "sha256": "dbca10810996055dbb39c776b1f45d9e1d6207e83293023dd358ae2ace4cac68",
+      "bytes": 1581
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7cc2c2335ff1e079999ecabb/bc6e7c465e5b47bc8924506a9bd186ad/decisions.jsonl",
+      "sha256": "cc7c73b10b0d07843b9efe60bfac221468cf311729555d68720ea4aa890221e8",
+      "bytes": 447041
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7cc2c2335ff1e079999ecabb/bc6e7c465e5b47bc8924506a9bd186ad/rpc/rpc.jsonl",
+      "sha256": "eebe373d6c1745964344118ab27bf6137e3d1832b0e9977e08831172de83396c",
+      "bytes": 1495169
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7cc2c2335ff1e079999ecabb/bc6e7c465e5b47bc8924506a9bd186ad/environment/oracle_attempts.jsonl",
+      "sha256": "3071b89a827a13c1ca1846c07de10ecc886a4450e906947e14d56b4352342800",
+      "bytes": 172823
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7cc2c2335ff1e079999ecabb/bc6e7c465e5b47bc8924506a9bd186ad/decision_events.jsonl",
+      "sha256": "551a566ce507a7860c6a9156ead0713f45b868a08d280b6ffd68923ab4a28ad5",
+      "bytes": 13104
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-03a88c2191e750bc3ef7d49f/result.json",
+      "sha256": "66330518b1dc4b86e8867a23b2f40c9eafcd8a3482353e7198b086423f0c5e4e",
+      "bytes": 1480858
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-03a88c2191e750bc3ef7d49f/receipt.json",
+      "sha256": "fd994f1f6911981315e8760cfb8c395563ad418d50cd97372714a3c3baab005d",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-03a88c2191e750bc3ef7d49f/claim.json",
+      "sha256": "be61b0adab292903c762e5fe53be1d22c24d2355efc791de2f4ae28c8b74c3ca",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-03a88c2191e750bc3ef7d49f/d8b1476790bb40358326744cb7346e80/decisions.jsonl",
+      "sha256": "283424966887b03edade4cb17894eae19912b981dd1daba276099cdc4ed4dd81",
+      "bytes": 1672295
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-03a88c2191e750bc3ef7d49f/d8b1476790bb40358326744cb7346e80/rpc/rpc.jsonl",
+      "sha256": "67493067775f683e1a4a2a45612715f5caf7631ca4f380cab76a9eda40033cfe",
+      "bytes": 1302927
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-03a88c2191e750bc3ef7d49f/d8b1476790bb40358326744cb7346e80/environment/oracle_attempts.jsonl",
+      "sha256": "79011f53e1107152c86c63a17e565d49d28dfe86060712f751d2433d5ac54007",
+      "bytes": 54197
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-03a88c2191e750bc3ef7d49f/d8b1476790bb40358326744cb7346e80/decision_events.jsonl",
+      "sha256": "6cd06837c37294fb61166e13afb867570433fb3c6842185e0cf2a33869df82c3",
+      "bytes": 10845
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-768072dbaebb53494719e468/result.json",
+      "sha256": "26ad322a72558aaf1748cd20168aaa51833f881da90a673e218908085fee3f1c",
+      "bytes": 143436
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-768072dbaebb53494719e468/receipt.json",
+      "sha256": "da71ab14ae05475c0344ae37437d3c17d01f2b9354d78703ca7e0c584c8cecf9",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-768072dbaebb53494719e468/claim.json",
+      "sha256": "8b99ae3cf496957252ecde9cb5154ed3a76dce72b09e6a2300c4b7dee1f297cf",
+      "bytes": 1582
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-768072dbaebb53494719e468/5e2888e1e0354c5ebbd85f9d706a00b5/decisions.jsonl",
+      "sha256": "ae115b348ab5c3acf3f4575535f59b06a29ef4bb641f0da84b3c77c6c4e8510b",
+      "bytes": 826074
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-768072dbaebb53494719e468/5e2888e1e0354c5ebbd85f9d706a00b5/rpc/rpc.jsonl",
+      "sha256": "e78a5f631ed4405359ec6844733d5613bf4e02ce957b1afd24d391932a99010c",
+      "bytes": 3406895
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-768072dbaebb53494719e468/5e2888e1e0354c5ebbd85f9d706a00b5/environment/oracle_attempts.jsonl",
+      "sha256": "20933e57cb4a908ba9b3118ebedbb625c6df7e7f18b975a69e76788fd0530a79",
+      "bytes": 572433
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-768072dbaebb53494719e468/5e2888e1e0354c5ebbd85f9d706a00b5/decision_events.jsonl",
+      "sha256": "ded4d9f4c54fae00bf8a83ae5a80d1b143cb1ffeed62a2532491214ffc77a32a",
+      "bytes": 25480
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5afa3ed6bdf12d1fd1bdd1d2/result.json",
+      "sha256": "4a0fd7a3661e4a1147efc16b5c6ee35a956c500705ac1bdf4931c06e5616d4ac",
+      "bytes": 673751
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5afa3ed6bdf12d1fd1bdd1d2/receipt.json",
+      "sha256": "c88abad44dda8d79902332fe25998c5b142e5e97c390c4b66f38c84a0d74dae4",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5afa3ed6bdf12d1fd1bdd1d2/claim.json",
+      "sha256": "b259e75e319e5a729d3d42b129b796982d431e8aeacd4b96042110a67c42ad1a",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5afa3ed6bdf12d1fd1bdd1d2/aee432f8a6cb42f79fe08b7734843749/decisions.jsonl",
+      "sha256": "3c3ffa391e69f867df543d17bf329b10d23ed147453641d2ee4298572e194195",
+      "bytes": 4062474
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5afa3ed6bdf12d1fd1bdd1d2/aee432f8a6cb42f79fe08b7734843749/rpc/rpc.jsonl",
+      "sha256": "a4c6d525738633fbe4b4b21bbb4ef1b3b9e2da8999e5aeb1d77c7f5402bcbd49",
+      "bytes": 3204015
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5afa3ed6bdf12d1fd1bdd1d2/aee432f8a6cb42f79fe08b7734843749/environment/oracle_attempts.jsonl",
+      "sha256": "cd94027466672691917c4bf1fac4816a2405f9b93944364e0ef31ff73d249290",
+      "bytes": 607567
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5afa3ed6bdf12d1fd1bdd1d2/aee432f8a6cb42f79fe08b7734843749/decision_events.jsonl",
+      "sha256": "2175c54175e24291d161e7a71b05a919cb27e8e00762e688e8cffc0c0a8cea8c",
+      "bytes": 25305
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e4bf3b453ceb5bc2b6058668/result.json",
+      "sha256": "3cd8eb7bb40c0dcf17350ccc5ec40e68ee468f38c2c715bb47d85605de70c187",
+      "bytes": 186844
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e4bf3b453ceb5bc2b6058668/receipt.json",
+      "sha256": "cdfdf17be32c530e018bef2819fc2a4d158014d36f9e643d12c30884eb96956b",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e4bf3b453ceb5bc2b6058668/claim.json",
+      "sha256": "d4061e3acd0391036d24ac6d70eee58b132e2f47b970b395242216e649697c63",
+      "bytes": 1581
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e4bf3b453ceb5bc2b6058668/3febd6f047c64858affa9f0907a56bb7/decisions.jsonl",
+      "sha256": "7aef7c941097db3cb508f5f8689bdb869621961387dfadad52859b42755c3494",
+      "bytes": 501055
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e4bf3b453ceb5bc2b6058668/3febd6f047c64858affa9f0907a56bb7/rpc/rpc.jsonl",
+      "sha256": "66704abc3094372ea5596e5f490c560bf536dd1cfe32899a3b80fed0653ec7ef",
+      "bytes": 1439533
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e4bf3b453ceb5bc2b6058668/3febd6f047c64858affa9f0907a56bb7/environment/oracle_attempts.jsonl",
+      "sha256": "0b60d7014b64a7f1b70fb19d9dd7708eea2c68387f21d0f58b7ff70874398073",
+      "bytes": 187979
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-e4bf3b453ceb5bc2b6058668/3febd6f047c64858affa9f0907a56bb7/decision_events.jsonl",
+      "sha256": "3226b5c4533d7bce5bf80fec6e2f71b9679db764c8e8f3788424509fe2b0e8dc",
+      "bytes": 15288
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3c7a01fbc23fb606dce7a9d6/result.json",
+      "sha256": "46e33121b3d33f2a138dc322e3a67cb9b821a08d60b12312f7f8ee587424b4a0",
+      "bytes": 1481090
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3c7a01fbc23fb606dce7a9d6/receipt.json",
+      "sha256": "f608522bff941e0c39eda421b56a3965afc7206c95d961e92157503c8aea459e",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3c7a01fbc23fb606dce7a9d6/claim.json",
+      "sha256": "e39d82970302d5129226d916b7a6831c23564e4bdf8aebd9bc593bd2a54c3b9d",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3c7a01fbc23fb606dce7a9d6/d81f0e154a3d430391dca603ad27080e/decisions.jsonl",
+      "sha256": "897388cd4616eeb8305c70ebe019185e6ddbeb9e39b73424a80f03e946219893",
+      "bytes": 1929557
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3c7a01fbc23fb606dce7a9d6/d81f0e154a3d430391dca603ad27080e/rpc/rpc.jsonl",
+      "sha256": "469086b346d223b3159b7c4c78ad038bcd06b7b615571a0eaf94d73ae62d21b6",
+      "bytes": 1385436
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3c7a01fbc23fb606dce7a9d6/d81f0e154a3d430391dca603ad27080e/environment/oracle_attempts.jsonl",
+      "sha256": "311a5327f234ac993c372a092cbfef4c5b581eff2b413467c08cc9c69ea59e26",
+      "bytes": 51836
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-3c7a01fbc23fb606dce7a9d6/d81f0e154a3d430391dca603ad27080e/decision_events.jsonl",
+      "sha256": "c49798d2ac2efa29ce10dac8c13c40f411fa58a02e8c1f6f71ada6c644dbefc0",
+      "bytes": 13737
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-43aa37d047cc1f695b405364/result.json",
+      "sha256": "59b1268a6d1b3ae667a55693882956ad39b5a7c226029884bd3f40439ca32eab",
+      "bytes": 141082
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-43aa37d047cc1f695b405364/receipt.json",
+      "sha256": "f09486d8c12999082af7b8edbdedff47dd5ddde043c043ba935fa483a6793407",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-43aa37d047cc1f695b405364/claim.json",
+      "sha256": "48ec193eaaf4e09553f70ce81b1228d50d95bc9202f34773bd12d4813b1a8c4f",
+      "bytes": 1581
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-43aa37d047cc1f695b405364/798c05c89fb74a488f65e4cd2842e583/decisions.jsonl",
+      "sha256": "4d014998205f6f0c1703d4326515d924dd08815fb46b4fc3e412cb64a43a1082",
+      "bytes": 678457
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-43aa37d047cc1f695b405364/798c05c89fb74a488f65e4cd2842e583/rpc/rpc.jsonl",
+      "sha256": "e30bc8db4d191907d88191b5fe90cef457bc9c4db73479d1f64189d234f80e7a",
+      "bytes": 3429045
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-43aa37d047cc1f695b405364/798c05c89fb74a488f65e4cd2842e583/environment/oracle_attempts.jsonl",
+      "sha256": "550a0a885b94f2c6792e19958b2914f80e1e3a25d7cb913aee775e2a79d23704",
+      "bytes": 427223
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-43aa37d047cc1f695b405364/798c05c89fb74a488f65e4cd2842e583/decision_events.jsonl",
+      "sha256": "6bcc31f460b52117faac3fa2f73cf81b7aea3eb6f11e13b865792aecabc405be",
+      "bytes": 18200
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-734638a13232cf33fc56501c/result.json",
+      "sha256": "1bd00f79a7f82cb20805c5095b621b81f947d1b81a33162b234bb76a0542e284",
+      "bytes": 668975
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-734638a13232cf33fc56501c/receipt.json",
+      "sha256": "6ecaf72b5721070ec6e6373048504669b5caa2905d4dd1705c15191cc1a55991",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-734638a13232cf33fc56501c/claim.json",
+      "sha256": "7ca048ca3566d6b32ead58f70dc6b2610f388705f31e227dcf1b2f5094e791f9",
+      "bytes": 1593
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-734638a13232cf33fc56501c/c9df5edabde947dcacc34eb478e679b1/decisions.jsonl",
+      "sha256": "22ed1fb741bbbef1635f413f4775b50ee6ecf0f453aae42b5bc395a21760a82c",
+      "bytes": 2207135
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-734638a13232cf33fc56501c/c9df5edabde947dcacc34eb478e679b1/rpc/rpc.jsonl",
+      "sha256": "0637815b60f4db0ec615b517565f5a48d8acf765bde5109b676e6964f1ca20de",
+      "bytes": 1602541
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-734638a13232cf33fc56501c/c9df5edabde947dcacc34eb478e679b1/environment/oracle_attempts.jsonl",
+      "sha256": "48f73954a03f2d404e899f301b329e78e98336b3f5d8322e07ac282c3aa7cddf",
+      "bytes": 70753
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-734638a13232cf33fc56501c/c9df5edabde947dcacc34eb478e679b1/decision_events.jsonl",
+      "sha256": "855409533b6bbd4725351e31c475f56d5abd399acf7fb99be634fe013c2a6d9d",
+      "bytes": 13737
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-db8afb47c42b962ce65c01b6/result.json",
+      "sha256": "e7218dfef5e438962bb3398ee1a40b65a649a0b2159e3c21b145488e52c7d631",
+      "bytes": 189378
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-db8afb47c42b962ce65c01b6/receipt.json",
+      "sha256": "0f516a029f289aae81c37747bc67a92968de5aff95014316829dc51e358d7ce5",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-db8afb47c42b962ce65c01b6/claim.json",
+      "sha256": "27fdc856e755c08ab7c0dd79a76d9320b9fe77ab41ed3460aea0af2a2038c9af",
+      "bytes": 1581
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-db8afb47c42b962ce65c01b6/cc708a8d59c44c11b997aac2c6ae09f3/decisions.jsonl",
+      "sha256": "441c10f745c06144428430dc31071d13a7c5c8db55c342672b29c80cd5ffb6f4",
+      "bytes": 643597
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-db8afb47c42b962ce65c01b6/cc708a8d59c44c11b997aac2c6ae09f3/rpc/rpc.jsonl",
+      "sha256": "c39aa379dd26729311e558eb691a51afbda677a6e6c2b4139198eccb6d2d79a1",
+      "bytes": 2800095
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-db8afb47c42b962ce65c01b6/cc708a8d59c44c11b997aac2c6ae09f3/environment/oracle_attempts.jsonl",
+      "sha256": "bfd55e7b36c12fa856b43e5a3454e587d7d0dd48853d156947db512776c25645",
+      "bytes": 200697
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-db8afb47c42b962ce65c01b6/cc708a8d59c44c11b997aac2c6ae09f3/decision_events.jsonl",
+      "sha256": "beb4068bccc6cb5ae27724663de68174f142726d914b7313ca760aa40fafe4f6",
+      "bytes": 17472
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fc0043a22db53c8ad31ef9fd/result.json",
+      "sha256": "4568c913cc7b90884b591088cd106d3d73bfc3820515f905d37a25959c09a4de",
+      "bytes": 1482543
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fc0043a22db53c8ad31ef9fd/receipt.json",
+      "sha256": "e7b4070634cdd4395e2de58b93fd2d2834c8383d98679c7062c2df299f45ad16",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fc0043a22db53c8ad31ef9fd/claim.json",
+      "sha256": "fbbcbc2ff524b3c945f669f39361a3109ef757f2d3c1a7379b393698efc4de43",
+      "bytes": 1576
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fc0043a22db53c8ad31ef9fd/59ce1855518444ed9287ff833597cb2f/decisions.jsonl",
+      "sha256": "98b0518b8599b06506c0d72260bba8bbe9247c612179946398cba27e27523797",
+      "bytes": 1783249
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fc0043a22db53c8ad31ef9fd/59ce1855518444ed9287ff833597cb2f/rpc/rpc.jsonl",
+      "sha256": "93f4fa334b99df94bc8ada9867364c4147d01f32c8bb3fbb8990ac2483f9776c",
+      "bytes": 2029697
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fc0043a22db53c8ad31ef9fd/59ce1855518444ed9287ff833597cb2f/environment/oracle_attempts.jsonl",
+      "sha256": "0e4673a69db712ab9188c4541d3594e7d22cacf6e00498afbb4232c0c97924c8",
+      "bytes": 132836
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fc0043a22db53c8ad31ef9fd/59ce1855518444ed9287ff833597cb2f/decision_events.jsonl",
+      "sha256": "0d86d9cbdda0cc1c363333d22cb7034d53772c81dff8054d8a113c2c132a3569",
+      "bytes": 13737
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ad88bcc33aed1830b5c23909/result.json",
+      "sha256": "8d6d5e9d43fface5b0feaad177bd05310c87ca2aab86dab6c4c256057051c8e6",
+      "bytes": 140354
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ad88bcc33aed1830b5c23909/receipt.json",
+      "sha256": "7539ac8bba366e0a34b30d4e368c9089b5b76920bc1b0409d858fd968218a487",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ad88bcc33aed1830b5c23909/claim.json",
+      "sha256": "cc3c7016515105bef8b8b6e69695a611ecfc7987b54ac1260c1985af7f9272a5",
+      "bytes": 1582
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ad88bcc33aed1830b5c23909/ee36f17019c14ce5b6a93f0c27bd5eab/decisions.jsonl",
+      "sha256": "9d2fb300e2bbff1ffb7791aea9a97d073a7e8bf399206c74477c50f41618bf91",
+      "bytes": 538620
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ad88bcc33aed1830b5c23909/ee36f17019c14ce5b6a93f0c27bd5eab/rpc/rpc.jsonl",
+      "sha256": "c377c375f0de8afe483ec558af8fab451c33439e38cd6031fe647e44fccaf0f6",
+      "bytes": 2748556
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ad88bcc33aed1830b5c23909/ee36f17019c14ce5b6a93f0c27bd5eab/environment/oracle_attempts.jsonl",
+      "sha256": "5ebcbaaa2cf417bd3a85e64fcf05928bd51279a326ab6e876dc701fe7fa980c5",
+      "bytes": 247562
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ad88bcc33aed1830b5c23909/ee36f17019c14ce5b6a93f0c27bd5eab/decision_events.jsonl",
+      "sha256": "4853240807a52d0c018792766fd106c0d372ed49f3f0ca2e528bbc8afca904b9",
+      "bytes": 16744
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-65994611b3b615e30901469d/result.json",
+      "sha256": "b44453a7c76bf3fc136dde63a74018d804869c6b18960ade2368aca324e60caa",
+      "bytes": 669500
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-65994611b3b615e30901469d/receipt.json",
+      "sha256": "39f490b16e89170ca126dc871a196ccd47f1ff8f76de3fcfa59f1383fbe1dd96",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-65994611b3b615e30901469d/claim.json",
+      "sha256": "8ac3f99302dfa5a6e18efa71d598b54c14cb78c37d193ee27a4914aa26d70555",
+      "bytes": 1593
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-65994611b3b615e30901469d/70936b31e4774fecac602cc038927a90/decisions.jsonl",
+      "sha256": "80d19e91ab9a952d4331c4348d4e767c6145a3931502da130eafcb11b723a27e",
+      "bytes": 2090817
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-65994611b3b615e30901469d/70936b31e4774fecac602cc038927a90/rpc/rpc.jsonl",
+      "sha256": "a2c02876f1697ad115c723bd653182a779ffa774088a9c32e768d860b46bb713",
+      "bytes": 2035891
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-65994611b3b615e30901469d/70936b31e4774fecac602cc038927a90/environment/oracle_attempts.jsonl",
+      "sha256": "fd01faec05be5855e814b4ca2ffd4cef6168b95586df47e4eaf7ff531e761b99",
+      "bytes": 235604
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-65994611b3b615e30901469d/70936b31e4774fecac602cc038927a90/decision_events.jsonl",
+      "sha256": "6238c72f3c20c01a8bd44e0f2aa5b30e64b05d7578f375f15f725b45bfae57ee",
+      "bytes": 14460
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ed99d1ea49499e63db797f3a/result.json",
+      "sha256": "9b7a93b094ce0121bd080c21959aaa5ea5fc97563da6713e12b9fa70a909d3f9",
+      "bytes": 187960
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ed99d1ea49499e63db797f3a/receipt.json",
+      "sha256": "d060b2f5248d3d014ccd10431ca916c676e2337813633f37698847ca5badc6ef",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ed99d1ea49499e63db797f3a/claim.json",
+      "sha256": "e2c8934a32bcea4ebb742a91b8955b269528213c9d86d1ee10f4e7354086b54d",
+      "bytes": 1580
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ed99d1ea49499e63db797f3a/f610ef8a87e04954ad3fbce800b304c9/decisions.jsonl",
+      "sha256": "15b8b191de80e7d071e86f1cfc307827304e3b62023f278d3bd6651aa8bc20cb",
+      "bytes": 519670
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ed99d1ea49499e63db797f3a/f610ef8a87e04954ad3fbce800b304c9/rpc/rpc.jsonl",
+      "sha256": "8783cc733e6a2a8d04d921acd71b7a1f0398ed3314580ee81b6bd302dab3e024",
+      "bytes": 2400699
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ed99d1ea49499e63db797f3a/f610ef8a87e04954ad3fbce800b304c9/environment/oracle_attempts.jsonl",
+      "sha256": "6767823bb67393fed562325b66d1eaa7da4bdd4ac20ff798b4e7d31a4abc552c",
+      "bytes": 160343
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ed99d1ea49499e63db797f3a/f610ef8a87e04954ad3fbce800b304c9/decision_events.jsonl",
+      "sha256": "afac2abde1fd5ba8bf09ce67aa950924657528c94b926c2f6331058441a68923",
+      "bytes": 14560
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-b97c118de29096b29157a22f/result.json",
+      "sha256": "618a91dcc80df1065bcba4639068f761144fe885feeccdc0e12fd3c3775ec731",
+      "bytes": 1482495
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-b97c118de29096b29157a22f/receipt.json",
+      "sha256": "501ae6a7e5808bf7e21aab1855b2efa3acafa6cbea764fec06adaff95b083d78",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-b97c118de29096b29157a22f/claim.json",
+      "sha256": "3f4280f06441588305535af75c5741395fd8a8ba48d3c4ac7ecd96ad795bf369",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-b97c118de29096b29157a22f/35c46503e55c4bea84ffd27a24194450/decisions.jsonl",
+      "sha256": "ceafde4f66fecfad26a73f0f49eb2ffb1b70f8be5f8fa754c98c2c703d06a67b",
+      "bytes": 1969044
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-b97c118de29096b29157a22f/35c46503e55c4bea84ffd27a24194450/rpc/rpc.jsonl",
+      "sha256": "38c662ae0f9e1924b537d87ca40729ef9c52a624b5b47c398e218e1f73eae736",
+      "bytes": 2049522
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-b97c118de29096b29157a22f/35c46503e55c4bea84ffd27a24194450/environment/oracle_attempts.jsonl",
+      "sha256": "5b681db9e696d7bcb88d2ac07ae4d76e383d022a6f5161e7324d9e2c8039a923",
+      "bytes": 91501
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-b97c118de29096b29157a22f/35c46503e55c4bea84ffd27a24194450/decision_events.jsonl",
+      "sha256": "bc445ae456f96900de5b32036766e47befc18e1e2b155da971754d0bbfa7f823",
+      "bytes": 13737
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3d03035528cf4d1c96e2f688/result.json",
+      "sha256": "fd47df7cd7d3ede2f7c3a8245e9308f09a5db76594dd1c1e0a6a8da6be4faf4e",
+      "bytes": 138439
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3d03035528cf4d1c96e2f688/receipt.json",
+      "sha256": "337aaf0edb04dfe4fb9c83a64174aa480ae1261993978a6db6742976b6d483aa",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3d03035528cf4d1c96e2f688/claim.json",
+      "sha256": "f6d96107a799caf64f830f2509869459bdee1845efaedb30de0a584ddd916078",
+      "bytes": 1582
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3d03035528cf4d1c96e2f688/607e143573ca4bf480fbaf649881ace9/decisions.jsonl",
+      "sha256": "bd5b11b4611c5e3fc7a3c338d9f9c4a5611fd4c3b9070390e35cbbcaa865163b",
+      "bytes": 467946
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3d03035528cf4d1c96e2f688/607e143573ca4bf480fbaf649881ace9/rpc/rpc.jsonl",
+      "sha256": "3ad04c16be3907aec29effb4456622cca53c934807186c849b3e9331d48c24b7",
+      "bytes": 1658051
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3d03035528cf4d1c96e2f688/607e143573ca4bf480fbaf649881ace9/environment/oracle_attempts.jsonl",
+      "sha256": "b656d0abb461a0659ed1b35ddabc3b41c060e2f71700e389b11495f8767a2dc6",
+      "bytes": 144262
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3d03035528cf4d1c96e2f688/607e143573ca4bf480fbaf649881ace9/decision_events.jsonl",
+      "sha256": "990ff5bdbcda98ecfc31f42fe1ea3a721cd6dea49161e3be948d1babef790901",
+      "bytes": 13104
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8f64ca7a761847f2f585eaf7/result.json",
+      "sha256": "21ae2e6c3a7e467c0a585d3e955f2e524ce414b1cd9dde90ecf9d0d1e28a9b0f",
+      "bytes": 669496
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8f64ca7a761847f2f585eaf7/receipt.json",
+      "sha256": "5a2bf6939b2591550148f9506baa0bef127b328b01c264705ed6c1f02541208b",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8f64ca7a761847f2f585eaf7/claim.json",
+      "sha256": "25791e64c67eb365b51ad54cf3ba69f98c192039641aceaae92dc9350576f911",
+      "bytes": 1576
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8f64ca7a761847f2f585eaf7/c83db0d6855f44e68a362fac5920606f/decisions.jsonl",
+      "sha256": "3688dcc339e32bb90dea8fea4406f4de729a9f90d9bc3cc8fd7e1d438c1a3f76",
+      "bytes": 1998581
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8f64ca7a761847f2f585eaf7/c83db0d6855f44e68a362fac5920606f/rpc/rpc.jsonl",
+      "sha256": "a102f2aa045eb525ba3aa90ee5dfce097e4f8d4fe9616edd93f4d1848331e63e",
+      "bytes": 1714959
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8f64ca7a761847f2f585eaf7/c83db0d6855f44e68a362fac5920606f/environment/oracle_attempts.jsonl",
+      "sha256": "0b152dbee66c63aeb8b95f7263e6aedbfa2ef6268216fcf2ae94ec3e43123b80",
+      "bytes": 144593
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8f64ca7a761847f2f585eaf7/c83db0d6855f44e68a362fac5920606f/decision_events.jsonl",
+      "sha256": "4d28884dff3e2b756a169cd7f5dc6295e99fd111975c2b126b9e74ebed036185",
+      "bytes": 14460
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-de5a461c2d13160643320341/result.json",
+      "sha256": "47f02e6a370a93dfbe4d846185d7e2cd17de7abd69d3a1b6b1a53b5a0623197c",
+      "bytes": 188315
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-de5a461c2d13160643320341/receipt.json",
+      "sha256": "b47c92b1d06abf76118d78b484501fa34daa57ac3342f2db84e7c9ca7a791188",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-de5a461c2d13160643320341/claim.json",
+      "sha256": "764d0cf206669124ad8128661953eacc0c0c08b71623c5e1277fa97b13d5bbc5",
+      "bytes": 1581
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-de5a461c2d13160643320341/19f9f63d703343b38aa63ddba6124fe3/decisions.jsonl",
+      "sha256": "93204d73dca82b566637063ed062844b1f2ca8d46aa432bb9048d4a238e69504",
+      "bytes": 516644
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-de5a461c2d13160643320341/19f9f63d703343b38aa63ddba6124fe3/rpc/rpc.jsonl",
+      "sha256": "83930965939a712ef32acbbc4e253b90eab4fa65666bd4258f4e10fe4be590ac",
+      "bytes": 2117176
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-de5a461c2d13160643320341/19f9f63d703343b38aa63ddba6124fe3/environment/oracle_attempts.jsonl",
+      "sha256": "d3fb4a4c2a7c609ed8a7e8f15b89d6a06449af34a26e4307d54bd3d300e90337",
+      "bytes": 143999
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-de5a461c2d13160643320341/19f9f63d703343b38aa63ddba6124fe3/decision_events.jsonl",
+      "sha256": "9141faea83d9df8e4a4329c913dd8b3e837dfe59ac46d327c3538da2ae7009b0",
+      "bytes": 15288
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-02f2c471bf623c421c1d4e0e/result.json",
+      "sha256": "403146f7045622187e3706b88eb6bdbfbf6a0f0ef3e829cae82ca5ab2d02547c",
+      "bytes": 1484946
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-02f2c471bf623c421c1d4e0e/receipt.json",
+      "sha256": "8511ec235d0855773d342ab5a1fbb93961a1c4e119a52aaac2571ba6d9326730",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-02f2c471bf623c421c1d4e0e/claim.json",
+      "sha256": "732f523a10a795f1724df6bc077c1dd29c0428931612a76593996776cf0f6a71",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-02f2c471bf623c421c1d4e0e/530ddf58e30541d38ae8bdcd0ef8c916/decisions.jsonl",
+      "sha256": "7d9d4770369a564249c99a62bda6754dfad256009edc23b773d311a0bf4dc2c2",
+      "bytes": 2634315
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-02f2c471bf623c421c1d4e0e/530ddf58e30541d38ae8bdcd0ef8c916/rpc/rpc.jsonl",
+      "sha256": "c6f895503e7464caca4381dc7595b4511591278d7c2740eacfd168bb285877c7",
+      "bytes": 2593923
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-02f2c471bf623c421c1d4e0e/530ddf58e30541d38ae8bdcd0ef8c916/environment/oracle_attempts.jsonl",
+      "sha256": "c05cdfb80307fa2367d01e8c232a29d005e0b7018fd0088c07799fa45b699e98",
+      "bytes": 145500
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-02f2c471bf623c421c1d4e0e/530ddf58e30541d38ae8bdcd0ef8c916/decision_events.jsonl",
+      "sha256": "367bf19156cf4dce5089716aea4f948d5093ab8956e6524fa2b1dfa5d3c5da57",
+      "bytes": 18075
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f5130b9d1e96a3a3e587815c/result.json",
+      "sha256": "ee075dee935d875c8c33e8adeb3d910cb1791b90615ae57951bc00402c23303e",
+      "bytes": 141496
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f5130b9d1e96a3a3e587815c/receipt.json",
+      "sha256": "2163c116c3b68bf24966fecd5b3e6051f2bf0c5627b75ecfd54a58a261a947a5",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f5130b9d1e96a3a3e587815c/claim.json",
+      "sha256": "a294b3201e052e7d05d7b3d9065d74b504316bac260978db26a6d09acb36b500",
+      "bytes": 1582
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f5130b9d1e96a3a3e587815c/2449042fdb2047ffacb5c7cd6a46ae6f/decisions.jsonl",
+      "sha256": "e2a9ff60b34af72da292eea476003bb659e24d1921d81468f6560fcef3492c7d",
+      "bytes": 685876
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f5130b9d1e96a3a3e587815c/2449042fdb2047ffacb5c7cd6a46ae6f/rpc/rpc.jsonl",
+      "sha256": "d3a7b57c5f95bde7de54e680d8057e87ebb82fbef178d3d72d0c549ae78dde29",
+      "bytes": 6271908
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f5130b9d1e96a3a3e587815c/2449042fdb2047ffacb5c7cd6a46ae6f/environment/oracle_attempts.jsonl",
+      "sha256": "e8abd239ef37bf2e5d729cbf0aefa833ad98c5a8618192b6ec2456589d21c102",
+      "bytes": 494240
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f5130b9d1e96a3a3e587815c/2449042fdb2047ffacb5c7cd6a46ae6f/decision_events.jsonl",
+      "sha256": "2bd11d843463abc3ff892828c43731c58f6cb3ff98cf05da7da34c0eb90a606d",
+      "bytes": 18928
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-690f157b17e644365b568a77/result.json",
+      "sha256": "679cd2c22a39be41144048cda2e83a33222aa13d493c09bd694aa7b751de8c22",
+      "bytes": 673304
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-690f157b17e644365b568a77/receipt.json",
+      "sha256": "e2f7943bec577e952cc795120776701fcbbe5fac17ff5a7cb7793168d8566169",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-690f157b17e644365b568a77/claim.json",
+      "sha256": "ab69f6c333a152c2b04629d2eef2425e88954a41aad5de362672dd5a40d17600",
+      "bytes": 1592
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-690f157b17e644365b568a77/ed85ea8f4bdb4f45946f1b7014e33880/decisions.jsonl",
+      "sha256": "b306dba63b8b1f3b0583da94b57c04ddfaed0602b17244054c00b630b5f5aae6",
+      "bytes": 3759364
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-690f157b17e644365b568a77/ed85ea8f4bdb4f45946f1b7014e33880/rpc/rpc.jsonl",
+      "sha256": "62643946d063f2f16de9895817d672c6308f5a5dfb0b768666889cf567f0fd4e",
+      "bytes": 6729862
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-690f157b17e644365b568a77/ed85ea8f4bdb4f45946f1b7014e33880/environment/oracle_attempts.jsonl",
+      "sha256": "6a33308320a15e5b4a3b7623947380681cb28432458da44b896ed40b76d84d6d",
+      "bytes": 423521
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-690f157b17e644365b568a77/ed85ea8f4bdb4f45946f1b7014e33880/decision_events.jsonl",
+      "sha256": "f852bb9b31ea0c6854337ff514e49ca612273d74ae8e118cabe0899b6644c7e5",
+      "bytes": 21690
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b725b79eb1ed64155844d819/result.json",
+      "sha256": "e6d2958d900f0b9004a9f0070a646da3f03b5f3d137fc92501b688e0860d23b1",
+      "bytes": 188307
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b725b79eb1ed64155844d819/receipt.json",
+      "sha256": "32e26f6028d3a534f5f6fbc818902478275e4b67c47ff6e8421c1825fbb926fd",
+      "bytes": 945
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b725b79eb1ed64155844d819/claim.json",
+      "sha256": "62ef7205d880b20e1a77d633b73641ec735e0dfe36b80c8ad0d06adc1e949ff8",
+      "bytes": 1581
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b725b79eb1ed64155844d819/1839522221754c0caad2ad2564396e27/decisions.jsonl",
+      "sha256": "bf80d2e28f763c548069d32b20bfaddb16481cc2b885e381014bc0063c181163",
+      "bytes": 538274
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b725b79eb1ed64155844d819/1839522221754c0caad2ad2564396e27/rpc/rpc.jsonl",
+      "sha256": "8f85be70c5c4a9877a2dc8e5bddaa5eacf04d749de83f081769fc84911909289",
+      "bytes": 4285171
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b725b79eb1ed64155844d819/1839522221754c0caad2ad2564396e27/environment/oracle_attempts.jsonl",
+      "sha256": "b0bea6e8505c42f4a2cd670900703b727a696bb8b50ea9a8b9b3cfcccd809568",
+      "bytes": 273447
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b725b79eb1ed64155844d819/1839522221754c0caad2ad2564396e27/decision_events.jsonl",
+      "sha256": "dbf26b321dea250f711c2a7569ffdf7bd9ff4437a048a10df0d13ec0e4dcf6c1",
+      "bytes": 15288
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-908dd599770160e96ff4569c/result.json",
+      "sha256": "5f1d8fc3af72ad97d7565e26b515044520e564caed2a1e20adac679a337044f2",
+      "bytes": 1482876
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-908dd599770160e96ff4569c/receipt.json",
+      "sha256": "ec01d7fe7e675f9c0794d48a681e96b820ef40dd799e77c200d891ab00002542",
+      "bytes": 930
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-908dd599770160e96ff4569c/claim.json",
+      "sha256": "9812ef9344d22593c80b545e699b7d5a9d5d255fb4bf07ae488a25a6bcb041ee",
+      "bytes": 1577
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-908dd599770160e96ff4569c/f0ee3e6d134e484aaf9f63706ce829c5/decisions.jsonl",
+      "sha256": "d2c801e931e6d6acfe2635690808e18ef19b755e393f0ec60008d2824e20badd",
+      "bytes": 2487212
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-908dd599770160e96ff4569c/f0ee3e6d134e484aaf9f63706ce829c5/rpc/rpc.jsonl",
+      "sha256": "25e2b27840a40ccdf4e53da3fc47da761946eb3e24504328543478bec0d89c7d",
+      "bytes": 4333445
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-908dd599770160e96ff4569c/f0ee3e6d134e484aaf9f63706ce829c5/environment/oracle_attempts.jsonl",
+      "sha256": "d36476ff67c62a848386764a9f2d1f4fe778086215f737150d6d62f2c41a0fb8",
+      "bytes": 247855
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-908dd599770160e96ff4569c/f0ee3e6d134e484aaf9f63706ce829c5/decision_events.jsonl",
+      "sha256": "f8fb8d03f05a1135703191e5eb534b8cf9631d1bdc65f1f1e497fb744848774b",
+      "bytes": 14460
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/jobs/01a2bee845908e390686c88de596b9f6839573b93dd81342aeb24a42c63c9786.json",
+      "sha256": "aaa78852f5bd13e372430a415b6148f7f9b9ed1ddc4b9730f21db3832eae2b27",
+      "bytes": 17549
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/01a2bee845908e390686c88de596b9f6839573b93dd81342aeb24a42c63c9786/job.json",
+      "sha256": "c1a6991b69e99852d89cbc827df45acc1cf66e2b3af199bb90a049de60fdd9ef",
+      "bytes": 2654
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/01a2bee845908e390686c88de596b9f6839573b93dd81342aeb24a42c63c9786/decisions.jsonl",
+      "sha256": "fe9693217f117bf6af86a4b41d1c02e540f001e2dcff1736f58255adfdb4f56a",
+      "bytes": 1691436
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/01a2bee845908e390686c88de596b9f6839573b93dd81342aeb24a42c63c9786/rpc/rpc.jsonl",
+      "sha256": "fe0d15ccf69125c1e2598e863cde34c6ceb4f1464dff1e6eea0567bf67dae11d",
+      "bytes": 1278208
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/01a2bee845908e390686c88de596b9f6839573b93dd81342aeb24a42c63c9786/environment/oracle_attempts.jsonl",
+      "sha256": "778404367b5552ee1cd675af4aa4a02d33f10ef26c639869a8ca929c3652667a",
+      "bytes": 89178
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/01a2bee845908e390686c88de596b9f6839573b93dd81342aeb24a42c63c9786/decision_events.jsonl",
+      "sha256": "081f06621ba5f21494745ea58bb5711b8f8937f7b10d92bab42ac6f43d628506",
+      "bytes": 10101
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/jobs/4bf207c757815b590618dfdb5afd2df13e719357a143d952322967baa9b10c3e.json",
+      "sha256": "a84543a62a698330462092e1c8005ea8673c651d23ade44a8fa16c2630f6e142",
+      "bytes": 22020
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/4bf207c757815b590618dfdb5afd2df13e719357a143d952322967baa9b10c3e/job.json",
+      "sha256": "4779506dbdbfa6820d318b01b575df417fcc4f5d0e2868cef91fbc6d7810a3dd",
+      "bytes": 2654
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/4bf207c757815b590618dfdb5afd2df13e719357a143d952322967baa9b10c3e/decisions.jsonl",
+      "sha256": "9e4f08b2b3a2235b93efdce293569ab2247e9d0eefb04ac29437c8cc2ebe215e",
+      "bytes": 2588803
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/4bf207c757815b590618dfdb5afd2df13e719357a143d952322967baa9b10c3e/rpc/rpc.jsonl",
+      "sha256": "f9c2f5bcf841bac507494254eba0e977efa97986d5bb8efc23346d8995fcc6be",
+      "bytes": 2447753
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/4bf207c757815b590618dfdb5afd2df13e719357a143d952322967baa9b10c3e/environment/oracle_attempts.jsonl",
+      "sha256": "d89d0f42529e964d395470ace6a93c4fe56af67aa9d53b60cdd19e6932f74c58",
+      "bytes": 327921
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/4bf207c757815b590618dfdb5afd2df13e719357a143d952322967baa9b10c3e/decision_events.jsonl",
+      "sha256": "0f6b8b69bccf8ab0e790a3c43dd79f27b8bda75f92be1d860ba4a089678c280a",
+      "bytes": 15540
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/jobs/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5.json",
+      "sha256": "2540e712887bb6d43917e6671fd3795e0cfcddf3e7014dafb15a985072d84bfd",
+      "bytes": 20626
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5/job.json",
+      "sha256": "6c8a08d8d39e5efb788954a1941a65a3301af767176aea214516a421df30154e",
+      "bytes": 2629
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5/decisions.jsonl",
+      "sha256": "8302f6ae6c7efb664e006e219a8b7239ba96a04fbfbd20c0b01c7217850ef616",
+      "bytes": 2254962
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5/rpc/rpc.jsonl",
+      "sha256": "8e080a7eb4f5bc56a03b3b843eae41b0bf99dc3cf4e77ab0c31aa0a750ddda3e",
+      "bytes": 1750145
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5/environment/oracle_attempts.jsonl",
+      "sha256": "169308dd04e6aa0c839e7a52b52fb760560d8acb10b970082f30d42702c9fa04",
+      "bytes": 84518
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5/decision_events.jsonl",
+      "sha256": "a639643c25c5a8e338171c7bac513fe96a01b5693e8d2f0cfbbeac9d31c69e5a",
+      "bytes": 13680
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/jobs/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44.json",
+      "sha256": "4775019199e3d81987f882b383fd6ca6564311cf4bd7f8a338f274d5092bb1c9",
+      "bytes": 18765
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44/job.json",
+      "sha256": "c0a57eba69752fcf8bd4cf0236c0ff4111d66de8113cc5d0c598b490e692cb87",
+      "bytes": 2629
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44/decisions.jsonl",
+      "sha256": "1cf8a7cc786a3c6cde4f3bc289389b6055ee6688babc48f7d8e5afa3687770ed",
+      "bytes": 1956498
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44/rpc/rpc.jsonl",
+      "sha256": "e1f330ef4136922e6545b13a6a0b615b3c9ad22afcf8034a16ae228db0809d87",
+      "bytes": 1519822
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44/environment/oracle_attempts.jsonl",
+      "sha256": "ec05b05665889a6d8c35a002333f4d4edda0c036f4ad66db7f23d11b7b085e12",
+      "bytes": 84511
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44/decision_events.jsonl",
+      "sha256": "7b054435f2c99b6e28b3758310accd8c3514417f75fe5d54226a2a1811569f79",
+      "bytes": 11400
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/jobs/ce30ca99814420390e48b3ac1de63e23b8bcc0867cb71e39be286bc814988bd1.json",
+      "sha256": "cc6999f8e0879422f16f3450a3f885b571071e29c849c6c260120321b386a936",
+      "bytes": 21257
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/ce30ca99814420390e48b3ac1de63e23b8bcc0867cb71e39be286bc814988bd1/job.json",
+      "sha256": "940cfbfc462667d4528f8fffb72839763a2e2deeda5d4fb518fb66550ed72f49",
+      "bytes": 2654
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/ce30ca99814420390e48b3ac1de63e23b8bcc0867cb71e39be286bc814988bd1/decisions.jsonl",
+      "sha256": "8b720f46e033cdc5646b9e8cf3324016317038354daa35bafb40265459463a2e",
+      "bytes": 1076171
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/ce30ca99814420390e48b3ac1de63e23b8bcc0867cb71e39be286bc814988bd1/rpc/rpc.jsonl",
+      "sha256": "b1146e7eb51a887dbe81225010705f0a5d58888a713c7f2b5764bac7f966e0a6",
+      "bytes": 3635077
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/ce30ca99814420390e48b3ac1de63e23b8bcc0867cb71e39be286bc814988bd1/environment/oracle_attempts.jsonl",
+      "sha256": "7d5ceea1f45b769019360da3a8db67514ab0692741d96b27b76bcf89c0402927",
+      "bytes": 89188
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/ce30ca99814420390e48b3ac1de63e23b8bcc0867cb71e39be286bc814988bd1/decision_events.jsonl",
+      "sha256": "233ba6819e71526e63e65248711890555ac4f00ddba6e8b1ee338bb3061cacac",
+      "bytes": 14744
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/jobs/e55063e7555917797bf76378972bd116992ae59bcf53c8cdbd5d0e96a5a2f2bf.json",
+      "sha256": "793cbcef51e8a16164280063c9e692bc68940aaaeea741c344b59ecf81f61938",
+      "bytes": 34876
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/e55063e7555917797bf76378972bd116992ae59bcf53c8cdbd5d0e96a5a2f2bf/job.json",
+      "sha256": "81512b819d01b715ff674a0ab88dcebfa27b0ec6a83d99a21aeab6955ec35fde",
+      "bytes": 2654
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/e55063e7555917797bf76378972bd116992ae59bcf53c8cdbd5d0e96a5a2f2bf/decisions.jsonl",
+      "sha256": "237b1411ed7d6b20e046e0d9542eca6c50864d38a2047fca1c0034316275cabd",
+      "bytes": 1795835
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/e55063e7555917797bf76378972bd116992ae59bcf53c8cdbd5d0e96a5a2f2bf/rpc/rpc.jsonl",
+      "sha256": "ee87b9a306174eea126c9330c26cc3cb83b187d2ecd8797acb102fb18bf02252",
+      "bytes": 1901916
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/e55063e7555917797bf76378972bd116992ae59bcf53c8cdbd5d0e96a5a2f2bf/environment/oracle_attempts.jsonl",
+      "sha256": "cbb5cf9039f5265cf36515a3ba441e4391006ec6e8e634a4355ee1658a04a94c",
+      "bytes": 89169
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/e55063e7555917797bf76378972bd116992ae59bcf53c8cdbd5d0e96a5a2f2bf/decision_events.jsonl",
+      "sha256": "a401925b9146d7954b33c0b1ee2617d0cc50938df8ce08f53fb76b5ccd4e9660",
+      "bytes": 32228
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/checkpoints/generation_0002/es_history.json",
+      "sha256": "9ee763d8148ad5a2cb95c8c300634f483adb029fe34ed047abdb6c25ad384390",
+      "bytes": 313721
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/training_summary.json",
+      "sha256": "6ba696e8fe3d7f4a3d4a4cb2a2d3b89303a1fd72482e559b61897f911435e709",
+      "bytes": 2959
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/training_receipt.json",
+      "sha256": "14682c5bf8815b48a87ffe6b682a5edf2f5e002d5f49ee3d795ea5117e0ccf46",
+      "bytes": 3169
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/training_descriptor.json",
+      "sha256": "64e06c2bc77da96712fa5239fc38af590d1bbf7addf023c4a4050eae799f6056",
+      "bytes": 664179
+    }
+  ],
+  "byte_preserved_exports": {
+    "analysis.json": "3283f4f72107bf48675986b2b0065187f1acd92adf41bef45a17b709087e50d9",
+    "fixed17_all68_mechanisms.csv": "e6d8295d428c5a4968668aa59b9bbc9f175242acc42f7172c26885dd90498adb",
+    "fixed17_cases.json": "4118f3ac0c1bf5dfe1132797e94c72884fed1e8acf9a3bd7f3e85e566b74b622",
+    "train_dev_event_deduplicated.csv": "37d846e62ba64ca5823014a78f6aa252c8010dd7795e40f5143c50d5c35d8fc9",
+    "train_dev_event_deduplicated_summary.json": "2d5a19d5011d40ca37ca55ea6360e51acf4b7e4341d33a34b8d3a838f3e4a55f"
+  },
+  "report_changes": "Only source links and an explicit dated publication note; scientific findings unchanged.",
+  "trajectory_evidence_changes": "Scientific projection: no reader hostname, transport data, test request bodies, structure selections, error strings or tool timelines. Test decision groups and train/dev prediction rows retained.",
+  "remote_artifact_rehash_in_this_publication": false,
+  "verification_scope": "The original extractor verified source/result/receipt hashes. This publication checks its exact returned snapshot bytes, then independently recalculates tables, event deduplication and diagnostics from the scientific projection.",
+  "variance_scope": "Fixed test cohort has seed2 only. Six train/dev trajectories are not independent repeated-seed test evaluations.",
+  "G0_status_at_observation": "Designed only; not executed in this snapshot. Later actions are not backfilled.",
+  "new_model_inferences_for_export": 0,
+  "new_oracle_calls_for_export": 0,
+  "new_fits_for_export": 0,
+  "scientific_sources_modified": false
+}

@@ -38,6 +38,8 @@ Separately accepted benchmark: [Summit SnAr, Sep19 16:25:48 CST](summit_snar/202
 
 The [component-study snapshot at September 19, 17:26:03 CST](made_components/20260919T172603_CST/progress.md) contains 172/1,080 accepted new evaluations. Its [complete four-arm case comparison](made_components/20260919T172603_CST/report.md) uses the same 17 B10/seed 2 systems: full SUN is 27 versus baseline 34, with mean AUDC .174706 versus .202353. All positive, negative and tied cases remain visible; this partial subset is not a repeated-seed variance estimate.
 
+A [source-bound support-method mechanism audit](development/support_mechanism_audit/20260919T174119_CST/REPORT.md) examines the fixed 17-system comparison and all six new full-ES train/dev trajectories. Both ES updates recorded 723 nonzero parameter blocks, but none of those six trajectories used a neural retry, threshold crossing or risk-ranking change. Deduplicated dev AUROC values (.75 and .7083 over ten events each) coexist with Brier scores near .25. All negative cases and contrary MACE examples are retained; these observations do not establish a neural or screening causal benefit. G0 was not evaluated by the original selection rule, and the report records only the missing-control design at its observation time.
+
 ## Files
 
 - Latest per-system tables: [B10](budget_sweep/20260919T052138_CST/systems_B10.md), [B30](budget_sweep/20260919T052138_CST/systems_B30.md), [B50](budget_sweep/20260919T052138_CST/systems_B50.md). [Mean/variance/SD data](budget_sweep/20260919T052138_CST/statistics.csv) and [recomputation script](budget_sweep/20260919T052138_CST/recompute.py) cover the same observation.

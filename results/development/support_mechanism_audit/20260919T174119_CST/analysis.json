@@ -1,0 +1,923 @@
+{
+  "schema": "fixed17_and_new_full6_mechanism_audit_v1",
+  "snapshot": {
+    "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/made_support_mechanism_audit_20260919/actual_readback_v1/snapshot.json",
+    "sha256": "2d1c1ff98a9f107289f039048f9430652d27b67d662da44d698e73d582db92fb"
+  },
+  "observed_CST": "2026-09-19T17:41:19.132087+08:00",
+  "fixed_cases": {
+    "schema": "fixed17_descriptive_case_inventory_v1",
+    "cohort": {
+      "budget": 10,
+      "seed": 2,
+      "systems": 17
+    },
+    "rows": [
+      {
+        "task_id": "Al-Li-V",
+        "SUN_delta_full_minus_UQ": 0,
+        "AUDC_delta_full_minus_UQ": 0.0,
+        "group": "tie"
+      },
+      {
+        "task_id": "Al-V-Zn",
+        "SUN_delta_full_minus_UQ": -1,
+        "AUDC_delta_full_minus_UQ": -0.29,
+        "group": "negative"
+      },
+      {
+        "task_id": "Au-Cr-Cs-Dy",
+        "SUN_delta_full_minus_UQ": 0,
+        "AUDC_delta_full_minus_UQ": 0.0,
+        "group": "tie"
+      },
+      {
+        "task_id": "Au-K-Tb",
+        "SUN_delta_full_minus_UQ": -3,
+        "AUDC_delta_full_minus_UQ": -0.25,
+        "group": "negative"
+      },
+      {
+        "task_id": "Au-Tb-V-Y",
+        "SUN_delta_full_minus_UQ": -1,
+        "AUDC_delta_full_minus_UQ": -0.11,
+        "group": "negative"
+      },
+      {
+        "task_id": "Ba-Be-Hf-Li",
+        "SUN_delta_full_minus_UQ": 0,
+        "AUDC_delta_full_minus_UQ": 0.0,
+        "group": "tie"
+      },
+      {
+        "task_id": "Ba-Nd-Ni-W",
+        "SUN_delta_full_minus_UQ": 0,
+        "AUDC_delta_full_minus_UQ": 0.0,
+        "group": "tie"
+      },
+      {
+        "task_id": "Ca-Pd-Sn-W",
+        "SUN_delta_full_minus_UQ": 0,
+        "AUDC_delta_full_minus_UQ": 0.0,
+        "group": "tie"
+      },
+      {
+        "task_id": "Ce-Er-Pb-Rh",
+        "SUN_delta_full_minus_UQ": 2,
+        "AUDC_delta_full_minus_UQ": 0.01999999999999999,
+        "group": "positive"
+      },
+      {
+        "task_id": "Ce-Ir-Pt-Sn",
+        "SUN_delta_full_minus_UQ": -4,
+        "AUDC_delta_full_minus_UQ": -0.16,
+        "group": "negative"
+      },
+      {
+        "task_id": "Co-Dy-W",
+        "SUN_delta_full_minus_UQ": -2,
+        "AUDC_delta_full_minus_UQ": -0.16,
+        "group": "negative"
+      },
+      {
+        "task_id": "Co-Mg-Na",
+        "SUN_delta_full_minus_UQ": 2,
+        "AUDC_delta_full_minus_UQ": 0.08,
+        "group": "positive"
+      },
+      {
+        "task_id": "Co-Pd-Tl",
+        "SUN_delta_full_minus_UQ": 0,
+        "AUDC_delta_full_minus_UQ": 0.0,
+        "group": "tie"
+      },
+      {
+        "task_id": "Ga-Ho-Lu",
+        "SUN_delta_full_minus_UQ": -3,
+        "AUDC_delta_full_minus_UQ": -0.26999999999999996,
+        "group": "negative"
+      },
+      {
+        "task_id": "Ga-Pt-Tm",
+        "SUN_delta_full_minus_UQ": 2,
+        "AUDC_delta_full_minus_UQ": 0.08000000000000002,
+        "group": "positive"
+      },
+      {
+        "task_id": "Hf-Ni-Zr",
+        "SUN_delta_full_minus_UQ": 1,
+        "AUDC_delta_full_minus_UQ": 0.09000000000000008,
+        "group": "positive"
+      },
+      {
+        "task_id": "Mg-Sn-Sr",
+        "SUN_delta_full_minus_UQ": -6,
+        "AUDC_delta_full_minus_UQ": -0.36,
+        "group": "negative"
+      }
+    ],
+    "groups": {
+      "negative": [
+        "Al-V-Zn",
+        "Au-K-Tb",
+        "Au-Tb-V-Y",
+        "Ce-Ir-Pt-Sn",
+        "Co-Dy-W",
+        "Ga-Ho-Lu",
+        "Mg-Sn-Sr"
+      ],
+      "positive": [
+        "Ce-Er-Pb-Rh",
+        "Co-Mg-Na",
+        "Ga-Pt-Tm",
+        "Hf-Ni-Zr"
+      ],
+      "tie": [
+        "Al-Li-V",
+        "Au-Cr-Cs-Dy",
+        "Ba-Be-Hf-Li",
+        "Ba-Nd-Ni-W",
+        "Ca-Pd-Sn-W",
+        "Co-Pd-Tl"
+      ]
+    },
+    "totals": {
+      "baseline_reference": {
+        "SUN": 34,
+        "mean_AUDC": 0.20235294117647062
+      },
+      "uq_only_support_aware": {
+        "SUN": 40,
+        "mean_AUDC": 0.2529411764705882
+      },
+      "es_only_independent": {
+        "SUN": 24,
+        "mean_AUDC": 0.20941176470588233
+      },
+      "full_support_aware": {
+        "SUN": 27,
+        "mean_AUDC": 0.17470588235294118
+      }
+    },
+    "not_used_for_tuning": true
+  },
+  "test_arm_summary": {
+    "baseline_reference": {
+      "tools": {
+        "generate_structures": 112,
+        "select_for_evaluation": 199,
+        "score_buffer": 57
+      },
+      "tool_failures": {
+        "select_for_evaluation": 29,
+        "generate_structures": 6,
+        "score_buffer": 2
+      },
+      "graph": {
+        "not_requested": 390
+      },
+      "graph_true": {
+        "not_requested": 368
+      },
+      "requested": {},
+      "extra": {
+        "generation_or_parse_failure": 19
+      },
+      "rank": {},
+      "trajectories": 17,
+      "proposals": 390,
+      "groups": 371,
+      "candidate_ORB": 170,
+      "MACE_physical_started": 2234,
+      "scalar_threshold_crossings": 0,
+      "duplicate_explicit_hash_selections": 0,
+      "fixed_recovery_events": 0
+    },
+    "es_only_independent": {
+      "tools": {
+        "generate_structures": 100,
+        "select_for_evaluation": 222,
+        "score_buffer": 27
+      },
+      "tool_failures": {
+        "select_for_evaluation": 52,
+        "generate_structures": 1
+      },
+      "graph": {
+        "not_requested": 370
+      },
+      "graph_true": {
+        "not_requested": 348
+      },
+      "requested": {},
+      "extra": {
+        "generation_or_parse_failure": 20
+      },
+      "rank": {},
+      "trajectories": 17,
+      "proposals": 370,
+      "groups": 350,
+      "candidate_ORB": 170,
+      "MACE_physical_started": 718,
+      "scalar_threshold_crossings": 0,
+      "duplicate_explicit_hash_selections": 0,
+      "fixed_recovery_events": 1
+    },
+    "full_support_aware": {
+      "tools": {
+        "generate_structures": 93,
+        "select_for_evaluation": 192,
+        "score_buffer": 12,
+        "query_structures": 6,
+        "get_buffer_stats": 3
+      },
+      "tool_failures": {
+        "select_for_evaluation": 22,
+        "generate_structures": 2
+      },
+      "graph": {
+        "succeeded": 223,
+        "unavailable": 100
+      },
+      "graph_true": {
+        "succeeded": 223,
+        "unavailable": 90
+      },
+      "requested": {
+        "observed_local_schema:generation_invalid": 12,
+        "NN_typed:not_new": 8
+      },
+      "extra": {
+        "observed_local_schema": 12,
+        "NN_typed": 5
+      },
+      "rank": {
+        "unknown_neutral_groups": 93,
+        "all_supported_multiple_valid_groups": 1
+      },
+      "trajectories": 17,
+      "proposals": 323,
+      "groups": 306,
+      "candidate_ORB": 170,
+      "MACE_physical_started": 381,
+      "scalar_threshold_crossings": 0,
+      "duplicate_explicit_hash_selections": 0,
+      "fixed_recovery_events": 0
+    },
+    "uq_only_support_aware": {
+      "tools": {
+        "generate_structures": 109,
+        "select_for_evaluation": 189,
+        "score_buffer": 36,
+        "query_structures": 14,
+        "get_buffer_stats": 11
+      },
+      "tool_failures": {
+        "generate_structures": 7,
+        "select_for_evaluation": 19
+      },
+      "graph": {
+        "succeeded": 340,
+        "unavailable": 50
+      },
+      "graph_true": {
+        "succeeded": 340,
+        "unavailable": 32
+      },
+      "requested": {
+        "observed_local_schema:generation_invalid": 30,
+        "NN_typed:not_new": 5
+      },
+      "extra": {
+        "observed_local_schema": 30,
+        "NN_typed": 1
+      },
+      "rank": {
+        "unknown_neutral_groups": 37,
+        "all_supported_multiple_valid_groups": 1,
+        "selected_nonfirst_valid_by_risk_ranking": 1
+      },
+      "trajectories": 17,
+      "proposals": 390,
+      "groups": 359,
+      "candidate_ORB": 170,
+      "MACE_physical_started": 1419,
+      "scalar_threshold_crossings": 0,
+      "duplicate_explicit_hash_selections": 0,
+      "fixed_recovery_events": 0
+    }
+  },
+  "training_dev": [
+    {
+      "generation_request": 1,
+      "phase": "train",
+      "candidate_index": 0,
+      "task_id": "Al-Au-Hf",
+      "request_id": "e55063e7555917797bf76378972bd116992ae59bcf53c8cdbd5d0e96a5a2f2bf",
+      "AUDC": 0.71,
+      "proposals": 41,
+      "valid_generation": 21,
+      "graph_supported": 1,
+      "unknown_FVU": 20,
+      "NN_retry_requests": 0,
+      "actual_schema_extra": 14,
+      "NN_rank_nonfirst": 0,
+      "scalar_threshold_crossings": 0,
+      "MACE_physical": 0,
+      "score_buffer_calls": 0,
+      "scalar_range": {
+        "n": 1,
+        "min": 0.4997803866863251,
+        "median": 0.4997803866863251,
+        "p95": 0.4997803866863251,
+        "max": 0.4997803866863251,
+        "mean": 0.4997803866863251
+      },
+      "scalar_calibration": {
+        "n_rows": 0,
+        "positives": 0,
+        "negatives": 0,
+        "Brier": null,
+        "AUROC": null,
+        "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+      },
+      "type_calibration": {},
+      "seed": 4187496771
+    },
+    {
+      "generation_request": 1,
+      "phase": "train",
+      "candidate_index": 1,
+      "task_id": "Al-Au-Hf",
+      "request_id": "ce30ca99814420390e48b3ac1de63e23b8bcc0867cb71e39be286bc814988bd1",
+      "AUDC": 0.19,
+      "proposals": 19,
+      "valid_generation": 18,
+      "graph_supported": 3,
+      "unknown_FVU": 15,
+      "NN_retry_requests": 0,
+      "actual_schema_extra": 2,
+      "NN_rank_nonfirst": 0,
+      "scalar_threshold_crossings": 0,
+      "MACE_physical": 0,
+      "score_buffer_calls": 0,
+      "scalar_range": {
+        "n": 3,
+        "min": 0.4996231198310852,
+        "median": 0.4996449947357178,
+        "p95": 0.4996449947357178,
+        "max": 0.49969547986984253,
+        "mean": 0.49965453147888184
+      },
+      "scalar_calibration": {
+        "n_rows": 3,
+        "positives": 3,
+        "negatives": 0,
+        "Brier": 0.25034558878775454,
+        "AUROC": null,
+        "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+      },
+      "type_calibration": {
+        "generation_invalid": {
+          "n_rows": 3,
+          "positives": 0,
+          "negatives": 3,
+          "Brier": 1.0308557834312075e-169,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "candidate_generation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "tool_execution_failure": {
+          "n_rows": 3,
+          "positives": 0,
+          "negatives": 3,
+          "Brier": 0.00022701645167117306,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "screening_unavailable": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "scientific_evaluation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "unstable": {
+          "n_rows": 3,
+          "positives": 3,
+          "negatives": 0,
+          "Brier": 0.26014476016133076,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "not_new": {
+          "n_rows": 3,
+          "positives": 0,
+          "negatives": 3,
+          "Brier": 0.057770093140769224,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        }
+      },
+      "seed": 4187496771
+    },
+    {
+      "generation_request": 1,
+      "phase": "dev",
+      "candidate_index": null,
+      "task_id": "Al-Pd-Sm",
+      "request_id": "75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5",
+      "AUDC": 0.62,
+      "proposals": 18,
+      "valid_generation": 17,
+      "graph_supported": 17,
+      "unknown_FVU": 0,
+      "NN_retry_requests": 0,
+      "actual_schema_extra": 1,
+      "NN_rank_nonfirst": 0,
+      "scalar_threshold_crossings": 0,
+      "MACE_physical": 0,
+      "score_buffer_calls": 0,
+      "scalar_range": {
+        "n": 17,
+        "min": 0.4995734691619873,
+        "median": 0.500650942325592,
+        "p95": 0.5008920431137085,
+        "max": 0.5009829998016357,
+        "mean": 0.5004223655251896
+      },
+      "scalar_calibration": {
+        "n_rows": 17,
+        "positives": 8,
+        "negatives": 9,
+        "Brier": 0.24997397670634824,
+        "AUROC": 0.6527777777777778,
+        "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+      },
+      "type_calibration": {
+        "generation_invalid": {
+          "n_rows": 17,
+          "positives": 0,
+          "negatives": 17,
+          "Brier": 2.455110236426769e-118,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "candidate_generation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "tool_execution_failure": {
+          "n_rows": 17,
+          "positives": 1,
+          "negatives": 16,
+          "Brier": 0.07573743541286432,
+          "AUROC": 0.4375,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "screening_unavailable": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "scientific_evaluation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "unstable": {
+          "n_rows": 17,
+          "positives": 6,
+          "negatives": 11,
+          "Brier": 0.23318412551688145,
+          "AUROC": 0.6515151515151515,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "not_new": {
+          "n_rows": 17,
+          "positives": 2,
+          "negatives": 15,
+          "Brier": 0.13885046477433455,
+          "AUROC": 0.8666666666666667,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        }
+      },
+      "seed": 4289295197
+    },
+    {
+      "generation_request": 2,
+      "phase": "train",
+      "candidate_index": 0,
+      "task_id": "Al-Au-Hf",
+      "request_id": "01a2bee845908e390686c88de596b9f6839573b93dd81342aeb24a42c63c9786",
+      "AUDC": 0.48,
+      "proposals": 13,
+      "valid_generation": 13,
+      "graph_supported": 13,
+      "unknown_FVU": 0,
+      "NN_retry_requests": 0,
+      "actual_schema_extra": 0,
+      "NN_rank_nonfirst": 0,
+      "scalar_threshold_crossings": 0,
+      "MACE_physical": 0,
+      "score_buffer_calls": 0,
+      "scalar_range": {
+        "n": 13,
+        "min": 0.49922260642051697,
+        "median": 0.5005282163619995,
+        "p95": 0.5006617307662964,
+        "max": 0.5006629228591919,
+        "mean": 0.5003242630224961
+      },
+      "scalar_calibration": {
+        "n_rows": 13,
+        "positives": 8,
+        "negatives": 5,
+        "Brier": 0.24989341945570026,
+        "AUROC": 0.5,
+        "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+      },
+      "type_calibration": {
+        "generation_invalid": {
+          "n_rows": 13,
+          "positives": 0,
+          "negatives": 13,
+          "Brier": 2.8488905289932245e-207,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "candidate_generation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "tool_execution_failure": {
+          "n_rows": 13,
+          "positives": 0,
+          "negatives": 13,
+          "Brier": 0.0024455477479411593,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "screening_unavailable": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "scientific_evaluation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "unstable": {
+          "n_rows": 13,
+          "positives": 3,
+          "negatives": 10,
+          "Brier": 0.22656197962126923,
+          "AUROC": 0.36666666666666664,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "not_new": {
+          "n_rows": 13,
+          "positives": 5,
+          "negatives": 8,
+          "Brier": 0.2935330840998599,
+          "AUROC": 0.2,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        }
+      },
+      "seed": 1200346909
+    },
+    {
+      "generation_request": 2,
+      "phase": "train",
+      "candidate_index": 1,
+      "task_id": "Al-Au-Hf",
+      "request_id": "4bf207c757815b590618dfdb5afd2df13e719357a143d952322967baa9b10c3e",
+      "AUDC": 0.26,
+      "proposals": 20,
+      "valid_generation": 20,
+      "graph_supported": 20,
+      "unknown_FVU": 0,
+      "NN_retry_requests": 0,
+      "actual_schema_extra": 0,
+      "NN_rank_nonfirst": 0,
+      "scalar_threshold_crossings": 0,
+      "MACE_physical": 104,
+      "score_buffer_calls": 4,
+      "scalar_range": {
+        "n": 20,
+        "min": 0.49922430515289307,
+        "median": 0.5004197955131531,
+        "p95": 0.5006024241447449,
+        "max": 0.500617265701294,
+        "mean": 0.5002093136310577
+      },
+      "scalar_calibration": {
+        "n_rows": 20,
+        "positives": 15,
+        "negatives": 5,
+        "Brier": 0.24996626429418162,
+        "AUROC": 0.4266666666666667,
+        "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+      },
+      "type_calibration": {
+        "generation_invalid": {
+          "n_rows": 20,
+          "positives": 0,
+          "negatives": 20,
+          "Brier": 3.625033175037246e-172,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "candidate_generation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "tool_execution_failure": {
+          "n_rows": 20,
+          "positives": 2,
+          "negatives": 18,
+          "Brier": 0.09834424704459566,
+          "AUROC": 0.7777777777777778,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "screening_unavailable": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "scientific_evaluation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "unstable": {
+          "n_rows": 20,
+          "positives": 10,
+          "negatives": 10,
+          "Brier": 0.24893653588447906,
+          "AUROC": 0.64,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "not_new": {
+          "n_rows": 20,
+          "positives": 5,
+          "negatives": 15,
+          "Brier": 0.21368933615043112,
+          "AUROC": 0.41333333333333333,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        }
+      },
+      "seed": 1200346909
+    },
+    {
+      "generation_request": 2,
+      "phase": "dev",
+      "candidate_index": null,
+      "task_id": "Al-Pd-Sm",
+      "request_id": "b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44",
+      "AUDC": 0.64,
+      "proposals": 15,
+      "valid_generation": 15,
+      "graph_supported": 15,
+      "unknown_FVU": 0,
+      "NN_retry_requests": 0,
+      "actual_schema_extra": 0,
+      "NN_rank_nonfirst": 0,
+      "scalar_threshold_crossings": 0,
+      "MACE_physical": 0,
+      "score_buffer_calls": 0,
+      "scalar_range": {
+        "n": 15,
+        "min": 0.49947354197502136,
+        "median": 0.500798761844635,
+        "p95": 0.5009657740592957,
+        "max": 0.5010052919387817,
+        "mean": 0.5005431850751241
+      },
+      "scalar_calibration": {
+        "n_rows": 15,
+        "positives": 9,
+        "negatives": 6,
+        "Brier": 0.24963925151508956,
+        "AUROC": 0.8148148148148148,
+        "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+      },
+      "type_calibration": {
+        "generation_invalid": {
+          "n_rows": 15,
+          "positives": 0,
+          "negatives": 15,
+          "Brier": 2.813277262125851e-135,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "candidate_generation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "tool_execution_failure": {
+          "n_rows": 15,
+          "positives": 1,
+          "negatives": 14,
+          "Brier": 0.06957539871422336,
+          "AUROC": 0.5,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "screening_unavailable": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "scientific_evaluation_failure": {
+          "n_rows": 0,
+          "positives": 0,
+          "negatives": 0,
+          "Brier": null,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "unstable": {
+          "n_rows": 15,
+          "positives": 0,
+          "negatives": 15,
+          "Brier": 0.21135573794074572,
+          "AUROC": null,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        },
+        "not_new": {
+          "n_rows": 15,
+          "positives": 9,
+          "negatives": 6,
+          "Brier": 0.32848126014130635,
+          "AUROC": 0.2222222222222222,
+          "unit": "decision rows; several rows may share one next-scientific-evaluation label"
+        }
+      },
+      "seed": 4289295197
+    }
+  ],
+  "ES_selection_and_updates": {
+    "summary": {
+      "status": "complete",
+      "completed_generations": 2,
+      "expected_evaluations": 6,
+      "completed_evaluations": 6,
+      "best_generation": 2,
+      "best_dev_metric": 0.64,
+      "selection_uses": "all_declared_dev_cases_at_scheduled_trained_generations_including_final",
+      "initial_dev_evaluated": null
+    },
+    "training_receipt": {
+      "selected_generation": 2,
+      "initial_actual_model_state_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516",
+      "selected_actual_model_state_hash": "d97a518f339174fd21c002e41617a80554d73facffc3c440584f32d7e9314b85",
+      "evolution_signal_observed": true,
+      "selected_matches_initial": false,
+      "risk_used": true,
+      "uncertainty_reward_weight": 0
+    },
+    "updates": [
+      {
+        "generation": 0,
+        "state_hash_before": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516",
+        "state_hash_after": "954df9753384d513f37a7ca1801cf686829921c5fcba4ee30c74cfbc8d4fcc14",
+        "rewards": [
+          0.71,
+          0.19
+        ],
+        "normalized_rewards": [
+          1.0,
+          -1.0
+        ],
+        "seeds": [
+          1821371052776301264,
+          8323034678165605901
+        ],
+        "alpha": 0.0005,
+        "sigma": 0.001,
+        "parameter_scope": null,
+        "parameter_blocks": 723,
+        "nonzero_delta_blocks": 723,
+        "delta_L2_combined": 23.819999449110107
+      },
+      {
+        "generation": 1,
+        "state_hash_before": "954df9753384d513f37a7ca1801cf686829921c5fcba4ee30c74cfbc8d4fcc14",
+        "state_hash_after": "d97a518f339174fd21c002e41617a80554d73facffc3c440584f32d7e9314b85",
+        "rewards": [
+          0.48,
+          0.26
+        ],
+        "normalized_rewards": [
+          0.9999998211860657,
+          -1.0000001192092896
+        ],
+        "seeds": [
+          2952483627508913124,
+          6597367986030917832
+        ],
+        "alpha": 0.0005,
+        "sigma": 0.0002,
+        "parameter_scope": null,
+        "parameter_blocks": 723,
+        "nonzero_delta_blocks": 723,
+        "delta_L2_combined": 23.82038167063678
+      }
+    ],
+    "actual_dev_generations": [
+      1,
+      2
+    ],
+    "settings": {
+      "activation_tokens_per_decision": 16,
+      "failure_aware_control": true,
+      "generator_device": "cuda",
+      "history_results": 8,
+      "max_generation_retries": 2,
+      "max_tools_per_query": 10,
+      "oracle_device": "cpu",
+      "recent_tools": 4,
+      "risk_threshold": 0.6
+    },
+    "callback_scope": {
+      "risk_used": true,
+      "controller_enabled": true,
+      "uncertainty_reward_weight": 0.0,
+      "evaluator_reward": "official_AUDC_only",
+      "support_contract": "native_graph_support_abstention_v1"
+    }
+  },
+  "causal_limits": [
+    "Fixed17 is a post-results descriptive completed intersection, not a prospectively unseen validation cohort.",
+    "Repeated decision labels share one scientific outcome; row AUROC is descriptive, not independent-episode evidence.",
+    "No rejected-candidate counterfactual Oracle outcome exists.",
+    "No G0 full-controller development evaluation was present; checkpoints0/1/2 do not imply dev comparisons0/1/2.",
+    "Missing reported surrogate count is retainedNone; physical zero is stated only when complete actual journal has no MACE attempts."
+  ],
+  "new_training_or_scientific_calls": 0,
+  "event_level_diagnostic": {
+    "source_summary": {
+      "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/made_support_mechanism_audit_20260919/train_dev_event_deduplicated_summary.json",
+      "sha256": "2d5a19d5011d40ca37ca55ea6360e51acf4b7e4341d33a34b8d3a838f3e4a55f"
+    },
+    "source_csv": {
+      "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/made_support_mechanism_audit_20260919/train_dev_event_deduplicated.csv",
+      "sha256": "37d846e62ba64ca5823014a78f6aa252c8010dd7795e40f5143c50d5c35d8fc9"
+    },
+    "preferred_over_duplicate_row_metrics": true
+  }
+}

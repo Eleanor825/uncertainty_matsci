@@ -1,0 +1,156 @@
+{
+  "schema": "fixed17_descriptive_case_inventory_v1",
+  "cohort": {
+    "budget": 10,
+    "seed": 2,
+    "systems": 17
+  },
+  "rows": [
+    {
+      "task_id": "Al-Li-V",
+      "SUN_delta_full_minus_UQ": 0,
+      "AUDC_delta_full_minus_UQ": 0.0,
+      "group": "tie"
+    },
+    {
+      "task_id": "Al-V-Zn",
+      "SUN_delta_full_minus_UQ": -1,
+      "AUDC_delta_full_minus_UQ": -0.29,
+      "group": "negative"
+    },
+    {
+      "task_id": "Au-Cr-Cs-Dy",
+      "SUN_delta_full_minus_UQ": 0,
+      "AUDC_delta_full_minus_UQ": 0.0,
+      "group": "tie"
+    },
+    {
+      "task_id": "Au-K-Tb",
+      "SUN_delta_full_minus_UQ": -3,
+      "AUDC_delta_full_minus_UQ": -0.25,
+      "group": "negative"
+    },
+    {
+      "task_id": "Au-Tb-V-Y",
+      "SUN_delta_full_minus_UQ": -1,
+      "AUDC_delta_full_minus_UQ": -0.11,
+      "group": "negative"
+    },
+    {
+      "task_id": "Ba-Be-Hf-Li",
+      "SUN_delta_full_minus_UQ": 0,
+      "AUDC_delta_full_minus_UQ": 0.0,
+      "group": "tie"
+    },
+    {
+      "task_id": "Ba-Nd-Ni-W",
+      "SUN_delta_full_minus_UQ": 0,
+      "AUDC_delta_full_minus_UQ": 0.0,
+      "group": "tie"
+    },
+    {
+      "task_id": "Ca-Pd-Sn-W",
+      "SUN_delta_full_minus_UQ": 0,
+      "AUDC_delta_full_minus_UQ": 0.0,
+      "group": "tie"
+    },
+    {
+      "task_id": "Ce-Er-Pb-Rh",
+      "SUN_delta_full_minus_UQ": 2,
+      "AUDC_delta_full_minus_UQ": 0.01999999999999999,
+      "group": "positive"
+    },
+    {
+      "task_id": "Ce-Ir-Pt-Sn",
+      "SUN_delta_full_minus_UQ": -4,
+      "AUDC_delta_full_minus_UQ": -0.16,
+      "group": "negative"
+    },
+    {
+      "task_id": "Co-Dy-W",
+      "SUN_delta_full_minus_UQ": -2,
+      "AUDC_delta_full_minus_UQ": -0.16,
+      "group": "negative"
+    },
+    {
+      "task_id": "Co-Mg-Na",
+      "SUN_delta_full_minus_UQ": 2,
+      "AUDC_delta_full_minus_UQ": 0.08,
+      "group": "positive"
+    },
+    {
+      "task_id": "Co-Pd-Tl",
+      "SUN_delta_full_minus_UQ": 0,
+      "AUDC_delta_full_minus_UQ": 0.0,
+      "group": "tie"
+    },
+    {
+      "task_id": "Ga-Ho-Lu",
+      "SUN_delta_full_minus_UQ": -3,
+      "AUDC_delta_full_minus_UQ": -0.26999999999999996,
+      "group": "negative"
+    },
+    {
+      "task_id": "Ga-Pt-Tm",
+      "SUN_delta_full_minus_UQ": 2,
+      "AUDC_delta_full_minus_UQ": 0.08000000000000002,
+      "group": "positive"
+    },
+    {
+      "task_id": "Hf-Ni-Zr",
+      "SUN_delta_full_minus_UQ": 1,
+      "AUDC_delta_full_minus_UQ": 0.09000000000000008,
+      "group": "positive"
+    },
+    {
+      "task_id": "Mg-Sn-Sr",
+      "SUN_delta_full_minus_UQ": -6,
+      "AUDC_delta_full_minus_UQ": -0.36,
+      "group": "negative"
+    }
+  ],
+  "groups": {
+    "negative": [
+      "Al-V-Zn",
+      "Au-K-Tb",
+      "Au-Tb-V-Y",
+      "Ce-Ir-Pt-Sn",
+      "Co-Dy-W",
+      "Ga-Ho-Lu",
+      "Mg-Sn-Sr"
+    ],
+    "positive": [
+      "Ce-Er-Pb-Rh",
+      "Co-Mg-Na",
+      "Ga-Pt-Tm",
+      "Hf-Ni-Zr"
+    ],
+    "tie": [
+      "Al-Li-V",
+      "Au-Cr-Cs-Dy",
+      "Ba-Be-Hf-Li",
+      "Ba-Nd-Ni-W",
+      "Ca-Pd-Sn-W",
+      "Co-Pd-Tl"
+    ]
+  },
+  "totals": {
+    "baseline_reference": {
+      "SUN": 34,
+      "mean_AUDC": 0.20235294117647062
+    },
+    "uq_only_support_aware": {
+      "SUN": 40,
+      "mean_AUDC": 0.2529411764705882
+    },
+    "es_only_independent": {
+      "SUN": 24,
+      "mean_AUDC": 0.20941176470588233
+    },
+    "full_support_aware": {
+      "SUN": 27,
+      "mean_AUDC": 0.17470588235294118
+    }
+  },
+  "not_used_for_tuning": true
+}

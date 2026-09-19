@@ -1723,5 +1723,20 @@
       "complete": false,
       "repeated_seed_variance_estimated": false
     }
+  ],
+  "development_exports": [
+    {
+      "export_id": "support_mechanism_audit_20260919T174119_CST",
+      "observed_utc": "2026-09-19T09:41:19.132087+00:00",
+      "fixed_test_cohort_observed_CST": "2026-09-19T17:26:03.436872+08:00",
+      "report": "results/development/support_mechanism_audit/20260919T174119_CST/REPORT.md",
+      "summary": "results/development/support_mechanism_audit/20260919T174119_CST/analysis.json",
+      "fixed_test_trajectories": 68,
+      "full_train_dev_trajectories": 6,
+      "deduplicated_train_dev_events": 60,
+      "descriptive_only": true,
+      "G0_dev_executed_at_snapshot": false,
+      "repeated_seed_variance_estimated": false
+    }
   ]
 }
