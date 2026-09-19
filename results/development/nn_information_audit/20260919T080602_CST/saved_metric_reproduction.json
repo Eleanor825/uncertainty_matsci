@@ -1,0 +1,107 @@
+[
+  {
+    "head": "future_failure",
+    "metric": "brier",
+    "saved": 0.25000646955214473,
+    "recomputed": 0.25000646955214473,
+    "absolute_difference": 0.0
+  },
+  {
+    "head": "future_failure",
+    "metric": "auroc",
+    "saved": 0.516260162601626,
+    "recomputed": 0.516260162601626,
+    "absolute_difference": 0.0
+  },
+  {
+    "head": "future_failure",
+    "metric": "nll",
+    "saved": 0.6931601196443504,
+    "recomputed": 0.6931601196443504,
+    "absolute_difference": 0.0
+  },
+  {
+    "head": "generation_invalid",
+    "metric": "brier",
+    "saved": 8.674471795461519e-81,
+    "recomputed": 1.7348943590923037e-80,
+    "absolute_difference": 8.674471795461519e-81
+  },
+  {
+    "head": "generation_invalid",
+    "metric": "auroc",
+    "saved": 1.0,
+    "recomputed": 1.0,
+    "absolute_difference": 0.0
+  },
+  {
+    "head": "generation_invalid",
+    "metric": "nll",
+    "saved": 1.0000000100247594e-08,
+    "recomputed": 9.992007221626415e-16,
+    "absolute_difference": 9.999999101046871e-09
+  },
+  {
+    "head": "not_new",
+    "metric": "brier",
+    "saved": 0.19020187396610724,
+    "recomputed": 0.19020187396610724,
+    "absolute_difference": 0.0
+  },
+  {
+    "head": "not_new",
+    "metric": "auroc",
+    "saved": 0.5767511177347242,
+    "recomputed": 0.5767511177347243,
+    "absolute_difference": 1.1102230246251565e-16
+  },
+  {
+    "head": "not_new",
+    "metric": "nll",
+    "saved": 0.5616774346358482,
+    "recomputed": 0.5616774346358482,
+    "absolute_difference": 0.0
+  },
+  {
+    "head": "tool_execution_failure",
+    "metric": "brier",
+    "saved": 0.05167935014510411,
+    "recomputed": 0.0516793501451041,
+    "absolute_difference": 6.938893903907228e-18
+  },
+  {
+    "head": "tool_execution_failure",
+    "metric": "auroc",
+    "saved": 0.6962025316455697,
+    "recomputed": 0.6962025316455697,
+    "absolute_difference": 0.0
+  },
+  {
+    "head": "tool_execution_failure",
+    "metric": "nll",
+    "saved": 0.19819639087355712,
+    "recomputed": 0.19819639087355714,
+    "absolute_difference": 2.7755575615628914e-17
+  },
+  {
+    "head": "unstable",
+    "metric": "brier",
+    "saved": 0.24831852089170553,
+    "recomputed": 0.24831852089170556,
+    "absolute_difference": 2.7755575615628914e-17
+  },
+  {
+    "head": "unstable",
+    "metric": "auroc",
+    "saved": 0.5175324675324675,
+    "recomputed": 0.5175324675324675,
+    "absolute_difference": 0.0
+  },
+  {
+    "head": "unstable",
+    "metric": "nll",
+    "saved": 0.689753191247699,
+    "recomputed": 0.689753191247699,
+    "absolute_difference": 0.0
+  }
+]

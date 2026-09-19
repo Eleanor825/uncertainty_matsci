@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 8698,
-      "export_sha256": "f101d4e1a9f4090660b6c957334a99ab6f6d527fff75cc021d33b2a216122dbf"
+      "bytes": 9265,
+      "export_sha256": "3c1ed94436452d5127509b7af63a7890e8d8c7fc6c45c2b81927fc5ee1f02ff1"
     },
     {
       "path": "docs/results.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "results/README.md",
-      "bytes": 5790,
-      "export_sha256": "e23b17d079959023765117c4ad35f7fbb529711e1f22b80d38f0f22d8aae42fa"
+      "bytes": 6290,
+      "export_sha256": "25484f41aa32138e202aacdf3f3a0b2be1111e0e6ee4a37a44e9fd881b558704"
     },
     {
       "path": "results/budget_sweep/20260919T010939_CST/all_system_results.csv",
@@ -480,6 +480,86 @@
       "path": "results/development/schema_repair_seed2/20260919T074355_CST/verification.json",
       "bytes": 1130,
       "export_sha256": "cfe24658c95f8c3062d10f7616564bfced8f0aaeb51119bb5eaa638638f165ea"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/all_metrics.json",
+      "bytes": 61299,
+      "export_sha256": "31600bf6693dea58164c24ff013f73721657f9f05076b4c7962a0bbb78a37678"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/analyze.py",
+      "bytes": 15798,
+      "export_sha256": "76c351f60a49829f44183a422224e5fa3291e6f24fe15439f5aa6ee61389af28"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/episodes.csv",
+      "bytes": 519,
+      "export_sha256": "341798efd54d5d49338d0a66ed1330175ab8f328bab5fd65cff12d13b1609357"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/evidence.json",
+      "bytes": 9453385,
+      "export_sha256": "de65b74dfb570b191eaefad13776313fe5a23667ff051ba100de4693f908a2db"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/feature_support.csv",
+      "bytes": 25224,
+      "export_sha256": "e0a0cf3d98a81a394d253233e262b5fcd1238379d774961c2984a6f4ddf0f79b"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/label_support.csv",
+      "bytes": 2682,
+      "export_sha256": "96ab1e3925852c952f096304ec89efa9701c7cbaa851d0cfdcfea5ded36ae7b3"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/manifest.json",
+      "bytes": 4031,
+      "export_sha256": "715945f62c90804d587b2263552afcb48f9fdcdc755c61c14d4c567706d591f3"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/metrics.csv",
+      "bytes": 18374,
+      "export_sha256": "da86712b5bd242e51af841491949775a8697f08377153427e8c50a3589487dfd"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/per_episode_metrics.csv",
+      "bytes": 15129,
+      "export_sha256": "07a00cb43c914b41e7837305f973afad8a9982eee3f498ba89e7fa2a257b7fb5"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/proposal_predictions.csv",
+      "bytes": 98299,
+      "export_sha256": "576e7a99d897880ec33f157eb1e032fdc4eb5064c5ef9f0a48556eb42e06d3f0"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/publication_provenance.json",
+      "bytes": 2096,
+      "export_sha256": "d9edd2e7e91805526cb5d38b1064c4299c597b668409eb4cba7a4ca94f66ab9a"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/report.md",
+      "bytes": 7837,
+      "export_sha256": "b1ad90af71126e7c476760d7b46a5e94b6a2b885c77b3317d008cbbc81c94004"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/saved_metric_reproduction.json",
+      "bytes": 2550,
+      "export_sha256": "f48a5d133d14f67f75faed1e5e8d3661d011dc13f04149e7c2f7e19d692a2266"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/scientific_events.csv",
+      "bytes": 38744,
+      "export_sha256": "43dd247c63589597ecaabf76e36d8f0a54d7296f868381d605b8c08ef52f8c6a"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/source_semantics.json",
+      "bytes": 68812,
+      "export_sha256": "f5138cd2d81b94ca2d046ba8093b372bada3b6ae6c25010d4088cd58fe1f92f3"
+    },
+    {
+      "path": "results/development/nn_information_audit/20260919T080602_CST/summary.json",
+      "bytes": 25098,
+      "export_sha256": "9aee273402eb80509a44b8f1c25a69cb263f8e7e73fb4bb763c0f4ae4c596be8"
     }
   ],
   "development_exports": [

@@ -12,6 +12,8 @@ The registered expansion preserves the prior60 B10 trajectories and adds120 inde
 
 A subsequent [paired development mechanism audit](results/development/schema_repair_seed2/20260919T074355_CST/report.md) identifies an adapter-compatible composition Mapping that the original controller incorrectly rejected. Correcting that gate changed one Al–Pd–Sm seed2 B50 rollout from SUN9 to15, with31 additional MACE screening evaluations. The neural models were unchanged, and this pair does not establish an independent benefit from neural uncertainty. These development results and costs are separate from the original180 test trajectories; the ongoing multi-seed component study will assess the corrected method.
 
+An [offline audit of the frozen neural risk models](results/development/nn_information_audit/20260919T080602_CST/report.md) rechecks the original 386 train/dev proposals and 200 scientific events, with reproducible predictions and event-level statistics. The sole original dev episode was already used for epoch selection and temperature calibration; these are **development diagnostics, not held-out test scores**. The report distinguishes weak predictive evidence, an already encoded parsing label, and the absence of valid-action/missing-graph training examples.
+
 The larger multi-model, multi-scale and CrystalGym study remains deferred. These exports do not establish a general improvement, an independent causal effect of uncertainty, or performance for model sizes other than the evaluated4B checkpoint.
 
 ## Code map

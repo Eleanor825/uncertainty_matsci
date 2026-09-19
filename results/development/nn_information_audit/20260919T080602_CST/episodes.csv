@@ -1,0 +1,5 @@
+job_id,task,split,seed,proposals,executed,nonexecuted,ORB_events,future_positive_proposals,future_positive_events,maximum_labels_per_ORB_event,graph_missing,valid_generation_missing_graph
+collection-made-b5744f83a99f950e49cfafd4,Al-Au-Hf,train,1,107,107,0,50,85,39,8,0,0
+collection-made-0e27e5c04511ea16fc8c64a3,Al-Au-Hf,train,2,90,85,5,50,52,33,6,5,0
+collection-made-842d23cafa43e4f28a139ee9,Al-Au-Hf,train,3,105,101,4,50,67,35,6,3,0
+collection-made-697302908b2dbfc7e18e9ee0,Al-Pd-Sm,dev,1,84,83,1,50,42,25,4,1,0

@@ -32,6 +32,8 @@ Arm comparisons use **only complete system/seed pairs**. The15:32 B30 comparison
 
 The table above is historical. The latest snapshot has all180 complete trajectories, including one explicitly reconciled GaPt result, while the original global publication receipt is not asserted. At the historical18:44 observation B50 was still unfinished; those missing values remain NA in that snapshot. Cross-system sample variance (ddof=1) and SD use seed1 only; a smaller variance is not evidence of better uncertainty calibration or across-seed repeatability.
 
+Separate development evidence: the [frozen NN information audit, Sep19 08:06:02 CST](development/nn_information_audit/20260919T080602_CST/report.md), includes 386 original train/dev proposals, 200 event-level observations and a cached-data [recomputation script](development/nn_information_audit/20260919T080602_CST/analyze.py). Its single dev episode previously participated in model selection and calibration; it is not an additional held-out test result or part of the 180-trajectory test total.
+
 ## Files
 
 - Latest per-system tables: [B10](budget_sweep/20260919T052138_CST/systems_B10.md), [B30](budget_sweep/20260919T052138_CST/systems_B30.md), [B50](budget_sweep/20260919T052138_CST/systems_B50.md). [Mean/variance/SD data](budget_sweep/20260919T052138_CST/statistics.csv) and [recomputation script](budget_sweep/20260919T052138_CST/recompute.py) cover the same observation.

@@ -1,0 +1,67 @@
+{
+  "schema": "frozen_train_dev_NN_information_audit_publication_v1",
+  "snapshot_CST": "2026-09-19T08:06:02.284804+08:00",
+  "snapshot_UTC": "2026-09-19T00:06:02.284804+00:00",
+  "source_audit_manifest_sha256": "ec88f241c9184f792398aab24fa450f16c6b0387d77fab8f86ecd959ba6b459d",
+  "exported_data_are_derived": true,
+  "all_selected_source_files_copied_byte_for_byte": true,
+  "raw_RPC_logs_published": false,
+  "weight_files_published": false,
+  "credential_or_browser_files_published": false,
+  "selected_files": [
+    "report.md",
+    "analyze.py",
+    "evidence.json",
+    "summary.json",
+    "all_metrics.json",
+    "saved_metric_reproduction.json",
+    "source_semantics.json",
+    "episodes.csv",
+    "feature_support.csv",
+    "label_support.csv",
+    "metrics.csv",
+    "per_episode_metrics.csv",
+    "proposal_predictions.csv",
+    "scientific_events.csv"
+  ],
+  "excluded_local_files": [
+    "inspect.py",
+    "inventory.json",
+    "inspect.stderr.log",
+    "extract.stderr.log",
+    "extract_frozen_predictions.py"
+  ],
+  "original_source_references_preserved": true,
+  "scope": {
+    "policy_generation": 0,
+    "train": {
+      "system": "Al-Au-Hf",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "original_ORB_events": 150
+    },
+    "dev": {
+      "system": "Al-Pd-Sm",
+      "seeds": [
+        1
+      ],
+      "original_ORB_events": 50
+    },
+    "proposal_rows": 386,
+    "dev_was_used_for_epoch_selection_and_temperature_calibration": true,
+    "held_out_test_result": false,
+    "new_NN_fits": 0,
+    "new_oracle_calls_to_produce_this_export": 0,
+    "new_LLM_calls_to_produce_this_export": 0,
+    "new_GPU_calls_to_produce_this_export": 0
+  },
+  "recompute": "python3 analyze.py",
+  "notes": [
+    "The CSVs and audited report are byte-preserved; raw artifact SHA values are distinct from hashes of derived exports.",
+    "Frozen small-NN CPU inference happened during the source audit; publishing and recomputing these cached predictions requires no model load.",
+    "Original 180 test trajectories and all previous dated exports remain unchanged."
+  ]
+}
