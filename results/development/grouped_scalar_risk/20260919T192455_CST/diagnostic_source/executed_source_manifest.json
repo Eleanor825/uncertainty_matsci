@@ -1,0 +1,17 @@
+{
+  "files": {
+    "CPU_validation.json": "1d5b93b86b4da3cc346e6a4ba4c76b463105198248963e393d24bdc2af0abe9a",
+    "CPU_validation.log": "c178c3ed725ea5f64e5a96805d82f7d844371edc46a2652ac3047bb328ea4acc",
+    "CPU_validation.xml": "988c0be7c99c8a9261a62f4ef100ea68503ee6b715403c380b4da8d2b1220f6a",
+    "README.md": "d5b3c4ed39eecd969f01de7d0179ac0dea0ea68190168b7ad26a2b2e351f7221",
+    "engine.py": "ef38cf8e8b77770f59bbc096c912b69a130164ac03a4ebc90d821637e2f4b200",
+    "proposal.json": "f8e4a32ba5f6be2cf4bff7b431e5b5bf319958af2635388e4e193db67ae91101",
+    "runner.py": "f44b375e8dc8ee5e12297a16ac5d84d054df57d50fe0ab2dc87dc4fc59d21362",
+    "test_grouped.py": "f1837c03030039fe61ebb32a186e66c30876d39a0329a0e536f55f010b53b5fc"
+  },
+  "fingerprint": "7c11fa7ca595bf192078e4fd84df3253b7fa78e48ce13837b1928acae8f826f9",
+  "frozen_original_NN_source_or_weights_modified": false,
+  "new_GPU_or_oracle_calls": 0,
+  "purpose": "CPU diagnostic; no controller deployment",
+  "schema": "standalone_MADE_grouped_scalar_source_manifest_v1"
+}

@@ -1759,6 +1759,28 @@
       "descriptive_only": true,
       "G0_dev_executed_at_snapshot": false,
       "repeated_seed_variance_estimated": false
+    },
+    {
+      "export_id": "grouped_scalar_risk_20260919T192455_CST",
+      "completed_CST": "2026-09-19T19:24:55.039408+08:00",
+      "observed_CST": "2026-09-19T19:28:21.417572+08:00",
+      "report": "results/development/grouped_scalar_risk/20260919T192455_CST/report.md",
+      "summary": "results/development/grouped_scalar_risk/20260919T192455_CST/summary.json",
+      "validation_script": "results/development/grouped_scalar_risk/20260919T192455_CST/recompute.py",
+      "training_diagnostic": true,
+      "candidate_states": 54,
+      "raw_proposals": 386,
+      "train_rows": 293,
+      "dev_rows": 83,
+      "selected_optimizer_updates": {
+        "full_internal": 8,
+        "external_only_control": 32
+      },
+      "new_oracle_calls": 0,
+      "new_LLM_generation_calls": 0,
+      "controller_deployed": false,
+      "calibrated_dev_metrics_in_sample": true,
+      "not_part_of_materials_test_matrix": true
     }
   ],
   "latest_component_study_export_id": "made_components_20260919T185004_CST"

@@ -1,0 +1,37 @@
+{
+  "actual_completion_sha256": "8062b37ac8ad06c5afa50f4883aeba26b5059f600db843924fcda313e2eaf22e",
+  "actual_original_row_accounting_sha256": "1a2733a99588637e20d70f1db025b4938471f6dda23b6b052f66d1a96f188622",
+  "actual_registration_fingerprint": "54ac1c081e9fb6a531a9c1339850f3c6ec9f755d8fa672f22ccd655a32c4b077",
+  "actual_registration_sha256": "b01ec624ae17809f784d3f806e4a13916b4544e49da0be33794abaee89d134d1",
+  "actual_report_sha256": "799e4d745fa2b7c5c6066cc3f32ef06402383a3e498882d291166f026960c3a4",
+  "byte_identical_diagnostic_sources": {
+    "engine.py": "ef38cf8e8b77770f59bbc096c912b69a130164ac03a4ebc90d821637e2f4b200",
+    "proposal.json": "f8e4a32ba5f6be2cf4bff7b431e5b5bf319958af2635388e4e193db67ae91101",
+    "runner.py": "f44b375e8dc8ee5e12297a16ac5d84d054df57d50fe0ab2dc87dc4fc59d21362"
+  },
+  "executed_source_manifest_sha256": "a88bea8279012233ff221d77b0ded6118494ba08076d95395f9d280546a6b101",
+  "gpu_calls_for_export": 0,
+  "independent_scientific_review": {
+    "path": "independent_verified_results.json",
+    "scope": "Independent stdlib selection and dev metric calculation from the same source-bound actual snapshot; no tensor loading or new training.",
+    "sha256": "a5defa742b3c965127203b98f2c86420766eed47988b359c2798c38b24ba3b12"
+  },
+  "neural_fits_for_export": 0,
+  "prediction_recomputation_scope": "The public checker recomputes dev logits-to-metrics, controls, fold selection, identities and coverage. Server audit separately recomputed 54 saved candidate states and two final83-row predictions from tensors. The export does not rerun training or claim to revalidate unpublished tensors.",
+  "raw_source_hashes_differ_from_derived_export_hashes": true,
+  "reused_public_evidence": {
+    "path": "results/development/nn_information_audit/20260919T080602_CST/evidence.json",
+    "sha256": "de65b74dfb570b191eaefad13776313fe5a23667ff051ba100de4693f908a2db"
+  },
+  "row_order_and_label_identity_sha256": "0bedea41fff62b9b4ba501641b2c11d910a661d0aa455bc5d4eb04d14c67ce2b",
+  "schema": "grouped_scalar_publication_provenance_v1",
+  "scientific_calls_for_export": 0,
+  "snapshot_sha256": "16b5ca6777b7ba0f398500b499f44b233c8628aed573168d031519cd9a12fe72",
+  "snapshot_source_relative_path": "technical_not_main/scalar_grouped_CPU_monitor_20260919/snapshot.json",
+  "source_portability": "runner.py and proposal.json are byte-exact scientific execution sources with historical absolute data/environment paths. They require the pinned project artifacts and runtime; they are not a standalone public training command. No operator/observer/process/authentication file or model tensor is included.",
+  "study_neural_training_initializations": 8,
+  "study_new_LLM_generation_calls": 0,
+  "study_new_oracle_calls": 0,
+  "study_optimizer_updates": 1240,
+  "unchanged_original_NN_and_primary_results": true
+}

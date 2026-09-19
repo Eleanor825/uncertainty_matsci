@@ -8,18 +8,18 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 11884,
-      "export_sha256": "e4831399f78de89ab82bc7af33d885c9bf9c3ea90f9c75ab97ad8c5892538913"
+      "bytes": 12646,
+      "export_sha256": "bad7d6d0f4c597c595a8ae62ccc81dbcaa296c9b146a1f075da1c0fadbfd88fa"
     },
     {
       "path": "docs/results.md",
-      "bytes": 13681,
-      "export_sha256": "60461a51dc280256a3914ba215a1adb6ed799528081bf2bc1cb1f213ccea497a"
+      "bytes": 14446,
+      "export_sha256": "a5f8b5fa9840b50a591662ee7492cf94f042c299e619fe12a185581bef89e608"
     },
     {
       "path": "results/README.md",
-      "bytes": 8776,
-      "export_sha256": "76ea45eff1023ad1884e285bba7a4a0b643014bd795eacf0757f1d2964cfd48b"
+      "bytes": 9530,
+      "export_sha256": "110b9bbef98b32b3bee0ca44a7d3ef11dfb806b3d6c5e8b1d7c92f5e00a2c97f"
     },
     {
       "path": "results/budget_sweep/20260919T010939_CST/all_system_results.csv",
@@ -208,8 +208,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 55364,
-      "export_sha256": "42b54a3469dd3bdb338ec6c8a1c39bbdc86b397c8292667218a9d71cea19f897"
+      "bytes": 56290,
+      "export_sha256": "03c28b3f246f694b9d149349422da203be8c8ea4fd728c2f6a4e6c5a9f7c786b"
     },
     {
       "path": "results/snapshots/core2_b10_20260917T083208Z/curves.csv",
@@ -850,6 +850,111 @@
       "path": "results/made_components/20260919T185004_CST/timings_and_costs.csv",
       "bytes": 32076,
       "export_sha256": "e4ab4cb50e735aa5d2491c78ef4b45479e7fa0c86422997e41b9b42722d0cd0a"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/coverage.csv",
+      "bytes": 92366,
+      "export_sha256": "74213b16d01cf31a0c581a3e7f52db93444c4a5315072cd929c21ad853d7b45a"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/data_source_refs.json",
+      "bytes": 135805,
+      "export_sha256": "6d90b81f7fc1aabeb261e93afdc6c6cf6f0d397c309d217e6bfafedc5ad9ba24"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/development_metrics.csv",
+      "bytes": 2156,
+      "export_sha256": "dff204c8a207035f86f3fd44f852dbbbeecdb57524fca0e6519e14983084ab6d"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/development_predictions.csv",
+      "bytes": 41009,
+      "export_sha256": "625438156c79ab292f1568bdafba044eb33c1e51c6e4469b86422f31d7949417"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/diagnostic_source/engine.py",
+      "bytes": 9945,
+      "export_sha256": "ef38cf8e8b77770f59bbc096c912b69a130164ac03a4ebc90d821637e2f4b200"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/diagnostic_source/executed_source_manifest.json",
+      "bytes": 1035,
+      "export_sha256": "a88bea8279012233ff221d77b0ded6118494ba08076d95395f9d280546a6b101"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/diagnostic_source/proposal.json",
+      "bytes": 13003,
+      "export_sha256": "f8e4a32ba5f6be2cf4bff7b431e5b5bf319958af2635388e4e193db67ae91101"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/diagnostic_source/runner.py",
+      "bytes": 21908,
+      "export_sha256": "f44b375e8dc8ee5e12297a16ac5d84d054df57d50fe0ab2dc87dc4fc59d21362"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/duration_selection.csv",
+      "bytes": 2671,
+      "export_sha256": "570a82eaf157dc08cbb35d975d52210f2e39cbb147953c133fbf7d1690e2fdb4"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/evidence.json",
+      "bytes": 363520,
+      "export_sha256": "09e82e5cbd2574dcda722d670ceb32d475ef01baf98e5b575abd5b957724f7c7"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/feature_names.csv",
+      "bytes": 17905,
+      "export_sha256": "866a1c520255b4d887a1afb14a3fd979b334fffb96196869f4380ee3dcb9f913"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/fold_candidates.csv",
+      "bytes": 30792,
+      "export_sha256": "62ee2b06f4dc0fb2f41bb3b7eabb38d49356e16eb4b69456245fec85b612bb4f"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/fold_constants.csv",
+      "bytes": 2071,
+      "export_sha256": "70b5da4c4ac243751d783b38839f9f95acccd71803c9ed445e0377c47f52de3a"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/independent_verified_results.json",
+      "bytes": 31606,
+      "export_sha256": "a5defa742b3c965127203b98f2c86420766eed47988b359c2798c38b24ba3b12"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/manifest.json",
+      "bytes": 3268,
+      "export_sha256": "f97c79ca5a93d9f7cd098d39a99c7e0d64eeb110d5f8e880c6f8f1c4cabb963f"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/provenance.json",
+      "bytes": 2834,
+      "export_sha256": "4d19a3b87127de8592f46346f6479ea82834909a83e6339b3af38467cc9a2324"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/recompute.py",
+      "bytes": 22830,
+      "export_sha256": "06c3d6b903c0b123ca8035dad4b4686e8acbacbfcd6e0802e3bb80a9de701948"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/report.md",
+      "bytes": 7039,
+      "export_sha256": "a89b2b1e888dd3b9df66a0c9423e045676850eeb837ff2960c3dcb16fc6c13b0"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/summary.json",
+      "bytes": 6837,
+      "export_sha256": "bdaf5dde877122c1548780e0c43a0a11490864ebc27dedc571b048ac06cf0c1b"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/update_summary.csv",
+      "bytes": 1580,
+      "export_sha256": "e9540887f8f599a594bc565290e37363b61c64948629ad037f5a36e6af1472b9"
+    },
+    {
+      "path": "results/development/grouped_scalar_risk/20260919T192455_CST/verification.json",
+      "bytes": 1011,
+      "export_sha256": "0097843f65ba4ddf451f9bdf848ea934259b05b8816b65a828acb245355ce987"
     }
   ],
   "development_exports": [
@@ -868,5 +973,6 @@
   ],
   "latest_MADE_observation_utc": "2026-09-18T21:21:38.188817+00:00",
   "latest_component_study_observation_utc": "2026-09-19T10:50:04.141141+00:00",
-  "latest_mechanism_audit_observation_utc": "2026-09-19T09:41:19.132087+00:00"
+  "latest_mechanism_audit_observation_utc": "2026-09-19T09:41:19.132087+00:00",
+  "latest_CPU_prediction_diagnostic_observation_utc": "2026-09-19T11:28:21.417572+00:00"
 }

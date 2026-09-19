@@ -1,0 +1,23 @@
+{
+  "all_graph_missing": 9,
+  "all_other_probability_metric_tolerance": 2e-12,
+  "calibration_checked": "Saved T probabilities and exact metrics; positive derivative at minimum inverse T proves the convex NLL optimum is the upper registered T boundary. No new optimization/NN fit.",
+  "candidate_state_summaries_checked": 54,
+  "candidate_train_and_holdout_metric_rows": 108,
+  "dev_new_logits_recomputed": 166,
+  "included_dev": 83,
+  "included_graph_missing": 0,
+  "included_train": 293,
+  "new_science_or_training_calls_for_export": 0,
+  "null_labels": 10,
+  "old_scalar_probability_tolerance": 2e-07,
+  "optimizer_update_count": 1240,
+  "passed": true,
+  "raw_rows": 386,
+  "raw_source_checks_not_reperformed_by_publication": true,
+  "saved_candidate_tensor_check": "Source-bound production audit accepted all 54 states; public export contains state hashes, not tensors. Public checker does not independently recreate logits of unpublished candidate tensors.",
+  "selected_durations": [
+    8,
+    32
+  ]
+}

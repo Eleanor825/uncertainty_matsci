@@ -1,5 +1,7 @@
 # Experiment results and historical snapshots
 
+A new [CPU-only grouped scalar-risk diagnostic](../results/development/grouped_scalar_risk/20260919T192455_CST/report.md) completed on September 19 at 19:24:55 CST. Training-only episode cross-validation selected 8 updates for internal features and 32 for external action/sampling features, but original-dev AUROC was **0.495935 and 0.430894**, respectively. Both calibrated models had zero probabilities above the fixed 0.6 threshold and did not beat the constant-0.5 Brier score. The release includes all 54 candidate states’ recorded metrics, 166 new prediction rows, 386-row coverage, byte-exact scientific training code and a portable checker. This was a predictive development diagnostic; no controller, G2 checkpoint or primary experiment result changed.
+
 This release preserves the chronology of real MADE test outcomes for **Qwen3.5-4B, evaluation seed1, baseline versus the fixed G2 `esopt_graph_risk` method**. B10, B30 and B50 are independent episodes. The latest audit finished on **2026-09-19 05:21:38 CST (September18 21:21:38 UTC)**. Earlier dated snapshots remain unchanged.
 
 ## Complete B10/B30/B50 results

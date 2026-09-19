@@ -1,0 +1,692 @@
+{
+  "actual_training": {
+    "GPU_initialized": false,
+    "controller_deployed": false,
+    "model_initializations": 8,
+    "new_LLM_generations": 0,
+    "new_oracle_calls": 0,
+    "optimizer_updates": 1240,
+    "production_saved_model_verification": [
+      {
+        "candidate_states_recomputed": 27,
+        "final_dev_predictions_recomputed": 83,
+        "model": "full_internal",
+        "selected_updates": 8
+      },
+      {
+        "candidate_states_recomputed": 27,
+        "final_dev_predictions_recomputed": 83,
+        "model": "external_only_control",
+        "selected_updates": 32
+      }
+    ]
+  },
+  "cohorts": {
+    "dev": {
+      "all_proposal_graph_missing": 1,
+      "all_proposals": 84,
+      "episode_ids": [
+        "collection-made-697302908b2dbfc7e18e9ee0:episode:0"
+      ],
+      "excluded_reasons": {},
+      "included_class_counts": {
+        "0": 41,
+        "1": 42
+      },
+      "included_graph_missing": 0,
+      "included_membership_hash": "32b517ccb2250de19c7bdbe5e557a7bd27eceb9482e71c6a5f30fdf79d63d53c",
+      "included_scalar_rows": 83,
+      "null_future_labels": 1
+    },
+    "train": {
+      "all_proposal_graph_missing": 8,
+      "all_proposals": 302,
+      "episode_ids": [
+        "collection-made-0e27e5c04511ea16fc8c64a3:episode:0",
+        "collection-made-842d23cafa43e4f28a139ee9:episode:0",
+        "collection-made-b5744f83a99f950e49cfafd4:episode:0"
+      ],
+      "excluded_reasons": {},
+      "included_class_counts": {
+        "0": 89,
+        "1": 204
+      },
+      "included_graph_missing": 0,
+      "included_membership_hash": "93931cc17a7a88a5a27cb2f284f5d3ff1e6d2cd286d3c971f60cee3b65381983",
+      "included_scalar_rows": 293,
+      "null_future_labels": 9
+    }
+  },
+  "complete": true,
+  "completion": {
+    "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/completion.json",
+    "sha256": "8062b37ac8ad06c5afa50f4883aeba26b5059f600db843924fcda313e2eaf22e"
+  },
+  "development_controls_original_report": {
+    "constant_half": {
+      "auroc": 0.5,
+      "brier": 0.25,
+      "ece": 0.0060240963855421326,
+      "error_auprc": 0.5060240963855421,
+      "error_rate": 0.5060240963855421,
+      "n": 83,
+      "nll": 0.6931471805599454,
+      "overconfident_error_rate_p_le_0_1": 0.0,
+      "risk_coverage_auc": 0.5167344752269633
+    },
+    "constant_train_prior": {
+      "auroc": 0.5,
+      "brier": 0.28614798159896043,
+      "ece": 0.19022163740285358,
+      "error_auprc": 0.5060240963855421,
+      "error_rate": 0.5060240963855421,
+      "n": 83,
+      "nll": 0.7717975379270092,
+      "overconfident_error_rate_p_le_0_1": 0.0,
+      "risk_coverage_auc": 0.5167344752269633
+    },
+    "original_scalar": {
+      "auroc": 0.516260162601626,
+      "brier": 0.25000647253815217,
+      "ece": 0.01836502915267821,
+      "error_auprc": 0.5447206388515821,
+      "error_rate": 0.5060240963855421,
+      "n": 83,
+      "n_at_or_above_fixed_point6": 0,
+      "nll": 0.6931601256163626,
+      "overconfident_error_rate_p_le_0_1": 0.0,
+      "probability_max": 0.5009171839826045,
+      "probability_metric_nll": 0.6931601256163626,
+      "probability_min": 0.49946076792436045,
+      "raw_logit_max": 0.20030514895915985,
+      "raw_logit_min": -0.11776359379291534,
+      "risk_coverage_auc": 0.469543748698831
+    }
+  },
+  "folds": [
+    {
+      "fit_membership_sha256": "4748673a4717960c9cd90d4c213b9ab464b3929311f22deae9599f67bb785b7f",
+      "fit_rows": 208,
+      "fold": 0,
+      "heldout_membership_sha256": "b578c40f86720b1e9c1772562ea670233fae68a8dc85232a34edb965d7382319",
+      "heldout_rows": 85,
+      "heldout_training_episode": "collection-made-0e27e5c04511ea16fc8c64a3:episode:0"
+    },
+    {
+      "fit_membership_sha256": "af32b7b32419fb75d9dcacca48361d461b39da7a1941ca9ac809e3ae4d5fa2b5",
+      "fit_rows": 192,
+      "fold": 1,
+      "heldout_membership_sha256": "0f0a31fde12e7a0dbc531aeb684ffb3ad2d57a3e37e42b7319fc26a7eee24a12",
+      "heldout_rows": 101,
+      "heldout_training_episode": "collection-made-842d23cafa43e4f28a139ee9:episode:0"
+    },
+    {
+      "fit_membership_sha256": "40ed1b07cc69de31e7502eee37beb4a55e4574b83d22a5d93ccee05d0b820ea1",
+      "fit_rows": 186,
+      "fold": 2,
+      "heldout_membership_sha256": "27d8279b7ac7452582340531ac5073c41c96fc6c4e7ead3b309b375e47e1fee0",
+      "heldout_rows": 107,
+      "heldout_training_episode": "collection-made-b5744f83a99f950e49cfafd4:episode:0"
+    }
+  ],
+  "models": {
+    "external_only_control": {
+      "calibrated_development": {
+        "auroc": 0.43089430894308944,
+        "brier": 0.2500455299439648,
+        "n": 83,
+        "n_at_or_above_fixed_point6": 0,
+        "nll": 0.6932382421023227,
+        "probability_max": 0.5034702264925182,
+        "probability_min": 0.5007920659720446
+      },
+      "checkpoint": {
+        "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/final/step_0032.pt",
+        "sha256": "9c42ab74b13324ebd8bb7ad5ff99af3b2db31b764971872fd959670af9d607c3"
+      },
+      "dNLL_d_inverse_temperature_at_zero": 0.004511043249842632,
+      "development": {
+        "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/development.json",
+        "sha256": "2598cc71689b90b6a5e1336ecf31e826f1543615d6d9764d6e963fc325db5f43"
+      },
+      "feature_count_before_preprocessing": 15,
+      "final_model_state_hash": "899655440bb7dd943d5fb57ccb632c98e361fd44a650105d21079a6037f00f30",
+      "fold_state_evidence": [
+        {
+          "fold": 0,
+          "states": {
+            "0": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_0/step_0000.json",
+              "sha256": "e542a1b5c1782b5aff6f10125f513d97f4b1e987b7d2e456282f175878e33470"
+            },
+            "128": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_0/step_0128.json",
+              "sha256": "f4078a01e54ae460cb331b0dfe253e49e95b29deb965ab5274e98c7455a10358"
+            },
+            "16": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_0/step_0016.json",
+              "sha256": "5358c1fa0618a6df81aa86a3d2167137ddf60c308f3ab1c8a5a48875035b39a9"
+            },
+            "2": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_0/step_0002.json",
+              "sha256": "eb553dd557c8f63bbe05e62f647e45401cccb3e881dd8fbe743e711e6f9a638a"
+            },
+            "200": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_0/step_0200.json",
+              "sha256": "946fd212f9bf0e487578f77358bf0b27eaca47fdfde9a6dc9f27a4e2c98571d5"
+            },
+            "32": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_0/step_0032.json",
+              "sha256": "bd26b26975fa14ce3c8e642c22d6e5dcdc12094b8e3df87ffefb6cc5fc515cf3"
+            },
+            "4": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_0/step_0004.json",
+              "sha256": "024467ef64e212e134997bfa9b931b58cb8ccf4018f3c172be5db37a5d766279"
+            },
+            "64": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_0/step_0064.json",
+              "sha256": "90f358aa00ed0ab9d97244b0b1fab92130d10d89de5651967f6e188ebcf34ee3"
+            },
+            "8": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_0/step_0008.json",
+              "sha256": "d9bb9e1785226ba38b8738b44362aa2616a6bfc0f2aa9f4cd3c3d34355e5c795"
+            }
+          }
+        },
+        {
+          "fold": 1,
+          "states": {
+            "0": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_1/step_0000.json",
+              "sha256": "f26182ab8e87bace44a03fe02f1ffcdb3c3dd7845263008030e255a5f5152a4e"
+            },
+            "128": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_1/step_0128.json",
+              "sha256": "0f86c4fe55695d87ba3ddf7d1f72af270eb496cb4c6614733895044b09f1a87c"
+            },
+            "16": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_1/step_0016.json",
+              "sha256": "e95c86ec32ca913a2a5d612cb2060fa3b5b00ec59b23176c14242c4272813a53"
+            },
+            "2": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_1/step_0002.json",
+              "sha256": "c132849987206250df4f73fdb69bf1a960a659edd0b62f1f3c812436c5cdf44e"
+            },
+            "200": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_1/step_0200.json",
+              "sha256": "6ef81e46d81a2a51e2fe78da0d4465c4cc28de3544e229213e65ce26b677e633"
+            },
+            "32": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_1/step_0032.json",
+              "sha256": "12e971103644f1661176406c13bd102f5c02bd46753898be7e1532d0683db8fe"
+            },
+            "4": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_1/step_0004.json",
+              "sha256": "81cb4d7d9dd7dd39564e604e86c2f697889706a817c8f4574edd0ac28339fea4"
+            },
+            "64": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_1/step_0064.json",
+              "sha256": "d18e7bc65faa8435b3588b1c620198cab60891134bf9a1f07e3d5d8554f3ebf8"
+            },
+            "8": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_1/step_0008.json",
+              "sha256": "0afee7e50d5861175c261d8dc8229527f82e85d7866f50766863d940ba36b877"
+            }
+          }
+        },
+        {
+          "fold": 2,
+          "states": {
+            "0": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_2/step_0000.json",
+              "sha256": "09b699ca2d16f56e7046fdd4a1d51dc7d48d8c052ea86091e46b786b84583319"
+            },
+            "128": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_2/step_0128.json",
+              "sha256": "6c526e2658e751ebaaecf75d3f5b1e58018063edc939676f04650fbc0f518b85"
+            },
+            "16": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_2/step_0016.json",
+              "sha256": "5e96dd595900ba10cc7d8a7477fbf1e5e49feb4ce4a0291489cc276a5630dba3"
+            },
+            "2": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_2/step_0002.json",
+              "sha256": "4c4c3b028d2e7404aee260375efa239fe7791f0e8d90200b15dbe38b82defced"
+            },
+            "200": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_2/step_0200.json",
+              "sha256": "d345a45718d6e63f6919ac2c816d8f740add910020073b8168a07e2852ebf351"
+            },
+            "32": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_2/step_0032.json",
+              "sha256": "9a96d85e34c65d6768e4a25b333345c94c9dc5fe8c0133dd59feeba07dd2a12f"
+            },
+            "4": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_2/step_0004.json",
+              "sha256": "4275190ffd56936df6596e45377045237c736316dac51ef2375629e48793d115"
+            },
+            "64": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_2/step_0064.json",
+              "sha256": "a4021fdac68a25207b985b3cf6aa03b5ad14484f17639262cb496a3b76b34f0d"
+            },
+            "8": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/fold_2/step_0008.json",
+              "sha256": "c910f3ec73611c5756d52604895992b011f32c202b89a1baa595533cca1f9a2d"
+            }
+          }
+        }
+      ],
+      "macro_training_constant_nll": {
+        "fold_train_prior": 0.6369315181421524,
+        "half": 0.6931471805599454
+      },
+      "raw_development": {
+        "auroc": 0.43089430894308944,
+        "brier": 0.26413410843759666,
+        "n": 83,
+        "n_at_or_above_fixed_point6": 41,
+        "nll": 0.7225172783530519,
+        "probability_max": 0.6808934832141114,
+        "probability_min": 0.5431376885622113
+      },
+      "selected_all_training_epochs": 16,
+      "selected_nll_minus_fold_prior": -0.008053924625972764,
+      "selected_optimizer_updates": 32,
+      "selection": {
+        "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/external_only_control/selection.json",
+        "sha256": "99a48ef234e5993feb41f22cc7c50f5257ee1a1582c03083a638cfa91a95b590"
+      },
+      "selection_curve": [
+        {
+          "fold_nll": [
+            0.6953464444128943,
+            0.6981101158944284,
+            0.697257966524348
+          ],
+          "macro_nll": 0.6969048422772236,
+          "optimizer_updates": 0
+        },
+        {
+          "fold_nll": [
+            0.6924290308478868,
+            0.6936776421449922,
+            0.6893200570770631
+          ],
+          "macro_nll": 0.691808910023314,
+          "optimizer_updates": 2
+        },
+        {
+          "fold_nll": [
+            0.6897111991060499,
+            0.689452800730808,
+            0.6816425421779716
+          ],
+          "macro_nll": 0.6869355140049431,
+          "optimizer_updates": 4
+        },
+        {
+          "fold_nll": [
+            0.6847538881762921,
+            0.6814450675142657,
+            0.6666312564468192
+          ],
+          "macro_nll": 0.677610070712459,
+          "optimizer_updates": 8
+        },
+        {
+          "fold_nll": [
+            0.6763843942658877,
+            0.6664177794635534,
+            0.6357337837906598
+          ],
+          "macro_nll": 0.6595119858400337,
+          "optimizer_updates": 16
+        },
+        {
+          "fold_nll": [
+            0.6749328907819157,
+            0.6430616732896451,
+            0.5686382164769782
+          ],
+          "macro_nll": 0.6288775935161797,
+          "optimizer_updates": 32
+        },
+        {
+          "fold_nll": [
+            0.7587836740472079,
+            0.6507253779640928,
+            0.5606511197167809
+          ],
+          "macro_nll": 0.6567200572426939,
+          "optimizer_updates": 64
+        },
+        {
+          "fold_nll": [
+            0.7550814761054009,
+            0.6946695258993861,
+            0.6102593914100499
+          ],
+          "macro_nll": 0.6866701311382789,
+          "optimizer_updates": 128
+        },
+        {
+          "fold_nll": [
+            0.8066763048312672,
+            0.827796079573729,
+            0.8897953585525831
+          ],
+          "macro_nll": 0.8414225809858596,
+          "optimizer_updates": 200
+        }
+      ],
+      "temperature": 54.59793176301648,
+      "temperature_upper_bound": 54.598150033144236
+    },
+    "full_internal": {
+      "calibrated_development": {
+        "auroc": 0.4959349593495935,
+        "brier": 0.2500755326816112,
+        "n": 83,
+        "n_at_or_above_fixed_point6": 0,
+        "nll": 0.69329824638198,
+        "probability_max": 0.5054948018381862,
+        "probability_min": 0.4993986984963431
+      },
+      "checkpoint": {
+        "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/final/step_0008.pt",
+        "sha256": "93dc29292c15abfdb24635036fb0ca938c4b8179d8ccd67baeed0ecdfcf0d2a0"
+      },
+      "dNLL_d_inverse_temperature_at_zero": 0.007752031480601753,
+      "development": {
+        "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/development.json",
+        "sha256": "5940bbc49c3a732294408ddcd7871bdb8acce4ef86bc466fa1ed8113440697c9"
+      },
+      "feature_count_before_preprocessing": 298,
+      "final_model_state_hash": "8e96152d32fbf78a95185b2990d5419a4df993896f09463f2dee7118312cb836",
+      "fold_state_evidence": [
+        {
+          "fold": 0,
+          "states": {
+            "0": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_0/step_0000.json",
+              "sha256": "17948e564aab75af4b75c4af1789be59ba9942e2616206a2fa5eb82ab7915558"
+            },
+            "128": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_0/step_0128.json",
+              "sha256": "98c186d39fa2306e1b46c16f4bd83ce9c1ee655b30e83c713ff5d1fc13a2d8ac"
+            },
+            "16": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_0/step_0016.json",
+              "sha256": "b0c5f0a4ccb7b2aa1dfbe94516d892809d309a16970985e992526b0fedbe078d"
+            },
+            "2": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_0/step_0002.json",
+              "sha256": "37df45fa0b0c65c7fab911a7f6eca3efe738a6e4fd9cb79951a0651cdaea0dd3"
+            },
+            "200": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_0/step_0200.json",
+              "sha256": "7385503e86bbd262602e648f46d64430df779669fcd4bed08b0da31fcb914414"
+            },
+            "32": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_0/step_0032.json",
+              "sha256": "8351e93ad155ad0e2431d93739326d3245f6028b9d11e8cc2a3c02163045cbe0"
+            },
+            "4": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_0/step_0004.json",
+              "sha256": "9faa389e6a67faaca245a57ade9dfcff460f8942904688a51613cb546bccf8c3"
+            },
+            "64": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_0/step_0064.json",
+              "sha256": "504ae11001b2fcd6cdbc38de6c3a2649ff1c9eff10af7ac03791c375afb71d7e"
+            },
+            "8": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_0/step_0008.json",
+              "sha256": "3379239b85146103249a5ac33a671efa8276a83ca9b0310af588e5fb46912a94"
+            }
+          }
+        },
+        {
+          "fold": 1,
+          "states": {
+            "0": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_1/step_0000.json",
+              "sha256": "97df3ea108a1bd69f0989f6497949e39e6057afa56152ff5b4385191774d9f8e"
+            },
+            "128": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_1/step_0128.json",
+              "sha256": "9a14cf16864544b0d583e327215a4eafc0007407321b2a99f6c8a4a53e13221a"
+            },
+            "16": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_1/step_0016.json",
+              "sha256": "edb426e47cbe639bfef8244866dc56a7968e33da1f00c9d764b4193d172f9af8"
+            },
+            "2": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_1/step_0002.json",
+              "sha256": "fb18b3906e9e04b745a9db50a71d7785690d9016b5a5e99a54dc75f37d8c4b87"
+            },
+            "200": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_1/step_0200.json",
+              "sha256": "b71a7ea724cde28da322c9cd24dc5d688b72ca60da68da77cecb6e1ee5043dc5"
+            },
+            "32": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_1/step_0032.json",
+              "sha256": "3d394233acfae61185923e0b2b05d2d6ab57c55a77f389d9958b461a24cf77e9"
+            },
+            "4": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_1/step_0004.json",
+              "sha256": "e7620cf8264fe462e0e7140fbb1427ec1086d500f92334cddb3b6d75aed0632d"
+            },
+            "64": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_1/step_0064.json",
+              "sha256": "4a76cccabf40b0857ac0321b88f859ef303707cc16e79a000e01fd5f006120a4"
+            },
+            "8": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_1/step_0008.json",
+              "sha256": "d96e7cfbf08d36ff6b0d64698e6a298d43475dd93d4fe1f8df6febaa8122088e"
+            }
+          }
+        },
+        {
+          "fold": 2,
+          "states": {
+            "0": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_2/step_0000.json",
+              "sha256": "4569d77333be4086a9b0ab0a9729aef660d40588c2282a891466759a89224706"
+            },
+            "128": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_2/step_0128.json",
+              "sha256": "436dffa989999b4910c1523596e1fbd3412125732b37620ab5ff0d5956895681"
+            },
+            "16": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_2/step_0016.json",
+              "sha256": "af92b5a7a594f0f4d0cdcd9bcea63b5f71de951b718bab5f730072580f88c72e"
+            },
+            "2": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_2/step_0002.json",
+              "sha256": "9ffb926c7a4fb4fbc0c7576958a406e30324b2e25151f9de4ccf4677608b8fc0"
+            },
+            "200": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_2/step_0200.json",
+              "sha256": "8b4ee31e327f5f00ead63c5f41085b9a062322d6e54d0c51d56b6afce527e1d7"
+            },
+            "32": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_2/step_0032.json",
+              "sha256": "044710dd883c859ecc2f91fe51ad8f3e98524de854d8a72de559713fb3095374"
+            },
+            "4": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_2/step_0004.json",
+              "sha256": "7d6aca4656cb02ce35405f5d2f0bd8854bfa77f3cc640940a9bf1988c498421b"
+            },
+            "64": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_2/step_0064.json",
+              "sha256": "55dc5f13c19304a34acf4dccf345158419cdff5f82a1e73ae068b87e74c6cd05"
+            },
+            "8": {
+              "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/fold_2/step_0008.json",
+              "sha256": "8c4503263d90e4c435f9bc26de81acd03118d878ae1bfc0aedd3cc35ae9ab04c"
+            }
+          }
+        }
+      ],
+      "macro_training_constant_nll": {
+        "fold_train_prior": 0.6369315181421524,
+        "half": 0.6931471805599454
+      },
+      "raw_development": {
+        "auroc": 0.4959349593495935,
+        "brier": 0.2654227486484861,
+        "n": 83,
+        "n_at_or_above_fixed_point6": 23,
+        "nll": 0.7269104171680681,
+        "probability_max": 0.7685366462977224,
+        "probability_min": 0.4672172873186003
+      },
+      "selected_all_training_epochs": 4,
+      "selected_nll_minus_fold_prior": 0.028107177455808485,
+      "selected_optimizer_updates": 8,
+      "selection": {
+        "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/full_internal/selection.json",
+        "sha256": "de3088fc95db6bf1e375515d3af17aa8a8368ab73cb1e755841d9954d49a59b6"
+      },
+      "selection_curve": [
+        {
+          "fold_nll": [
+            0.6991567297961259,
+            0.7008590007492067,
+            0.7071209751221367
+          ],
+          "macro_nll": 0.7023789018891563,
+          "optimizer_updates": 0
+        },
+        {
+          "fold_nll": [
+            0.6930532766894221,
+            0.6919054224683677,
+            0.6902112687753025
+          ],
+          "macro_nll": 0.6917233226443641,
+          "optimizer_updates": 2
+        },
+        {
+          "fold_nll": [
+            0.6901290770410307,
+            0.6807684864761014,
+            0.6738415087579446
+          ],
+          "macro_nll": 0.6815796907583588,
+          "optimizer_updates": 4
+        },
+        {
+          "fold_nll": [
+            0.7042815004324019,
+            0.6509273171971002,
+            0.6399072691643806
+          ],
+          "macro_nll": 0.6650386955979609,
+          "optimizer_updates": 8
+        },
+        {
+          "fold_nll": [
+            0.8331488443557072,
+            0.628133994521104,
+            0.6281551268157511
+          ],
+          "macro_nll": 0.6964793218975208,
+          "optimizer_updates": 16
+        },
+        {
+          "fold_nll": [
+            1.1806243991274306,
+            0.6862007770999621,
+            0.7551776543442086
+          ],
+          "macro_nll": 0.874000943523867,
+          "optimizer_updates": 32
+        },
+        {
+          "fold_nll": [
+            2.0676926551744192,
+            0.9710866505596403,
+            1.3549256477987388
+          ],
+          "macro_nll": 1.464568317844266,
+          "optimizer_updates": 64
+        },
+        {
+          "fold_nll": [
+            4.7456224314694095,
+            2.433944735155819,
+            3.501597364223095
+          ],
+          "macro_nll": 3.5603881769494414,
+          "optimizer_updates": 128
+        },
+        {
+          "fold_nll": [
+            5.516329806992541,
+            2.898210203689269,
+            4.026770936878542
+          ],
+          "macro_nll": 4.147103649186784,
+          "optimizer_updates": 200
+        }
+      ],
+      "temperature": 54.59789125336964,
+      "temperature_upper_bound": 54.598150033144236
+    }
+  },
+  "observation_epoch": 1789817301.417572,
+  "observed_CST": "2026-09-19T19:28:21.417572+08:00",
+  "observed_UTC": "2026-09-19T11:28:21.417572+00:00",
+  "registration": {
+    "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/registration.json",
+    "sha256": "b01ec624ae17809f784d3f806e4a13916b4544e49da0be33794abaee89d134d1"
+  },
+  "registration_fingerprint": "54ac1c081e9fb6a531a9c1339850f3c6ec9f755d8fa672f22ccd655a32c4b077",
+  "report": {
+    "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runs/v1/attempt/report.json",
+    "sha256": "799e4d745fa2b7c5c6066cc3f32ef06402383a3e498882d291166f026960c3a4"
+  },
+  "schema": "independent_MADE_grouped_scalar_result_recomputation_v1",
+  "scientific_limits": [
+    "Three training episodes belong to one chemistry (Al-Au-Hf); episode CV is not cross-chemistry CV.",
+    "One different dev chemistry (Al-Pd-Sm), 83 correlated rows from one trajectory.",
+    "Only the 30 test chemistries are officially published; train/dev are pre-frozen project splits.",
+    "Development temperature metrics are in-sample calibration metrics, not untouched evaluation.",
+    "External-only deletes graph/hidden features before all preprocessing; its parameter count differs.",
+    "No evidence supports replacing the original NN or a controller performance improvement.",
+    "More training chemistry diversity is a proposed hypothesis, not a demonstrated remedy."
+  ],
+  "snapshot_sha256": "16b5ca6777b7ba0f398500b499f44b233c8628aed573168d031519cd9a12fe72",
+  "source": {
+    "engine.py": {
+      "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/engine.py",
+      "sha256": "ef38cf8e8b77770f59bbc096c912b69a130164ac03a4ebc90d821637e2f4b200"
+    },
+    "manifest.json": {
+      "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/manifest.json",
+      "sha256": "a88bea8279012233ff221d77b0ded6118494ba08076d95395f9d280546a6b101"
+    },
+    "runner.py": {
+      "project_relative_path": "benchmark_extensions/made_scalar_grouped_training_20260919_v1/runner.py",
+      "sha256": "f44b375e8dc8ee5e12297a16ac5d84d054df57d50fe0ab2dc87dc4fc59d21362"
+    }
+  },
+  "verification_scope": {
+    "independently_recomputed": [
+      "all 18 three-fold selection means and argmins",
+      "both 83-row raw/calibrated AUC, Brier, NLL and threshold counts",
+      "temperature objective derivative at inverse-temperature zero",
+      "constant-half and raw train-prior development metrics"
+    ],
+    "new_fits": 0,
+    "new_model_loads": 0,
+    "new_oracle_calls": 0,
+    "read_from_bound_production_audit": [
+      "54 checkpoint reload prediction checks",
+      "cohort exclusions/missing counts",
+      "actual optimizer update logs and source/registration admission"
+    ]
+  },
+  "verification_script_sha256": "6cb8930ffb260194f08c42b25d35e1869ffe18e8f8352d8b6f17fd53c259596d"
+}

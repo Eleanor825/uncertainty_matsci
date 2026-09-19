@@ -1,0 +1,231 @@
+{
+  "basis": {
+    "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/made_training_uncertainty_diagnosis_20260919/diagnosis.json",
+    "sha256": "53cb4433969db03babc7afa9e1c0fcff49df392fddcbf46ed209ea4f4dedde32"
+  },
+  "data": {
+    "all_fit_and_dev_are_original_unperturbed_G0": true,
+    "development_chemistry": "Al-Pd-Sm",
+    "development_physical_budget": 50,
+    "development_rows": 83,
+    "fit_chemistry": "Al-Au-Hf",
+    "fit_episodes": [
+      "collection-made-0e27e5c04511ea16fc8c64a3:episode:0",
+      "collection-made-842d23cafa43e4f28a139ee9:episode:0",
+      "collection-made-b5744f83a99f950e49cfafd4:episode:0"
+    ],
+    "fit_physical_budget": 150,
+    "fit_rows": 293,
+    "future_outcome_labels_preserved": true,
+    "grouping_limit": "Three repeated episodes from one chemistry; CV is within-chemistry episode generalization, not heldout chemistry.",
+    "inner_group_key": "separate diagnostic episode_id, not a relabelled chemical split",
+    "null_labels_never_negative": true,
+    "original_chemical_group_ids_preserved": true
+  },
+  "development": {
+    "controls": [
+      "unchanged original fitted scalar",
+      "constant.5",
+      "fold-training prevalence and final-training prevalence"
+    ],
+    "event_metrics": "Only after exact original RPC outcome linkage is reconstructed; no independent-sample claim from correlated rows.",
+    "metrics": [
+      "raw/calibrated AUROC",
+      "Brier",
+      "NLL",
+      "episode-level summaries",
+      "raw logit/class means",
+      "temperature objective derivative",
+      "fixed.6 crossings and real supported control availability (descriptive only)"
+    ],
+    "negative_result_retention": "Retain full/internal worse than control, selectedstep0, T at bound, no.6crossings and all fit failures; do not select another seed or change a threshold.",
+    "no_epoch_or_feature_selection_on_dev": true,
+    "no_forced_threshold_crossing": true,
+    "roles": [
+      "report raw predictions on all83 original dev rows",
+      "fit the unchanged positive temperature using original bounded NLL(-4,4)",
+      "report calibrated predictions"
+    ],
+    "same_dev_fit_calibration_metrics_are_in_sample": true,
+    "temperature_upper_bound_is_not_failure_by_itself": true,
+    "threshold": 0.6
+  },
+  "execution_runner_status": "Not implemented or authorized to train by this proposal; this builder only fixes scope and deterministic selection rules.",
+  "fingerprint": "421d0f369c8caa9970de495db81555f66006d39ecfc8b88f33f40c2ddf0cc558",
+  "fitting": {
+    "duration_unit": "optimizer updates, because train folds fit<256 rows while final all293 requires two minibatches per epoch",
+    "feature_name_contract": "Use the predefined original feature-name schema; no labels or dev-only feature selection.",
+    "final_fit": "Fresh original seeded initialization on all293 train rows, precisely the selected update count; no dev early stopping.",
+    "fixed_step_candidates": [
+      0,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      200
+    ],
+    "fold_preprocessing": "Refit all preprocessing/prototypes on the two fitting episodes; never reuse globally fitted medians/scales/prototypes inside folds.",
+    "hyperparameters": "Read and bind original checkpoint config byte-for-byte before execution; do not silently use defaults.",
+    "maximum_matches_original_full_training_100epochs_times_ceil293over256": true,
+    "maximum_updates_each_fold": 200,
+    "only_candidate_change": "Choose training duration on grouped training episodes instead of raw original-dev BCE; dev remains unused until the checkpoint is fixed.",
+    "records": "Actual every-update loss/state hash/parameter delta, step0 and candidate-step states, row+episode provenance, all fold curves and failures.",
+    "selection": "Minimum mean heldout-episode uncalibrated BCE across all3 training folds; earliest/fewest-step tie. Select independently for each predeclared feature condition; do not choose a model by dev/test outcomes.",
+    "step0_is_untrained_control_not_deployable": true,
+    "unchanged": [
+      "two64 GELU layers",
+      "AdamW",
+      "learning_rate.001",
+      "weight_decay.0001",
+      "batch256",
+      "original saved seed",
+      "inverse labelled-decisions-per-episode BCE weights",
+      "train-only median/mean/std and error prototype"
+    ]
+  },
+  "fixed_learned_models": [
+    {
+      "id": "full_internal",
+      "internal_features": true,
+      "production_candidate": true,
+      "raw_feature_names": "Exact original scalar schema,298 raw features"
+    },
+    {
+      "id": "external_only_control",
+      "internal_features": false,
+      "limit": "Same hidden widths, but fewer inputs/parameters; this is a predictive control, not a capacity-matched causal feature intervention.",
+      "production_candidate": false,
+      "raw_feature_prefixes": [
+        "sampling.",
+        "action."
+      ]
+    }
+  ],
+  "folds": [
+    {
+      "fit_membership_sha256": "4748673a4717960c9cd90d4c213b9ab464b3929311f22deae9599f67bb785b7f",
+      "fit_rows": 208,
+      "fold": 0,
+      "heldout_membership_sha256": "b578c40f86720b1e9c1772562ea670233fae68a8dc85232a34edb965d7382319",
+      "heldout_rows": 85,
+      "heldout_training_episode": "collection-made-0e27e5c04511ea16fc8c64a3:episode:0"
+    },
+    {
+      "fit_membership_sha256": "af32b7b32419fb75d9dcacca48361d461b39da7a1941ca9ac809e3ae4d5fa2b5",
+      "fit_rows": 192,
+      "fold": 1,
+      "heldout_membership_sha256": "0f0a31fde12e7a0dbc531aeb684ffb3ad2d57a3e37e42b7319fc26a7eee24a12",
+      "heldout_rows": 101,
+      "heldout_training_episode": "collection-made-842d23cafa43e4f28a139ee9:episode:0"
+    },
+    {
+      "fit_membership_sha256": "40ed1b07cc69de31e7502eee37beb4a55e4574b83d22a5d93ccee05d0b820ea1",
+      "fit_rows": 186,
+      "fold": 2,
+      "heldout_membership_sha256": "27d8279b7ac7452582340531ac5073c41c96fc6c4e7ead3b309b375e47e1fee0",
+      "heldout_rows": 107,
+      "heldout_training_episode": "collection-made-b5744f83a99f950e49cfafd4:episode:0"
+    }
+  ],
+  "fresh_dev_followup_requires_new_registration": {
+    "budget_each": 10,
+    "chemistry": "Al-Pd-Sm",
+    "comparison": "Same support-aware theta0/typed heads/TC/evaluator, original scalar vs selected new scalar",
+    "driver_seeds": [
+      9001,
+      9002,
+      9003
+    ],
+    "full_method_next": "Only after a separately reviewed decision: fresh full-parameter ES fromtheta0 and independent evaluation. Do not rename currentG2; include an explicitly budgeted same-controllerG0 dev selection reference.",
+    "initialization_costs": "actual, separate",
+    "new_candidate_calls": 60,
+    "not_launched_or_authorized_by_this_plan": true,
+    "primary_readout": "All paired AUDC deltas and real NN-vs-schema action footprints, with small-n uncertainty; no best-seed selection.",
+    "trajectories": 6,
+    "typed_primary_binding": "New explicit combined-model provenance is required: original typed tensor bytes remain unchanged, but old typed primary-checkpoint binding cannot be forged."
+  },
+  "gate_before_any_controller_claim": {
+    "condition": "Full internal predictor must show reproducible train-fold learning beyond untrained/constant controls and separately reported dev discrimination/proper scoring; in-sample calibrated dev metrics alone do not certify controller benefit.",
+    "if_no_signal": "Stop predictive-improvement claim and record negative/insufficient evidence; never force score range.",
+    "not_a_claim_of_significance": "Only3 correlated train episodes/one dev chemistry; no large-sample claim."
+  },
+  "new_calls_now": {
+    "GPU": 0,
+    "fit": 0,
+    "forward": 0,
+    "oracle": 0
+  },
+  "plan_builder": {
+    "path": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/made_scalar_training_followup_20260919/build_plan.py",
+    "sha256": "97e413db7bec16e0320b89d458c0707544b75f3f7770db0821017deac7e1bffa"
+  },
+  "purpose": "Test train-only model selection before declaring scalar internal features useful; separate it from development calibration and fixed-threshold control.",
+  "schema": "proposed_MADE_train_grouped_scalar_diagnostic_v1",
+  "source_checkpoint": {
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/graph_risk.pt",
+    "sha256": "315d990a76f1329c4299a8be04dc710e47d23eb1e09f4563acb963f5ce1a2173"
+  },
+  "source_code": {
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/src/matdiscovery/uncertainty.py",
+    "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+  },
+  "source_fit_receipt": {
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/graph_risk.fit.json",
+    "sha256": "47df033a205031f9b6c006730bf489c275d2cd6d44d9da2d86e4ccb25d144ed3"
+  },
+  "status": "proposal_not_registered_not_trained",
+  "test_outcomes_for_selection": false,
+  "unchanged_source_data": [
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/collection_manifest.json",
+      "sha256": "4817ec9cd77aa3777ccd1333dc3d3559771e922edd364df188005fec73b9d14b"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/decisions.jsonl",
+      "sha256": "731d4066747c97b7dd1d6c30758554e67fbc05871425f59f1d490a67a21552c2"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/graph_features.jsonl",
+      "sha256": "ea58c80febd6def6f88d5d0a352473fca8b64429f95e8a32a17fb76980e1d561"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/collection_manifest.json",
+      "sha256": "17fd15dc4c08dbe39dd8a722127a2d54d2870b6adf368624703c97743e3a8a43"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/decisions.jsonl",
+      "sha256": "a1c5ce778b254761b3d92d23bb45a5e9fa2f52a450be281df45b94665cd7a4da"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/graph_features.jsonl",
+      "sha256": "b2132e9a2c2adfaf4e6cddbfa0f798b5d19641101fe1565c8a3e5c41fce47980"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/collection_manifest.json",
+      "sha256": "3af60696e4e9e0e2589687b129b81ad38587a1141c29e208a0fb6a221ad62c7a"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/decisions.jsonl",
+      "sha256": "45c8236bcbbe7e191878b05eab0e5cdb83340060ad56f549e974e6039ec92103"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/graph_features.jsonl",
+      "sha256": "e469e6b87c97e832d42b550d6fda22afc64182e00836c7c7c2a43f5ace832e53"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/collection_manifest.json",
+      "sha256": "34047ae7bd47419750b9d7a74b83f4a46122a3aebbc0cc6dbed69fa01f23ae17"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/decisions.jsonl",
+      "sha256": "05c6f54265553da684a44f9d0ced5bdfbe021876e6b453ab2386a34deb2f5676"
+    },
+    {
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/graph_features.jsonl",
+      "sha256": "20c5efcffcdecef6ca3f2edb99b5a716c2b9ecf78f799f73c8f6f03a049e2ae5"
+    }
+  ]
+}
