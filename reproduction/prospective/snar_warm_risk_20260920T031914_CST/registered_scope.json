@@ -1,0 +1,68 @@
+{
+  "schema": "public_SnAr_warm_risk_prospective_scope_v1",
+  "prepared_CST": "2026-09-20T03:19:14.382663+08:00",
+  "original_registration_sha256": "c87b9636cd6369781d7274b7facf8f2eb9b9fd4517a5d34ac12c2a77eaf60af2",
+  "original_registration_fingerprint": "05ebf2f8b8105104626241074ae5e66243d9a54bd3382ffb535daeb55053666d",
+  "source_manifest_sha256": "73d38f7a015c6c1e128c8e62afba31de83016679e3f17e543cba4457c7ee92d8",
+  "jobs": [
+    {
+      "arm": "qwen_base",
+      "budget": 30,
+      "job_id": "warm_risk_v1_train_6101",
+      "prior_rows": 550,
+      "role": "train",
+      "scope": "warm_risk_v1_train_6101",
+      "seed": 6101
+    },
+    {
+      "arm": "qwen_base",
+      "budget": 30,
+      "job_id": "warm_risk_v1_train_6102",
+      "prior_rows": 550,
+      "role": "train",
+      "scope": "warm_risk_v1_train_6102",
+      "seed": 6102
+    },
+    {
+      "arm": "qwen_base",
+      "budget": 30,
+      "job_id": "warm_risk_v1_train_6103",
+      "prior_rows": 550,
+      "role": "train",
+      "scope": "warm_risk_v1_train_6103",
+      "seed": 6103
+    },
+    {
+      "arm": "qwen_base",
+      "budget": 30,
+      "job_id": "warm_risk_v1_dev_6201",
+      "prior_rows": 550,
+      "role": "dev",
+      "scope": "warm_risk_v1_dev_6201",
+      "seed": 6201
+    },
+    {
+      "arm": "qwen_base",
+      "budget": 30,
+      "job_id": "warm_risk_v1_dev_6202",
+      "prior_rows": 550,
+      "role": "dev",
+      "scope": "warm_risk_v1_dev_6202",
+      "seed": 6202
+    }
+  ],
+  "new_official_ODE_queries": 150,
+  "training_queries": 90,
+  "development_queries": 60,
+  "initial_LHS_queries_per_episode": 5,
+  "existing_prior_rows": 550,
+  "old_rows_used_for_NN_fitting": 0,
+  "fresh_test_queries": 0,
+  "CPU_fits_maximum": 4,
+  "CPU_optimizer_steps_maximum": 400,
+  "actual_GPU_calls_at_registration": 0,
+  "controller_or_ES_update_in_this_scope": false,
+  "motivation_is_posthoc_to_prior_study": true,
+  "scope_is_frozen_before_these_new_trajectories": true,
+  "already_accepted_original_test_results_not_refit": true
+}

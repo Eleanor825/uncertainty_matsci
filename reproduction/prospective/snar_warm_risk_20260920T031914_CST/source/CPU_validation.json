@@ -1,0 +1,59 @@
+{
+  "schema": "snar_warm_risk_CPU_contract_validation_v1",
+  "passed": true,
+  "test_methods": 11,
+  "elapsed_seconds": 0.914,
+  "returncode": 0,
+  "source_files": [
+    {
+      "path": "collection.py",
+      "sha256": "0bfd897e41ea6dd2d6b82bfcb8bd7776210c7e5133c382e8091f26391a942d8e"
+    },
+    {
+      "path": "engine.py",
+      "sha256": "1e33dffb8c6b3a2c90e79a199b692f9685252eab573b398fa704cb4bf8e71a4c"
+    },
+    {
+      "path": "original_uncertainty.py",
+      "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+    },
+    {
+      "path": "runner.py",
+      "sha256": "581565964038d45eebef5e0ddaeb165ac91ac37bace9a0bea237cf845668d586"
+    },
+    {
+      "path": "test_warm.py",
+      "sha256": "d4e68c67a2596a8b369155db77ebfcca5de7d68ea2eea50a27c586292676247c"
+    },
+    {
+      "path": "warm_common.py",
+      "sha256": "0a2c6ce7aa2c2083defa2ba79d71fb92d54c91cbf8379b9e2e3373bc92970aee"
+    },
+    {
+      "path": "plan.json",
+      "sha256": "996e4c09f18d4517bfbdcb8b411a8cb370a00a417475bcb7628d3080243bc73f"
+    }
+  ],
+  "log": {
+    "path": "cpu_tests.log",
+    "sha256": "03a18964929efa7794eef9f9d6968543bc71fd2319ccf315799a57d88c088047"
+  },
+  "synthetic_CPU_training_executed": true,
+  "production_NN_fits": 0,
+  "production_model_oracle_graph_calls": 0,
+  "coverage": [
+    "actual original warm-train audit accepts correct prior and rejects wrong label",
+    "exact one-line archive-role adapter",
+    "real tiny four-fit and 300-state/audit exact reconstruction",
+    "single-class explicit0fit/no model",
+    "graph failures counted",
+    "newdev excluded from selection",
+    "permanent claim and failed dispatch not replayed",
+    "pending makes no NN claim",
+    "I/O error not interpreted as missing"
+  ],
+  "limits": [
+    "GPU,leases and Popen are mocked only in dispatch contract; production uses unchanged original resource/009a guards.",
+    "No production preparation/deployment/collection/fitting was performed."
+  ]
+}

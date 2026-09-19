@@ -1,0 +1,53 @@
+{
+  "schema": "snar_warm_risk_source_manifest_v1",
+  "files": [
+    {
+      "path": "collection.py",
+      "sha256": "0bfd897e41ea6dd2d6b82bfcb8bd7776210c7e5133c382e8091f26391a942d8e",
+      "bytes": 10313
+    },
+    {
+      "path": "engine.py",
+      "sha256": "1e33dffb8c6b3a2c90e79a199b692f9685252eab573b398fa704cb4bf8e71a4c",
+      "bytes": 14554
+    },
+    {
+      "path": "original_uncertainty.py",
+      "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656",
+      "bytes": 10963
+    },
+    {
+      "path": "runner.py",
+      "sha256": "581565964038d45eebef5e0ddaeb165ac91ac37bace9a0bea237cf845668d586",
+      "bytes": 12865
+    },
+    {
+      "path": "test_warm.py",
+      "sha256": "d4e68c67a2596a8b369155db77ebfcca5de7d68ea2eea50a27c586292676247c",
+      "bytes": 10678
+    },
+    {
+      "path": "warm_common.py",
+      "sha256": "0a2c6ce7aa2c2083defa2ba79d71fb92d54c91cbf8379b9e2e3373bc92970aee",
+      "bytes": 3683
+    },
+    {
+      "path": "plan.json",
+      "sha256": "996e4c09f18d4517bfbdcb8b411a8cb370a00a417475bcb7628d3080243bc73f",
+      "bytes": 2061
+    },
+    {
+      "path": "README.md",
+      "sha256": "e47a694dabd51d5294f5c546bd17d44fdc2bb7e39a4b88efd383324874c40729",
+      "bytes": 8112
+    }
+  ],
+  "CPU_validation": {
+    "path": "CPU_validation.json",
+    "sha256": "696ce30b5614bc695d996b27445989f1c70a9abb74e778487a41b6b606876ad8"
+  },
+  "state": "READY_FOR_REVIEW_NOT_DEPLOYED",
+  "production_call_budget": 150,
+  "maximum_CPU_NN_fits": 4,
+  "maximum_CPU_optimizer_steps": 400
+}

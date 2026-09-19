@@ -1,0 +1,11 @@
+# Prospective SnAr warm-history risk experiment
+
+This is a new training/development scope, motivated by the already reported failure of risk calibration in the original SnAr study. The five new trajectories were registered on 2026-09-20 at03:19 CST, before their physical execution. This archive is a protocol and source snapshot, not an experimental result.
+
+Three training episodes (6101–6103) and two development episodes (6201–6202) each receive the same frozen550-query adaptation archive and make30 actual official Summit SnAr queries. All150 calls, including five LHS initialization queries per episode, are charged; at most125 chosen non-LHS feature rows are eligible. The original550 rows supply context only and do not become fitting rows. G0 policy weights, native32-transcoder features, evaluator, and original query semantics are preserved. Graphs are recorded diagnostically during collection and do not choose its actions.
+
+Three leave-training-episode-out neural fits select duration and temperature using training OOF predictions, followed by one fresh final training fit. Development labels may be read before fitting for class/support qualification; they never choose weights, duration or calibration. The finalized model is sealed before development scoring. Development NLL/Brier are compared with a fixed training-prior predictor; AUROC and calibration are reported with their small-sample limits. Class/support failure records a terminal zero-fit result rather than expanding the data or weakening the criteria.
+
+This experiment tests whether matching the training history can improve risk prediction. Its design does not by itself isolate the cause of the original failure, demonstrate better planning, update ES, or constitute a new held-out benchmark comparison. Behavioral and ES validation require separate prospective scopes. All positive, negative, failed and insufficient-data outcomes must be retained.
+
+The source snapshot retains original paths and dependency hashes for the existing project. It requires those original benchmark/model assets; it is not a standalone environment installer. CPU tests use small synthetic fixtures to check the implementation and are not scientific results. Run `python3 verify.py` to check this archive without invoking a model or oracle.
