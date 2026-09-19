@@ -1,0 +1,52 @@
+{
+  "shared_prior_rows": 550,
+  "prior_HV": 0.8810117795428745,
+  "prior_fingerprint": "bb2410333984e03b068170ceb8bb60d0ea73961f882869b3effd9c12afb90c7b",
+  "full_checkpoint_selection": {
+    "checkpoint_form": "original_verified_weights_plus_exact_full_parameter_ES_history",
+    "development": [
+      {
+        "fitness": 0.6550216615633048,
+        "generation": 0,
+        "scores": [
+          0.4839212427187533,
+          0.8261220804078562
+        ],
+        "weight_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516"
+      },
+      {
+        "fitness": 0.6473429769506727,
+        "generation": 1,
+        "scores": [
+          0.4749625046030606,
+          0.8197234492982847
+        ],
+        "weight_hash": "a03c2fcb51222fffd5a36ac924e75e05c99044653331dee775238553f97eb785"
+      },
+      {
+        "fitness": 0.6051244131149185,
+        "generation": 2,
+        "scores": [
+          0.4856230401620664,
+          0.7246257860677706
+        ],
+        "weight_hash": "1213e4919e34aaf1906f589317dc2a9ae420cdc80d7896aadbdab4e10b8f1bef"
+      }
+    ],
+    "selected": {
+      "fitness": 0.6550216615633048,
+      "generation": 0,
+      "scores": [
+        0.4839212427187533,
+        0.8261220804078562
+      ],
+      "weight_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516"
+    },
+    "test_replay_hash_required": true,
+    "test_used": false
+  },
+  "selection_evidence_origin": "SnAr.full_selection field of the 16:12:32 read-only snapshot",
+  "selection_snapshot_sha256": "6213fa2be0ec0a2f0b7aca591a404f20c09c5107c3e20bca05ecd6774fd8130e",
+  "full_UQ_per_seed_HV_curves_equal": true,
+  "ES_only_base_per_seed_HV_curves_equal": true
+}

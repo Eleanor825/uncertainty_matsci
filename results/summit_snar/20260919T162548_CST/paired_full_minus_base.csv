@@ -1,0 +1,11 @@
+reference_arm,arm,seed,metric,reference_value,arm_value,paired_delta
+qwen_base,uq_esopt,5101,final_hv_gain,0.0,6.96435639324644e-06,6.96435639324644e-06
+qwen_base,uq_esopt,5102,final_hv_gain,5.067131242530998e-05,9.643041661355767e-05,4.575910418824769e-05
+qwen_base,uq_esopt,5103,final_hv_gain,7.409102753641594e-05,5.0333777603661645e-06,-6.905764977604978e-05
+qwen_base,uq_esopt,5104,final_hv_gain,0.00014074029356769824,5.0333777603661645e-06,-0.00013570691580733207
+qwen_base,uq_esopt,5105,final_hv_gain,0.0,0.0,0.0
+qwen_base,uq_esopt,5101,mean_querywise_hv_gain,0.0,6.96435639324644e-07,6.96435639324644e-07
+qwen_base,uq_esopt,5102,mean_querywise_hv_gain,1.8241672473111593e-05,6.65721509649031e-05,4.83304784917915e-05
+qwen_base,uq_esopt,5103,mean_querywise_hv_gain,2.3709128811653102e-05,3.2213617666343453e-06,-2.0487767045018758e-05
+qwen_base,uq_esopt,5104,mean_querywise_hv_gain,3.9407282198955505e-05,4.1273697635002545e-06,-3.527991243545525e-05
+qwen_base,uq_esopt,5105,mean_querywise_hv_gain,0.0,0.0,0.0

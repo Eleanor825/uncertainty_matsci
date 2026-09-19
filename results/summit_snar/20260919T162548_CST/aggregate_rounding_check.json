@@ -1,0 +1,681 @@
+{
+  "comparisons": [
+    {
+      "arm": "es_only",
+      "metric": "final_hv",
+      "statistic": "mean",
+      "reported": 0.8810648800695804,
+      "recomputed": 0.8810648800695804,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "es_only",
+      "metric": "final_hv",
+      "statistic": "sample_variance",
+      "reported": 3.441640703903815e-09,
+      "recomputed": 3.4416407039038147e-09,
+      "absolute_difference": 4.1359030627651384e-25
+    },
+    {
+      "arm": "es_only",
+      "metric": "final_hv",
+      "statistic": "sample_std",
+      "reported": 5.866549841179068e-05,
+      "recomputed": 5.866549841179068e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "es_only",
+      "metric": "final_hv_gain",
+      "statistic": "mean",
+      "reported": 5.310052670588483e-05,
+      "recomputed": 5.310052670588483e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "es_only",
+      "metric": "final_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 3.441640703903815e-09,
+      "recomputed": 3.441640703903815e-09,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "es_only",
+      "metric": "final_hv_gain",
+      "statistic": "sample_std",
+      "reported": 5.866549841179068e-05,
+      "recomputed": 5.866549841179068e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "es_only",
+      "metric": "invalid_proposal_rate",
+      "statistic": "mean",
+      "reported": 0.021461609620721554,
+      "recomputed": 0.021461609620721554,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "es_only",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_variance",
+      "reported": 0.0006791044712257211,
+      "recomputed": 0.0006791044712257212,
+      "absolute_difference": 1.0842021724855044e-19
+    },
+    {
+      "arm": "es_only",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_std",
+      "reported": 0.026059632983327318,
+      "recomputed": 0.02605963298332732,
+      "absolute_difference": 3.469446951953614e-18
+    },
+    {
+      "arm": "es_only",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "mean",
+      "reported": 1.627161669674404e-05,
+      "recomputed": 1.627161669674404e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "es_only",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 2.809969360757887e-10,
+      "recomputed": 2.809969360757887e-10,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "es_only",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_std",
+      "reported": 1.676296322479378e-05,
+      "recomputed": 1.676296322479378e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "final_hv",
+      "statistic": "mean",
+      "reported": 0.8813788439027148,
+      "recomputed": 0.8813788439027148,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "final_hv",
+      "statistic": "sample_variance",
+      "reported": 1.078542842137666e-08,
+      "recomputed": 1.078542842137666e-08,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "final_hv",
+      "statistic": "sample_std",
+      "reported": 0.0001038529172501989,
+      "recomputed": 0.0001038529172501989,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "final_hv_gain",
+      "statistic": "mean",
+      "reported": 0.00036706435984030784,
+      "recomputed": 0.00036706435984030784,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "final_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 1.078542842137666e-08,
+      "recomputed": 1.078542842137666e-08,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "final_hv_gain",
+      "statistic": "sample_std",
+      "reported": 0.0001038529172501989,
+      "recomputed": 0.0001038529172501989,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "invalid_proposal_rate",
+      "statistic": "mean",
+      "reported": 0.0,
+      "recomputed": 0.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_variance",
+      "reported": 0.0,
+      "recomputed": 0.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_std",
+      "reported": 0.0,
+      "recomputed": 0.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "mean",
+      "reported": 0.000286787576434941,
+      "recomputed": 0.000286787576434941,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 1.0863263427552834e-08,
+      "recomputed": 1.0863263427552834e-08,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "gp_ei_scalarized",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_std",
+      "reported": 0.00010422698032444783,
+      "recomputed": 0.00010422698032444783,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "final_hv",
+      "statistic": "mean",
+      "reported": 0.8810648800695804,
+      "recomputed": 0.8810648800695804,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "final_hv",
+      "statistic": "sample_variance",
+      "reported": 3.441640703903815e-09,
+      "recomputed": 3.4416407039038147e-09,
+      "absolute_difference": 4.1359030627651384e-25
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "final_hv",
+      "statistic": "sample_std",
+      "reported": 5.866549841179068e-05,
+      "recomputed": 5.866549841179068e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "final_hv_gain",
+      "statistic": "mean",
+      "reported": 5.310052670588483e-05,
+      "recomputed": 5.310052670588483e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "final_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 3.441640703903815e-09,
+      "recomputed": 3.441640703903815e-09,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "final_hv_gain",
+      "statistic": "sample_std",
+      "reported": 5.866549841179068e-05,
+      "recomputed": 5.866549841179068e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "invalid_proposal_rate",
+      "statistic": "mean",
+      "reported": 0.021461609620721554,
+      "recomputed": 0.021461609620721554,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_variance",
+      "reported": 0.0006791044712257211,
+      "recomputed": 0.0006791044712257212,
+      "absolute_difference": 1.0842021724855044e-19
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_std",
+      "reported": 0.026059632983327318,
+      "recomputed": 0.02605963298332732,
+      "absolute_difference": 3.469446951953614e-18
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "mean",
+      "reported": 1.627161669674404e-05,
+      "recomputed": 1.627161669674404e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 2.809969360757887e-10,
+      "recomputed": 2.809969360757887e-10,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "qwen_base",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_std",
+      "reported": 1.676296322479378e-05,
+      "recomputed": 1.676296322479378e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random",
+      "metric": "final_hv",
+      "statistic": "mean",
+      "reported": 0.8810381812432553,
+      "recomputed": 0.8810381812432553,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random",
+      "metric": "final_hv",
+      "statistic": "sample_variance",
+      "reported": 2.471925282040232e-09,
+      "recomputed": 2.471925282040232e-09,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random",
+      "metric": "final_hv",
+      "statistic": "sample_std",
+      "reported": 4.971846017366419e-05,
+      "recomputed": 4.971846017366419e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random",
+      "metric": "final_hv_gain",
+      "statistic": "mean",
+      "reported": 2.6401700380862535e-05,
+      "recomputed": 2.6401700380862535e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random",
+      "metric": "final_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 2.471925282040232e-09,
+      "recomputed": 2.4719252820402317e-09,
+      "absolute_difference": 4.1359030627651384e-25
+    },
+    {
+      "arm": "random",
+      "metric": "final_hv_gain",
+      "statistic": "sample_std",
+      "reported": 4.971846017366419e-05,
+      "recomputed": 4.971846017366418e-05,
+      "absolute_difference": 6.776263578034403e-21
+    },
+    {
+      "arm": "random",
+      "metric": "invalid_proposal_rate",
+      "statistic": "mean",
+      "reported": 0.0,
+      "recomputed": 0.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_variance",
+      "reported": 0.0,
+      "recomputed": 0.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_std",
+      "reported": 0.0,
+      "recomputed": 0.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "mean",
+      "reported": 1.8047512443634783e-05,
+      "recomputed": 1.8047512443634783e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 1.3886084907298975e-09,
+      "recomputed": 1.3886084907298977e-09,
+      "absolute_difference": 2.0679515313825692e-25
+    },
+    {
+      "arm": "random",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_std",
+      "reported": 3.7264037499040515e-05,
+      "recomputed": 3.7264037499040515e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "final_hv",
+      "statistic": "mean",
+      "reported": 0.8810410933993242,
+      "recomputed": 0.8810410933993242,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "final_hv",
+      "statistic": "sample_variance",
+      "reported": 3.959034146239648e-09,
+      "recomputed": 3.959034146239648e-09,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "final_hv",
+      "statistic": "sample_std",
+      "reported": 6.292085621031908e-05,
+      "recomputed": 6.292085621031908e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "final_hv_gain",
+      "statistic": "mean",
+      "reported": 2.931385644979745e-05,
+      "recomputed": 2.931385644979745e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "final_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 3.959034146239648e-09,
+      "recomputed": 3.959034146239649e-09,
+      "absolute_difference": 8.271806125530277e-25
+    },
+    {
+      "arm": "random_controller",
+      "metric": "final_hv_gain",
+      "statistic": "sample_std",
+      "reported": 6.292085621031908e-05,
+      "recomputed": 6.292085621031908e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "invalid_proposal_rate",
+      "statistic": "mean",
+      "reported": 0.024444444444444442,
+      "recomputed": 0.024444444444444442,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_variance",
+      "reported": 0.0004567901234567901,
+      "recomputed": 0.0004567901234567901,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_std",
+      "reported": 0.021372648957412605,
+      "recomputed": 0.021372648957412605,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "mean",
+      "reported": 1.1462916337438679e-05,
+      "recomputed": 1.1462916337438679e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "random_controller",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 6.145052560081488e-10,
+      "recomputed": 6.145052560081487e-10,
+      "absolute_difference": 1.0339757656912846e-25
+    },
+    {
+      "arm": "random_controller",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_std",
+      "reported": 2.478921652671074e-05,
+      "recomputed": 2.478921652671074e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "final_hv",
+      "statistic": "mean",
+      "reported": 0.88103447184858,
+      "recomputed": 0.88103447184858,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "final_hv",
+      "statistic": "sample_variance",
+      "reported": 1.7058234001081388e-09,
+      "recomputed": 1.7058234001081388e-09,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "final_hv",
+      "statistic": "sample_std",
+      "reported": 4.130161498183986e-05,
+      "recomputed": 4.130161498183986e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "final_hv_gain",
+      "statistic": "mean",
+      "reported": 2.2692305705507287e-05,
+      "recomputed": 2.2692305705507287e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "final_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 1.7058234001081388e-09,
+      "recomputed": 1.7058234001081388e-09,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "final_hv_gain",
+      "statistic": "sample_std",
+      "reported": 4.130161498183986e-05,
+      "recomputed": 4.130161498183986e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "invalid_proposal_rate",
+      "statistic": "mean",
+      "reported": 0.03184313725490196,
+      "recomputed": 0.03184313725490196,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_variance",
+      "reported": 0.0003169857747020377,
+      "recomputed": 0.0003169857747020377,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_std",
+      "reported": 0.017804094324116507,
+      "recomputed": 0.01780409432411651,
+      "absolute_difference": 3.469446951953614e-18
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "mean",
+      "reported": 1.4923463626872468e-05,
+      "recomputed": 1.4923463626872468e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 8.365499565942079e-10,
+      "recomputed": 8.365499565942078e-10,
+      "absolute_difference": 1.0339757656912846e-25
+    },
+    {
+      "arm": "uq_esopt",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_std",
+      "reported": 2.892317334930951e-05,
+      "recomputed": 2.8923173349309507e-05,
+      "absolute_difference": 3.3881317890172014e-21
+    },
+    {
+      "arm": "uq_only",
+      "metric": "final_hv",
+      "statistic": "mean",
+      "reported": 0.88103447184858,
+      "recomputed": 0.88103447184858,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_only",
+      "metric": "final_hv",
+      "statistic": "sample_variance",
+      "reported": 1.7058234001081388e-09,
+      "recomputed": 1.7058234001081388e-09,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_only",
+      "metric": "final_hv",
+      "statistic": "sample_std",
+      "reported": 4.130161498183986e-05,
+      "recomputed": 4.130161498183986e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_only",
+      "metric": "final_hv_gain",
+      "statistic": "mean",
+      "reported": 2.2692305705507287e-05,
+      "recomputed": 2.2692305705507287e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_only",
+      "metric": "final_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 1.7058234001081388e-09,
+      "recomputed": 1.7058234001081388e-09,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_only",
+      "metric": "final_hv_gain",
+      "statistic": "sample_std",
+      "reported": 4.130161498183986e-05,
+      "recomputed": 4.130161498183986e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_only",
+      "metric": "invalid_proposal_rate",
+      "statistic": "mean",
+      "reported": 0.03184313725490196,
+      "recomputed": 0.03184313725490196,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_only",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_variance",
+      "reported": 0.0003169857747020377,
+      "recomputed": 0.0003169857747020377,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_only",
+      "metric": "invalid_proposal_rate",
+      "statistic": "sample_std",
+      "reported": 0.017804094324116507,
+      "recomputed": 0.01780409432411651,
+      "absolute_difference": 3.469446951953614e-18
+    },
+    {
+      "arm": "uq_only",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "mean",
+      "reported": 1.4923463626872468e-05,
+      "recomputed": 1.4923463626872468e-05,
+      "absolute_difference": 0.0
+    },
+    {
+      "arm": "uq_only",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_variance",
+      "reported": 8.365499565942079e-10,
+      "recomputed": 8.365499565942078e-10,
+      "absolute_difference": 1.0339757656912846e-25
+    },
+    {
+      "arm": "uq_only",
+      "metric": "mean_querywise_hv_gain",
+      "statistic": "sample_std",
+      "reported": 2.892317334930951e-05,
+      "recomputed": 2.8923173349309507e-05,
+      "absolute_difference": 3.3881317890172014e-21
+    }
+  ],
+  "maximum_absolute_difference": 3.469446951953614e-18,
+  "per_seed_values_exactly_match": true,
+  "relative_tolerance": 1e-14,
+  "absolute_tolerance": 1e-24,
+  "note": "Original accepted report values are preserved. A few sample variance/SD recomputations differ by a last floating-point bit across Python runtimes."
+}

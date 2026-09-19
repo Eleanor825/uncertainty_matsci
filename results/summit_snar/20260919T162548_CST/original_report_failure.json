@@ -1,0 +1,20 @@
+{
+  "original_reference": {
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/jobs/report/failure.json",
+    "sha256": "6189a5d2e1f02511fd81334d5f11dcd0c18abd8332821d4b048690901c2391b7",
+    "bytes": 1023,
+    "mtime": 1789794847.0
+  },
+  "observed_payload": {
+    "automatic_replay": false,
+    "complete": false,
+    "elapsed_seconds": 0.14492106437683105,
+    "error": "No module named 'study'",
+    "error_type": "ModuleNotFoundError",
+    "traceback": "Traceback (most recent call last):\n  File \"/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_main_repair_20260919_v2/main.py\", line 50, in run\n    outputs=execute(reg,job,runtime)\n            ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_main_repair_20260919_v2/repair_pipeline.py\", line 168, in execute\n    import acceptance_repair as a\n  File \"/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_main_repair_20260919_v2/acceptance_repair.py\", line 12, in <module>\n    from study import BOUNDS, digest, episode_summary, fitness, hypervolume, lhs, observed, prior_summary\nModuleNotFoundError: No module named 'study'\n"
+  },
+  "preserved_after_recovery": true,
+  "raw_remote_file_not_relabelled": true,
+  "export_is_derived": true,
+  "administrative_claim_identifier_omitted": true
+}

@@ -1,0 +1,77 @@
+{
+  "completion_CST": "2026-09-19T16:25:48.135994+08:00",
+  "observed_CST": "2026-09-19T16:35:46.206942+08:00",
+  "observed_UTC": "2026-09-19T08:35:46.206942+00:00",
+  "actual_completion_reference": {
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_report_recovery_20260919_v1/runs/v1/completion.json",
+    "sha256": "c4e5fbc7d58b3e6e02e114ff1448de8fd4633ac362ea22a9b1ce357fd629fc40",
+    "bytes": 11515
+  },
+  "actual_completion": {
+    "complete": true,
+    "elapsed_seconds": 206.09277725219727,
+    "finished_at": 1789806348.135994,
+    "imported_collection_calls": 150,
+    "new_adaptation_calls": 400,
+    "new_calls_performed_by_recovery": 0,
+    "new_heldout_calls": 1750,
+    "new_model_or_training_calls": 0,
+    "original_distinct_oracle_calls": 2300,
+    "original_outputs_modified": false,
+    "original_report_remains_failed": true,
+    "outputs": [
+      {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_report_recovery_20260919_v1/runs/v1/derived/acceptance.json",
+        "sha256": "167725ec24054eefbcf277eeaa1706646de2bff65d76b730722163c798704e0f"
+      },
+      {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_report_recovery_20260919_v1/runs/v1/derived/results.json",
+        "sha256": "6716f7efcc60966323e39bc38d4f162fef4ebb67801480e58da5e86e3d5e38b4"
+      },
+      {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_report_recovery_20260919_v1/runs/v1/derived/results.md",
+        "sha256": "01f024219c2ba5209d3313ab8921915438b9ae02ca2c6fdaef5c7c1d4ff4a136"
+      },
+      {
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_report_recovery_20260919_v1/runs/v1/derived/study_complete.json",
+        "sha256": "505c1e82e9639abb968135dbd1b5f28363d4cbac98ea9ecd3b13ebc257ece35d"
+      }
+    ],
+    "passed": true
+  },
+  "actual_acceptance": {
+    "source": {
+      "bytes": 5139127,
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_report_recovery_20260919_v1/runs/v1/derived/acceptance.json",
+      "sha256": "167725ec24054eefbcf277eeaa1706646de2bff65d76b730722163c798704e0f"
+    },
+    "summary": {
+      "adaptation_episodes": 25,
+      "adaptation_oracle_calls": 550,
+      "complete": true,
+      "episodes": 60,
+      "failed_or_unknown_physical_attempts": 0,
+      "model_calls_performed_by_audit": 0,
+      "passed": true,
+      "schema": "summit_snar_main_repair_terminal_acceptance_v2",
+      "scientific_oracle_calls_performed_by_audit": 0,
+      "test_episodes": 35,
+      "test_oracle_calls": 1750,
+      "unique_physical_attempts": 2300
+    }
+  },
+  "actual_report_reference": {
+    "bytes": 4718456,
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_report_recovery_20260919_v1/runs/v1/derived/results.json",
+    "sha256": "6716f7efcc60966323e39bc38d4f162fef4ebb67801480e58da5e86e3d5e38b4"
+  },
+  "original_failure": {
+    "bytes": 1023,
+    "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/jobs/report/failure.json",
+    "sha256": "6189a5d2e1f02511fd81334d5f11dcd0c18abd8332821d4b048690901c2391b7"
+  },
+  "original_failure_preserved": true,
+  "report_scope": "Derived acceptance/report of the unchanged original 2300-call study; original failed report job remains failed.",
+  "evidence_kind": "compact_readonly_observation_of_actual_remote_acceptance_not_raw_remote_file_bytes",
+  "monitor_snapshot_sha256": "8d3eca8c4396d91b50f407a815b9aae45b1e25e51fc0a6fedf3b60e1c1852c63"
+}

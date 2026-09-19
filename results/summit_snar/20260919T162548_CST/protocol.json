@@ -1,0 +1,225 @@
+{
+  "schema": "summit_snar_warm_start_full_method_v1",
+  "study_id": "summit_snar_qwen35_4b_20260918_v1",
+  "benchmark": {
+    "name": "Summit SnAr",
+    "repository": "https://github.com/sustainable-processes/summit",
+    "commit": "1de682d05e97adcfb96cd8376e876cef2d6160d3",
+    "noise_level": 0.0,
+    "function_count": 1
+  },
+  "model": {
+    "id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "dtype": "float32",
+    "attention": "eager",
+    "cpu_embedding_and_lm_head": true,
+    "attention_checkpointing": true,
+    "gpu_allocator_fraction": 0.35,
+    "cpu_threads": 2
+  },
+  "policy": {
+    "context_budget": 2048,
+    "max_input_tokens": 1920,
+    "max_new_tokens": 128,
+    "history_window": 6,
+    "prior_summary_rows": 4,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "maximum_proposals_per_query": 2,
+    "risk_threshold": 0.5,
+    "invalid_fallback": "deterministic_uniform_random_in_domain_after_two_invalid_proposals",
+    "outcome_for_unexecuted_proposals": null
+  },
+  "objective": {
+    "raw": {
+      "sty": "maximize",
+      "e_factor": "minimize"
+    },
+    "normalized_coordinates": [
+      "sty/13000",
+      "(1000-e_factor)/1000"
+    ],
+    "reference": [
+      0.0,
+      0.0
+    ],
+    "upper_clipping": false,
+    "primary": "final_pareto_hypervolume_gain_over_shared_prior",
+    "secondary": [
+      "mean_querywise_pareto_hypervolume_gain_over_shared_prior",
+      "absolute_hypervolume",
+      "raw_pareto_front",
+      "invalid_proposal_rate",
+      "no_hvi_risk_calibration",
+      "wall_time",
+      "all_offline_and_online_oracle_calls"
+    ],
+    "non_improvement_tolerance": 1e-12
+  },
+  "risk": {
+    "label": "no_positive_pareto_hypervolume_increment_for_the_next_executed_query",
+    "causal_reasoning_error_claim": false,
+    "train_seeds": [
+      1101,
+      1102,
+      1103
+    ],
+    "dev_seeds": [
+      2101,
+      2102
+    ],
+    "queries_per_episode": 30,
+    "initial_lhs_queries": 5,
+    "activation_token_rows_per_proposal": 16,
+    "hidden_width": 64,
+    "epochs": 100,
+    "patience": 15,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "seed": 1729,
+    "include_error_similarity": true,
+    "both_training_classes_required": true,
+    "train_dev_prefix_overlap": "remove_exact_duplicates_from_development_and_log",
+    "minimum_valid_graph_fraction": 0.9
+  },
+  "representation": {
+    "pretrained_bank_role": "candidate_only_until_SnAr_train_dev_FVU_pass",
+    "layers": 32,
+    "max_dev_fvu": 0.5,
+    "fallback": "fresh_SnAr_normalized_TopK_all32layers_isolated_CUDA64epochs",
+    "fallback_feature_multiplier": 2,
+    "fallback_top_k": 64,
+    "fallback_epochs": 64,
+    "fallback_batch_size": 256,
+    "fallback_learning_rate": 0.0004,
+    "fallback_seed": 1729,
+    "fallback_runtime": {
+      "device": "cuda:0",
+      "pytorch_allocator_cap_bytes": 2147483648,
+      "minimum_device_free_bytes_before_child": 12884901888,
+      "parent_policy_waits_without_forward_or_ES": true,
+      "new_policy_model_loaded_in_child": false,
+      "extra_CUDA_context_overhead_included_in_allocator_cap": false,
+      "one_layer_child_at_a_time": true
+    }
+  },
+  "graph": {
+    "max_nodes": 16384,
+    "max_feature_nodes": 32,
+    "max_backward_targets": 42,
+    "max_logits": 10,
+    "max_path_sources": 16,
+    "max_path_edge_visits": 2000000,
+    "validation_epsilon": 0.001,
+    "validation_rtol": 0.05,
+    "validation_atol": 0.0001,
+    "validation_max_edges": 4,
+    "device": "cuda:0",
+    "transcoder_device": "cpu",
+    "constant_storage_device": "cpu",
+    "dtype": "float32",
+    "attn_implementation": "eager",
+    "sdpa_backend": "auto",
+    "cpu_embedding_and_lm_head": true,
+    "attention_checkpointing": true,
+    "torch_cpu_threads": 2,
+    "source_selection_rule": "qwen_final_mlp_causal_activation_v1"
+  },
+  "evolution": {
+    "algorithm": "AgenticESOpt",
+    "parameter_scope": "full",
+    "generations": 2,
+    "population_size": 2,
+    "mutation_seeds": [
+      [
+        7101,
+        7102
+      ],
+      [
+        7201,
+        7202
+      ]
+    ],
+    "sigma": [
+      0.001,
+      0.0002
+    ],
+    "alpha": 0.0005,
+    "fitness_episode_seeds": [
+      3101,
+      3102
+    ],
+    "candidate_queries": 20,
+    "initial_lhs_queries": 5,
+    "checkpoint_dev_seeds": [
+      4101,
+      4102
+    ],
+    "checkpoint_dev_queries": 20,
+    "fitness": "mean_querywise_normalized_pareto_HV - 0.1*Brier(no_hvi,available_predicted_risk) - 0.1*invalid_proposal_fraction",
+    "checkpoint_selection": "maximum_mean_development_fitness_across_G0_G1_G2_ties_choose_earlier",
+    "sequential_population": true,
+    "training_archive_in_fitness_prompt": false
+  },
+  "evaluation": {
+    "arms": [
+      "random",
+      "gp_ei_scalarized",
+      "qwen_base",
+      "uq_esopt",
+      "uq_only",
+      "es_only",
+      "random_controller"
+    ],
+    "seeds": [
+      5101,
+      5102,
+      5103,
+      5104,
+      5105
+    ],
+    "queries_per_episode": 50,
+    "initial_lhs_queries": 5,
+    "paired_initial_design": true,
+    "shared_prior": "all_completed_adaptation_observations_frozen_before_any_test_call",
+    "prior_cost_is_free": false,
+    "gp_prior_access": "all_raw_shared_archive_rows",
+    "llm_prior_access": "identical_deterministic_four_point_Pareto_summary_for_all_LLM_arms",
+    "random_prior_access": "archive_initializes_front_but_does_not_change_uniform_sampling",
+    "prefix_reports": [
+      10,
+      30,
+      50
+    ],
+    "prefix_reports_are_independent_runs": false,
+    "replicates": "heldout_random_sampling_and_initial_design_seeds_on_one_known_reaction_function",
+    "unseen_function_generalization_claim": false,
+    "test_seed_selection": false,
+    "test_tuning": false
+  },
+  "accounting": {
+    "planned_adaptation_oracle_calls": 550,
+    "planned_test_oracle_calls": 1750,
+    "technical_calls_separate": true,
+    "completed_query_replay": "forbidden_use_durable_receipt",
+    "ambiguous_pending_query": "halt_for_reconciliation",
+    "negative_and_null_results": "retain",
+    "uncertainty_missing": "explicit_unavailable_never_fabricated_probability",
+    "run_scope": "full_registered_SnAr_main_comparison_and_three_ablations_on_one_model_not_entire_Summit_suite"
+  },
+  "ablations": {
+    "uq_only": "original Qwen weights with the same independently trained risk NN and controller; no ES updates",
+    "es_only": "independent full-parameter ES from original Qwen without risk features, calibration term, or uncertainty-triggered retry; outcome reward minus same invalid-proposal penalty",
+    "random_controller": "original Qwen; invalid retry preserved; independently random extra-proposal trigger at frozen dev-estimated UQ trigger probability, uniform selection among valid proposals; no risk NN/ES at test",
+    "random_controller_trigger_fit": "fraction of valid development actions with calibrated risk>=0.5 OR graph unavailable, after exact-prefix isolation; unavailable actions trigger retry but never enter NN fit",
+    "random_controller_budget_claim": "same maximum proposals and development-matched expected extra-retry rate, not guaranteed identical realized inference cost",
+    "all_arms_shared_prior": true,
+    "independent_es_branch_calls": 200,
+    "es_only_fitness": "mean_querywise_normalized_pareto_HV - 0.1*invalid_proposal_fraction",
+    "es_only_evolution_seeds_and_hyperparameters": "identical to full branch; separate actual updates and dev checkpoint selection",
+    "component_interaction_limitation": "full vs es_only includes uncertainty in both controller and ES fitness; it does not isolate only the ES-fitness uncertainty term"
+  }
+}

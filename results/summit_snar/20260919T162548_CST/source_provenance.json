@@ -1,0 +1,20 @@
+{
+  "schema": "SnAr_accepted_results_derived_export_sources_v1",
+  "source_monitor_snapshot_sha256": "8d3eca8c4396d91b50f407a815b9aae45b1e25e51fc0a6fedf3b60e1c1852c63",
+  "source_completion_summary_sha256": "6de4f3118b97ef5959c5a79101037469e33e8f9669f5a65fd17d7f93abb5f042",
+  "source_episode_snapshot_sha256": "6213fa2be0ec0a2f0b7aca591a404f20c09c5107c3e20bca05ecd6774fd8130e",
+  "protocol_source_sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972",
+  "source_reporting_sha256": "a9583364fc5edeb24366dd0fdb268c5bd8dc911d9cd92321bf5ff92d1591bb10",
+  "source_recovery_sha256": "4268f3d59ad0555d1bacaad8f5761090a05e99ef33f160ad0f46fe1f937f88c5",
+  "export_hashes_are_distinct_from_original_remote_hashes": true,
+  "original_remote_acceptance_rehashed_during_this_publication": false,
+  "episode_values_checked_against_actual_accepted_report_per_seed_fields": true,
+  "raw_RPC_or_large_model_artifacts_published": false,
+  "authentication_browser_or_process_records_published": false,
+  "notes": [
+    "The actual recovery was observed passing at16:25:48 CST; publication uses the resulting local evidence and does not re-execute acceptance or science.",
+    "Per-seed values and curves are cached from the already closed35 episodes and match the actual accepted report per-seed statistics.",
+    "The old failed report and all previous dated snapshots are retained. New acceptance lives in an independent derived namespace.",
+    "The prior is common across seeds/arms. Variance is across evaluation seeds with fixed adaptation, not repeated training or unseen reaction functions."
+  ]
+}

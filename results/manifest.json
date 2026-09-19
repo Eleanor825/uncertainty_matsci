@@ -1,6 +1,6 @@
 {
   "schema": "derived_public_results_manifest_v1",
-  "latest_observation_utc": "2026-09-18T21:21:38.188817+00:00",
+  "latest_observation_utc": "2026-09-19T08:35:46.206942+00:00",
   "raw_files_published": false,
   "source_hashes_and_export_hashes_are_distinct": true,
   "scientific_oracle_calls_for_export": 0,
@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 9265,
-      "export_sha256": "3c1ed94436452d5127509b7af63a7890e8d8c7fc6c45c2b81927fc5ee1f02ff1"
+      "bytes": 10064,
+      "export_sha256": "df3a5fef031987bb37ef9d1a854341a45c2b0115083bed8790dc79c89ea016cb"
     },
     {
       "path": "docs/results.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "results/README.md",
-      "bytes": 6290,
-      "export_sha256": "25484f41aa32138e202aacdf3f3a0b2be1111e0e6ee4a37a44e9fd881b558704"
+      "bytes": 6974,
+      "export_sha256": "a542bd9deb6d11298912eaf13d39be7ce47ac8b8e9860e7f61712ac04b89ede9"
     },
     {
       "path": "results/budget_sweep/20260919T010939_CST/all_system_results.csv",
@@ -208,8 +208,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 52301,
-      "export_sha256": "b3b8b6195fad4f0853155aa9f377c8d0f957b19ac5a23b9a89a24779bfdb7d30"
+      "bytes": 53054,
+      "export_sha256": "4615b44a088012a5704ffda9488c2752f7d1e0c9a8e805931387c86fd124465c"
     },
     {
       "path": "results/snapshots/core2_b10_20260917T083208Z/curves.csv",
@@ -560,6 +560,91 @@
       "path": "results/development/nn_information_audit/20260919T080602_CST/summary.json",
       "bytes": 25098,
       "export_sha256": "9aee273402eb80509a44b8f1c25a69cb263f8e7e73fb4bb763c0f4ae4c596be8"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/ablation_deltas.csv",
+      "bytes": 5539,
+      "export_sha256": "af5e5fac0733f011c20bf9ecc86373d5dfecf81994cbdfa5bf940091e3b6f42a"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/acceptance_evidence.json",
+      "bytes": 3851,
+      "export_sha256": "dcce366652bec51240e7c243d1f172fb5feff66d85f05931b40665c2a21b7183"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/accepted_report_fields.json",
+      "bytes": 11444,
+      "export_sha256": "dbdcf314b055e5aaac1ead70605e53ef931acc83b29606093d6a3c48d67ed87c"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/aggregate_rounding_check.json",
+      "bytes": 19359,
+      "export_sha256": "2962c94ed4e42e955f8bbcbe4fc7bf1c495d4ebd8421021cda17ab7fde8c8039"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/curves.csv",
+      "bytes": 123916,
+      "export_sha256": "dcc86790edc5f4d5971d881a5ee78bb92376821c86257610b1baf4e41dbd6e97"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/episode_summaries.json",
+      "bytes": 129226,
+      "export_sha256": "f0b8960651d3cd5ab1b7700961540f9cd34953950207d9250a17886dcd83808a"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/manifest.json",
+      "bytes": 2777,
+      "export_sha256": "d58d5601762abe9fad0d5f0fd3a294528fa5388a97d5af98b003ca23a269ce2d"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/original_report_failure.json",
+      "bytes": 1524,
+      "export_sha256": "b63c96520bc39abf7a5f272c776989984f337ffaa7bd364dc33f1d4f584321f1"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/paired_full_minus_base.csv",
+      "bytes": 1029,
+      "export_sha256": "ccfb62da7edf6653199fdea9f2986a075a138fa24e56a23f2a47e768caafc240"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/per_seed.csv",
+      "bytes": 15561,
+      "export_sha256": "206e5fe8a0e90633303b27b67ab70920e5ab3c74f787282e9040fb4afaaa1e44"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/prior_and_selection.json",
+      "bytes": 1697,
+      "export_sha256": "a4af844177c11030778a96d0587b3d1f7d15f3d787451e69139b1767726586e0"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/protocol.json",
+      "bytes": 7670,
+      "export_sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/recompute.py",
+      "bytes": 6648,
+      "export_sha256": "88e5e4509c6c5985b28d7858050d2fda7cbc23d5aab9ca9421c26e7cc9b70274"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/report.md",
+      "bytes": 5138,
+      "export_sha256": "fc4cdea88ab916e8217c8ab9f93331a4f9ab283c6211ab2a6a588f344c920ae8"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/source_provenance.json",
+      "bytes": 1610,
+      "export_sha256": "d197483cf73a9474313f18527d6bea2d9350fe773ce00e381f54b2929b9cf41a"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/statistics.csv",
+      "bytes": 8882,
+      "export_sha256": "4b3c4f4d200b57772241897abdb2a4f0efd90835e7549b48afcf3e474a6e0d78"
+    },
+    {
+      "path": "results/summit_snar/20260919T162548_CST/summary.json",
+      "bytes": 18899,
+      "export_sha256": "14604a2f8a9e3b51466238328cd70adf7c382b409ef1654a94424727bcb6a1a2"
     }
   ],
   "development_exports": [
@@ -575,5 +660,6 @@
       "evidence": "Selected hash-bound extracts; full raw runtime files are not published",
       "not_part_of_180_test_matrix": true
     }
-  ]
+  ],
+  "latest_MADE_observation_utc": "2026-09-18T21:21:38.188817+00:00"
 }

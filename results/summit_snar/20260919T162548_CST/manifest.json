@@ -1,0 +1,87 @@
+{
+  "schema": "derived_accepted_SnAr_export_manifest_v1",
+  "accepted_CST": "2026-09-19T16:25:48.135994+08:00",
+  "raw_remote_acceptance_and_export_hashes_are_distinct": true,
+  "files": [
+    {
+      "path": "ablation_deltas.csv",
+      "bytes": 5539,
+      "export_sha256": "af5e5fac0733f011c20bf9ecc86373d5dfecf81994cbdfa5bf940091e3b6f42a"
+    },
+    {
+      "path": "acceptance_evidence.json",
+      "bytes": 3851,
+      "export_sha256": "dcce366652bec51240e7c243d1f172fb5feff66d85f05931b40665c2a21b7183"
+    },
+    {
+      "path": "accepted_report_fields.json",
+      "bytes": 11444,
+      "export_sha256": "dbdcf314b055e5aaac1ead70605e53ef931acc83b29606093d6a3c48d67ed87c"
+    },
+    {
+      "path": "aggregate_rounding_check.json",
+      "bytes": 19359,
+      "export_sha256": "2962c94ed4e42e955f8bbcbe4fc7bf1c495d4ebd8421021cda17ab7fde8c8039"
+    },
+    {
+      "path": "curves.csv",
+      "bytes": 123916,
+      "export_sha256": "dcc86790edc5f4d5971d881a5ee78bb92376821c86257610b1baf4e41dbd6e97"
+    },
+    {
+      "path": "episode_summaries.json",
+      "bytes": 129226,
+      "export_sha256": "f0b8960651d3cd5ab1b7700961540f9cd34953950207d9250a17886dcd83808a"
+    },
+    {
+      "path": "original_report_failure.json",
+      "bytes": 1524,
+      "export_sha256": "b63c96520bc39abf7a5f272c776989984f337ffaa7bd364dc33f1d4f584321f1"
+    },
+    {
+      "path": "paired_full_minus_base.csv",
+      "bytes": 1029,
+      "export_sha256": "ccfb62da7edf6653199fdea9f2986a075a138fa24e56a23f2a47e768caafc240"
+    },
+    {
+      "path": "per_seed.csv",
+      "bytes": 15561,
+      "export_sha256": "206e5fe8a0e90633303b27b67ab70920e5ab3c74f787282e9040fb4afaaa1e44"
+    },
+    {
+      "path": "prior_and_selection.json",
+      "bytes": 1697,
+      "export_sha256": "a4af844177c11030778a96d0587b3d1f7d15f3d787451e69139b1767726586e0"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 7670,
+      "export_sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+    },
+    {
+      "path": "recompute.py",
+      "bytes": 6648,
+      "export_sha256": "88e5e4509c6c5985b28d7858050d2fda7cbc23d5aab9ca9421c26e7cc9b70274"
+    },
+    {
+      "path": "report.md",
+      "bytes": 5138,
+      "export_sha256": "fc4cdea88ab916e8217c8ab9f93331a4f9ab283c6211ab2a6a588f344c920ae8"
+    },
+    {
+      "path": "source_provenance.json",
+      "bytes": 1610,
+      "export_sha256": "d197483cf73a9474313f18527d6bea2d9350fe773ce00e381f54b2929b9cf41a"
+    },
+    {
+      "path": "statistics.csv",
+      "bytes": 8882,
+      "export_sha256": "4b3c4f4d200b57772241897abdb2a4f0efd90835e7549b48afcf3e474a6e0d78"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 18899,
+      "export_sha256": "14604a2f8a9e3b51466238328cd70adf7c382b409ef1654a94424727bcb6a1a2"
+    }
+  ]
+}

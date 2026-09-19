@@ -1683,5 +1683,28 @@
     }
   ],
   "latest_statistical_export_id": "b10_b30_b50_complete_20260919T052138_CST",
-  "latest_observation_utc": "2026-09-18T21:21:38.188817+00:00"
+  "latest_observation_utc": "2026-09-18T21:21:38.188817+00:00",
+  "benchmark_exports": [
+    {
+      "benchmark": "Summit SnAr",
+      "export_id": "summit_snar_accepted_20260919T162548_CST",
+      "accepted_CST": "2026-09-19T16:25:48.135994+08:00",
+      "report": "results/summit_snar/20260919T162548_CST/report.md",
+      "summary": "results/summit_snar/20260919T162548_CST/summary.json",
+      "validation_script": "results/summit_snar/20260919T162548_CST/recompute.py",
+      "arms": 7,
+      "test_episodes": 35,
+      "evaluation_seeds": [
+        5101,
+        5102,
+        5103,
+        5104,
+        5105
+      ],
+      "unique_physical_calls": 2300,
+      "independent_derived_acceptance_passed": true,
+      "original_report_failure_preserved": true,
+      "not_part_of_MADE_180_matrix": true
+    }
+  ]
 }
