@@ -1744,6 +1744,36 @@
         "full_support_aware": 1
       },
       "variance_scope": "within fixed system,budget,arm across completed evaluation seeds; n<3 explicitly partial; complete all30/core5 seed aggregation separate"
+    },
+    {
+      "snapshot_id": "made_core5_20260919T203417_CST",
+      "observed_CST": "2026-09-19T20:34:17.577945+08:00",
+      "observed_utc": "2026-09-19T12:34:17.577945+00:00",
+      "report": "results/made_components/core5/20260919T203417_CST/report.md",
+      "summary": "results/made_components/core5/20260919T203417_CST/summary.json",
+      "validation_script": "results/made_components/core5/20260919T203417_CST/analyze.py",
+      "accepted_evaluations_in_source_snapshot": 254,
+      "planned_evaluations": 1080,
+      "export_scope": "Fixed-five-system B10 subset; 60 original planned cells,56 complete",
+      "exported_planned_cells": 60,
+      "exported_completed_evaluations": 56,
+      "evaluation_seeds": [
+        2,
+        3,
+        4
+      ],
+      "budget": 10,
+      "complete_runs_by_arm": {
+        "baseline_reference": 15,
+        "full_support_aware": 15,
+        "es_only_independent": 15,
+        "uq_only_support_aware": 11
+      },
+      "four_arm_core_ablation_complete": false,
+      "complete": false,
+      "variance_scope": "Evaluation seeds within fixed system/arm, or three complete five-system seed aggregates; ddof=1; not training repeats",
+      "not_additive_to_1080": true,
+      "accepted_evaluations": 254
     }
   ],
   "development_exports": [
@@ -1781,9 +1811,29 @@
       "controller_deployed": false,
       "calibrated_dev_metrics_in_sample": true,
       "not_part_of_materials_test_matrix": true
+    },
+    {
+      "export_id": "G0_development_comparison_20260919T200818_CST",
+      "report": "results/development/G0_comparison/20260919T200818_CST/report.md",
+      "summary": "results/development/G0_comparison/20260919T200818_CST/comparison.json",
+      "validation_script": "results/development/G0_comparison/20260919T200818_CST/recompute.py",
+      "task": "Al-Pd-Sm",
+      "budget": 10,
+      "previously_used_development_seeds": 1,
+      "AUDC_by_generation": {
+        "G0": 0.68,
+        "G1": 0.62,
+        "G2": 0.64
+      },
+      "new_candidate_calls_in_G0_diagnostic": 10,
+      "new_calls_for_G1_G2_references": 0,
+      "new_scientific_calls_for_export": 0,
+      "original_G2_selection_unchanged": true,
+      "heldout_evaluation": false,
+      "not_part_of_materials_test_matrix": true
     }
   ],
-  "latest_component_study_export_id": "made_components_20260919T185004_CST",
+  "latest_component_study_export_id": "made_core5_20260919T203417_CST",
   "analysis_exports": [
     {
       "export_id": "snar_case_analysis_20260919T2023_CST",
@@ -1797,6 +1847,24 @@
       "new_scientific_calls": 0,
       "test_recalibration": false,
       "descriptive_case_analysis": true,
+      "additional_independent_experiments": false
+    },
+    {
+      "export_id": "snar_exact_candidate_analysis_20260919T202943_CST",
+      "benchmark": "Summit SnAr",
+      "observed_CST": "2026-09-19T20:29:43.318896+08:00",
+      "report": "results/summit_snar/candidate_analysis/20260919T202943_CST/report.md",
+      "summary": "results/summit_snar/candidate_analysis/20260919T202943_CST/summary.json",
+      "validation_script": "results/summit_snar/candidate_analysis/20260919T202943_CST/analyze.py",
+      "scientific_input": "results/summit_snar/candidate_analysis/20260919T202943_CST/observations.json.gz",
+      "source_benchmark_export_id": "summit_snar_accepted_20260919T162548_CST",
+      "reused_test_episodes": 15,
+      "executed_queries": 750,
+      "full_candidates": 248,
+      "train_dev_feature_rows": 125,
+      "new_scientific_calls": 0,
+      "test_recalibration": false,
+      "descriptive_selected_action_analysis": true,
       "additional_independent_experiments": false
     }
   ]

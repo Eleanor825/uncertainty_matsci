@@ -1,0 +1,19 @@
+{
+  "SUN_and_AUDC_recomputed_from_official_curves": true,
+  "all_negative_and_tied_cases_retained": true,
+  "complete_15_run_arms": [
+    "baseline_reference",
+    "full_support_aware",
+    "es_only_independent"
+  ],
+  "completed_runs": 56,
+  "curve_points": 616,
+  "curves_recomputed": 56,
+  "incomplete_UQ_aggregate_suppressed": true,
+  "passed": true,
+  "per_system_variance_independently_checked": true,
+  "registered_cells": 60,
+  "remote_calls": 0,
+  "scientific_calls": 0,
+  "source_projection_sha256": "59ddf898ce3fef9ae1886196ab1d478a2c15481619d583b06bb6e54146095146"
+}

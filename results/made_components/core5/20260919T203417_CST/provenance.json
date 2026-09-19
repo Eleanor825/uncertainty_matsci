@@ -1,0 +1,30 @@
+{
+  "core_B10_scope": {
+    "arms": 4,
+    "planned": 60,
+    "seeds": 3,
+    "systems": 5
+  },
+  "extraction": "Read-only local selection of pre-existing fixed core5 B10 seeds2/3/4; original per-run metric/curve/cost/receipt/result SHA preserved.",
+  "new_1080_scope": {
+    "arms": 4,
+    "budgets": [
+      10,
+      30,
+      50
+    ],
+    "evaluation_seeds": [
+      2,
+      3,
+      4
+    ],
+    "planned": 1080,
+    "systems": 30
+  },
+  "original_180_seed1_scope_not_pooled": true,
+  "original_snapshot_sha256": "310826c656b0dc349ab9e9d4dc5a9d2fefc39507b15a5e45c971a363fde18580",
+  "publication_scope": "Fixed core5 interim held-out evaluation; not a complete four-arm ablation",
+  "scientific_projection_sha256": "59ddf898ce3fef9ae1886196ab1d478a2c15481619d583b06bb6e54146095146",
+  "snapshot_receipt_projection_not_full_remote_reaudit": true,
+  "source_observation_CST": "2026-09-19T20:34:17.577945+08:00"
+}

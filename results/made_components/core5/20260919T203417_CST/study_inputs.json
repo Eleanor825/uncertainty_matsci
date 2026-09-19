@@ -1,0 +1,5210 @@
+{
+  "arms": [
+    {
+      "all1080_arm_progress": {
+        "claimed_no_result": 1,
+        "complete": 81,
+        "expected": 270,
+        "failed": 0,
+        "pending": 188
+      },
+      "arm": "baseline_reference",
+      "registration": {
+        "bytes": 1212065,
+        "mtime": 1789763508.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/configs/component_ablations.json",
+        "sha256": "c11cfbe1a6cce75f18aa1e8ac9ad059e5f60f32a41be24f37d449f3cab83e027"
+      },
+      "registration_fingerprint": "216fa4f7df3dfc25b66d4e00a2e4788c4f2a2b3c2f8d563eae231e892cdcbed6"
+    },
+    {
+      "all1080_arm_progress": {
+        "claimed_no_result": 4,
+        "complete": 50,
+        "expected": 270,
+        "failed": 0,
+        "pending": 216
+      },
+      "arm": "uq_only_support_aware",
+      "registration": {
+        "bytes": 1573761,
+        "mtime": 1789769029.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/configs/support_aware_method.json",
+        "sha256": "0088ab73351c0ce39f06e5b9c4c991feb9129dd39d80eeb41cd186c7f104d7ac"
+      },
+      "registration_fingerprint": "baba7f16f1b5e9822ea9b584036e4e5a4a751c29b17993f6b819ea8a2bf90af7"
+    },
+    {
+      "all1080_arm_progress": {
+        "claimed_no_result": 1,
+        "complete": 85,
+        "expected": 270,
+        "failed": 0,
+        "pending": 184
+      },
+      "arm": "es_only_independent",
+      "registration": {
+        "bytes": 1212065,
+        "mtime": 1789763508.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/configs/component_ablations.json",
+        "sha256": "c11cfbe1a6cce75f18aa1e8ac9ad059e5f60f32a41be24f37d449f3cab83e027"
+      },
+      "registration_fingerprint": "216fa4f7df3dfc25b66d4e00a2e4788c4f2a2b3c2f8d563eae231e892cdcbed6"
+    },
+    {
+      "all1080_arm_progress": {
+        "claimed_no_result": 4,
+        "complete": 38,
+        "expected": 270,
+        "failed": 0,
+        "pending": 228
+      },
+      "arm": "full_support_aware",
+      "registration": {
+        "bytes": 1573761,
+        "mtime": 1789769029.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/configs/support_aware_method.json",
+        "sha256": "0088ab73351c0ce39f06e5b9c4c991feb9129dd39d80eeb41cd186c7f104d7ac"
+      },
+      "registration_fingerprint": "baba7f16f1b5e9822ea9b584036e4e5a4a751c29b17993f6b819ea8a2bf90af7"
+    }
+  ],
+  "budget": 10,
+  "core_systems": [
+    "Al-Li-V",
+    "Al-V-Zn",
+    "Au-K-Tb",
+    "Co-Dy-W",
+    "Co-Mg-Na"
+  ],
+  "evaluation_seeds": [
+    2,
+    3,
+    4
+  ],
+  "metadata_paths": "project-relative scientific artifact identifiers; original source SHA values retained",
+  "model": "Qwen3.5-4B",
+  "model_and_registration_cross_reference": {
+    "four_registration_refs_identical": true,
+    "published_scientific_projection": "results/made_components/20260919T185004_CST/study_inputs.json",
+    "sha256": "9d02b0b1ef9056b44e1c3e68ece39e97746e500cff8c82869b772ecb53dffe10"
+  },
+  "new_model_calls": 0,
+  "new_scientific_calls": 0,
+  "observation_finished_CST": "2026-09-19T20:34:17.577945+08:00",
+  "observation_started_CST": "2026-09-19T20:34:05.201593+08:00",
+  "observation_started_UTC": "2026-09-19T12:34:05.201593+00:00",
+  "observed_core_rows": [
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3041,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 43.62696493137628,
+        "llm_calls": 24,
+        "prompt_tokens": 50693,
+        "rpc_attempts": 48,
+        "score_sentinels": 1,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 190,
+        "tool_attempts": 24,
+        "wall_seconds": 660.474311394617
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-32355a4d9bcc6137d52ada7b",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789771609.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-32355a4d9bcc6137d52ada7b/receipt.json",
+        "sha256": "59c4514daf8eebdf454c8a7173436a0fac15b6a3c161d480c33fa84075b58ee2"
+      },
+      "result": {
+        "bytes": 139277,
+        "mtime": 1789771609.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-32355a4d9bcc6137d52ada7b/result.json",
+        "sha256": "ecd5adb1d0b577a0f9a373827a2d6ad371861e99c56a97d93ed3a585a76edf97"
+      },
+      "seed": 2,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.5,
+      "SUN": 4,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2872,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 37.71619342174381,
+        "llm_calls": 20,
+        "prompt_tokens": 40338,
+        "rpc_attempts": 38,
+        "score_sentinels": 115,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 91,
+        "tool_attempts": 19,
+        "wall_seconds": 392.72770109865814
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-50555fb4776e15c94b4beec9",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789772063.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-50555fb4776e15c94b4beec9/receipt.json",
+        "sha256": "f7a15955fdfdde536e1d0dc3af88193c45e3d21114c8ff342b32a6fc61d6160d"
+      },
+      "result": {
+        "bytes": 139139,
+        "mtime": 1789772064.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-50555fb4776e15c94b4beec9/result.json",
+        "sha256": "d9b218c8bad233d3536f23da5a6b9c2c2e74be87c1de93e6e773b919ed431287"
+      },
+      "seed": 2,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.26,
+      "SUN": 4,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2877,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 43.00985371693969,
+        "llm_calls": 18,
+        "prompt_tokens": 36452,
+        "rpc_attempts": 34,
+        "score_sentinels": 7,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 46,
+        "tool_attempts": 17,
+        "wall_seconds": 355.48606337979436
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-829f81d1c8b6dff9869aa711",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789772486.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-829f81d1c8b6dff9869aa711/receipt.json",
+        "sha256": "7a7f9f6aafa58f37965ee481e6d0c217b06416324ed640c4b58cca29d4a06627"
+      },
+      "result": {
+        "bytes": 138371,
+        "mtime": 1789772486.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-829f81d1c8b6dff9869aa711/result.json",
+        "sha256": "9f07e57ccac9ecbbb8efdba9bb53f40e01516281d4a483b4ac79549aabcc3581"
+      },
+      "seed": 2,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2998,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 51.70736765675247,
+        "llm_calls": 22,
+        "prompt_tokens": 42376,
+        "rpc_attempts": 42,
+        "score_sentinels": 21,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 87,
+        "tool_attempts": 21,
+        "wall_seconds": 402.82899418100715
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-2dce2a3709aad3945727809d",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789772965.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2dce2a3709aad3945727809d/receipt.json",
+        "sha256": "7653fb2dd0ccf599b02b05e9db40a127b7902c04e9bab1ce822827adb4b07aed"
+      },
+      "result": {
+        "bytes": 138516,
+        "mtime": 1789772965.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2dce2a3709aad3945727809d/result.json",
+        "sha256": "37c8b86237908291514a07069995060c740cbff46380cf93a5a7a5660c241954"
+      },
+      "seed": 2,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 4059,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 51.52962984889746,
+        "llm_calls": 25,
+        "prompt_tokens": 50458,
+        "rpc_attempts": 46,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 223,
+        "tool_attempts": 23,
+        "wall_seconds": 729.4627438513562
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-a8630b6c09e7eed6994a9658",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789773770.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a8630b6c09e7eed6994a9658/receipt.json",
+        "sha256": "f5bade9f702ac246f0f38c834263ca4d87e498fe1ba64b9328eded38ee5d9bc4"
+      },
+      "result": {
+        "bytes": 139607,
+        "mtime": 1789773771.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a8630b6c09e7eed6994a9658/result.json",
+        "sha256": "d73f6d0f6e0d2447bad12190bc1ba9a26bf7afcfae9d935feadb435e99eac58b"
+      },
+      "seed": 2,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.08,
+      "SUN": 2,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2602,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 45.646395321935415,
+        "llm_calls": 22,
+        "prompt_tokens": 39632,
+        "rpc_attempts": 44,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 204,
+        "tool_attempts": 22,
+        "wall_seconds": 610.2276311237365
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          2
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-10ad51e80000935d29c71786",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789790768.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-10ad51e80000935d29c71786/receipt.json",
+        "sha256": "214bfc7542b86abc31f2aefdfdfd93a58914208c7b26c63cdd98c731bc126329"
+      },
+      "result": {
+        "bytes": 139766,
+        "mtime": 1789790768.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-10ad51e80000935d29c71786/result.json",
+        "sha256": "1cec95d2d75db3d5a97682914ddb7bda69f833c414730a67a3ff7a319c226486"
+      },
+      "seed": 3,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.69,
+      "SUN": 5,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3191,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 37.359913440421224,
+        "llm_calls": 23,
+        "prompt_tokens": 47176,
+        "rpc_attempts": 42,
+        "score_sentinels": 19,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 20,
+        "tool_attempts": 21,
+        "wall_seconds": 364.4171622013673
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          10,
+          5
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-52aa59f42080e58cda2f64b0",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789791194.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-52aa59f42080e58cda2f64b0/receipt.json",
+        "sha256": "d9a78406d23d8012c245595798a9be7839defda74d9de889076ffac0bcc6ae24"
+      },
+      "result": {
+        "bytes": 140279,
+        "mtime": 1789791193.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-52aa59f42080e58cda2f64b0/result.json",
+        "sha256": "b2b55503dfd55b427a93f4bf41ffd256d8fbf3eab136003a3e6744e16ecedb00"
+      },
+      "seed": 3,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 4179,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 43.33162054326385,
+        "llm_calls": 31,
+        "prompt_tokens": 51670,
+        "rpc_attempts": 62,
+        "score_sentinels": 8,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 199,
+        "tool_attempts": 31,
+        "wall_seconds": 618.8721373360604
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-57ec2ac8f1ba4127bcccc073",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789791880.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-57ec2ac8f1ba4127bcccc073/receipt.json",
+        "sha256": "d25fdf5ef1df1db10ff5f80daa39384c2563ea559193dbe0a6c29b32997ac356"
+      },
+      "result": {
+        "bytes": 141973,
+        "mtime": 1789791880.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-57ec2ac8f1ba4127bcccc073/result.json",
+        "sha256": "5141a04e7c4c4ed3274118fc1ca5c91b8a99123e2d762a5e92704d1f316d73ca"
+      },
+      "seed": 3,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3276,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 52.419947320595384,
+        "llm_calls": 24,
+        "prompt_tokens": 44620,
+        "rpc_attempts": 44,
+        "score_sentinels": 54,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 224,
+        "tool_attempts": 22,
+        "wall_seconds": 912.0487981168553
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-3a4b0c1cd037fc1028c65eb5",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789792868.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3a4b0c1cd037fc1028c65eb5/receipt.json",
+        "sha256": "0f0a1f96aa35364dfcc556b28507040e01293028f562e43256e05c526241e424"
+      },
+      "result": {
+        "bytes": 139294,
+        "mtime": 1789792869.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-3a4b0c1cd037fc1028c65eb5/result.json",
+        "sha256": "dd2b01c3976a4124606cc6bfb3d0b852efcdaeed7fe3bfed48244159d86c5b1b"
+      },
+      "seed": 3,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 4992,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 52.571309690363705,
+        "llm_calls": 38,
+        "prompt_tokens": 60169,
+        "rpc_attempts": 76,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 234,
+        "tool_attempts": 38,
+        "wall_seconds": 797.893015595153
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-4b3d96d6b87ab535fb130a5e",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789793745.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-4b3d96d6b87ab535fb130a5e/receipt.json",
+        "sha256": "c1e51bfeb40f6c2f6c2c2909e50616ced96b6e673326283e38aecb4f93ecf8a5"
+      },
+      "result": {
+        "bytes": 144601,
+        "mtime": 1789793745.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-4b3d96d6b87ab535fb130a5e/result.json",
+        "sha256": "32f94791f16f5860009a461f85834fb35101e2b0a2baad27766d4cced92827d5"
+      },
+      "seed": 3,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.15,
+      "SUN": 1,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 1746,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 45.01933779101819,
+        "llm_calls": 13,
+        "prompt_tokens": 26716,
+        "rpc_attempts": 26,
+        "step_attempts": 10,
+        "tool_attempts": 13,
+        "wall_seconds": 248.28606204409152
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-a51d66c7e21ca9788f45a008",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789811620.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a51d66c7e21ca9788f45a008/receipt.json",
+        "sha256": "ebc73abccc1b3b986664b2f40c22e466217011fe305e74781fd6250f9063d2e2"
+      },
+      "result": {
+        "bytes": 136151,
+        "mtime": 1789811619.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a51d66c7e21ca9788f45a008/result.json",
+        "sha256": "c532fb3814b448aa15c8b3f7b6856b05e5fa4b8b4e1c8c3047042a883bfe77d8"
+      },
+      "seed": 4,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.66,
+      "SUN": 6,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2314,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 41.990343384444714,
+        "llm_calls": 16,
+        "prompt_tokens": 35928,
+        "rpc_attempts": 32,
+        "step_attempts": 10,
+        "tool_attempts": 16,
+        "wall_seconds": 271.7387802693993
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          10,
+          6
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-70adf56898316f73ea4720ab",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789811957.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-70adf56898316f73ea4720ab/receipt.json",
+        "sha256": "6bf2c5f521d1f128eecd97185e22c5e433922b8d3d5779a87e2c6cfe47beb6b8"
+      },
+      "result": {
+        "bytes": 137489,
+        "mtime": 1789811957.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-70adf56898316f73ea4720ab/result.json",
+        "sha256": "dc46959c1f59d28c120f90d490678fb3482c7311f6d7b5b9c2ad1dcac129da09"
+      },
+      "seed": 4,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 1939,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 44.76811937242746,
+        "llm_calls": 13,
+        "prompt_tokens": 30081,
+        "rpc_attempts": 26,
+        "step_attempts": 10,
+        "tool_attempts": 13,
+        "wall_seconds": 219.0269360113889
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-b1999f2e9c20505d5a373485",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789812245.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b1999f2e9c20505d5a373485/receipt.json",
+        "sha256": "a5473a8893a3a82ea450dc9a9c13e73b31af2737709ec2f4262e531b1411b6b3"
+      },
+      "result": {
+        "bytes": 134923,
+        "mtime": 1789812244.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b1999f2e9c20505d5a373485/result.json",
+        "sha256": "e435c92428dbdf393ee2be8b0d27041c49689bba1d5bfc0599132b987da9c7df"
+      },
+      "seed": 4,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2815,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 52.241789317689836,
+        "llm_calls": 20,
+        "prompt_tokens": 41801,
+        "rpc_attempts": 38,
+        "score_sentinels": 73,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 143,
+        "tool_attempts": 19,
+        "wall_seconds": 428.04346511047333
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-a526e6a613189f807a458cb1",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789812749.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a526e6a613189f807a458cb1/receipt.json",
+        "sha256": "c609d3fb5d7dfa65b5a233a3c438e354335b32c9c1c2a52e299f5a11a3248ab8"
+      },
+      "result": {
+        "bytes": 137756,
+        "mtime": 1789812749.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-a526e6a613189f807a458cb1/result.json",
+        "sha256": "2823c081c1c71b4babc11104c06f8a97156bfa3c870d0cb8f57f13a70fd15ab7"
+      },
+      "seed": 4,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "baseline_reference",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2890,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 47.38004635181278,
+        "llm_calls": 21,
+        "prompt_tokens": 40356,
+        "rpc_attempts": 40,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 126,
+        "tool_attempts": 20,
+        "wall_seconds": 503.1709984447807
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-613da1e8bf281966bbdc66db",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789813325.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-613da1e8bf281966bbdc66db/receipt.json",
+        "sha256": "74ae17be4b18d55989140f6d84777f3704c443f0b0b8fcb347457dd450b672d8"
+      },
+      "result": {
+        "bytes": 138093,
+        "mtime": 1789813324.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-613da1e8bf281966bbdc66db/result.json",
+        "sha256": "fd029822d31e28cfd66701bbaed5be38a2a0cc17a80962b6345b60e6ecab1827"
+      },
+      "seed": 4,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2976,
+        "graph_seconds": 1124.7261922690086,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 45.23835936374962,
+        "llm_calls": 23,
+        "prompt_tokens": 36871,
+        "rpc_attempts": 44,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 102,
+        "tool_attempts": 22,
+        "wall_seconds": 1732.5162540143356
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-ccd9a242b4945d6cfcdb68dc",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789772961.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ccd9a242b4945d6cfcdb68dc/receipt.json",
+        "sha256": "4c2896fdc84c36c850bc254a2fe2798e3405b151c9ad089d0c0fe2310acaf979"
+      },
+      "result": {
+        "bytes": 669184,
+        "mtime": 1789772961.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ccd9a242b4945d6cfcdb68dc/result.json",
+        "sha256": "6e704bae79f53cc75724be0693d79838eb4056138c1366461dbf7f6ccbf31344"
+      },
+      "seed": 2,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.71,
+      "SUN": 5,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3295,
+        "graph_seconds": 1311.1910614655353,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 43.23504889430478,
+        "llm_calls": 24,
+        "prompt_tokens": 46607,
+        "rpc_attempts": 42,
+        "score_sentinels": 41,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 67,
+        "tool_attempts": 21,
+        "wall_seconds": 1833.4114383989945
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          10,
+          5
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-50481d7de104501120b84fb5",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789774864.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-50481d7de104501120b84fb5/receipt.json",
+        "sha256": "7293964b29eac400a8ed0eada75e246dfbf2285bec429efa128476cdd00d7ae2"
+      },
+      "result": {
+        "bytes": 670990,
+        "mtime": 1789774863.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-50481d7de104501120b84fb5/result.json",
+        "sha256": "9f183bc7c79bc62028d5a43c4d217abc8182464d769a2fec953307d58f40e5a2"
+      },
+      "seed": 2,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.25,
+      "SUN": 3,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3080,
+        "graph_seconds": 1500.0568366358057,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 45.202339817304164,
+        "llm_calls": 24,
+        "prompt_tokens": 49519,
+        "rpc_attempts": 46,
+        "score_sentinels": 25,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 52,
+        "tool_attempts": 23,
+        "wall_seconds": 1974.4646615777165
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-38ae55456a55c01858bdaca6",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789776909.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-38ae55456a55c01858bdaca6/receipt.json",
+        "sha256": "bf04cc17b114d3e708db92dd5218f76b6b10e29093284aecce855a25beb0eba6"
+      },
+      "result": {
+        "bytes": 671054,
+        "mtime": 1789776908.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-38ae55456a55c01858bdaca6/result.json",
+        "sha256": "3fc8001aa021f8ff6a6e5562112f372f8f547b9b2cbaac2718ae6943753b2f25"
+      },
+      "seed": 2,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.16,
+      "SUN": 2,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3120,
+        "graph_seconds": 1006.1425081044436,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 38.853640451096,
+        "llm_calls": 22,
+        "prompt_tokens": 32863,
+        "rpc_attempts": 40,
+        "score_sentinels": 33,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 124,
+        "tool_attempts": 20,
+        "wall_seconds": 1544.5600100336596
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          2
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-5eccea7f5a24da2f5b31b4ab",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789778478.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5eccea7f5a24da2f5b31b4ab/receipt.json",
+        "sha256": "f4a00683a68be83f526e7486ae25d410717de849ff422351340fc76ad61bca71"
+      },
+      "result": {
+        "bytes": 670288,
+        "mtime": 1789778478.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5eccea7f5a24da2f5b31b4ab/result.json",
+        "sha256": "adb929114f1932ff8e3d9fbe1e13ad81dbb524061244f3760479559d95c30c57"
+      },
+      "seed": 2,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2550,
+        "graph_seconds": 874.838410501834,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 55.882781837601215,
+        "llm_calls": 19,
+        "prompt_tokens": 39750,
+        "rpc_attempts": 32,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 32,
+        "tool_attempts": 16,
+        "wall_seconds": 1276.4240126479417
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-fbf58f289d7058d1b56ff33f",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789778266.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fbf58f289d7058d1b56ff33f/receipt.json",
+        "sha256": "2d33c88a5278b308fa13ef597c7212cde6f274a7c8d5a2c5e4803891c27405e0"
+      },
+      "result": {
+        "bytes": 667652,
+        "mtime": 1789778266.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fbf58f289d7058d1b56ff33f/result.json",
+        "sha256": "65878688db5d40f5c9c39c2ad35e3fc10e7f405aa1271d1d4b93ab1647629ecc"
+      },
+      "seed": 2,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.09,
+      "SUN": 1,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2816,
+        "graph_seconds": 1215.1802980895154,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 37.14334687497467,
+        "llm_calls": 22,
+        "prompt_tokens": 39779,
+        "rpc_attempts": 44,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 259,
+        "tool_attempts": 22,
+        "wall_seconds": 1932.4109737887047
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-2cd11ff827dc56a49263e71d",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789801501.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2cd11ff827dc56a49263e71d/receipt.json",
+        "sha256": "2ca150e26cf96dfe655e0596aab50009d56af32ada8ce5345dd0931f26dd0d20"
+      },
+      "result": {
+        "bytes": 670102,
+        "mtime": 1789801501.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2cd11ff827dc56a49263e71d/result.json",
+        "sha256": "32e76c33be1e9056e959b6ac5d2c5f10f7fc136409e62d222c1d558d9de4f902"
+      },
+      "seed": 3,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.73,
+      "SUN": 7,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2221,
+        "graph_seconds": 1180.944634262938,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 42.914646924007684,
+        "llm_calls": 18,
+        "prompt_tokens": 39406,
+        "rpc_attempts": 32,
+        "step_attempts": 10,
+        "tool_attempts": 16,
+        "wall_seconds": 1489.251800976228
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          10,
+          7
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-5d1cc6924d5efee9cbf9f4a0",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789802281.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5d1cc6924d5efee9cbf9f4a0/receipt.json",
+        "sha256": "936b9eb83f45d24daae46d3a8c9b2a3f0c13b038bb1c744609509254a3986049"
+      },
+      "result": {
+        "bytes": 668620,
+        "mtime": 1789802281.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5d1cc6924d5efee9cbf9f4a0/result.json",
+        "sha256": "7fc51e353debf3795cf25f89de6d483e1a7a747af3881efd84cd89144be634bf"
+      },
+      "seed": 3,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.37,
+      "SUN": 3,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3579,
+        "graph_seconds": 1452.4643231332302,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 39.50272465497255,
+        "llm_calls": 24,
+        "prompt_tokens": 50063,
+        "rpc_attempts": 42,
+        "score_sentinels": 14,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 157,
+        "tool_attempts": 21,
+        "wall_seconds": 2005.2476914627478
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-2b6cfd7c97c158c305971c45",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789803572.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2b6cfd7c97c158c305971c45/receipt.json",
+        "sha256": "e31e2525b866253283b28fab1cc3436b7541dcf37a6fdc7346c6512afc552736"
+      },
+      "result": {
+        "bytes": 670983,
+        "mtime": 1789803572.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2b6cfd7c97c158c305971c45/result.json",
+        "sha256": "6dc41e33540ceb178a793d90ab13c6260a24533adb3af936b5f71ea17ef82c6e"
+      },
+      "seed": 3,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3126,
+        "graph_seconds": 1246.7023408561945,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 53.02058370318264,
+        "llm_calls": 28,
+        "prompt_tokens": 44713,
+        "rpc_attempts": 50,
+        "score_sentinels": 62,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 119,
+        "tool_attempts": 25,
+        "wall_seconds": 1773.8086522370577
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-97076161f2eb1dff20b02ffe",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789804135.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-97076161f2eb1dff20b02ffe/receipt.json",
+        "sha256": "46f418f00759ad1514b1bb8c85e4b48892385c8464fc68bb2b4b83d733e48b60"
+      },
+      "result": {
+        "bytes": 671141,
+        "mtime": 1789804135.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-97076161f2eb1dff20b02ffe/result.json",
+        "sha256": "3b8a43f53a448a0a8541894155b0d2ef8ba47d3e63ce6d6a0ac0a8667733eb34"
+      },
+      "seed": 3,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 4721,
+        "graph_seconds": 1538.5287385750562,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 36.58163181087002,
+        "llm_calls": 39,
+        "prompt_tokens": 50779,
+        "rpc_attempts": 74,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 302,
+        "tool_attempts": 37,
+        "wall_seconds": 2569.7169816428795
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-8f46b298f45606301f129592",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789806204.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8f46b298f45606301f129592/receipt.json",
+        "sha256": "df31e25f17a0d9c4eb2760de156bcdb85260383e0e82ba40210291d03c379d26"
+      },
+      "result": {
+        "bytes": 675269,
+        "mtime": 1789806204.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8f46b298f45606301f129592/result.json",
+        "sha256": "7f4584f73adc3ebc9256ff3cc9f729058f23f25ff63edf56489f4bd76025dcbd"
+      },
+      "seed": 3,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2240,
+        "graph_seconds": 1181.053286735434,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 43.3422403880395,
+        "llm_calls": 18,
+        "prompt_tokens": 37617,
+        "rpc_attempts": 34,
+        "step_attempts": 10,
+        "tool_attempts": 17,
+        "wall_seconds": 1508.2512320266105
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-4a84dce05fdc57c5272bb199",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789820774.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-4a84dce05fdc57c5272bb199/receipt.json",
+        "sha256": "8c48a26caf994852d7dd8f58b0f8e65c1296a44bdb516ce180c4478f7b96482e"
+      },
+      "result": {
+        "bytes": 667192,
+        "mtime": 1789820775.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-4a84dce05fdc57c5272bb199/result.json",
+        "sha256": "6f8231b2a78dfd487554f3c51c7e031e088bc9b713538428065a36887614ba1b"
+      },
+      "seed": 4,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "failure": null,
+      "job_id": "support-final-b8ea68c4cba1f93c238e3acd",
+      "receipt": null,
+      "result": null,
+      "seed": 4,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "failure": null,
+      "job_id": "support-final-3e91e70d18721910fb699c2a",
+      "receipt": null,
+      "result": null,
+      "seed": 4,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.15,
+      "SUN": 1,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2254,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 43.36786301061511,
+        "llm_calls": 17,
+        "prompt_tokens": 41407,
+        "rpc_attempts": 32,
+        "score_sentinels": 3,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 31,
+        "tool_attempts": 16,
+        "wall_seconds": 320.77167619857937
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-2e27f5563acb699daae1d131",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789777940.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2e27f5563acb699daae1d131/receipt.json",
+        "sha256": "e3c884a9c112424d3e7235e029684703a7a5351d896b3181c23baa10e9879631"
+      },
+      "result": {
+        "bytes": 186599,
+        "mtime": 1789777940.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2e27f5563acb699daae1d131/result.json",
+        "sha256": "3def5a89eaf3f089ed59ffe1070e84d683f0ec252f3e5e0d5d9dff12099d4521"
+      },
+      "seed": 2,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.46,
+      "SUN": 4,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3624,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 36.35677604749799,
+        "llm_calls": 24,
+        "prompt_tokens": 52402,
+        "rpc_attempts": 44,
+        "score_sentinels": 28,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 29,
+        "tool_attempts": 22,
+        "wall_seconds": 414.2441251948476
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-b20a8fccedb10da7d5ed97a6",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789778421.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b20a8fccedb10da7d5ed97a6/receipt.json",
+        "sha256": "b5fb9e5cf80da00c0975cfad0889a127dbb8df412d547dbd1bc1c4e99280b58e"
+      },
+      "result": {
+        "bytes": 189450,
+        "mtime": 1789778420.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-b20a8fccedb10da7d5ed97a6/result.json",
+        "sha256": "a2d4dddec8c2bb359914f5b829ba17d6a92055b259d67f1b6bb0abf6109822a0"
+      },
+      "seed": 2,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.19,
+      "SUN": 1,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3086,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 42.35026892460883,
+        "llm_calls": 21,
+        "prompt_tokens": 33071,
+        "rpc_attempts": 40,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 58,
+        "tool_attempts": 20,
+        "wall_seconds": 365.68822515010834
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-637e688029854bff551ffb68",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789778858.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-637e688029854bff551ffb68/receipt.json",
+        "sha256": "3ae1ad43291bf6ed130e99f2c619b11f2b2c6cedeae8354b237a65b731abfbf6"
+      },
+      "result": {
+        "bytes": 188188,
+        "mtime": 1789778858.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-637e688029854bff551ffb68/result.json",
+        "sha256": "92177e12c0328dca62ff065968c368284172c75a28226a2cc4186caa4dce8e0b"
+      },
+      "seed": 2,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3529,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 46.88720638304949,
+        "llm_calls": 22,
+        "prompt_tokens": 39337,
+        "rpc_attempts": 38,
+        "score_sentinels": 9,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 29,
+        "tool_attempts": 19,
+        "wall_seconds": 407.79038153309375
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-309c3c6fb2c047a93c1f8575",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789779344.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-309c3c6fb2c047a93c1f8575/receipt.json",
+        "sha256": "3b1a64bcadc0e1c3ffa842fbf7f54b924eaac21af21586d9f2ed72f70d0f2ab9"
+      },
+      "result": {
+        "bytes": 187278,
+        "mtime": 1789779344.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-309c3c6fb2c047a93c1f8575/result.json",
+        "sha256": "f16fb1f1bfd68b7fc1eccd1cad16b2b6f93f3b14e4fbb7b1e6df59e1bb426c43"
+      },
+      "seed": 2,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2510,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 46.75233045220375,
+        "llm_calls": 18,
+        "prompt_tokens": 35757,
+        "rpc_attempts": 36,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 40,
+        "tool_attempts": 18,
+        "wall_seconds": 324.5831524161622
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-7cc2c2335ff1e079999ecabb",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789779747.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7cc2c2335ff1e079999ecabb/receipt.json",
+        "sha256": "6c576f7767233558db569e3c556da15037834da8ccd05cdb29f38eb1abf556ad"
+      },
+      "result": {
+        "bytes": 185712,
+        "mtime": 1789779746.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-7cc2c2335ff1e079999ecabb/result.json",
+        "sha256": "8d9e67b75d127c0335be5aad62c1e689779876391e0282ea28af7fae86fdf863"
+      },
+      "seed": 2,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2556,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 45.29830716177821,
+        "llm_calls": 18,
+        "prompt_tokens": 44519,
+        "rpc_attempts": 36,
+        "step_attempts": 10,
+        "tool_attempts": 18,
+        "wall_seconds": 306.52611119300127
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-8e1fbdae4c717bead751ef3f",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789792693.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-8e1fbdae4c717bead751ef3f/receipt.json",
+        "sha256": "a9280dd03a82a8ff08a16f5042bac4916176637f2fa53e85c3309e2025f9a463"
+      },
+      "result": {
+        "bytes": 185621,
+        "mtime": 1789792693.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-8e1fbdae4c717bead751ef3f/result.json",
+        "sha256": "d2f714fa8c04ed184e9e2f67037c30579b9dab0a37e3b0de9e2d9267c137f529"
+      },
+      "seed": 3,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.63,
+      "SUN": 5,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3670,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 40.353387877345085,
+        "llm_calls": 28,
+        "prompt_tokens": 54324,
+        "rpc_attempts": 54,
+        "score_sentinels": 240,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 238,
+        "tool_attempts": 27,
+        "wall_seconds": 605.8516828753054
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          10,
+          5
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-02fb34c6b01aed253ffa4730",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789793369.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-02fb34c6b01aed253ffa4730/receipt.json",
+        "sha256": "dee483b3a1d048045663172c2160fa6b6b6fb11a2eb141cd962a56137f00d91c"
+      },
+      "result": {
+        "bytes": 191020,
+        "mtime": 1789793370.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-02fb34c6b01aed253ffa4730/result.json",
+        "sha256": "f7eecc81de4150b5f4e42fa01da1760c84d75c576fbe016e5875a59e3fcdc95d"
+      },
+      "seed": 3,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.17,
+      "SUN": 1,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 3236,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 53.04502479173243,
+        "llm_calls": 24,
+        "prompt_tokens": 49457,
+        "rpc_attempts": 46,
+        "step_attempts": 10,
+        "tool_attempts": 23,
+        "wall_seconds": 352.1709651891142
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-f01350a0031f3cb06d45632e",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789793804.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f01350a0031f3cb06d45632e/receipt.json",
+        "sha256": "19bb2e09a773e701eda096e64874fcb1cef54315c639234c2aad3175ba151b87"
+      },
+      "result": {
+        "bytes": 189139,
+        "mtime": 1789793804.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-f01350a0031f3cb06d45632e/result.json",
+        "sha256": "864df57c51dc3013c721c08a0173d3b195cc60407040e529b9620b4eb9e6527d"
+      },
+      "seed": 3,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2910,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 51.27028090599924,
+        "llm_calls": 20,
+        "prompt_tokens": 43893,
+        "rpc_attempts": 40,
+        "score_sentinels": 3,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 10,
+        "tool_attempts": 20,
+        "wall_seconds": 334.1595499776304
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-ced0af809caafbfd44aa8165",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789794220.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ced0af809caafbfd44aa8165/receipt.json",
+        "sha256": "e58711a069f29defd95c025a69af52dae38d12172d560aba259faa51bea8f32e"
+      },
+      "result": {
+        "bytes": 186511,
+        "mtime": 1789794220.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-ced0af809caafbfd44aa8165/result.json",
+        "sha256": "6c78a96ae978e2d638c076b1bb8e73023896d5bce50ebb2c2bd8ab1151eb6443"
+      },
+      "seed": 3,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2728,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 46.54189642332494,
+        "llm_calls": 22,
+        "prompt_tokens": 38811,
+        "rpc_attempts": 44,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 171,
+        "tool_attempts": 22,
+        "wall_seconds": 499.70717598870397
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-827fb29e7d467a5c1448a2d5",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789794796.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-827fb29e7d467a5c1448a2d5/receipt.json",
+        "sha256": "fbf2686fa5824a065fcac7a811c8b1c1d5575bc1f991290adb03ed96ce97a2fd"
+      },
+      "result": {
+        "bytes": 187229,
+        "mtime": 1789794797.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-827fb29e7d467a5c1448a2d5/result.json",
+        "sha256": "2f59dac9a42725817eecaf72f33ee002389538ecd60cdde8cda7100256f183a0"
+      },
+      "seed": 3,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2670,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 52.57765846140683,
+        "llm_calls": 20,
+        "prompt_tokens": 42691,
+        "rpc_attempts": 40,
+        "score_sentinels": 13,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 146,
+        "tool_attempts": 20,
+        "wall_seconds": 452.93060031626374
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-d183e09d99cadf104f59d07e",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789810494.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d183e09d99cadf104f59d07e/receipt.json",
+        "sha256": "71976c8c6b868ea95eb84e666762122224a900412b8b200e2b00ea6ecbba4ed2"
+      },
+      "result": {
+        "bytes": 186516,
+        "mtime": 1789810494.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-d183e09d99cadf104f59d07e/result.json",
+        "sha256": "220d58dd32917d137646f7ce6ab230ce6e110276428bcb47db0bf3fccdbf8981"
+      },
+      "seed": 4,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.35,
+      "SUN": 3,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2346,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 36.89105110056698,
+        "llm_calls": 17,
+        "prompt_tokens": 40983,
+        "rpc_attempts": 32,
+        "score_sentinels": 80,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 85,
+        "tool_attempts": 16,
+        "wall_seconds": 300.25568405818194
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-2ba86fe5167c7c377083c728",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789810861.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2ba86fe5167c7c377083c728/receipt.json",
+        "sha256": "7334e1f870bf8d1155cd22709d8b934f869e58f341d07539c1ea1cd955bcef4c"
+      },
+      "result": {
+        "bytes": 186781,
+        "mtime": 1789810861.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-2ba86fe5167c7c377083c728/result.json",
+        "sha256": "3a091c409927a87c0357f35a85a1dfe4e2b6fbea38db4bbc30046b6509286bea"
+      },
+      "seed": 4,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.01,
+      "SUN": 1,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2928,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 46.56486224755645,
+        "llm_calls": 23,
+        "prompt_tokens": 44797,
+        "rpc_attempts": 44,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 40,
+        "tool_attempts": 22,
+        "wall_seconds": 331.64089618902653
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-fd363bc50f56142b92b62728",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789811270.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fd363bc50f56142b92b62728/receipt.json",
+        "sha256": "cd52df3b176ff5cba766a9743687906f3fab061f9fa678e2d73ac4cb04e28b6d"
+      },
+      "result": {
+        "bytes": 188825,
+        "mtime": 1789811270.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-fd363bc50f56142b92b62728/result.json",
+        "sha256": "41c1a417aea1eea2b0c72bd5aebe8473f89dcd1314f78733490cc86e47143bf4"
+      },
+      "seed": 4,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2137,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 50.7759600924328,
+        "llm_calls": 16,
+        "prompt_tokens": 38314,
+        "rpc_attempts": 32,
+        "score_sentinels": 8,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 81,
+        "tool_attempts": 16,
+        "wall_seconds": 302.63306891173124
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-60a0f011651058cfacc89f7b",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789811653.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-60a0f011651058cfacc89f7b/receipt.json",
+        "sha256": "e640206cf7a78183c5bd3066861e9cde1a62182da62fb406437d4a213e562282"
+      },
+      "result": {
+        "bytes": 184993,
+        "mtime": 1789811653.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-60a0f011651058cfacc89f7b/result.json",
+        "sha256": "92167d13ba163d83b8f8146f8ac07b81a438ef68ad82994836663953918e3ff9"
+      },
+      "seed": 4,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.01,
+      "SUN": 1,
+      "arm": "es_only_independent",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 1937,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 46.952642787247896,
+        "llm_calls": 13,
+        "prompt_tokens": 26716,
+        "rpc_attempts": 26,
+        "score_sentinels": 7,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 45,
+        "tool_attempts": 13,
+        "wall_seconds": 274.85781716927886
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "failure": null,
+      "job_id": "component-final-209f38eb700cca3d60e9efa7",
+      "receipt": {
+        "bytes": 945,
+        "mtime": 1789812006.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-209f38eb700cca3d60e9efa7/receipt.json",
+        "sha256": "fa9f6b7cb1a30cf27fa269b837a4063ac8b8be0920d88490a046ca3e61839b88"
+      },
+      "result": {
+        "bytes": 185081,
+        "mtime": 1789812005.0,
+        "path": "evaluation_workspaces/made_component_ablations_v1/experiments/component_final/jobs/component-final-209f38eb700cca3d60e9efa7/result.json",
+        "sha256": "e7bb8992976459cfddf7de98f1825c89e6116e9ef87899e8fce63a68cefce7ff"
+      },
+      "seed": 4,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2254,
+        "graph_seconds": 1037.7491201329976,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 49.82238420564681,
+        "llm_calls": 18,
+        "prompt_tokens": 34459,
+        "rpc_attempts": 34,
+        "score_sentinels": 1,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 31,
+        "tool_attempts": 17,
+        "wall_seconds": 1376.5666472828016
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-bceab85ac67db411774a2563",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789789549.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bceab85ac67db411774a2563/receipt.json",
+        "sha256": "892be4df4e2fb41e1d7b1826f5a6c91a85357ad5317091cf3c847723661586d8"
+      },
+      "result": {
+        "bytes": 1480827,
+        "mtime": 1789789549.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-bceab85ac67db411774a2563/result.json",
+        "sha256": "013df0dbfbd0566787fefda46b5a5acde971e2ba99540a3e17a3d21bd554f86e"
+      },
+      "seed": 2,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.42,
+      "SUN": 4,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2645,
+        "graph_seconds": 967.7010762067512,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 41.57022429257631,
+        "llm_calls": 17,
+        "prompt_tokens": 33821,
+        "rpc_attempts": 30,
+        "step_attempts": 10,
+        "tool_attempts": 15,
+        "wall_seconds": 1292.4230958055705
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-ca740c106b65301c3c20f121",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789790909.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ca740c106b65301c3c20f121/receipt.json",
+        "sha256": "ad83b5f4de5f0d231a95ec6d5bf99270fa199c968f6dbaecaeb27a45210652bb"
+      },
+      "result": {
+        "bytes": 1481715,
+        "mtime": 1789790908.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-ca740c106b65301c3c20f121/result.json",
+        "sha256": "f23bef1538602e0229db2d57a3b1cc8ff0286978a1dbda5710180e2d351c34a0"
+      },
+      "seed": 2,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2738,
+        "graph_seconds": 1056.4421615721658,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 66.00681381579489,
+        "llm_calls": 21,
+        "prompt_tokens": 38723,
+        "rpc_attempts": 36,
+        "step_attempts": 10,
+        "tool_attempts": 18,
+        "wall_seconds": 1395.2760076262057
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-68807310bf257b755381e67b",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789792394.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68807310bf257b755381e67b/receipt.json",
+        "sha256": "cd36d966f6ffa2ce3e8431fe5e1ea0f863f352b96c556a49463d205ae52d5f0b"
+      },
+      "result": {
+        "bytes": 1481828,
+        "mtime": 1789792394.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-68807310bf257b755381e67b/result.json",
+        "sha256": "a3c68ad59772d99dfbf3f4cc47cf00631eaa05c0661052a93848bab004f5e261"
+      },
+      "seed": 2,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2238,
+        "graph_seconds": 790.026648263447,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 49.2616762323305,
+        "llm_calls": 18,
+        "prompt_tokens": 37836,
+        "rpc_attempts": 34,
+        "score_sentinels": 9,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 31,
+        "tool_attempts": 17,
+        "wall_seconds": 1121.9164597764611
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-fdb8c5628b1505159c52f7cc",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789793589.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fdb8c5628b1505159c52f7cc/receipt.json",
+        "sha256": "85783620f4f09b484df14d8c1cfa9c87dd8f0a1a4e7b6651675f8dc9fc9139fb"
+      },
+      "result": {
+        "bytes": 1480821,
+        "mtime": 1789793590.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-fdb8c5628b1505159c52f7cc/result.json",
+        "sha256": "982e23317a2479b02589dd29cf145635b384511e7920c367b83a7e29b1883064"
+      },
+      "seed": 2,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.08,
+      "SUN": 2,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2242,
+        "graph_seconds": 725.3294841032475,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 50.64939353894442,
+        "llm_calls": 15,
+        "prompt_tokens": 27897,
+        "rpc_attempts": 28,
+        "step_attempts": 10,
+        "tool_attempts": 14,
+        "wall_seconds": 1011.3061305563897
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          2
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-03a88c2191e750bc3ef7d49f",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789794676.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-03a88c2191e750bc3ef7d49f/receipt.json",
+        "sha256": "fd994f1f6911981315e8760cfb8c395563ad418d50cd97372714a3c3baab005d"
+      },
+      "result": {
+        "bytes": 1480858,
+        "mtime": 1789794676.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-03a88c2191e750bc3ef7d49f/result.json",
+        "sha256": "66330518b1dc4b86e8867a23b2f40c9eafcd8a3482353e7198b086423f0c5e4e"
+      },
+      "seed": 2,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2749,
+        "graph_seconds": 1268.7607490131631,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 32.500737867318094,
+        "llm_calls": 20,
+        "prompt_tokens": 44559,
+        "rpc_attempts": 36,
+        "step_attempts": 10,
+        "tool_attempts": 18,
+        "wall_seconds": 1640.21006469056
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789813074.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2b96c9fd2ded8ff4d3c9fa7b/receipt.json",
+        "sha256": "9f845deb859afd5b6c382bbf6d5446bcefe100417c9bb411b17f415ee732ac2d"
+      },
+      "result": {
+        "bytes": 1481464,
+        "mtime": 1789813074.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-2b96c9fd2ded8ff4d3c9fa7b/result.json",
+        "sha256": "6ecf025aaef9df28277fb65ef260cfbe5cf48052bf16eda5df4b3b13da737008"
+      },
+      "seed": 3,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.47,
+      "SUN": 3,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2580,
+        "graph_seconds": 1300.7550306497142,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 29.53019839245826,
+        "llm_calls": 18,
+        "prompt_tokens": 45021,
+        "rpc_attempts": 36,
+        "step_attempts": 10,
+        "tool_attempts": 18,
+        "wall_seconds": 1641.145757730119
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-c3b9e4053e380cd376460042",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789816549.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c3b9e4053e380cd376460042/receipt.json",
+        "sha256": "1b169b62dc5d2baac07b188f4f7a6be86ff97401cc870b544f8137ba9d6e029b"
+      },
+      "result": {
+        "bytes": 1482094,
+        "mtime": 1789816549.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c3b9e4053e380cd376460042/result.json",
+        "sha256": "2cdf885ef0691b7d179382c8ac6bcd7f964ba19db52d7a39d793fed25c53d705"
+      },
+      "seed": 3,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.37,
+      "SUN": 3,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2897,
+        "graph_seconds": 956.0257157050073,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 50.563271715305746,
+        "llm_calls": 18,
+        "prompt_tokens": 33328,
+        "rpc_attempts": 36,
+        "step_attempts": 10,
+        "tool_attempts": 18,
+        "wall_seconds": 1334.4025004543364
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-5b6d1b84cc2ee0f52bb1c366",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789818188.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b6d1b84cc2ee0f52bb1c366/receipt.json",
+        "sha256": "fd2fd7f61952e25479f9d91cfd7033b2e9d6900775df9dd7582c78a5ac7cb86f"
+      },
+      "result": {
+        "bytes": 1482130,
+        "mtime": 1789818187.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-5b6d1b84cc2ee0f52bb1c366/result.json",
+        "sha256": "4da52604e3c8f4acd6fb95462032384d413598567b896a32cc9571488b12a29a"
+      },
+      "seed": 3,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.13,
+      "SUN": 1,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2230,
+        "graph_seconds": 950.8655753489584,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 48.35303020570427,
+        "llm_calls": 15,
+        "prompt_tokens": 29887,
+        "rpc_attempts": 30,
+        "step_attempts": 10,
+        "tool_attempts": 15,
+        "wall_seconds": 1247.869786515832
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-756405aa341c84c08489f23c",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789819902.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-756405aa341c84c08489f23c/receipt.json",
+        "sha256": "a1b4c7957aa1206f28d98199b9e78d03bad3cc2ec8283b58e906f46e574f7bcb"
+      },
+      "result": {
+        "bytes": 1480770,
+        "mtime": 1789819902.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-756405aa341c84c08489f23c/result.json",
+        "sha256": "bfa21a79817eba1eafd3b8959f4f19a84b05b6518c7905150fdb1de926a1ca74"
+      },
+      "seed": 3,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2638,
+        "graph_seconds": 1209.69332060311,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 54.36969488207251,
+        "llm_calls": 19,
+        "prompt_tokens": 45701,
+        "rpc_attempts": 36,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 44,
+        "tool_attempts": 18,
+        "wall_seconds": 1638.04525595624
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-c2968e57d9e2851ad1f9774e",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789820842.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c2968e57d9e2851ad1f9774e/receipt.json",
+        "sha256": "e1c31139ea082f387992f3ed01eda13e157f100d34adb3f2024d3780c4c69ab9"
+      },
+      "result": {
+        "bytes": 1481150,
+        "mtime": 1789820841.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-c2968e57d9e2851ad1f9774e/result.json",
+        "sha256": "8f83be519b14bb0f7660a827940be33e7d60b87a72eace521c4b017ad813f123"
+      },
+      "seed": 3,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "AUDC": 0.28,
+      "SUN": 2,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2858,
+        "graph_seconds": 1345.7968943314627,
+        "initialization_oracle_attempts": 16,
+        "initialization_wall_seconds": 34.692149890586734,
+        "llm_calls": 23,
+        "prompt_tokens": 51318,
+        "rpc_attempts": 42,
+        "step_attempts": 10,
+        "tool_attempts": 21,
+        "wall_seconds": 1722.1736632306129
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          2
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-cda0e2a385af0e786df7d24a",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789814855.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-cda0e2a385af0e786df7d24a/receipt.json",
+        "sha256": "9b8eacae88a5264a63838704005c6a0a9d6fed030e2d82b79843bf70026839c5"
+      },
+      "result": {
+        "bytes": 1483936,
+        "mtime": 1789814855.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-cda0e2a385af0e786df7d24a/result.json",
+        "sha256": "b4d00fd1ad56d1c64ff5e0322f4b1cf97d32713a30f7e8ea6ed60e93dce9e1db"
+      },
+      "seed": 4,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "AUDC": 0.34,
+      "SUN": 4,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 1786,
+        "graph_seconds": 894.3014179375023,
+        "initialization_oracle_attempts": 12,
+        "initialization_wall_seconds": 40.5115116359666,
+        "llm_calls": 13,
+        "prompt_tokens": 29951,
+        "rpc_attempts": 24,
+        "step_attempts": 10,
+        "tool_attempts": 12,
+        "wall_seconds": 1143.3160809478723
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-8d9484c7a3dc0a3085dccdab",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789816777.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8d9484c7a3dc0a3085dccdab/receipt.json",
+        "sha256": "2f7a497eb5343f9647d2a77e779a149f45578123ba7ef65a4623734424ff04bf"
+      },
+      "result": {
+        "bytes": 1480236,
+        "mtime": 1789816777.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-8d9484c7a3dc0a3085dccdab/result.json",
+        "sha256": "ae6f33f2db8d1f14fee77677c631da94972b539aa8acf1843fc17c06d15ddc6d"
+      },
+      "seed": 4,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "AUDC": 0.07,
+      "SUN": 1,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 1783,
+        "graph_seconds": 936.4396738512442,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 49.953387844376266,
+        "llm_calls": 14,
+        "prompt_tokens": 28747,
+        "rpc_attempts": 28,
+        "step_attempts": 10,
+        "tool_attempts": 14,
+        "wall_seconds": 1183.5856687454507
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-17ba56fb5d378648ebbbe7c8",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789819123.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-17ba56fb5d378648ebbbe7c8/receipt.json",
+        "sha256": "88064623247f7fae89cec397c67aa09c82ed17eb6cfe6616e9d5290fc4230b37"
+      },
+      "result": {
+        "bytes": 1480535,
+        "mtime": 1789819123.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-17ba56fb5d378648ebbbe7c8/result.json",
+        "sha256": "a5c45ea49bf52c9bfd18e4f2e15e299df3678aada2fc51e0b77f2c5de8c6bfc5"
+      },
+      "seed": 4,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2372,
+        "graph_seconds": 757.5086189773865,
+        "initialization_oracle_attempts": 11,
+        "initialization_wall_seconds": 53.56623325170949,
+        "llm_calls": 17,
+        "prompt_tokens": 37272,
+        "rpc_attempts": 32,
+        "step_attempts": 10,
+        "tool_attempts": 16,
+        "wall_seconds": 1071.147506760899
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-f6823e6cdf872a727ba2d1e8",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789819337.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f6823e6cdf872a727ba2d1e8/receipt.json",
+        "sha256": "a1629594d3749542d197e9fe188f2c4e69291a769ab20285ece54c2331be3150"
+      },
+      "result": {
+        "bytes": 1480302,
+        "mtime": 1789819337.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-f6823e6cdf872a727ba2d1e8/result.json",
+        "sha256": "e45f54fe8921b921a305673844812e3387aeecd64a165f4204fcfbe4e8c2fb0b"
+      },
+      "seed": 4,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "AUDC": 0.0,
+      "SUN": 0,
+      "arm": "full_support_aware",
+      "budget": 10,
+      "claimed": true,
+      "costs": {
+        "candidate_oracle_attempts": 10,
+        "completion_tokens": 2493,
+        "graph_seconds": 849.2883153418079,
+        "initialization_oracle_attempts": 13,
+        "initialization_wall_seconds": 49.989683710969985,
+        "llm_calls": 19,
+        "prompt_tokens": 34197,
+        "rpc_attempts": 36,
+        "score_sentinels": 4,
+        "step_attempts": 10,
+        "surrogate_oracle_attempts": 84,
+        "tool_attempts": 18,
+        "wall_seconds": 1226.0548757077195
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "failure": null,
+      "job_id": "support-final-32b9c75a950dc72b690b9f75",
+      "receipt": {
+        "bytes": 930,
+        "mtime": 1789820637.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-32b9c75a950dc72b690b9f75/receipt.json",
+        "sha256": "33407cf106e8f2655a4256d0960112644f6d5434add9ea1b79e9da8f0a35a949"
+      },
+      "result": {
+        "bytes": 1481217,
+        "mtime": 1789820637.0,
+        "path": "evaluation_workspaces/made_support_aware_method_v1/experiments/support_final/jobs/support-final-32b9c75a950dc72b690b9f75/result.json",
+        "sha256": "b7ae89ef0a8d7652627f1266eb8b7509efd8b204fe110b92f0bc38bfaab6b0d3"
+      },
+      "seed": 4,
+      "task_id": "Co-Mg-Na"
+    }
+  ],
+  "operational_records_excluded": true,
+  "original_cohort_origin": {
+    "existing_job_mapping_sha256": "a47046cbc037ddf0161731d7290cf96ec2bd83dc32932cf6979ed42ddcdf3938",
+    "fingerprint": "2e1c40d56bbde23fe1c4a42b1afda84dd7fb5ba4d1879723a90a24636219f274",
+    "not_selected_from_this_snapshot_outcomes": true,
+    "original_first_two_results_preceded_five_system_expansion": true,
+    "registry_artifact": "evaluation_workspaces/made_cumulative_five_v1/configs/evaluation_extension.json",
+    "sha256": "10447ae1e52ae9f3e9b2f71b494fe0ba7820d78c49fb5e73ded761d45476f192"
+  },
+  "registered_core_jobs": [
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-32355a4d9bcc6137d52ada7b",
+      "seed": 2,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-50555fb4776e15c94b4beec9",
+      "seed": 2,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-829f81d1c8b6dff9869aa711",
+      "seed": 2,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-2dce2a3709aad3945727809d",
+      "seed": 2,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-a8630b6c09e7eed6994a9658",
+      "seed": 2,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-10ad51e80000935d29c71786",
+      "seed": 3,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-52aa59f42080e58cda2f64b0",
+      "seed": 3,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-57ec2ac8f1ba4127bcccc073",
+      "seed": 3,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-3a4b0c1cd037fc1028c65eb5",
+      "seed": 3,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-4b3d96d6b87ab535fb130a5e",
+      "seed": 3,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-a51d66c7e21ca9788f45a008",
+      "seed": 4,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-70adf56898316f73ea4720ab",
+      "seed": 4,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-b1999f2e9c20505d5a373485",
+      "seed": 4,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-a526e6a613189f807a458cb1",
+      "seed": 4,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "baseline_reference",
+      "budget": 10,
+      "job_id": "component-final-613da1e8bf281966bbdc66db",
+      "seed": 4,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-ccd9a242b4945d6cfcdb68dc",
+      "seed": 2,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-50481d7de104501120b84fb5",
+      "seed": 2,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-38ae55456a55c01858bdaca6",
+      "seed": 2,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-5eccea7f5a24da2f5b31b4ab",
+      "seed": 2,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-fbf58f289d7058d1b56ff33f",
+      "seed": 2,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-2cd11ff827dc56a49263e71d",
+      "seed": 3,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-5d1cc6924d5efee9cbf9f4a0",
+      "seed": 3,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-2b6cfd7c97c158c305971c45",
+      "seed": 3,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-97076161f2eb1dff20b02ffe",
+      "seed": 3,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-8f46b298f45606301f129592",
+      "seed": 3,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-4a84dce05fdc57c5272bb199",
+      "seed": 4,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-b8ea68c4cba1f93c238e3acd",
+      "seed": 4,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-3e91e70d18721910fb699c2a",
+      "seed": 4,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-c16688941b047acff551e984",
+      "seed": 4,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "uq_only_support_aware",
+      "budget": 10,
+      "job_id": "support-final-d5b33bead70e71d6523996b6",
+      "seed": 4,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-2e27f5563acb699daae1d131",
+      "seed": 2,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-b20a8fccedb10da7d5ed97a6",
+      "seed": 2,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-637e688029854bff551ffb68",
+      "seed": 2,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-309c3c6fb2c047a93c1f8575",
+      "seed": 2,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-7cc2c2335ff1e079999ecabb",
+      "seed": 2,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-8e1fbdae4c717bead751ef3f",
+      "seed": 3,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-02fb34c6b01aed253ffa4730",
+      "seed": 3,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-f01350a0031f3cb06d45632e",
+      "seed": 3,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-ced0af809caafbfd44aa8165",
+      "seed": 3,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-827fb29e7d467a5c1448a2d5",
+      "seed": 3,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-d183e09d99cadf104f59d07e",
+      "seed": 4,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-2ba86fe5167c7c377083c728",
+      "seed": 4,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-fd363bc50f56142b92b62728",
+      "seed": 4,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-60a0f011651058cfacc89f7b",
+      "seed": 4,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "es_only_independent",
+      "budget": 10,
+      "job_id": "component-final-209f38eb700cca3d60e9efa7",
+      "seed": 4,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-bceab85ac67db411774a2563",
+      "seed": 2,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-ca740c106b65301c3c20f121",
+      "seed": 2,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-68807310bf257b755381e67b",
+      "seed": 2,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-fdb8c5628b1505159c52f7cc",
+      "seed": 2,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-03a88c2191e750bc3ef7d49f",
+      "seed": 2,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b",
+      "seed": 3,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-c3b9e4053e380cd376460042",
+      "seed": 3,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-5b6d1b84cc2ee0f52bb1c366",
+      "seed": 3,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-756405aa341c84c08489f23c",
+      "seed": 3,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-c2968e57d9e2851ad1f9774e",
+      "seed": 3,
+      "task_id": "Co-Mg-Na"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-cda0e2a385af0e786df7d24a",
+      "seed": 4,
+      "task_id": "Al-Li-V"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-8d9484c7a3dc0a3085dccdab",
+      "seed": 4,
+      "task_id": "Al-V-Zn"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-17ba56fb5d378648ebbbe7c8",
+      "seed": 4,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-f6823e6cdf872a727ba2d1e8",
+      "seed": 4,
+      "task_id": "Co-Dy-W"
+    },
+    {
+      "arm": "full_support_aware",
+      "budget": 10,
+      "job_id": "support-final-32b9c75a950dc72b690b9f75",
+      "seed": 4,
+      "task_id": "Co-Mg-Na"
+    }
+  ],
+  "schema": "fixed_core5_B10_three_evaluation_seed_scientific_projection_v1",
+  "source_directory_label_is_not_observation_time": "20260919T2036_narrow_CST",
+  "source_snapshot_sha256": "310826c656b0dc349ab9e9d4dc5a9d2fefc39507b15a5e45c971a363fde18580"
+}

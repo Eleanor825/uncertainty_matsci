@@ -1,0 +1,23 @@
+{
+  "GitHub_writes": false,
+  "candidate_records": 248,
+  "candidate_selection_reconstructed": true,
+  "dev_rows": 50,
+  "feature_columns": 285,
+  "initial_LHS_matched_across_arms": true,
+  "new_scientific_calls": 0,
+  "numeric_canonicalization": "Decimal(str(value)).normalize;1==1.0; no approximate bucketing",
+  "passed": true,
+  "queries": 750,
+  "query_groups": 225,
+  "range_statistics_rows": 1140,
+  "schema": "SnAr_exact_candidate_analysis_verification_v1",
+  "selected_scored_queries": 224,
+  "shift_statistics_rows": 855,
+  "source_code_byte_match": true,
+  "source_refs_unique": 1037,
+  "statistical_significance_or_CI_claimed": false,
+  "train_rows": 75,
+  "unexecuted_candidates_with_NA_labels": 24,
+  "unscored_fallback_queries_preserved": 1
+}

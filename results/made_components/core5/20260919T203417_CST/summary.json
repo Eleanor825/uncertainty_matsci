@@ -1,0 +1,130 @@
+{
+  "UQ_full15_aggregate_comparison_performed": false,
+  "all_four_arm_main_ablation_complete": false,
+  "all_new_complete_are_B10_in_source_snapshot": true,
+  "all_new_study": {
+    "claimed_no_result": 10,
+    "complete": 254,
+    "expected": 1080,
+    "failed": 0,
+    "pending": 816
+  },
+  "baseline_full": {
+    "AUDC": {
+      "baseline_mean_per_run": 0.156,
+      "baseline_total_across_15_runs": 2.34,
+      "full_mean_per_run": 0.144,
+      "full_total_across_15_runs": 2.16,
+      "mean_paired_delta": -0.011999999999999999,
+      "run_pair_signs": {
+        "negative": 5,
+        "positive": 5,
+        "tie": 5
+      },
+      "system_mean_signs": {
+        "negative": 1,
+        "positive": 4,
+        "tie": 0
+      }
+    },
+    "SUN": {
+      "baseline_mean_per_run": 1.4666666666666666,
+      "baseline_total_across_15_runs": 22,
+      "full_mean_per_run": 1.3333333333333333,
+      "full_total_across_15_runs": 20,
+      "mean_paired_delta": -0.13333333333333333,
+      "run_pair_signs": {
+        "negative": 4,
+        "positive": 5,
+        "tie": 6
+      },
+      "system_mean_signs": {
+        "negative": 2,
+        "positive": 2,
+        "tie": 1
+      }
+    }
+  },
+  "budget": 10,
+  "completed_core_candidate_calls": 560,
+  "completed_curve_points": 616,
+  "core": {
+    "baseline_reference": {
+      "claimed_without_result": 0,
+      "complete": 15,
+      "expected": 15,
+      "failed": 0,
+      "missing_run_keys": [],
+      "pending_no_claim_in_snapshot": 0
+    },
+    "es_only_independent": {
+      "claimed_without_result": 0,
+      "complete": 15,
+      "expected": 15,
+      "failed": 0,
+      "missing_run_keys": [],
+      "pending_no_claim_in_snapshot": 0
+    },
+    "full_support_aware": {
+      "claimed_without_result": 0,
+      "complete": 15,
+      "expected": 15,
+      "failed": 0,
+      "missing_run_keys": [],
+      "pending_no_claim_in_snapshot": 0
+    },
+    "uq_only_support_aware": {
+      "claimed_without_result": 2,
+      "complete": 11,
+      "expected": 15,
+      "failed": 0,
+      "missing_run_keys": [
+        {
+          "job_id": "support-final-b8ea68c4cba1f93c238e3acd",
+          "seed": 4,
+          "status": "claimed_without_result",
+          "task_id": "Al-V-Zn"
+        },
+        {
+          "job_id": "support-final-3e91e70d18721910fb699c2a",
+          "seed": 4,
+          "status": "claimed_without_result",
+          "task_id": "Au-K-Tb"
+        },
+        {
+          "job_id": "support-final-c16688941b047acff551e984",
+          "seed": 4,
+          "status": "pending_no_claim_in_snapshot",
+          "task_id": "Co-Dy-W"
+        },
+        {
+          "job_id": "support-final-d5b33bead70e71d6523996b6",
+          "seed": 4,
+          "status": "pending_no_claim_in_snapshot",
+          "task_id": "Co-Mg-Na"
+        }
+      ],
+      "pending_no_claim_in_snapshot": 2
+    }
+  },
+  "core_completed_runs": 56,
+  "core_expected_runs": 60,
+  "model": "Qwen3.5-4B",
+  "new_scientific_calls": 0,
+  "observed_CST": "2026-09-19T20:34:17.577945+08:00",
+  "schema": "fixed_core5_B10_three_evaluation_seed_summary_v1",
+  "seeds": [
+    2,
+    3,
+    4
+  ],
+  "systems": [
+    "Al-Li-V",
+    "Al-V-Zn",
+    "Au-K-Tb",
+    "Co-Dy-W",
+    "Co-Mg-Na"
+  ],
+  "variance_is_between_systems": false,
+  "variance_is_training_replication": false
+}

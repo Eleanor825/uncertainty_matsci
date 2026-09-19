@@ -1,0 +1,16 @@
+episode,arm,seed,all_queries,post_LHS_queries,post_LHS_repeat_count,post_LHS_repeat_rate,post_LHS_first_occurrence_count,repeat_HVI_count,repeat_HV_increment,post_LHS_HVI_count,post_LHS_HV_increment,unique_numeric_tuples_in_all50,total_proposals,invalid_proposals
+test_gp_ei_scalarized_5101,gp_ei_scalarized,5101,50,45,0,0.0,45,0,0.0,3,0.0001898906262521871,50,0,0
+test_gp_ei_scalarized_5102,gp_ei_scalarized,5102,50,45,0,0.0,45,0,0.0,4,0.0004322978624499152,50,0,0
+test_gp_ei_scalarized_5103,gp_ei_scalarized,5103,50,45,0,0.0,45,0,0.0,7,0.0004091447418058669,50,0,0
+test_gp_ei_scalarized_5104,gp_ei_scalarized,5104,50,45,0,0.0,45,0,0.0,6,0.0003614676625358637,50,0,0
+test_gp_ei_scalarized_5105,gp_ei_scalarized,5105,50,45,0,0.0,45,0,0.0,2,0.00044252090615770623,50,0,0
+test_qwen_base_5101,qwen_base,5101,50,45,17,0.37777777777777777,28,0,0.0,0,0.0,33,47,3
+test_qwen_base_5102,qwen_base,5102,50,45,16,0.35555555555555557,29,0,0.0,1,5.067131242530998e-05,34,46,1
+test_qwen_base_5103,qwen_base,5103,50,45,14,0.3111111111111111,31,0,0.0,1,7.409102753641594e-05,36,45,0
+test_qwen_base_5104,qwen_base,5104,50,45,22,0.4888888888888889,23,0,0.0,1,0.00014074029356769824,28,46,1
+test_qwen_base_5105,qwen_base,5105,50,45,15,0.3333333333333333,30,0,0.0,0,0.0,35,45,0
+test_uq_esopt_5101,uq_esopt,5101,50,45,20,0.4444444444444444,25,0,0.0,1,6.96435639324644e-06,30,50,2
+test_uq_esopt_5102,uq_esopt,5102,50,45,15,0.3333333333333333,30,0,0.0,3,9.643041661355767e-05,35,51,2
+test_uq_esopt_5103,uq_esopt,5103,50,45,16,0.35555555555555557,29,0,0.0,1,5.0333777603661645e-06,34,50,2
+test_uq_esopt_5104,uq_esopt,5104,50,45,18,0.4,27,0,0.0,1,5.0333777603661645e-06,32,47,0
+test_uq_esopt_5105,uq_esopt,5105,50,45,14,0.3111111111111111,31,0,0.0,0,0.0,36,50,2

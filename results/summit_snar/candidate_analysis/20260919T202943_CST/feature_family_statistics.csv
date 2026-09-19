@@ -1,0 +1,13 @@
+population,feature_family,columns,records,missing_cells,missing_cell_rate,outside_training_range_cells,outside_training_range_fraction_among_finite
+train,graph,153,75,0,0.0,0,0.0
+train,hidden,128,75,0,0.0,0,0.0
+train,sampling,4,75,0,0.0,0,0.0
+dev,graph,153,50,0,0.0,28,0.0036601307189542483
+dev,hidden,128,50,0,0.0,153,0.02390625
+dev,sampling,4,50,0,0.0,2,0.01
+full_all_candidates,graph,153,248,1377,0.036290322580645164,704,0.01925233133699784
+full_all_candidates,hidden,128,248,1152,0.036290322580645164,4720,0.15428870292887029
+full_all_candidates,sampling,4,248,36,0.036290322580645164,91,0.09518828451882845
+full_selected_candidates,graph,153,224,0,0.0,605,0.017652894491129785
+full_selected_candidates,hidden,128,224,0,0.0,4360,0.15206473214285715
+full_selected_candidates,sampling,4,224,0,0.0,83,0.09263392857142858

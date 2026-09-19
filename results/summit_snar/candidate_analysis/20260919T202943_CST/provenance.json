@@ -1,0 +1,74 @@
+{
+  "GitHub_writes": 0,
+  "exported_observation_gzip_sha256": "d970e23e37da299fb1a5688faace1582e420ba185332beab9cf0ce5b0a626649",
+  "exported_observation_json_sha256": "9b80f32160cf593831a3f18af8b970dd1694074022c5e9eab4bf5008f750a2e5",
+  "feature_values": "Stored285 raw feature columns. Missing values retained, no fitted preprocessing/NN inference/test recalibration performed.",
+  "first_draft_checker_correction": "Initial draft expected51 stored summary points; original study stores50 post-query points plus separate prior_hv. Corrected checker prepends prior_hv. Original data/source were not changed.",
+  "gaps": [],
+  "mathematical_checks": "Candidate selection matches original frozen lower-risk valid-candidate rule; query HVI matches explicit prior+50 summary curve; paired five-LHS numeric tuples/objectives match across all3 arms; probabilities/repetition/features recomputed.",
+  "new_graph_calls": 0,
+  "new_model_calls": 0,
+  "new_oracle_calls": 0,
+  "observation_path": "observations.json.gz",
+  "observation_sha256": "9262eb9b552fabd6252f6d62cd6159a935730321adf63bb4c7543a04dd06cd1c",
+  "observation_sha256_role": "Original extraction bytes before path-only relocation; not the exported gzip SHA",
+  "original_source_pins": [
+    {
+      "local_byte_match": true,
+      "source_relative_path": "evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/uncertainty.py",
+      "source_sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+    },
+    {
+      "local_byte_match": true,
+      "source_relative_path": "benchmark_extensions/summit_snar_20260918/pipeline.py",
+      "source_sha256": "3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35"
+    },
+    {
+      "local_byte_match": true,
+      "source_relative_path": "benchmark_extensions/summit_snar_20260918/study.py",
+      "source_sha256": "cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4"
+    },
+    {
+      "local_byte_match": true,
+      "source_relative_path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/repair_pipeline.py",
+      "source_sha256": "b9179c9058572cca44db6d22b9776edfa2f20a6b401505b86f66d57693f90903"
+    },
+    {
+      "local_byte_match": true,
+      "source_relative_path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/acceptance_repair.py",
+      "source_sha256": "57567104060e594b5e7713faec62ed36f75bb060064b4b38d58ada7c3e7a26c9"
+    },
+    {
+      "local_byte_match": true,
+      "source_relative_path": "benchmark_extensions/summit_snar_20260918/protocol.json",
+      "source_sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+    }
+  ],
+  "original_source_pins_scope": "Original source checks were completed before export; full remote source tree is not re-audited by this portable recomputation",
+  "outcome_label": "no_hvi=1 means increment in normalized Pareto hypervolume <=1e-12, not necessarily a physical/tool failure or causal reasoning error.",
+  "parameter_or_threshold_changes": 0,
+  "protocol": {
+    "bytes": 7670,
+    "path": "project-artifact:benchmark_extensions/summit_snar_20260918/protocol.json",
+    "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+  },
+  "recomputation_limit": "Original query/candidate/receipt bytes were checked by the read-only source extraction; this analysis verifies its pinned projection and source code. It does not rerun physics or reconstruct the unpublished550-row shared prior independently.",
+  "registration": {
+    "bytes": 52810,
+    "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/registration.json",
+    "sha256": "71fe749dc4bb88f8262e43c1305d19fda818de571c9c45f47bfbd7948e9a491c"
+  },
+  "risk_fit_receipt": {
+    "bytes": 76106,
+    "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/jobs/risk_fit/receipt.json",
+    "sha256": "dcb48fc90d14e40c9054e65074a6e2a422fc520dd46e181a32acdda68254ab7b"
+  },
+  "risk_fit_source": {
+    "bytes": 1610524,
+    "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/risk_fit.json",
+    "sha256": "b32f30eb22e62e0aab5614099fae4fb1027a833f2c9cbf456496536496da88cf"
+  },
+  "schema": "SnAr_exact_candidate_analysis_provenance_v1",
+  "unexecuted_candidate_labels": "Never assigned; all24 discarded candidate outcome columns remain NA.",
+  "unique_read_file_references": 1037
+}

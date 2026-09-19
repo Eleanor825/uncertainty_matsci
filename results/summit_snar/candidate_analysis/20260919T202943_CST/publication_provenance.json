@@ -1,0 +1,127 @@
+{
+  "all_mathematical_function_ASTs_unchanged": true,
+  "exported_observation_gzip_sha256": "d970e23e37da299fb1a5688faace1582e420ba185332beab9cf0ce5b0a626649",
+  "exported_observation_json_sha256": "9b80f32160cf593831a3f18af8b970dd1694074022c5e9eab4bf5008f750a2e5",
+  "historical_results_unchanged": true,
+  "new_scientific_calls_for_publication": 0,
+  "no_parameter_or_threshold_changes": true,
+  "original_analysis_files": [
+    {
+      "bytes": 14443,
+      "path": "HVI_success_cases.csv",
+      "sha256": "2dd9b131d5076ba2385cdc16016af6b29315b9100c2b20aa28bdaa030ed90098"
+    },
+    {
+      "bytes": 22403,
+      "path": "analyze.py",
+      "sha256": "111843db2ead546578f3aa91a570e323dfb99bc56c8b74a738c61eeac5e67097"
+    },
+    {
+      "bytes": 69370,
+      "path": "candidates.csv",
+      "sha256": "4014fc64ec6fc47c21852210110821df4c44dbfcf940f127fa26c8a52caf81b5"
+    },
+    {
+      "bytes": 836,
+      "path": "feature_family_statistics.csv",
+      "sha256": "ecc29e55a07fff8f912328f9934e49e4581c716f6ebc7e4e6624d908b7d83781"
+    },
+    {
+      "bytes": 50537,
+      "path": "feature_record_coverage.csv",
+      "sha256": "c8be40bdd38d11a50d1c2cadd148647f3b66b434bef2e861aeaa680ca57c5e78"
+    },
+    {
+      "bytes": 194593,
+      "path": "feature_shift_vs_train.csv",
+      "sha256": "4c1ed93598c50919e830c9c563035af6d8941713fcbbc00116bd84522e6e6088"
+    },
+    {
+      "bytes": 197612,
+      "path": "feature_statistics.csv",
+      "sha256": "4363ec9864689d9bcbf7a5dbb5606dd7a0d1fd097677d0310594e205a6e29b4a"
+    },
+    {
+      "bytes": 1752,
+      "path": "parameter_repeats_by_episode.csv",
+      "sha256": "9a4341bc07d95bf52e7796e52b9e50df8ae18f3281451568f88a3987c8859988"
+    },
+    {
+      "bytes": 4183,
+      "path": "provenance.json",
+      "sha256": "67f823d81912bb038ac689bcb2164774910abd8698430753e1a8c726c4a9fc77"
+    },
+    {
+      "bytes": 295420,
+      "path": "queries.csv",
+      "sha256": "fee2fd2a7719b0d15646972f6ff4933a9706320f5472550e7232bdd0abc96685"
+    },
+    {
+      "bytes": 16196,
+      "path": "render_report.py",
+      "sha256": "55c370bc1128198212d51099dd34d318dd091a5db2b4b4efe2522c7e893dd7e1"
+    },
+    {
+      "bytes": 3473,
+      "path": "repeat_groups.csv",
+      "sha256": "7a3b5f77a81846de164530515d9ff639af034829851cc77b00b01813180261a5"
+    },
+    {
+      "bytes": 10841,
+      "path": "report.md",
+      "sha256": "fa7c43ed8cd7a2fe909293e9609ee8277696f1fbc006580774c247eb633a17e0"
+    },
+    {
+      "bytes": 254,
+      "path": "retry_by_seed.csv",
+      "sha256": "128d8043b182ae1437b8fb9b3d7030d9be070c84094ce7a1e65ebb8266145446"
+    },
+    {
+      "bytes": 50599,
+      "path": "retry_decisions.csv",
+      "sha256": "d69de8fe3407a3928f40b63b4c554eb8ab0911d2dfeb4d2641f3a783e436940f"
+    },
+    {
+      "bytes": 1098,
+      "path": "risk_bins.csv",
+      "sha256": "6189aa0eb3efc3632eaf178f096da1fae46769d2a38f5e1a400cb1c366b54931"
+    },
+    {
+      "bytes": 1407,
+      "path": "risk_by_seed.csv",
+      "sha256": "7602fbdc938623b014aab5771cb04fd8c287b1e99c3d224ee84afa615801b999"
+    },
+    {
+      "bytes": 1651,
+      "path": "risk_strata.csv",
+      "sha256": "46036b5bd79cb02c1caaa935e162e3052f242887afb56e1390caed214d3d5162"
+    },
+    {
+      "bytes": 25085,
+      "path": "summary.json",
+      "sha256": "761fac146a651abaf020e726b74d3b9fe5fbb42104a827c11c89ec2886ce5987"
+    },
+    {
+      "bytes": 758,
+      "path": "verification.json",
+      "sha256": "42adf22d6b84c4f54de1aa63ff3f7751351c1f2081ebae9c963944515e03d18a"
+    }
+  ],
+  "original_analysis_manifest_sha256": "03f9fb7a8b30b9db40b5fdad057012cefb5f5389353e610d98a10347c7171705",
+  "original_observation_sha256": "9262eb9b552fabd6252f6d62cd6159a935730321adf63bb4c7543a04dd06cd1c",
+  "original_renderer_exclusion_reason": "Requires unexported scientific source tree; original reviewed report and hash retained instead",
+  "original_renderer_included": false,
+  "original_renderer_sha256": "55c370bc1128198212d51099dd34d318dd091a5db2b4b4efe2522c7e893dd7e1",
+  "original_source_hashes_are_not_export_hashes": true,
+  "reference_relocation": "Project absolute-path prefix replaced with project-artifact:; no other input value changed",
+  "schema": "scientific_analysis_publication_provenance_v1",
+  "source_checks_not_repeated_against_remote": true,
+  "value_preservation": {
+    "array_count": 766,
+    "boolean_leaves": 497,
+    "changed_reference_strings": 3463,
+    "null_leaves": 1658,
+    "numeric_leaves": 120148,
+    "unchanged_strings": 5963
+  }
+}

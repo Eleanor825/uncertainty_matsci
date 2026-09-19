@@ -1,0 +1,27 @@
+{
+  "comparison_byte_exact": true,
+  "historical_results_unchanged": true,
+  "new_scientific_calls_for_publication": 0,
+  "no_parameter_or_threshold_changes": true,
+  "original_analysis_files": [
+    {
+      "bytes": 8878,
+      "path": "comparison.json",
+      "sha256": "09fd7ed68d68407c54212be0446c1595b03308759377cab5b169852e7c2a731f"
+    },
+    {
+      "bytes": 1088,
+      "path": "recompute.py",
+      "sha256": "cd917af7b1b2dabcf1a911eb57d5c2c9ca0c7a22fb21709db9295cba12bdfbba"
+    },
+    {
+      "bytes": 1919,
+      "path": "report.md",
+      "sha256": "d5bc1ba8fa0b232835ae7eb51b0ec656ed9bd7d4f53c80f7685d6c82e8675885"
+    }
+  ],
+  "original_analysis_manifest_sha256": "44b7a0e28e965d0745cc9fc07878e9e28d2eba56910f237d96888db42ea50f1e",
+  "original_source_hashes_are_not_export_hashes": true,
+  "recomputation_byte_exact": true,
+  "schema": "scientific_analysis_publication_provenance_v1"
+}

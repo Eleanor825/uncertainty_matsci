@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "bytes": 782,
+      "path": "README.md",
+      "sha256": "261b448fe04b1e43d934144b54b38781e7e6bf8f4772d8f7e59657fbc29cb42f"
+    },
+    {
+      "bytes": 8878,
+      "path": "comparison.json",
+      "sha256": "09fd7ed68d68407c54212be0446c1595b03308759377cab5b169852e7c2a731f"
+    },
+    {
+      "bytes": 902,
+      "path": "publication_provenance.json",
+      "sha256": "73928534b95403535683d31594bb7bec987f127f30a0c2206626bf1eb3b049f5"
+    },
+    {
+      "bytes": 1088,
+      "path": "recompute.py",
+      "sha256": "cd917af7b1b2dabcf1a911eb57d5c2c9ca0c7a22fb21709db9295cba12bdfbba"
+    },
+    {
+      "bytes": 1919,
+      "path": "report.md",
+      "sha256": "d5bc1ba8fa0b232835ae7eb51b0ec656ed9bd7d4f53c80f7685d6c82e8675885"
+    }
+  ],
+  "new_scientific_calls_for_export": 0,
+  "original_analysis_manifest_sha256": "44b7a0e28e965d0745cc9fc07878e9e28d2eba56910f237d96888db42ea50f1e",
+  "schema": "standalone_scientific_analysis_export_manifest_v1"
+}
