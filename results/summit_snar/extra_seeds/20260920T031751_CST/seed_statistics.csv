@@ -1,0 +1,13 @@
+arm,metric,evaluation_seeds,complete_three_seeds,n,mean,sample_variance_ddof1,SD
+uq_esopt,final_hv_gain,5201;5202,False,2,0.0,0.0,0.0
+uq_esopt,mean_querywise_hv_gain,5201;5202,False,2,0.0,0.0,0.0
+uq_esopt,brier,5201;5202,False,2,0.7356460051636579,3.227572197181326e-05,0.005681172587750988
+uq_only,final_hv_gain,5201,False,1,0.0,,
+uq_only,mean_querywise_hv_gain,5201,False,1,0.0,,
+uq_only,brier,5201,False,1,0.731628809501768,,
+qwen_base,final_hv_gain,5201,False,1,7.879915235431412e-06,,
+qwen_base,mean_querywise_hv_gain,5201,False,1,5.043145750676104e-06,,
+qwen_base,brier,,False,0,,,
+es_only,final_hv_gain,5201,False,1,7.879915235431412e-06,,
+es_only,mean_querywise_hv_gain,5201,False,1,5.043145750676104e-06,,
+es_only,brier,,False,0,,,

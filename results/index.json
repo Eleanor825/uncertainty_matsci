@@ -2306,6 +2306,20 @@
       "terminal_signature": "9009d3139b874820edef78ea4c63ed088aa41478d0f43b961fcd0bc56cd7da03",
       "snapshots_overlap_not_additive": true,
       "new_scientific_calls": 0
+    },
+    {
+      "snapshot_id": "snar_extra_seeds_20260920T031751_CST",
+      "scope": "snar_extra_seeds",
+      "observed_CST": "2026-09-20T03:17:51.971199+08:00",
+      "accepted_test_trajectories": 5,
+      "planned_test_trajectories": 12,
+      "report": "results/summit_snar/extra_seeds/20260920T031751_CST/report.md",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T031751_CST/snapshot.json",
+      "summary": "results/summit_snar/extra_seeds/20260920T031751_CST/summary.json",
+      "recompute": "results/summit_snar/extra_seeds/20260920T031751_CST/recompute.py",
+      "terminal_signature": "c2d8c311cf7c591858ed2379ac8393b6614f73cf00b86b10aaa138ab960a6caa",
+      "snapshots_overlap_not_additive": true,
+      "new_scientific_calls": 0
     }
   ]
 }
