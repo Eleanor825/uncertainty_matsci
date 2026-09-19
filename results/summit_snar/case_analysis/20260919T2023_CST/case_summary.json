@@ -1,0 +1,214 @@
+{
+  "arm_gains": {
+    "es_only": {
+      "HVI_positive_queries_total": 3,
+      "final": {
+        "mean": 5.310052670588483e-05,
+        "n": 5,
+        "sample_SD": 5.866549841179068e-05,
+        "sample_variance": 3.441640703903815e-09
+      },
+      "querywise": {
+        "mean": 1.627161669674404e-05,
+        "n": 5,
+        "sample_SD": 1.676296322479378e-05,
+        "sample_variance": 2.809969360757887e-10
+      }
+    },
+    "gp_ei_scalarized": {
+      "HVI_positive_queries_total": 22,
+      "final": {
+        "mean": 0.00036706435984030784,
+        "n": 5,
+        "sample_SD": 0.0001038529172501989,
+        "sample_variance": 1.078542842137666e-08
+      },
+      "querywise": {
+        "mean": 0.000286787576434941,
+        "n": 5,
+        "sample_SD": 0.00010422698032444783,
+        "sample_variance": 1.0863263427552834e-08
+      }
+    },
+    "qwen_base": {
+      "HVI_positive_queries_total": 3,
+      "final": {
+        "mean": 5.310052670588483e-05,
+        "n": 5,
+        "sample_SD": 5.866549841179068e-05,
+        "sample_variance": 3.441640703903815e-09
+      },
+      "querywise": {
+        "mean": 1.627161669674404e-05,
+        "n": 5,
+        "sample_SD": 1.676296322479378e-05,
+        "sample_variance": 2.809969360757887e-10
+      }
+    },
+    "random": {
+      "HVI_positive_queries_total": 2,
+      "final": {
+        "mean": 2.6401700380862535e-05,
+        "n": 5,
+        "sample_SD": 4.971846017366418e-05,
+        "sample_variance": 2.4719252820402317e-09
+      },
+      "querywise": {
+        "mean": 1.8047512443634783e-05,
+        "n": 5,
+        "sample_SD": 3.7264037499040515e-05,
+        "sample_variance": 1.3886084907298977e-09
+      }
+    },
+    "random_controller": {
+      "HVI_positive_queries_total": 3,
+      "final": {
+        "mean": 2.931385644979745e-05,
+        "n": 5,
+        "sample_SD": 6.292085621031908e-05,
+        "sample_variance": 3.959034146239649e-09
+      },
+      "querywise": {
+        "mean": 1.1462916337438679e-05,
+        "n": 5,
+        "sample_SD": 2.478921652671074e-05,
+        "sample_variance": 6.145052560081487e-10
+      }
+    },
+    "uq_esopt": {
+      "HVI_positive_queries_total": 6,
+      "final": {
+        "mean": 2.2692305705507287e-05,
+        "n": 5,
+        "sample_SD": 4.130161498183986e-05,
+        "sample_variance": 1.7058234001081388e-09
+      },
+      "querywise": {
+        "mean": 1.4923463626872468e-05,
+        "n": 5,
+        "sample_SD": 2.8923173349309507e-05,
+        "sample_variance": 8.365499565942078e-10
+      }
+    },
+    "uq_only": {
+      "HVI_positive_queries_total": 6,
+      "final": {
+        "mean": 2.2692305705507287e-05,
+        "n": 5,
+        "sample_SD": 4.130161498183986e-05,
+        "sample_variance": 1.7058234001081388e-09
+      },
+      "querywise": {
+        "mean": 1.4923463626872468e-05,
+        "n": 5,
+        "sample_SD": 2.8923173349309507e-05,
+        "sample_variance": 8.365499565942078e-10
+      }
+    }
+  },
+  "comparisons": {
+    "full_minus_gp_ei_scalarized": {
+      "final_delta": {
+        "mean": -0.00034437205413480055,
+        "n": 5,
+        "sample_SD": 9.935359748495235e-05,
+        "sample_variance": 9.87113733320193e-09
+      },
+      "negative": 5,
+      "positive": 0,
+      "querywise_delta": {
+        "mean": -0.0002718641128080686,
+        "n": 5,
+        "sample_SD": 9.387407432015683e-05,
+        "sample_variance": 8.812341829466329e-09
+      },
+      "ties": 0
+    },
+    "full_minus_qwen_base": {
+      "final_delta": {
+        "mean": -3.0408221000377545e-05,
+        "n": 5,
+        "sample_SD": 7.19451602690791e-05,
+        "sample_variance": 5.176106086143478e-09
+      },
+      "negative": 2,
+      "positive": 2,
+      "querywise_delta": {
+        "mean": -1.3481530698715727e-06,
+        "n": 5,
+        "sample_SD": 3.1589766579901186e-05,
+        "sample_variance": 9.979133525726419e-10
+      },
+      "ties": 1
+    },
+    "full_minus_random_controller": {
+      "final_delta": {
+        "mean": -6.621550744290161e-06,
+        "n": 5,
+        "sample_SD": 8.553289814268762e-05,
+        "sample_variance": 7.315876664687374e-09
+      },
+      "negative": 1,
+      "positive": 4,
+      "querywise_delta": {
+        "mean": 3.4605472894337898e-06,
+        "n": 5,
+        "sample_SD": 4.3315910260558424e-05,
+        "sample_variance": 1.8762680817007507e-09
+      },
+      "ties": 0
+    }
+  },
+  "full_UQ": {
+    "constant_dev_prevalence_0_9_Brier_descriptive": 0.03142857142857143,
+    "constant_one_Brier_descriptive": 0.026785714285714284,
+    "development_metrics": {
+      "auroc": 0.6088888888888888,
+      "brier": 0.09714217760705708,
+      "ece": 0.05946164846420281,
+      "error_auprc": 0.9374603421869524,
+      "error_rate": 0.9,
+      "n": 50,
+      "nll": 0.3392514346356215,
+      "overconfident_error_rate_p_le_0_1": 0.0,
+      "risk_coverage_auc": 0.8798152075346528
+    },
+    "development_retry_probability": 1.0,
+    "early_first_low_risk_executions": 202,
+    "extra_proposal_query_fraction": 0.10222222222222223,
+    "high_risk_first_trigger_lower_bound": 14,
+    "high_risk_first_trigger_upper_bound": 23,
+    "invalid_proposals": 8,
+    "low_risk_no_HVI_executions_lower_bound": 196,
+    "missing_valid_proposal_graphs": 1,
+    "non_LHS_queries": 225,
+    "positive_HVI_queries": 6,
+    "proposals": 248,
+    "scored_no_HVI_queries": 218,
+    "scored_queries": 224,
+    "second_proposal_queries": 23,
+    "weighted_test_Brier": 0.6778414086939192
+  },
+  "identity_checks": {
+    "es_only_vs_qwen_base": {
+      "all_5_HV_curves_equal": true,
+      "all_5_weight_hashes_equal": true,
+      "raw_proposal_sequence_equality_verified": false
+    },
+    "uq_esopt_vs_uq_only": {
+      "all_5_HV_curves_equal": true,
+      "all_5_weight_hashes_equal": true,
+      "raw_proposal_sequence_equality_verified": false
+    }
+  },
+  "scope": {
+    "adaptation_calls": 550,
+    "episodes": 35,
+    "heldout_calls": 1750,
+    "reaction_functions": 1,
+    "seeds": 5,
+    "shared_prior_HV": 0.8810117795428745,
+    "shared_prior_rows": 550,
+    "this_analysis_new_scientific_calls": 0
+  }
+}

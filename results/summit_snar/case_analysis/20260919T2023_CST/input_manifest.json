@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "input": "episode_summaries.json",
+      "metadata_paths_normalized_to_project_relative": true,
+      "origin": {
+        "original_container_sha256": "f0b8960651d3cd5ab1b7700961540f9cd34953950207d9250a17886dcd83808a",
+        "published_source": "results/summit_snar/20260919T162548_CST/episode_summaries.json"
+      },
+      "original_local_input_sha256": "f0b8960651d3cd5ab1b7700961540f9cd34953950207d9250a17886dcd83808a",
+      "projection": false,
+      "sha256": "25038a257d287700bd612935c2c6c85678e68e39ec178d97b7bce29ab3cfee88"
+    },
+    {
+      "input": "prior_and_selection.json",
+      "metadata_paths_normalized_to_project_relative": true,
+      "origin": {
+        "original_container_sha256": "a4af844177c11030778a96d0587b3d1f7d15f3d787451e69139b1767726586e0",
+        "published_source": "results/summit_snar/20260919T162548_CST/prior_and_selection.json"
+      },
+      "original_local_input_sha256": "a4af844177c11030778a96d0587b3d1f7d15f3d787451e69139b1767726586e0",
+      "projection": false,
+      "sha256": "0b9c864d9692022759f0c1c6c898588bcc14f74db69b0d341c27a9b982115f2a"
+    },
+    {
+      "input": "protocol.json",
+      "metadata_paths_normalized_to_project_relative": true,
+      "origin": {
+        "original_container_sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972",
+        "published_source": "results/summit_snar/20260919T162548_CST/protocol.json"
+      },
+      "original_local_input_sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972",
+      "projection": false,
+      "sha256": "c895dbf2cfcac64d08e770eb5ddb2e241eaeb29d158321be11f0d2ebc3a19873"
+    },
+    {
+      "input": "per_seed.csv",
+      "metadata_paths_normalized_to_project_relative": true,
+      "origin": {
+        "original_container_sha256": "206e5fe8a0e90633303b27b67ab70920e5ab3c74f787282e9040fb4afaaa1e44",
+        "published_source": "results/summit_snar/20260919T162548_CST/per_seed.csv"
+      },
+      "original_local_input_sha256": "206e5fe8a0e90633303b27b67ab70920e5ab3c74f787282e9040fb4afaaa1e44",
+      "projection": false,
+      "sha256": "206e5fe8a0e90633303b27b67ab70920e5ab3c74f787282e9040fb4afaaa1e44"
+    },
+    {
+      "input": "curves.csv",
+      "metadata_paths_normalized_to_project_relative": true,
+      "origin": {
+        "original_container_sha256": "dcc86790edc5f4d5971d881a5ee78bb92376821c86257610b1baf4e41dbd6e97",
+        "published_source": "results/summit_snar/20260919T162548_CST/curves.csv"
+      },
+      "original_local_input_sha256": "dcc86790edc5f4d5971d881a5ee78bb92376821c86257610b1baf4e41dbd6e97",
+      "projection": false,
+      "sha256": "dcc86790edc5f4d5971d881a5ee78bb92376821c86257610b1baf4e41dbd6e97"
+    },
+    {
+      "input": "heldout_graph_coverage.json",
+      "metadata_paths_normalized_to_project_relative": true,
+      "origin": {
+        "original_container_sha256": "6213fa2be0ec0a2f0b7aca591a404f20c09c5107c3e20bca05ecd6774fd8130e",
+        "scientific_projection_id": "SnAr_completed_episode_projection_20260919T161150_CST"
+      },
+      "original_local_input_sha256": "774c6c6d89b76da1dcb0b8c575c263246263764aafa3d10195e32c272a573817",
+      "projection": true,
+      "sha256": "7128663ae7a765e02696af28482708b118f90dfc3e1e0b8d2dc7b1c0f9eec98a"
+    },
+    {
+      "input": "full_development_episodes.json",
+      "metadata_paths_normalized_to_project_relative": true,
+      "origin": {
+        "original_container_sha256": "6213fa2be0ec0a2f0b7aca591a404f20c09c5107c3e20bca05ecd6774fd8130e",
+        "scientific_projection_id": "SnAr_completed_episode_projection_20260919T161150_CST"
+      },
+      "original_local_input_sha256": "7e746abf9b615097351775e20516077952e645031df7e75ef69c2683721b81a1",
+      "projection": true,
+      "sha256": "74a028df8aad595a3c5b7cdc21e0ff82aafcbc85727744849095931e4ef16df0"
+    },
+    {
+      "input": "es_only_development.json",
+      "metadata_paths_normalized_to_project_relative": true,
+      "origin": {
+        "original_container_sha256": "1d88ff99cb8b8b43b35ffe4cf76f350b9ffa50fd35879fcf84531b82cabf4535",
+        "scientific_projection_id": "SnAr_ES_only_completed_development_projection_20260919T060308_CST"
+      },
+      "original_local_input_sha256": "5b3a9725c5d45083f40facd336d582884baccd3b35df1939718a89b27b473b3a",
+      "projection": true,
+      "sha256": "520c1fcebd6914cae84421aeaf5edf90411cf6b41719ccb6b68f0b27beb45d95"
+    },
+    {
+      "input": "risk_development.json",
+      "metadata_paths_normalized_to_project_relative": true,
+      "origin": {
+        "original_container_sha256": "d49ff0a2de19c03daeaec8924c637d871bc0a65516b6b54b3fcbc97db8c50934",
+        "scientific_projection_id": "SnAr_risk_train_dev_metadata_projection_20260919T071253_CST"
+      },
+      "original_local_input_sha256": "a10b7947609301bc9c11b27bdd0875d2bdca55a8917eb3cf171d9a288066c220",
+      "projection": true,
+      "sha256": "922c242830059facfc2c4791e0688b10a132dc1dbdecc9860949b57362b03b22"
+    }
+  ],
+  "scope": "Published scientific projections only; path metadata normalized; numerical data unchanged. Container hashes refer original source evidence, not this export."
+}

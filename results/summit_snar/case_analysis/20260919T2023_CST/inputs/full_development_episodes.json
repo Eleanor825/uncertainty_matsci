@@ -1,0 +1,416 @@
+[
+  {
+    "name": "es_full_dev_G0_4101",
+    "summary": {
+      "arm": "uq_esopt",
+      "brier": 0.02304944750636011,
+      "budget": 20,
+      "final_hv": 0.5144514125624291,
+      "final_hv_gain": 0.5144514125624291,
+      "hv_curve": [
+        0.2321991616320319,
+        0.2321991616320319,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291
+      ],
+      "invalid_proposal_rate": 0.0,
+      "invalid_proposals": 0,
+      "mean_querywise_hv": 0.48622618746938934,
+      "mean_querywise_hv_gain": 0.48622618746938934,
+      "name": "es_full_dev_G0_4101",
+      "prior_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "prior_hv": 0.0,
+      "prior_rows": 0,
+      "proposal_count": 30,
+      "protocol_fingerprint": "eedd128dfb8380a5548cf31bb415cd88f4bb032eda77fe722619e5f4bf085eb2",
+      "queries": 20,
+      "raw_pareto_front": [
+        {
+          "objectives": {
+            "e_factor": 11.183128674179194,
+            "sty": 6763.505515783101
+          },
+          "parameters": {
+            "conc_dfnb": 0.4065672109276782,
+            "equiv_pldn": 3.020360977688946,
+            "tau": 0.6788974165956944,
+            "temperature": 55.353342881844206
+          }
+        }
+      ],
+      "risk_observations": 15,
+      "seed": 4101,
+      "valid_proposal_graph_fraction": 0.9666666666666667,
+      "weight_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516"
+    },
+    "summary_ref": {
+      "bytes": 1315,
+      "mtime": 1789771752.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/es_full_dev_G0_4101/summary.json",
+      "sha256": "79223154edeec120852d135a03a37c3bcdb2035ac457982a53f2270c929b94cd"
+    }
+  },
+  {
+    "name": "es_full_dev_G0_4102",
+    "summary": {
+      "arm": "uq_esopt",
+      "brier": 0.15729542472750419,
+      "budget": 20,
+      "final_hv": 0.880525123218384,
+      "final_hv_gain": 0.880525123218384,
+      "hv_curve": [
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384
+      ],
+      "invalid_proposal_rate": 0.0,
+      "invalid_proposals": 0,
+      "mean_querywise_hv": 0.8418516228806066,
+      "mean_querywise_hv_gain": 0.8418516228806066,
+      "name": "es_full_dev_G0_4102",
+      "prior_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "prior_hv": 0.0,
+      "prior_rows": 0,
+      "proposal_count": 28,
+      "protocol_fingerprint": "eedd128dfb8380a5548cf31bb415cd88f4bb032eda77fe722619e5f4bf085eb2",
+      "queries": 20,
+      "raw_pareto_front": [
+        {
+          "objectives": {
+            "e_factor": 9.756260578228623,
+            "sty": 11559.605121586617
+          },
+          "parameters": {
+            "conc_dfnb": 0.5,
+            "equiv_pldn": 5,
+            "tau": 0.5,
+            "temperature": 30
+          }
+        }
+      ],
+      "risk_observations": 15,
+      "seed": 4102,
+      "valid_proposal_graph_fraction": 1.0,
+      "weight_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516"
+    },
+    "summary_ref": {
+      "bytes": 1214,
+      "mtime": 1789772499.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/es_full_dev_G0_4102/summary.json",
+      "sha256": "c0dad3a71bf49fed14c1f955268eb9b6de908a02e66771fe15d2d623e845f0ab"
+    }
+  },
+  {
+    "name": "es_full_dev_G1_4101",
+    "summary": {
+      "arm": "uq_esopt",
+      "brier": 0.1126368286632874,
+      "budget": 20,
+      "final_hv": 0.5144514125624291,
+      "final_hv_gain": 0.5144514125624291,
+      "hv_curve": [
+        0.2321991616320319,
+        0.2321991616320319,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291
+      ],
+      "invalid_proposal_rate": 0.0,
+      "invalid_proposals": 0,
+      "mean_querywise_hv": 0.48622618746938934,
+      "mean_querywise_hv_gain": 0.48622618746938934,
+      "name": "es_full_dev_G1_4101",
+      "prior_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "prior_hv": 0.0,
+      "prior_rows": 0,
+      "proposal_count": 28,
+      "protocol_fingerprint": "eedd128dfb8380a5548cf31bb415cd88f4bb032eda77fe722619e5f4bf085eb2",
+      "queries": 20,
+      "raw_pareto_front": [
+        {
+          "objectives": {
+            "e_factor": 11.183128674179194,
+            "sty": 6763.505515783101
+          },
+          "parameters": {
+            "conc_dfnb": 0.4065672109276782,
+            "equiv_pldn": 3.020360977688946,
+            "tau": 0.6788974165956944,
+            "temperature": 55.353342881844206
+          }
+        }
+      ],
+      "risk_observations": 15,
+      "seed": 4101,
+      "valid_proposal_graph_fraction": 1.0,
+      "weight_hash": "a03c2fcb51222fffd5a36ac924e75e05c99044653331dee775238553f97eb785"
+    },
+    "summary_ref": {
+      "bytes": 1299,
+      "mtime": 1789775038.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/es_full_dev_G1_4101/summary.json",
+      "sha256": "782497e796bd92ff95d1cf83e258912ff66a1a2c452ac6b7059542ca97f9a20d"
+    }
+  },
+  {
+    "name": "es_full_dev_G1_4102",
+    "summary": {
+      "arm": "uq_esopt",
+      "brier": 0.22130726547239263,
+      "budget": 20,
+      "final_hv": 0.8805315056306776,
+      "final_hv_gain": 0.8805315056306776,
+      "hv_curve": [
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.880525123218384,
+        0.8805315056306776,
+        0.8805315056306776,
+        0.8805315056306776,
+        0.8805315056306776,
+        0.8805315056306776,
+        0.8805315056306776,
+        0.8805315056306776,
+        0.8805315056306776
+      ],
+      "invalid_proposal_rate": 0.0,
+      "invalid_proposals": 0,
+      "mean_querywise_hv": 0.8418541758455239,
+      "mean_querywise_hv_gain": 0.8418541758455239,
+      "name": "es_full_dev_G1_4102",
+      "prior_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "prior_hv": 0.0,
+      "prior_rows": 0,
+      "proposal_count": 27,
+      "protocol_fingerprint": "eedd128dfb8380a5548cf31bb415cd88f4bb032eda77fe722619e5f4bf085eb2",
+      "queries": 20,
+      "raw_pareto_front": [
+        {
+          "objectives": {
+            "e_factor": 9.756260578228623,
+            "sty": 11559.605121586617
+          },
+          "parameters": {
+            "conc_dfnb": 0.5,
+            "equiv_pldn": 5,
+            "tau": 0.5,
+            "temperature": 30
+          }
+        },
+        {
+          "objectives": {
+            "e_factor": 9.748370260490134,
+            "sty": 10515.5917119573
+          },
+          "parameters": {
+            "conc_dfnb": 0.5,
+            "equiv_pldn": 5.0,
+            "tau": 0.55,
+            "temperature": 30
+          }
+        }
+      ],
+      "risk_observations": 15,
+      "seed": 4102,
+      "valid_proposal_graph_fraction": 1.0,
+      "weight_hash": "a03c2fcb51222fffd5a36ac924e75e05c99044653331dee775238553f97eb785"
+    },
+    "summary_ref": {
+      "bytes": 1369,
+      "mtime": 1789775767.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/es_full_dev_G1_4102/summary.json",
+      "sha256": "dad818a45c86b1e82345deddfa1c6530ee55bcbce46a8f708ccbf7fbf71cda7d"
+    }
+  },
+  {
+    "name": "es_full_dev_G2_4101",
+    "summary": {
+      "arm": "uq_esopt",
+      "brier": 0.006031473073229184,
+      "budget": 20,
+      "final_hv": 0.5144514125624291,
+      "final_hv_gain": 0.5144514125624291,
+      "hv_curve": [
+        0.2321991616320319,
+        0.2321991616320319,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291,
+        0.5144514125624291
+      ],
+      "invalid_proposal_rate": 0.0,
+      "invalid_proposals": 0,
+      "mean_querywise_hv": 0.48622618746938934,
+      "mean_querywise_hv_gain": 0.48622618746938934,
+      "name": "es_full_dev_G2_4101",
+      "prior_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "prior_hv": 0.0,
+      "prior_rows": 0,
+      "proposal_count": 30,
+      "protocol_fingerprint": "eedd128dfb8380a5548cf31bb415cd88f4bb032eda77fe722619e5f4bf085eb2",
+      "queries": 20,
+      "raw_pareto_front": [
+        {
+          "objectives": {
+            "e_factor": 11.183128674179194,
+            "sty": 6763.505515783101
+          },
+          "parameters": {
+            "conc_dfnb": 0.4065672109276782,
+            "equiv_pldn": 3.020360977688946,
+            "tau": 0.6788974165956944,
+            "temperature": 55.353342881844206
+          }
+        }
+      ],
+      "risk_observations": 15,
+      "seed": 4101,
+      "valid_proposal_graph_fraction": 0.9666666666666667,
+      "weight_hash": "1213e4919e34aaf1906f589317dc2a9ae420cdc80d7896aadbdab4e10b8f1bef"
+    },
+    "summary_ref": {
+      "bytes": 1316,
+      "mtime": 1789778495.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/es_full_dev_G2_4101/summary.json",
+      "sha256": "ca9a34450a3923e7f008c33fcf636c2517f2d09c2f9ae1ce5e630cac72c02bf9"
+    }
+  },
+  {
+    "name": "es_full_dev_G2_4102",
+    "summary": {
+      "arm": "uq_esopt",
+      "brier": 0.01205335799503402,
+      "budget": 20,
+      "final_hv": 0.725831121867274,
+      "final_hv_gain": 0.725831121867274,
+      "hv_curve": [
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274,
+        0.725831121867274
+      ],
+      "invalid_proposal_rate": 0.0,
+      "invalid_proposals": 0,
+      "mean_querywise_hv": 0.725831121867274,
+      "mean_querywise_hv_gain": 0.725831121867274,
+      "name": "es_full_dev_G2_4102",
+      "prior_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "prior_hv": 0.0,
+      "prior_rows": 0,
+      "proposal_count": 30,
+      "protocol_fingerprint": "eedd128dfb8380a5548cf31bb415cd88f4bb032eda77fe722619e5f4bf085eb2",
+      "queries": 20,
+      "raw_pareto_front": [
+        {
+          "objectives": {
+            "e_factor": 9.797037679223955,
+            "sty": 9529.162144859183
+          },
+          "parameters": {
+            "conc_dfnb": 0.48098282486868127,
+            "equiv_pldn": 4.15801946443812,
+            "tau": 0.582017119471427,
+            "temperature": 30.564770117336412
+          }
+        }
+      ],
+      "risk_observations": 15,
+      "seed": 4102,
+      "valid_proposal_graph_fraction": 1.0,
+      "weight_hash": "1213e4919e34aaf1906f589317dc2a9ae420cdc80d7896aadbdab4e10b8f1bef"
+    },
+    "summary_ref": {
+      "bytes": 1272,
+      "mtime": 1789779276.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/es_full_dev_G2_4102/summary.json",
+      "sha256": "13883ee692aacd5d4675b37035ba459672571b672b8506ba3035b2f45677e30d"
+    }
+  }
+]

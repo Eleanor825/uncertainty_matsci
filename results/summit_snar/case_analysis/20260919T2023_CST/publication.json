@@ -1,0 +1,19 @@
+{
+  "excluded_material": [
+    "authentication",
+    "browser or process telemetry",
+    "resource launch/retirement operators",
+    "credentials",
+    "weights",
+    "raw tensors"
+  ],
+  "heldout_outcomes_used_for_recalibration": false,
+  "metadata_path_policy": "Project-relative artifact identifiers only; original byte hashes distinguished from export hashes.",
+  "new_scientific_calls": 0,
+  "numerical_data_changed_for_publication": false,
+  "reused_test_episodes": 35,
+  "schema": "SnAr_case_analysis_publication_v1",
+  "source_analysis_manifest_sha256": "6eeaea0f64061c96d325fc2b00c38d819bbc23b6737062e9ff155a4df109171b",
+  "source_evidence_policy": "Scientific function excerpts only; complete-source SHA preserved; excerpt is not executable study.",
+  "underlying_results": "results/summit_snar/20260919T162548_CST"
+}

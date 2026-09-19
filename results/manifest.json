@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 12646,
-      "export_sha256": "bad7d6d0f4c597c595a8ae62ccc81dbcaa296c9b146a1f075da1c0fadbfd88fa"
+      "bytes": 13454,
+      "export_sha256": "33bd6eea2bbf809176dc48d2e0d3da6a9a4c5c8a1ad56fed71750cfbc1e1560e"
     },
     {
       "path": "docs/results.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "results/README.md",
-      "bytes": 9530,
-      "export_sha256": "110b9bbef98b32b3bee0ca44a7d3ef11dfb806b3d6c5e8b1d7c92f5e00a2c97f"
+      "bytes": 10322,
+      "export_sha256": "6f813ca3f4753ffc242040599a8167149dc65b16bb52b897ab19263faeae0770"
     },
     {
       "path": "results/budget_sweep/20260919T010939_CST/all_system_results.csv",
@@ -208,8 +208,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 56290,
-      "export_sha256": "03c28b3f246f694b9d149349422da203be8c8ea4fd728c2f6a4e6c5a9f7c786b"
+      "bytes": 57070,
+      "export_sha256": "b0d7b0ea37954bdfca097f8829c9df88628c89e3967510cbd399e4c79c803ebe"
     },
     {
       "path": "results/snapshots/core2_b10_20260917T083208Z/curves.csv",
@@ -955,6 +955,166 @@
       "path": "results/development/grouped_scalar_risk/20260919T192455_CST/verification.json",
       "bytes": 1011,
       "export_sha256": "0097843f65ba4ddf451f9bdf848ea934259b05b8816b65a828acb245355ce987"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/README.md",
+      "bytes": 973,
+      "export_sha256": "2a2591f29d896086b3b67622de0495c11d68ff026c19d519268b5d1cae44dfea"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/case_summary.json",
+      "bytes": 6090,
+      "export_sha256": "7536b45ffedcca6be6d18600a437af400fbad28806cd6011c47c2ca308d523dd"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/development_selection_decomposition.csv",
+      "bytes": 1244,
+      "export_sha256": "fe587898bd8030ae99271a3fccc3a92043e83dc09a433ca4e058e7ea0b30cbab"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/input_manifest.json",
+      "bytes": 5152,
+      "export_sha256": "01fa86239da204d4c5cbb9848a90e9555c97fbf5ffbdfc43715a09a30c600839"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/curves.csv",
+      "bytes": 123916,
+      "export_sha256": "dcc86790edc5f4d5971d881a5ee78bb92376821c86257610b1baf4e41dbd6e97"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/episode_summaries.json",
+      "bytes": 126986,
+      "export_sha256": "25038a257d287700bd612935c2c6c85678e68e39ec178d97b7bce29ab3cfee88"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/es_only_development.json",
+      "bytes": 23450,
+      "export_sha256": "520c1fcebd6914cae84421aeaf5edf90411cf6b41719ccb6b68f0b27beb45d95"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/full_development_episodes.json",
+      "bytes": 13138,
+      "export_sha256": "74a028df8aad595a3c5b7cdc21e0ff82aafcbc85727744849095931e4ef16df0"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/heldout_graph_coverage.json",
+      "bytes": 13078,
+      "export_sha256": "7128663ae7a765e02696af28482708b118f90dfc3e1e0b8d2dc7b1c0f9eec98a"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/per_seed.csv",
+      "bytes": 15561,
+      "export_sha256": "206e5fe8a0e90633303b27b67ab70920e5ab3c74f787282e9040fb4afaaa1e44"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/prior_and_selection.json",
+      "bytes": 1697,
+      "export_sha256": "0b9c864d9692022759f0c1c6c898588bcc14f74db69b0d341c27a9b982115f2a"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/protocol.json",
+      "bytes": 7670,
+      "export_sha256": "c895dbf2cfcac64d08e770eb5ddb2e241eaeb29d158321be11f0d2ebc3a19873"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/risk_development.json",
+      "bytes": 1270,
+      "export_sha256": "922c242830059facfc2c4791e0688b10a132dc1dbdecc9860949b57362b03b22"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/label_prior_check.md",
+      "bytes": 7576,
+      "export_sha256": "1ebf6c90c19724f9b639068a03ff22e1a18f0aa8e83e6fad4ab542a890a10405"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/manifest.json",
+      "bytes": 5184,
+      "export_sha256": "80e3c40a7bb8c6beea9594b9bb5f37a4a696f407ca1e19d109e75363ff483cc9"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/minimal_readonly_extraction_plan.json",
+      "bytes": 2424,
+      "export_sha256": "8686920fc7d3aa8f78e86435164099790e07d0a576ac32ddf446a4b10a7822bc"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/paired_case_differences.csv",
+      "bytes": 3263,
+      "export_sha256": "3ef527b5164c176d9c276f4a5b23058dc333c552dd58f1ee43da81af28e6b750"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/per_seed_mechanisms.csv",
+      "bytes": 6216,
+      "export_sha256": "8f44ef56a4b46123862e96d41f0f6a5feb57dced8e946f6fc31fe020535eb6b9"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/positive_HVI_events.csv",
+      "bytes": 3921,
+      "export_sha256": "693da0523efca39abe98cd639ad8b1cec28faaa394e7c54f42aaa3253ccec4dc"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/publication.json",
+      "bytes": 828,
+      "export_sha256": "020be8c852e44aa4df28d03dc277883df2eea29cd593a7c3d75be81b70491679"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/publication_validation.json",
+      "bytes": 415,
+      "export_sha256": "9c3b6674636e603b8dee366c0b2dcf91122cc4b13cd7129be36066d8deaee73d"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/recomputation_receipt.json",
+      "bytes": 231,
+      "export_sha256": "785ea38fee8e546a60c0a8035359331f15a99703026df4d5290c517feb1b59b2"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/recompute.py",
+      "bytes": 11986,
+      "export_sha256": "92a5da6010ae9115eed368dcd6de20c0b9086abaa3fe0f0dcecdcb1d974aef83"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/report.md",
+      "bytes": 15217,
+      "export_sha256": "60c38173fc7896aef3fdefb0183069ed7ec7ab3a609e8a22dadf8b76b9b88f58"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/source_contract.json",
+      "bytes": 4207,
+      "export_sha256": "edd15cf3b5c7c22f2bb6662c90337b0859c99dfef61ecec60dba8aed374a0bcf"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/source_evidence/acceptance.md",
+      "bytes": 8688,
+      "export_sha256": "a88b5222880a25d1b5c3ce4dcad210a2cdaf99fc88f2ddcb7681d79d7dc51f0d"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/source_evidence/label_provenance.md",
+      "bytes": 1541,
+      "export_sha256": "4394caf8c59a638081c03d49029597506c97bc55326e034da8e92474e8cfe661"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/source_evidence/pipeline.md",
+      "bytes": 13728,
+      "export_sha256": "0ff64effc6a5efe8bcd76b2eb58d98e6553a67ff8c51c0a431bf06439ea143b6"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/source_evidence/repair_pipeline.md",
+      "bytes": 4239,
+      "export_sha256": "4e74bca077c372a70ed9a430620bd72137bf8eefa69e9c22bce7a3b79ac1fdcf"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/source_evidence/study.md",
+      "bytes": 3744,
+      "export_sha256": "5831e8af35dae8f98e7324bed2d06dc1e11e0f6f8e4a23656b1fd5334afb54b8"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/source_evidence/uncertainty.md",
+      "bytes": 5811,
+      "export_sha256": "913d1a476a56ef84bfad870b606846abcaa12195f8f47530ff8295201c8f76fa"
+    },
+    {
+      "path": "results/summit_snar/case_analysis/20260919T2023_CST/terminal_pareto_points.csv",
+      "bytes": 10041,
+      "export_sha256": "8327c320ad58b59512669060417842b42c1907cec2f5dd582315c5bd4b9c9413"
     }
   ],
   "development_exports": [

@@ -1,0 +1,46 @@
+{
+  "label_counts": {
+    "dev": {
+      "0": 5,
+      "1": 45
+    },
+    "train": {
+      "0": 5,
+      "1": 70
+    }
+  },
+  "receipt_complete": true,
+  "report": {
+    "development_metrics": {
+      "auroc": 0.6088888888888888,
+      "brier": 0.09714217760705708,
+      "ece": 0.05946164846420281,
+      "error_auprc": 0.9374603421869524,
+      "error_rate": 0.9,
+      "n": 50,
+      "nll": 0.3392514346356215,
+      "overconfident_error_rate_p_le_0_1": 0.0,
+      "risk_coverage_auc": 0.8798152075346528
+    },
+    "graph_fraction": 1.0,
+    "random_controller_rate_population": {
+      "available_graphs": 50,
+      "unavailable_graphs_counted_as_retry": 0,
+      "valid_development_actions_after_prefix_filter": 50
+    },
+    "random_controller_retry_probability": 1.0,
+    "test_used": false
+  },
+  "risk_fit": {
+    "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/risk_fit.json",
+    "sha256": "b32f30eb22e62e0aab5614099fae4fb1027a833f2c9cbf456496536496da88cf"
+  },
+  "risk_receipt": {
+    "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/jobs/risk_fit/receipt.json",
+    "sha256": "dcb48fc90d14e40c9054e65074a6e2a422fc520dd46e181a32acdda68254ab7b"
+  },
+  "split_counts": {
+    "dev": 50,
+    "train": 75
+  }
+}

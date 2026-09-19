@@ -1,0 +1,352 @@
+[
+  {
+    "name": "test_es_only_5101",
+    "summary_ref": {
+      "bytes": 2045,
+      "mtime": 1789791104.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_es_only_5101/summary.json",
+      "sha256": "a324ca7af611add2ea4c14e283bff03b8ea1a84010209bed332f8a6c688ea1a0"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_es_only_5102",
+    "summary_ref": {
+      "bytes": 2228,
+      "mtime": 1789791554.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_es_only_5102/summary.json",
+      "sha256": "53ab01bfcf381e411cfa96c7a3b05502bdabe52b68c9663ae090a8a1cb5d2abd"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_es_only_5103",
+    "summary_ref": {
+      "bytes": 2212,
+      "mtime": 1789791774.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_es_only_5103/summary.json",
+      "sha256": "506a8b90635e17e9d401940debb694bbafc75a0adab079c55a3df72c79ad9891"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_es_only_5104",
+    "summary_ref": {
+      "bytes": 2086,
+      "mtime": 1789792182.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_es_only_5104/summary.json",
+      "sha256": "551ea79b684c04adc4fea86d8e4679c401282c79d104d32efa5054da43be9074"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_es_only_5105",
+    "summary_ref": {
+      "bytes": 2029,
+      "mtime": 1789792478.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_es_only_5105/summary.json",
+      "sha256": "57aa2c4f70eac510731e922efb127cf3e1f7a56fc0ee7f64be4269d658a92891"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_gp_ei_scalarized_5101",
+    "summary_ref": {
+      "bytes": 2289,
+      "mtime": 1789780250.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_gp_ei_scalarized_5101/summary.json",
+      "sha256": "f0b455b74d0a17105f8d6ccd8af6dd01794da88d83669fe523cddfcba6d8b70b"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_gp_ei_scalarized_5102",
+    "summary_ref": {
+      "bytes": 2352,
+      "mtime": 1789780420.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_gp_ei_scalarized_5102/summary.json",
+      "sha256": "e1416bcbd8d93980a45e46386d0f5402ff99442bbf8a0fb595fad2c3ad4dc9ee"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_gp_ei_scalarized_5103",
+    "summary_ref": {
+      "bytes": 1936,
+      "mtime": 1789780791.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_gp_ei_scalarized_5103/summary.json",
+      "sha256": "9bb97a69a0b54582d7779b31955bfff05fd431a7508aeae99338bee4636ff379"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_gp_ei_scalarized_5104",
+    "summary_ref": {
+      "bytes": 1936,
+      "mtime": 1789780978.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_gp_ei_scalarized_5104/summary.json",
+      "sha256": "d4ac9dd29cfa85ef5dc7b72390b8191f882e4de90229748158fca4dd0e221ba3"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_gp_ei_scalarized_5105",
+    "summary_ref": {
+      "bytes": 2141,
+      "mtime": 1789781335.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_gp_ei_scalarized_5105/summary.json",
+      "sha256": "08bf9d54cf2a89039c9693d3f2487d7316f076c7fd61340e5e0c730fa0f62497"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_qwen_base_5101",
+    "summary_ref": {
+      "bytes": 2049,
+      "mtime": 1789779887.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_qwen_base_5101/summary.json",
+      "sha256": "6a5814f414bdd34e2a6cfff34c62161d16e100effafce83f31b093b170bb3fdf"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_qwen_base_5102",
+    "summary_ref": {
+      "bytes": 2232,
+      "mtime": 1789779856.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_qwen_base_5102/summary.json",
+      "sha256": "bb4727749f86610394fe3134833df7a3d1e400386316d6dac255a4c4db5e1e73"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_qwen_base_5103",
+    "summary_ref": {
+      "bytes": 2216,
+      "mtime": 1789780384.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_qwen_base_5103/summary.json",
+      "sha256": "22572d5940acf078caf2bd735996196193a1ad545e6492dce9124fa13ad247b8"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_qwen_base_5104",
+    "summary_ref": {
+      "bytes": 2090,
+      "mtime": 1789780389.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_qwen_base_5104/summary.json",
+      "sha256": "53f64872d16ada9a9795db1b93b47163eedbf43f68c0cbc2eb17cd1a17e4d171"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_qwen_base_5105",
+    "summary_ref": {
+      "bytes": 2033,
+      "mtime": 1789780900.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_qwen_base_5105/summary.json",
+      "sha256": "cf6174a7c776de4c1d839bb9251efd38cca3b90f06f22ec8c58796968ddae908"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_5101",
+    "summary_ref": {
+      "bytes": 2205,
+      "mtime": 1789779583.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_5101/summary.json",
+      "sha256": "ba5f95e10afe1be97282c716228fd1ae94214e002085d69b7e1364a0d3a49593"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_5102",
+    "summary_ref": {
+      "bytes": 1964,
+      "mtime": 1789779582.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_5102/summary.json",
+      "sha256": "e3741467214b785c880fc47d71e209890195f60a431f9066374a1cc9eb45bec6"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_5103",
+    "summary_ref": {
+      "bytes": 1964,
+      "mtime": 1789779740.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_5103/summary.json",
+      "sha256": "d4dc14c912ce2f73081c73476a18135dba61ee69618b3cbf5610ad3ad05bfed0"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_5104",
+    "summary_ref": {
+      "bytes": 1964,
+      "mtime": 1789779741.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_5104/summary.json",
+      "sha256": "ad3a08691e24bef8c03d9c28cd6ea9f25200df0e11b1b81a0857bfb0a26fa9de"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_5105",
+    "summary_ref": {
+      "bytes": 2206,
+      "mtime": 1789779883.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_5105/summary.json",
+      "sha256": "fe64f877bca5457631b715b4a7349f1d9393a67e100a38b2aa7354dfbe6bf905"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_controller_5101",
+    "summary_ref": {
+      "bytes": 2065,
+      "mtime": 1789792996.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_controller_5101/summary.json",
+      "sha256": "c0085072aeef3c6382c932d10bea2f1b325c3256e13af4865e2c19d458a8324d"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_controller_5102",
+    "summary_ref": {
+      "bytes": 2065,
+      "mtime": 1789793302.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_controller_5102/summary.json",
+      "sha256": "af96a4c562fc41320b824ace5cd602956eea227a1e4c66acd3fc0de0fbc4375e"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_controller_5103",
+    "summary_ref": {
+      "bytes": 2233,
+      "mtime": 1789793807.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_controller_5103/summary.json",
+      "sha256": "df9dc43328a4adca6da93484e48489becedb20fd5887d224506773c045a318b7"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_controller_5104",
+    "summary_ref": {
+      "bytes": 2049,
+      "mtime": 1789794136.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_controller_5104/summary.json",
+      "sha256": "457c00fae2756542843782d3cfec4e7b0deda16c4004cfba1b3a1bb24d3d0b30"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_random_controller_5105",
+    "summary_ref": {
+      "bytes": 2232,
+      "mtime": 1789794661.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_random_controller_5105/summary.json",
+      "sha256": "c0fe6258b3603537bad68c83ed9414bb99f581b2012e9618138a1be0f95fa8f9"
+    },
+    "valid_proposal_graph_fraction": null
+  },
+  {
+    "name": "test_uq_esopt_5101",
+    "summary_ref": {
+      "bytes": 2261,
+      "mtime": 1789782402.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_esopt_5101/summary.json",
+      "sha256": "a1c2f1a07f616e71cbd80ff484d93b81ced31a4fa87921909718a86cb5112837"
+    },
+    "valid_proposal_graph_fraction": 1.0
+  },
+  {
+    "name": "test_uq_esopt_5102",
+    "summary_ref": {
+      "bytes": 2393,
+      "mtime": 1789782902.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_esopt_5102/summary.json",
+      "sha256": "d6dc0e153b05169512a60868d29785fdfbc4e80dd1beb92880cedd74b3fa9a9c"
+    },
+    "valid_proposal_graph_fraction": 1.0
+  },
+  {
+    "name": "test_uq_esopt_5103",
+    "summary_ref": {
+      "bytes": 2267,
+      "mtime": 1789784415.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_esopt_5103/summary.json",
+      "sha256": "60acdc9e6ea1d0a342dc694aa6350bbd152c7abdc386b40ea9ceb06fb2cffc78"
+    },
+    "valid_proposal_graph_fraction": 1.0
+  },
+  {
+    "name": "test_uq_esopt_5104",
+    "summary_ref": {
+      "bytes": 2265,
+      "mtime": 1789784914.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_esopt_5104/summary.json",
+      "sha256": "f0003877f5068c35ae6ea22327265efc810f24d76b580e3d03abc3de22b49de3"
+    },
+    "valid_proposal_graph_fraction": 1.0
+  },
+  {
+    "name": "test_uq_esopt_5105",
+    "summary_ref": {
+      "bytes": 2098,
+      "mtime": 1789786472.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_esopt_5105/summary.json",
+      "sha256": "757c427fff5162c6a5fbd2d726f3455dd2d9baf69b23f3d65dd3ac4ab9abb4e5"
+    },
+    "valid_proposal_graph_fraction": 0.9791666666666666
+  },
+  {
+    "name": "test_uq_only_5101",
+    "summary_ref": {
+      "bytes": 2259,
+      "mtime": 1789786874.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_only_5101/summary.json",
+      "sha256": "cbb7e37d2f0eda7f4c9e26af2979b736e407d2153070875631459d6a14b65c6e"
+    },
+    "valid_proposal_graph_fraction": 1.0
+  },
+  {
+    "name": "test_uq_only_5102",
+    "summary_ref": {
+      "bytes": 2391,
+      "mtime": 1789788474.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_only_5102/summary.json",
+      "sha256": "144f8908ae47c30d57830b0773db98c0c14b578f644abb609aae944caec8b2cd"
+    },
+    "valid_proposal_graph_fraction": 1.0
+  },
+  {
+    "name": "test_uq_only_5103",
+    "summary_ref": {
+      "bytes": 2265,
+      "mtime": 1789788854.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_only_5103/summary.json",
+      "sha256": "6e1e02815d5c6b602f117a4f169093bad48e1980fc2e8908cd9a2d30faa4ec77"
+    },
+    "valid_proposal_graph_fraction": 1.0
+  },
+  {
+    "name": "test_uq_only_5104",
+    "summary_ref": {
+      "bytes": 2263,
+      "mtime": 1789790420.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_only_5104/summary.json",
+      "sha256": "c86108a1bbccd6eb32e0ef665b5e07440ba4a9f0b7d7fe6e731d91bafcdfaed5"
+    },
+    "valid_proposal_graph_fraction": 1.0
+  },
+  {
+    "name": "test_uq_only_5105",
+    "summary_ref": {
+      "bytes": 2096,
+      "mtime": 1789790883.0,
+      "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/episodes/test_uq_only_5105/summary.json",
+      "sha256": "4b6f06ebd8392b60f001149a02884efe398dc04b95e6b71611d74381c1b641a0"
+    },
+    "valid_proposal_graph_fraction": 0.9791666666666666
+  }
+]

@@ -1783,5 +1783,21 @@
       "not_part_of_materials_test_matrix": true
     }
   ],
-  "latest_component_study_export_id": "made_components_20260919T185004_CST"
+  "latest_component_study_export_id": "made_components_20260919T185004_CST",
+  "analysis_exports": [
+    {
+      "export_id": "snar_case_analysis_20260919T2023_CST",
+      "benchmark": "Summit SnAr",
+      "report": "results/summit_snar/case_analysis/20260919T2023_CST/report.md",
+      "summary": "results/summit_snar/case_analysis/20260919T2023_CST/case_summary.json",
+      "label_and_prior_audit": "results/summit_snar/case_analysis/20260919T2023_CST/label_prior_check.md",
+      "validation_script": "results/summit_snar/case_analysis/20260919T2023_CST/recompute.py",
+      "source_benchmark_export_id": "summit_snar_accepted_20260919T162548_CST",
+      "reused_test_episodes": 35,
+      "new_scientific_calls": 0,
+      "test_recalibration": false,
+      "descriptive_case_analysis": true,
+      "additional_independent_experiments": false
+    }
+  ]
 }

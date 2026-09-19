@@ -1,0 +1,9 @@
+{
+  "case_comparisons": 30,
+  "curve_points": 1750,
+  "development_generations": 6,
+  "passed": true,
+  "scientific_calls": 0,
+  "scope": "case statistics only; existing full scientific acceptance not rerun",
+  "source_rows": 35
+}

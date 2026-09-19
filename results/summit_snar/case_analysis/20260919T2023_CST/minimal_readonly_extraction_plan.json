@@ -1,0 +1,79 @@
+{
+  "all_paths_are_project_relative_artifact_identifiers": true,
+  "arms": [
+    "uq_esopt",
+    "qwen_base",
+    "gp_ei_scalarized"
+  ],
+  "artifact_root_relative": "benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2",
+  "candidate_fields": [
+    "success",
+    "parameters",
+    "risk",
+    "failure_code",
+    "graph_unavailable.type",
+    "features scalar numeric values"
+  ],
+  "candidate_records": 248,
+  "candidate_rule": "only existing full-arm query005..049_proposal0/1/candidate.json files; no missing-file generation",
+  "excluded": [
+    "generation text/token arrays",
+    "weights",
+    "activation tensors",
+    "native graph NPZ",
+    "new oracle/model/graph calls",
+    "new unselected candidate outcomes",
+    "claims/registrations/parameters changes",
+    "test-outcome-selected seed subset"
+  ],
+  "fixed_seeds": [
+    5101,
+    5102,
+    5103,
+    5104,
+    5105
+  ],
+  "initial_read_guards": [
+    "registry/source SHA matches existing accepted registry",
+    "each relevant evaluation job receipt complete",
+    "each episode summary hash matches frozen local summary reference",
+    "each read file SHA recorded in output",
+    "proposal totals agree with original summaries; mismatch is a reported gap"
+  ],
+  "optional_UQ_equality_check": "If raw behavioral equivalence is needed, reduce/hash the five UQ-only query streams on the same stored fields; metric/weight equality alone is not represented as a raw-query equality proof.",
+  "optional_existing_risk_fit_projection": {
+    "fields": [
+      "feature_names",
+      "rows.train/dev.features",
+      "rows.train/dev.label",
+      "rows.train/dev.episode",
+      "rows.train/dev.prefix_hash",
+      "provenance"
+    ],
+    "no_predict_proba_or_model_loading": true,
+    "rows": 125
+  },
+  "outputs": [
+    "per-executed-query reduced CSV",
+    "per-proposal scalar-risk/features reduced JSONL",
+    "exact retry/ranking/fallback/duplicate counts",
+    "feature quantile/missingness comparison from stored values"
+  ],
+  "query_pattern": "episodes/test_{arm}_{seed}/query{index:03d}.json, index0..49",
+  "query_records": 750,
+  "required_query_fields": [
+    "query_id",
+    "parameters",
+    "objectives",
+    "kind",
+    "risk",
+    "proposal_count",
+    "invalid_proposals",
+    "chosen_generation",
+    "chosen_features_path",
+    "elapsed_seconds",
+    "hv_increment",
+    "no_hvi"
+  ],
+  "status": "not_executed_plan_only"
+}

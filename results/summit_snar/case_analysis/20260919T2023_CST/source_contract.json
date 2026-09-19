@@ -1,0 +1,93 @@
+{
+  "files": [
+    {
+      "logical_source_path": "src/matdiscovery/uncertainty.py",
+      "matches_source_reference_in_frozen_registration": true,
+      "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656",
+      "source_excerpt": "source_evidence/uncertainty.md",
+      "source_references": [
+        {
+          "path": "evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/uncertainty.py",
+          "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+        },
+        {
+          "path": "evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/uncertainty.py",
+          "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+        }
+      ]
+    },
+    {
+      "logical_source_path": "benchmark_extensions/summit_snar_20260918/pipeline.py",
+      "matches_source_reference_in_frozen_registration": true,
+      "sha256": "3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35",
+      "source_excerpt": "source_evidence/pipeline.md",
+      "source_references": [
+        {
+          "path": "benchmark_extensions/summit_snar_20260918/pipeline.py",
+          "sha256": "3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35"
+        },
+        {
+          "path": "benchmark_extensions/summit_snar_20260918/pipeline.py",
+          "sha256": "3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35"
+        }
+      ]
+    },
+    {
+      "logical_source_path": "benchmark_extensions/summit_snar_20260918/study.py",
+      "matches_source_reference_in_frozen_registration": true,
+      "sha256": "cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4",
+      "source_excerpt": "source_evidence/study.md",
+      "source_references": [
+        {
+          "path": "benchmark_extensions/summit_snar_20260918/study.py",
+          "sha256": "cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4"
+        },
+        {
+          "path": "benchmark_extensions/summit_snar_20260918/study.py",
+          "sha256": "cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4"
+        }
+      ]
+    },
+    {
+      "logical_source_path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/repair_pipeline.py",
+      "matches_source_reference_in_frozen_registration": true,
+      "sha256": "b9179c9058572cca44db6d22b9776edfa2f20a6b401505b86f66d57693f90903",
+      "source_excerpt": "source_evidence/repair_pipeline.md",
+      "source_references": [
+        {
+          "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/repair_pipeline.py",
+          "sha256": "b9179c9058572cca44db6d22b9776edfa2f20a6b401505b86f66d57693f90903"
+        },
+        {
+          "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/repair_pipeline.py",
+          "sha256": "b9179c9058572cca44db6d22b9776edfa2f20a6b401505b86f66d57693f90903"
+        }
+      ]
+    },
+    {
+      "logical_source_path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/acceptance_repair.py",
+      "matches_source_reference_in_frozen_registration": true,
+      "sha256": "57567104060e594b5e7713faec62ed36f75bb060064b4b38d58ada7c3e7a26c9",
+      "source_excerpt": "source_evidence/acceptance.md",
+      "source_references": [
+        {
+          "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/acceptance_repair.py",
+          "sha256": "57567104060e594b5e7713faec62ed36f75bb060064b4b38d58ada7c3e7a26c9"
+        },
+        {
+          "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/acceptance_repair.py",
+          "sha256": "57567104060e594b5e7713faec62ed36f75bb060064b4b38d58ada7c3e7a26c9"
+        }
+      ]
+    },
+    {
+      "logical_source_path": "benchmark_extensions/summit_snar_representation_repair_20260919_v2/audit.py",
+      "matches_source_reference_in_frozen_registration": false,
+      "sha256": "8e389992eb0ba00b821b2e8e9b8c18e148e7a995f53a679cee9433dc8ee0e131",
+      "source_excerpt": "source_evidence/label_provenance.md",
+      "source_references": []
+    }
+  ],
+  "paths_are_project_relative_artifact_identifiers": true,
+  "registration_sha256": "71fe749dc4bb88f8262e43c1305d19fda818de571c9c45f47bfbd7948e9a491c"
+}

@@ -1,0 +1,11 @@
+{
+  "exact_derived_result_files_preserved": 6,
+  "model_calls": 0,
+  "new_local_markdown_links_resolve": 18,
+  "passed": true,
+  "prior_35_episode_export_modified": false,
+  "privacy_infra_pattern_violations": 0,
+  "scientific_calls": 0,
+  "scientific_numerical_leaves_preserved": 3836,
+  "validation_scope": "Public numeric/path/link sanitization plus standalone recomputation; not a new scientific experiment."
+}
