@@ -2422,6 +2422,34 @@
       "terminal_signature": "a420a4e9317f0b25148d91741f6479d3ed3bb3aadc9ff04af134109f5d9f93d2",
       "snapshots_overlap_not_additive": true,
       "new_scientific_calls": 0
+    },
+    {
+      "snapshot_id": "qwen35_9b_stage1_20260920T051720_CST",
+      "scope": "qwen35_9b_stage1",
+      "observed_CST": "2026-09-20T05:17:20.269206+08:00",
+      "accepted_test_trajectories": 5,
+      "planned_test_trajectories": 15,
+      "report": "results/qwen35_9b_core/stage1/20260920T051720_CST/report.md",
+      "snapshot": "results/qwen35_9b_core/stage1/20260920T051720_CST/snapshot.json",
+      "summary": "results/qwen35_9b_core/stage1/20260920T051720_CST/summary.json",
+      "recompute": "results/qwen35_9b_core/stage1/20260920T051720_CST/recompute.py",
+      "terminal_signature": "ae6ab52e02868c37b8942bb2c2d4f6a491141b956663fdbd00bde9713c426b6b",
+      "snapshots_overlap_not_additive": true,
+      "new_scientific_calls": 0
+    },
+    {
+      "snapshot_id": "snar_extra_seeds_20260920T051720_CST",
+      "scope": "snar_extra_seeds",
+      "observed_CST": "2026-09-20T05:17:20.269206+08:00",
+      "accepted_test_trajectories": 10,
+      "planned_test_trajectories": 12,
+      "report": "results/summit_snar/extra_seeds/20260920T051720_CST/report.md",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T051720_CST/snapshot.json",
+      "summary": "results/summit_snar/extra_seeds/20260920T051720_CST/summary.json",
+      "recompute": "results/summit_snar/extra_seeds/20260920T051720_CST/recompute.py",
+      "terminal_signature": "00201104c13a683ec8bb3200a5283560b938b8b8182d6bc5308f24b3898cc813",
+      "snapshots_overlap_not_additive": true,
+      "new_scientific_calls": 0
     }
   ]
 }
