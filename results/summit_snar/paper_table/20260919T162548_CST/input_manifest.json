@@ -1,0 +1,79 @@
+{
+  "inputs": [
+    {
+      "local_input": "inputs/per_seed.csv",
+      "original_public_path": "results/summit_snar/20260919T162548_CST/per_seed.csv",
+      "original_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+      "sha256": "206e5fe8a0e90633303b27b67ab70920e5ab3c74f787282e9040fb4afaaa1e44",
+      "bytes": 15561,
+      "byte_exact": true
+    },
+    {
+      "local_input": "inputs/curves.csv",
+      "original_public_path": "results/summit_snar/20260919T162548_CST/curves.csv",
+      "original_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+      "sha256": "dcc86790edc5f4d5971d881a5ee78bb92376821c86257610b1baf4e41dbd6e97",
+      "bytes": 123916,
+      "byte_exact": true
+    },
+    {
+      "local_input": "inputs/statistics.csv",
+      "original_public_path": "results/summit_snar/20260919T162548_CST/statistics.csv",
+      "original_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+      "sha256": "4b3c4f4d200b57772241897abdb2a4f0efd90835e7549b48afcf3e474a6e0d78",
+      "bytes": 8882,
+      "byte_exact": true
+    },
+    {
+      "local_input": "inputs/prior_and_selection.json",
+      "original_public_path": "results/summit_snar/20260919T162548_CST/prior_and_selection.json",
+      "original_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+      "sha256": "a4af844177c11030778a96d0587b3d1f7d15f3d787451e69139b1767726586e0",
+      "bytes": 1697,
+      "byte_exact": true
+    },
+    {
+      "local_input": "inputs/protocol.json",
+      "original_public_path": "results/summit_snar/20260919T162548_CST/protocol.json",
+      "original_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+      "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972",
+      "bytes": 7670,
+      "byte_exact": true
+    },
+    {
+      "local_input": "inputs/summary.json",
+      "original_public_path": "results/summit_snar/20260919T162548_CST/summary.json",
+      "original_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+      "sha256": "14604a2f8a9e3b51466238328cd70adf7c382b409ef1654a94424727bcb6a1a2",
+      "bytes": 18899,
+      "byte_exact": true
+    },
+    {
+      "local_input": "inputs/es_only_development.json",
+      "original_public_path": "results/summit_snar/case_analysis/20260919T2023_CST/inputs/es_only_development.json",
+      "original_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+      "sha256": "520c1fcebd6914cae84421aeaf5edf90411cf6b41719ccb6b68f0b27beb45d95",
+      "bytes": 23450,
+      "byte_exact": true
+    },
+    {
+      "local_input": "inputs/development_selection_decomposition.csv",
+      "original_public_path": "results/summit_snar/case_analysis/20260919T2023_CST/development_selection_decomposition.csv",
+      "original_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+      "sha256": "fe587898bd8030ae99271a3fccc3a92043e83dc09a433ca4e058e7ea0b30cbab",
+      "bytes": 1244,
+      "byte_exact": true
+    }
+  ],
+  "original_public_acceptance_verifier": {
+    "passed": true,
+    "test_episodes": 35,
+    "arms": 7,
+    "seeds_per_arm": 5,
+    "test_curve_points": 1750,
+    "accepted_distinct_physical_calls": 2300,
+    "actual_accepted_report_metric_sets_checked": 28,
+    "manifest_files_verified": 16,
+    "new_science_or_model_calls": 0
+  }
+}

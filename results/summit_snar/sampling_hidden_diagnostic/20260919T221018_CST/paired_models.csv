@@ -1,0 +1,4 @@
+NN_seed,all_minus_sampling_hidden_auroc,all_minus_sampling_hidden_brier,all_minus_sampling_hidden_nll,all_minus_sampling_hidden_ece,different_parameter_counts,descriptive_only_not_independent_physics
+1729,0.0688073394495412,0.2894692410726529,0.95798713452364,0.20831043386299708,True,True
+1730,0.09250764525993882,0.0749089960549324,0.4982107151665096,0.04520397847435165,True,True
+1731,-0.014525993883792054,-0.20120794574897205,-0.5328293751354864,-0.15976977537918302,True,True

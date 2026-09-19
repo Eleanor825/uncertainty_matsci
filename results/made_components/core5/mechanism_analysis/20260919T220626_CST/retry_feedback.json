@@ -1,0 +1,860 @@
+[
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Li(AlV)2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-bceab85ac67db411774a2563:d0000011-c0",
+    "job_id": "support-final-bceab85ac67db411774a2563",
+    "second_decision_id": "support-final-bceab85ac67db411774a2563:d0000011-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Al-Li-V"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Compare candidates using finite existing scores, or propose a different valid candidate. Surrogate scores do not establish final stability. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "unstable",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Li3AlV2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b:d0000012-c0",
+    "job_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b",
+    "second_decision_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b:d0000012-c1",
+    "seed": 3,
+    "source": "predicted_failure_type",
+    "task_id": "Al-Li-V"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Li2AlV",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b:d0000014-c0",
+    "job_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b",
+    "second_decision_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b:d0000014-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Al-Li-V"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Li2AlV2",
+          "structure_hash": "36199726228c222dfa943018b5448613bbeb0f6d7c3f85223dee0bb7973ad6e9"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "first_decision_id": "support-final-cda0e2a385af0e786df7d24a:d0000001-c0",
+    "job_id": "support-final-cda0e2a385af0e786df7d24a",
+    "second_decision_id": "support-final-cda0e2a385af0e786df7d24a:d0000001-c1",
+    "seed": 4,
+    "source": "predicted_failure_type",
+    "task_id": "Al-Li-V"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Li2AlV2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-cda0e2a385af0e786df7d24a:d0000012-c0",
+    "job_id": "support-final-cda0e2a385af0e786df7d24a",
+    "second_decision_id": "support-final-cda0e2a385af0e786df7d24a:d0000012-c1",
+    "seed": 4,
+    "source": "local_schema_validation",
+    "task_id": "Al-Li-V"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-ca740c106b65301c3c20f121:d0000000-c0",
+    "job_id": "support-final-ca740c106b65301c3c20f121",
+    "second_decision_id": "support-final-ca740c106b65301c3c20f121:d0000000-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Al-V-Zn"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-ca740c106b65301c3c20f121:d0000001-c0",
+    "job_id": "support-final-ca740c106b65301c3c20f121",
+    "second_decision_id": "support-final-ca740c106b65301c3c20f121:d0000001-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Al-V-Zn"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Al2VZn",
+          "structure_hash": "4711b2249a9b85330b207fbff1bcc4d1bc1e4dd8e290a63d88e5531cbeb72426"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "first_decision_id": "support-final-8d9484c7a3dc0a3085dccdab:d0000001-c0",
+    "job_id": "support-final-8d9484c7a3dc0a3085dccdab",
+    "second_decision_id": "support-final-8d9484c7a3dc0a3085dccdab:d0000001-c1",
+    "seed": 4,
+    "source": "predicted_failure_type",
+    "task_id": "Al-V-Zn"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-68807310bf257b755381e67b:d0000001-c0",
+    "job_id": "support-final-68807310bf257b755381e67b",
+    "second_decision_id": "support-final-68807310bf257b755381e67b:d0000001-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "K2TbAu",
+          "structure_hash": "1ad6cd4037773bcb3f309838bd8ea63c60b94b0600a0c5a7733da41148271068"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "first_decision_id": "support-final-68807310bf257b755381e67b:d0000003-c0",
+    "job_id": "support-final-68807310bf257b755381e67b",
+    "second_decision_id": "support-final-68807310bf257b755381e67b:d0000003-c1",
+    "seed": 2,
+    "source": "predicted_failure_type",
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "K2TbAu",
+          "structure_hash": "1ad6cd4037773bcb3f309838bd8ea63c60b94b0600a0c5a7733da41148271068"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "first_decision_id": "support-final-68807310bf257b755381e67b:d0000005-c0",
+    "job_id": "support-final-68807310bf257b755381e67b",
+    "second_decision_id": "support-final-68807310bf257b755381e67b:d0000005-c1",
+    "seed": 2,
+    "source": "predicted_failure_type",
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Dy2Co2W",
+          "structure_hash": "24d7f1232c35e8445f6539460c41dd9ede2a29de17c2ba75dc3fe5eb7fb011e9"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "first_decision_id": "support-final-fdb8c5628b1505159c52f7cc:d0000001-c0",
+    "job_id": "support-final-fdb8c5628b1505159c52f7cc",
+    "second_decision_id": "support-final-fdb8c5628b1505159c52f7cc:d0000001-c1",
+    "seed": 2,
+    "source": "predicted_failure_type",
+    "task_id": "Co-Dy-W"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Dy2CoW",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-f6823e6cdf872a727ba2d1e8:d0000012-c0",
+    "job_id": "support-final-f6823e6cdf872a727ba2d1e8",
+    "second_decision_id": "support-final-f6823e6cdf872a727ba2d1e8:d0000012-c1",
+    "seed": 4,
+    "source": "local_schema_validation",
+    "task_id": "Co-Dy-W"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "NaMg10Co",
+          "structure_hash": "15ab0f0f5bf07d4513c9b467ad986a1b50f06d1128debd362267702f853bc93e"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "first_decision_id": "support-final-03a88c2191e750bc3ef7d49f:d0000001-c0",
+    "job_id": "support-final-03a88c2191e750bc3ef7d49f",
+    "second_decision_id": "support-final-03a88c2191e750bc3ef7d49f:d0000001-c1",
+    "seed": 2,
+    "source": "predicted_failure_type",
+    "task_id": "Co-Mg-Na"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "NaMgCo3",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-c2968e57d9e2851ad1f9774e:d0000009-c0",
+    "job_id": "support-final-c2968e57d9e2851ad1f9774e",
+    "second_decision_id": "support-final-c2968e57d9e2851ad1f9774e:d0000009-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Co-Mg-Na"
+  },
+  {
+    "arm": "full_support_aware",
+    "feedback": {
+      "instruction": "Repair the tool arguments. Use an actual visible composition/hash and documented modes or scorers; do not repeat an invalid call. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "tool_execution_failure",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Mg3Co4",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-32b9c75a950dc72b690b9f75:d0000012-c0",
+    "job_id": "support-final-32b9c75a950dc72b690b9f75",
+    "second_decision_id": "support-final-32b9c75a950dc72b690b9f75:d0000012-c1",
+    "seed": 4,
+    "source": "predicted_failure_type",
+    "task_id": "Co-Mg-Na"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Li3Al3V2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-ccd9a242b4945d6cfcdb68dc:d0000012-c0",
+    "job_id": "support-final-ccd9a242b4945d6cfcdb68dc",
+    "second_decision_id": "support-final-ccd9a242b4945d6cfcdb68dc:d0000012-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Al-Li-V"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Li(AlV)2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-4a84dce05fdc57c5272bb199:d0000005-c0",
+    "job_id": "support-final-4a84dce05fdc57c5272bb199",
+    "second_decision_id": "support-final-4a84dce05fdc57c5272bb199:d0000005-c1",
+    "seed": 4,
+    "source": "local_schema_validation",
+    "task_id": "Al-Li-V"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-50481d7de104501120b84fb5:d0000000-c0",
+    "job_id": "support-final-50481d7de104501120b84fb5",
+    "second_decision_id": "support-final-50481d7de104501120b84fb5:d0000000-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Al-V-Zn"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-50481d7de104501120b84fb5:d0000001-c0",
+    "job_id": "support-final-50481d7de104501120b84fb5",
+    "second_decision_id": "support-final-50481d7de104501120b84fb5:d0000001-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Al-V-Zn"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Al2V2Zn",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-50481d7de104501120b84fb5:d0000003-c0",
+    "job_id": "support-final-50481d7de104501120b84fb5",
+    "second_decision_id": "support-final-50481d7de104501120b84fb5:d0000003-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Al-V-Zn"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-5d1cc6924d5efee9cbf9f4a0:d0000000-c0",
+    "job_id": "support-final-5d1cc6924d5efee9cbf9f4a0",
+    "second_decision_id": "support-final-5d1cc6924d5efee9cbf9f4a0:d0000000-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Al-V-Zn"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Al2VZn",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-5d1cc6924d5efee9cbf9f4a0:d0000002-c0",
+    "job_id": "support-final-5d1cc6924d5efee9cbf9f4a0",
+    "second_decision_id": "support-final-5d1cc6924d5efee9cbf9f4a0:d0000002-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Al-V-Zn"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-38ae55456a55c01858bdaca6:d0000000-c0",
+    "job_id": "support-final-38ae55456a55c01858bdaca6",
+    "second_decision_id": "support-final-38ae55456a55c01858bdaca6:d0000000-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-2b6cfd7c97c158c305971c45:d0000000-c0",
+    "job_id": "support-final-2b6cfd7c97c158c305971c45",
+    "second_decision_id": "support-final-2b6cfd7c97c158c305971c45:d0000000-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-2b6cfd7c97c158c305971c45:d0000001-c0",
+    "job_id": "support-final-2b6cfd7c97c158c305971c45",
+    "second_decision_id": "support-final-2b6cfd7c97c158c305971c45:d0000001-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-5eccea7f5a24da2f5b31b4ab:d0000000-c0",
+    "job_id": "support-final-5eccea7f5a24da2f5b31b4ab",
+    "second_decision_id": "support-final-5eccea7f5a24da2f5b31b4ab:d0000000-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Co-Dy-W"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Co3W4",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-5eccea7f5a24da2f5b31b4ab:d0000018-c0",
+    "job_id": "support-final-5eccea7f5a24da2f5b31b4ab",
+    "second_decision_id": "support-final-5eccea7f5a24da2f5b31b4ab:d0000018-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Co-Dy-W"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000000-c0",
+    "job_id": "support-final-97076161f2eb1dff20b02ffe",
+    "second_decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000000-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Co-Dy-W"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Dy(CoW)2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000002-c0",
+    "job_id": "support-final-97076161f2eb1dff20b02ffe",
+    "second_decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000002-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Co-Dy-W"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Dy2CoW2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000012-c0",
+    "job_id": "support-final-97076161f2eb1dff20b02ffe",
+    "second_decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000012-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Co-Dy-W"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-c16688941b047acff551e984:d0000000-c0",
+    "job_id": "support-final-c16688941b047acff551e984",
+    "second_decision_id": "support-final-c16688941b047acff551e984:d0000000-c1",
+    "seed": 4,
+    "source": "local_schema_validation",
+    "task_id": "Co-Dy-W"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Dy2CoW",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-c16688941b047acff551e984:d0000002-c0",
+    "job_id": "support-final-c16688941b047acff551e984",
+    "second_decision_id": "support-final-c16688941b047acff551e984:d0000002-c1",
+    "seed": 4,
+    "source": "local_schema_validation",
+    "task_id": "Co-Dy-W"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-fbf58f289d7058d1b56ff33f:d0000000-c0",
+    "job_id": "support-final-fbf58f289d7058d1b56ff33f",
+    "second_decision_id": "support-final-fbf58f289d7058d1b56ff33f:d0000000-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Co-Mg-Na"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {},
+        "tool": "get_buffer_stats"
+      }
+    },
+    "first_decision_id": "support-final-fbf58f289d7058d1b56ff33f:d0000001-c0",
+    "job_id": "support-final-fbf58f289d7058d1b56ff33f",
+    "second_decision_id": "support-final-fbf58f289d7058d1b56ff33f:d0000001-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Co-Mg-Na"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "NaMg2Co3",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-fbf58f289d7058d1b56ff33f:d0000003-c0",
+    "job_id": "support-final-fbf58f289d7058d1b56ff33f",
+    "second_decision_id": "support-final-fbf58f289d7058d1b56ff33f:d0000003-c1",
+    "seed": 2,
+    "source": "local_schema_validation",
+    "task_id": "Co-Mg-Na"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Na4MgCo4",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-8f46b298f45606301f129592:d0000007-c0",
+    "job_id": "support-final-8f46b298f45606301f129592",
+    "second_decision_id": "support-final-8f46b298f45606301f129592:d0000007-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Co-Mg-Na"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Na2MgCo5",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-8f46b298f45606301f129592:d0000030-c0",
+    "job_id": "support-final-8f46b298f45606301f129592",
+    "second_decision_id": "support-final-8f46b298f45606301f129592:d0000030-c1",
+    "seed": 3,
+    "source": "local_schema_validation",
+    "task_id": "Co-Mg-Na"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Na2MgCo2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-d5b33bead70e71d6523996b6:d0000007-c0",
+    "job_id": "support-final-d5b33bead70e71d6523996b6",
+    "second_decision_id": "support-final-d5b33bead70e71d6523996b6:d0000007-c1",
+    "seed": 4,
+    "source": "local_schema_validation",
+    "task_id": "Co-Mg-Na"
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "feedback": {
+      "instruction": "Repair the JSON/tool/arguments schema. Return one allowed tool with only its documented arguments; do not invent results. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "generation_invalid",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Na2MgCo2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "first_decision_id": "support-final-d5b33bead70e71d6523996b6:d0000013-c0",
+    "job_id": "support-final-d5b33bead70e71d6523996b6",
+    "second_decision_id": "support-final-d5b33bead70e71d6523996b6:d0000013-c1",
+    "seed": 4,
+    "source": "local_schema_validation",
+    "task_id": "Co-Mg-Na"
+  }
+]

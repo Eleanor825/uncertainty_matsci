@@ -1,0 +1,679 @@
+[
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-bceab85ac67db411774a2563:d0000011-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-bceab85ac67db411774a2563",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Al-Li-V",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b:d0000012-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b",
+    "local_schema_issues": [],
+    "seed": 3,
+    "task_id": "Al-Li-V",
+    "trigger": "unstable",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "unstable"
+    ]
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b:d0000014-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 3,
+    "task_id": "Al-Li-V",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-cda0e2a385af0e786df7d24a:d0000001-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-cda0e2a385af0e786df7d24a",
+    "local_schema_issues": [],
+    "seed": 4,
+    "task_id": "Al-Li-V",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-cda0e2a385af0e786df7d24a:d0000012-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-cda0e2a385af0e786df7d24a",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 4,
+    "task_id": "Al-Li-V",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-ca740c106b65301c3c20f121:d0000000-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-ca740c106b65301c3c20f121",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Al-V-Zn",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-ca740c106b65301c3c20f121:d0000001-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-ca740c106b65301c3c20f121",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Al-V-Zn",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-8d9484c7a3dc0a3085dccdab:d0000001-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-8d9484c7a3dc0a3085dccdab",
+    "local_schema_issues": [],
+    "seed": 4,
+    "task_id": "Al-V-Zn",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-68807310bf257b755381e67b:d0000001-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-68807310bf257b755381e67b",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 2,
+    "task_id": "Au-K-Tb",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-68807310bf257b755381e67b:d0000003-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-68807310bf257b755381e67b",
+    "local_schema_issues": [],
+    "seed": 2,
+    "task_id": "Au-K-Tb",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-68807310bf257b755381e67b:d0000005-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-68807310bf257b755381e67b",
+    "local_schema_issues": [],
+    "seed": 2,
+    "task_id": "Au-K-Tb",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 1,
+    "decision_id": "support-final-68807310bf257b755381e67b:d0000005-c1",
+    "has_actual_next_candidate": false,
+    "job_id": "support-final-68807310bf257b755381e67b",
+    "local_schema_issues": [],
+    "seed": 2,
+    "task_id": "Au-K-Tb",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-fdb8c5628b1505159c52f7cc:d0000001-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-fdb8c5628b1505159c52f7cc",
+    "local_schema_issues": [],
+    "seed": 2,
+    "task_id": "Co-Dy-W",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-f6823e6cdf872a727ba2d1e8:d0000012-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-f6823e6cdf872a727ba2d1e8",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 4,
+    "task_id": "Co-Dy-W",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-03a88c2191e750bc3ef7d49f:d0000001-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-03a88c2191e750bc3ef7d49f",
+    "local_schema_issues": [],
+    "seed": 2,
+    "task_id": "Co-Mg-Na",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-c2968e57d9e2851ad1f9774e:d0000009-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-c2968e57d9e2851ad1f9774e",
+    "local_schema_issues": [
+      "unknown_tool_arguments"
+    ],
+    "seed": 3,
+    "task_id": "Co-Mg-Na",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "full_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-32b9c75a950dc72b690b9f75:d0000012-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-32b9c75a950dc72b690b9f75",
+    "local_schema_issues": [],
+    "seed": 4,
+    "task_id": "Co-Mg-Na",
+    "trigger": "tool_execution_failure",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "tool_execution_failure"
+    ]
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-ccd9a242b4945d6cfcdb68dc:d0000012-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-ccd9a242b4945d6cfcdb68dc",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Al-Li-V",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-4a84dce05fdc57c5272bb199:d0000005-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-4a84dce05fdc57c5272bb199",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 4,
+    "task_id": "Al-Li-V",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-50481d7de104501120b84fb5:d0000000-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-50481d7de104501120b84fb5",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Al-V-Zn",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-50481d7de104501120b84fb5:d0000001-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-50481d7de104501120b84fb5",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Al-V-Zn",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-50481d7de104501120b84fb5:d0000003-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-50481d7de104501120b84fb5",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 2,
+    "task_id": "Al-V-Zn",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 1,
+    "decision_id": "support-final-50481d7de104501120b84fb5:d0000003-c1",
+    "has_actual_next_candidate": false,
+    "job_id": "support-final-50481d7de104501120b84fb5",
+    "local_schema_issues": [],
+    "seed": 2,
+    "task_id": "Al-V-Zn",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-5d1cc6924d5efee9cbf9f4a0:d0000000-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-5d1cc6924d5efee9cbf9f4a0",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 3,
+    "task_id": "Al-V-Zn",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-5d1cc6924d5efee9cbf9f4a0:d0000002-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-5d1cc6924d5efee9cbf9f4a0",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 3,
+    "task_id": "Al-V-Zn",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 1,
+    "decision_id": "support-final-5d1cc6924d5efee9cbf9f4a0:d0000002-c1",
+    "has_actual_next_candidate": false,
+    "job_id": "support-final-5d1cc6924d5efee9cbf9f4a0",
+    "local_schema_issues": [],
+    "seed": 3,
+    "task_id": "Al-V-Zn",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-38ae55456a55c01858bdaca6:d0000000-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-38ae55456a55c01858bdaca6",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Au-K-Tb",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-2b6cfd7c97c158c305971c45:d0000000-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-2b6cfd7c97c158c305971c45",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 3,
+    "task_id": "Au-K-Tb",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-2b6cfd7c97c158c305971c45:d0000001-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-2b6cfd7c97c158c305971c45",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 3,
+    "task_id": "Au-K-Tb",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 1,
+    "decision_id": "support-final-2b6cfd7c97c158c305971c45:d0000001-c1",
+    "has_actual_next_candidate": false,
+    "job_id": "support-final-2b6cfd7c97c158c305971c45",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 3,
+    "task_id": "Au-K-Tb",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-5eccea7f5a24da2f5b31b4ab:d0000000-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-5eccea7f5a24da2f5b31b4ab",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Co-Dy-W",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-5eccea7f5a24da2f5b31b4ab:d0000018-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-5eccea7f5a24da2f5b31b4ab",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 2,
+    "task_id": "Co-Dy-W",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000000-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-97076161f2eb1dff20b02ffe",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 3,
+    "task_id": "Co-Dy-W",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000002-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-97076161f2eb1dff20b02ffe",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 3,
+    "task_id": "Co-Dy-W",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 1,
+    "decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000002-c1",
+    "has_actual_next_candidate": false,
+    "job_id": "support-final-97076161f2eb1dff20b02ffe",
+    "local_schema_issues": [],
+    "seed": 3,
+    "task_id": "Co-Dy-W",
+    "trigger": "not_new",
+    "trigger_source": "predicted_failure_type",
+    "triggered_heads": [
+      "not_new"
+    ]
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-97076161f2eb1dff20b02ffe:d0000012-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-97076161f2eb1dff20b02ffe",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 3,
+    "task_id": "Co-Dy-W",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-c16688941b047acff551e984:d0000000-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-c16688941b047acff551e984",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 4,
+    "task_id": "Co-Dy-W",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-c16688941b047acff551e984:d0000002-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-c16688941b047acff551e984",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 4,
+    "task_id": "Co-Dy-W",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-fbf58f289d7058d1b56ff33f:d0000000-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-fbf58f289d7058d1b56ff33f",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Co-Mg-Na",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-fbf58f289d7058d1b56ff33f:d0000001-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-fbf58f289d7058d1b56ff33f",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 2,
+    "task_id": "Co-Mg-Na",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-fbf58f289d7058d1b56ff33f:d0000003-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-fbf58f289d7058d1b56ff33f",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 2,
+    "task_id": "Co-Mg-Na",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-8f46b298f45606301f129592:d0000007-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-8f46b298f45606301f129592",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 3,
+    "task_id": "Co-Mg-Na",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-8f46b298f45606301f129592:d0000030-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-8f46b298f45606301f129592",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 3,
+    "task_id": "Co-Mg-Na",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-d5b33bead70e71d6523996b6:d0000007-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-d5b33bead70e71d6523996b6",
+    "local_schema_issues": [
+      "expected_allowed_tool_and_arguments_object"
+    ],
+    "seed": 4,
+    "task_id": "Co-Mg-Na",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  },
+  {
+    "arm": "uq_only_support_aware",
+    "candidate_index": 0,
+    "decision_id": "support-final-d5b33bead70e71d6523996b6:d0000013-c0",
+    "has_actual_next_candidate": true,
+    "job_id": "support-final-d5b33bead70e71d6523996b6",
+    "local_schema_issues": [
+      "composition_required"
+    ],
+    "seed": 4,
+    "task_id": "Co-Mg-Na",
+    "trigger": "generation_invalid",
+    "trigger_source": "local_schema_validation",
+    "triggered_heads": []
+  }
+]

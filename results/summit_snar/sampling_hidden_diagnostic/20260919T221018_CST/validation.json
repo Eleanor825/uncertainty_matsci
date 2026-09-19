@@ -1,0 +1,18 @@
+{
+  "all672_prediction_values_exact": true,
+  "calibration_rows": 420,
+  "empty_bin_means_not_imputed": true,
+  "max_independent_metric_roundoff": 4.440892098500626e-16,
+  "new_fits_or_inferences_or_oracle_calls": 0,
+  "not_yet_published": true,
+  "original_prepare_run_audit_returncodes": [
+    0,
+    0,
+    0
+  ],
+  "passed": true,
+  "pointwise_metric_comparisons": 588,
+  "schema": "sampling_hidden_local_archive_validation_v1",
+  "source_manifest_sha256": "255609e71850b888738b6479fb9ff6b9ddc7fe577492a5a1b0c709f518fd7c9c",
+  "source_readback_snapshot_sha256": "7dccc4861525e8a96a771a3f62b21a2ef100270e2d26c0d5c757e4b8354ab256"
+}

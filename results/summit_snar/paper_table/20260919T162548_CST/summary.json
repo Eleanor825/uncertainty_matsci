@@ -1,0 +1,38 @@
+{
+  "schema": "SnAr_paper_table_from_existing_35_v1",
+  "complete_heldout_trajectories": 35,
+  "seed_axis": "evaluation_seeds_5101_to_5105_conditional_on_one_fixed_adaptation",
+  "metrics_units": "unscaled_normalized_hypervolume; table means/SD times 1e4 and variance times 1e8",
+  "common_prior_hv": 0.8810117795428745,
+  "adaptation_calls": 550,
+  "heldout_calls": 1750,
+  "total_distinct_physical_calls": 2300,
+  "new_physical_model_or_fit_calls": 0,
+  "paired_full_minus_baseline": {
+    "final_hv_gain": {
+      "mean_delta": -3.0408221000377545e-05,
+      "sample_variance_ddof1": 5.176106086143478e-09,
+      "SD": 7.19451602690791e-05,
+      "wins": 2,
+      "ties": 1,
+      "losses": 2
+    },
+    "mean_querywise_hv_gain": {
+      "mean_delta": -1.3481530698715727e-06,
+      "sample_variance_ddof1": 9.979133525726419e-10,
+      "SD": 3.1589766579901186e-05,
+      "wins": 2,
+      "ties": 1,
+      "losses": 2
+    }
+  },
+  "selected_generation": {
+    "full": 0,
+    "es_only": 0
+  },
+  "full_changed_G1_and_G2_weights": true,
+  "es_only_G1_update_nonzero_tensor_count": 0,
+  "es_only_G2_update_nonzero_tensor_count": 723,
+  "full_equals_uq_curves": true,
+  "es_only_equals_baseline_curves": true
+}

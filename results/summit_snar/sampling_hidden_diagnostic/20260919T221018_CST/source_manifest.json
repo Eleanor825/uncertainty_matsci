@@ -1,0 +1,139 @@
+{
+  "gzip_scientific_sources": [
+    {
+      "bundle_path": "sources/union__all_models_frozen_before_test_scoring.json.gz",
+      "gzip_sha256": "b24ade2d3712bdf989eb071e8861ec774c073f00f6cae2c2d3730d03d5c2763a",
+      "logical_name": "union/all_models_frozen_before_test_scoring.json",
+      "original_bytes": 977,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_sampling_hidden_diagnostic_20260919_v1/runs/v1/all_models_frozen_before_test_scoring.json",
+      "original_sha256": "64a729e0464e56862b2bca160b05ee7f56e08d428720c6c3f3728a6383021c7f"
+    },
+    {
+      "bundle_path": "sources/union__audit.json.gz",
+      "gzip_sha256": "61da385ba69d632afffd969dad98bdecbc740134ac4500419988dbb90b080538",
+      "logical_name": "union/audit.json",
+      "original_bytes": 545,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_sampling_hidden_diagnostic_20260919_v1/runs/v1/audit.json",
+      "original_sha256": "5fb6191c44f9a8ac8d9b38fbba4e0a08266f3d059252f9cee1f23f1532eebd9a"
+    },
+    {
+      "bundle_path": "sources/union__completion.json.gz",
+      "gzip_sha256": "293068971f4aef55e8109b5005c2b694537b5007306f6a4b8ca44f0479c9a1a0",
+      "logical_name": "union/completion.json",
+      "original_bytes": 761,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_sampling_hidden_diagnostic_20260919_v1/runs/v1/completion.json",
+      "original_sha256": "c10fd228890fb7098fe00c87cbd15e4fc20489e486d191043a0f822ef094ae2b"
+    },
+    {
+      "bundle_path": "sources/union__models__1729__fit.json.gz",
+      "gzip_sha256": "9b7da92d7c521bae980d3f57f5ca476643e5536b1050c70cc093fd726296e8f8",
+      "logical_name": "union/models/1729/fit.json",
+      "original_bytes": 11435,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_sampling_hidden_diagnostic_20260919_v1/runs/v1/models/1729/fit.json",
+      "original_sha256": "9608171c62f2bb7922fb225602475604ae35c66b1494d53093e1fa351aeceabe"
+    },
+    {
+      "bundle_path": "sources/union__models__1730__fit.json.gz",
+      "gzip_sha256": "faf1b33969685352f46ac308ba149421d062ff6b0a6b1c11e0d9f79a2a7d9364",
+      "logical_name": "union/models/1730/fit.json",
+      "original_bytes": 11401,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_sampling_hidden_diagnostic_20260919_v1/runs/v1/models/1730/fit.json",
+      "original_sha256": "c3af5906efd0158f21591fc4f3dc66f7e189b38d72a8fc5ba8d9923c3a8069a6"
+    },
+    {
+      "bundle_path": "sources/union__models__1731__fit.json.gz",
+      "gzip_sha256": "cfa32b5603b4ccfb80b811e77f706621f1e9e26baaa836f063df7113f1116d50",
+      "logical_name": "union/models/1731/fit.json",
+      "original_bytes": 11335,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_sampling_hidden_diagnostic_20260919_v1/runs/v1/models/1731/fit.json",
+      "original_sha256": "8ddb2ee18878a9298307275f64507991b0a44b25c2df8387454848e6cd7c98f6"
+    },
+    {
+      "bundle_path": "sources/union__registration.json.gz",
+      "gzip_sha256": "fcc17f84d955b2f268ed4020891887f753768c5be54410194aaea874c97fc872",
+      "logical_name": "union/registration.json",
+      "original_bytes": 6534,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_sampling_hidden_diagnostic_20260919_v1/runs/v1/registration.json",
+      "original_sha256": "7d21a7f41a07d41b9a26a14d47cb0731330eabf0c145c44b46f87828b824aa29"
+    },
+    {
+      "bundle_path": "sources/union__report.json.gz",
+      "gzip_sha256": "4bbd17f2ef7e04f33147d369885a2f7e1b2a8e96b46c58410dd683ea59a3f72e",
+      "logical_name": "union/report.json",
+      "original_bytes": 194138,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_sampling_hidden_diagnostic_20260919_v1/runs/v1/report.json",
+      "original_sha256": "9838d2addb473446acc7a76dacf4cb9d1585915ba4e8fd54ea0629dac52eb61e"
+    },
+    {
+      "bundle_path": "sources/parent__report.json.gz",
+      "gzip_sha256": "f2e9ad1bddc0274acde28ca6b4c36a8325ecbd49ec2cc497ef9738544f06d2e6",
+      "logical_name": "parent/report.json",
+      "original_bytes": 962112,
+      "original_path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_feature_family_diagnostic_20260919_v1/runs/v1/report.json",
+      "original_sha256": "b358c7dfb107884f5c471bff327d8043747e74a9ddc345308c4609a08609ac5c"
+    },
+    {
+      "bundle_path": "sources/parent__input_projection.json.gz",
+      "gzip_sha256": "ddff0650b9b1373925d19c0212dbc23c73b6f4d6f9a90af1bb4d00d58af0894a",
+      "logical_name": "parent/input_projection.json",
+      "original_bytes": 5862980,
+      "original_path": null,
+      "original_sha256": "9262eb9b552fabd6252f6d62cd6159a935730321adf63bb4c7543a04dd06cd1c"
+    },
+    {
+      "bundle_path": "sources/parent__prior_and_selection.json.gz",
+      "gzip_sha256": "2b8ea259c218bd715054f7dbf38b2412646f109748595638b497c6b77fe29cfa",
+      "logical_name": "parent/prior_and_selection.json",
+      "original_bytes": 1697,
+      "original_path": null,
+      "original_sha256": "a4af844177c11030778a96d0587b3d1f7d15f3d787451e69139b1767726586e0"
+    },
+    {
+      "bundle_path": "sources/parent__es_only_development.json.gz",
+      "gzip_sha256": "d1d981995e526d18319e1ca1c99dd21b50e9bc71539e653e6706b2ae532419d1",
+      "logical_name": "parent/es_only_development.json",
+      "original_bytes": 24282,
+      "original_path": null,
+      "original_sha256": "5b3a9725c5d45083f40facd336d582884baccd3b35df1939718a89b27b473b3a"
+    }
+  ],
+  "metric_math_function_ASTs_unchanged": true,
+  "metric_math_origin_sha256": "0f6eee8f38e94966069c4678aafe18483196049542589af0dc7306b9c0349394",
+  "new_original_JSON_artifacts": 8,
+  "original_JSON_total_bytes": 237126,
+  "parent_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+  "physical_checkpoints_published": false,
+  "schema": "sampling_hidden_portable_sources_v1",
+  "scientific_code": [
+    {
+      "bundle_path": "sources/union_runner.py",
+      "bytes": 11863,
+      "original_sha256": "ede514c346f33642f78aec42cff29a6cb53f42ae0a85366f9deaed8fa16e945b"
+    },
+    {
+      "bundle_path": "sources/union_plan.json",
+      "bytes": 1765,
+      "original_sha256": "71fb822164260b2928e4b271c856b4cdc36dc013836eb2fdcfe292ec8efe7350"
+    },
+    {
+      "bundle_path": "sources/union_source_manifest.json",
+      "bytes": 1422,
+      "original_sha256": "ea29041e092f95889232355242b13b3d2d2e5bdc0162677ce1f4e8d6c5d2aa73"
+    },
+    {
+      "bundle_path": "sources/parent_engine.py",
+      "bytes": 5740,
+      "original_sha256": "0f2e876f75df34e3563659e2a6d14ba63090be3abbaee168253e86f159b05ea8"
+    },
+    {
+      "bundle_path": "sources/parent_runner.py",
+      "bytes": 21874,
+      "original_sha256": "242824688ce715339d61d35ebf25e679c0fc51258a18891e79c5920ab3a659ef"
+    },
+    {
+      "bundle_path": "sources/original_uncertainty.py",
+      "bytes": 10963,
+      "original_sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+    }
+  ]
+}

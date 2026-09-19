@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "bytes": 812,
+      "path": "CPU_validation.json",
+      "sha256": "e1684bd4ea66adb4fbcac2892c5f73e1ddba974e04f8c6f7adefeff7fc13289f"
+    },
+    {
+      "bytes": 110,
+      "path": "CPU_validation.log",
+      "sha256": "2b8b091a52166774b27880de392e033924316686988d30bf658b6bb11597a6c9"
+    },
+    {
+      "bytes": 1006,
+      "path": "CPU_validation.xml",
+      "sha256": "d93dc92b182f307e4fb9647ccb464f412991b0be8aaab54b59356121ccb09e4d"
+    },
+    {
+      "bytes": 4551,
+      "path": "README.md",
+      "sha256": "45bd53cd55c8609a20510de3326660dca0b56283fa159292d630fb375704cdb1"
+    },
+    {
+      "bytes": 7281,
+      "path": "parent_exact_reconstruction.json",
+      "sha256": "87743b7ea12896583e070650290535012e61ab9eae8928987738f5d71598879b"
+    },
+    {
+      "bytes": 1765,
+      "path": "plan.json",
+      "sha256": "71fb822164260b2928e4b271c856b4cdc36dc013836eb2fdcfe292ec8efe7350"
+    },
+    {
+      "bytes": 11863,
+      "path": "runner.py",
+      "sha256": "ede514c346f33642f78aec42cff29a6cb53f42ae0a85366f9deaed8fa16e945b"
+    },
+    {
+      "bytes": 4107,
+      "path": "test_extension.py",
+      "sha256": "f13bf66d4c29ad8712964e70cb456b9f8df9e6a3bfd99497fb66c58c1ee43ac7"
+    }
+  ],
+  "fingerprint": "da8e89bed3127402fb21df23347f47b923b42e2cb8eaced9988fcdda119862ce",
+  "schema": "snar_sampling_hidden_extension_source_manifest_v1",
+  "status": "READY_not_deployed_not_run"
+}

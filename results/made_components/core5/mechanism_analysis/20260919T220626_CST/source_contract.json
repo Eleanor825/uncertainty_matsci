@@ -1,0 +1,38 @@
+{
+  "extractor": {
+    "path": "technical_not_main/made_core60_mechanism_actual_20260919_v1/observe.py",
+    "sha256": "f96baf310f56fd1f99a6beea3e31b60256acd1a1fdff50c428642e00f4819ce2"
+  },
+  "method_generation_identity": "MADE UQ/base G0; Full G2; independent ES-only G1, from each actual profile, not inferred from SnAr",
+  "method_sources": [
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/rollouts.py",
+      "sha256": "ad67538c5b57f82d3ae3c7dc29e486bca43443e953aa7de68952fb51f8a2ad0c"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/failure_controller.py",
+      "sha256": "d8202d3a36612d62b720424ad18f8b4963b0f411cc202feb04c6188f770cb538"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/support_control.py",
+      "sha256": "b0a5773a74e54cc178a9ab913dc3524207f094937a9f181dfcbe376951f7fa5d"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/failure_labels.py",
+      "sha256": "acd7786273bb22bb2503d4d430fad3c59dfa0da456a4ec373d362e4a46dd6ba5"
+    }
+  ],
+  "no_source_changes": true,
+  "no_test_tuning": true,
+  "raw_extraction": {
+    "path": "technical_not_main/made_core60_mechanism_actual_20260919_v1/trajectories.jsonl.gz",
+    "sha256": "6430dde5138feb880868d63744522e475bc8f18f3d7e59cce118e4c830519a05"
+  },
+  "schema": "MADE_core60_mechanism_source_bindings_v1",
+  "source_roles": {
+    "failure_controller.py": "schema-before-typed trigger, deterministic feedback/preference, valid-first common-head ranking",
+    "failure_labels.py": "observed failure labels and horizons",
+    "rollouts.py": "generation seed/prompt feedback, scalar threshold, retry slots and candidate application",
+    "support_control.py": "raw diagnostics retained but unsupported NN masked; any-unknown cross-candidate ranking disabled"
+  }
+}

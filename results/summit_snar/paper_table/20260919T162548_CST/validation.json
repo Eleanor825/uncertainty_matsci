@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "recompute_exit_code": 0,
+  "recompute_result": {
+    "passed": true,
+    "trajectories": 35,
+    "curve_points": 1750,
+    "metric_mean_variance_sd_sets": 14,
+    "derived_files_byte_exact": [
+      "table.csv",
+      "per_seed.csv",
+      "table.tex",
+      "summary.json"
+    ],
+    "new_science_calls": 0
+  },
+  "table_tex_compile": "not_run_pdflatex_not_on_PATH",
+  "new_science_model_or_fit_calls": 0,
+  "publication": "additive_public_export",
+  "original_public_commit": "736d96be6438992c59bc498754abc6dc7dcce3e1",
+  "variance_axis": "five_evaluation_seeds_conditional_on_one_fixed_adaptation",
+  "selection": "both_branches_selected_G0_not_a_deployed_ES_gain",
+  "full_training_updates": "two_changed_weight_updates; independent_ES_only_first_zero_second_nonzero"
+}

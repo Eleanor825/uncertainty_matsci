@@ -1933,6 +1933,60 @@
       "causal_graph_contribution_isolated": false,
       "policy_deployed": false,
       "additional_independent_physical_experiments": false
+    },
+    {
+      "export_id": "snar_paper_table_20260919T162548_CST",
+      "benchmark": "Summit SnAr",
+      "report": "results/summit_snar/paper_table/20260919T162548_CST/REPORT.md",
+      "table_tex": "results/summit_snar/paper_table/20260919T162548_CST/table.tex",
+      "summary": "results/summit_snar/paper_table/20260919T162548_CST/summary.json",
+      "validation_script": "results/summit_snar/paper_table/20260919T162548_CST/recompute.py",
+      "source_benchmark_export_id": "summit_snar_accepted_20260919T162548_CST",
+      "reused_test_episodes": 35,
+      "new_scientific_calls": 0,
+      "additional_independent_experiments": false,
+      "both_ES_branches_selected_G0": true
+    },
+    {
+      "export_id": "snar_sampling_hidden_20260919T221018_CST",
+      "benchmark": "Summit SnAr",
+      "report": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/REPORT.md",
+      "summary": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/summary.json",
+      "validation_script": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/recompute.py",
+      "manifest": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/MANIFEST.json",
+      "diagnostic_kind": "additional sampling+hidden feature family on fixed saved actions",
+      "new_NN_models": 3,
+      "cumulative_NN_models": 15,
+      "new_recorded_CPU_optimizer_steps": 180,
+      "cumulative_CPU_optimizer_steps": 926,
+      "new_prediction_records": 672,
+      "unique_physical_actions": 224,
+      "NN_training_seeds": [
+        1729,
+        1730,
+        1731
+      ],
+      "original_new_audit_passed": true,
+      "new_physical_queries": 0,
+      "new_fits_for_publication": 0,
+      "policy_deployed": false,
+      "causal_graph_contribution_isolated": false
+    },
+    {
+      "export_id": "made_core60_mechanism_20260919T220626_CST",
+      "benchmark": "MADE",
+      "report": "results/made_components/core5/mechanism_analysis/20260919T220626_CST/REPORT.md",
+      "summary": "results/made_components/core5/mechanism_analysis/20260919T220626_CST/summary.json",
+      "validation_script": "results/made_components/core5/mechanism_analysis/20260919T220626_CST/analyze.py",
+      "validation_Python_version": "3.12",
+      "reused_trajectories": 60,
+      "proposals": 1237,
+      "executed_policy_tools": 1174,
+      "candidate_ORB_steps": 600,
+      "new_scientific_calls": 0,
+      "test_tuning": false,
+      "additional_independent_experiments": false,
+      "NN_contribution_causally_isolated": false
     }
   ]
 }

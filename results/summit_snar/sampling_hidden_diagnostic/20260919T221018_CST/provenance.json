@@ -1,0 +1,18 @@
+{
+  "actual_completed_CST": "2026-09-19T22:10:18.444778+08:00",
+  "actual_prepare_run_audit_returncodes": [
+    0,
+    0,
+    0
+  ],
+  "actual_readback_snapshot_sha256": "7dccc4861525e8a96a771a3f62b21a2ef100270e2d26c0d5c757e4b8354ab256",
+  "new_fits_by_this_archive": 0,
+  "new_model_or_oracle_calls_by_this_archive": 0,
+  "original_parent_audit_returncode": 1,
+  "parent_separate_exact_reconstruction_preserved": true,
+  "schema": "sampling_hidden_archive_provenance_v1",
+  "source_package_manifest_sha256": "ea29041e092f95889232355242b13b3d2d2e5bdc0162677ce1f4e8d6c5d2aa73",
+  "union_original_audit_sha256": "5fb6191c44f9a8ac8d9b38fbba4e0a08266f3d059252f9cee1f23f1532eebd9a",
+  "union_original_registration_sha256": "7d21a7f41a07d41b9a26a14d47cb0731330eabf0c145c44b46f87828b824aa29",
+  "union_original_report_sha256": "9838d2addb473446acc7a76dacf4cb9d1585915ba4e8fd54ea0629dac52eb61e"
+}

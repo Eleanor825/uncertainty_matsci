@@ -1,0 +1,489 @@
+[
+  {
+    "actual_next_candidate": true,
+    "arm": "full_support_aware",
+    "candidate_tools": [
+      "select_for_evaluation",
+      "generate_structures"
+    ],
+    "chosen_decision_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b:d0000012-c0",
+    "chosen_index": 0,
+    "common_heads": [],
+    "controller_schema_valid": [
+      true,
+      true
+    ],
+    "controller_valid_indices": [
+      0,
+      1
+    ],
+    "decision_ids": [
+      "support-final-2b96c9fd2ded8ff4d3c9fa7b:d0000012-c0",
+      "support-final-2b96c9fd2ded8ff4d3c9fa7b:d0000012-c1"
+    ],
+    "first_trigger": "unstable",
+    "first_trigger_source": "predicted_failure_type",
+    "generation_success": [
+      true,
+      true
+    ],
+    "graph_statuses": [
+      "succeeded",
+      "unavailable"
+    ],
+    "job_id": "support-final-2b96c9fd2ded8ff4d3c9fa7b",
+    "proposal_count": 2,
+    "ranking_rule": "valid_first; original_index_when_any_native_support_unknown",
+    "second_completion_tokens": 78,
+    "second_feedback": {
+      "instruction": "Compare candidates using finite existing scores, or propose a different valid candidate. Surrogate scores do not establish final stability. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "unstable",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Li3AlV2",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "second_generation_seconds": 8.218335248529911,
+    "second_graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.13.mlp: FVU=0.5002838969230652, defined=True.",
+    "second_graph_seconds": 12.28446592297405,
+    "second_prompt_tokens": 3048,
+    "second_unused": true,
+    "seed": 3,
+    "selection_changed_from_first_controller_valid": false,
+    "sequence": 12,
+    "task_id": "Al-Li-V",
+    "type_signals_used": false
+  },
+  {
+    "actual_next_candidate": true,
+    "arm": "full_support_aware",
+    "candidate_tools": [
+      "select_for_evaluation",
+      "select_for_evaluation"
+    ],
+    "chosen_decision_id": "support-final-cda0e2a385af0e786df7d24a:d0000001-c0",
+    "chosen_index": 0,
+    "common_heads": [],
+    "controller_schema_valid": [
+      true,
+      true
+    ],
+    "controller_valid_indices": [
+      0,
+      1
+    ],
+    "decision_ids": [
+      "support-final-cda0e2a385af0e786df7d24a:d0000001-c0",
+      "support-final-cda0e2a385af0e786df7d24a:d0000001-c1"
+    ],
+    "first_trigger": "not_new",
+    "first_trigger_source": "predicted_failure_type",
+    "generation_success": [
+      true,
+      true
+    ],
+    "graph_statuses": [
+      "succeeded",
+      "unavailable"
+    ],
+    "job_id": "support-final-cda0e2a385af0e786df7d24a",
+    "proposal_count": 2,
+    "ranking_rule": "valid_first; original_index_when_any_native_support_unknown",
+    "second_completion_tokens": 144,
+    "second_feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Li2AlV2",
+          "structure_hash": "36199726228c222dfa943018b5448613bbeb0f6d7c3f85223dee0bb7973ad6e9"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "second_generation_seconds": 13.721883481368423,
+    "second_graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.13.mlp: FVU=0.5015299320220947, defined=True.",
+    "second_graph_seconds": 9.992647374980152,
+    "second_prompt_tokens": 2241,
+    "second_unused": true,
+    "seed": 4,
+    "selection_changed_from_first_controller_valid": false,
+    "sequence": 1,
+    "task_id": "Al-Li-V",
+    "type_signals_used": false
+  },
+  {
+    "actual_next_candidate": true,
+    "arm": "full_support_aware",
+    "candidate_tools": [
+      "select_for_evaluation",
+      "select_for_evaluation"
+    ],
+    "chosen_decision_id": "support-final-8d9484c7a3dc0a3085dccdab:d0000001-c0",
+    "chosen_index": 0,
+    "common_heads": [],
+    "controller_schema_valid": [
+      true,
+      true
+    ],
+    "controller_valid_indices": [
+      0,
+      1
+    ],
+    "decision_ids": [
+      "support-final-8d9484c7a3dc0a3085dccdab:d0000001-c0",
+      "support-final-8d9484c7a3dc0a3085dccdab:d0000001-c1"
+    ],
+    "first_trigger": "not_new",
+    "first_trigger_source": "predicted_failure_type",
+    "generation_success": [
+      true,
+      true
+    ],
+    "graph_statuses": [
+      "succeeded",
+      "unavailable"
+    ],
+    "job_id": "support-final-8d9484c7a3dc0a3085dccdab",
+    "proposal_count": 2,
+    "ranking_rule": "valid_first; original_index_when_any_native_support_unknown",
+    "second_completion_tokens": 136,
+    "second_feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Al2VZn",
+          "structure_hash": "4711b2249a9b85330b207fbff1bcc4d1bc1e4dd8e290a63d88e5531cbeb72426"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "second_generation_seconds": 13.228786385152489,
+    "second_graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.13.mlp: FVU=0.5060874223709106, defined=True.",
+    "second_graph_seconds": 10.451607977971435,
+    "second_prompt_tokens": 2305,
+    "second_unused": true,
+    "seed": 4,
+    "selection_changed_from_first_controller_valid": false,
+    "sequence": 1,
+    "task_id": "Al-V-Zn",
+    "type_signals_used": false
+  },
+  {
+    "actual_next_candidate": true,
+    "arm": "full_support_aware",
+    "candidate_tools": [
+      "select_for_evaluation",
+      "select_for_evaluation"
+    ],
+    "chosen_decision_id": "support-final-68807310bf257b755381e67b:d0000003-c0",
+    "chosen_index": 0,
+    "common_heads": [],
+    "controller_schema_valid": [
+      true,
+      true
+    ],
+    "controller_valid_indices": [
+      0,
+      1
+    ],
+    "decision_ids": [
+      "support-final-68807310bf257b755381e67b:d0000003-c0",
+      "support-final-68807310bf257b755381e67b:d0000003-c1"
+    ],
+    "first_trigger": "not_new",
+    "first_trigger_source": "predicted_failure_type",
+    "generation_success": [
+      true,
+      true
+    ],
+    "graph_statuses": [
+      "succeeded",
+      "unavailable"
+    ],
+    "job_id": "support-final-68807310bf257b755381e67b",
+    "proposal_count": 2,
+    "ranking_rule": "valid_first; original_index_when_any_native_support_unknown",
+    "second_completion_tokens": 114,
+    "second_feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "K2TbAu",
+          "structure_hash": "1ad6cd4037773bcb3f309838bd8ea63c60b94b0600a0c5a7733da41148271068"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "second_generation_seconds": 11.43518808670342,
+    "second_graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.13.mlp: FVU=0.5206249952316284, defined=True.",
+    "second_graph_seconds": 9.092477414757013,
+    "second_prompt_tokens": 2055,
+    "second_unused": true,
+    "seed": 2,
+    "selection_changed_from_first_controller_valid": false,
+    "sequence": 3,
+    "task_id": "Au-K-Tb",
+    "type_signals_used": false
+  },
+  {
+    "actual_next_candidate": true,
+    "arm": "full_support_aware",
+    "candidate_tools": [
+      "generate_structures",
+      "select_for_evaluation"
+    ],
+    "chosen_decision_id": "support-final-68807310bf257b755381e67b:d0000005-c0",
+    "chosen_index": 0,
+    "common_heads": [
+      "generation_invalid",
+      "tool_execution_failure",
+      "unstable",
+      "not_new"
+    ],
+    "controller_schema_valid": [
+      true,
+      true
+    ],
+    "controller_valid_indices": [
+      0,
+      1
+    ],
+    "decision_ids": [
+      "support-final-68807310bf257b755381e67b:d0000005-c0",
+      "support-final-68807310bf257b755381e67b:d0000005-c1"
+    ],
+    "first_trigger": "not_new",
+    "first_trigger_source": "predicted_failure_type",
+    "generation_success": [
+      true,
+      true
+    ],
+    "graph_statuses": [
+      "succeeded",
+      "succeeded"
+    ],
+    "job_id": "support-final-68807310bf257b755381e67b",
+    "proposal_count": 2,
+    "ranking_rule": "valid_first; common_head_max, common_head_weighted_mean, known_overall_then_probability, original_index",
+    "second_completion_tokens": 75,
+    "second_feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "K2TbAu",
+          "structure_hash": "1ad6cd4037773bcb3f309838bd8ea63c60b94b0600a0c5a7733da41148271068"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "second_generation_seconds": 7.584296808578074,
+    "second_graph_error": null,
+    "second_graph_seconds": 70.13526107929647,
+    "second_prompt_tokens": 2387,
+    "second_unused": true,
+    "seed": 2,
+    "selection_changed_from_first_controller_valid": false,
+    "sequence": 5,
+    "task_id": "Au-K-Tb",
+    "type_signals_used": true
+  },
+  {
+    "actual_next_candidate": true,
+    "arm": "full_support_aware",
+    "candidate_tools": [
+      "select_for_evaluation",
+      "select_for_evaluation"
+    ],
+    "chosen_decision_id": "support-final-fdb8c5628b1505159c52f7cc:d0000001-c0",
+    "chosen_index": 0,
+    "common_heads": [],
+    "controller_schema_valid": [
+      true,
+      true
+    ],
+    "controller_valid_indices": [
+      0,
+      1
+    ],
+    "decision_ids": [
+      "support-final-fdb8c5628b1505159c52f7cc:d0000001-c0",
+      "support-final-fdb8c5628b1505159c52f7cc:d0000001-c1"
+    ],
+    "first_trigger": "not_new",
+    "first_trigger_source": "predicted_failure_type",
+    "generation_success": [
+      true,
+      true
+    ],
+    "graph_statuses": [
+      "succeeded",
+      "unavailable"
+    ],
+    "job_id": "support-final-fdb8c5628b1505159c52f7cc",
+    "proposal_count": 2,
+    "ranking_rule": "valid_first; original_index_when_any_native_support_unknown",
+    "second_completion_tokens": 120,
+    "second_feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Dy2Co2W",
+          "structure_hash": "24d7f1232c35e8445f6539460c41dd9ede2a29de17c2ba75dc3fe5eb7fb011e9"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "second_generation_seconds": 12.030655750073493,
+    "second_graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.13.mlp: FVU=0.5073282122612, defined=True.",
+    "second_graph_seconds": 10.287436404265463,
+    "second_prompt_tokens": 2299,
+    "second_unused": true,
+    "seed": 2,
+    "selection_changed_from_first_controller_valid": false,
+    "sequence": 1,
+    "task_id": "Co-Dy-W",
+    "type_signals_used": false
+  },
+  {
+    "actual_next_candidate": true,
+    "arm": "full_support_aware",
+    "candidate_tools": [
+      "select_for_evaluation",
+      "select_for_evaluation"
+    ],
+    "chosen_decision_id": "support-final-03a88c2191e750bc3ef7d49f:d0000001-c0",
+    "chosen_index": 0,
+    "common_heads": [],
+    "controller_schema_valid": [
+      true,
+      true
+    ],
+    "controller_valid_indices": [
+      0,
+      1
+    ],
+    "decision_ids": [
+      "support-final-03a88c2191e750bc3ef7d49f:d0000001-c0",
+      "support-final-03a88c2191e750bc3ef7d49f:d0000001-c1"
+    ],
+    "first_trigger": "not_new",
+    "first_trigger_source": "predicted_failure_type",
+    "generation_success": [
+      true,
+      true
+    ],
+    "graph_statuses": [
+      "succeeded",
+      "unavailable"
+    ],
+    "job_id": "support-final-03a88c2191e750bc3ef7d49f",
+    "proposal_count": 2,
+    "ranking_rule": "valid_first; original_index_when_any_native_support_unknown",
+    "second_completion_tokens": 138,
+    "second_feedback": {
+      "instruction": "Prefer a different buffered structure_hash or generate a new candidate. A different hash alone does not establish scientific novelty. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "not_new",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "NaMg10Co",
+          "structure_hash": "15ab0f0f5bf07d4513c9b467ad986a1b50f06d1128debd362267702f853bc93e"
+        },
+        "tool": "select_for_evaluation"
+      }
+    },
+    "second_generation_seconds": 12.979370451532304,
+    "second_graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.13.mlp: FVU=0.5113823413848877, defined=True.",
+    "second_graph_seconds": 8.373381574638188,
+    "second_prompt_tokens": 1765,
+    "second_unused": true,
+    "seed": 2,
+    "selection_changed_from_first_controller_valid": false,
+    "sequence": 1,
+    "task_id": "Co-Mg-Na",
+    "type_signals_used": false
+  },
+  {
+    "actual_next_candidate": true,
+    "arm": "full_support_aware",
+    "candidate_tools": [
+      "select_for_evaluation",
+      "query_structures"
+    ],
+    "chosen_decision_id": "support-final-32b9c75a950dc72b690b9f75:d0000012-c0",
+    "chosen_index": 0,
+    "common_heads": [],
+    "controller_schema_valid": [
+      true,
+      true
+    ],
+    "controller_valid_indices": [
+      0,
+      1
+    ],
+    "decision_ids": [
+      "support-final-32b9c75a950dc72b690b9f75:d0000012-c0",
+      "support-final-32b9c75a950dc72b690b9f75:d0000012-c1"
+    ],
+    "first_trigger": "tool_execution_failure",
+    "first_trigger_source": "predicted_failure_type",
+    "generation_success": [
+      true,
+      true
+    ],
+    "graph_statuses": [
+      "succeeded",
+      "unavailable"
+    ],
+    "job_id": "support-final-32b9c75a950dc72b690b9f75",
+    "proposal_count": 2,
+    "ranking_rule": "valid_first; original_index_when_any_native_support_unknown",
+    "second_completion_tokens": 112,
+    "second_feedback": {
+      "instruction": "Repair the tool arguments. Use an actual visible composition/hash and documented modes or scorers; do not repeat an invalid call. Use only the existing retry and tool/query limits.",
+      "not_a_measured_scientific_result": true,
+      "predicted_failure_type": "tool_execution_failure",
+      "source": "current_candidate_predictions_or_visible_schema_issue",
+      "suggested_legal_tool": {
+        "arguments": {
+          "composition": "Mg3Co4",
+          "k": 5,
+          "mode": "all"
+        },
+        "tool": "query_structures"
+      }
+    },
+    "second_generation_seconds": 11.489122293889523,
+    "second_graph_error": "Current-policy transcoder fidelity gate failed at model.language_model.layers.13.mlp: FVU=0.5042399168014526, defined=True.",
+    "second_graph_seconds": 8.592158302199095,
+    "second_prompt_tokens": 1872,
+    "second_unused": true,
+    "seed": 4,
+    "selection_changed_from_first_controller_valid": false,
+    "sequence": 12,
+    "task_id": "Co-Mg-Na",
+    "type_signals_used": false
+  }
+]

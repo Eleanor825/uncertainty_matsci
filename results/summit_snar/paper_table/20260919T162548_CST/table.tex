@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Completed Summit SnAr evaluation with Qwen3.5-4B: seven arms, five paired evaluation seeds, 50 oracle queries per trajectory. Gains are relative to the same 550-query adaptation prior (HV $0.8810117795$). Means and standard deviations are in $10^{-4}$ HV units; sample variances are in $10^{-8}$ HV$^2$ units ($n=5$, ddof$=1$). The ES checkpoint selection returned G0 in both branches.}
+\label{tab:snar-main}
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{Final HV gain $\uparrow$} & \multicolumn{2}{c}{Mean querywise HV gain $\uparrow$} \\
+Method & Mean $\pm$ SD & Sample variance & Mean $\pm$ SD & Sample variance \\
+\midrule
+Random & $0.2640 \pm 0.4972$ & 0.2472 & $0.1805 \pm 0.3726$ & 0.1389 \\
+GP-EI (fixed scalarization) & $3.6706 \pm 1.0385$ & 1.0785 & $2.8679 \pm 1.0423$ & 1.0863 \\
+Qwen baseline & $0.5310 \pm 0.5867$ & 0.3442 & $0.1627 \pm 0.1676$ & 0.0281 \\
+UQ-only & $0.2269 \pm 0.4130$ & 0.1706 & $0.1492 \pm 0.2892$ & 0.0837 \\
+Independent ES-only (G0) & $0.5310 \pm 0.5867$ & 0.3442 & $0.1627 \pm 0.1676$ & 0.0281 \\
+Random controller & $0.2931 \pm 0.6292$ & 0.3959 & $0.1146 \pm 0.2479$ & 0.0615 \\
+Full: UQ + ES (G0) & $0.2269 \pm 0.4130$ & 0.1706 & $0.1492 \pm 0.2892$ & 0.0837 \\
+\bottomrule
+\end{tabular}
+\end{table*}

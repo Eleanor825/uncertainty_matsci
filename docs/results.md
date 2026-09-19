@@ -109,3 +109,12 @@ python3 results/budget_sweep/20260919T010939_CST/recompute.py
 ```
 
 The statistics script uses only the standard library and regenerates its two output files from the published pairs. Publication checks confirmed byte-identical regeneration, matched all30 B10 pairs to the earlier public export, and recomputed all60 B30 metrics from the audited RPC curves. The B30 audit snapshot SHA256 is `2297d8394f4d1e0662700a42d5da8ed13d7eb87738f8029c9ca4b41c59aa4822`; per-result/receipt/RPC hashes are retained in the statistical export provenance.
+
+
+## Additive analysis publication, September20
+
+The [paper-ready SnAr table](../results/summit_snar/paper_table/20260919T162548_CST/REPORT.md) consolidates all **35/35 held-out trajectories**, seven arms × five evaluation seeds × B50, with means, sample variances and a [LaTeX table](../results/summit_snar/paper_table/20260919T162548_CST/table.tex). GP-EI has the highest mean incremental HV. Full remains below Qwen baseline; both ES branches selected G0 after their actual development runs, so full/UQ and ES-only/baseline curves coincide. These are existing completed results, not additional experiments.
+
+The [sampling+hidden diagnostic](../results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/REPORT.md) adds three recorded CPU NN fits (180 updates;15 cumulative models/926 updates) on the same224 executed actions. Mean AUROC is **.717125** and calibrated Brier **.541182**. Its matched comparison with all285 features is mixed across NN seeds and metrics; no replacement was deployed and no graph-causal benefit is claimed. The eight original JSON artifacts, source/plan,672 predictions and588 independently recomputed metrics are included.
+
+The [complete-core MADE mechanism analysis](../results/made_components/core5/mechanism_analysis/20260919T220626_CST/REPORT.md) joins all60 existing trajectories to1,237 proposals,1,174 executed tools and600 ORB steps. UQ's observed gain coincides with fewer failed selections and schema/controller behavior; its15 runs had **zero neural-triggered extra proposals or risk-ranking changes**. Full produced8 neural extra proposals, all unexecuted; no risk-ranking changes were observed. This does not isolate an NN causal contribution or justify test tuning. The complete scientific projection and Python3.12 byte-exact analysis are portable.

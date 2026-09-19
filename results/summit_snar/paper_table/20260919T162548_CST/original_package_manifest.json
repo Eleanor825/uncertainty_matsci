@@ -1,0 +1,98 @@
+{
+  "schema": "SnAr_paper_main_table_v1",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 10807,
+      "sha256": "3120c484e59bae2a9ae87310da740e323a6de121d01bf202fd499f8e22b26946"
+    },
+    {
+      "path": "input_manifest.json",
+      "bytes": 3287,
+      "sha256": "0379acfbb2b4b1fbf350052a2845b732b936b13150d5d424bc5dee6a96394f4f"
+    },
+    {
+      "path": "inputs/curves.csv",
+      "bytes": 123916,
+      "sha256": "dcc86790edc5f4d5971d881a5ee78bb92376821c86257610b1baf4e41dbd6e97"
+    },
+    {
+      "path": "inputs/development_selection_decomposition.csv",
+      "bytes": 1244,
+      "sha256": "fe587898bd8030ae99271a3fccc3a92043e83dc09a433ca4e058e7ea0b30cbab"
+    },
+    {
+      "path": "inputs/es_only_development.json",
+      "bytes": 23450,
+      "sha256": "520c1fcebd6914cae84421aeaf5edf90411cf6b41719ccb6b68f0b27beb45d95"
+    },
+    {
+      "path": "inputs/per_seed.csv",
+      "bytes": 15561,
+      "sha256": "206e5fe8a0e90633303b27b67ab70920e5ab3c74f787282e9040fb4afaaa1e44"
+    },
+    {
+      "path": "inputs/prior_and_selection.json",
+      "bytes": 1697,
+      "sha256": "a4af844177c11030778a96d0587b3d1f7d15f3d787451e69139b1767726586e0"
+    },
+    {
+      "path": "inputs/protocol.json",
+      "bytes": 7670,
+      "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+    },
+    {
+      "path": "inputs/statistics.csv",
+      "bytes": 8882,
+      "sha256": "4b3c4f4d200b57772241897abdb2a4f0efd90835e7549b48afcf3e474a6e0d78"
+    },
+    {
+      "path": "inputs/summary.json",
+      "bytes": 18899,
+      "sha256": "14604a2f8a9e3b51466238328cd70adf7c382b409ef1654a94424727bcb6a1a2"
+    },
+    {
+      "path": "main_table_preview.tex",
+      "bytes": 132,
+      "sha256": "ba40213830fa1810b40c6714c639076ad162a2516375a02b4add0f84936920d2"
+    },
+    {
+      "path": "paper_paragraph.tex",
+      "bytes": 959,
+      "sha256": "a8d2217c54b9c4901074937b3c8f49c5f037ff9180ebc6460593d96b12f11f44"
+    },
+    {
+      "path": "per_seed.csv",
+      "bytes": 1830,
+      "sha256": "b2f03ebd6438124b0f40f26f21ea108fd7bac07968581f5fa4abb1624841a58b"
+    },
+    {
+      "path": "recompute.py",
+      "bytes": 7819,
+      "sha256": "43b83809b55a390a36a3ebeac8b0d862d5105b36e104b3fb3f3e95ebde9a16af"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1211,
+      "sha256": "85828557f85fa11bd57c53396ce712c43215c023711cf7c0341bc56ea964b6a8"
+    },
+    {
+      "path": "table.csv",
+      "bytes": 2386,
+      "sha256": "7a769dcca91be5f9f86d5ffaeb2598aa556e1e4a30178f11fe5abe497c655d55"
+    },
+    {
+      "path": "table.tex",
+      "bytes": 1292,
+      "sha256": "cf6a912df9518cad3ff858342e61b97234cbcc1aa6576acee9ce446934ef1fe0"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 817,
+      "sha256": "092c21dcd9a6646574037012cfb154e5d8c3f4cbdb74d4b88ce66df9a73c6012"
+    }
+  ],
+  "total_files_excluding_manifest": 18,
+  "total_bytes_excluding_manifest": 231859,
+  "scientific_input_exports_byte_exact": true
+}
