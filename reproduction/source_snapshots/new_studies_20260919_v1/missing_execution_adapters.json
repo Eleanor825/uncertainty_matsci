@@ -1,0 +1,133 @@
+{
+  "additional_requirements": [
+    "A separately reviewed resource interface for the user machine",
+    "New source/asset registration with new fingerprints after explicit path relocation",
+    "Real external weights, datasets, learned artifacts and acceptance lineage when required"
+  ],
+  "bindings": [
+    {
+      "authority": "main_production_registration",
+      "binding_group": "external_sources",
+      "category": "non_scientific_runtime_contract_separate",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/made_component_ablations_20260919/resource_guard.py",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "74fc1ce54bf01a8daf8414a7f18dba215e1042bb083fd04902f38f2c9efd214d",
+      "study": "MADE_component"
+    },
+    {
+      "authority": "main_production_registration",
+      "binding_group": "external_sources",
+      "category": "non_scientific_runtime_contract_separate",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/made_support_aware_method_20260919/resource_guard.py",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "0a82fdcbb85de19bbfbfe45f9ed1be9d9ae98734abb7ae8849146d33b768791e",
+      "study": "MADE_support"
+    },
+    {
+      "authority": "main_production_registration",
+      "binding_group": "sources",
+      "category": "private_deployment_record_exclude",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/summit_snar_20260918/runtime/deployment_facts.json",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "9721589015e9a3f09a04a763152cab21a2f7c23846ae32d7cb5b5a66e7ca9034",
+      "study": "SnAr_main"
+    },
+    {
+      "authority": "main_production_registration",
+      "binding_group": "sources",
+      "category": "non_scientific_runtime_contract_separate",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/summit_snar_20260918/runtime/resource_guard.py",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "7b2372333825e63b74f0af6e9039cd2c67dae77c51e32e8a8839b2bc241c6350",
+      "study": "SnAr_main"
+    },
+    {
+      "authority": "main_production_registration",
+      "binding_group": "sources",
+      "category": "non_scientific_runtime_contract_separate",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/summit_snar_20260918/runtime/test_resource_guard.py",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "151b315bd575009510b3f82f39b8cbce62353e551ab18c7e56f6da1502e8e136",
+      "study": "SnAr_main"
+    },
+    {
+      "authority": "main_production_registration",
+      "binding_group": "sources",
+      "category": "non_scientific_runtime_contract_separate",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/summit_snar_20260918/runtime/supervise.py",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "50a2905329ac8ecda4175d21521e2cd837983d832d35c60f4a1c7798a8a5ef75",
+      "study": "SnAr_main"
+    },
+    {
+      "authority": "main_production_registration",
+      "binding_group": "sources",
+      "category": "private_deployment_record_exclude",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/summit_snar_20260918/oracle/runtime/readiness.json",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "c2950138db5c134b4c6043c9b0c95efefc8d83b3f0a0c1bd12847eb395ccc503",
+      "study": "SnAr_main"
+    },
+    {
+      "authority": "main_production_registration",
+      "binding_group": "sources",
+      "category": "external_learned_artifact_or_manifest",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "core_workspaces/made_core48h_normalized_v3/experiments/transcoders/qwen35_4b/made/transcoder_manifest.json",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "f9f4a9e4c510248013c23a25d329f9b8779c30bd3adddcd7e9c0f22bf62fc20b",
+      "study": "SnAr_main"
+    },
+    {
+      "authority": "main_original_diagnostic_registration",
+      "binding_group": "own_sources",
+      "category": "non_scientific_runtime_contract_separate",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/summit_snar_representation_repair_20260919_v2/runtime/resource_guard.py",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "7b2372333825e63b74f0af6e9039cd2c67dae77c51e32e8a8839b2bc241c6350",
+      "study": "SnAr_causal128_capture"
+    },
+    {
+      "authority": "main_original_diagnostic_registration",
+      "binding_group": "own_sources",
+      "category": "non_scientific_runtime_contract_separate",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/summit_snar_representation_repair_20260919_v2/runtime/supervise.py",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "50a2905329ac8ecda4175d21521e2cd837983d832d35c60f4a1c7798a8a5ef75",
+      "study": "SnAr_causal128_capture"
+    },
+    {
+      "authority": "main_original_diagnostic_registration",
+      "binding_group": "own_sources",
+      "category": "private_deployment_record_exclude",
+      "content_location": "external_not_in_snapshot",
+      "content_path": null,
+      "logical_source_path": "benchmark_extensions/summit_snar_representation_repair_20260919_v2/runtime/deployment_facts.json",
+      "missing_dependency_note": "Declared external resource/deployment/learned-artifact dependency; not a scientific payload and not fabricated",
+      "original_sha256": "9721589015e9a3f09a04a763152cab21a2f7c23846ae32d7cb5b5a66e7ca9034",
+      "study": "SnAr_causal128_capture"
+    }
+  ],
+  "explanation": "These are source-bound historical resource/deployment or learned-artifact dependencies. They are neither copied as science nor replaced by invented successful receipts.",
+  "original_CLI_can_run_on_another_machine": false,
+  "schema": "explicit_non_scientific_execution_dependencies_v1"
+}

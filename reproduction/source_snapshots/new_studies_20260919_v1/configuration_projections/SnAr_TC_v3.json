@@ -1,0 +1,1173 @@
+{
+  "definition": {
+    "amendment": {
+      "development_informed_pre_test_repair": true,
+      "effective_minibatch_rows": 128,
+      "epochs_and_optimizer_unchanged": true,
+      "independent_layer_scheduling": true,
+      "maximum_parallel_children_per_gpu": 8,
+      "minibatches_per_epoch": 75,
+      "old_minibatch_rows": 16,
+      "old_minibatches_per_epoch": 75,
+      "only_training_data_coverage_changed": "16 to128 uniformly sampled original causal positions per prefix",
+      "selected_by": "minimum raw FP32 development MSE over all64 epochs"
+    },
+    "architecture": {
+      "feature_dim": 5120,
+      "input_dim": 2560,
+      "output_dim": 2560,
+      "top_k": 64
+    },
+    "base_state_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516",
+    "checkpoint_hash": "aaafdb80b6b69295c3de7f5adc800e0344c3054703f19426ad39490a9879cc4a",
+    "counts": {
+      "dev_prefixes": 50,
+      "dev_rows_per_layer": 6400,
+      "layers": 32,
+      "train_prefixes": 75,
+      "train_rows_per_layer": 9600
+    },
+    "diagnostic_registration": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_representation_repair_20260919_v2/registration.json",
+      "sha256": "655d93fd990c15e915b411b70d7d431b678fab1cbe4fda9e39b6391e56a4faac"
+    },
+    "diagnostic_source_files": [
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_representation_repair_20260919_v2/audit.py",
+        "sha256": "8e389992eb0ba00b821b2e8e9b8c18e148e7a995f53a679cee9433dc8ee0e131"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_representation_repair_20260919_v2/test_audit.py",
+        "sha256": "733e30ee84c053605738530c187c0e56e0132ce44fa6dd4d9c7e68b3fef34812"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_representation_repair_20260919_v2/diagnostic_capture.py",
+        "sha256": "4eb7c93db7b6559fa30b9294b3d2aed27966a8197994e2aed3e2fb5206abe7a6"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_representation_repair_20260919_v2/runtime/resource_guard.py",
+        "sha256": "7b2372333825e63b74f0af6e9039cd2c67dae77c51e32e8a8839b2bc241c6350"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_representation_repair_20260919_v2/runtime/supervise.py",
+        "sha256": "50a2905329ac8ecda4175d21521e2cd837983d832d35c60f4a1c7798a8a5ef75"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_representation_repair_20260919_v2/runtime/deployment_facts.json",
+        "sha256": "9721589015e9a3f09a04a763152cab21a2f7c23846ae32d7cb5b5a66e7ca9034"
+      }
+    ],
+    "diagnostic_summary": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_representation_repair_20260919_v2/output/summary.json",
+      "sha256": "fd311d8b7e741b7e0dfd9d56495229b2750c8e46f41391e4fa3d45e6d79176ac"
+    },
+    "downstream": {
+      "fit_nn_after_graph_gate": true,
+      "real_es_and_heldout_and_ablations_required": true,
+      "rebuild_all_graphs": 125,
+      "reuse_old_graphs": 0
+    },
+    "fingerprint": "4088fbb43f8ea442fff705f3806ab8ff802dff913c39aa36548a0c4783746ece",
+    "gates": {
+      "finite_difference_atol": 0.0001,
+      "finite_difference_epsilon": 0.001,
+      "finite_difference_max_edges": 4,
+      "finite_difference_rtol": 0.05,
+      "max_dev_fvu": 0.5,
+      "native_graph_minimum_availability": 0.9,
+      "source_selection_rule": "qwen_final_mlp_causal_activation_v1"
+    },
+    "initialization": "fresh original seeded TopK for every layer; no old weights/optimizer reused",
+    "input_manifest": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_representation_training_20260919_v3/runs/v1/input_manifest.json",
+      "sha256": "6d123af6904204effa4a9a11ab037806629d52e88cff0e05f3bb26cf995a76da"
+    },
+    "main_experiment_complete": false,
+    "method_source_root": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src",
+    "new_generation_calls": 0,
+    "new_oracle_calls": 0,
+    "original_bank": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/snar_transcoders/transcoder_manifest.json",
+      "sha256": "2540f34f125be0dee9a7d139f473c96b64d42cf44a8475f9babd316c8e6732be"
+    },
+    "original_evidence_files": [
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/protocol.json",
+        "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime_config.json",
+        "sha256": "880337ddf3a04fca4df5c3b404a530a1331c1c11b9199023cea2ec0355dae7ee"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/registration.json",
+        "sha256": "79cf4d1ed81989a4a04326afc10aff65fb06b09b07a05e9c12c5982a05786277"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/base_policy.json",
+        "sha256": "ed4363a34e40be33e1e853f5a4b8b3615c48b3b6df042ee14f7dbbeaa6e1c133"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/collection_complete.json",
+        "sha256": "c6182d400e82021ab3b5deec0b63870137d7bd9f73edf017da976098638b091a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/representation_selected.json",
+        "sha256": "966e4b211a6af34801a4652fae45216f460c4bc79c09eeb9945560cf1b596bb9"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/representation_dev_prefix_filter.json",
+        "sha256": "245736b9eb5a4f487358293d78e12f48a9e3d05967b304685e3cb739b114a6e3"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/fresh_snar_transfer_fidelity.json",
+        "sha256": "9667ac2bbe730fb96e5c146708c0eea3d986da571878cee24744a527bb1dfcf9"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/logs/main_v1/completion.json",
+        "sha256": "0c52a0e6555c5783127b18249d802ae2700033c1815a6dcce781dfa124e0ceaa"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/snar_transcoders/transcoder_manifest.json",
+        "sha256": "2540f34f125be0dee9a7d139f473c96b64d42cf44a8475f9babd316c8e6732be"
+      },
+      {
+        "path": "project-artifact:configs/model_manifest.json",
+        "sha256": "8ed8b46fdd35356a21a93ee93e93b6f0e983f5354cf942e6b4bb6b6854969ef7"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/episode.json",
+        "sha256": "0b7ad0c1e5991379082b03eeca4117a027b0c9d0b727df0c580b263f7c8503de"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/summary.json",
+        "sha256": "245bc0e776470a00815590d79ef2abf7c7e2829895dfe5affa3f3d362e3ae4c6"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query000.json",
+        "sha256": "671324b0dd6befe780dc24ec09a5778c0b958ed5bb259e446092fe98c1325b94"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query001.json",
+        "sha256": "b35af50153e52da7f688a5966c18ea1649ac48d2e9c2a29d192194fda7c29873"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query002.json",
+        "sha256": "7b3e4463c69c1bf2f5b2e9d29da0ed4564341eba0b80a2e6dcff5162c1171ead"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query003.json",
+        "sha256": "99ed3706728c1da97dc08744f0891008693d532b942a03d9235eeacfd02eb4a3"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query004.json",
+        "sha256": "bb51e86812d77f9eda48694b3f2062ffe5309d83858be6270917abab3ca630da"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query005.json",
+        "sha256": "7a5f84c291b3acd4d02726542f7f99ad5153af7a58389032f885a56b901054b5"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query006.json",
+        "sha256": "2a34d6b21b70ecc63cf02a1f9d3d64eca3beab6229e8d1bb8d8035b800f0c5e3"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query007.json",
+        "sha256": "066079f5cd1d8f47b4ec6f37be7d1141c3e2f492c86cb39db4070391de320581"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query008.json",
+        "sha256": "102ddb5b167d2a91c29363765c120709cd645476dad6669f15b4cb2645f92e4a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query009.json",
+        "sha256": "bc037f0425dc0fb8c225813aa9e0b01d416f0b53e520fb4e60487a68c04ca186"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query010.json",
+        "sha256": "8312265e33a230ad99701af0cfbdb1005fc14aaa3a7b0c3e287c52754e0f115a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query011.json",
+        "sha256": "0670e486fdbd601b42bbcf10c46063224dc6f1e5f7dd4ccc78a30f9641be471a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query012.json",
+        "sha256": "2d697578cca8cfdbd18d16dc569a17a51ba30aa9cf67abad58483c9a690532a9"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query013.json",
+        "sha256": "8535df70b31bc0ee80ae508f701c3498f832f07001535f8e2e43e545ffd67832"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query014.json",
+        "sha256": "a9096f4b8f948bfc8e41f5739fdc761e22e8e1ef70a3d00381418a1ff63ab155"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query015.json",
+        "sha256": "0ce2cf13ab17f3f752c1eb26e38fa66f23715a346fca9a4be885ea256df1a00c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query016.json",
+        "sha256": "9f0e54b0677c509271e4ee8cdf5af9211e50c4f045169975f35dbf8d76b1696b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query017.json",
+        "sha256": "0803d74bc7c5317970ce1377499f791be0680c7d949b0ed23d10aa9920ac21b4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query018.json",
+        "sha256": "d6576b86f2c84bfc04d6fb4bc29d7555cad77454486a37d5dd15834787f3e1c2"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query019.json",
+        "sha256": "73cd47f6c99d73f9f4839c2579424af107484d8e40dcd35e9e9fd5778579f35f"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query020.json",
+        "sha256": "2ed234461bdefd301e07212ad9862fe0297d4936412dcfedae171292f6632af7"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query021.json",
+        "sha256": "16f60dc1b37395c3f7f34c0df1be141bd9183c900577c10580e1f4ee091bd282"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query022.json",
+        "sha256": "73b8a406da72308900ee506f1fb6bd31c617b40082d8418ae0b6a1134de0e09a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query023.json",
+        "sha256": "72f06ea1b4baada313882b3610792a316c1de2658f09649fa7c5d0b6f95e9546"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query024.json",
+        "sha256": "a75acd021dfb0193b3efc556cedba85c0b20093e484691b6b72b50184be70481"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query025.json",
+        "sha256": "9e93f58c0afac79fbfdb773628d346400277b74689c557ec7986ec82137af29e"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query026.json",
+        "sha256": "4826da4aeef8c55b00e64e7737f04b21956e23979649c7f14d54b37564caed71"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query027.json",
+        "sha256": "08c4ea5b2cff7aca18333ff74d91d215f77a73634bc0946db3597bec5d057970"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query028.json",
+        "sha256": "8328b24ff5641c87f08a60cfafc11e084ab5441e5f7bb6b80861784ec4a4d1d8"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1101/query029.json",
+        "sha256": "8d9d008c936d0858c60502933068c4b9bcda13b1e4da227502e1c6544f6a9bb6"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/episode.json",
+        "sha256": "3c7765c8d313f43316f312aa8121dde480ddd7b7fa0369fd54cae9a5973f133a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/summary.json",
+        "sha256": "d41d755d5e546eec8de33211feee616caf70aafbef9e6244006df41b366e28fd"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query000.json",
+        "sha256": "9e3c6b89284c2333a1b96361d45176c64a3900ef0f1594b825c18f1aac8b4e89"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query001.json",
+        "sha256": "b7fdd5cd107ab95dde09c87c3f6e586da5daec41dcdfab657da957d867dcd007"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query002.json",
+        "sha256": "8770eacc46de2c1a3fbcc1b539936f1b1f77e55f04f7bc9c0e5a325b2c643a6e"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query003.json",
+        "sha256": "8e07528a3c6980164d226f3304d23cd26c052dc2257bbd7aa67bb1a3fb08d69d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query004.json",
+        "sha256": "dc96b1493c6dda2e99380d3e92f787bd868a84cb62114d33becb056c3c116135"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query005.json",
+        "sha256": "584b72c528609847eda4d7b23c0c6059a1be5a48a51d69e24d19e62aeeb9a98e"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query006.json",
+        "sha256": "b776c5ef8b1017be0a0ce70d5a37f5fb806965ebf2566fc87e0697fe4eadd337"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query007.json",
+        "sha256": "b09fe4d40abe6f9435797725edee816996295c69888b089c5b2fbe8892143fda"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query008.json",
+        "sha256": "3343b1bdc45f4bf3e03424aed0ee5428319247578c490fc6fe4aacfb7b1ddd5a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query009.json",
+        "sha256": "7a8135956d7284a76717790e0c9db3e60227c5c3421980c83a4332a8c8243e88"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query010.json",
+        "sha256": "fb095255f457622b2437d1232032c8da5793f47378340a2222dcbf9f252d7c5c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query011.json",
+        "sha256": "5bf410d531e46ef95ad2cff20593cfc119b2cfa7b1439e198e7a73d1adb0b334"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query012.json",
+        "sha256": "a72d490e8f4e84287b60012390d5be832ac8c6db4f0ec561e656431cf736a81a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query013.json",
+        "sha256": "27d134ac33624e7174a797160c5960710026309ee879a44d0967e9697d9c9820"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query014.json",
+        "sha256": "0ca2eb9e270afafcfb92d606903c8c524555c14194165e4745d7401ea82ef430"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query015.json",
+        "sha256": "6c4abdb1cdaec6947667673e3a945b6d0c4bf171e83272e2329de3e454aa595d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query016.json",
+        "sha256": "8c1c86de5f55b8601a07fbb8d38cef0120ff8aae30dc6b0c7853d3ea2803d3ff"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query017.json",
+        "sha256": "6184cbdd402ab03d80a28d52b1577273bccc72daf2fc30e59e0c6bccc1548dec"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query018.json",
+        "sha256": "6fa6bf86c83c7da292383a1c62ef34b57d1b391eb2f711ef6d6579ca247383a0"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query019.json",
+        "sha256": "b2519ac65e30f0ca5f456dd6a6f48f2a528ed6890a4d9f5e3c3320996933e87f"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query020.json",
+        "sha256": "16ae492c3b0fd28920c50d6b7283bb4788ac95ff5136da55d71d1c20fa68f128"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query021.json",
+        "sha256": "3ccfbb04791a1962426b9191650aec50195a863e9e4990155fed7e6e749b1108"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query022.json",
+        "sha256": "dd676af75323c10db6cc1caf12e5f1db29106b96349bb640b8abd7c01fb50e93"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query023.json",
+        "sha256": "b2d5058aab784b0f7c83b051c5fc1123d5788d795a5d5082a5a7b1d4113da748"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query024.json",
+        "sha256": "0f6e101d631cf5960f7e3d554e4a8bfe89d79ff91e728533d3e4e611df31c40b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query025.json",
+        "sha256": "0692d31620f4b9bfc0e6b2c5bac35b229906a4ec38264119bce6b7308b3005f3"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query026.json",
+        "sha256": "a94bdadd22e1eb0e2765b8f2295b2893d647088a07fba83da664a76e1cbe3ed4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query027.json",
+        "sha256": "ec71f933a0a90d7bd5ead829376d9919a0e65338f684053cabc2b8dfab1a207d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query028.json",
+        "sha256": "283038537953564f425e65797b64096a760f4f80c08b73e2db40626f2be87167"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1102/query029.json",
+        "sha256": "cdbfc260e94589dd1a8041c955469eea21d6ace936cded6e441db465604872e7"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/episode.json",
+        "sha256": "1c078e38a6bb2bf8df4e2ce3b061ca88c1781405685f25de47e14357777a5757"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/summary.json",
+        "sha256": "c5aae303d1505d7d8376a7157f99ffab37e0938c3bcb6961246774e7ddc83fef"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query000.json",
+        "sha256": "98731f11ecb976d31f20a81bf81421bb4dac06ea30bc279b3e4dac47f133c881"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query001.json",
+        "sha256": "514083ac9a8a75bce4c23e0c318bca546653049fcd654b72ef51befdb3d870a0"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query002.json",
+        "sha256": "f8ea84b328f994d70749cee217dce359056652f5baeece34f1b51c42cd7447dc"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query003.json",
+        "sha256": "d1be363691140dbbb928326adab788c304023b8e2a273accfb26b8f00d93d4c4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query004.json",
+        "sha256": "7833d133326c57efb592378b5115ef45a799fb5374a185ec22bc85a5ac00dc95"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query005.json",
+        "sha256": "7de48ce91f629ad6c7373ce6705f62c57a75350634787589c1abc2be8eb85521"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query006.json",
+        "sha256": "9947c396f431fe3c4069b13b49d4ea6c53b76113864b7f7831d9f6bc82aed02d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query007.json",
+        "sha256": "c3da63a98be8f199042ae4c2a80401e5f097ef53c17122d12391798cf392fedb"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query008.json",
+        "sha256": "60cb9a1ab2e2b82d723bb4c82761605da112947dfe537d2ae910f9807130849f"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query009.json",
+        "sha256": "c8db0d25f1e1c1e27a43a9853b45f008824a8088be7c3d76eaf35f9229aea5ba"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query010.json",
+        "sha256": "ef5cc6d8d0472dab3ec5d36a2d313b3373566e9d3daadf5c4862408f8784d437"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query011.json",
+        "sha256": "82355f4cb470a840ac72862639e31727d26da9f6774d6a0f1b2cd71aa08faec7"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query012.json",
+        "sha256": "47834e80c597802635760f376cd3428d88be945b96158cca1104ba7b4db46e35"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query013.json",
+        "sha256": "ea0ebcaed22592dbb3edd25231b52b79d68358bc7c7df41345136dbb3bdebdeb"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query014.json",
+        "sha256": "1dee717bb9fc9a6f9cf3aea4f97d74db7e3fd0cdef7b9f7421e08a372c7d677d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query015.json",
+        "sha256": "a6ed42bec2cdd44c9e2e61f15170bcdaa3a920753cc4fc3ae02178b70e5d2b27"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query016.json",
+        "sha256": "078b84eedb45113d655dfad95f78c4c25ff6e34684b5562ab0579a3e9b9d01a1"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query017.json",
+        "sha256": "38c4b8c0817c9909246fff18696d54a589d118ada87f1911d3aeba4022ddba38"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query018.json",
+        "sha256": "23f5ec1885b40e59e1dd501e31908696241ad1f7d65c90181f05d5e5c36efe63"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query019.json",
+        "sha256": "982505896f5053e253092f156a527999e46055a4d53c4721d2b719e01eca3b7b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query020.json",
+        "sha256": "ccf69ceb1f5d80be695ed6de0fb61ad82b00bf2f8a2c95767aba41aaaceb7a3a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query021.json",
+        "sha256": "c8d7b7e50c326a4538ffea8643874e3988e452a6f6dd9e0db8ec919b2c310e69"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query022.json",
+        "sha256": "3aa705ab33e56020ce7f51a3200572cfb0ada92576a56635c9fd575dc065d504"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query023.json",
+        "sha256": "b0fe08b6b39f7fb30ad55f7f8de67eb56a93af2f1e22baadc82928d849467691"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query024.json",
+        "sha256": "f72fbd8321bc01c1a2713c835daa847fd1b767507a3e75892de1d6da29e7481b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query025.json",
+        "sha256": "0dcad13c913753b8e9fd97521b24543132860d7defd7e778d3b45ae2b82b87ae"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query026.json",
+        "sha256": "8787b2ffc1fd73e5d2ec201a3509862bd6c7340807efb9c70a8072f5eaa0ad1f"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query027.json",
+        "sha256": "148a20e026bf4094cde5d769ef1f1e6bf4b18b0dc9a8fe1915398961faff2777"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query028.json",
+        "sha256": "908b0e4dc5de315936ca402f8c73dc791a0b2bb4b260454927c2f3c1e264aa90"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_train_1103/query029.json",
+        "sha256": "d6e1cee274ca4146fc37a52c1f3134176dced4fc43960e8a32334e61e3bcee62"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/episode.json",
+        "sha256": "bc65b8442fd355c39d307ab63f0d862001a20687032af148366346a1cb2d1ca4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/summary.json",
+        "sha256": "376b0efcc6f4cf9c5eda067dfad063342d9acbe6e9bba015055e3dee00d1ad87"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query000.json",
+        "sha256": "414847de2c400609d96076198a1818894e60d04419fb8c726280cd9dc6a04561"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query001.json",
+        "sha256": "68b8eda3280b2771b025adf045ce43e530f28c1eb3b61705871129694682b5e4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query002.json",
+        "sha256": "64256e2b70da66de5a3e10d648f2984f3a34f8f317e6ad192948949714ca0ff7"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query003.json",
+        "sha256": "b8734e1e4afefa47ac6dd8e5cb23c82bd0f2c5964ab23e9d17267a2c0382e805"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query004.json",
+        "sha256": "6b6315e251b9dd72d41094157b67641293045458606fb06c7c951de8ec484e66"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query005.json",
+        "sha256": "ec479aa938a298925989bf287122e9c8f218778eb27b1a30a19404f51bdf68a3"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query006.json",
+        "sha256": "e52627ec79a59f6683274033e770ef1cbd4b5c2b418a6aa5fa1cf3fc18c83ce5"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query007.json",
+        "sha256": "8f9bbed0b127283ad81c5b7fb9d5c769f927e058434a007613181662d802c6c4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query008.json",
+        "sha256": "330b2c1a196212a2ac2935fb5cf3cd4e184ce898b3cfd98b13a80b482c73e52e"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query009.json",
+        "sha256": "e50fe1b790a115c0e9623634c4992be8dd222badc5d3e980cfeda9a7e032ada6"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query010.json",
+        "sha256": "abe4e5470083270289b1fa7203e2c386306c8be50c324ede33a0f5f9950783c7"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query011.json",
+        "sha256": "20a6471d7939b72e10a315d9545765cc5c628979f480e254308a1e4079b3652a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query012.json",
+        "sha256": "65577964afc106595c9ecdccb192b341d3d424612408e6ef50fcc96d92774d8c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query013.json",
+        "sha256": "df2b8e404dc02eec51fbf456ccd02c33016ae6083de5ea92210c8861eeaad185"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query014.json",
+        "sha256": "2769acf5d0978e5a3ff57c8eb85693733488a3407fc8ebb052951839df3e9c18"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query015.json",
+        "sha256": "fb5c68eaea40937c369ed458b148d370722017feba981908d657b0afc162407d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query016.json",
+        "sha256": "32705ef54eb74fd829515b48bf7fc7776ccd35e352bdd265b708147cc7f1a9e8"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query017.json",
+        "sha256": "4ae386071ae2e108fc26b4c9efb34ce6dafeb88daf04f39aa715903d49b0b306"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query018.json",
+        "sha256": "c81e966a8598dda5f791d2932ddd75205e1af363375132dd1ba04fb35b6884bf"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query019.json",
+        "sha256": "91eb2342daa08209e5921f883526511c4fbc92092c9ebb29e8e59ad050b6d5ed"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query020.json",
+        "sha256": "a79e517bad65b8cb5a68a0c505e06423baa22a227aa27417c039947648823150"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query021.json",
+        "sha256": "65241faa8f49b63338780f6c95cfd7abca2fa26a244b77289f825786d0dee6d5"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query022.json",
+        "sha256": "f4b5e51b03a9cfaee88cb59d5b20ea1a821cf2d93b9b36e35467ce5fc3ad8f6b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query023.json",
+        "sha256": "950dc483b943a3767aec88e81be618931dfcc6a349a73c537cab7d00f50cc62e"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query024.json",
+        "sha256": "4615fbbcda1e78323082a2a27d7920d7c89b5c71f200b48b3a1caed7c80ec561"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query025.json",
+        "sha256": "1da3f7d2100a6b6a8167726293a43d0057c2da1237cd19f6c65714e48c34f3b2"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query026.json",
+        "sha256": "f9d4cac4bc16439204b6ba0e58bd9912f91f89ce330f9393f7907cdbc64a0720"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query027.json",
+        "sha256": "d2fceb914d59a66729083d32523c5d054828dc6695c7b90b040106cc6d1c7961"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query028.json",
+        "sha256": "7944090bf5eef078bb87258737f7e234622cea317d5515f31f19ff00bbd61921"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2101/query029.json",
+        "sha256": "183f582970d42643b9609bfae13f8d4aa798cbe3a3ccdea0046a2b0f611d695f"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/episode.json",
+        "sha256": "576985ef84a459d3c8444a3d1220ae223c3730184d6b84b10f083947ec01901f"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/summary.json",
+        "sha256": "b3aa710b0ab3d0adb47e2bf1f15d30d24139d65a2bdd1bc64286a0476dc52243"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query000.json",
+        "sha256": "0f58d1195d267bdd46dece422fc53b8a4aba4404797f60305a93702a001c1308"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query001.json",
+        "sha256": "4f647cede8de96402b2dc7acb8a30f5190d3ff9d84b4ffae9a4517d357591e2e"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query002.json",
+        "sha256": "89e134da8ee87874deebb6ccfb49868103c89ec15063294174a9960d3a8e4c36"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query003.json",
+        "sha256": "a0b6a62362e3d8063b20f5e3eacc3ca690e92045c857b477858045a37d0fbc1b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query004.json",
+        "sha256": "9279adff9424040f799a18c45f4efc1862e524f811597d815c3ca0160f68e3ad"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query005.json",
+        "sha256": "610c15251f867dffe3cc4ce8c8b612aa09b99ab5eb513450a6bf83851efe566d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query006.json",
+        "sha256": "354c06fa779f6138ecdcb7e84b644efab8a12c057e74833adab5b4eee6538607"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query007.json",
+        "sha256": "446409f72233a81d3fbaa613983b483b9ef014e37d7158913c87089c8db0e710"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query008.json",
+        "sha256": "67efbddd46926a68faa106c2f60a72c23f7ecc8587053a8dc54a92785528080b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query009.json",
+        "sha256": "138b57df21882890b1461a691d84ed1f7e52d8130cebd9a65ebeb5b1f93cbadf"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query010.json",
+        "sha256": "6cc773ec535470f2bd0855a3b60c41e0c3c4c7c98fc1be27fae2fce5b603ca4f"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query011.json",
+        "sha256": "b7a0ad144895e2fbbff02e4fb8cb557f8e945f7fcf0027160b86bf521f9b86ec"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query012.json",
+        "sha256": "32e36adf4b529b1cc48da5940c200f885c6c9a99002cf38f5eeb2c02227f61b3"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query013.json",
+        "sha256": "ea26b9b268c8ee185c2ca1944d3976b359301ded2dbbcf84f85fa6b16a56c516"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query014.json",
+        "sha256": "8cd04261b5b9d11260032c4bc6edf320b3c3c9b852c33a1a93826164ddf10bfc"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query015.json",
+        "sha256": "3858db8e2a38033bffe2c5bdd70e07de840eaf6925850864447b47b8251f109f"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query016.json",
+        "sha256": "3caf5c2750b5a190c410af3fb98911f336a77d3c0f600a03ac094bbacc7609e6"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query017.json",
+        "sha256": "4861894e22038d01ea0ac407a0d28fab4da7e978f80aa7b36d9c18fa0021a257"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query018.json",
+        "sha256": "5c23d8a1ce1727f1955b80a958ced2f93facb3d6c64ad95426fd6e2bc8cfc585"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query019.json",
+        "sha256": "2ede20cdb4bdcbe427fcc14a04c0249a2a0b0dda3db134f8c6991206599bbca5"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query020.json",
+        "sha256": "6b91a7e5e0b982429b9f42c8a045eabe14e10e3bbcb811498b66582e947dc5ca"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query021.json",
+        "sha256": "26e80633d13422f4a4c4320ee1ee5f994354f94532b8187a6700533f4b44bf98"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query022.json",
+        "sha256": "fae9d9d803ee8fa77a48635ae34f3c24b529c63be3173f736927d4653ab73f53"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query023.json",
+        "sha256": "67dab638585f7c41238de1e31007acbbc3297e35af99b888cf419aace9320542"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query024.json",
+        "sha256": "7fa2e999167a5f119e523265b50ffb01e367c49680e91771e5002d358693f652"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query025.json",
+        "sha256": "60946c1079d2fd3a94f62ec6a6306785a3d1fa6176459da5e1d80cdecd0f18e0"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query026.json",
+        "sha256": "8e5ce42301d06cb19ad7c482c493e5e76d65c9b4ff4edc232060c28ce902b31c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query027.json",
+        "sha256": "b4441ab88e6ac3fe6070b15bcda93996377da7ff9d64f936585b480ebee17bc9"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query028.json",
+        "sha256": "b30e15a9bd67817289625cddcd58c202975e576248f8e182d33d340dd33f4d95"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/episodes/collection_dev_2102/query029.json",
+        "sha256": "444642ba206bbac286f62b294178fb369b395fc4f68152e8bb2a5e0655566b8d"
+      }
+    ],
+    "original_output": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1",
+    "original_protocol": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_20260918/protocol.json",
+      "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+    },
+    "original_source_files": [
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/acceptance.py",
+        "sha256": "21c1b9d10dd2bd87a0dfad161bf1ef6eb42694f0907b31044773ff82e885cd35"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/test_study.py",
+        "sha256": "2d65b1cd7995c7c1c65e9c7658505a0d6263ba027eda2cf148270b62727cd28a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/test_acceptance.py",
+        "sha256": "4340588305c2e67b46556491d8a941951ac2370b267ac49fb338fd1248b22c3c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/pipeline.py",
+        "sha256": "3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/protocol.json",
+        "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/driver.py",
+        "sha256": "2ba8a2c9f07caa0ee0d3f8b5fb07d111dd4d47ab8055047ca794c4b2817e4904"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime_config.json",
+        "sha256": "880337ddf3a04fca4df5c3b404a530a1331c1c11b9199023cea2ec0355dae7ee"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/report.py",
+        "sha256": "845c8e6da6e8a2f34064b81940fbbb8b051a3c63b7a9302e7cc1fa2c0c6dbea8"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/study.py",
+        "sha256": "cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/test_contracts.py",
+        "sha256": "6aaf6365326d76473f16a25e6ee374d24ad5baed0fdce7de261a22250d0be66a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/tc_worker.py",
+        "sha256": "5eeef55759a952a1366faacbde56c977799ab4bb26563c24981980ee0ec787ee"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/__init__.py",
+        "sha256": "6dd35755644d8be59d8a5c418ba7843adc7f1e03c579333c6807163a86ddd8a4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/features.py",
+        "sha256": "cd04aed9e292675ed490ffbf96395aa6b98d1f51723a445a6bd8aa8d984956b3"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/test_tc_worker.py",
+        "sha256": "be30a9554d1844bde500a9976f713b0694db8993cee57a2118bb3c7f10a18c1c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/snar_policy.py",
+        "sha256": "699a8f8414f90bc072cce6457473469e2e5efb99c4be8e4fa14c46effb1aa121"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/test_contracts.py",
+        "sha256": "90b5340474ad8da803341c2a586ec06113872f12d6789f9c5565fe0ab9e5973b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/client.py",
+        "sha256": "33a9fcce21fdc773eda90d1da00fbb2592cde1de07344fa8707bbfb7356bb0b2"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/__init__.py",
+        "sha256": "8de8583715d075120054b84be0dbc53495a627f359c89f58ce84714f23fa7198"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/snar_rpc.py",
+        "sha256": "4088c24c655161e2fc7daae3c9cf045bf703e85390d478cfaa21d69806119ce7"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/technical_check.py",
+        "sha256": "beca7d741117188344d95fce78aba00a7c4398274b4060958044b6dd03a37acc"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/official.py",
+        "sha256": "d28edeedd32f6f3d8317fdbfc7f0eb50dc29ae8515a945202ce1df3e43fcaa22"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/source_lock.json",
+        "sha256": "aac863ddb2cb669a9396ea48f9ffb76e5f1f3c4970d77dc970db82f15ea0c8e2"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/runtime_config.json",
+        "sha256": "07a3285736b68a52e5a274b7cd46e7e733ccbdc1cf0d878ae2a238ad6e593f71"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/baselines/__init__.py",
+        "sha256": "1234dc90ca94d43a9ac4f82cd242ce889d21aa74ca5fd626916aab7e4dc3e40c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/baselines/test_planners.py",
+        "sha256": "105bb1f46ad6774ba9c26196a01884c307de2c197d119618e9c364ec0eface2d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/baselines/planners.py",
+        "sha256": "bc8309830b6620bc809d4f469346db733f8e811688e4a8972ed363a02ba43661"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/deployment_facts.json",
+        "sha256": "9721589015e9a3f09a04a763152cab21a2f7c23846ae32d7cb5b5a66e7ca9034"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/resource_guard.py",
+        "sha256": "7b2372333825e63b74f0af6e9039cd2c67dae77c51e32e8a8839b2bc241c6350"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/test_resource_guard.py",
+        "sha256": "151b315bd575009510b3f82f39b8cbce62353e551ab18c7e56f6da1502e8e136"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/supervise.py",
+        "sha256": "50a2905329ac8ecda4175d21521e2cd837983d832d35c60f4a1c7798a8a5ef75"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/runtime/readiness.json",
+        "sha256": "c2950138db5c134b4c6043c9b0c95efefc8d83b3f0a0c1bd12847eb395ccc503"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/runtime/wheels.lock.json",
+        "sha256": "5b4784339366e9e3ae26cf55226a213336947849ad6ccf52eb3a795e25c9e85f"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/__init__.py",
+        "sha256": "e3eadec0e58d48025070ae0826ce98cd04e170e01062979d0ae352f18305be5c"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/accounting.py",
+        "sha256": "3e93ee506719bef10512937d0ad35e2b88d14cbe9cc5ca71c470d757f595e043"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/action_targets.py",
+        "sha256": "30734893a803ba3147c61901699612f8618a5f96d4c0a53c4282b70fb293d618"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/attention_checkpointing.py",
+        "sha256": "58df5cdfe99f617e920ca41fcce711d0f26687b807744fc99179ef02bca9c3e6"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/benchmark_adapters.py",
+        "sha256": "0f48431db71251c2793d161efcaa6209512735cf77ce1f5ab3dd048f11917d1e"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/checkpoint_retention.py",
+        "sha256": "63b2d1b29397ff1a8ce78c4fc3c944b3a7631ef9c47415c597e684346656b94b"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/collection_provenance.py",
+        "sha256": "0e57a84b49dc15c84471ab957e716754a9012a8a8d8c7a5f4ac284474ece59b0"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_collection.py",
+        "sha256": "9f5dacd6ff61aaf1372ab5ca9ee3d3e0437ec703c4acedec15f476437c522b85"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_es.py",
+        "sha256": "10140ed405c8fd73841d7df9c2012c145191fac0aac85d2054fd44137b4f705e"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_final.py",
+        "sha256": "97da15ad911a38a520a0d8b570b9e6efe53181ceb1439758abda42f1ef4d3bfc"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_protocol.py",
+        "sha256": "df1fa2a4b141af486e71a0938126365075ec2d0781832c7eb62cac08fb43a6b6"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_report.py",
+        "sha256": "16592e2e02344c3b83720534a68e88a246681330ebcfb1889c90ce7a852c2810"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_representation.py",
+        "sha256": "1543c52d17faecf5575cf46c71c18fac80d63ace16f2f94cacc0432689a93127"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/deferred_dev_transcoders.py",
+        "sha256": "a1a5a56a38f6f67ad83f072f6eef64bd0a2f939d6645bc69867d17d40f4b0def"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/deferred_transcoder_publisher.py",
+        "sha256": "d40447ee2ae9a8a0907fc616e74f8e30dedb6bfab90789964f45af168e96a2f3"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/env_server.py",
+        "sha256": "2582aa72b45a89d7b111e452eaf4b81dcf382970074fec27ff7c9d9dcb316e0a"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/es_training.py",
+        "sha256": "3b10890282ab4a399cf0f41fb1aca46f160df0b48cacf243d6ff1b483cf80fc5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/esopt.py",
+        "sha256": "14e672a2c0e6e81b44bff0e81d72021e0cd5c632011c73712344445b5a3b1c79"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/evaluation_extension.py",
+        "sha256": "c6df6a28666ba9e709deb5b3634811e17c8d9c7ffda30a03d032a6a7788bedac"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/evaluation_extension_runner.py",
+        "sha256": "fc6f3996cc5c3833ae121122dc9b9c721392482a174c1dd0c513cb0e36e3b06f"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/execution_contract.py",
+        "sha256": "e8aa8e78f14a652aedd48aa1d9611ae022662e217589800373f1d020d5dfb542"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/experiment_plan.py",
+        "sha256": "415a1d6c1cf671370f55c7df92e5f83c5a7ae0ac134137566ab3eab2a41ce793"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_controller.py",
+        "sha256": "d37ffb203b5299067e26f403ddd4ab4380544466d6d73fd67378db19613c5d2f"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_fit.py",
+        "sha256": "2456bce8230931f97c50dc904fa065884da67c33a269d09b293096f619dc29e5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_labels.py",
+        "sha256": "acd7786273bb22bb2503d4d430fad3c59dfa0da456a4ec373d362e4a46dd6ba5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_reporting.py",
+        "sha256": "ebf4458353964c6d913b09468c2e1d23397bf576241cd6fcd5fc8c9a3881bbf5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_risk.py",
+        "sha256": "5f475e2aab2ca2656f5715f8c1266de91ab34e968bc97304e55880e5661dae47"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/final_evaluation.py",
+        "sha256": "b8a18923d4ac9bb9752a1baeb2e1bdb46853488180d2e8f01060c14456dabbd5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/fit_risk.py",
+        "sha256": "265011ee74867df9a9afa91ea97c377ba922d46f1ed1991f30619f45d899a4bf"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/graph_features.py",
+        "sha256": "2f1a4a007e4cdd983b465d22d01e0eec6710d44687149d36e672ed4862dbd6b3"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/graph_recovery.py",
+        "sha256": "4f03b019bfe2a433ea893caa7e865047876063d39eab81d9073ceeaef99edb13"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/immutable_hash_cache.py",
+        "sha256": "1cdacc67bf0536878b0e7e678e0d7a7c36b80d7c19adbaa925fbe93cf0626011"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/mace_parallel.py",
+        "sha256": "66dfd7ddd441e922944b7a53da439d696f9c2da3709f0f18cb09b3a974d2f454"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_all30_extension.py",
+        "sha256": "192c66a590611ab49ab51a4711e73c2450b5a277608a5ec4ce687fdce4dec4ad"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_all30_runner.py",
+        "sha256": "3573a8e712bb5f7cad99cdc00f764cc4e57e47849f054a011854777f59986f6d"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_budget_runner.py",
+        "sha256": "ce38b4614d67cbf50423808bb9f61a87660c5b72efd8023dfd4acc833bce5d66"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_budget_sweep.py",
+        "sha256": "1383101f907e196386e20d05a461a9135e0b762104248d745810338f0117fee8"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/metrics.py",
+        "sha256": "d055a89a9feb43bb8f1841acb71a117993987f6fce850b3d2900aa068e915d34"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/native_attribution.py",
+        "sha256": "a6d4b6bf985b5a9ac56a211a676ae5b8fb006c1b75ff69999d91d9cf7a7e7185"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/normalized_recovery.py",
+        "sha256": "afd616d78e94725e180694300992dfcdd4093855af7f00ea7721c88a4de50002"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/normalized_transcoders.py",
+        "sha256": "d8740d292e24b7621b0caf315fa12582bfe222d2fe634defb6bb9674c4dfd81b"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/parallel_normalized_bank.py",
+        "sha256": "be5b80026ad9273a60d85ceea3b00ef19be8118396a879f6724c39ba6243fcd9"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/passed_bank_reuse.py",
+        "sha256": "bbdd5dac2a69d84f9e1974c43ce99ad48bc8f8492204e6247b30f954eac61cce"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/policy.py",
+        "sha256": "beb62b4d8d4bf9c9db4f3cb31db819f5f64f06fcfc827fd2c8fb8269c44aa495"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/representation_training.py",
+        "sha256": "e4a7f6e7448a49f751c487cb9f1e52f7d3d572bf1385c3aa0e3398ab3de8f9fb"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/rollouts.py",
+        "sha256": "4c6436beb0c65a8a954f968ffcadbd7a2ede457843c6570f0b992dfa57a63867"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/rpc.py",
+        "sha256": "fdf81ba1150a5d1a5a9db29acc803b32d8d731a78d15ae06c05b70a683b9029d"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/study_costs.py",
+        "sha256": "a01e55bb90a137d4ceacdc938f002de80f54672fe9f4cfcf25aeb81ff9e7e6dd"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/tc64_recovery.py",
+        "sha256": "3f911c4d23b01f5d8240f5f12a10fa55e7876f74874c2ff306d3024724aecefc"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/training_jobs.py",
+        "sha256": "40e2f9b1547f3f1fd1e53faa4d8ca6fc030fe81dd253bed64f5cdc228879e9ba"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/transcoders.py",
+        "sha256": "0ef5823c60c459b6c16bd199b7b02f183691bd95630c6b809e7a7173c9b66f60"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/uncertainty.py",
+        "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+      },
+      {
+        "path": "project-artifact:configs/model_manifest.json",
+        "sha256": "8ed8b46fdd35356a21a93ee93e93b6f0e983f5354cf942e6b4bb6b6854969ef7"
+      },
+      {
+        "path": "project-artifact:core_workspaces/made_core48h_normalized_v3/experiments/transcoders/qwen35_4b/made/transcoder_manifest.json",
+        "sha256": "f9f4a9e4c510248013c23a25d329f9b8779c30bd3adddcd7e9c0f22bf62fc20b"
+      }
+    ],
+    "original_source_root": "project-artifact:benchmark_extensions/summit_snar_20260918",
+    "policy_configuration_fingerprint": "43109c23b34719e1daa7e6fee750e1b78fa829f696a392b5d1956d58f9389815",
+    "registered_at": 1789761817.4564338,
+    "schema": "snar_causal128_fresh_normalized64_training_v3",
+    "settings": {
+      "batch_size": 256,
+      "cpu_threads": 2,
+      "device": "cuda:0",
+      "epochs": 64,
+      "fit_recipe": "train_centered_scalar_rms_fp32_export_v1",
+      "gpu_memory_bytes": 2147483648,
+      "learning_rate": 0.0004,
+      "max_dev_fvu": 0.5,
+      "seed": 1729
+    },
+    "source_files": [
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_representation_training_20260919_v3/registration.py",
+        "sha256": "d29680470ed5191a0dfd4b44c3d215c6d590c06d82e479d66ba58374172d38d4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_representation_training_20260919_v3/training.py",
+        "sha256": "2ade9394837c5544cf598a828f92d6cf595063d7515ed6675b339d3e94d44c9b"
+      }
+    ],
+    "workspace": "project-artifact:benchmark_extensions/summit_snar_representation_training_20260919_v3/runs/v1"
+  },
+  "not_an_original_registration": true,
+  "not_executable": true,
+  "only_transformation": "Project-root path prefixes replaced; dictionary keys and values relocated consistently. All numeric/boolean/null/array values retained.",
+  "original_fingerprints_inside_definition_are_historical_references_only": true,
+  "original_reference": {
+    "fingerprint": "4088fbb43f8ea442fff705f3806ab8ff802dff913c39aa36548a0c4783746ece",
+    "sha256": "034dbb1aa4f8969979135b986854c06af9e1c7cdd7ccbe768e4c4ea4f7563858",
+    "study": "SnAr_TC_v3"
+  },
+  "schema": "derived_scientific_registration_reference_projection_v1",
+  "transformation_counts": {
+    "arrays": 4,
+    "numeric_boolean_null_leaves": 38,
+    "path_dictionary_keys": 0,
+    "path_string_values": 274
+  }
+}

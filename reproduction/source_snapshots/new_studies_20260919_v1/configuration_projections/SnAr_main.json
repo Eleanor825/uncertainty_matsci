@@ -1,0 +1,1404 @@
+{
+  "definition": {
+    "all125_graphs_new": true,
+    "fingerprint": "69c588044a290b03450485b9c7acbb7bfc03b7c97a9ee829e7af79f67cff4753",
+    "imported_collection": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2/collection_import.json",
+      "sha256": "2f21ca56dd999bf653a611b295b6e505c7f79bd6c2e181baa8b06c1592f2a58b"
+    },
+    "imported_oracle_calls": 150,
+    "jobs": [
+      {
+        "branch": "es_only",
+        "dependencies": [],
+        "job_id": "es_only",
+        "kind": "evolve",
+        "queries": 200,
+        "resource": "gpu"
+      },
+      {
+        "dependencies": [],
+        "job_id": "bank_admission",
+        "kind": "bank",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "dependencies": [
+          "bank_admission"
+        ],
+        "job_id": "original_failed_probe",
+        "kind": "probe",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "chunk": 0,
+        "dependencies": [
+          "original_failed_probe"
+        ],
+        "job_id": "graphs_00",
+        "kind": "graphs",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "chunk": 1,
+        "dependencies": [
+          "original_failed_probe"
+        ],
+        "job_id": "graphs_01",
+        "kind": "graphs",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "chunk": 2,
+        "dependencies": [
+          "original_failed_probe"
+        ],
+        "job_id": "graphs_02",
+        "kind": "graphs",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "chunk": 3,
+        "dependencies": [
+          "original_failed_probe"
+        ],
+        "job_id": "graphs_03",
+        "kind": "graphs",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "chunk": 4,
+        "dependencies": [
+          "original_failed_probe"
+        ],
+        "job_id": "graphs_04",
+        "kind": "graphs",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "chunk": 5,
+        "dependencies": [
+          "original_failed_probe"
+        ],
+        "job_id": "graphs_05",
+        "kind": "graphs",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "chunk": 6,
+        "dependencies": [
+          "original_failed_probe"
+        ],
+        "job_id": "graphs_06",
+        "kind": "graphs",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "chunk": 7,
+        "dependencies": [
+          "original_failed_probe"
+        ],
+        "job_id": "graphs_07",
+        "kind": "graphs",
+        "queries": 0,
+        "resource": "gpu"
+      },
+      {
+        "dependencies": [
+          "graphs_00",
+          "graphs_01",
+          "graphs_02",
+          "graphs_03",
+          "graphs_04",
+          "graphs_05",
+          "graphs_06",
+          "graphs_07"
+        ],
+        "job_id": "risk_fit",
+        "kind": "risk",
+        "queries": 0,
+        "resource": "cpu"
+      },
+      {
+        "branch": "full",
+        "dependencies": [
+          "risk_fit"
+        ],
+        "job_id": "full",
+        "kind": "evolve",
+        "queries": 200,
+        "resource": "gpu"
+      },
+      {
+        "dependencies": [
+          "full",
+          "es_only",
+          "risk_fit"
+        ],
+        "job_id": "freeze",
+        "kind": "freeze",
+        "queries": 0,
+        "resource": "cpu"
+      },
+      {
+        "arm": "random",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_5101",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5101
+      },
+      {
+        "arm": "random",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_5102",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5102
+      },
+      {
+        "arm": "random",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_5103",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5103
+      },
+      {
+        "arm": "random",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_5104",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5104
+      },
+      {
+        "arm": "random",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_5105",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5105
+      },
+      {
+        "arm": "gp_ei_scalarized",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_gp_ei_scalarized_5101",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5101
+      },
+      {
+        "arm": "gp_ei_scalarized",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_gp_ei_scalarized_5102",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5102
+      },
+      {
+        "arm": "gp_ei_scalarized",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_gp_ei_scalarized_5103",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5103
+      },
+      {
+        "arm": "gp_ei_scalarized",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_gp_ei_scalarized_5104",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5104
+      },
+      {
+        "arm": "gp_ei_scalarized",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_gp_ei_scalarized_5105",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "cpu",
+        "seed": 5105
+      },
+      {
+        "arm": "qwen_base",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_qwen_base_5101",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5101
+      },
+      {
+        "arm": "qwen_base",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_qwen_base_5102",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5102
+      },
+      {
+        "arm": "qwen_base",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_qwen_base_5103",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5103
+      },
+      {
+        "arm": "qwen_base",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_qwen_base_5104",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5104
+      },
+      {
+        "arm": "qwen_base",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_qwen_base_5105",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5105
+      },
+      {
+        "arm": "uq_esopt",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_esopt_5101",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5101
+      },
+      {
+        "arm": "uq_esopt",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_esopt_5102",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5102
+      },
+      {
+        "arm": "uq_esopt",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_esopt_5103",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5103
+      },
+      {
+        "arm": "uq_esopt",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_esopt_5104",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5104
+      },
+      {
+        "arm": "uq_esopt",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_esopt_5105",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5105
+      },
+      {
+        "arm": "uq_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_only_5101",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5101
+      },
+      {
+        "arm": "uq_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_only_5102",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5102
+      },
+      {
+        "arm": "uq_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_only_5103",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5103
+      },
+      {
+        "arm": "uq_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_only_5104",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5104
+      },
+      {
+        "arm": "uq_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_uq_only_5105",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5105
+      },
+      {
+        "arm": "es_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_es_only_5101",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5101
+      },
+      {
+        "arm": "es_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_es_only_5102",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5102
+      },
+      {
+        "arm": "es_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_es_only_5103",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5103
+      },
+      {
+        "arm": "es_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_es_only_5104",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5104
+      },
+      {
+        "arm": "es_only",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_es_only_5105",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5105
+      },
+      {
+        "arm": "random_controller",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_controller_5101",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5101
+      },
+      {
+        "arm": "random_controller",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_controller_5102",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5102
+      },
+      {
+        "arm": "random_controller",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_controller_5103",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5103
+      },
+      {
+        "arm": "random_controller",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_controller_5104",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5104
+      },
+      {
+        "arm": "random_controller",
+        "dependencies": [
+          "freeze"
+        ],
+        "job_id": "test_random_controller_5105",
+        "kind": "evaluate",
+        "queries": 50,
+        "resource": "gpu",
+        "seed": 5105
+      },
+      {
+        "dependencies": [
+          "test_random_5101",
+          "test_random_5102",
+          "test_random_5103",
+          "test_random_5104",
+          "test_random_5105",
+          "test_gp_ei_scalarized_5101",
+          "test_gp_ei_scalarized_5102",
+          "test_gp_ei_scalarized_5103",
+          "test_gp_ei_scalarized_5104",
+          "test_gp_ei_scalarized_5105",
+          "test_qwen_base_5101",
+          "test_qwen_base_5102",
+          "test_qwen_base_5103",
+          "test_qwen_base_5104",
+          "test_qwen_base_5105",
+          "test_uq_esopt_5101",
+          "test_uq_esopt_5102",
+          "test_uq_esopt_5103",
+          "test_uq_esopt_5104",
+          "test_uq_esopt_5105",
+          "test_uq_only_5101",
+          "test_uq_only_5102",
+          "test_uq_only_5103",
+          "test_uq_only_5104",
+          "test_uq_only_5105",
+          "test_es_only_5101",
+          "test_es_only_5102",
+          "test_es_only_5103",
+          "test_es_only_5104",
+          "test_es_only_5105",
+          "test_random_controller_5101",
+          "test_random_controller_5102",
+          "test_random_controller_5103",
+          "test_random_controller_5104",
+          "test_random_controller_5105"
+        ],
+        "job_id": "report",
+        "kind": "report",
+        "queries": 0,
+        "resource": "cpu"
+      }
+    ],
+    "main_experiment_complete": false,
+    "method_source_root": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src",
+    "new_adaptation_oracle_calls": 400,
+    "new_test_oracle_calls": 1750,
+    "old_graphs_reused": 0,
+    "oracle_scope_change": "test uses one independent 50-query physical journal per arm/seed; branch journals remain200",
+    "oracle_source_root": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/vendor/summit",
+    "original_diagnostic": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_representation_repair_20260919_v2/registration.json",
+      "sha256": "655d93fd990c15e915b411b70d7d431b678fab1cbe4fda9e39b6391e56a4faac"
+    },
+    "original_failed_probe": "collection_train_1101/query005_proposal0",
+    "original_output": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1",
+    "original_protocol": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_20260918/protocol.json",
+      "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+    },
+    "original_registration": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runs/v1/registration.json",
+      "sha256": "79cf4d1ed81989a4a04326afc10aff65fb06b09b07a05e9c12c5982a05786277"
+    },
+    "original_runtime": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime_config.json",
+      "sha256": "880337ddf3a04fca4df5c3b404a530a1331c1c11b9199023cea2ec0355dae7ee"
+    },
+    "original_source_files": [
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/acceptance.py",
+        "sha256": "21c1b9d10dd2bd87a0dfad161bf1ef6eb42694f0907b31044773ff82e885cd35"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/test_study.py",
+        "sha256": "2d65b1cd7995c7c1c65e9c7658505a0d6263ba027eda2cf148270b62727cd28a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/test_acceptance.py",
+        "sha256": "4340588305c2e67b46556491d8a941951ac2370b267ac49fb338fd1248b22c3c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/pipeline.py",
+        "sha256": "3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/protocol.json",
+        "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/driver.py",
+        "sha256": "2ba8a2c9f07caa0ee0d3f8b5fb07d111dd4d47ab8055047ca794c4b2817e4904"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime_config.json",
+        "sha256": "880337ddf3a04fca4df5c3b404a530a1331c1c11b9199023cea2ec0355dae7ee"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/report.py",
+        "sha256": "845c8e6da6e8a2f34064b81940fbbb8b051a3c63b7a9302e7cc1fa2c0c6dbea8"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/study.py",
+        "sha256": "cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/test_contracts.py",
+        "sha256": "6aaf6365326d76473f16a25e6ee374d24ad5baed0fdce7de261a22250d0be66a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/tc_worker.py",
+        "sha256": "5eeef55759a952a1366faacbde56c977799ab4bb26563c24981980ee0ec787ee"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/__init__.py",
+        "sha256": "6dd35755644d8be59d8a5c418ba7843adc7f1e03c579333c6807163a86ddd8a4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/features.py",
+        "sha256": "cd04aed9e292675ed490ffbf96395aa6b98d1f51723a445a6bd8aa8d984956b3"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/test_tc_worker.py",
+        "sha256": "be30a9554d1844bde500a9976f713b0694db8993cee57a2118bb3c7f10a18c1c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/snar_policy.py",
+        "sha256": "699a8f8414f90bc072cce6457473469e2e5efb99c4be8e4fa14c46effb1aa121"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/test_contracts.py",
+        "sha256": "90b5340474ad8da803341c2a586ec06113872f12d6789f9c5565fe0ab9e5973b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/client.py",
+        "sha256": "33a9fcce21fdc773eda90d1da00fbb2592cde1de07344fa8707bbfb7356bb0b2"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/__init__.py",
+        "sha256": "8de8583715d075120054b84be0dbc53495a627f359c89f58ce84714f23fa7198"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/snar_rpc.py",
+        "sha256": "4088c24c655161e2fc7daae3c9cf045bf703e85390d478cfaa21d69806119ce7"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/technical_check.py",
+        "sha256": "beca7d741117188344d95fce78aba00a7c4398274b4060958044b6dd03a37acc"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/official.py",
+        "sha256": "d28edeedd32f6f3d8317fdbfc7f0eb50dc29ae8515a945202ce1df3e43fcaa22"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/source_lock.json",
+        "sha256": "aac863ddb2cb669a9396ea48f9ffb76e5f1f3c4970d77dc970db82f15ea0c8e2"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/runtime_config.json",
+        "sha256": "07a3285736b68a52e5a274b7cd46e7e733ccbdc1cf0d878ae2a238ad6e593f71"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/baselines/__init__.py",
+        "sha256": "1234dc90ca94d43a9ac4f82cd242ce889d21aa74ca5fd626916aab7e4dc3e40c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/baselines/test_planners.py",
+        "sha256": "105bb1f46ad6774ba9c26196a01884c307de2c197d119618e9c364ec0eface2d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/baselines/planners.py",
+        "sha256": "bc8309830b6620bc809d4f469346db733f8e811688e4a8972ed363a02ba43661"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/deployment_facts.json",
+        "sha256": "9721589015e9a3f09a04a763152cab21a2f7c23846ae32d7cb5b5a66e7ca9034"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/resource_guard.py",
+        "sha256": "7b2372333825e63b74f0af6e9039cd2c67dae77c51e32e8a8839b2bc241c6350"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/test_resource_guard.py",
+        "sha256": "151b315bd575009510b3f82f39b8cbce62353e551ab18c7e56f6da1502e8e136"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/supervise.py",
+        "sha256": "50a2905329ac8ecda4175d21521e2cd837983d832d35c60f4a1c7798a8a5ef75"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/runtime/readiness.json",
+        "sha256": "c2950138db5c134b4c6043c9b0c95efefc8d83b3f0a0c1bd12847eb395ccc503"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/runtime/wheels.lock.json",
+        "sha256": "5b4784339366e9e3ae26cf55226a213336947849ad6ccf52eb3a795e25c9e85f"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/__init__.py",
+        "sha256": "e3eadec0e58d48025070ae0826ce98cd04e170e01062979d0ae352f18305be5c"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/accounting.py",
+        "sha256": "3e93ee506719bef10512937d0ad35e2b88d14cbe9cc5ca71c470d757f595e043"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/action_targets.py",
+        "sha256": "30734893a803ba3147c61901699612f8618a5f96d4c0a53c4282b70fb293d618"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/attention_checkpointing.py",
+        "sha256": "58df5cdfe99f617e920ca41fcce711d0f26687b807744fc99179ef02bca9c3e6"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/benchmark_adapters.py",
+        "sha256": "0f48431db71251c2793d161efcaa6209512735cf77ce1f5ab3dd048f11917d1e"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/checkpoint_retention.py",
+        "sha256": "63b2d1b29397ff1a8ce78c4fc3c944b3a7631ef9c47415c597e684346656b94b"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/collection_provenance.py",
+        "sha256": "0e57a84b49dc15c84471ab957e716754a9012a8a8d8c7a5f4ac284474ece59b0"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_collection.py",
+        "sha256": "9f5dacd6ff61aaf1372ab5ca9ee3d3e0437ec703c4acedec15f476437c522b85"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_es.py",
+        "sha256": "10140ed405c8fd73841d7df9c2012c145191fac0aac85d2054fd44137b4f705e"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_final.py",
+        "sha256": "97da15ad911a38a520a0d8b570b9e6efe53181ceb1439758abda42f1ef4d3bfc"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_protocol.py",
+        "sha256": "df1fa2a4b141af486e71a0938126365075ec2d0781832c7eb62cac08fb43a6b6"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_report.py",
+        "sha256": "16592e2e02344c3b83720534a68e88a246681330ebcfb1889c90ce7a852c2810"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_representation.py",
+        "sha256": "1543c52d17faecf5575cf46c71c18fac80d63ace16f2f94cacc0432689a93127"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/deferred_dev_transcoders.py",
+        "sha256": "a1a5a56a38f6f67ad83f072f6eef64bd0a2f939d6645bc69867d17d40f4b0def"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/deferred_transcoder_publisher.py",
+        "sha256": "d40447ee2ae9a8a0907fc616e74f8e30dedb6bfab90789964f45af168e96a2f3"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/env_server.py",
+        "sha256": "2582aa72b45a89d7b111e452eaf4b81dcf382970074fec27ff7c9d9dcb316e0a"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/es_training.py",
+        "sha256": "3b10890282ab4a399cf0f41fb1aca46f160df0b48cacf243d6ff1b483cf80fc5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/esopt.py",
+        "sha256": "14e672a2c0e6e81b44bff0e81d72021e0cd5c632011c73712344445b5a3b1c79"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/evaluation_extension.py",
+        "sha256": "c6df6a28666ba9e709deb5b3634811e17c8d9c7ffda30a03d032a6a7788bedac"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/evaluation_extension_runner.py",
+        "sha256": "fc6f3996cc5c3833ae121122dc9b9c721392482a174c1dd0c513cb0e36e3b06f"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/execution_contract.py",
+        "sha256": "e8aa8e78f14a652aedd48aa1d9611ae022662e217589800373f1d020d5dfb542"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/experiment_plan.py",
+        "sha256": "415a1d6c1cf671370f55c7df92e5f83c5a7ae0ac134137566ab3eab2a41ce793"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_controller.py",
+        "sha256": "d37ffb203b5299067e26f403ddd4ab4380544466d6d73fd67378db19613c5d2f"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_fit.py",
+        "sha256": "2456bce8230931f97c50dc904fa065884da67c33a269d09b293096f619dc29e5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_labels.py",
+        "sha256": "acd7786273bb22bb2503d4d430fad3c59dfa0da456a4ec373d362e4a46dd6ba5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_reporting.py",
+        "sha256": "ebf4458353964c6d913b09468c2e1d23397bf576241cd6fcd5fc8c9a3881bbf5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_risk.py",
+        "sha256": "5f475e2aab2ca2656f5715f8c1266de91ab34e968bc97304e55880e5661dae47"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/final_evaluation.py",
+        "sha256": "b8a18923d4ac9bb9752a1baeb2e1bdb46853488180d2e8f01060c14456dabbd5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/fit_risk.py",
+        "sha256": "265011ee74867df9a9afa91ea97c377ba922d46f1ed1991f30619f45d899a4bf"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/graph_features.py",
+        "sha256": "2f1a4a007e4cdd983b465d22d01e0eec6710d44687149d36e672ed4862dbd6b3"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/graph_recovery.py",
+        "sha256": "4f03b019bfe2a433ea893caa7e865047876063d39eab81d9073ceeaef99edb13"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/immutable_hash_cache.py",
+        "sha256": "1cdacc67bf0536878b0e7e678e0d7a7c36b80d7c19adbaa925fbe93cf0626011"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/mace_parallel.py",
+        "sha256": "66dfd7ddd441e922944b7a53da439d696f9c2da3709f0f18cb09b3a974d2f454"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_all30_extension.py",
+        "sha256": "192c66a590611ab49ab51a4711e73c2450b5a277608a5ec4ce687fdce4dec4ad"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_all30_runner.py",
+        "sha256": "3573a8e712bb5f7cad99cdc00f764cc4e57e47849f054a011854777f59986f6d"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_budget_runner.py",
+        "sha256": "ce38b4614d67cbf50423808bb9f61a87660c5b72efd8023dfd4acc833bce5d66"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_budget_sweep.py",
+        "sha256": "1383101f907e196386e20d05a461a9135e0b762104248d745810338f0117fee8"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/metrics.py",
+        "sha256": "d055a89a9feb43bb8f1841acb71a117993987f6fce850b3d2900aa068e915d34"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/native_attribution.py",
+        "sha256": "a6d4b6bf985b5a9ac56a211a676ae5b8fb006c1b75ff69999d91d9cf7a7e7185"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/normalized_recovery.py",
+        "sha256": "afd616d78e94725e180694300992dfcdd4093855af7f00ea7721c88a4de50002"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/normalized_transcoders.py",
+        "sha256": "d8740d292e24b7621b0caf315fa12582bfe222d2fe634defb6bb9674c4dfd81b"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/parallel_normalized_bank.py",
+        "sha256": "be5b80026ad9273a60d85ceea3b00ef19be8118396a879f6724c39ba6243fcd9"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/passed_bank_reuse.py",
+        "sha256": "bbdd5dac2a69d84f9e1974c43ce99ad48bc8f8492204e6247b30f954eac61cce"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/policy.py",
+        "sha256": "beb62b4d8d4bf9c9db4f3cb31db819f5f64f06fcfc827fd2c8fb8269c44aa495"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/representation_training.py",
+        "sha256": "e4a7f6e7448a49f751c487cb9f1e52f7d3d572bf1385c3aa0e3398ab3de8f9fb"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/rollouts.py",
+        "sha256": "4c6436beb0c65a8a954f968ffcadbd7a2ede457843c6570f0b992dfa57a63867"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/rpc.py",
+        "sha256": "fdf81ba1150a5d1a5a9db29acc803b32d8d731a78d15ae06c05b70a683b9029d"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/study_costs.py",
+        "sha256": "a01e55bb90a137d4ceacdc938f002de80f54672fe9f4cfcf25aeb81ff9e7e6dd"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/tc64_recovery.py",
+        "sha256": "3f911c4d23b01f5d8240f5f12a10fa55e7876f74874c2ff306d3024724aecefc"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/training_jobs.py",
+        "sha256": "40e2f9b1547f3f1fd1e53faa4d8ca6fc030fe81dd253bed64f5cdc228879e9ba"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/transcoders.py",
+        "sha256": "0ef5823c60c459b6c16bd199b7b02f183691bd95630c6b809e7a7173c9b66f60"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/uncertainty.py",
+        "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+      },
+      {
+        "path": "project-artifact:configs/model_manifest.json",
+        "sha256": "8ed8b46fdd35356a21a93ee93e93b6f0e983f5354cf942e6b4bb6b6854969ef7"
+      },
+      {
+        "path": "project-artifact:core_workspaces/made_core48h_normalized_v3/experiments/transcoders/qwen35_4b/made/transcoder_manifest.json",
+        "sha256": "f9f4a9e4c510248013c23a25d329f9b8779c30bd3adddcd7e9c0f22bf62fc20b"
+      }
+    ],
+    "original_source_root": "project-artifact:benchmark_extensions/summit_snar_20260918",
+    "output": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/runs/v2",
+    "own_sources": [
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/acceptance_repair.py",
+        "sha256": "57567104060e594b5e7713faec62ed36f75bb060064b4b38d58ada7c3e7a26c9"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/common.py",
+        "sha256": "c053283f153392ec29d338e802e9e9cf2cb4489c879317abda7ca53b360e7f41"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/main.py",
+        "sha256": "3410cc5adc5e133e74bb881f1b01f14c7245e335e9d61ef3470c104a0dd251df"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/repair_pipeline.py",
+        "sha256": "b9179c9058572cca44db6d22b9776edfa2f20a6b401505b86f66d57693f90903"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/reporting.py",
+        "sha256": "a9583364fc5edeb24366dd0fdb268c5bd8dc911d9cd92321bf5ff92d1591bb10"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/resource_bank.py",
+        "sha256": "4aa870852138e17c6028cb8fa1c60e9c5fa31a05dbe9ec6ef80b6550db630624"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/validation.py",
+        "sha256": "36b937769df7653ffa2c933b075c327742fc28b7f46633a9c1b12fca418b00f6"
+      }
+    ],
+    "pipeline_and_controller_math_unchanged": true,
+    "protocol_fingerprint": "eedd128dfb8380a5548cf31bb415cd88f4bb032eda77fe722619e5f4bf085eb2",
+    "registered_at": 1789763554.2259624,
+    "representation_amendment": {
+      "FVU_maximum": 0.5,
+      "dev_prefixes": 50,
+      "epochs": 64,
+      "fresh_all32_layers": true,
+      "graph_availability_minimum": 0.9,
+      "new_rows_per_prefix": 128,
+      "old_rows_per_prefix": 16,
+      "source_registry": {
+        "path": "project-artifact:benchmark_extensions/summit_snar_representation_training_20260919_v3/runs/v1/registration.json",
+        "sha256": "034dbb1aa4f8969979135b986854c06af9e1c7cdd7ccbe768e4c4ea4f7563858"
+      },
+      "train_prefixes": 75
+    },
+    "representation_dataset_changed": true,
+    "schema": "snar_main_causal128_repair_v2",
+    "sources": [
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/acceptance.py",
+        "sha256": "21c1b9d10dd2bd87a0dfad161bf1ef6eb42694f0907b31044773ff82e885cd35"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/test_study.py",
+        "sha256": "2d65b1cd7995c7c1c65e9c7658505a0d6263ba027eda2cf148270b62727cd28a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/test_acceptance.py",
+        "sha256": "4340588305c2e67b46556491d8a941951ac2370b267ac49fb338fd1248b22c3c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/pipeline.py",
+        "sha256": "3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/protocol.json",
+        "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/driver.py",
+        "sha256": "2ba8a2c9f07caa0ee0d3f8b5fb07d111dd4d47ab8055047ca794c4b2817e4904"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime_config.json",
+        "sha256": "880337ddf3a04fca4df5c3b404a530a1331c1c11b9199023cea2ec0355dae7ee"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/report.py",
+        "sha256": "845c8e6da6e8a2f34064b81940fbbb8b051a3c63b7a9302e7cc1fa2c0c6dbea8"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/study.py",
+        "sha256": "cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/test_contracts.py",
+        "sha256": "6aaf6365326d76473f16a25e6ee374d24ad5baed0fdce7de261a22250d0be66a"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/tc_worker.py",
+        "sha256": "5eeef55759a952a1366faacbde56c977799ab4bb26563c24981980ee0ec787ee"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/__init__.py",
+        "sha256": "6dd35755644d8be59d8a5c418ba7843adc7f1e03c579333c6807163a86ddd8a4"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/features.py",
+        "sha256": "cd04aed9e292675ed490ffbf96395aa6b98d1f51723a445a6bd8aa8d984956b3"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/test_tc_worker.py",
+        "sha256": "be30a9554d1844bde500a9976f713b0694db8993cee57a2118bb3c7f10a18c1c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/method/snar_policy.py",
+        "sha256": "699a8f8414f90bc072cce6457473469e2e5efb99c4be8e4fa14c46effb1aa121"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/test_contracts.py",
+        "sha256": "90b5340474ad8da803341c2a586ec06113872f12d6789f9c5565fe0ab9e5973b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/client.py",
+        "sha256": "33a9fcce21fdc773eda90d1da00fbb2592cde1de07344fa8707bbfb7356bb0b2"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/__init__.py",
+        "sha256": "8de8583715d075120054b84be0dbc53495a627f359c89f58ce84714f23fa7198"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/snar_rpc.py",
+        "sha256": "4088c24c655161e2fc7daae3c9cf045bf703e85390d478cfaa21d69806119ce7"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/technical_check.py",
+        "sha256": "beca7d741117188344d95fce78aba00a7c4398274b4060958044b6dd03a37acc"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/official.py",
+        "sha256": "d28edeedd32f6f3d8317fdbfc7f0eb50dc29ae8515a945202ce1df3e43fcaa22"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/source_lock.json",
+        "sha256": "aac863ddb2cb669a9396ea48f9ffb76e5f1f3c4970d77dc970db82f15ea0c8e2"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/runtime_config.json",
+        "sha256": "07a3285736b68a52e5a274b7cd46e7e733ccbdc1cf0d878ae2a238ad6e593f71"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/baselines/__init__.py",
+        "sha256": "1234dc90ca94d43a9ac4f82cd242ce889d21aa74ca5fd626916aab7e4dc3e40c"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/baselines/test_planners.py",
+        "sha256": "105bb1f46ad6774ba9c26196a01884c307de2c197d119618e9c364ec0eface2d"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/baselines/planners.py",
+        "sha256": "bc8309830b6620bc809d4f469346db733f8e811688e4a8972ed363a02ba43661"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/deployment_facts.json",
+        "sha256": "9721589015e9a3f09a04a763152cab21a2f7c23846ae32d7cb5b5a66e7ca9034"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/resource_guard.py",
+        "sha256": "7b2372333825e63b74f0af6e9039cd2c67dae77c51e32e8a8839b2bc241c6350"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/test_resource_guard.py",
+        "sha256": "151b315bd575009510b3f82f39b8cbce62353e551ab18c7e56f6da1502e8e136"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/runtime/supervise.py",
+        "sha256": "50a2905329ac8ecda4175d21521e2cd837983d832d35c60f4a1c7798a8a5ef75"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/runtime/readiness.json",
+        "sha256": "c2950138db5c134b4c6043c9b0c95efefc8d83b3f0a0c1bd12847eb395ccc503"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_20260918/oracle/runtime/wheels.lock.json",
+        "sha256": "5b4784339366e9e3ae26cf55226a213336947849ad6ccf52eb3a795e25c9e85f"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/__init__.py",
+        "sha256": "e3eadec0e58d48025070ae0826ce98cd04e170e01062979d0ae352f18305be5c"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/accounting.py",
+        "sha256": "3e93ee506719bef10512937d0ad35e2b88d14cbe9cc5ca71c470d757f595e043"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/action_targets.py",
+        "sha256": "30734893a803ba3147c61901699612f8618a5f96d4c0a53c4282b70fb293d618"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/attention_checkpointing.py",
+        "sha256": "58df5cdfe99f617e920ca41fcce711d0f26687b807744fc99179ef02bca9c3e6"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/benchmark_adapters.py",
+        "sha256": "0f48431db71251c2793d161efcaa6209512735cf77ce1f5ab3dd048f11917d1e"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/checkpoint_retention.py",
+        "sha256": "63b2d1b29397ff1a8ce78c4fc3c944b3a7631ef9c47415c597e684346656b94b"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/collection_provenance.py",
+        "sha256": "0e57a84b49dc15c84471ab957e716754a9012a8a8d8c7a5f4ac284474ece59b0"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_collection.py",
+        "sha256": "9f5dacd6ff61aaf1372ab5ca9ee3d3e0437ec703c4acedec15f476437c522b85"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_es.py",
+        "sha256": "10140ed405c8fd73841d7df9c2012c145191fac0aac85d2054fd44137b4f705e"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_final.py",
+        "sha256": "97da15ad911a38a520a0d8b570b9e6efe53181ceb1439758abda42f1ef4d3bfc"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_protocol.py",
+        "sha256": "df1fa2a4b141af486e71a0938126365075ec2d0781832c7eb62cac08fb43a6b6"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_report.py",
+        "sha256": "16592e2e02344c3b83720534a68e88a246681330ebcfb1889c90ce7a852c2810"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/core_representation.py",
+        "sha256": "1543c52d17faecf5575cf46c71c18fac80d63ace16f2f94cacc0432689a93127"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/deferred_dev_transcoders.py",
+        "sha256": "a1a5a56a38f6f67ad83f072f6eef64bd0a2f939d6645bc69867d17d40f4b0def"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/deferred_transcoder_publisher.py",
+        "sha256": "d40447ee2ae9a8a0907fc616e74f8e30dedb6bfab90789964f45af168e96a2f3"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/env_server.py",
+        "sha256": "2582aa72b45a89d7b111e452eaf4b81dcf382970074fec27ff7c9d9dcb316e0a"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/es_training.py",
+        "sha256": "3b10890282ab4a399cf0f41fb1aca46f160df0b48cacf243d6ff1b483cf80fc5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/esopt.py",
+        "sha256": "14e672a2c0e6e81b44bff0e81d72021e0cd5c632011c73712344445b5a3b1c79"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/evaluation_extension.py",
+        "sha256": "c6df6a28666ba9e709deb5b3634811e17c8d9c7ffda30a03d032a6a7788bedac"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/evaluation_extension_runner.py",
+        "sha256": "fc6f3996cc5c3833ae121122dc9b9c721392482a174c1dd0c513cb0e36e3b06f"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/execution_contract.py",
+        "sha256": "e8aa8e78f14a652aedd48aa1d9611ae022662e217589800373f1d020d5dfb542"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/experiment_plan.py",
+        "sha256": "415a1d6c1cf671370f55c7df92e5f83c5a7ae0ac134137566ab3eab2a41ce793"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_controller.py",
+        "sha256": "d37ffb203b5299067e26f403ddd4ab4380544466d6d73fd67378db19613c5d2f"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_fit.py",
+        "sha256": "2456bce8230931f97c50dc904fa065884da67c33a269d09b293096f619dc29e5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_labels.py",
+        "sha256": "acd7786273bb22bb2503d4d430fad3c59dfa0da456a4ec373d362e4a46dd6ba5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_reporting.py",
+        "sha256": "ebf4458353964c6d913b09468c2e1d23397bf576241cd6fcd5fc8c9a3881bbf5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/failure_risk.py",
+        "sha256": "5f475e2aab2ca2656f5715f8c1266de91ab34e968bc97304e55880e5661dae47"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/final_evaluation.py",
+        "sha256": "b8a18923d4ac9bb9752a1baeb2e1bdb46853488180d2e8f01060c14456dabbd5"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/fit_risk.py",
+        "sha256": "265011ee74867df9a9afa91ea97c377ba922d46f1ed1991f30619f45d899a4bf"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/graph_features.py",
+        "sha256": "2f1a4a007e4cdd983b465d22d01e0eec6710d44687149d36e672ed4862dbd6b3"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/graph_recovery.py",
+        "sha256": "4f03b019bfe2a433ea893caa7e865047876063d39eab81d9073ceeaef99edb13"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/immutable_hash_cache.py",
+        "sha256": "1cdacc67bf0536878b0e7e678e0d7a7c36b80d7c19adbaa925fbe93cf0626011"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/mace_parallel.py",
+        "sha256": "66dfd7ddd441e922944b7a53da439d696f9c2da3709f0f18cb09b3a974d2f454"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_all30_extension.py",
+        "sha256": "192c66a590611ab49ab51a4711e73c2450b5a277608a5ec4ce687fdce4dec4ad"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_all30_runner.py",
+        "sha256": "3573a8e712bb5f7cad99cdc00f764cc4e57e47849f054a011854777f59986f6d"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_budget_runner.py",
+        "sha256": "ce38b4614d67cbf50423808bb9f61a87660c5b72efd8023dfd4acc833bce5d66"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/made_budget_sweep.py",
+        "sha256": "1383101f907e196386e20d05a461a9135e0b762104248d745810338f0117fee8"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/metrics.py",
+        "sha256": "d055a89a9feb43bb8f1841acb71a117993987f6fce850b3d2900aa068e915d34"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/native_attribution.py",
+        "sha256": "a6d4b6bf985b5a9ac56a211a676ae5b8fb006c1b75ff69999d91d9cf7a7e7185"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/normalized_recovery.py",
+        "sha256": "afd616d78e94725e180694300992dfcdd4093855af7f00ea7721c88a4de50002"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/normalized_transcoders.py",
+        "sha256": "d8740d292e24b7621b0caf315fa12582bfe222d2fe634defb6bb9674c4dfd81b"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/parallel_normalized_bank.py",
+        "sha256": "be5b80026ad9273a60d85ceea3b00ef19be8118396a879f6724c39ba6243fcd9"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/passed_bank_reuse.py",
+        "sha256": "bbdd5dac2a69d84f9e1974c43ce99ad48bc8f8492204e6247b30f954eac61cce"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/policy.py",
+        "sha256": "beb62b4d8d4bf9c9db4f3cb31db819f5f64f06fcfc827fd2c8fb8269c44aa495"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/representation_training.py",
+        "sha256": "e4a7f6e7448a49f751c487cb9f1e52f7d3d572bf1385c3aa0e3398ab3de8f9fb"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/rollouts.py",
+        "sha256": "4c6436beb0c65a8a954f968ffcadbd7a2ede457843c6570f0b992dfa57a63867"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/rpc.py",
+        "sha256": "fdf81ba1150a5d1a5a9db29acc803b32d8d731a78d15ae06c05b70a683b9029d"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/study_costs.py",
+        "sha256": "a01e55bb90a137d4ceacdc938f002de80f54672fe9f4cfcf25aeb81ff9e7e6dd"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/tc64_recovery.py",
+        "sha256": "3f911c4d23b01f5d8240f5f12a10fa55e7876f74874c2ff306d3024724aecefc"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/training_jobs.py",
+        "sha256": "40e2f9b1547f3f1fd1e53faa4d8ca6fc030fe81dd253bed64f5cdc228879e9ba"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/transcoders.py",
+        "sha256": "0ef5823c60c459b6c16bd199b7b02f183691bd95630c6b809e7a7173c9b66f60"
+      },
+      {
+        "path": "project-artifact:evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/uncertainty.py",
+        "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+      },
+      {
+        "path": "project-artifact:configs/model_manifest.json",
+        "sha256": "8ed8b46fdd35356a21a93ee93e93b6f0e983f5354cf942e6b4bb6b6854969ef7"
+      },
+      {
+        "path": "project-artifact:core_workspaces/made_core48h_normalized_v3/experiments/transcoders/qwen35_4b/made/transcoder_manifest.json",
+        "sha256": "f9f4a9e4c510248013c23a25d329f9b8779c30bd3adddcd7e9c0f22bf62fc20b"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/acceptance_repair.py",
+        "sha256": "57567104060e594b5e7713faec62ed36f75bb060064b4b38d58ada7c3e7a26c9"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/common.py",
+        "sha256": "c053283f153392ec29d338e802e9e9cf2cb4489c879317abda7ca53b360e7f41"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/main.py",
+        "sha256": "3410cc5adc5e133e74bb881f1b01f14c7245e335e9d61ef3470c104a0dd251df"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/repair_pipeline.py",
+        "sha256": "b9179c9058572cca44db6d22b9776edfa2f20a6b401505b86f66d57693f90903"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/reporting.py",
+        "sha256": "a9583364fc5edeb24366dd0fdb268c5bd8dc911d9cd92321bf5ff92d1591bb10"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/resource_bank.py",
+        "sha256": "4aa870852138e17c6028cb8fa1c60e9c5fa31a05dbe9ec6ef80b6550db630624"
+      },
+      {
+        "path": "project-artifact:benchmark_extensions/summit_snar_main_repair_20260919_v2/validation.py",
+        "sha256": "36b937769df7653ffa2c933b075c327742fc28b7f46633a9c1b12fca418b00f6"
+      }
+    ],
+    "study_scope": "original SnAr seven-arm five-seed study with development-informed causal128 representation repair",
+    "tc_registry": {
+      "path": "project-artifact:benchmark_extensions/summit_snar_representation_training_20260919_v3/runs/v1/registration.json",
+      "sha256": "034dbb1aa4f8969979135b986854c06af9e1c7cdd7ccbe768e4c4ea4f7563858"
+    },
+    "tc_resource_amendment": {
+      "path": "project-artifact:technical_not_main/idle_gpu_handoff_20260919/shared_gpu_review/amendment_v1.json",
+      "sha256": "309be8aac3e1fd09c40e3749d54dceae423db3729d24661338306f9800a7a06b"
+    },
+    "total_distinct_oracle_calls": 2300
+  },
+  "not_an_original_registration": true,
+  "not_executable": true,
+  "only_transformation": "Project-root path prefixes replaced; dictionary keys and values relocated consistently. All numeric/boolean/null/array values retained.",
+  "original_fingerprints_inside_definition_are_historical_references_only": true,
+  "original_reference": {
+    "fingerprint": "69c588044a290b03450485b9c7acbb7bfc03b7c97a9ee829e7af79f67cff4753",
+    "sha256": "71fe749dc4bb88f8262e43c1305d19fda818de571c9c45f47bfbd7948e9a491c",
+    "study": "SnAr_main"
+  },
+  "schema": "derived_scientific_registration_reference_projection_v1",
+  "transformation_counts": {
+    "arrays": 54,
+    "numeric_boolean_null_leaves": 111,
+    "path_dictionary_keys": 0,
+    "path_string_values": 199
+  }
+}

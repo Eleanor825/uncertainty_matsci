@@ -1,0 +1,77 @@
+{
+  "schema": "pypi_cpu_python310_wheel_lock_v1",
+  "wheels": [
+    {
+      "package": "numpy",
+      "version": "1.23.5",
+      "filename": "numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "5e05b1c973a9f858c74367553e236f287e749465f773328c8ef31abe18f691e1",
+      "bytes": 17059657,
+      "official_url": "https://files.pythonhosted.org/packages/e4/f3/679b3a042a127de0d7c84874913c3e23bb84646eb3bc6ecab3f8c872edc9/numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+    },
+    {
+      "package": "scipy",
+      "version": "1.10.1",
+      "filename": "scipy-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "4c0ff64b06b10e35215abce517252b375e580a6125fd5fdf6421b98efbefb2d2",
+      "bytes": 34422544,
+      "official_url": "https://files.pythonhosted.org/packages/1f/4b/3bacad9a166350cb2e518cea80ab891016933cc1653f15c90279512c5fa9/scipy-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+    },
+    {
+      "package": "pandas",
+      "version": "1.5.3",
+      "filename": "pandas-1.5.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "7a0a56cef15fd1586726dace5616db75ebcfec9179a3a55e78f72c5639fa2a23",
+      "bytes": 12062104,
+      "official_url": "https://files.pythonhosted.org/packages/49/e2/79e46612dc25ebc7603dc11c560baa7266c90f9e48537ecf1a02a0dd6bff/pandas-1.5.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.2.2",
+      "filename": "scikit_learn-1.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "2e2642baa0ad1e8f8188917423dd73994bf25429f8893ddbe115be3ca3183584",
+      "bytes": 9625294,
+      "official_url": "https://files.pythonhosted.org/packages/fa/1e/36d7609e84b50d4a2e5bc43cd5013d9ea885799e5813a1e9cf5bb1afd3f4/scikit_learn-1.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "2.8.2",
+      "filename": "python_dateutil-2.8.2-py2.py3-none-any.whl",
+      "sha256": "961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9",
+      "bytes": 247702,
+      "official_url": "https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl"
+    },
+    {
+      "package": "pytz",
+      "version": "2023.3.post1",
+      "filename": "pytz-2023.3.post1-py2.py3-none-any.whl",
+      "sha256": "ce42d816b81b68506614c11e8937d3aa9e41007ceb50bfdcb0749b921bf646c7",
+      "bytes": 502454,
+      "official_url": "https://files.pythonhosted.org/packages/32/4d/aaf7eff5deb402fd9a24a1449a8119f00d74ae9c2efa79f8ef9994261fc2/pytz-2023.3.post1-py2.py3-none-any.whl"
+    },
+    {
+      "package": "six",
+      "version": "1.16.0",
+      "filename": "six-1.16.0-py2.py3-none-any.whl",
+      "sha256": "8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254",
+      "bytes": 11053,
+      "official_url": "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl"
+    },
+    {
+      "package": "joblib",
+      "version": "1.3.2",
+      "filename": "joblib-1.3.2-py3-none-any.whl",
+      "sha256": "ef4331c65f239985f3f2220ecc87db222f08fd22097a3dd5698f693875f8cbb9",
+      "bytes": 302207,
+      "official_url": "https://files.pythonhosted.org/packages/10/40/d551139c85db202f1f384ba8bcf96aca2f329440a844f924c8a0040b6d02/joblib-1.3.2-py3-none-any.whl"
+    },
+    {
+      "package": "threadpoolctl",
+      "version": "3.2.0",
+      "filename": "threadpoolctl-3.2.0-py3-none-any.whl",
+      "sha256": "2b7818516e423bdaebb97c723f86a7c6b0a83d3f3b0970328d66f4d9104dc032",
+      "bytes": 15539,
+      "official_url": "https://files.pythonhosted.org/packages/81/12/fd4dea011af9d69e1cad05c75f3f7202cdcbeac9b712eea58ca779a72865/threadpoolctl-3.2.0-py3-none-any.whl"
+    }
+  ]
+}

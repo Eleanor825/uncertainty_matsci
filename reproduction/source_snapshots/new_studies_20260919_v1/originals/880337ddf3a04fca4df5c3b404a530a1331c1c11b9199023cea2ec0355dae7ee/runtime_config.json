@@ -1,0 +1,13 @@
+{
+  "schema": "summit_snar_runtime_v1",
+  "model_manifest": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/configs/model_manifest.json",
+  "model_directory": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/data/models/qwen35_4b",
+  "candidate_bank": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/core_workspaces/made_core48h_normalized_v3/experiments/transcoders/qwen35_4b/made/transcoder_manifest.json",
+  "method_source_root": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/evaluation_workspaces/made_budget_sweep_v1/src",
+  "policy_python": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/environments/policy-py312/bin/python",
+  "policy_environment_usage": "existing verified interpreter and dependencies read-only, no installation or mutation",
+  "oracle_python": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_20260918/oracle/runtime/venv-py310-v1/bin/python",
+  "oracle_source_root": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_20260918/oracle/vendor/summit",
+  "protocol_sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972",
+  "gpu_uuid": "GPU-d0b6bdb0-2092-7b0f-221c-b062d15e7410"
+}

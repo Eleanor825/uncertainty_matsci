@@ -1,0 +1,132 @@
+[
+  {
+    "path": "technical_not_main/made_component_deployment_20260919_v1/remote_evidence/component_ablations_registration.json",
+    "public_byte_exact_paths": [],
+    "publication": "sanitized_scientific_projection_plus_original_SHA; not fabricated original fingerprint",
+    "role": "actual_production_registration",
+    "sha256": "c11cfbe1a6cce75f18aa1e8ac9ad059e5f60f32a41be24f37d449f3cab83e027",
+    "study": "MADE_component"
+  },
+  {
+    "path": "technical_not_main/made_support_aware_deployment_20260919_v1/remote_evidence/support_aware_method.json",
+    "public_byte_exact_paths": [],
+    "publication": "sanitized_scientific_projection_plus_original_SHA; not fabricated original fingerprint",
+    "role": "actual_production_registration",
+    "sha256": "0088ab73351c0ce39f06e5b9c4c991feb9129dd39d80eeb41cd186c7f104d7ac",
+    "study": "MADE_support"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_main_repair_20260919_v2/deployed_evidence/runs/v2/registration.json",
+    "public_byte_exact_paths": [],
+    "publication": "sanitized_scientific_projection_plus_original_SHA; not fabricated original fingerprint",
+    "role": "actual_production_registration",
+    "sha256": "71fe749dc4bb88f8262e43c1305d19fda818de571c9c45f47bfbd7948e9a491c",
+    "study": "SnAr_main"
+  },
+  {
+    "path": "technical_not_main/actual_registry_readback_20260919T2105_CST/SnAr_TC_v3_registration.json",
+    "public_byte_exact_paths": [],
+    "publication": "sanitized_scientific_projection_plus_original_SHA; not fabricated original fingerprint",
+    "role": "actual_production_registration",
+    "sha256": "034dbb1aa4f8969979135b986854c06af9e1c7cdd7ccbe768e4c4ea4f7563858",
+    "study": "SnAr_TC_v3"
+  },
+  {
+    "path": "evaluation_workspaces/made_budget_sweep_v1/configs/made_budget_sweep.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "parent",
+    "sha256": "a262aab6be0639ee55bb33e1a2af98325ac2f511e774c54027e653c9ba59f507",
+    "study": "MADE_component"
+  },
+  {
+    "path": "core_workspaces/made_fast_subset_causal_v5/configs/deadline_core_protocol.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "parent_core",
+    "sha256": "d6173ecffa91a1261cf6d49f9097da24523e527af352fc29ba83f8f052690e5e",
+    "study": "MADE_component"
+  },
+  {
+    "path": "technical_not_main/made_component_validation_20260919_v1/validation.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "validation",
+    "sha256": "121ce0054387286cb1f092df50d8059d1b62089184f940703d437ee999065c07",
+    "study": "MADE_component"
+  },
+  {
+    "path": "evaluation_workspaces/made_budget_sweep_v1/configs/made_budget_sweep.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "parent",
+    "sha256": "a262aab6be0639ee55bb33e1a2af98325ac2f511e774c54027e653c9ba59f507",
+    "study": "MADE_support"
+  },
+  {
+    "path": "core_workspaces/made_fast_subset_causal_v5/configs/deadline_core_protocol.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "parent_core",
+    "sha256": "d6173ecffa91a1261cf6d49f9097da24523e527af352fc29ba83f8f052690e5e",
+    "study": "MADE_support"
+  },
+  {
+    "path": "technical_not_main/made_support_aware_deployment_20260919_v1/validation.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "validation",
+    "sha256": "5681a69f11440bf0cbf9336c9b782c3028e6c6273ff046386dafd95f43080664",
+    "study": "MADE_support"
+  },
+  {
+    "path": "evaluation_workspaces/made_component_ablations_v1/configs/component_ablations.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "component_reference",
+    "sha256": "c11cfbe1a6cce75f18aa1e8ac9ad059e5f60f32a41be24f37d449f3cab83e027",
+    "study": "MADE_support"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_20260918/protocol.json",
+    "public_byte_exact_paths": [
+      "results/summit_snar/20260919T162548_CST/protocol.json"
+    ],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "original_protocol",
+    "sha256": "6a45c8af72e526b4bbd845709bd38684afb4a05ba1e52e60f9a4661b86678972",
+    "study": "SnAr_main"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_20260918/runtime_config.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "original_runtime",
+    "sha256": "880337ddf3a04fca4df5c3b404a530a1331c1c11b9199023cea2ec0355dae7ee",
+    "study": "SnAr_main"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_20260918/runs/v1/registration.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "original_registration",
+    "sha256": "79cf4d1ed81989a4a04326afc10aff65fb06b09b07a05e9c12c5982a05786277",
+    "study": "SnAr_main"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_representation_repair_20260919_v2/registration.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "original_diagnostic",
+    "sha256": "655d93fd990c15e915b411b70d7d431b678fab1cbe4fda9e39b6391e56a4faac",
+    "study": "SnAr_main"
+  },
+  {
+    "path": "benchmark_extensions/summit_snar_representation_training_20260919_v3/runs/v1/registration.json",
+    "public_byte_exact_paths": [],
+    "publication": "retain scientific settings/lineage with original+export hashes; resolve absolute runtime paths explicitly",
+    "role": "tc_registry",
+    "sha256": "034dbb1aa4f8969979135b986854c06af9e1c7cdd7ccbe768e4c4ea4f7563858",
+    "study": "SnAr_main"
+  }
+]

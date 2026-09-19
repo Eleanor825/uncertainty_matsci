@@ -1,0 +1,13 @@
+{
+  "approved_source_coverage_manifest_sha256": "fd466bbd44173c629e13b64c399cb4a7ef2521d04d3ef6aae386b953011aa84c",
+  "existing_repository_commit": "0b8e5f0c09932b29d9ebf1f46adcff605ff3dfeb",
+  "intended_publication_directory": "reproduction/source_snapshots/new_studies_20260919_v1",
+  "new_model_or_oracle_calls": 0,
+  "original_payload_bytes": 887801,
+  "original_payloads": 61,
+  "private_operator_or_auth_payloads_included": 0,
+  "runnable_historical_workspace_claimed": false,
+  "schema": "new_study_source_snapshot_provenance_v1",
+  "scientific_source_edited": false,
+  "source_payloads_byte_exact": true
+}

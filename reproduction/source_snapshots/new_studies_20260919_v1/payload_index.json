@@ -1,0 +1,864 @@
+{
+  "bytes": 887801,
+  "original_bytes_modified": false,
+  "original_payloads": 61,
+  "payloads": [
+    {
+      "bytes": 15219,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_component_ablations_20260919/frozen_src/matdiscovery/component_scope.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "a12de91249987c512d15e3610cec0b0a4a3c21417528120423669fec357faf12",
+      "snapshot_path": "originals/a12de91249987c512d15e3610cec0b0a4a3c21417528120423669fec357faf12/component_scope.py",
+      "studies": [
+        "MADE_component"
+      ]
+    },
+    {
+      "bytes": 21400,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_component_ablations_20260919/frozen_src/matdiscovery/failure_controller.py",
+        "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/failure_controller.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "d8202d3a36612d62b720424ad18f8b4963b0f411cc202feb04c6188f770cb538",
+      "snapshot_path": "originals/d8202d3a36612d62b720424ad18f8b4963b0f411cc202feb04c6188f770cb538/failure_controller.py",
+      "studies": [
+        "MADE_component",
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 48449,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_component_ablations_20260919/frozen_src/matdiscovery/training_jobs.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "61d81222c646be7fb7a01e4af5205fbbab3b3569e9f13394feb336de426d0da5",
+      "snapshot_path": "originals/61d81222c646be7fb7a01e4af5205fbbab3b3569e9f13394feb336de426d0da5/training_jobs.py",
+      "studies": [
+        "MADE_component"
+      ]
+    },
+    {
+      "bytes": 1867,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_component_ablations_20260919/registration.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "f67fa42d644d019cb40b2f007dd0da2ecd49cc299dc2b0a95c6de5f09a51e880",
+      "snapshot_path": "originals/f67fa42d644d019cb40b2f007dd0da2ecd49cc299dc2b0a95c6de5f09a51e880/registration.py",
+      "studies": [
+        "MADE_component"
+      ]
+    },
+    {
+      "bytes": 37661,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_component_ablations_20260919/es_only_training.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "5728a87b8530b05ce64de46810e2e53ffee0a561d2d0a703135d0f7c7c862590",
+      "snapshot_path": "originals/5728a87b8530b05ce64de46810e2e53ffee0a561d2d0a703135d0f7c7c862590/es_only_training.py",
+      "studies": [
+        "MADE_component"
+      ]
+    },
+    {
+      "bytes": 7346,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_component_ablations_20260919/arm_runtime.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "912dd4907d476df9f1d7a80e4f8e348dcbb89b7306d49d6ce19c83672c2fb66c",
+      "snapshot_path": "originals/912dd4907d476df9f1d7a80e4f8e348dcbb89b7306d49d6ce19c83672c2fb66c/arm_runtime.py",
+      "studies": [
+        "MADE_component"
+      ]
+    },
+    {
+      "bytes": 20726,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_component_ablations_20260919/evaluate.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "8ba7c04acdd4a60179dce504cda740293066f78bb92aa140e73709006e677fa7",
+      "snapshot_path": "originals/8ba7c04acdd4a60179dce504cda740293066f78bb92aa140e73709006e677fa7/evaluate.py",
+      "studies": [
+        "MADE_component"
+      ]
+    },
+    {
+      "bytes": 38556,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/rollouts.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "ad67538c5b57f82d3ae3c7dc29e486bca43443e953aa7de68952fb51f8a2ad0c",
+      "snapshot_path": "originals/ad67538c5b57f82d3ae3c7dc29e486bca43443e953aa7de68952fb51f8a2ad0c/rollouts.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 5552,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/support_control.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "b0a5773a74e54cc178a9ab913dc3524207f094937a9f181dfcbe376951f7fa5d",
+      "snapshot_path": "originals/b0a5773a74e54cc178a9ab913dc3524207f094937a9f181dfcbe376951f7fa5d/support_control.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 18137,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/support_scope.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "ae3b10cb5b31366c9ba1d1773a01c61add6217bba2f7ede084d5bf2363ba9566",
+      "snapshot_path": "originals/ae3b10cb5b31366c9ba1d1773a01c61add6217bba2f7ede084d5bf2363ba9566/support_scope.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 48437,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/training_jobs.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "a1aa23e68818bd9ad8b9c002d9595bcc4dd70fdad599649d35aefeb34af61a02",
+      "snapshot_path": "originals/a1aa23e68818bd9ad8b9c002d9595bcc4dd70fdad599649d35aefeb34af61a02/training_jobs.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 1723,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/registration.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "6bb6b166114ec0c687d08899a912dbf10b962a276a407e5f49b2f12634b13fd2",
+      "snapshot_path": "originals/6bb6b166114ec0c687d08899a912dbf10b962a276a407e5f49b2f12634b13fd2/registration.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 40113,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/full_es_training.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "6022bd57c0ab70f59ac1521e86b1858daa02ce28076d970293779227c67b31c9",
+      "snapshot_path": "originals/6022bd57c0ab70f59ac1521e86b1858daa02ce28076d970293779227c67b31c9/full_es_training.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 6885,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/arm_runtime.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "972bcd1f5ba3289e3f965ae7dd26de90fcda4c0717e68c4d302711c965a1baa9",
+      "snapshot_path": "originals/972bcd1f5ba3289e3f965ae7dd26de90fcda4c0717e68c4d302711c965a1baa9/arm_runtime.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 16922,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/evaluate.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "5ceb744d53478b56277e923310331b13ad535308e9911e46b3b0efa77ee0f674",
+      "snapshot_path": "originals/5ceb744d53478b56277e923310331b13ad535308e9911e46b3b0efa77ee0f674/evaluate.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 2832,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/source_delta.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "ec8890f13e12e81e87e0a962b32b1ef1675d90882fc6f82c629abdb5a350ade9",
+      "snapshot_path": "originals/ec8890f13e12e81e87e0a962b32b1ef1675d90882fc6f82c629abdb5a350ade9/source_delta.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 2832,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/shared_references.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "e1bb7c64db3cb00ce7af1dbd1cfffc8d07fb191b6676cb7df574ecd6caae8052",
+      "snapshot_path": "originals/e1bb7c64db3cb00ce7af1dbd1cfffc8d07fb191b6676cb7df574ecd6caae8052/shared_references.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 2640,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_aware_method_20260919/decision_validation.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "04ee50a00d1224093c273b405b2fa633163140fa939a438722ea9bb3f66cc1fb",
+      "snapshot_path": "originals/04ee50a00d1224093c273b405b2fa633163140fa939a438722ea9bb3f66cc1fb/decision_validation.py",
+      "studies": [
+        "MADE_support"
+      ]
+    },
+    {
+      "bytes": 29482,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/acceptance.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "21c1b9d10dd2bd87a0dfad161bf1ef6eb42694f0907b31044773ff82e885cd35",
+      "snapshot_path": "originals/21c1b9d10dd2bd87a0dfad161bf1ef6eb42694f0907b31044773ff82e885cd35/acceptance.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 4208,
+      "category": "scientific_test",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/test_study.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "2d65b1cd7995c7c1c65e9c7658505a0d6263ba027eda2cf148270b62727cd28a",
+      "snapshot_path": "originals/2d65b1cd7995c7c1c65e9c7658505a0d6263ba027eda2cf148270b62727cd28a/test_study.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 18680,
+      "category": "scientific_test",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/test_acceptance.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "4340588305c2e67b46556491d8a941951ac2370b267ac49fb338fd1248b22c3c",
+      "snapshot_path": "originals/4340588305c2e67b46556491d8a941951ac2370b267ac49fb338fd1248b22c3c/test_acceptance.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 30975,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/pipeline.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35",
+      "snapshot_path": "originals/3312adb2e3f2a76b4091a80993ec39fce25869a73469218c65ddc087d3ea6d35/pipeline.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 4885,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/driver.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "2ba8a2c9f07caa0ee0d3f8b5fb07d111dd4d47ab8055047ca794c4b2817e4904",
+      "snapshot_path": "originals/2ba8a2c9f07caa0ee0d3f8b5fb07d111dd4d47ab8055047ca794c4b2817e4904/driver.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 1309,
+      "category": "scientific_runtime_config_needs_path_UUID_relocation",
+      "concrete_GPU_identifier_in_original": true,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/runtime_config.json"
+      ],
+      "machine_path_references_in_original": true,
+      "original_sha256": "880337ddf3a04fca4df5c3b404a530a1331c1c11b9199023cea2ec0355dae7ee",
+      "snapshot_path": "originals/880337ddf3a04fca4df5c3b404a530a1331c1c11b9199023cea2ec0355dae7ee/runtime_config.json",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 5760,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/report.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "845c8e6da6e8a2f34064b81940fbbb8b051a3c63b7a9302e7cc1fa2c0c6dbea8",
+      "snapshot_path": "originals/845c8e6da6e8a2f34064b81940fbbb8b051a3c63b7a9302e7cc1fa2c0c6dbea8/report.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 4345,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/study.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4",
+      "snapshot_path": "originals/cda812f771cbb10e4b27e54316c2e2dd3b39d31733c734b37d54b0e19d084db4/study.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 17370,
+      "category": "scientific_test",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/method/test_contracts.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "6aaf6365326d76473f16a25e6ee374d24ad5baed0fdce7de261a22250d0be66a",
+      "snapshot_path": "originals/6aaf6365326d76473f16a25e6ee374d24ad5baed0fdce7de261a22250d0be66a/test_contracts.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 15109,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": true,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/method/tc_worker.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "5eeef55759a952a1366faacbde56c977799ab4bb26563c24981980ee0ec787ee",
+      "snapshot_path": "originals/5eeef55759a952a1366faacbde56c977799ab4bb26563c24981980ee0ec787ee/tc_worker.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 81,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/method/__init__.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "6dd35755644d8be59d8a5c418ba7843adc7f1e03c579333c6807163a86ddd8a4",
+      "snapshot_path": "originals/6dd35755644d8be59d8a5c418ba7843adc7f1e03c579333c6807163a86ddd8a4/__init__.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 28157,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/method/features.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "cd04aed9e292675ed490ffbf96395aa6b98d1f51723a445a6bd8aa8d984956b3",
+      "snapshot_path": "originals/cd04aed9e292675ed490ffbf96395aa6b98d1f51723a445a6bd8aa8d984956b3/features.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 5805,
+      "category": "scientific_test",
+      "concrete_GPU_identifier_in_original": true,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/method/test_tc_worker.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "be30a9554d1844bde500a9976f713b0694db8993cee57a2118bb3c7f10a18c1c",
+      "snapshot_path": "originals/be30a9554d1844bde500a9976f713b0694db8993cee57a2118bb3c7f10a18c1c/test_tc_worker.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 12640,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/method/snar_policy.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "699a8f8414f90bc072cce6457473469e2e5efb99c4be8e4fa14c46effb1aa121",
+      "snapshot_path": "originals/699a8f8414f90bc072cce6457473469e2e5efb99c4be8e4fa14c46effb1aa121/snar_policy.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 5321,
+      "category": "scientific_test",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/oracle/test_contracts.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "90b5340474ad8da803341c2a586ec06113872f12d6789f9c5565fe0ab9e5973b",
+      "snapshot_path": "originals/90b5340474ad8da803341c2a586ec06113872f12d6789f9c5565fe0ab9e5973b/test_contracts.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 3317,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/oracle/client.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "33a9fcce21fdc773eda90d1da00fbb2592cde1de07344fa8707bbfb7356bb0b2",
+      "snapshot_path": "originals/33a9fcce21fdc773eda90d1da00fbb2592cde1de07344fa8707bbfb7356bb0b2/client.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 70,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/oracle/__init__.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "8de8583715d075120054b84be0dbc53495a627f359c89f58ce84714f23fa7198",
+      "snapshot_path": "originals/8de8583715d075120054b84be0dbc53495a627f359c89f58ce84714f23fa7198/__init__.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 19314,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/oracle/snar_rpc.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "4088c24c655161e2fc7daae3c9cf045bf703e85390d478cfaa21d69806119ce7",
+      "snapshot_path": "originals/4088c24c655161e2fc7daae3c9cf045bf703e85390d478cfaa21d69806119ce7/snar_rpc.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 4022,
+      "category": "scientific_test",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/oracle/technical_check.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "beca7d741117188344d95fce78aba00a7c4398274b4060958044b6dd03a37acc",
+      "snapshot_path": "originals/beca7d741117188344d95fce78aba00a7c4398274b4060958044b6dd03a37acc/technical_check.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 4036,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/oracle/official.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "d28edeedd32f6f3d8317fdbfc7f0eb50dc29ae8515a945202ce1df3e43fcaa22",
+      "snapshot_path": "originals/d28edeedd32f6f3d8317fdbfc7f0eb50dc29ae8515a945202ce1df3e43fcaa22/official.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 106559,
+      "category": "scientific_configuration",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/oracle/source_lock.json"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "aac863ddb2cb669a9396ea48f9ffb76e5f1f3c4970d77dc970db82f15ea0c8e2",
+      "snapshot_path": "originals/aac863ddb2cb669a9396ea48f9ffb76e5f1f3c4970d77dc970db82f15ea0c8e2/source_lock.json",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 1102,
+      "category": "scientific_runtime_config_needs_path_UUID_relocation",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/oracle/runtime_config.json"
+      ],
+      "machine_path_references_in_original": true,
+      "original_sha256": "07a3285736b68a52e5a274b7cd46e7e733ccbdc1cf0d878ae2a238ad6e593f71",
+      "snapshot_path": "originals/07a3285736b68a52e5a274b7cd46e7e733ccbdc1cf0d878ae2a238ad6e593f71/runtime_config.json",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 57,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/baselines/__init__.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "1234dc90ca94d43a9ac4f82cd242ce889d21aa74ca5fd626916aab7e4dc3e40c",
+      "snapshot_path": "originals/1234dc90ca94d43a9ac4f82cd242ce889d21aa74ca5fd626916aab7e4dc3e40c/__init__.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 1510,
+      "category": "scientific_test",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/baselines/test_planners.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "105bb1f46ad6774ba9c26196a01884c307de2c197d119618e9c364ec0eface2d",
+      "snapshot_path": "originals/105bb1f46ad6774ba9c26196a01884c307de2c197d119618e9c364ec0eface2d/test_planners.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 4279,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/baselines/planners.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "bc8309830b6620bc809d4f469346db733f8e811688e4a8972ed363a02ba43661",
+      "snapshot_path": "originals/bc8309830b6620bc809d4f469346db733f8e811688e4a8972ed363a02ba43661/planners.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 3974,
+      "category": "public_dependency_lock",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_20260918/oracle/runtime/wheels.lock.json"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "5b4784339366e9e3ae26cf55226a213336947849ad6ccf52eb3a795e25c9e85f",
+      "snapshot_path": "originals/5b4784339366e9e3ae26cf55226a213336947849ad6ccf52eb3a795e25c9e85f/wheels.lock.json",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 40926,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_main_repair_20260919_v2/acceptance_repair.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "57567104060e594b5e7713faec62ed36f75bb060064b4b38d58ada7c3e7a26c9",
+      "snapshot_path": "originals/57567104060e594b5e7713faec62ed36f75bb060064b4b38d58ada7c3e7a26c9/acceptance_repair.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 13594,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_main_repair_20260919_v2/common.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "c053283f153392ec29d338e802e9e9cf2cb4489c879317abda7ca53b360e7f41",
+      "snapshot_path": "originals/c053283f153392ec29d338e802e9e9cf2cb4489c879317abda7ca53b360e7f41/common.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 5472,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_main_repair_20260919_v2/main.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "3410cc5adc5e133e74bb881f1b01f14c7245e335e9d61ef3470c104a0dd251df",
+      "snapshot_path": "originals/3410cc5adc5e133e74bb881f1b01f14c7245e335e9d61ef3470c104a0dd251df/main.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 12675,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": true,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_main_repair_20260919_v2/repair_pipeline.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "b9179c9058572cca44db6d22b9776edfa2f20a6b401505b86f66d57693f90903",
+      "snapshot_path": "originals/b9179c9058572cca44db6d22b9776edfa2f20a6b401505b86f66d57693f90903/repair_pipeline.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 5721,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_main_repair_20260919_v2/reporting.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "a9583364fc5edeb24366dd0fdb268c5bd8dc911d9cd92321bf5ff92d1591bb10",
+      "snapshot_path": "originals/a9583364fc5edeb24366dd0fdb268c5bd8dc911d9cd92321bf5ff92d1591bb10/reporting.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 5050,
+      "category": "mixed_scientific_acceptance_and_resource_evidence",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_main_repair_20260919_v2/resource_bank.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "4aa870852138e17c6028cb8fa1c60e9c5fa31a05dbe9ec6ef80b6550db630624",
+      "snapshot_path": "originals/4aa870852138e17c6028cb8fa1c60e9c5fa31a05dbe9ec6ef80b6550db630624/resource_bank.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 7065,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_main_repair_20260919_v2/validation.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "36b937769df7653ffa2c933b075c327742fc28b7f46633a9c1b12fca418b00f6",
+      "snapshot_path": "originals/36b937769df7653ffa2c933b075c327742fc28b7f46633a9c1b12fca418b00f6/validation.py",
+      "studies": [
+        "SnAr_main"
+      ]
+    },
+    {
+      "bytes": 6125,
+      "category": "mixed_scientific_execution_and_recovery_lineage",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_full_es_loader_recovery_20260920/common.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "91e3bb26c3ef55f1cb2f348401a945b1b8617d3a8bc2423003483a10cb726292",
+      "snapshot_path": "originals/91e3bb26c3ef55f1cb2f348401a945b1b8617d3a8bc2423003483a10cb726292/common.py",
+      "studies": [
+        "MADE_full_loader_recovery"
+      ]
+    },
+    {
+      "bytes": 1011,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_full_es_loader_recovery_20260920/corrected_loader.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "949b465308bdf3a18597b811972acd5709bc12ce12307c9cd7fe83f7171bb6e0",
+      "snapshot_path": "originals/949b465308bdf3a18597b811972acd5709bc12ce12307c9cd7fe83f7171bb6e0/corrected_loader.py",
+      "studies": [
+        "MADE_full_loader_recovery"
+      ]
+    },
+    {
+      "bytes": 6595,
+      "category": "scientific_test",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_full_es_loader_recovery_20260920/cpu_check_v2.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "5075b464482c51422a64569326a57940d441840fd1bbbee5f13ec84aa5f3e089",
+      "snapshot_path": "originals/5075b464482c51422a64569326a57940d441840fd1bbbee5f13ec84aa5f3e089/cpu_check_v2.py",
+      "studies": [
+        "MADE_full_loader_recovery"
+      ]
+    },
+    {
+      "bytes": 13459,
+      "category": "mixed_scientific_execution_and_recovery_lineage",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/made_support_full_es_loader_recovery_20260920/recovery.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "6a0c3977d5a08f1dd58c2189f7121bd8819f28cdf32c246bfe1b4182c38cee67",
+      "snapshot_path": "originals/6a0c3977d5a08f1dd58c2189f7121bd8819f28cdf32c246bfe1b4182c38cee67/recovery.py",
+      "studies": [
+        "MADE_full_loader_recovery"
+      ]
+    },
+    {
+      "bytes": 28056,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_representation_repair_20260919_v2/audit.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "8e389992eb0ba00b821b2e8e9b8c18e148e7a995f53a679cee9433dc8ee0e131",
+      "snapshot_path": "originals/8e389992eb0ba00b821b2e8e9b8c18e148e7a995f53a679cee9433dc8ee0e131/audit.py",
+      "studies": [
+        "SnAr_causal128_capture"
+      ]
+    },
+    {
+      "bytes": 12003,
+      "category": "scientific_test",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_representation_repair_20260919_v2/test_audit.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "733e30ee84c053605738530c187c0e56e0132ce44fa6dd4d9c7e68b3fef34812",
+      "snapshot_path": "originals/733e30ee84c053605738530c187c0e56e0132ce44fa6dd4d9c7e68b3fef34812/test_audit.py",
+      "studies": [
+        "SnAr_causal128_capture"
+      ]
+    },
+    {
+      "bytes": 6905,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_representation_repair_20260919_v2/diagnostic_capture.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "4eb7c93db7b6559fa30b9294b3d2aed27966a8197994e2aed3e2fb5206abe7a6",
+      "snapshot_path": "originals/4eb7c93db7b6559fa30b9294b3d2aed27966a8197994e2aed3e2fb5206abe7a6/diagnostic_capture.py",
+      "studies": [
+        "SnAr_causal128_capture"
+      ]
+    },
+    {
+      "bytes": 16039,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_representation_training_20260919_v3/registration.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "d29680470ed5191a0dfd4b44c3d215c6d590c06d82e479d66ba58374172d38d4",
+      "snapshot_path": "originals/d29680470ed5191a0dfd4b44c3d215c6d590c06d82e479d66ba58374172d38d4/registration.py",
+      "studies": [
+        "SnAr_TC_v3"
+      ]
+    },
+    {
+      "bytes": 22046,
+      "category": "scientific_source",
+      "concrete_GPU_identifier_in_original": true,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_representation_training_20260919_v3/training.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "2ade9394837c5544cf598a828f92d6cf595063d7515ed6675b339d3e94d44c9b",
+      "snapshot_path": "originals/2ade9394837c5544cf598a828f92d6cf595063d7515ed6675b339d3e94d44c9b/training.py",
+      "studies": [
+        "SnAr_TC_v3"
+      ]
+    },
+    {
+      "bytes": 15395,
+      "category": "scientific_acceptance_import_adapter",
+      "concrete_GPU_identifier_in_original": false,
+      "logical_paths": [
+        "benchmark_extensions/summit_snar_report_recovery_20260919_v1/recover.py"
+      ],
+      "machine_path_references_in_original": false,
+      "original_sha256": "4268f3d59ad0555d1bacaad8f5761090a05e99ef33f160ad0f46fe1f937f88c5",
+      "snapshot_path": "originals/4268f3d59ad0555d1bacaad8f5761090a05e99ef33f160ad0f46fe1f937f88c5/recover.py",
+      "studies": [
+        "SnAr_report_import_recovery"
+      ]
+    }
+  ],
+  "schema": "exact_original_scientific_payload_index_v1"
+}

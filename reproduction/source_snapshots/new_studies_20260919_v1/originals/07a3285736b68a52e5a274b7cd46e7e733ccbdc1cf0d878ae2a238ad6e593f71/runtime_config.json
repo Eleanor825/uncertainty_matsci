@@ -1,0 +1,27 @@
+{
+  "schema": "summit_snar_cpu_runtime_config_v1",
+  "python_version": "3.10.12",
+  "remote_python": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/benchmark_extensions/summit_snar_20260918/oracle/runtime/venv-py310-v1/bin/python",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONNOUSERSITE": "1"
+  },
+  "upstream_commit": "1de682d05e97adcfb96cd8376e876cef2d6160d3",
+  "source_lock_sha256": "aac863ddb2cb669a9396ea48f9ffb76e5f1f3c4970d77dc970db82f15ea0c8e2",
+  "wheel_lock_sha256": "5b4784339366e9e3ae26cf55226a213336947849ad6ccf52eb3a795e25c9e85f",
+  "formal_budgets_owned_by_root_protocol": true,
+  "oracle_noise_level": 0.0,
+  "oracle_source_unmodified": true,
+  "loader_recipe": "source_namespace_skip_unrelated_eager_initializers_v1",
+  "skipped_eager_initializers": [
+    "summit",
+    "summit.strategies",
+    "summit.benchmarks"
+  ],
+  "baseline": "sklearn_GP_EI_product_scalarization_v1",
+  "baseline_is_official_SOBO_or_EHVI": false
+}

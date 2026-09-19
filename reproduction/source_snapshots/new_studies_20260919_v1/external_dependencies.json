@@ -1,0 +1,1693 @@
+{
+  "MADE_baseline_parent_profile_artifact_refs": [
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/configs/deadline_core_protocol.json",
+      "sha256": "d6173ecffa91a1261cf6d49f9097da24523e527af352fc29ba83f8f052690e5e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/collection_manifest.json",
+      "sha256": "4817ec9cd77aa3777ccd1333dc3d3559771e922edd364df188005fec73b9d14b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/decisions.jsonl",
+      "sha256": "731d4066747c97b7dd1d6c30758554e67fbc05871425f59f1d490a67a21552c2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/graph_features.jsonl",
+      "sha256": "ea58c80febd6def6f88d5d0a352473fca8b64429f95e8a32a17fb76980e1d561"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000000-c0.pt",
+      "sha256": "64d58a30ef337b8c3584c84c8cce7b8e56a4654dbd9af5c7d7c558da3718e616"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000000-c1.pt",
+      "sha256": "8cf1d63d30d5a0873f621b6d0bba78f7b374866db7306e514957410782328c4c"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000001-c0.pt",
+      "sha256": "69f851e8d99631d6657635ae3b2d62c0872ca22cdf0ce0181b4af0822c62267a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000001-c1.pt",
+      "sha256": "c3f245760cca401eb6aa8a1c2d2ff41e55ef148cc71256ffea52e12bb71f42d6"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000002-c0.pt",
+      "sha256": "5c725fffd7e82928a0a524a7e9cf61f71c53068a9060ecf8620181440b429da5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000003-c0.pt",
+      "sha256": "e172eef7586e766dfb4e90d83aebde2ab8df75a16e6fcb9add9be3c2e721890f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000003-c1.pt",
+      "sha256": "ad794d3f43d2a62b4c633c48a861bcb67bf461880c202598f2b5276a0d0dd869"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000004-c0.pt",
+      "sha256": "a04cea2f30c5fc3edb6e08cf6af90c28d197f98c926bdf3fc9ca1e53684ccdac"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000005-c0.pt",
+      "sha256": "c481658ed1baf9a5f7355701636315dcc83d21eb166f0f59e53dd7a9ddaf68fd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000006-c0.pt",
+      "sha256": "369b3084523517ba9e1fc854d427432aa427155cb263ab70a2a9d0c7b8e45dad"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000007-c0.pt",
+      "sha256": "d5dcf53cd4bb8bc53e2c93eb48086ff6c1f03bd42fea381a84d452fd97edbaef"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000008-c0.pt",
+      "sha256": "b51dc211d347eda395a3744265a501c0cc7d9e854f1ede330ef00802c1626310"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000009-c0.pt",
+      "sha256": "e0a397d02092a868c39e8106ba920da121301bdb1cf5e4e24b9a6d30c3289cf1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000010-c0.pt",
+      "sha256": "0c52bf7da3451749ef7de0ac18aa6ba20e66108888bf39912a703bb8086c144b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000011-c0.pt",
+      "sha256": "ec64142dbcacbc2aa5805bd7a1cb9993957fbbd412e2d4ec285b0f6863e27289"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000012-c0.pt",
+      "sha256": "1bf1b3883ac6917d9f85a550c7a003dd9ab2b6f156eda42a69461e9bd6d1a2d4"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000013-c0.pt",
+      "sha256": "fa7f677d86c18c61f261b26317e4a1929e4aa4f8616273bcb1d81a3c677b69c0"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000014-c0.pt",
+      "sha256": "f04e823de430166c17cfd2257339c2f392815da132103ee77b77a77a17662cb4"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000015-c0.pt",
+      "sha256": "24ea79129dad6a368f97af6251a015ef126b3a384c01862f785ac5c9ef926498"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000016-c0.pt",
+      "sha256": "c76bfd7c28e1011182e3d95842c86477d6af88e2f3ee4721b64fea8633c0066b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000017-c0.pt",
+      "sha256": "6f0772b607542d52fbc11e6adbc98209c17fc03ae759aaa07a6b8815592286c6"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000018-c0.pt",
+      "sha256": "2d4f2269e3aa8b36f1cdee27a955e034842519f4b6a21d358febfdb95a3c640a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000019-c0.pt",
+      "sha256": "5d0f187a1816830a06e2315289b6bd440f5068d3c63a760e225318521fe47291"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000020-c0.pt",
+      "sha256": "143194ac7594cf9e4c91108d3862543023b24dc7678254ab8a17a662ffd422da"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000021-c0.pt",
+      "sha256": "3cb0abf26f72ee3acfa476749b79f5c39ad2c2c584ca59b3d6909e2ed34b91d1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000022-c0.pt",
+      "sha256": "347dcf080ed29be86089e993fdd814f0d022aba27fe3928a8e7e25e0bd661645"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000023-c0.pt",
+      "sha256": "4974a7cc88b7811960f7a15bfcd47662ac1d23d2c06b9ea965641147244bd04a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000024-c0.pt",
+      "sha256": "96ad9cf3efb28f351be666223cec7af784ed18658ac750c2f5ebd13beb68ecfd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000025-c0.pt",
+      "sha256": "d2d8726ab550ad6f28a9fbb8dcf9407504113e01a46bb3d74655238ef7078fb9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000026-c0.pt",
+      "sha256": "de3c98aa04ceb390aac8d0daacbb2a0075262be860499c4b5e69be40ecbf26db"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000027-c0.pt",
+      "sha256": "fa2cc33f7630635fe53c1ac87d24ee733711c45b67bc0ca3e4c5801e8a7a3ea1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000028-c0.pt",
+      "sha256": "42317481bb128d5c951e70132205f1234efc54963a58233b67f28537e3baf788"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000029-c0.pt",
+      "sha256": "f7545739a3ef6bbd3a2975b4cf2c0ad1c6fcdb0324b1ce7147c16a63ca6c1a08"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000030-c0.pt",
+      "sha256": "5af671374fae01141fb6a633d83bf4404679e782de92046155758d9c4d9092a3"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000031-c0.pt",
+      "sha256": "c53dbb2a41bfc8fc473795222134ea1f0db6e1c60d0b5fa9a83128910c2556ac"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000032-c0.pt",
+      "sha256": "89b48987bbe9f7532c0355caaa2aa7fd31fa331ef95ab0de411bbab5878c0f67"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000033-c0.pt",
+      "sha256": "4a6fe2329870f16ee7c5a9f98ed86dee642b08bf49f3e2638f59481582e9a1a9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000034-c0.pt",
+      "sha256": "33b0bcfe6d15b166c5e9b934b7ffaafa2ceb1fb95f5580516c1323e9c47422a0"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000035-c0.pt",
+      "sha256": "ee264d2a3d7f808744d7906624949318e914b5cd359af3af0652165f3e3dd1cd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000036-c0.pt",
+      "sha256": "968e0ce0abb60d0f8e2026b115e965d99274960a85845f5df8c34a217ecc7f15"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000037-c0.pt",
+      "sha256": "145a8f1ae48d4fc26a2d354a85b423993c7d506afad429d7b6230ee591b0e3b4"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000038-c0.pt",
+      "sha256": "5e2efc557e7af695a50def663954ed77ba27db698bec7d2c567176271da33139"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000039-c0.pt",
+      "sha256": "8d351f55b8dad31689a8117f7a93c0e9f4ca809f6de211a5aaea87400da16e16"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000040-c0.pt",
+      "sha256": "e9b19bede8e285d8bb3c9613cc167b21a043dd6618754de7ed67ed2e3e3710c8"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000041-c0.pt",
+      "sha256": "4b2972aac531ece1dac16f8860f7baa93746db8338ba3c20c8fd991148c368c8"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000042-c0.pt",
+      "sha256": "05972360feb6a0b2da505ee6821f79bbe8b1355d9ee5e29e0810806ae0a17775"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000043-c0.pt",
+      "sha256": "6813c08536458bdc29bb0a60ae6413d0e75aee09f825cb9a7c5073ef4757bffc"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000044-c0.pt",
+      "sha256": "78db4a9f9faf65dd0a5112192a14301dfacc1242f7fe6b272d29078066870f2e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000045-c0.pt",
+      "sha256": "1a4fbc92c0a29d03ca09262c122a7f4e28c7acd08de1ec6875f9548cbafe1875"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000046-c0.pt",
+      "sha256": "a6a390f015786804e9d63e2e58cdf3b65924eb9332a727bfdd72c964e811541e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000047-c0.pt",
+      "sha256": "59864305369803b2feb5b7a2a0d451158b4f2d2b3761e7e6dc06c2225cdef1cf"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000048-c0.pt",
+      "sha256": "f48b34167b9c05a4cfe8bbb5d10a93e51b05bfe70bb9331d3be1491f861d4af7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000049-c0.pt",
+      "sha256": "22833a33f8c03d7d86389d3dcaa4d40a529feeabc40adbc9440e4b23d722656e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000050-c0.pt",
+      "sha256": "ada0000fceee0ed0cc816eae507710ff5530d11a1f1f18d22796ef83cde2becb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000051-c0.pt",
+      "sha256": "c6bca60f2365f62c39970c313c993fbd5f3a3d810ac9cf78872619bb11aab0e2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000052-c0.pt",
+      "sha256": "7b34e129ebf7ccc7ee44f292827d26d474e03c23f318f582ecadc9d16279d289"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000053-c0.pt",
+      "sha256": "2083160a088095eed85fd0a8c74facf61a7d40d4913e91b2fa858ac09949be8b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000054-c0.pt",
+      "sha256": "f5ee294bedaf2191d84b65e416459e75f8759c8b5ee8b1964e57e7e3d3e4d800"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000055-c0.pt",
+      "sha256": "c44bfe8c4dd823bd46f918cad9de942d66212f910e7de578341694ee4d88a810"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000056-c0.pt",
+      "sha256": "7f46281955b3fabf79ff754f3a6cd6f37aecb0f6d15b422bbe1497589ea2a953"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000057-c0.pt",
+      "sha256": "ccbae4be03cddb66712a90448e4796976cadee793b358b7464e25ee468afaf97"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000058-c0.pt",
+      "sha256": "2c35068c610018271b40b21906f91bbda67c30faaac77a9926c278c3149f83b0"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000059-c0.pt",
+      "sha256": "48076e9416d856694eb5adc7935b4e851f4164e3fa55b09b29945030a3063173"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000060-c0.pt",
+      "sha256": "b73c09e0d702e4aabcc6bc40cbc298b7ef23db95e7fd747a5173b26bd82b27d6"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000061-c0.pt",
+      "sha256": "3001a601155d059f1e05d60e08ea6af993c693654802fd59ad9402e26c4eebf0"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000062-c0.pt",
+      "sha256": "e9e26fa92c0c7fae1cb8b0c7c551b2b9bbaa13bafbdd2e492cf0a8ba5f1a0061"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000063-c0.pt",
+      "sha256": "8760a16ab6897bd183a28b9984d248d6bc49c6458ccd356c8cda0ed24c4090c2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000064-c0.pt",
+      "sha256": "d95a8b08980003263c6086d60a7af97d382059724d12e749150b8ae9d1d4a210"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000065-c0.pt",
+      "sha256": "c350417863ddb732fd3f5d93ddec2a4ae2a663f5c5c1960dda46e2d310d44328"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000066-c0.pt",
+      "sha256": "f26e413040685cc0911e144a9b20a25c4d110cbcd4693c8ed143ea9c7a84a181"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000067-c0.pt",
+      "sha256": "f57a9392cefb4a6cff6142d37953d1272cdbf0d83df9b5c97fbd54218723bdd9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000068-c0.pt",
+      "sha256": "83679508abb36fa9db577af57d4c00b113b648d3f25e35c8d33ac70e87cd7996"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000069-c0.pt",
+      "sha256": "dea99b45770f9443ff615736544ebe2139a924f136a0c5b01832ad406e1d6844"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000070-c0.pt",
+      "sha256": "9104038dd5cfdfe7c1692f02ed2b3c8f9e9d2204c467a37cc1db220f29d00069"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000071-c0.pt",
+      "sha256": "ee16b22d2dc6b3e6bab3166b60c658ab2bcc49a84cadcb9d777ce1ff903b0136"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000072-c0.pt",
+      "sha256": "247c7471b7dfac72ada678009af0c0c7052896182102caa9e3da34d2776ea5c9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000073-c0.pt",
+      "sha256": "4d4471b721317a9fbebfd9be60d92d37a92ea916054276c514a983b01113bfe8"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000074-c0.pt",
+      "sha256": "5413b11aa2f89b52a7169eced178f6df687d7ac0d2d1c729ff54b1ea7db9b613"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000075-c0.pt",
+      "sha256": "4a69cdd2388f5825a215e8a2684ca2fc1f47566fb2d28c456d11e0d88a3e3a37"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000076-c0.pt",
+      "sha256": "dc989d4bde2d230022f9441cc2d88f8abcfab6019a1cf79283751cd952946fbe"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000077-c0.pt",
+      "sha256": "155b0f8ae75d375289bfc29c38f061cc71a3c1805a0161ff1b08af8cba6bb0eb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000078-c0.pt",
+      "sha256": "994ed3fe181fff8cfc58074bc47f9320cd39af17d62a061ff4731a477240bb90"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000079-c0.pt",
+      "sha256": "54da1c79bab0ab68918a393eaebf760ac22ca81433063cf4a389ae39a6b7ef86"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000080-c0.pt",
+      "sha256": "7651ca6aecd2180be4cee1154e88603e353e8146491afef394cd5a6af7a2da8e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000081-c0.pt",
+      "sha256": "a2184a8afd9a114f10b27227e5c053ab6f09604017799967a8bd04b1fea11026"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000082-c0.pt",
+      "sha256": "59c7eccb147290b47aacfe0990942300a1b43a3affbc83aa4600303b01e59c46"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000083-c0.pt",
+      "sha256": "a822962d55b2e82fe233bdb85456bfbc82387c5a7e3b84416c05c5c7973b860f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000084-c0.pt",
+      "sha256": "02611a1fb8d6f9b3c9cef1f0dcd541eb9ba5bc691d506fd1e65e4446f26052ac"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000085-c0.pt",
+      "sha256": "670bffb4c4cdd710b8c2275338aeaa306a071856151964a3e26bd0ab8fe027ca"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3/tokens/d0000086-c0.pt",
+      "sha256": "63069eb4670af8aac24220fedf0d8b03f85e95f6694516fa49421566732009b8"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/collection_manifest.json",
+      "sha256": "17fd15dc4c08dbe39dd8a722127a2d54d2870b6adf368624703c97743e3a8a43"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/decisions.jsonl",
+      "sha256": "a1c5ce778b254761b3d92d23bb45a5e9fa2f52a450be281df45b94665cd7a4da"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/graph_features.jsonl",
+      "sha256": "b2132e9a2c2adfaf4e6cddbfa0f798b5d19641101fe1565c8a3e5c41fce47980"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000000-c0.pt",
+      "sha256": "6700ff8de5b43a9df7c72aaa0d432e5c830a9382f362c59802dbeef05161bc04"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000000-c1.pt",
+      "sha256": "8f0085df7887f1b5571f39e52a79e3ddbcec72d6446d58fa1100c11de8a9e466"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000001-c0.pt",
+      "sha256": "17470fa0d664c2ad639928b7f27041d8b02259df9ad17607ec10c123782db32e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000002-c0.pt",
+      "sha256": "89c61fce8acea4921c07c4c6435be1a430d8750b05c59f63d442a375f98ef63e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000003-c0.pt",
+      "sha256": "b3b68cc90daa294cadcbdbb54137497e7a22a75f8d056e635201e609fd2f65f8"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000004-c0.pt",
+      "sha256": "96e7772de58cfa894511a31f119e8d7efde683b56f6027a72d516bc4292fa02d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000005-c0.pt",
+      "sha256": "c1e614afb2fc2566e1c94806f26eac0786944fff5dc0d6d6dff1f22a0be21659"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000006-c0.pt",
+      "sha256": "b7adb84635bf7ba7327359c487e93842a8dfb18893185a976f38fbaf1a9b74d7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000007-c0.pt",
+      "sha256": "bc89fc6c6b53cfdc2dff172a598b2a3fa277473e464b2c6d917a45dc91b674b5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000008-c0.pt",
+      "sha256": "c554f9b397e21f632bf1dc34a4769cc87b41e0d09a6a6688a1c6c21de89a6b2e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000009-c0.pt",
+      "sha256": "ef8472d3503559bb281e595ee2829801f3d18d8c3abb4eb35f0d183f31a13250"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000010-c0.pt",
+      "sha256": "8d6fbc9bb8317db6510a4b64207978163dcf24529a60530e2dd46a040c1ee985"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000011-c0.pt",
+      "sha256": "c22612e0eac3a6b0f97b9ab0a4b4018597bd637817e8bfbee22ea63f81beefc5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000012-c0.pt",
+      "sha256": "e06b522d9359bdb0888301cb73633dac8534a28882a09da04915607289f4d41b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000013-c0.pt",
+      "sha256": "5d959b9f953eb8c424786bc22a8a2f03ec8647d8858a8a12c332ced8b8829514"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000014-c0.pt",
+      "sha256": "66e07c5538784ba62898dffc5a218c18e960635f90af4e123e50d0392a5b6999"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000015-c0.pt",
+      "sha256": "16dc3c126c9febe7f44f63e902d14c963ebcbb9518c4c541f0a9ae8759a93483"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000016-c0.pt",
+      "sha256": "1d6eb4633464ed463310e91a97d81eecd250bd2a3b37ba36a51340d16aa4f165"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000017-c0.pt",
+      "sha256": "ce4b97acdb16f5c6c1e0e0cbc7b457c7f739e5e77898fd3c03447a478bbb440f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000018-c0.pt",
+      "sha256": "c3785e168e032418b8899a0b034ffb7a99924b5d2e679eb6fd0d43778f70e6df"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000019-c0.pt",
+      "sha256": "8060f18877af7cb82e4675c8cf68c33660f7da2fafff296db47eba7a002b58e1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000020-c0.pt",
+      "sha256": "6354527c11130bbb8a672d4e38c184eb774c1a6bee0be8d17aaa93a1131b6f8a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000021-c0.pt",
+      "sha256": "4c283f514599a7cec4a3278844ccf88495d2dde378a8ba4104eff8ca4728f575"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000022-c0.pt",
+      "sha256": "272e9157985ad67c5c4a4b715aeec700bd471787087aa54ef20222c841e9e996"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000023-c0.pt",
+      "sha256": "a66d16985442066a5dc20846313ce0852e8b3ea44acc1ee85b9cee961eea10cf"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000024-c0.pt",
+      "sha256": "afd080dba1a5d6f404bf5174132bfb466906851cb6d26dd2d142d55745da866c"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000025-c0.pt",
+      "sha256": "88b6aef63e3202810c9c1dbeb14282c153721398b82960e070422653704c9066"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000026-c0.pt",
+      "sha256": "7ff540cd75e377c920dfd7d651d1904f1d4a2263432f7babedd2793a7fdc6e92"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000027-c0.pt",
+      "sha256": "46624c25c1b4a2e742d55e4142905ecd3e8cd0891045f2acc2b7a7fa0174a2f7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000028-c0.pt",
+      "sha256": "de8f1c978f8a4059daa502a0c6f9d91700c8ece2064b393c0e5ad7f370136fed"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000029-c0.pt",
+      "sha256": "21fedd0489873c9adfab126850b0b38cf9c243b69b5da6f8a23f8aac21957bf8"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000030-c0.pt",
+      "sha256": "24ba2c5c3989fcf404f59078a80845868a7d057f8e8e093a39608ca46af673fe"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000031-c0.pt",
+      "sha256": "a8ec6548c2b09efdb18c92adba77a929b41606ff069e70e354a39de82d4b5595"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000032-c0.pt",
+      "sha256": "ddad26743f4c373adee4b28555fe52b095bf45b256aaf0b221d829e8993f03fc"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000033-c0.pt",
+      "sha256": "497699fc2f4d4670b0a30d6b1d95ecbd16366ca687853e969d4c8c2155e96b45"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000034-c0.pt",
+      "sha256": "2315baba43d496827cd9025e8be8b165811e543d8071c9c7e6ed3fc22805a562"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000035-c0.pt",
+      "sha256": "0836cdb407acbbfe7b9b4c9d946077e0b3bea9f125c6717338a9789ed3142225"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000036-c0.pt",
+      "sha256": "107af124e19c510f46af8c96946e27fa46fb8cd1608185f02b88bda50d0e2cea"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000037-c0.pt",
+      "sha256": "3377c860f462914587347f2f9d709d62260a517ce51a864c3dedb37a1d4b5620"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000038-c0.pt",
+      "sha256": "ee8e4488dc13a21fc8ffb806b4427ab9f988838794eb8d7c63bbad20bb8d6828"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000039-c0.pt",
+      "sha256": "2dc16efbe01f9b753a1efde9417fe660e2a16b4c216afd473548247cb4420a6b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000040-c0.pt",
+      "sha256": "82370a9058c19b00cd85ff120924318f80713518b19afee0c492154afc14ce62"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000041-c0.pt",
+      "sha256": "bdce6aeea80c6c4638031b3541a35795a6e84caeeb5b97ebfdfc8ae2222e8040"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000042-c0.pt",
+      "sha256": "a36f112ca103299e0f5ebff7df79413711074f212927177a6ff0320b7df01c9b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000043-c0.pt",
+      "sha256": "732137ec9b70914e83a742c9d03b9e545ce942ee7f0945bbc8eaf9effd001ce3"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000044-c0.pt",
+      "sha256": "4382048b69a7468362fb157a601e14e8f9a5a984bed460e5a4e1011a64990ea1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000045-c0.pt",
+      "sha256": "ee021c0e5e8ef7d4e0a332f7d99582cf724b9fb32a289e87e3becd3098f476cd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000046-c0.pt",
+      "sha256": "5ef31c1171265da227fe3d2843fe4367d93b9c1031941d248d12b654a374b0ff"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000047-c0.pt",
+      "sha256": "b61a23de754d7914e6614ac5a0f517e2f7178cd83ba64b2d76fe79a2168d5d62"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000048-c0.pt",
+      "sha256": "868b063c36f920be6246e35336f1bdcdf5075ded57ed2c0366d32d9480b5c4af"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000049-c0.pt",
+      "sha256": "4d18ca647c20a191a92f3295f4a8ee4e4328edf3b85fc7b835a4622cefd4c6af"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000050-c0.pt",
+      "sha256": "4272f3f8d768b38bdf9312ee9d74ddcbf5c7e0b4d30e9e7ebe427310f8332336"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000051-c0.pt",
+      "sha256": "704a12f60b9dc950099c875a8ebcc7828485c5509431188dbfaa032200348464"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000052-c0.pt",
+      "sha256": "9e014e8929b0dd8462e9ba0125de4b55c198dfff3c9ccc196669be7f78bdf780"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000053-c0.pt",
+      "sha256": "bd9bf39103f7cbb886bfd1a8555065fab6db88d66eaec753f5f39310e05befae"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000054-c0.pt",
+      "sha256": "f922ece97bf7a5edfc2ff55b03cc03fc383d90cc718586a34495cf31d5e6e5e6"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000055-c0.pt",
+      "sha256": "c9d857d7914fcaf75049fd82fd6242b810068cbcf82fbc9b4b3a0e4ae6ad9e93"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000056-c0.pt",
+      "sha256": "a949b8e3684a4fc8598c2897f033042ce97f3ccf549c05ccbd6b481dc957aaa4"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000057-c0.pt",
+      "sha256": "bc208410246674512d2b74994a22fd2995257e6f3eec57c39f253eda11ffa111"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000058-c0.pt",
+      "sha256": "b7e2b9faa97880a944dbe9c11f604853b9a46cd78ba30d59b24a01d67284278f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000059-c0.pt",
+      "sha256": "ed321ba2bb7eb42304297cc65b595274f77413e335a32c1ec742e21e9e26c9bb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000060-c0.pt",
+      "sha256": "8ea90df856b18eebbfdaaa16c02e51b8fc63a4124df3f9d4f891c424be86e6f1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000061-c0.pt",
+      "sha256": "2a82e76d33835b5e358984595117bc3973cb2ea56ccc775f481953f2f0d9c591"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000062-c0.pt",
+      "sha256": "efa3f3742bf572c7010748bed26f04f765017b18397d35b53807040af729e5c2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000063-c0.pt",
+      "sha256": "cc76361cf05f685c36c4a1d75dde17e56bff3b54c295befad64addb43d471397"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000064-c0.pt",
+      "sha256": "ee0ad6b4cbfed564db199fcbaa7ec522ddfeb2538ec1212559fd21358b168e12"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000065-c0.pt",
+      "sha256": "024560b29ec7179c8a80a5b64197bd6ff3d2bd4f577f3afda8e855fcc130faba"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000066-c0.pt",
+      "sha256": "2fb133fc340817bd6878ef7c88b39900d81f69389e5719a09cab6a3ba254b207"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000067-c0.pt",
+      "sha256": "9250f01a91d0834f29e84bc8882c34f78c7eb2428fc5c7d0da7be81cf1d0141d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000068-c0.pt",
+      "sha256": "ecfde98ca921f364f97267eb60e1174d37f61d28136b68cf7db66ee83d4358f8"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000069-c0.pt",
+      "sha256": "ffe975d0a12fde63fba774d12b297c4d484536d138b821f9e3c95e8c90dd0d08"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000070-c0.pt",
+      "sha256": "3dd78f3b9efede68be2cae61d3e749aa2194942a11d77c9831ea88a1359ace52"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000071-c0.pt",
+      "sha256": "690e177ae1ea5f253adcfc31810b0d5ffd183a0469532b656de3af941418c230"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000072-c0.pt",
+      "sha256": "15555cb400543e3b8167f7c91015670e767f15ccd0c1ea312a5ef6bf537e5a2f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000073-c0.pt",
+      "sha256": "55da3c0a60a93777124d739f6f83231823c679859cf58a2f56eabb557a42b168"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000074-c0.pt",
+      "sha256": "5e2b0da05bbce933c805922112e6d43b2ff67c3deb797dab0fbe4ee34537efdf"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000075-c0.pt",
+      "sha256": "42d96e3638c6435a88dbc123cd3ec1f377df5896efc1804468c72846170d5bd2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000076-c0.pt",
+      "sha256": "b555b190aae11ae37701373762fd077a1646ec41745c9e11f00942b5db3dc702"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000077-c0.pt",
+      "sha256": "da8e4893053ae6a9b7e97d5d933f6899379f807e42210197e9c8aeb95bea4b3a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000078-c0.pt",
+      "sha256": "8c1325d6d9c9b1c6e2faf3cc9a037c65c42eace564f3aa1a25373d0f603067f7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000079-c0.pt",
+      "sha256": "db57c95b2073174248f65b3c553d6f1cfc2735e61dec6f6c271032a1d348bd11"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000080-c0.pt",
+      "sha256": "db3dc4626cee848fbaccb93e71bd2f770dad0ac710966e869676f02d464a9a3c"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000081-c0.pt",
+      "sha256": "40dd76bbd626b0cae6784845a67f598381376503188822b31960d3248a8cee2f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0/tokens/d0000082-c0.pt",
+      "sha256": "16a334b94ab74be9d1bdaa2b7a5fc987a6d9d525bef74d9b15f74e752604c444"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/collection_manifest.json",
+      "sha256": "3af60696e4e9e0e2589687b129b81ad38587a1141c29e208a0fb6a221ad62c7a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/decisions.jsonl",
+      "sha256": "45c8236bcbbe7e191878b05eab0e5cdb83340060ad56f549e974e6039ec92103"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/graph_features.jsonl",
+      "sha256": "e469e6b87c97e832d42b550d6fda22afc64182e00836c7c7c2a43f5ace832e53"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000000-c0.pt",
+      "sha256": "aca5d94f7ed730752a3b98f5b5f93a0c91d3cfca23f405e5ac3bf75c1aec70ad"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000000-c1.pt",
+      "sha256": "cde0d6c9187b81541c3a4af1b93680e2d545a3958457aee97c7d2c05e0c2b3ef"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000001-c0.pt",
+      "sha256": "8345622ac12286040e0c78ef13d0f3016351a09a54dea69d05e4773f7357e38b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000002-c0.pt",
+      "sha256": "b232321cedb8b353a83f9fc7cf465d472db8c3170ad96f026a6457a1ebfb6a6a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000003-c0.pt",
+      "sha256": "7b783488d42a4c8a2eee204e2cd17a1a514bb17af6cd19ab1dcad11c83a8bf76"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000004-c0.pt",
+      "sha256": "8e30e99b1332823de7a857b32b8ead21cbf40c7f8962b572d6b829b70086cc99"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000005-c0.pt",
+      "sha256": "e269f7eb3a9df6e69592e2afd4e6aa2921c770c4a5abc42ffeeef1d873860b60"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000006-c0.pt",
+      "sha256": "cb3e7f19ffb4fc0d6184d4d94d1b41630fa13389577dd47984cf85511c5f6e91"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000007-c0.pt",
+      "sha256": "6f224be04cd5090adcb191e707631e18311adff91e975ae89b76ce3fdef7a801"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000008-c0.pt",
+      "sha256": "96bd803d663b934b6f2d6b287a7b98577991c2da2bc7f695e9401903a335aec9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000009-c0.pt",
+      "sha256": "dc2d224933ded5719ff59ed67ad9306f99029ff41b7757850404d75bcc4aa52f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000010-c0.pt",
+      "sha256": "eab3d9b0a3e6c16ccff5701791cd5d54b13d2a868961e603d338cb049cb9ca40"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000011-c0.pt",
+      "sha256": "88a75fe00d04ec565b0f9bdd4d8a7329f95c13a50fdd218bfe817a03b379766d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000012-c0.pt",
+      "sha256": "77fa74fb89620bfa91f3ccda203cc1011dbaff8e4471bf4f4476f69c744d12d9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000013-c0.pt",
+      "sha256": "3fb261811fd7b1625accf7fdf62d07b463c496bdaa8b35c678ee12ba2705de09"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000014-c0.pt",
+      "sha256": "54744e41ae0aebca1c239d43f5364a27946b2b9a2f65db6e3093c18cc577faab"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000015-c0.pt",
+      "sha256": "948cdab8faa23ff274f0076aa504d6f0cf75450812cb797872217a2ff0dd6f35"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000016-c0.pt",
+      "sha256": "bc080aa8bce8ac2d9953f99fefdf5fd13758eeab2ac239d9bdcb1ffcdab533ae"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000017-c0.pt",
+      "sha256": "ddc3a2499b553811133c61df54a634203c72bbeda445acfd1b22cc152e306063"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000018-c0.pt",
+      "sha256": "804e508b876f85aee971032b02c8568c0569fcc338aef57563120a5bfa59fd71"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000019-c0.pt",
+      "sha256": "fdcd58784f62e48b56a3bf7869c515027e1a34e101bdd3eedba271069b3badec"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000020-c0.pt",
+      "sha256": "a86fb111321cdff213c2289d1ac9a80b653ac0c0a6540b80a55d2d711f1f5616"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000021-c0.pt",
+      "sha256": "8490360156bb4e68d0fdb1d89afae3ab23322c0d4422f46800385a3c8d91193a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000022-c0.pt",
+      "sha256": "7ecda4baf8665ceebbc34368488918fb605460901dd10d7040ef038b8214ac35"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000023-c0.pt",
+      "sha256": "86558d6f6ceb8f71f2c1ed977bcaa3c6d83e6c418548f0054b771db69b37a448"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000024-c0.pt",
+      "sha256": "ff16887ce505fb77bddd64d57e012f4007297960b71eab94d55355105fe27725"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000025-c0.pt",
+      "sha256": "ef7bf7138e952bc5a5524bccc8c69dcf5a4663458f033e4a29860e68d3a08b3f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000026-c0.pt",
+      "sha256": "bb89e5d19153ea64acb173c900eb83040d0f4986da8788ec4fcfc7c118e01ece"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000027-c0.pt",
+      "sha256": "c09e892adc8e51dae2adcdec2840373692bd991d2a0e563efd7761a46a2bd429"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000028-c0.pt",
+      "sha256": "dec7e72abd384b32832edc4057269814010c989bfdc7fa9722be1565b4284b94"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000029-c0.pt",
+      "sha256": "ca72e68be5415749bed8278098cc31a45368592d82d7082f27d291c9560678e5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000030-c0.pt",
+      "sha256": "49d6c48f6f65e6f6852b5d17c7c295582fa4b10fd9beb5c450a1141fc539a067"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000031-c0.pt",
+      "sha256": "3bc7afd6efc7dafa41df98c54fe5f15e6ef000ad7d0cde8bc3e2547ba5578292"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000032-c0.pt",
+      "sha256": "eb548f6b6edfc9a650253eec061d74860cc2b22fa9833c47dec4cb338345d451"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000033-c0.pt",
+      "sha256": "094dbc952a619b31965b061a8ca2c72cf3a00c139833093540304ec87f9a5754"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000034-c0.pt",
+      "sha256": "216ae7b321e5a722f79d948798e613ddd9b2a7da438c7b2614097a18d52be5d9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000035-c0.pt",
+      "sha256": "32760cdc0e2b6c541fe341a56655e46ec3b48c2a953271e6909d3b3a8d9a72fb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000036-c0.pt",
+      "sha256": "264d2a42b725d8ba1cd4a1d3e23518e576e2c51356f6472ae087d122ac7ebc53"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000037-c0.pt",
+      "sha256": "bc7ac679f4162e8c1ceb8d36ee1fbb4eede22034b49be1fce615b375c87917ce"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000038-c0.pt",
+      "sha256": "f6cf01664eebae41f9ec8c440660a38fc69243a8f07bc06d28e07eba9293f9cd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000039-c0.pt",
+      "sha256": "2e909b326c81fdb53f24f03a0d529146f3cc2517adbaf78cee8de943677fb9eb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000040-c0.pt",
+      "sha256": "1be317cce7595eaf445168c80532bc75e62bb775b0fccacd4c6b2e6c11c2f050"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000041-c0.pt",
+      "sha256": "a2d55f9771e2e47c491389ca18c235156b32e2004355d72b3ce3b082072713d3"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000042-c0.pt",
+      "sha256": "219b0f6d83255d32b321b0a4fbb02d3174c56b24c881d7d68acd9f8116ceaeab"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000043-c0.pt",
+      "sha256": "2c8290c9837b61cdf627ab517274eaf1841f6d7cd45348a4bb79211a665d37e9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000044-c0.pt",
+      "sha256": "7df9c5197940b7d9cb8c07771b24827b9948f8e9fe67bd2cc82b9a058c2066ed"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000045-c0.pt",
+      "sha256": "2d34232373a44f50510cf4d3825a428bdfb10f8dff8301ea52c12305f70b541b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000046-c0.pt",
+      "sha256": "30531204f1d6f3ead483372f8a5506d15e83ac0f2aabf32bdac4e8c1563e526d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000047-c0.pt",
+      "sha256": "fbd361a2e23a1a948d31e32baf3e1a5e9ad0639c2ba015fa95ace74b9fd2465b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000048-c0.pt",
+      "sha256": "8a14fba85c712d63f663c78389d69a820a2a3dc2a2cf86919411bfbc0aa5fae7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000049-c0.pt",
+      "sha256": "7f4003621d2f92011d8b76f67ecf3d0d553c00a3bedc8d23b8ff8e3b83e5cde9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000050-c0.pt",
+      "sha256": "0253fb33e24d661bd250308f695244e2ce7d73620350d28b2575af4e0fe4e3cf"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000051-c0.pt",
+      "sha256": "641d2a695c1d7d540eca6816ab7137ac0ddce2cc56a094b0e7b47f4811cf6093"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000052-c0.pt",
+      "sha256": "f7fa20ed442dba79311472f96753f86f6b0c1fba3799c2f38cbd13a30e65cc2e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000053-c0.pt",
+      "sha256": "6c25b26afb1f9554b8561dbda984653a084530b9f5d4e494fbb69d4e53d203de"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000054-c0.pt",
+      "sha256": "6de4101603e778192103c2afee3073bc8a3f33ae6d00bcb64d710634af2223a4"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000055-c0.pt",
+      "sha256": "530a9907f11528426c10b94217160ea487d3cd7d2e9be49335b25025dbc03d3a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000056-c0.pt",
+      "sha256": "7af5e12197fb2a23e67e2d242744202027486663d2c56f18409d8a1ec22750e7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000057-c0.pt",
+      "sha256": "cc71315607815b341c97cbe8ef2a3125584c4c6e328713afe73d069be00eb95f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000058-c0.pt",
+      "sha256": "83fa05df87c887b872ee9fecbdcf4da4c247eca44c64bbc1e2aa0d7e3e4c5513"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000059-c0.pt",
+      "sha256": "979e04011d6faa989315bfba616dbba52713e7aa3d473c724f5fb406ed844f74"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000060-c0.pt",
+      "sha256": "02ab33cd5bed6504691dbfc270df5cf3e45629d985873a2c59f7d8e1a954b714"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000061-c0.pt",
+      "sha256": "a18904f66b258de9381d13dd2d60834543a683aead2341340643019301e6cef6"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000062-c0.pt",
+      "sha256": "b134e713002263c1e7ec4f51830965fc089a019f0c7e7a07be7ff395fee0529c"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000063-c0.pt",
+      "sha256": "8a6fd0c8c739f10771d4fe54b07069072e5416d481d8f0ae9cfefe41fd9171b0"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000064-c0.pt",
+      "sha256": "d55d03e1e4b61ad354b20342b74381c043dba900acf602f5d21e677675cacefd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000065-c0.pt",
+      "sha256": "558b6f45ecd9ef3e2d176dfe8c4de5c117f0898f96735ca4688e3b1ae94e914d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000065-c1.pt",
+      "sha256": "f52e6595d61aede7983b00a466f4e83cdf5a47a2a7be613b0bbe75f49326f0e7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000066-c0.pt",
+      "sha256": "1569d2519b2badd863fb31b25cdeb20b9d10f967cf3c5cd5337250110801cbf1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000067-c0.pt",
+      "sha256": "748ddcceff42ecd0021f1faa905e8ccf48c35eb482f3c7bf6a159fa773f82e37"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000068-c0.pt",
+      "sha256": "8ae9f290cafe7d2f5e82cc42f67ed65d1063f386b662c5091400655faa7b602b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000069-c0.pt",
+      "sha256": "24f89fcbfa03ecabb5431b028c9cfaac1f6e8b78fbbef6abc538da0af9a3bbf3"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000070-c0.pt",
+      "sha256": "0dccb7561b13c3a620b081b3ff0a99d1b3e5166efa6caf00a978946a8b931202"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000071-c0.pt",
+      "sha256": "ebe701237914784a8f364d23d6a3b69fb0b7b85ec3b9d8a23d8c46e92dec6d84"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000072-c0.pt",
+      "sha256": "4d9d809db2fea703ec17c70bd002349b20c68957fb68f0bfc23b020fec0d3014"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000073-c0.pt",
+      "sha256": "0271a10bf742ce8785e103ad9347b9906c283fa1e146bbc2f70d74b5dc8cac5d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000074-c0.pt",
+      "sha256": "91422fd0a37e1cdcf5f95b2d993574f4da64dcbb654c5d143054e3a8e9e7fa1f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000075-c0.pt",
+      "sha256": "72b096846263a131d5c998e530f2c30dba3d3c5299714e5c91f1091d9917e609"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000076-c0.pt",
+      "sha256": "bd094077f81183834d6c023af352b5675f5dce85e9e6da7c5647aa4a66dbe83f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000077-c0.pt",
+      "sha256": "c5a5dcba056acd499f8d2f012e16fafbd3a5de51375a27ad76893625c206a63d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000078-c0.pt",
+      "sha256": "7b077a7a261070af884b7ac8305fd7f5327a9b51babd424769361c1669d4ad3f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000079-c0.pt",
+      "sha256": "8cb6f335b562679f68a3d9dc942e4a1e324cb71d34e35bd14b7a03fe76b9fd6b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000080-c0.pt",
+      "sha256": "597a57066962ae457881c0efbcdfe492fa3591a9e7c56b87fb6ed3686353704a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000081-c0.pt",
+      "sha256": "a0c839458ed17cd6a38c0814fa89be93a8df108540f6fa8eef511c124203151f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000082-c0.pt",
+      "sha256": "835b5fcc6568dd832ceeba4e63760527f4867d2d5238c617a2e5f80ae7620a61"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000083-c0.pt",
+      "sha256": "73cc3546585b725a521f8358e4f422c305bf0b87165fdd0af1ac02af814fdf59"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000084-c0.pt",
+      "sha256": "466e64028c9ca99618791c9c5815ea4a6b742e55960aa1a945ae1848b81965f6"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000085-c0.pt",
+      "sha256": "c193ec571171439b471beb194f3d579ca6d78620aaa8958c0e748fa0ee0df652"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000086-c0.pt",
+      "sha256": "040ac312f3c667172e25b83b1bc535143e6458d5e36370a4ec6e6c0486775c6a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000087-c0.pt",
+      "sha256": "b03c7ca867e605daded31ec4f41317ecda989528f510d45d7df2dd385f3cf5de"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000088-c0.pt",
+      "sha256": "32ae6df6c48f803b741028e75fc004bc0be83489c564a150d22eb1b7830110b6"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000089-c0.pt",
+      "sha256": "eafc3ecb9fc6b5a3c58455d3dc0aa5e7ff8f808576b4aee66b211acaf461db6f"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000090-c0.pt",
+      "sha256": "c203f205cc1d116d62e2ffb7e2ceb07a641438c74a32f07eb1c0b8fe6a98302a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000090-c1.pt",
+      "sha256": "3e7f0e23048c5d37d48348cd005b89f65011489ff2f64e499af6a28f60721195"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000091-c0.pt",
+      "sha256": "c24cbbf829d3ed05ba5c7008c603762c833d0fb16315c6c45132cfd01e7686cd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000092-c0.pt",
+      "sha256": "375351cf088cb76d2a4b2407ff66eb62f0d9705e65c72f0d4b102c54857bd4ad"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000093-c0.pt",
+      "sha256": "6451109c23eefe1ab289b9755af65c9c9fe64c3cab5973e3d579e707a9079a75"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000094-c0.pt",
+      "sha256": "5f28a3f34c502f237bae3c7601602a097e0819882dea00300b9102a9f8aba4e8"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000095-c0.pt",
+      "sha256": "76ab2525d9e165679dc8bbf441ae7c13d2245c10914ae76ad675810248e72a39"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000096-c0.pt",
+      "sha256": "89ba7e0df8661d7682ee4b8ce41f8735a5d400d7d1b294a59781155d58951eeb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000097-c0.pt",
+      "sha256": "ff0ade88697465bfa1a1dccea03abdf12c23445b78fa94a93841bb2a09618191"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000098-c0.pt",
+      "sha256": "41162b52c5a77fff526911107028daeb17ad8a282c2cbe345d2c1cda61ec0fff"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000099-c0.pt",
+      "sha256": "a063335243d876665133dcb50dc2a9731bf7cd3b3e55d5a46a131996f5e3f459"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000100-c0.pt",
+      "sha256": "c144c0ab13f0a2fd7f94974fbe299a4b64ea897d5a26ac2536b6c6c8c7d18dfb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9/tokens/d0000101-c0.pt",
+      "sha256": "7b9d01908d0d350478a9e413f54bbe1ea3bb5202c0effb87ed386c758d9f93c5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/collection_manifest.json",
+      "sha256": "34047ae7bd47419750b9d7a74b83f4a46122a3aebbc0cc6dbed69fa01f23ae17"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/decisions.jsonl",
+      "sha256": "05c6f54265553da684a44f9d0ced5bdfbe021876e6b453ab2386a34deb2f5676"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/graph_features.jsonl",
+      "sha256": "20c5efcffcdecef6ca3f2edb99b5a716c2b9ecf78f799f73c8f6f03a049e2ae5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000000-c0.pt",
+      "sha256": "127814dcd9fb229681789fa20efbc3898a8de0ba2743c568f9cab084b1d2691c"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000001-c0.pt",
+      "sha256": "058eca42bef2fdf4ce2fe0d06c6b739e400fd7dec63807c2d57a2ff6b64e610b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000002-c0.pt",
+      "sha256": "ff0a43dd7271b2bde6cded468354d7a94c381b0811700a65f039bce84bef1a91"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000003-c0.pt",
+      "sha256": "3707e8cfcdb1301710058faa913f122c9639971bf6cd61cb2e5d1bdb70ee8b94"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000004-c0.pt",
+      "sha256": "cecf1ad9b83fd873df375f138b8077bff0ffb3fa4423d6b665c11690d82ef268"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000005-c0.pt",
+      "sha256": "7645f0a0aedca70a4fbaf5e6a95c1dc95cdbea4ade9546817d5d1cf95cf55484"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000006-c0.pt",
+      "sha256": "ed26b1dd8ef517e62ce51380e11648923321ec755074319564af5f4e2dbe95d7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000007-c0.pt",
+      "sha256": "11840d434c7b8d3abe879c9819ba5918e245c4661d2b18ae98c7e393abeb282d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000008-c0.pt",
+      "sha256": "2435310f460b4da08da0b4dff5f983c5b9b7833cca52539cc52c36d256eadfe4"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000009-c0.pt",
+      "sha256": "e453b23008cbccd6c6fe646c5b187293c402dda092be7e5699a181df5bf05bc4"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000010-c0.pt",
+      "sha256": "82def7d1925b7720b8983a1b661b00b18de662929cef1ef8130fd72f8a0af11b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000011-c0.pt",
+      "sha256": "59dabe3c9847bd31583ab2d3931037f1bd61bdf1129d1836b062f7556e8dbdae"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000012-c0.pt",
+      "sha256": "f086c0ffce6b90de41cc2dbd21983becdcfbaf193b806597f6dc5d13de57c436"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000013-c0.pt",
+      "sha256": "5653e2f190b79c7d257a6344a9d81b211c2c7a3fba35235e225fe85b86be0b4e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000014-c0.pt",
+      "sha256": "dcc300d4c10d0a9cc84614d957c2a45a778fb5fbf0b1d333f1b8792eb48093f5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000015-c0.pt",
+      "sha256": "d31f613e3bc3bb92f4299921dd0a050e2eac7dd2353b02808411b42111713ba7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000016-c0.pt",
+      "sha256": "1b1bee012d43cb88807e16940af3db629db8e03fa71da2cdb0d13a2f1f8b0e92"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000017-c0.pt",
+      "sha256": "1df29611190e19bde590d0dd20279e71f0ff5b3fd17dec701efa2c744755add7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000018-c0.pt",
+      "sha256": "78e07dd5ec053074a3b645bbda36d46759cee45b7182596fd9c6d71677311455"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000019-c0.pt",
+      "sha256": "95bed181b65db0597d072ea5447d4c66ebb6bfb0e5431b086b2a4812149a6cec"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000020-c0.pt",
+      "sha256": "a3e4a00ab9b70ee9d09377f903f840a2d796a2b97a5e658e30ede3ceb6beb71d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000021-c0.pt",
+      "sha256": "339e28c46da5d5f432b011666d2c7602b158cf388566d3cc0fea310da7a6adcd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000022-c0.pt",
+      "sha256": "4fdb48d28f5087a6cced8a46fae78562948016944cf319be30a04602a8808a50"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000023-c0.pt",
+      "sha256": "87e77115a0b23bf6f7d60834875f16f69e14e99344cc602370f869b710cd8991"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000024-c0.pt",
+      "sha256": "c145e5aadb84b08a72253e1dc864f0064a7ed624c17ea5763b405d231540aeac"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000025-c0.pt",
+      "sha256": "45e5149e34e38da0c6a8f9c80ba97e5407d746fe3db9e7d7e98486664a58cd72"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000026-c0.pt",
+      "sha256": "c607dd4822ee7e2668861f890552fd2832043633b7a9e5b9a3dbe4d9011f82ec"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000027-c0.pt",
+      "sha256": "59f55c28f8e59867ca6d464edabfc7cfc8f4fa6514910d88c0aeea23b77b50ed"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000028-c0.pt",
+      "sha256": "b86f599e0d0c79b26b474ac7eb64b03399b56feb184c602a6b172e8d0a81b04a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000029-c0.pt",
+      "sha256": "b3f12070714ae9217099fa4f45a0c510894f6989cee35d628c5e223646953dc2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000030-c0.pt",
+      "sha256": "a0d80e0b49d97dde935b484a9b6f370b1648d89b6438df8f385f744406c679cc"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000031-c0.pt",
+      "sha256": "c1fcae6b1bd29735509504a90d729ad3288fd356ca71e95e6f76ea1583982c82"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000032-c0.pt",
+      "sha256": "84bdf88063dcb772922f6212bf35979e18ee0ccd2000f2f6d46bc06c6bcea085"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000033-c0.pt",
+      "sha256": "9983eff3fc4aab0a02676e1f3b873efeda236e5d36dbd17299bbfe19ecfbb14a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000034-c0.pt",
+      "sha256": "2635424e08491839e3242e759910cefbf1ebe02417b5652447574b71ee82f5a2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000035-c0.pt",
+      "sha256": "7aee026a8c783524f3ed92616011ade98013dbe930273a0ae67e87070faa2ec2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000036-c0.pt",
+      "sha256": "66492b91e1aff59e5ac7ae3fec9f8096f348bcf66d54bf2646c90371038a3414"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000037-c0.pt",
+      "sha256": "cbc9489ceeb23b6235860066a84e0094774bcfbb9bfa796d73aa1f048dc3e3df"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000038-c0.pt",
+      "sha256": "270b6c56cb3afd426ffc438847c93f7dd1e1e09081c8216d1215b932b38ae51c"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000039-c0.pt",
+      "sha256": "80fb55ee3ce3ae66b2c61c73e6c13d52da147efd82f02a3a46d864e24da71201"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000040-c0.pt",
+      "sha256": "db2d3f0109291ec2e415f41047a0adb7e3e37880c8df685f33b1a633ec8541cd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000041-c0.pt",
+      "sha256": "83e76ebf39cdc08301ae8464a031cafde2432f6d57cec36b9d1260e39dc1fd5d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000042-c0.pt",
+      "sha256": "7fb2b74c75552cbcd8a80cc5de24a6d5a8ff90e6d1ddd817362ce1546082c3dc"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000043-c0.pt",
+      "sha256": "36d38ec87e28b0add82d79040000f543880824a106f2eb9e6029d895a546164d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000044-c0.pt",
+      "sha256": "f99e16cefd302979e1df73e37944072099b982130aa11ad03aef19c47eff14d9"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000045-c0.pt",
+      "sha256": "b291117986db37a398f046fb17d06e3b21fd0722911f21fa3fbeaaf7933b550d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000046-c0.pt",
+      "sha256": "bab731c0ba136fbca1dcbce028560347b16fca4b7794456c9a1ef2d467de7ed0"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000047-c0.pt",
+      "sha256": "f74342ac7f70d8b43b86511174bb93785377c00ee486609db30fc0e480dbef98"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000048-c0.pt",
+      "sha256": "78378aa165d0003f5e55bbabb8559682989c550850d568690e624886f38dc363"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000049-c0.pt",
+      "sha256": "502af88b9a9d30b002464ef565d87a4fdd351e95e376ae128d6dcfcf58fa559d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000050-c0.pt",
+      "sha256": "91858e642e632075367e9b5e7437c31d5f31dd62695bbd72b79643a27cd4c657"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000051-c0.pt",
+      "sha256": "73243ce4b5790302b79054412928e68e285cf3e67fa0d225871abe047454b0b1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000052-c0.pt",
+      "sha256": "bef90e6bf1ce4a1b496f2f5827436a453a9d44ead793969797fbdbffa7505dcb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000053-c0.pt",
+      "sha256": "11500dff0a8a12607a33481bddb9dbec60f7ac5b989a2f3d5fe4807bc2111c3c"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000054-c0.pt",
+      "sha256": "e1c464cd7e6f0c7feb85b859eb2303d7908d3fdcfe801a7cba521a8206be17b5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000055-c0.pt",
+      "sha256": "c62e02b7ccce2bee3cd728b84e08b91f632d641f7e58c3a8eb8c9c251d2132a3"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000056-c0.pt",
+      "sha256": "a6c03ec21e48388cd9af870739870664c538153b532c3fb7c672a9dbaf5fc2a5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000057-c0.pt",
+      "sha256": "36cc16865463b1fafd1205139cf00aa1af2b4acf2d991d63cca075cf09169fb5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000058-c0.pt",
+      "sha256": "4003a5bab2d8c6a58263566b76b836ecfa53711bab5994ae0fe61237ca285275"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000059-c0.pt",
+      "sha256": "ec2ce1c0b282f36f08b44178c35451e2dce0318548a80c7a9e26feafa6268ac1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000060-c0.pt",
+      "sha256": "edcd9b9ceddffc8cbbc5fe8a9a4caa630544dabe5a485b7c0aa02263f2306381"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000061-c0.pt",
+      "sha256": "c2f45d0378af96d4156f32b8eb7fe89a910fc22d7c0c64a53539a3754f38dc97"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000062-c0.pt",
+      "sha256": "346094c9c31ec9de3c16e4d13dab8d5b4cc63862833eef4f123e7687862ad640"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000063-c0.pt",
+      "sha256": "ff245d83e2cce664ae38a9088d2965ef286334e31bac2652623b5b56414b5449"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000064-c0.pt",
+      "sha256": "1410cfa6da2aa41a37ae045f6333956a45fededb4fea574765a7fe0926f27ea1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000065-c0.pt",
+      "sha256": "79776715efdfaea71b5bb64dd15ab99187e518337330cd40dd91cee09ff7314a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000066-c0.pt",
+      "sha256": "194c18824f535921155b041acabf464ff145a6a8dcf2253c11c547302259b0a2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000067-c0.pt",
+      "sha256": "dff6dee284214829400a601ca34268a636c9659dcb49d2710ec0e8e0885c4952"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000068-c0.pt",
+      "sha256": "5d18fd3eebee8d57ff12ddfca1dd9445c93fbe74a4a1ce7fe8bc762182eb5c85"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000069-c0.pt",
+      "sha256": "ce296c5f160a0fbd4b88512811019c8cab00bfacebf11f2ffa43b748988ed4f7"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000070-c0.pt",
+      "sha256": "f218884120194447a40ed365123c18dadf84aa9fb03e47f0569fa6156eba8fad"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000071-c0.pt",
+      "sha256": "dda1ac79484144a1d59fb2e4b160010c2927c2bc4aa4d78771260b088c6af43d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000072-c0.pt",
+      "sha256": "630f322562155e321adf18999731ede3f3981af34bd700b985d22e730719304b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000073-c0.pt",
+      "sha256": "7a14ff1e57b3c32f73a47baf9523b1dc45e3c737feb445dfa762aad2d4993610"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000074-c0.pt",
+      "sha256": "71faf14266d15b4dd994098654a556db3eb2b2ba7dc3b40f6a61e62a615092dc"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000075-c0.pt",
+      "sha256": "9d0e43a43ac5d4ac37ee925009a14b319802255cf4239c8ccd051bd186dd7efe"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000076-c0.pt",
+      "sha256": "0f8856df86e3a0436ee5acc03c5754f982b5a37e8a9512e2c491f395effc0b30"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000077-c0.pt",
+      "sha256": "10379e861c0ce59ca087677b78d15bfe8a51bcd0d89a98289c15a4e6695d6a12"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000078-c0.pt",
+      "sha256": "b46dc02a17d93e608675f43326b76b8b598b14eae18e2f5d855611a6fef938f8"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000079-c0.pt",
+      "sha256": "b13102ab00d92e82e49ae565b17112cfb1eb70c5f39f2d04b1e82eda51b6aadb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000080-c0.pt",
+      "sha256": "113b7e3c02a616edfaba14884f9fc3ff5f5ba3ea8e52140a23b299da4c769afd"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000081-c0.pt",
+      "sha256": "8449b7db577e2b232f2509bc763ab623da73bebf32cdf34f64a73757e0bddc19"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000082-c0.pt",
+      "sha256": "05a4c403b90f5ec56592a894201453f1475ee1fa0ce175e98515e20c70a9b4d1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000083-c0.pt",
+      "sha256": "26c2d50ff5da23388a89a5324f62c82384c53e4605e37355ee79ccf2762fc69b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000084-c0.pt",
+      "sha256": "0804ea9419ab70f9c523ac71983cf35c200510188e823293b3473215ed14ca3a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000085-c0.pt",
+      "sha256": "c4fe85cbdc2a62c333758664198204c7212ddaa17f9784c4a2165fc50ab9a855"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000086-c0.pt",
+      "sha256": "7f2e695d447c4a83a9bf5bf4c8421d6dbe291d714fdb6974f2472b4c8aa4c267"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000087-c0.pt",
+      "sha256": "93e3c79f09c7d1c43db05fc034eeae51c2f8b27f12359c701239752510232b74"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000088-c0.pt",
+      "sha256": "b07cf04ded56cd8f0c81728c2be1988fcf556482c67f8792cdaa858ef6ae9146"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000089-c0.pt",
+      "sha256": "8423b851ccb27a79c32d79fb39f010847097f32212a63c4cb35ee29724035d07"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000090-c0.pt",
+      "sha256": "42d90f6b7e3f61ae190cae8c3321adb50ab8dd28e4aa1fb6a2b5bac760383247"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000091-c0.pt",
+      "sha256": "01e046b50e618b5427773ed23a2aa844ba315eac28b0367bb1ed252283037a9a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000092-c0.pt",
+      "sha256": "e7a8e8f3b595c169cc2f6bd1e45c16c8eca5f54e390f000abb7608e1330ad1fe"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000093-c0.pt",
+      "sha256": "6c6b98cdf45d43b335082fbaa9bb5338b2e2d85fa933209478a8514adc5a5a83"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000094-c0.pt",
+      "sha256": "cbec07a2a5bd6f25e03f782c0c487e6ca68094929f6a05446d09cf294adb0af1"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000095-c0.pt",
+      "sha256": "a1e50d8542e62c5fd66c835b83ca4010d83ade0596f252bcedb0af4319902649"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000096-c0.pt",
+      "sha256": "ac31d180b76aaf85cecc03f4460b60e0fefc967a3fca0a5d242733ed0a2c650e"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000097-c0.pt",
+      "sha256": "501e38230cb8a19d262d9316529ae8fae46315ba4fb1f18a1f807aba80413fe2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000098-c0.pt",
+      "sha256": "9596998c118c0f1adb77df56321d74a8de3cb4340fd85bfa1a947f612fb2da1a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000099-c0.pt",
+      "sha256": "9b87d9fd31ba22da3841439574917b4fb99c52bf0df8c29056b824b768fbc99d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000100-c0.pt",
+      "sha256": "d6bc27a7c485b8880c7841e7ca63ef0bfe76f67995086848fe24c1861f4231de"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000101-c0.pt",
+      "sha256": "8a83dc6b7c37b53f4420a784ce5ae98f40fe07c5dac85041c3f9494f048ca300"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000102-c0.pt",
+      "sha256": "f6185b3102a844d98593717190f4e30b2092ca1175b10ebec580d064db3e70bb"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000103-c0.pt",
+      "sha256": "670b52d84510756b5e9672ac6b173735e83fcb15c67de4975987723cd49458af"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000104-c0.pt",
+      "sha256": "6c52dda252a0046cbccd25ba1f175eb8299336d8c4fde2b454df19e27080a47b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000105-c0.pt",
+      "sha256": "9e3981f744c3b6eb30ae01063487f29a60727178544a89187ff93672069572c3"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/collection/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4/tokens/d0000106-c0.pt",
+      "sha256": "d6f781f87a1264769dfa091ac75dea3d7bacc2aee8e7a6aac73a83b077e3da68"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/failure_labels/qwen35_4b/made/collection-made-0e27e5c04511ea16fc8c64a3.json",
+      "sha256": "ba248b9976973b09871aa272cdb5ed66119a6de2fb6899f31e131a7e1aab34d2"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/failure_labels/qwen35_4b/made/collection-made-697302908b2dbfc7e18e9ee0.json",
+      "sha256": "0fb889e50927dc2db972f7091c27874a865c164b8218e8ed18a5c771f2da68c5"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/failure_labels/qwen35_4b/made/collection-made-842d23cafa43e4f28a139ee9.json",
+      "sha256": "48c1694728a5c7409420f270862cedebf22411a892d999f26d8b2899fd301990"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/failure_labels/qwen35_4b/made/collection-made-b5744f83a99f950e49cfafd4.json",
+      "sha256": "450fe8b3edcb64cac83b621804cc9784014f3a948df4ab716501fc9ad53aa37d"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/entropy_risk.failure_heads.fit.json",
+      "sha256": "5c524bae064901064da22375547c97aad775a1274debef3579182c778da3f833"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/entropy_risk.failure_heads.pt",
+      "sha256": "d6501b9cabb91ac4a2e6dbf10018d29651ebcf6544cc00846a9192fe162a9585"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/entropy_risk.fit.json",
+      "sha256": "f0b5ae9f77543d0333f4f7e8397229919f4d94d1ef20c212e816470c4bf6721b"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/entropy_risk.pt",
+      "sha256": "cec69b02d7f02ed15146f49ba88ecd4ef96a7d3b996ccfb61afd1a416afacf7a"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/entropy_risk.schema.json",
+      "sha256": "3a9d40bd29792cabc17073ff8fe3bda77a4e44e63fe78f99d78c5f15edc72291"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/failure_label_inventory.json",
+      "sha256": "88cb07deaa204aae6620024fb8a11cf1f3e813f57999791d2e4f119fd3ca8b92"
+    }
+  ],
+  "MADE_learned_NN_refs": [
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/graph_risk.pt",
+      "sha256": "315d990a76f1329c4299a8be04dc710e47d23eb1e09f4563acb963f5ce1a2173"
+    },
+    {
+      "path": "core_workspaces/made_fast_subset_causal_v5/experiments/risk_models/qwen35_4b/made/graph_risk.failure_heads.pt",
+      "sha256": "70c6fc0cb79bbf2f3548e1f4ea23fdfc3505d5b39e2b5bc88df8f7d5be870279"
+    }
+  ],
+  "MADE_upstream": {
+    "commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+    "url": "https://github.com/diffractivelabs/MADE.git"
+  },
+  "Summit_upstream": {
+    "commit": "1de682d05e97adcfb96cd8376e876cef2d6160d3",
+    "official_class": "summit.benchmarks.snar.SnarBenchmark",
+    "repository": "https://github.com/sustainable-processes/summit",
+    "source_modified": false
+  },
+  "additional_required_assets": [
+    "Official MADE corpus/splits, pretrained MACE/material generator checkpoints and frozen evaluator configuration",
+    "MADE fitted32-layer TC bank and risk normalization/calibration metadata; independent ES-only and support-full selected policy checkpoints and selection receipts",
+    "SnAr original150 collection decisions/tokens/query labels; causal128 activation shards for75train+50dev prefixes",
+    "SnAr32 TC weights, fresh NN weights/calibration, branch policy/selection receipts, shared550-point prior and all raw query journals for exact acceptance",
+    "Pinned Python3.12 policy dependencies and separate Python3.10.12 Summit oracle wheel lock"
+  ],
+  "no_weights_downloaded_or_models_executed_by_review": true,
+  "public_result_projections_suffice_for_metric_recomputation_not_full_scientific_reexecution": true,
+  "qwen": {
+    "model_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "safetensors_parameter_count": 4659865088,
+    "weight_files": [
+      {
+        "modelscope_revision": "fcb1a040bb418b0b8add6f6f6c475386abc2cb97",
+        "modelscope_sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+        "path": "model.safetensors-00001-of-00002.safetensors",
+        "sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+        "size_bytes": 5329398688
+      },
+      {
+        "modelscope_revision": "fcb1a040bb418b0b8add6f6f6c475386abc2cb97",
+        "modelscope_sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+        "path": "model.safetensors-00002-of-00002.safetensors",
+        "sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+        "size_bytes": 3990429408
+      }
+    ],
+    "weights_total_bytes": 9319828096
+  },
+  "qwen_weights_in_git": false,
+  "schema": "declared_external_reproduction_dependencies_v1"
+}
