@@ -5,3 +5,4 @@ Only complete, independently CPU-audited trajectories enter the statistics. Snap
 | Observed CST | Accepted test trajectories | Report |
 |---|---:|---|
 | 2026-09-20T01:46:40.697369+08:00 | 1/15 | [report](20260920T014640_CST/report.md) |
+| 2026-09-20T02:08:08.981891+08:00 | 2/15 | [report](20260920T020808_CST/report.md) |

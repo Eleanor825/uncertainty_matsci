@@ -2087,6 +2087,20 @@
       "terminal_signature": "c718fa133c7afa211dafe92a2ac5d01b73cf31d8f5ffeb5ce1f34f2daa30fcb7",
       "snapshots_overlap_not_additive": true,
       "new_scientific_calls": 0
+    },
+    {
+      "snapshot_id": "qwen35_9b_stage1_20260920T020808_CST",
+      "scope": "qwen35_9b_stage1",
+      "observed_CST": "2026-09-20T02:08:08.981891+08:00",
+      "accepted_test_trajectories": 2,
+      "planned_test_trajectories": 15,
+      "report": "results/qwen35_9b_core/stage1/20260920T020808_CST/report.md",
+      "snapshot": "results/qwen35_9b_core/stage1/20260920T020808_CST/snapshot.json",
+      "summary": "results/qwen35_9b_core/stage1/20260920T020808_CST/summary.json",
+      "recompute": "results/qwen35_9b_core/stage1/20260920T020808_CST/recompute.py",
+      "terminal_signature": "cb3ed3e959f9f58f15ce06bd9668ccb8ae38afb240343199f8659e87c67b6663",
+      "snapshots_overlap_not_additive": true,
+      "new_scientific_calls": 0
     }
   ]
 }

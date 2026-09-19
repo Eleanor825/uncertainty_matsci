@@ -1,0 +1,16 @@
+task_id,metric,evaluation_seeds,complete_three_seeds,n,mean,sample_variance_ddof1,SD
+Al-Li-V,SUN,2;3,False,2,2.0,2.0,1.4142135623730951
+Al-Li-V,AUDC,2;3,False,2,0.19,0.0648,0.2545584412271571
+Al-Li-V,mSUN,2;3,False,2,0.2,0.019999999999999997,0.1414213562373095
+Al-V-Zn,SUN,,False,0,,,
+Al-V-Zn,AUDC,,False,0,,,
+Al-V-Zn,mSUN,,False,0,,,
+Au-K-Tb,SUN,,False,0,,,
+Au-K-Tb,AUDC,,False,0,,,
+Au-K-Tb,mSUN,,False,0,,,
+Co-Dy-W,SUN,,False,0,,,
+Co-Dy-W,AUDC,,False,0,,,
+Co-Dy-W,mSUN,,False,0,,,
+Co-Mg-Na,SUN,,False,0,,,
+Co-Mg-Na,AUDC,,False,0,,,
+Co-Mg-Na,mSUN,,False,0,,,
