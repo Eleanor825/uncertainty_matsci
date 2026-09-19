@@ -1988,5 +1988,24 @@
       "additional_independent_experiments": false,
       "NN_contribution_causally_isolated": false
     }
-  ]
+  ],
+  "incremental_component_exports": [
+    {
+      "snapshot_id": "made_incremental_20260920T004724_CST",
+      "observed_CST": "2026-09-20T00:47:24.240443+08:00",
+      "observed_UTC": "2026-09-19T16:47:24.240443+00:00",
+      "report": "results/made_components/incremental/20260920T004724_CST/report.md",
+      "summary": "results/made_components/incremental/20260920T004724_CST/summary.json",
+      "snapshot": "results/made_components/incremental/20260920T004724_CST/snapshot.json",
+      "validation_script": "results/made_components/incremental/20260920T004724_CST/recompute.py",
+      "accepted_evaluations": 360,
+      "planned_evaluations": 1080,
+      "complete": false,
+      "completed_terminal_signature": "81c737d7bc671b306605406db23e4a9125d8bcec16f6f7f2391f5b3b31c4c329",
+      "new_scientific_calls": 0,
+      "snapshots_overlap_not_additive": true,
+      "pending_failed_unknown_excluded_from_means": true
+    }
+  ],
+  "latest_incremental_component_export_id": "made_incremental_20260920T004724_CST"
 }
