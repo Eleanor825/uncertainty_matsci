@@ -1,0 +1,21 @@
+arm,message,count
+baseline_reference,:1 :1 :1 is an invalid formula!,1
+baseline_reference,:1 :1 is an invalid formula!,2
+baseline_reference,":1,:1,:1 is an invalid formula!",1
+baseline_reference,:::: is an invalid formula!,1
+baseline_reference,Buffer selection index is out of range.,4
+baseline_reference,Compositions need integral allowed-element counts and 1–20 atoms.,6
+baseline_reference,No buffered composition Fe1 Lu2.,1
+baseline_reference,No buffered composition Fe1Pt1.,1
+baseline_reference,Query an existing buffer composition.,1
+baseline_reference,Select an existing buffer composition.,63
+baseline_reference,The selected hash is not in this composition buffer.,61
+baseline_reference,unhashable type: 'dict',1
+baseline_reference,unhashable type: 'list',5
+full_support_aware,:1 :1 is an invalid formula!,1
+full_support_aware,":1, :1, :1 is an invalid formula!",1
+full_support_aware,Buffer selection index is out of range.,2
+full_support_aware,Compositions need integral allowed-element counts and 1–20 atoms.,4
+full_support_aware,No buffered composition Mg1Sn2.,1
+full_support_aware,Select an existing buffer composition.,12
+full_support_aware,The selected hash is not in this composition buffer.,139

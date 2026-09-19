@@ -1,0 +1,105 @@
+{
+  "files": [
+    {
+      "bytes": 851,
+      "path": "README.md",
+      "sha256": "d93507bedb494025e0381b8fd4dc4e9737107b6f7f29c5e4734a91bf54c3b618"
+    },
+    {
+      "bytes": 11563,
+      "path": "REPORT.md",
+      "sha256": "216b7477abf9a78d6fca245d1f5c154c2dedee5376cf75018a7d72194b799fdb"
+    },
+    {
+      "bytes": 9101,
+      "path": "calibration.csv",
+      "sha256": "ffbbd703f2b75a68a33eb3ab4f6f6fa1cab68f77ac5e0649193dc176913282c0"
+    },
+    {
+      "bytes": 46130,
+      "path": "calibration_bins.csv",
+      "sha256": "3bacd543839c00738b7ecd5846e0cd9f6a18c5a81b018a69f26ce8c4b3b9a1f2"
+    },
+    {
+      "bytes": 6701,
+      "path": "chemistry_statistics.csv",
+      "sha256": "12a9a5d819d6e69d45712c4b1134d54ad406bdd7e32dfc56ce58ff4c3ce9953f"
+    },
+    {
+      "bytes": 299888,
+      "path": "cohort.json",
+      "sha256": "b33fecfdbc1559378ff70b4ac796e92a59b4f790cff60c2fe5824918a42cfbe5"
+    },
+    {
+      "bytes": 242554,
+      "path": "illustrations.json",
+      "sha256": "7417be23402bb94dfe8a6edf1fef5a61aeec157b8cfc3f8063272690c964d3cb"
+    },
+    {
+      "bytes": 402252,
+      "path": "intervention_sequences.json",
+      "sha256": "6ec0923aafb322d34cac0652164e645dbfe5d3e566992d4e25a8037c3d3797c3"
+    },
+    {
+      "bytes": 2660,
+      "path": "matched_seed_differences.csv",
+      "sha256": "019ccf255e7b99373660d6198604aae9f839d7ac56c4b90c7cde149586386eb7"
+    },
+    {
+      "bytes": 576,
+      "path": "mechanism_by_outcome_sign.csv",
+      "sha256": "0c6037cf7906577536498dccaf085eafed27e8734f65204d1f20357ef774240d"
+    },
+    {
+      "bytes": 1306771,
+      "path": "observations.json.gz",
+      "sha256": "13f29ed763b8814fc588d5bc005408ed81e991c83a2a34f4958dd6284570c8e7"
+    },
+    {
+      "bytes": 390,
+      "path": "per_seed_macros.csv",
+      "sha256": "3f52c4cddd357fade1ce30e4cef47a2bd4a5bacdf66e3b8a2ab123952831eb96"
+    },
+    {
+      "bytes": 4260,
+      "path": "provenance.json",
+      "sha256": "6e1970d703a45915cb9014adec5627d149f686af57e426fa7e636f2e9a03ce3d"
+    },
+    {
+      "bytes": 15313,
+      "path": "recompute.py",
+      "sha256": "32fb176fe4a1c68157398734d5faa7e4f183fb76a4000c872a799fe7a61d4866"
+    },
+    {
+      "bytes": 656074,
+      "path": "step_outcomes.csv",
+      "sha256": "7caeaff7bf4882912a74c6623a86f4200545200768af9b167423bf0f46d2fe85"
+    },
+    {
+      "bytes": 6103,
+      "path": "summary.json",
+      "sha256": "3bc1a8faee2d0f467635798253e8a2d653dbf2aaddff03bfc4fcaf310b0d95e5"
+    },
+    {
+      "bytes": 2573,
+      "path": "system_means.csv",
+      "sha256": "1416076a91fb5b495a0c64471bcac30ef9bf979701d1c209c148dd91327062ba"
+    },
+    {
+      "bytes": 1214,
+      "path": "tool_errors.csv",
+      "sha256": "b3a0b45e0b72ba5a156ee5edd5f26ee30213ff5df94ce3404c987dd9dbece4a9"
+    },
+    {
+      "bytes": 416,
+      "path": "tools.csv",
+      "sha256": "418afb8e3a7c91d9f7138f66eeca57fb5c5c3ffb1fd8fecabd224648a71f70d0"
+    },
+    {
+      "bytes": 60002,
+      "path": "trajectories.csv",
+      "sha256": "5e68e96a272f65e51bc5a00708cec7383f7d98c9011bed845ba719077c943302"
+    }
+  ],
+  "schema": "scientific_result_export_manifest_v1"
+}

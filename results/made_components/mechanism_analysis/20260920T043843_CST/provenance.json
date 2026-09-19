@@ -1,0 +1,91 @@
+{
+  "export": {
+    "observations_file": "observations.json.gz",
+    "operator_material_included": false,
+    "original_bytes_preserved": true,
+    "raw_geometry_included": false,
+    "sha256": "13f29ed763b8814fc588d5bc005408ed81e991c83a2a34f4958dd6284570c8e7"
+  },
+  "fixed_parent_snapshot": {
+    "accepted_main_jobs": 429,
+    "observed_CST": "2026-09-20T04:38:43.119663+08:00",
+    "public_path": "results/made_components/incremental/20260920T043843_CST/snapshot.json",
+    "sha256": "f47063f5b2a687fdd447240d77dc7a2b6f852a535c755c9e2d53774d8a2fa910"
+  },
+  "new_fits": 0,
+  "new_model_graph_oracle_calls": 0,
+  "original_extraction": {
+    "actual_exit_code": 0,
+    "cohort_sha256": "b33fecfdbc1559378ff70b4ac796e92a59b4f790cff60c2fe5824918a42cfbe5",
+    "complete": true,
+    "finished_epoch": 1789853794.306664,
+    "gaps": 0,
+    "observer_relative_source": "technical_not_main/made_all_complete_B10_mechanism_20260920_v1/observe.py",
+    "observer_sha256": "d0b239dd4ba00c662b6e08f3ea33edc7b3f647b276941967825c4a9cb3030529",
+    "original_gzip_sha256": "13f29ed763b8814fc588d5bc005408ed81e991c83a2a34f4958dd6284570c8e7",
+    "original_json_sha256": "0b58bd2507d536c5a6a20d713bfa87da915f4fa55bbd1acf629bb33c269380ec",
+    "runs": 144,
+    "started_epoch": 1789853745.454015,
+    "steps": 1440
+  },
+  "publication_status": "included_in_versioned_additive_export",
+  "schema": "MADE_144_mechanism_publication_provenance_v1",
+  "source_code_references": [
+    {
+      "path": "technical_not_main/made_core60_mechanism_extractor_20260919_v1/collect.py",
+      "sha256": "6eb3c2e60cb07916809cb37565cb6a0a55830eed8cc40e193a7e3fc2dcb412e5"
+    },
+    {
+      "path": "benchmark_extensions/made_component_ablations_20260919/evaluate.py",
+      "sha256": "8ba7c04acdd4a60179dce504cda740293066f78bb92aa140e73709006e677fa7"
+    },
+    {
+      "path": "benchmark_extensions/made_component_ablations_20260919/arm_runtime.py",
+      "sha256": "912dd4907d476df9f1d7a80e4f8e348dcbb89b7306d49d6ce19c83672c2fb66c"
+    },
+    {
+      "path": "benchmark_extensions/made_component_ablations_20260919/frozen_src/matdiscovery/rollouts.py",
+      "sha256": "4c6436beb0c65a8a954f968ffcadbd7a2ede457843c6570f0b992dfa57a63867"
+    },
+    {
+      "path": "benchmark_extensions/made_component_ablations_20260919/frozen_src/matdiscovery/benchmark_adapters.py",
+      "sha256": "0f48431db71251c2793d161efcaa6209512735cf77ce1f5ab3dd048f11917d1e"
+    },
+    {
+      "path": "benchmark_extensions/made_component_ablations_20260919/frozen_src/matdiscovery/rpc.py",
+      "sha256": "fdf81ba1150a5d1a5a9db29acc803b32d8d731a78d15ae06c05b70a683b9029d"
+    },
+    {
+      "path": "benchmark_extensions/made_component_ablations_20260919/frozen_src/matdiscovery/failure_controller.py",
+      "sha256": "d8202d3a36612d62b720424ad18f8b4963b0f411cc202feb04c6188f770cb538"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/evaluate.py",
+      "sha256": "5ceb744d53478b56277e923310331b13ad535308e9911e46b3b0efa77ee0f674"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/arm_runtime.py",
+      "sha256": "972bcd1f5ba3289e3f965ae7dd26de90fcda4c0717e68c4d302711c965a1baa9"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/rollouts.py",
+      "sha256": "ad67538c5b57f82d3ae3c7dc29e486bca43443e953aa7de68952fb51f8a2ad0c"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/benchmark_adapters.py",
+      "sha256": "0f48431db71251c2793d161efcaa6209512735cf77ce1f5ab3dd048f11917d1e"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/rpc.py",
+      "sha256": "fdf81ba1150a5d1a5a9db29acc803b32d8d731a78d15ae06c05b70a683b9029d"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/failure_controller.py",
+      "sha256": "d8202d3a36612d62b720424ad18f8b4963b0f411cc202feb04c6188f770cb538"
+    },
+    {
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/support_control.py",
+      "sha256": "b0a5773a74e54cc178a9ab913dc3524207f094937a9f181dfcbe376951f7fa5d"
+    }
+  ]
+}

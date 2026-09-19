@@ -2074,6 +2074,32 @@
       "archive_addendum": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/ARCHIVE_ACTUAL_ADDENDUM.md",
       "no_test_based_fitting": true,
       "causal_mechanism_isolated": false
+    },
+    {
+      "export_id": "made_all_complete_B10_mechanisms_20260920T043843_CST",
+      "report": "results/made_components/mechanism_analysis/20260920T043843_CST/REPORT.md",
+      "summary": "results/made_components/mechanism_analysis/20260920T043843_CST/summary.json",
+      "manifest": "results/made_components/mechanism_analysis/20260920T043843_CST/manifest.json",
+      "validation_script": "results/made_components/mechanism_analysis/20260920T043843_CST/recompute.py",
+      "benchmark": "MADE",
+      "source_snapshot_accepted": 429,
+      "source_observed_CST": "2026-09-20T04:38:43.119663+08:00",
+      "chemistries": 24,
+      "evaluation_seeds": [
+        2,
+        3,
+        4
+      ],
+      "budget": 10,
+      "existing_trajectories": 144,
+      "existing_candidate_steps": 1440,
+      "posthoc_analysis": true,
+      "additional_independent_experiment": false,
+      "new_scientific_calls": 0,
+      "not_full_1080_completion": true,
+      "full_minus_baseline_total_SUN": -26,
+      "full_scalar_threshold_crossings": 0,
+      "full_risk_ranking_selection_changes": 0
     }
   ],
   "incremental_component_exports": [

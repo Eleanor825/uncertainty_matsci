@@ -1,0 +1,7 @@
+AUDC_system_sign,arm,systems,runs,SUN_sum,AUDC_mean,support_true,proposals,scalar_crossings,type_extra_proposals,schema_extra_proposals,risk_selection_changes,failed_selects
+positive,baseline_reference,8,24,36,0.14666666666666667,0,536,0,0,0,0,40
+positive,full_support_aware,8,24,45,0.21458333333333335,327,439,0,11,14,0,47
+tie,baseline_reference,7,21,0,0.0,0,469,0,0,0,0,32
+tie,full_support_aware,7,21,0,0.0,224,405,0,5,15,0,51
+negative,baseline_reference,9,27,82,0.337037037037037,0,591,0,0,0,0,56
+negative,full_support_aware,9,27,47,0.21222222222222223,354,496,0,5,15,0,55
