@@ -583,8 +583,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 75534,
-      "export_sha256": "76cb4cc06ff4a051af40cf89dd2a9df922b963a046c2b45c09ab806a326b1ccb"
+      "bytes": 76285,
+      "export_sha256": "782e5cdc42e1181932ab9672a5fa1bf2472cc5d0e71e3970e12b5fdb0e13dc54"
     },
     {
       "path": "results/made_components/20260919T172603_CST/all17_cases.csv",
@@ -1457,9 +1457,54 @@
       "export_sha256": "d40f7d5f733778f282ab3466bb3111df448dc9dbaa9ef0ad1c9c702ebc16d3b5"
     },
     {
+      "path": "results/qwen35_9b_core/stage1/20260920T025808_CST/all_jobs.csv",
+      "bytes": 3821,
+      "export_sha256": "91f162a01df8c8b1d1cd6c65d16185177a941a834814fb14b509f551b8af60b5"
+    },
+    {
+      "path": "results/qwen35_9b_core/stage1/20260920T025808_CST/completed_costs.csv",
+      "bytes": 2761,
+      "export_sha256": "d340d8098f0962703dff407ed14fc03a049cc84c8e7b06f363b91a68e8dc6d67"
+    },
+    {
+      "path": "results/qwen35_9b_core/stage1/20260920T025808_CST/completed_curves.csv",
+      "bytes": 1880,
+      "export_sha256": "4a95523fe99b1a10f37121f23ce193df92fb0df8efef36832cc26091fd46b6de"
+    },
+    {
+      "path": "results/qwen35_9b_core/stage1/20260920T025808_CST/manifest.json",
+      "bytes": 1363,
+      "export_sha256": "180f7a56e984e1df0c99d2c96611d6f9cc997640e1864d4e223a576479979368"
+    },
+    {
+      "path": "results/qwen35_9b_core/stage1/20260920T025808_CST/recompute.py",
+      "bytes": 17141,
+      "export_sha256": "edcf6e5318f38600780c1b64bf2e834a91e93f9c76cc6b3636bfb2345b66bae9"
+    },
+    {
+      "path": "results/qwen35_9b_core/stage1/20260920T025808_CST/report.md",
+      "bytes": 2071,
+      "export_sha256": "f13ce2ee33487e525d0c6e63a380f38de7c4f2362a6dd75fc44396caa8bb3d89"
+    },
+    {
+      "path": "results/qwen35_9b_core/stage1/20260920T025808_CST/seed_statistics.csv",
+      "bytes": 640,
+      "export_sha256": "3add72c42b365d4238f9e5c5257ed9ca3d623d4d055a7e3728bfb27b572d9f05"
+    },
+    {
+      "path": "results/qwen35_9b_core/stage1/20260920T025808_CST/snapshot.json",
+      "bytes": 36620,
+      "export_sha256": "5196675dc8c6061a42e206c2154c07241eb861b6eb3ce62d8a82c0fbc310ac04"
+    },
+    {
+      "path": "results/qwen35_9b_core/stage1/20260920T025808_CST/summary.json",
+      "bytes": 1130,
+      "export_sha256": "60e287fc09743f716eb1fcb146cdbd2cd8ed805991691b35a0b69b59cb5ac9c6"
+    },
+    {
       "path": "results/qwen35_9b_core/stage1/README.md",
-      "bytes": 507,
-      "export_sha256": "bbca2f291f42364c5318746af53834fda6bfde17f93288363503d7d1364bb7f2"
+      "bytes": 593,
+      "export_sha256": "39ef9a575e9a79116850280723b6fa0a330fba6fc61e02262a955af76a94928a"
     },
     {
       "path": "results/snapshots/core2_b10_20260917T083208Z/curves.csv",

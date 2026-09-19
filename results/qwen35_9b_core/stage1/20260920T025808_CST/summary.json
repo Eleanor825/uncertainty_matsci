@@ -1,0 +1,39 @@
+{
+  "schema": "Qwen35_9B_stage1_accepted_results_v1",
+  "observed_CST": "2026-09-20T02:58:08.890909+08:00",
+  "baseline_test_planned": 15,
+  "baseline_test_accepted": 3,
+  "collection_planned": 7,
+  "collection_status_counts": {
+    "unclaimed": 7
+  },
+  "all_status_counts": {
+    "unclaimed": 17,
+    "accepted": 3,
+    "original_result_present_CPU_audit_pending": 1,
+    "claimed_pending": 1
+  },
+  "stage1_complete": false,
+  "all_baseline_test_complete": false,
+  "accepted_test_candidate_calls": 30,
+  "accepted_test_initialization_calls": 48,
+  "complete_five_system_seed_blocks": [],
+  "macro_statistics": {
+    "total_SUN": {
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "SD": null
+    },
+    "macro_AUDC": {
+      "n": 0,
+      "mean": null,
+      "sample_variance_ddof1": null,
+      "SD": null
+    }
+  },
+  "variance_axis": "evaluation seeds within the same chemistry; ddof1; n<2 unavailable; no training repeats",
+  "method": "Unmodified theta0 baseline; no NN controller or ES applied",
+  "scope_is_separate_from_4B_1080_and_seed1_180": true,
+  "new_scientific_calls_for_export": 0
+}
