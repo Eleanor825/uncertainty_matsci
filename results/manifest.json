@@ -583,8 +583,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 85992,
-      "export_sha256": "779a9b188fd45e96a5ccf5b5c72f5bb85a4efe0050a9c228445b63e1a8e4db61"
+      "bytes": 86751,
+      "export_sha256": "776120da8bead69494b0b9e0a554fa909ed4b8645448e6d9c08a5b052f8b17d2"
     },
     {
       "path": "results/made_components/20260919T172603_CST/all17_cases.csv",
@@ -2707,9 +2707,59 @@
       "export_sha256": "087d6046bd30d205d95ede04c6bc0fee43deddba09d590976506a2bb96c8081d"
     },
     {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/all_jobs.csv",
+      "bytes": 2357,
+      "export_sha256": "f6b997148d2c4030bb5a4f0199e3b9f7a92fcc443cc2daf54f14f124ae7f7e64"
+    },
+    {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/completed_curves.csv",
+      "bytes": 28427,
+      "export_sha256": "98e1aec6dff9c39bcb9ef62c741e016a026d5bd3e5da14ec407125d4e1bcde30"
+    },
+    {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/executed_queries.csv",
+      "bytes": 72372,
+      "export_sha256": "f4f777b10cdd7f74664c095ce84adb261c1ac18e006328e390b02b07c0321a7a"
+    },
+    {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/manifest.json",
+      "bytes": 1520,
+      "export_sha256": "cd4156107a294b539bed3233899490c8323075684275e7e0e57975ff842ede0f"
+    },
+    {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/paired_results.csv",
+      "bytes": 280,
+      "export_sha256": "0b26a9130c3b5c0a9be27ba821d548a7a02febf030226fc3eb5f98d1fe7102a8"
+    },
+    {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/recompute.py",
+      "bytes": 17141,
+      "export_sha256": "edcf6e5318f38600780c1b64bf2e834a91e93f9c76cc6b3636bfb2345b66bae9"
+    },
+    {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/report.md",
+      "bytes": 2614,
+      "export_sha256": "4ec834f15b529ec3690d3c47908cb1e5676b7430a957eeaeb4c34163039d7180"
+    },
+    {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/seed_statistics.csv",
+      "bytes": 1127,
+      "export_sha256": "b53923856c86907740ecf0c9d5cdf7a0c97b0b9aa61163e6d7e0ccfe6007ed8f"
+    },
+    {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/snapshot.json",
+      "bytes": 1548260,
+      "export_sha256": "7b5a695c21077c7ba5a3fc93498515c2f2579f343a7a6a0bd5e3e7de6902055a"
+    },
+    {
+      "path": "results/summit_snar/extra_seeds/20260920T050720_CST/summary.json",
+      "bytes": 729,
+      "export_sha256": "06ac6248fbd4276ab8eac6bf78a79a45a5e98068b6c1cb9594b87c3f69c129a7"
+    },
+    {
       "path": "results/summit_snar/extra_seeds/README.md",
-      "bytes": 1023,
-      "export_sha256": "248391ec79bdef1528e84196fd6fa01229c7c8a2a63ee2729d14d419bd49ce57"
+      "bytes": 1109,
+      "export_sha256": "bbb7f7377e4d6241942392e70e452f3140608191a3f7162f8b5ac5b9a413b75f"
     },
     {
       "path": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/CORRECTION.json",
