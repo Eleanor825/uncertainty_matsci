@@ -1,0 +1,68 @@
+{
+  "schema": "derived_component_case_manifest_v1",
+  "source_snapshot_sha256": "6b6cab9beeff97ef12d65246a7cf5d034821b27cf746ba881c7a6afa276491cd",
+  "observed_CST": "2026-09-19T17:26:03.436872+08:00",
+  "scientific_calls_for_export": 0,
+  "files": [
+    {
+      "path": "all17_cases.csv",
+      "bytes": 1517,
+      "export_sha256": "641e22b0f5691d3a5f3a2e6b0e63f0dc8d6342e69450433d6801f79cb5375273"
+    },
+    {
+      "path": "all68_discovery_curves.csv",
+      "bytes": 29848,
+      "export_sha256": "313e9e07aaf4e9ebda2228dc2e91915d031ccee447808f669e78e41d851f5d1b"
+    },
+    {
+      "path": "all68_episodes_and_costs.csv",
+      "bytes": 42544,
+      "export_sha256": "0155536f64c13c010cf1219768b3d8e4acd42ea918315deca0309563b497ea18"
+    },
+    {
+      "path": "core5_matrix.csv",
+      "bytes": 8478,
+      "export_sha256": "4a0dbbf0fc142bfb47b45a04f4cad63c7d788d806149ea07879d33fa1bccfb9b"
+    },
+    {
+      "path": "core5_seed_coverage.csv",
+      "bytes": 1115,
+      "export_sha256": "ec3e0a86f10487d0eeb91b2af2e25715d4b5a483bb234484a525471489e3177d"
+    },
+    {
+      "path": "progress.md",
+      "bytes": 3162,
+      "export_sha256": "12b515cd3e1a95fff0a884c29a3d85617e2e241cdc6c0ddaa18ca2bb011e9d6e"
+    },
+    {
+      "path": "progress_pairs.csv",
+      "bytes": 21752,
+      "export_sha256": "c4b46ff0faa4499c9bc4774bd2342ccf0053630f5f0177074985341789d21116"
+    },
+    {
+      "path": "progress_summary.json",
+      "bytes": 12696,
+      "export_sha256": "f8f464d3fbbb6cf8d3117c23a2be3ded799131f6af302c3822295d58f5cccb5f"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1506,
+      "export_sha256": "b6edc6602634b81f1fc0219be9d5c173ef6d8536df1ef38e0f59856998534434"
+    },
+    {
+      "path": "recompute.py",
+      "bytes": 5885,
+      "export_sha256": "d48525f9e6211a8ca742435aebaf489659e15aebb8e2f1304529cc1717e12d55"
+    },
+    {
+      "path": "report.md",
+      "bytes": 4018,
+      "export_sha256": "57d7087100bf030391decdcc17f2eaf65ec4a44f308eaf4fe5a00606fd5e7973"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 5642,
+      "export_sha256": "07361357332eaf678129c2d40a9898aad29c7a06e3d5ff915ebe32208c4221c2"
+    }
+  ]
+}

@@ -16,6 +16,8 @@ An [offline audit of the frozen neural risk models](results/development/nn_infor
 
 The [accepted Summit SnAr results](results/summit_snar/20260919T162548_CST/report.md) cover seven arms and 35 test episodes: 550 shared adaptation calls plus 1,750 held-out calls, reconciled as 2,300 unique physical attempts. Independent CPU acceptance passed at September 19, 16:25:48 CST after an import-only report failure; the original failure is preserved. Full has a negative mean paired gain relative to Qwen base, and its development rule selected G0. Five-seed sample variances, the common prior, raw curves and all negative outcomes are reported; these results do not establish unseen-function generalization. This is a result export; the existing frozen source inventory above remains scoped to the MADE budget-sweep code.
 
+The [component-study snapshot at September 19, 17:26:03 CST](results/made_components/20260919T172603_CST/progress.md) contains 172/1,080 accepted new evaluations. Its [complete four-arm case comparison](results/made_components/20260919T172603_CST/report.md) uses the same 17 B10/seed 2 systems: full SUN is 27 versus baseline 34, with mean AUDC .174706 versus .202353. All positive, negative and tied cases remain visible; this partial subset is not a repeated-seed variance estimate.
+
 The larger multi-model, multi-scale and CrystalGym study remains deferred. These exports do not establish a general improvement, an independent causal effect of uncertainty, or performance for model sizes other than the evaluated4B checkpoint.
 
 ## Code map

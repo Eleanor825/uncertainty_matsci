@@ -1,0 +1,206 @@
+{
+  "snapshot": "/Users/huan/Documents/ChatGPT/made_crystalgym_crv_esopt_20260915_161713/technical_not_main/live_research_status_updates/20260919T172531_CST/snapshot.json",
+  "snapshot_sha256": "6b6cab9beeff97ef12d65246a7cf5d034821b27cf746ba881c7a6afa276491cd",
+  "snapshot_CST": "2026-09-19T17:26:03.436872+08:00",
+  "cohort": "Every complete four-arm pair in the frozen snapshot: 17 B10 tasks, evaluation seed 2",
+  "arms": {
+    "baseline_reference": {
+      "n": 17,
+      "SUN_sum": 34,
+      "AUDC_mean": 0.2023529411764706,
+      "zero_SUN_episodes": 8,
+      "cost_fields": {
+        "candidate_oracle_attempts": {
+          "reported_sum": 170,
+          "missing_rows": 0
+        },
+        "initialization_oracle_attempts": {
+          "reported_sum": 400,
+          "missing_rows": 0
+        },
+        "surrogate_oracle_attempts": {
+          "reported_sum": 2234,
+          "missing_rows": 0
+        },
+        "score_sentinels": {
+          "reported_sum": 914,
+          "missing_rows": 7
+        },
+        "llm_calls": {
+          "reported_sum": 390,
+          "missing_rows": 0
+        },
+        "tool_attempts": {
+          "reported_sum": 368,
+          "missing_rows": 0
+        },
+        "graph_seconds": {
+          "reported_sum": 0,
+          "missing_rows": 0
+        },
+        "wall_seconds": {
+          "reported_sum": 8853.66057913471,
+          "missing_rows": 0
+        }
+      }
+    },
+    "uq_only_support_aware": {
+      "n": 17,
+      "SUN_sum": 40,
+      "AUDC_mean": 0.2529411764705882,
+      "zero_SUN_episodes": 7,
+      "cost_fields": {
+        "candidate_oracle_attempts": {
+          "reported_sum": 170,
+          "missing_rows": 0
+        },
+        "initialization_oracle_attempts": {
+          "reported_sum": 400,
+          "missing_rows": 0
+        },
+        "surrogate_oracle_attempts": {
+          "reported_sum": 1419,
+          "missing_rows": 1
+        },
+        "score_sentinels": {
+          "reported_sum": 309,
+          "missing_rows": 9
+        },
+        "llm_calls": {
+          "reported_sum": 390,
+          "missing_rows": 0
+        },
+        "tool_attempts": {
+          "reported_sum": 359,
+          "missing_rows": 0
+        },
+        "graph_seconds": {
+          "reported_sum": 20283.402295202017,
+          "missing_rows": 0
+        },
+        "wall_seconds": {
+          "reported_sum": 28708.80560259195,
+          "missing_rows": 0
+        }
+      }
+    },
+    "es_only_independent": {
+      "n": 17,
+      "SUN_sum": 24,
+      "AUDC_mean": 0.20941176470588235,
+      "zero_SUN_episodes": 7,
+      "cost_fields": {
+        "candidate_oracle_attempts": {
+          "reported_sum": 170,
+          "missing_rows": 0
+        },
+        "initialization_oracle_attempts": {
+          "reported_sum": 400,
+          "missing_rows": 0
+        },
+        "surrogate_oracle_attempts": {
+          "reported_sum": 718,
+          "missing_rows": 0
+        },
+        "score_sentinels": {
+          "reported_sum": 178,
+          "missing_rows": 8
+        },
+        "llm_calls": {
+          "reported_sum": 370,
+          "missing_rows": 0
+        },
+        "tool_attempts": {
+          "reported_sum": 349,
+          "missing_rows": 0
+        },
+        "graph_seconds": {
+          "reported_sum": 0,
+          "missing_rows": 0
+        },
+        "wall_seconds": {
+          "reported_sum": 6537.959834219888,
+          "missing_rows": 0
+        }
+      }
+    },
+    "full_support_aware": {
+      "n": 17,
+      "SUN_sum": 27,
+      "AUDC_mean": 0.17470588235294118,
+      "zero_SUN_episodes": 10,
+      "cost_fields": {
+        "candidate_oracle_attempts": {
+          "reported_sum": 170,
+          "missing_rows": 0
+        },
+        "initialization_oracle_attempts": {
+          "reported_sum": 400,
+          "missing_rows": 0
+        },
+        "surrogate_oracle_attempts": {
+          "reported_sum": 381,
+          "missing_rows": 7
+        },
+        "score_sentinels": {
+          "reported_sum": 138,
+          "missing_rows": 12
+        },
+        "llm_calls": {
+          "reported_sum": 323,
+          "missing_rows": 0
+        },
+        "tool_attempts": {
+          "reported_sum": 306,
+          "missing_rows": 0
+        },
+        "graph_seconds": {
+          "reported_sum": 13169.751056968234,
+          "missing_rows": 0
+        },
+        "wall_seconds": {
+          "reported_sum": 19398.63602189999,
+          "missing_rows": 0
+        }
+      }
+    }
+  },
+  "full_minus_baseline": {
+    "SUN": {
+      "mean": -0.4117647058823529,
+      "wins": 1,
+      "ties": 11,
+      "losses": 5
+    },
+    "AUDC": {
+      "mean": -0.02764705882352941,
+      "wins": 3,
+      "ties": 7,
+      "losses": 7
+    }
+  },
+  "full_minus_UQ": {
+    "SUN": {
+      "mean": -0.7647058823529411,
+      "wins": 4,
+      "ties": 6,
+      "losses": 7
+    },
+    "AUDC": {
+      "mean": -0.07823529411764706,
+      "wins": 4,
+      "ties": 6,
+      "losses": 7
+    }
+  },
+  "repeated_seed_variance_estimated": false,
+  "new_science_calls": 0,
+  "limits": [
+    "One evaluation seed and a partial task cohort; not a multi-seed efficacy conclusion.",
+    "Held-out cases are descriptive evidence only and must not select policy changes or retry seeds.",
+    "Optional cost fields that are absent remain missing until reconciled against raw journals.",
+    "Equal candidate ORB budgets do not imply equal surrogate calls, LLM compute or wall time.",
+    "Identical SUN curves do not establish identical actions, structures, risks or causal mechanisms.",
+    "Cross-arm wall times come from different workers and shared loads; no hardware-controlled speed claim."
+  ]
+}

@@ -1,6 +1,6 @@
 # Time-stamped research results
 
-Latest MADE test audit: **2026-09-19 05:21:38 CST / September18 21:21:38 UTC**. These are derived exports of observed results, retaining negative outcomes and all earlier incomplete snapshots. No experiment was rerun for publication.
+Completed original MADE seed 1 audit: **2026-09-19 05:21:38 CST / September18 21:21:38 UTC**. These are derived exports of observed results, retaining negative outcomes and all earlier incomplete snapshots. No experiment was rerun for publication.
 
 The [complete report](budget_sweep/20260919T052138_CST/report.md) and [180-row matrix](budget_sweep/20260919T052138_CST/all_system_results.csv) cover all30 systems, two methods and independent B10/B30/B50 episodes. **180/180 results are complete:179 original runner acceptances plus one independently derived GaPt baseline acceptance.**
 
@@ -35,6 +35,8 @@ The table above is historical. The latest snapshot has all180 complete trajector
 Separate development evidence: the [frozen NN information audit, Sep19 08:06:02 CST](development/nn_information_audit/20260919T080602_CST/report.md), includes 386 original train/dev proposals, 200 event-level observations and a cached-data [recomputation script](development/nn_information_audit/20260919T080602_CST/analyze.py). Its single dev episode previously participated in model selection and calibration; it is not an additional held-out test result or part of the 180-trajectory test total.
 
 Separately accepted benchmark: [Summit SnAr, Sep19 16:25:48 CST](summit_snar/20260919T162548_CST/report.md). Seven arms each have five B50 evaluation seeds. The independent acceptance reconciles 2,300 distinct calls, including the shared 550-call prior; its CPU recovery made no new scientific calls. The original failed report remains preserved. Full-minus-base mean HV gain is negative; [per-seed data](summit_snar/20260919T162548_CST/per_seed.csv), [sample variances](summit_snar/20260919T162548_CST/statistics.csv), and [recomputation](summit_snar/20260919T162548_CST/recompute.py) are included. SnAr calls and episodes are separate from the 180 MADE trajectories.
+
+The [component-study snapshot at September 19, 17:26:03 CST](made_components/20260919T172603_CST/progress.md) contains 172/1,080 accepted new evaluations. Its [complete four-arm case comparison](made_components/20260919T172603_CST/report.md) uses the same 17 B10/seed 2 systems: full SUN is 27 versus baseline 34, with mean AUDC .174706 versus .202353. All positive, negative and tied cases remain visible; this partial subset is not a repeated-seed variance estimate.
 
 ## Files
 

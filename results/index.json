@@ -1706,5 +1706,22 @@
       "original_report_failure_preserved": true,
       "not_part_of_MADE_180_matrix": true
     }
+  ],
+  "component_study_exports": [
+    {
+      "snapshot_id": "made_components_20260919T172603_CST",
+      "observed_utc": "2026-09-19T09:26:03.436872+00:00",
+      "observed_CST": "2026-09-19T17:26:03.436872+08:00",
+      "summary": "results/made_components/20260919T172603_CST/progress_summary.json",
+      "report": "results/made_components/20260919T172603_CST/progress.md",
+      "case_report": "results/made_components/20260919T172603_CST/report.md",
+      "accepted_evaluations": 172,
+      "planned_evaluations": 1080,
+      "common_four_arm_systems": 17,
+      "common_budget": 10,
+      "common_seed": 2,
+      "complete": false,
+      "repeated_seed_variance_estimated": false
+    }
   ]
 }

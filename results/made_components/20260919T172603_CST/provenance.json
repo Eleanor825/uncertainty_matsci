@@ -1,0 +1,22 @@
+{
+  "schema": "partial_component_case_export_provenance_v1",
+  "source_snapshot_sha256": "6b6cab9beeff97ef12d65246a7cf5d034821b27cf746ba881c7a6afa276491cd",
+  "source_snapshot_published": false,
+  "source_snapshot_omission_reason": "Operational and process records are outside the result export scope.",
+  "source_analysis_sha256": "6349bc5c88d2bff92947ae912def257403258f4c4d7e459c147405fc18e5b277",
+  "source_analysis_manifest_sha256": "7f12e77b96eaf52db0261fdcbf78a26e3018ca6814071693255c8eb38e0ee655",
+  "byte_preserved_case_files": {
+    "all17_cases.csv": "641e22b0f5691d3a5f3a2e6b0e63f0dc8d6342e69450433d6801f79cb5375273",
+    "all68_episodes_and_costs.csv": "0155536f64c13c010cf1219768b3d8e4acd42ea918315deca0309563b497ea18",
+    "all68_discovery_curves.csv": "313e9e07aaf4e9ebda2228dc2e91915d031ccee447808f669e78e41d851f5d1b",
+    "report.md": "57d7087100bf030391decdcc17f2eaf65ec4a44f308eaf4fe5a00606fd5e7973",
+    "summary.json": "07361357332eaf678129c2d40a9898aad29c7a06e3d5ff915ebe32208c4221c2"
+  },
+  "original_source_references_and_export_hashes_distinct": true,
+  "original_analyze_script_requires_unpublished_snapshot": true,
+  "portable_recomputation": "recompute.py",
+  "new_scientific_calls": 0,
+  "scientific_sources_changed": false,
+  "variance_scope": "One evaluation seed2 across17 chemical systems; no repeated-seed variance estimate.",
+  "missing_cost_policy": "Absent optional cost fields remain blank; reported sums include only present values and have separate missing_rows."
+}
