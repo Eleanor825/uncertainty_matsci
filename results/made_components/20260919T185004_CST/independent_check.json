@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "independent_method": "CSV complete rows regrouped by exact arm,budget,system and recalculated using statistics.mean/variance/stdev; source generator uses math.fsum and an explicit ddof1 formula.",
+  "fixed_configuration_metric_rows_checked": 1080,
+  "accepted_rows": 205,
+  "new_scientific_calls": 0
+}

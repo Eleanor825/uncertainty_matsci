@@ -1,0 +1,903 @@
+{
+  "schema": "fixed_configuration_evaluation_seed_statistics_v1",
+  "observed_CST": "2026-09-19T18:50:04.141141+08:00",
+  "observed_UTC": "2026-09-19T10:50:04.141141+00:00",
+  "source_snapshot_sha256": "11c6430d9a3803c636f191b87b91ab892221168ac4c06863b0d889626ce1ea59",
+  "planned_evaluations": 1080,
+  "accepted_evaluations": 205,
+  "counts": {
+    "baseline_reference": {
+      "accepted": 68,
+      "claimed_pending": 1,
+      "failed": 0,
+      "reserved_unknown": 0,
+      "unclaimed": 201
+    },
+    "uq_only_support_aware": {
+      "accepted": 43,
+      "claimed_pending": 2,
+      "failed": 0,
+      "reserved_unknown": 0,
+      "unclaimed": 225
+    },
+    "es_only_independent": {
+      "accepted": 70,
+      "claimed_pending": 1,
+      "failed": 0,
+      "reserved_unknown": 0,
+      "unclaimed": 199
+    },
+    "full_support_aware": {
+      "accepted": 24,
+      "claimed_pending": 3,
+      "failed": 0,
+      "reserved_unknown": 0,
+      "unclaimed": 243
+    }
+  },
+  "paired_comparisons": {
+    "uq_only_support_aware": {
+      "10": {
+        "complete_task_seed_pairs": 43,
+        "seeds": [
+          2,
+          3
+        ],
+        "SUN": {
+          "baseline_sum": 79.0,
+          "arm_sum": 83.0,
+          "baseline_mean": 1.8372093023255813,
+          "arm_mean": 1.930232558139535,
+          "paired_delta_mean": 0.09302325581395349,
+          "wins_ties_losses": [
+            11,
+            22,
+            10
+          ]
+        },
+        "mSUN": {
+          "baseline_sum": 7.9,
+          "arm_sum": 8.3,
+          "baseline_mean": 0.18372093023255814,
+          "arm_mean": 0.1930232558139535,
+          "paired_delta_mean": 0.009302325581395347,
+          "wins_ties_losses": [
+            11,
+            22,
+            10
+          ]
+        },
+        "AUDC": {
+          "baseline_sum": 8.33,
+          "arm_sum": 9.11,
+          "baseline_mean": 0.19372093023255815,
+          "arm_mean": 0.21186046511627907,
+          "paired_delta_mean": 0.018139534883720925,
+          "wins_ties_losses": [
+            12,
+            22,
+            9
+          ]
+        }
+      },
+      "30": {
+        "complete_task_seed_pairs": 0,
+        "seeds": [],
+        "SUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mSUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "AUDC": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "50": {
+        "complete_task_seed_pairs": 0,
+        "seeds": [],
+        "SUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mSUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "AUDC": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "es_only_independent": {
+      "10": {
+        "complete_task_seed_pairs": 68,
+        "seeds": [
+          2,
+          3,
+          4
+        ],
+        "SUN": {
+          "baseline_sum": 108.0,
+          "arm_sum": 74.0,
+          "baseline_mean": 1.588235294117647,
+          "arm_mean": 1.088235294117647,
+          "paired_delta_mean": -0.5,
+          "wins_ties_losses": [
+            11,
+            36,
+            21
+          ]
+        },
+        "mSUN": {
+          "baseline_sum": 10.8,
+          "arm_sum": 7.4,
+          "baseline_mean": 0.15882352941176472,
+          "arm_mean": 0.10882352941176471,
+          "paired_delta_mean": -0.049999999999999996,
+          "wins_ties_losses": [
+            11,
+            36,
+            21
+          ]
+        },
+        "AUDC": {
+          "baseline_sum": 11.52,
+          "arm_sum": 8.9,
+          "baseline_mean": 0.16941176470588235,
+          "arm_mean": 0.13088235294117648,
+          "paired_delta_mean": -0.03852941176470588,
+          "wins_ties_losses": [
+            15,
+            32,
+            21
+          ]
+        }
+      },
+      "30": {
+        "complete_task_seed_pairs": 0,
+        "seeds": [],
+        "SUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mSUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "AUDC": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "50": {
+        "complete_task_seed_pairs": 0,
+        "seeds": [],
+        "SUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mSUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "AUDC": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "full_support_aware": {
+      "10": {
+        "complete_task_seed_pairs": 24,
+        "seeds": [
+          2,
+          3,
+          4
+        ],
+        "SUN": {
+          "baseline_sum": 45.0,
+          "arm_sum": 33.0,
+          "baseline_mean": 1.875,
+          "arm_mean": 1.375,
+          "paired_delta_mean": -0.5,
+          "wins_ties_losses": [
+            3,
+            14,
+            7
+          ]
+        },
+        "mSUN": {
+          "baseline_sum": 4.5,
+          "arm_sum": 3.3,
+          "baseline_mean": 0.1875,
+          "arm_mean": 0.13749999999999998,
+          "paired_delta_mean": -0.049999999999999996,
+          "wins_ties_losses": [
+            3,
+            14,
+            7
+          ]
+        },
+        "AUDC": {
+          "baseline_sum": 4.63,
+          "arm_sum": 3.71,
+          "baseline_mean": 0.19291666666666665,
+          "arm_mean": 0.15458333333333332,
+          "paired_delta_mean": -0.03833333333333333,
+          "wins_ties_losses": [
+            5,
+            10,
+            9
+          ]
+        }
+      },
+      "30": {
+        "complete_task_seed_pairs": 0,
+        "seeds": [],
+        "SUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mSUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "AUDC": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "50": {
+        "complete_task_seed_pairs": 0,
+        "seeds": [],
+        "SUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "mSUN": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        },
+        "AUDC": {
+          "baseline_sum": 0.0,
+          "arm_sum": 0.0,
+          "baseline_mean": null,
+          "arm_mean": null,
+          "paired_delta_mean": null,
+          "wins_ties_losses": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "common_four_arm": {
+    "10": {
+      "complete_task_seed_sets": 23,
+      "arms": {
+        "baseline_reference": {
+          "SUN_sum": 44.0,
+          "AUDC_mean": 0.1947826086956522,
+          "SUN_WTL_vs_baseline": [
+            0,
+            23,
+            0
+          ],
+          "AUDC_WTL_vs_baseline": [
+            0,
+            23,
+            0
+          ]
+        },
+        "uq_only_support_aware": {
+          "SUN_sum": 45.0,
+          "AUDC_mean": 0.21173913043478262,
+          "SUN_WTL_vs_baseline": [
+            5,
+            12,
+            6
+          ],
+          "AUDC_WTL_vs_baseline": [
+            6,
+            12,
+            5
+          ]
+        },
+        "es_only_independent": {
+          "SUN_sum": 26.0,
+          "AUDC_mean": 0.1643478260869565,
+          "SUN_WTL_vs_baseline": [
+            3,
+            11,
+            9
+          ],
+          "AUDC_WTL_vs_baseline": [
+            6,
+            9,
+            8
+          ]
+        },
+        "full_support_aware": {
+          "SUN_sum": 31.0,
+          "AUDC_mean": 0.1491304347826087,
+          "SUN_WTL_vs_baseline": [
+            2,
+            14,
+            7
+          ],
+          "AUDC_WTL_vs_baseline": [
+            4,
+            10,
+            9
+          ]
+        }
+      }
+    },
+    "30": {
+      "complete_task_seed_sets": 0,
+      "arms": {
+        "baseline_reference": {
+          "SUN_sum": 0.0,
+          "AUDC_mean": null,
+          "SUN_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ],
+          "AUDC_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ]
+        },
+        "uq_only_support_aware": {
+          "SUN_sum": 0.0,
+          "AUDC_mean": null,
+          "SUN_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ],
+          "AUDC_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ]
+        },
+        "es_only_independent": {
+          "SUN_sum": 0.0,
+          "AUDC_mean": null,
+          "SUN_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ],
+          "AUDC_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ]
+        },
+        "full_support_aware": {
+          "SUN_sum": 0.0,
+          "AUDC_mean": null,
+          "SUN_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ],
+          "AUDC_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "50": {
+      "complete_task_seed_sets": 0,
+      "arms": {
+        "baseline_reference": {
+          "SUN_sum": 0.0,
+          "AUDC_mean": null,
+          "SUN_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ],
+          "AUDC_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ]
+        },
+        "uq_only_support_aware": {
+          "SUN_sum": 0.0,
+          "AUDC_mean": null,
+          "SUN_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ],
+          "AUDC_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ]
+        },
+        "es_only_independent": {
+          "SUN_sum": 0.0,
+          "AUDC_mean": null,
+          "SUN_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ],
+          "AUDC_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ]
+        },
+        "full_support_aware": {
+          "SUN_sum": 0.0,
+          "AUDC_mean": null,
+          "SUN_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ],
+          "AUDC_WTL_vs_baseline": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "core5_coverage": {
+    "baseline_reference": {
+      "10": {
+        "2": 5,
+        "3": 5,
+        "4": 5
+      },
+      "30": {
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "50": {
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "uq_only_support_aware": {
+      "10": {
+        "2": 5,
+        "3": 5,
+        "4": 0
+      },
+      "30": {
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "50": {
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "es_only_independent": {
+      "10": {
+        "2": 5,
+        "3": 5,
+        "4": 5
+      },
+      "30": {
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "50": {
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "full_support_aware": {
+      "10": {
+        "2": 5,
+        "3": 1,
+        "4": 1
+      },
+      "30": {
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "50": {
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    }
+  },
+  "configurations_with_all_three_evaluation_seeds": {
+    "baseline_reference": 8,
+    "uq_only_support_aware": 0,
+    "es_only_independent": 10,
+    "full_support_aware": 1
+  },
+  "cost_totals_accepted_only": {
+    "baseline_reference": {
+      "candidate_oracle_attempts": {
+        "reported_sum": 680.0,
+        "missing_accepted_rows": 0
+      },
+      "completion_tokens": {
+        "reported_sum": 221063.0,
+        "missing_accepted_rows": 0
+      },
+      "graph_seconds": {
+        "reported_sum": 0.0,
+        "missing_accepted_rows": 0
+      },
+      "initialization_oracle_attempts": {
+        "reported_sum": 2058.0,
+        "missing_accepted_rows": 0
+      },
+      "initialization_wall_seconds": {
+        "reported_sum": 5601.09581024386,
+        "missing_accepted_rows": 0
+      },
+      "llm_calls": {
+        "reported_sum": 1594.0,
+        "missing_accepted_rows": 0
+      },
+      "prompt_tokens": {
+        "reported_sum": 2876128.0,
+        "missing_accepted_rows": 0
+      },
+      "rpc_attempts": {
+        "reported_sum": 3058.0,
+        "missing_accepted_rows": 0
+      },
+      "score_sentinels": {
+        "reported_sum": 2403.0,
+        "missing_accepted_rows": 38
+      },
+      "step_attempts": {
+        "reported_sum": 680.0,
+        "missing_accepted_rows": 0
+      },
+      "surrogate_oracle_attempts": {
+        "reported_sum": 9272.0,
+        "missing_accepted_rows": 9
+      },
+      "tool_attempts": {
+        "reported_sum": 1529.0,
+        "missing_accepted_rows": 0
+      },
+      "wall_seconds": {
+        "reported_sum": 36158.75033874903,
+        "missing_accepted_rows": 0
+      }
+    },
+    "uq_only_support_aware": {
+      "candidate_oracle_attempts": {
+        "reported_sum": 430.0,
+        "missing_accepted_rows": 0
+      },
+      "completion_tokens": {
+        "reported_sum": 135850.0,
+        "missing_accepted_rows": 0
+      },
+      "graph_seconds": {
+        "reported_sum": 52517.72832533531,
+        "missing_accepted_rows": 0
+      },
+      "initialization_oracle_attempts": {
+        "reported_sum": 1251.0,
+        "missing_accepted_rows": 0
+      },
+      "initialization_wall_seconds": {
+        "reported_sum": 3322.41112526739,
+        "missing_accepted_rows": 0
+      },
+      "llm_calls": {
+        "reported_sum": 1042.0,
+        "missing_accepted_rows": 0
+      },
+      "prompt_tokens": {
+        "reported_sum": 1853393.0,
+        "missing_accepted_rows": 0
+      },
+      "rpc_attempts": {
+        "reported_sum": 1938.0,
+        "missing_accepted_rows": 0
+      },
+      "score_sentinels": {
+        "reported_sum": 1295.0,
+        "missing_accepted_rows": 22
+      },
+      "step_attempts": {
+        "reported_sum": 430.0,
+        "missing_accepted_rows": 0
+      },
+      "surrogate_oracle_attempts": {
+        "reported_sum": 5023.0,
+        "missing_accepted_rows": 3
+      },
+      "tool_attempts": {
+        "reported_sum": 969.0,
+        "missing_accepted_rows": 0
+      },
+      "wall_seconds": {
+        "reported_sum": 75793.50013405643,
+        "missing_accepted_rows": 0
+      }
+    },
+    "es_only_independent": {
+      "candidate_oracle_attempts": {
+        "reported_sum": 700.0,
+        "missing_accepted_rows": 0
+      },
+      "completion_tokens": {
+        "reported_sum": 211691.0,
+        "missing_accepted_rows": 0
+      },
+      "graph_seconds": {
+        "reported_sum": 0.0,
+        "missing_accepted_rows": 0
+      },
+      "initialization_oracle_attempts": {
+        "reported_sum": 2176.0,
+        "missing_accepted_rows": 0
+      },
+      "initialization_wall_seconds": {
+        "reported_sum": 5856.717569953762,
+        "missing_accepted_rows": 0
+      },
+      "llm_calls": {
+        "reported_sum": 1479.0,
+        "missing_accepted_rows": 0
+      },
+      "prompt_tokens": {
+        "reported_sum": 2823941.0,
+        "missing_accepted_rows": 0
+      },
+      "rpc_attempts": {
+        "reported_sum": 2832.0,
+        "missing_accepted_rows": 0
+      },
+      "score_sentinels": {
+        "reported_sum": 1197.0,
+        "missing_accepted_rows": 43
+      },
+      "step_attempts": {
+        "reported_sum": 700.0,
+        "missing_accepted_rows": 0
+      },
+      "surrogate_oracle_attempts": {
+        "reported_sum": 5462.0,
+        "missing_accepted_rows": 9
+      },
+      "tool_attempts": {
+        "reported_sum": 1416.0,
+        "missing_accepted_rows": 0
+      },
+      "wall_seconds": {
+        "reported_sum": 28970.214347473346,
+        "missing_accepted_rows": 0
+      }
+    },
+    "full_support_aware": {
+      "candidate_oracle_attempts": {
+        "reported_sum": 240.0,
+        "missing_accepted_rows": 0
+      },
+      "completion_tokens": {
+        "reported_sum": 63210.0,
+        "missing_accepted_rows": 0
+      },
+      "graph_seconds": {
+        "reported_sum": 18492.265197646804,
+        "missing_accepted_rows": 0
+      },
+      "initialization_oracle_attempts": {
+        "reported_sum": 614.0,
+        "missing_accepted_rows": 0
+      },
+      "initialization_wall_seconds": {
+        "reported_sum": 1879.3802824905142,
+        "missing_accepted_rows": 0
+      },
+      "llm_calls": {
+        "reported_sum": 452.0,
+        "missing_accepted_rows": 0
+      },
+      "prompt_tokens": {
+        "reported_sum": 885826.0,
+        "missing_accepted_rows": 0
+      },
+      "rpc_attempts": {
+        "reported_sum": 850.0,
+        "missing_accepted_rows": 0
+      },
+      "score_sentinels": {
+        "reported_sum": 141.0,
+        "missing_accepted_rows": 18
+      },
+      "step_attempts": {
+        "reported_sum": 240.0,
+        "missing_accepted_rows": 0
+      },
+      "surrogate_oracle_attempts": {
+        "reported_sum": 469.0,
+        "missing_accepted_rows": 11
+      },
+      "tool_attempts": {
+        "reported_sum": 425.0,
+        "missing_accepted_rows": 0
+      },
+      "wall_seconds": {
+        "reported_sum": 27175.413611718453,
+        "missing_accepted_rows": 0
+      }
+    }
+  },
+  "variance_definition": "Across evaluation seeds2/3/4 within a fixed system,budget,arm and frozen trained state. ddof=1; n<2 variance/SD is NA; n<3 remains partial.",
+  "aggregate_variance_definition": "First average over every system in an entire all30/core5 cohort for each seed; then calculate across-seed variance, using only complete seed cohorts.",
+  "training_randomness_repeated": false,
+  "cross_system_variance_used_as_seed_variance": false,
+  "comparisons_use_matching_system_budget_seed": true,
+  "partial_pair_totals_are_not_full_matrix_effects": true,
+  "new_scientific_calls_for_export": 0
+}

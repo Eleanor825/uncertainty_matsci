@@ -1,5 +1,7 @@
 # Time-stamped research results
 
+The [component-study snapshot at September 19, 18:50:04 CST](made_components/20260919T185004_CST/report.md) has **205/1,080 accepted evaluations**. It reports actual within-system evaluation-seed means, sample variances (ddof=1), SDs and missing seeds. The matched full comparison remains negative: SUN45→33 and mean AUDC .192917→.154583 across24 task-seed pairs. Only one full configuration has all three evaluation seeds; no complete all30 full seed exists yet, so its benchmark-level seed variance remains unavailable. This partial study is separate from the original seed1 matrix.
+
 Completed original MADE seed 1 audit: **2026-09-19 05:21:38 CST / September18 21:21:38 UTC**. These are derived exports of observed results, retaining negative outcomes and all earlier incomplete snapshots. No experiment was rerun for publication.
 
 The [complete report](budget_sweep/20260919T052138_CST/report.md) and [180-row matrix](budget_sweep/20260919T052138_CST/all_system_results.csv) cover all30 systems, two methods and independent B10/B30/B50 episodes. **180/180 results are complete:179 original runner acceptances plus one independently derived GaPt baseline acceptance.**

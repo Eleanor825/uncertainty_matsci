@@ -1722,6 +1722,28 @@
       "common_seed": 2,
       "complete": false,
       "repeated_seed_variance_estimated": false
+    },
+    {
+      "snapshot_id": "made_components_20260919T185004_CST",
+      "observed_utc": "2026-09-19T10:50:04.141141+00:00",
+      "observed_CST": "2026-09-19T18:50:04.141141+08:00",
+      "summary": "results/made_components/20260919T185004_CST/summary.json",
+      "report": "results/made_components/20260919T185004_CST/report.md",
+      "accepted_evaluations": 205,
+      "planned_evaluations": 1080,
+      "complete": false,
+      "evaluation_seeds": [
+        2,
+        3,
+        4
+      ],
+      "fixed_configurations_with_three_seeds": {
+        "baseline_reference": 8,
+        "uq_only_support_aware": 0,
+        "es_only_independent": 10,
+        "full_support_aware": 1
+      },
+      "variance_scope": "within fixed system,budget,arm across completed evaluation seeds; n<3 explicitly partial; complete all30/core5 seed aggregation separate"
     }
   ],
   "development_exports": [
@@ -1738,5 +1760,6 @@
       "G0_dev_executed_at_snapshot": false,
       "repeated_seed_variance_estimated": false
     }
-  ]
+  ],
+  "latest_component_study_export_id": "made_components_20260919T185004_CST"
 }

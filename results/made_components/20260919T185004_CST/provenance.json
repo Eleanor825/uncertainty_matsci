@@ -1,0 +1,31 @@
+{
+  "schema": "fixed_configuration_seed_publication_provenance_v1",
+  "source_snapshot_sha256": "11c6430d9a3803c636f191b87b91ab892221168ac4c06863b0d889626ce1ea59",
+  "source_snapshot_published": false,
+  "source_observer_sha256": "a9a7e0a6a31ac2083466236208505ae2cf797bbaf3fdce37ceb46359c16e5b34",
+  "task_catalog_sha256": "01cadf7015ceee9570c398a05acb4d747a2e4bc86925135a7516260eb965f42d",
+  "task_catalog_scope": "The original30 official test systems; IDs independently matched all observed registration rows.",
+  "observed_CST": "2026-09-19T18:50:04.141141+08:00",
+  "observed_UTC": "2026-09-19T10:50:04.141141+00:00",
+  "remote_verification_scope": "Source observer matched each completed result to its registered job, verified receipt fingerprint and result SHA, budget and curve length. This export rechecks pinned snapshot bytes and all accepted curves/statistics; it does not repeat deep model or raw-RPC acceptance.",
+  "raw_result_receipt_references_and_export_hashes_are_distinct": true,
+  "projection_omits": [
+    "node processes",
+    "host observations",
+    "authentication",
+    "administrative launcher records",
+    "full raw RPC"
+  ],
+  "original_seed1_complete180_separate_and_unchanged": true,
+  "old_schema_only_UQ_not_included": true,
+  "new_Oracle_calls_for_export": 0,
+  "new_model_calls_for_export": 0,
+  "new_fits_for_export": 0,
+  "registered_evaluation_seeds": [
+    2,
+    3,
+    4
+  ],
+  "trained_weights_and_controllers_fixed_within_each_arm": true,
+  "training_randomness_not_repeated": true
+}
