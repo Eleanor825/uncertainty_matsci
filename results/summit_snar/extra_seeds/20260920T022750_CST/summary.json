@@ -1,0 +1,26 @@
+{
+  "schema": "SnAr_additional_three_seed_accepted_results_v1",
+  "observed_CST": "2026-09-20T02:27:50.880124+08:00",
+  "planned": 12,
+  "accepted": 2,
+  "accepted_physical_queries": 100,
+  "status_counts": {
+    "accepted": 2,
+    "claimed_pending": 1,
+    "unclaimed": 9
+  },
+  "complete": false,
+  "seeds": [
+    5201,
+    5202,
+    5203
+  ],
+  "prior_rows": 550,
+  "prior_HV": 0.8810117795428745,
+  "selected_generation": 0,
+  "selected_weight_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516",
+  "separate_from_original35": true,
+  "additional_fitting_or_selection": false,
+  "variance_axis": "evaluation seeds of the same arm; ddof1; n<2 unavailable",
+  "new_scientific_calls_for_export": 0
+}
