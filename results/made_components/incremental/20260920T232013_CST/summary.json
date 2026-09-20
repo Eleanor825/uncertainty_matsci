@@ -1,0 +1,217 @@
+{
+  "schema": "incremental_completed_MADE_summary_v1",
+  "observed_CST": "2026-09-20T23:20:13.873076+08:00",
+  "observed_UTC": "2026-09-20T15:20:13.873076+00:00",
+  "source_snapshot_fingerprint": "ebefad63e146934a82de330f1a8c9f20af4413bd353a699a4b40c8a21065bdfa",
+  "planned": 1080,
+  "accepted": 709,
+  "counts_by_arm": {
+    "baseline_reference": {
+      "accepted": 147,
+      "unclaimed": 122,
+      "claimed_pending": 1
+    },
+    "uq_only_support_aware": {
+      "accepted": 188,
+      "unclaimed": 74,
+      "claimed_pending": 8
+    },
+    "es_only_independent": {
+      "accepted": 151,
+      "unclaimed": 117,
+      "claimed_pending": 2
+    },
+    "full_support_aware": {
+      "accepted": 223,
+      "unclaimed": 39,
+      "claimed_pending": 8
+    }
+  },
+  "full_study_complete": false,
+  "matched_comparisons": {
+    "uq_only_support_aware@B10": {
+      "matched_pairs": 83,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 1.4939759036144578,
+        "arm_mean": 1.4216867469879517,
+        "paired_mean_delta": -0.07228915662650602,
+        "wins": 16,
+        "ties": 49,
+        "losses": 18
+      },
+      "AUDC": {
+        "baseline_mean": 0.15903614457831325,
+        "arm_mean": 0.16457831325301206,
+        "paired_mean_delta": 0.00554216867469879,
+        "wins": 21,
+        "ties": 45,
+        "losses": 17
+      }
+    },
+    "uq_only_support_aware@B30": {
+      "matched_pairs": 41,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 4.024390243902439,
+        "arm_mean": 3.3902439024390243,
+        "paired_mean_delta": -0.6341463414634146,
+        "wins": 8,
+        "ties": 23,
+        "losses": 10
+      },
+      "AUDC": {
+        "baseline_mean": 0.13574525745257454,
+        "arm_mean": 0.11948509485094852,
+        "paired_mean_delta": -0.01626016260162602,
+        "wins": 10,
+        "ties": 20,
+        "losses": 11
+      }
+    },
+    "uq_only_support_aware@B50": {
+      "matched_pairs": 11,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 6.818181818181818,
+        "arm_mean": 6.181818181818182,
+        "paired_mean_delta": -0.6363636363636364,
+        "wins": 3,
+        "ties": 3,
+        "losses": 5
+      },
+      "AUDC": {
+        "baseline_mean": 0.1505090909090909,
+        "arm_mean": 0.12589090909090908,
+        "paired_mean_delta": -0.02461818181818182,
+        "wins": 4,
+        "ties": 3,
+        "losses": 4
+      }
+    },
+    "es_only_independent@B10": {
+      "matched_pairs": 90,
+      "means_are_over_current_matching_set_not_full_study": false,
+      "SUN": {
+        "baseline_mean": 1.5444444444444445,
+        "arm_mean": 1.0333333333333334,
+        "paired_mean_delta": -0.5111111111111111,
+        "wins": 14,
+        "ties": 49,
+        "losses": 27
+      },
+      "AUDC": {
+        "baseline_mean": 0.16566666666666666,
+        "arm_mean": 0.12277777777777779,
+        "paired_mean_delta": -0.042888888888888886,
+        "wins": 18,
+        "ties": 44,
+        "losses": 28
+      }
+    },
+    "es_only_independent@B30": {
+      "matched_pairs": 38,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 3.763157894736842,
+        "arm_mean": 2.6052631578947367,
+        "paired_mean_delta": -1.1578947368421053,
+        "wins": 4,
+        "ties": 18,
+        "losses": 16
+      },
+      "AUDC": {
+        "baseline_mean": 0.12739766081871345,
+        "arm_mean": 0.09570175438596491,
+        "paired_mean_delta": -0.03169590643274854,
+        "wins": 6,
+        "ties": 18,
+        "losses": 14
+      }
+    },
+    "es_only_independent@B50": {
+      "matched_pairs": 7,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 9.571428571428571,
+        "arm_mean": 9.142857142857142,
+        "paired_mean_delta": -0.42857142857142855,
+        "wins": 4,
+        "ties": 0,
+        "losses": 3
+      },
+      "AUDC": {
+        "baseline_mean": 0.21697142857142857,
+        "arm_mean": 0.1926857142857143,
+        "paired_mean_delta": -0.0242857142857143,
+        "wins": 3,
+        "ties": 0,
+        "losses": 4
+      }
+    },
+    "full_support_aware@B10": {
+      "matched_pairs": 84,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 1.4880952380952381,
+        "arm_mean": 1.1904761904761905,
+        "paired_mean_delta": -0.2976190476190476,
+        "wins": 15,
+        "ties": 49,
+        "losses": 20
+      },
+      "AUDC": {
+        "baseline_mean": 0.16202380952380951,
+        "arm_mean": 0.14047619047619048,
+        "paired_mean_delta": -0.021547619047619048,
+        "wins": 17,
+        "ties": 43,
+        "losses": 24
+      }
+    },
+    "full_support_aware@B30": {
+      "matched_pairs": 42,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 4.0,
+        "arm_mean": 3.2142857142857144,
+        "paired_mean_delta": -0.7857142857142857,
+        "wins": 9,
+        "ties": 21,
+        "losses": 12
+      },
+      "AUDC": {
+        "baseline_mean": 0.1352910052910053,
+        "arm_mean": 0.11092592592592593,
+        "paired_mean_delta": -0.024365079365079367,
+        "wins": 9,
+        "ties": 20,
+        "losses": 13
+      }
+    },
+    "full_support_aware@B50": {
+      "matched_pairs": 10,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 6.0,
+        "arm_mean": 4.1,
+        "paired_mean_delta": -1.9,
+        "wins": 4,
+        "ties": 1,
+        "losses": 5
+      },
+      "AUDC": {
+        "baseline_mean": 0.12776,
+        "arm_mean": 0.09492,
+        "paired_mean_delta": -0.03284,
+        "wins": 4,
+        "ties": 1,
+        "losses": 5
+      }
+    }
+  },
+  "variance_axis": "evaluation seeds within fixed system/budget/arm; ddof1; n<2 unavailable; n<3 partial; not training repeats",
+  "pending_failed_unknown_excluded_from_means": true,
+  "new_scientific_calls_for_export": 0,
+  "raw_trajectory_reaudit_performed": false
+}
