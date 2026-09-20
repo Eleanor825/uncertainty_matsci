@@ -1,0 +1,217 @@
+{
+  "schema": "incremental_completed_MADE_summary_v1",
+  "observed_CST": "2026-09-20T08:08:47.198599+08:00",
+  "observed_UTC": "2026-09-20T00:08:47.198599+00:00",
+  "source_snapshot_fingerprint": "8925d3eb4c92b35ff04bc85b973d566ddf686cc12743baae79893362145d2ee5",
+  "planned": 1080,
+  "accepted": 483,
+  "counts_by_arm": {
+    "baseline_reference": {
+      "accepted": 114,
+      "unclaimed": 155,
+      "claimed_pending": 1
+    },
+    "uq_only_support_aware": {
+      "accepted": 116,
+      "unclaimed": 146,
+      "claimed_pending": 8
+    },
+    "es_only_independent": {
+      "accepted": 114,
+      "unclaimed": 154,
+      "claimed_pending": 2
+    },
+    "full_support_aware": {
+      "accepted": 139,
+      "unclaimed": 123,
+      "claimed_pending": 8
+    }
+  },
+  "full_study_complete": false,
+  "matched_comparisons": {
+    "uq_only_support_aware@B10": {
+      "matched_pairs": 83,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 1.4939759036144578,
+        "arm_mean": 1.4216867469879517,
+        "paired_mean_delta": -0.07228915662650602,
+        "wins": 16,
+        "ties": 49,
+        "losses": 18
+      },
+      "AUDC": {
+        "baseline_mean": 0.15903614457831325,
+        "arm_mean": 0.16457831325301206,
+        "paired_mean_delta": 0.00554216867469879,
+        "wins": 21,
+        "ties": 45,
+        "losses": 17
+      }
+    },
+    "uq_only_support_aware@B30": {
+      "matched_pairs": 17,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 3.3529411764705883,
+        "arm_mean": 3.235294117647059,
+        "paired_mean_delta": -0.11764705882352941,
+        "wins": 5,
+        "ties": 10,
+        "losses": 2
+      },
+      "AUDC": {
+        "baseline_mean": 0.11130718954248366,
+        "arm_mean": 0.12450980392156863,
+        "paired_mean_delta": 0.013202614379084961,
+        "wins": 7,
+        "ties": 8,
+        "losses": 2
+      }
+    },
+    "uq_only_support_aware@B50": {
+      "matched_pairs": 0,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": null,
+        "arm_mean": null,
+        "paired_mean_delta": null,
+        "wins": 0,
+        "ties": 0,
+        "losses": 0
+      },
+      "AUDC": {
+        "baseline_mean": null,
+        "arm_mean": null,
+        "paired_mean_delta": null,
+        "wins": 0,
+        "ties": 0,
+        "losses": 0
+      }
+    },
+    "es_only_independent@B10": {
+      "matched_pairs": 90,
+      "means_are_over_current_matching_set_not_full_study": false,
+      "SUN": {
+        "baseline_mean": 1.5444444444444445,
+        "arm_mean": 1.0333333333333334,
+        "paired_mean_delta": -0.5111111111111111,
+        "wins": 14,
+        "ties": 49,
+        "losses": 27
+      },
+      "AUDC": {
+        "baseline_mean": 0.16566666666666666,
+        "arm_mean": 0.12277777777777779,
+        "paired_mean_delta": -0.042888888888888886,
+        "wins": 18,
+        "ties": 44,
+        "losses": 28
+      }
+    },
+    "es_only_independent@B30": {
+      "matched_pairs": 14,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 2.5,
+        "arm_mean": 1.3571428571428572,
+        "paired_mean_delta": -1.1428571428571428,
+        "wins": 2,
+        "ties": 6,
+        "losses": 6
+      },
+      "AUDC": {
+        "baseline_mean": 0.08341269841269841,
+        "arm_mean": 0.04658730158730159,
+        "paired_mean_delta": -0.036825396825396824,
+        "wins": 2,
+        "ties": 6,
+        "losses": 6
+      }
+    },
+    "es_only_independent@B50": {
+      "matched_pairs": 0,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": null,
+        "arm_mean": null,
+        "paired_mean_delta": null,
+        "wins": 0,
+        "ties": 0,
+        "losses": 0
+      },
+      "AUDC": {
+        "baseline_mean": null,
+        "arm_mean": null,
+        "paired_mean_delta": null,
+        "wins": 0,
+        "ties": 0,
+        "losses": 0
+      }
+    },
+    "full_support_aware@B10": {
+      "matched_pairs": 84,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 1.4880952380952381,
+        "arm_mean": 1.1904761904761905,
+        "paired_mean_delta": -0.2976190476190476,
+        "wins": 15,
+        "ties": 49,
+        "losses": 20
+      },
+      "AUDC": {
+        "baseline_mean": 0.16202380952380951,
+        "arm_mean": 0.14047619047619048,
+        "paired_mean_delta": -0.021547619047619048,
+        "wins": 17,
+        "ties": 43,
+        "losses": 24
+      }
+    },
+    "full_support_aware@B30": {
+      "matched_pairs": 18,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 3.3333333333333335,
+        "arm_mean": 3.111111111111111,
+        "paired_mean_delta": -0.2222222222222222,
+        "wins": 5,
+        "ties": 8,
+        "losses": 5
+      },
+      "AUDC": {
+        "baseline_mean": 0.11160493827160495,
+        "arm_mean": 0.1019753086419753,
+        "paired_mean_delta": -0.009629629629629634,
+        "wins": 4,
+        "ties": 8,
+        "losses": 6
+      }
+    },
+    "full_support_aware@B50": {
+      "matched_pairs": 0,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": null,
+        "arm_mean": null,
+        "paired_mean_delta": null,
+        "wins": 0,
+        "ties": 0,
+        "losses": 0
+      },
+      "AUDC": {
+        "baseline_mean": null,
+        "arm_mean": null,
+        "paired_mean_delta": null,
+        "wins": 0,
+        "ties": 0,
+        "losses": 0
+      }
+    }
+  },
+  "variance_axis": "evaluation seeds within fixed system/budget/arm; ddof1; n<2 unavailable; n<3 partial; not training repeats",
+  "pending_failed_unknown_excluded_from_means": true,
+  "new_scientific_calls_for_export": 0,
+  "raw_trajectory_reaudit_performed": false
+}
