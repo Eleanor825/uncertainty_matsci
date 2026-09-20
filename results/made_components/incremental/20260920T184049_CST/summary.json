@@ -1,0 +1,217 @@
+{
+  "schema": "incremental_completed_MADE_summary_v1",
+  "observed_CST": "2026-09-20T18:40:49.061763+08:00",
+  "observed_UTC": "2026-09-20T10:40:49.061763+00:00",
+  "source_snapshot_fingerprint": "503ca08ecb3cc27cb218cc6b185ae96a0f62b30ddc4241566301f97a0926e630",
+  "planned": 1080,
+  "accepted": 656,
+  "counts_by_arm": {
+    "baseline_reference": {
+      "accepted": 137,
+      "unclaimed": 131,
+      "claimed_pending": 2
+    },
+    "uq_only_support_aware": {
+      "accepted": 175,
+      "unclaimed": 87,
+      "claimed_pending": 8
+    },
+    "es_only_independent": {
+      "accepted": 142,
+      "unclaimed": 127,
+      "claimed_pending": 1
+    },
+    "full_support_aware": {
+      "accepted": 202,
+      "unclaimed": 60,
+      "claimed_pending": 8
+    }
+  },
+  "full_study_complete": false,
+  "matched_comparisons": {
+    "uq_only_support_aware@B10": {
+      "matched_pairs": 83,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 1.4939759036144578,
+        "arm_mean": 1.4216867469879517,
+        "paired_mean_delta": -0.07228915662650602,
+        "wins": 16,
+        "ties": 49,
+        "losses": 18
+      },
+      "AUDC": {
+        "baseline_mean": 0.15903614457831325,
+        "arm_mean": 0.16457831325301206,
+        "paired_mean_delta": 0.00554216867469879,
+        "wins": 21,
+        "ties": 45,
+        "losses": 17
+      }
+    },
+    "uq_only_support_aware@B30": {
+      "matched_pairs": 34,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 3.911764705882353,
+        "arm_mean": 3.5588235294117645,
+        "paired_mean_delta": -0.35294117647058826,
+        "wins": 6,
+        "ties": 20,
+        "losses": 8
+      },
+      "AUDC": {
+        "baseline_mean": 0.1329738562091503,
+        "arm_mean": 0.12558823529411764,
+        "paired_mean_delta": -0.007385620915032685,
+        "wins": 8,
+        "ties": 17,
+        "losses": 9
+      }
+    },
+    "uq_only_support_aware@B50": {
+      "matched_pairs": 4,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 8.0,
+        "arm_mean": 9.75,
+        "paired_mean_delta": 1.75,
+        "wins": 2,
+        "ties": 1,
+        "losses": 1
+      },
+      "AUDC": {
+        "baseline_mean": 0.18,
+        "arm_mean": 0.2181,
+        "paired_mean_delta": 0.038099999999999995,
+        "wins": 3,
+        "ties": 1,
+        "losses": 0
+      }
+    },
+    "es_only_independent@B10": {
+      "matched_pairs": 90,
+      "means_are_over_current_matching_set_not_full_study": false,
+      "SUN": {
+        "baseline_mean": 1.5444444444444445,
+        "arm_mean": 1.0333333333333334,
+        "paired_mean_delta": -0.5111111111111111,
+        "wins": 14,
+        "ties": 49,
+        "losses": 27
+      },
+      "AUDC": {
+        "baseline_mean": 0.16566666666666666,
+        "arm_mean": 0.12277777777777779,
+        "paired_mean_delta": -0.042888888888888886,
+        "wins": 18,
+        "ties": 44,
+        "losses": 28
+      }
+    },
+    "es_only_independent@B30": {
+      "matched_pairs": 31,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 3.5806451612903225,
+        "arm_mean": 2.4193548387096775,
+        "paired_mean_delta": -1.1612903225806452,
+        "wins": 4,
+        "ties": 14,
+        "losses": 13
+      },
+      "AUDC": {
+        "baseline_mean": 0.1224731182795699,
+        "arm_mean": 0.08770609318996415,
+        "paired_mean_delta": -0.03476702508960574,
+        "wins": 5,
+        "ties": 14,
+        "losses": 12
+      }
+    },
+    "es_only_independent@B50": {
+      "matched_pairs": 6,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 9.666666666666666,
+        "arm_mean": 10.333333333333334,
+        "paired_mean_delta": 0.6666666666666666,
+        "wins": 4,
+        "ties": 0,
+        "losses": 2
+      },
+      "AUDC": {
+        "baseline_mean": 0.22746666666666668,
+        "arm_mean": 0.22199999999999998,
+        "paired_mean_delta": -0.005466666666666682,
+        "wins": 3,
+        "ties": 0,
+        "losses": 3
+      }
+    },
+    "full_support_aware@B10": {
+      "matched_pairs": 84,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 1.4880952380952381,
+        "arm_mean": 1.1904761904761905,
+        "paired_mean_delta": -0.2976190476190476,
+        "wins": 15,
+        "ties": 49,
+        "losses": 20
+      },
+      "AUDC": {
+        "baseline_mean": 0.16202380952380951,
+        "arm_mean": 0.14047619047619048,
+        "paired_mean_delta": -0.021547619047619048,
+        "wins": 17,
+        "ties": 43,
+        "losses": 24
+      }
+    },
+    "full_support_aware@B30": {
+      "matched_pairs": 35,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 3.8857142857142857,
+        "arm_mean": 2.9714285714285715,
+        "paired_mean_delta": -0.9142857142857143,
+        "wins": 8,
+        "ties": 16,
+        "losses": 11
+      },
+      "AUDC": {
+        "baseline_mean": 0.13250793650793652,
+        "arm_mean": 0.105015873015873,
+        "paired_mean_delta": -0.027492063492063495,
+        "wins": 8,
+        "ties": 16,
+        "losses": 11
+      }
+    },
+    "full_support_aware@B50": {
+      "matched_pairs": 4,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 7.0,
+        "arm_mean": 4.75,
+        "paired_mean_delta": -2.25,
+        "wins": 1,
+        "ties": 0,
+        "losses": 3
+      },
+      "AUDC": {
+        "baseline_mean": 0.1394,
+        "arm_mean": 0.09910000000000001,
+        "paired_mean_delta": -0.0403,
+        "wins": 1,
+        "ties": 0,
+        "losses": 3
+      }
+    }
+  },
+  "variance_axis": "evaluation seeds within fixed system/budget/arm; ddof1; n<2 unavailable; n<3 partial; not training repeats",
+  "pending_failed_unknown_excluded_from_means": true,
+  "new_scientific_calls_for_export": 0,
+  "raw_trajectory_reaudit_performed": false
+}
