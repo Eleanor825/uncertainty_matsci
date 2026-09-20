@@ -1143,11 +1143,27 @@
       "new_scientific_calls": 0,
       "snapshots_overlap_not_additive": true,
       "pending_failed_unknown_excluded_from_means": true
+    },
+    {
+      "snapshot_id": "made_incremental_20260920T215000_CST",
+      "observed_CST": "2026-09-20T21:50:00.191528+08:00",
+      "observed_UTC": "2026-09-20T13:50:00.191528+00:00",
+      "report": "results/made_components/incremental/20260920T215000_CST/report.md",
+      "summary": "results/made_components/incremental/20260920T215000_CST/summary.json",
+      "snapshot": "results/made_components/incremental/20260920T215000_CST/snapshot.json",
+      "validation_script": "results/made_components/incremental/20260920T215000_CST/recompute.py",
+      "accepted_evaluations": 692,
+      "planned_evaluations": 1080,
+      "complete": false,
+      "completed_terminal_signature": "441abe4e6beaea0abdd669b3fc4d132560d2ff4e396568de56d2f1ab29f4dc28",
+      "new_scientific_calls": 0,
+      "snapshots_overlap_not_additive": true,
+      "pending_failed_unknown_excluded_from_means": true
     }
   ],
   "latest_B50_mechanism_audit_export_id": "original_seed1_B50_hull_mechanisms_20260920T054512_CST",
   "latest_component_study_export_id": "made_core5_complete_20260919T212712_CST",
-  "latest_incremental_component_export_id": "made_incremental_20260920T211959_CST",
+  "latest_incremental_component_export_id": "made_incremental_20260920T215000_CST",
   "latest_observation_utc": "2026-09-18T21:21:38.188817+00:00",
   "latest_snapshot_id": "b10_b30_b50_complete_20260919T052138_CST",
   "latest_statistical_export_id": "b10_b30_b50_complete_20260919T052138_CST",
