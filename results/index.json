@@ -2358,9 +2358,25 @@
       "new_scientific_calls": 0,
       "snapshots_overlap_not_additive": true,
       "pending_failed_unknown_excluded_from_means": true
+    },
+    {
+      "snapshot_id": "made_incremental_20260920T093847_CST",
+      "observed_CST": "2026-09-20T09:38:47.666306+08:00",
+      "observed_UTC": "2026-09-20T01:38:47.666306+00:00",
+      "report": "results/made_components/incremental/20260920T093847_CST/report.md",
+      "summary": "results/made_components/incremental/20260920T093847_CST/summary.json",
+      "snapshot": "results/made_components/incremental/20260920T093847_CST/snapshot.json",
+      "validation_script": "results/made_components/incremental/20260920T093847_CST/recompute.py",
+      "accepted_evaluations": 510,
+      "planned_evaluations": 1080,
+      "complete": false,
+      "completed_terminal_signature": "64ee14bcafa7127b02f26fec64ad2a4b97a3ac33bf52fea443ee7375d1b27320",
+      "new_scientific_calls": 0,
+      "snapshots_overlap_not_additive": true,
+      "pending_failed_unknown_excluded_from_means": true
     }
   ],
-  "latest_incremental_component_export_id": "made_incremental_20260920T090848_CST",
+  "latest_incremental_component_export_id": "made_incremental_20260920T093847_CST",
   "planning_exports": [
     {
       "planning_id": "capacity_actual_allocation_20260920T010300_CST",
