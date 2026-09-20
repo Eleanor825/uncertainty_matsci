@@ -1,0 +1,88 @@
+{
+  "existing_candidate_steps": 3000,
+  "existing_trajectories": 60,
+  "files": [
+    {
+      "bytes": 1208,
+      "path": "README.md",
+      "sha256": "67ee479ab48d6d7d5b884ef109a6d7ac9b9efcfcd35f09c77f5cdb1187085ab2"
+    },
+    {
+      "bytes": 13154,
+      "path": "REPORT.md",
+      "sha256": "626e001ff7673b17ed53beda01a4c473ce3181b4d8d148c45512a55575cbffe3"
+    },
+    {
+      "bytes": 1502,
+      "path": "original_package_manifest.json",
+      "sha256": "632505ca8b8e6a5df6d78b638a1c6f6e02ee1e1affcf0013fde45646e21678a7"
+    },
+    {
+      "bytes": 1884,
+      "path": "outputs/composition_arity.csv",
+      "sha256": "08044bff8c14fc81065cac2af432c2be22d91db9698a1aeab2b0b1e3b88dccd1"
+    },
+    {
+      "bytes": 11112,
+      "path": "outputs/episodes.csv",
+      "sha256": "1e1e3764492c31242347e762f45ba36f67a60a12817753350c5ee3a4098fb052"
+    },
+    {
+      "bytes": 6288,
+      "path": "outputs/paired_systems.csv",
+      "sha256": "8e4664a0ab91d5c8c53274c6a8c52644d9f93fd35d75879acfd6e003979d702f"
+    },
+    {
+      "bytes": 42098,
+      "path": "outputs/per_episode_bands.csv",
+      "sha256": "35ab834aac345f71bbef25d3180b56dab6371b3ea65b9c5131ba75047a8339df"
+    },
+    {
+      "bytes": 1811,
+      "path": "outputs/reclassified_entries.csv",
+      "sha256": "54f8a06ab4374ebdaddb508b49c42ca2ebaf32b7e958a54fd2c0acee68a77ca6"
+    },
+    {
+      "bytes": 861742,
+      "path": "outputs/steps.csv",
+      "sha256": "8bf666f12d32bcc62dde4a1d3d0b8123a53b2bb6a6eaaed4b0a8c0129d19dbb7"
+    },
+    {
+      "bytes": 2797,
+      "path": "outputs/summary.json",
+      "sha256": "9d5374d9fcdeb52e8156011efc5b9578e18a31a4de08000ff75644fd36bda814"
+    },
+    {
+      "bytes": 2144,
+      "path": "outputs/ten_step_bands.csv",
+      "sha256": "95e3b4340eb39c2b4a6ef46bcb988c9519ed0fe50e1f37c5568dd561708e23c8"
+    },
+    {
+      "bytes": 12063,
+      "path": "recompute.py",
+      "sha256": "750b8ef3194c58c49993f65810ca1b5893bd5f0fcdb1381a8c29119638dcebac"
+    },
+    {
+      "bytes": 421185,
+      "path": "scientific_payload.json.gz",
+      "sha256": "05a838b3636a4bcc2787c108c718e05b368b7d420b0afd9ab26c3bc6bad45a62"
+    },
+    {
+      "bytes": 1703,
+      "path": "source_provenance.json",
+      "sha256": "632972e4c038a1ff2fd82e275dd2a4b0363c0724681c655597bb7a6477dfaa89"
+    },
+    {
+      "bytes": 1315,
+      "path": "verification.json",
+      "sha256": "243211ce17a55555a82ab7b7c74e4b4ce2041388a370d4c6afb1b6efe50e04f6"
+    }
+  ],
+  "new_scientific_calls": 0,
+  "official_metrics_unchanged": true,
+  "original_acceptance_preserved": "59 original per-job +1 derived Ga-Pt-Tm",
+  "original_package_manifest_sha256": "632505ca8b8e6a5df6d78b638a1c6f6e02ee1e1affcf0013fde45646e21678a7",
+  "posthoc_single_seed_analysis": true,
+  "reviewed_report_sha256": "626e001ff7673b17ed53beda01a4c473ce3181b4d8d148c45512a55575cbffe3",
+  "schema": "B50_hull_posthoc_public_export_v1"
+}

@@ -1,0 +1,36 @@
+{
+  "hash_semantics_source": {
+    "path": "vendor/MADE/src/made/utils/structure_hash.py",
+    "sha256": "6b7e6a7f88f1465b1d3f1dd7126d90ff1154be07f7143a19d65c44e39fe02d51"
+  },
+  "new_scientific_acceptance_created": false,
+  "old_scope_registration_sha256": "a262aab6be0639ee55bb33e1a2af98325ac2f511e774c54027e653c9ba59f507",
+  "original_acceptance": "59 original per-job + 1 separately corrected derived; original Ga failure unchanged",
+  "original_extractor_sha256": "4c1a0f8064bfd00c95ef043c5b9dd65233ff8f03e58e32ae2bb340fb8dc930e1",
+  "original_readback_sha256": "ff48583be406530716a3168ec1718c52abd98eb8af9622d08af1308a1b0f5396",
+  "original_scope": "30systems x originalseed1 x B50 x baseline/full; not current1080",
+  "original_vendor_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+  "schema": "B50_posthoc_scientific_source_provenance_v1",
+  "source_pins": [
+    {
+      "path": "vendor/MADE/src/made/envs/convex_hull.py",
+      "sha256": "4986122ca898aedd739f8b0ca1883f6f60fa3f91368ad7536cc681351d4cf646"
+    },
+    {
+      "path": "vendor/MADE/src/made/utils/convex_hull_utils.py",
+      "sha256": "8be1cfdd1529566f121acbbc75bfbb97b6fa325566e67c01331404723b221739"
+    },
+    {
+      "path": "vendor/MADE/src/made/oracles/ase_potential.py",
+      "sha256": "a430fcc5fb2786610154c88c233bd22a92aa41958d5edb0ee42a43671a89e3fc"
+    },
+    {
+      "path": "vendor/MADE/src/made/evaluation/metrics.py",
+      "sha256": "f24d68a2b0a854cf7d880a97079c47e1d8160da11f7f31fa8900274067c7e3a1"
+    },
+    {
+      "path": "evaluation_workspaces/made_budget_sweep_v1/src/matdiscovery/benchmark_adapters.py",
+      "sha256": "0f48431db71251c2793d161efcaa6209512735cf77ce1f5ab3dd048f11917d1e"
+    }
+  ]
+}

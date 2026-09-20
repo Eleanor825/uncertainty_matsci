@@ -1,151 +1,1260 @@
 {
+  "additional_scope_exports": [
+    {
+      "accepted_test_trajectories": 1,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T01:46:40.697369+08:00",
+      "planned_test_trajectories": 15,
+      "recompute": "results/qwen35_9b_core/stage1/20260920T014640_CST/recompute.py",
+      "report": "results/qwen35_9b_core/stage1/20260920T014640_CST/report.md",
+      "scope": "qwen35_9b_stage1",
+      "snapshot": "results/qwen35_9b_core/stage1/20260920T014640_CST/snapshot.json",
+      "snapshot_id": "qwen35_9b_stage1_20260920T014640_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/qwen35_9b_core/stage1/20260920T014640_CST/summary.json",
+      "terminal_signature": "2f6b8cd83a7479679bae247aa4b9c7e08a8820646e65324320aeb78bad870299"
+    },
+    {
+      "accepted_test_trajectories": 1,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T01:57:51.960078+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T015751_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T015751_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T015751_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T015751_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T015751_CST/summary.json",
+      "terminal_signature": "c718fa133c7afa211dafe92a2ac5d01b73cf31d8f5ffeb5ce1f34f2daa30fcb7"
+    },
+    {
+      "accepted_test_trajectories": 2,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T02:08:08.981891+08:00",
+      "planned_test_trajectories": 15,
+      "recompute": "results/qwen35_9b_core/stage1/20260920T020808_CST/recompute.py",
+      "report": "results/qwen35_9b_core/stage1/20260920T020808_CST/report.md",
+      "scope": "qwen35_9b_stage1",
+      "snapshot": "results/qwen35_9b_core/stage1/20260920T020808_CST/snapshot.json",
+      "snapshot_id": "qwen35_9b_stage1_20260920T020808_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/qwen35_9b_core/stage1/20260920T020808_CST/summary.json",
+      "terminal_signature": "cb3ed3e959f9f58f15ce06bd9668ccb8ae38afb240343199f8659e87c67b6663"
+    },
+    {
+      "accepted_test_trajectories": 2,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T02:27:50.880124+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T022750_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T022750_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T022750_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T022750_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T022750_CST/summary.json",
+      "terminal_signature": "8d650f6ed47685453360a467b98b4da2bf2811d81340e1dd6e13e715deffefc8"
+    },
+    {
+      "accepted_test_trajectories": 3,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T02:37:47.965107+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T023747_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T023747_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T023747_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T023747_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T023747_CST/summary.json",
+      "terminal_signature": "d93207f7ce4297315bbe8a487259d2534d8b238e9ee9e89ee9712f234ad6eb73"
+    },
+    {
+      "accepted_test_trajectories": 4,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T02:47:48.213248+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T024748_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T024748_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T024748_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T024748_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T024748_CST/summary.json",
+      "terminal_signature": "15d6161319d09bc2c21e64f9a84ba084259b7b36820aa64b436e50cb1c77a702"
+    },
+    {
+      "accepted_test_trajectories": 3,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T02:58:08.890909+08:00",
+      "planned_test_trajectories": 15,
+      "recompute": "results/qwen35_9b_core/stage1/20260920T025808_CST/recompute.py",
+      "report": "results/qwen35_9b_core/stage1/20260920T025808_CST/report.md",
+      "scope": "qwen35_9b_stage1",
+      "snapshot": "results/qwen35_9b_core/stage1/20260920T025808_CST/snapshot.json",
+      "snapshot_id": "qwen35_9b_stage1_20260920T025808_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/qwen35_9b_core/stage1/20260920T025808_CST/summary.json",
+      "terminal_signature": "7e479e5b41592fbebd43072a4fed762f8086ab06b0ba6f084c1bff1a73f61e50"
+    },
+    {
+      "accepted_test_trajectories": 4,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T03:08:09.372155+08:00",
+      "planned_test_trajectories": 15,
+      "recompute": "results/qwen35_9b_core/stage1/20260920T030809_CST/recompute.py",
+      "report": "results/qwen35_9b_core/stage1/20260920T030809_CST/report.md",
+      "scope": "qwen35_9b_stage1",
+      "snapshot": "results/qwen35_9b_core/stage1/20260920T030809_CST/snapshot.json",
+      "snapshot_id": "qwen35_9b_stage1_20260920T030809_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/qwen35_9b_core/stage1/20260920T030809_CST/summary.json",
+      "terminal_signature": "9009d3139b874820edef78ea4c63ed088aa41478d0f43b961fcd0bc56cd7da03"
+    },
+    {
+      "accepted_test_trajectories": 5,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T03:17:51.971199+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T031751_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T031751_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T031751_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T031751_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T031751_CST/summary.json",
+      "terminal_signature": "c2d8c311cf7c591858ed2379ac8393b6614f73cf00b86b10aaa138ab960a6caa"
+    },
+    {
+      "accepted_test_trajectories": 6,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T04:38:38.152784+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T043838_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T043838_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T043838_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T043838_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T043838_CST/summary.json",
+      "terminal_signature": "ec7f500458cbfed212623ee0f530458895e07d53a44619e99846f7e065c8cd96"
+    },
+    {
+      "accepted_test_trajectories": 5,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T04:47:48.101780+08:00",
+      "planned_test_trajectories": 15,
+      "recompute": "results/qwen35_9b_core/stage1/20260920T044748_CST/recompute.py",
+      "report": "results/qwen35_9b_core/stage1/20260920T044748_CST/report.md",
+      "scope": "qwen35_9b_stage1",
+      "snapshot": "results/qwen35_9b_core/stage1/20260920T044748_CST/snapshot.json",
+      "snapshot_id": "qwen35_9b_stage1_20260920T044748_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/qwen35_9b_core/stage1/20260920T044748_CST/summary.json",
+      "terminal_signature": "d42a2c3880d2b8e6574f0777b97ea0b225bc37378a082338c7689b14ea03f27c"
+    },
+    {
+      "accepted_test_trajectories": 7,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T04:47:48.101780+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T044748_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T044748_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T044748_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T044748_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T044748_CST/summary.json",
+      "terminal_signature": "23bb00d0f04b4a2f7c8de433674615fa089c4000e412a4537475545e881d5afa"
+    },
+    {
+      "accepted_test_trajectories": 8,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T04:57:18.284049+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T045718_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T045718_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T045718_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T045718_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T045718_CST/summary.json",
+      "terminal_signature": "451406a59d808f23028bb7b6ccebb9f5c8bdb92d2c04c75cca7f0b0879780f4d"
+    },
+    {
+      "accepted_test_trajectories": 9,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T05:07:20.603533+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T050720_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T050720_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T050720_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T050720_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T050720_CST/summary.json",
+      "terminal_signature": "a420a4e9317f0b25148d91741f6479d3ed3bb3aadc9ff04af134109f5d9f93d2"
+    },
+    {
+      "accepted_test_trajectories": 5,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T05:17:20.269206+08:00",
+      "planned_test_trajectories": 15,
+      "recompute": "results/qwen35_9b_core/stage1/20260920T051720_CST/recompute.py",
+      "report": "results/qwen35_9b_core/stage1/20260920T051720_CST/report.md",
+      "scope": "qwen35_9b_stage1",
+      "snapshot": "results/qwen35_9b_core/stage1/20260920T051720_CST/snapshot.json",
+      "snapshot_id": "qwen35_9b_stage1_20260920T051720_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/qwen35_9b_core/stage1/20260920T051720_CST/summary.json",
+      "terminal_signature": "ae6ab52e02868c37b8942bb2c2d4f6a491141b956663fdbd00bde9713c426b6b"
+    },
+    {
+      "accepted_test_trajectories": 10,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T05:17:20.269206+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T051720_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T051720_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T051720_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T051720_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T051720_CST/summary.json",
+      "terminal_signature": "00201104c13a683ec8bb3200a5283560b938b8b8182d6bc5308f24b3898cc813"
+    },
+    {
+      "accepted_test_trajectories": 11,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T05:27:17.429671+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T052717_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T052717_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T052717_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T052717_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T052717_CST/summary.json",
+      "terminal_signature": "296e08b29a7bbba46b9128c3c8763e617c5f7f708f394d15a78a298a2bbf33e8"
+    },
+    {
+      "accepted_test_trajectories": 12,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T05:37:18.208677+08:00",
+      "planned_test_trajectories": 12,
+      "recompute": "results/summit_snar/extra_seeds/20260920T053718_CST/recompute.py",
+      "report": "results/summit_snar/extra_seeds/20260920T053718_CST/report.md",
+      "scope": "snar_extra_seeds",
+      "snapshot": "results/summit_snar/extra_seeds/20260920T053718_CST/snapshot.json",
+      "snapshot_id": "snar_extra_seeds_20260920T053718_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/summit_snar/extra_seeds/20260920T053718_CST/summary.json",
+      "terminal_signature": "c1f4cfe3e64ae49377dc4452af5a5e030c4b136d5682adbcd10b9ce869c2afe7"
+    }
+  ],
+  "analysis_exports": [
+    {
+      "additional_independent_experiments": false,
+      "benchmark": "Summit SnAr",
+      "descriptive_case_analysis": true,
+      "export_id": "snar_case_analysis_20260919T2023_CST",
+      "label_and_prior_audit": "results/summit_snar/case_analysis/20260919T2023_CST/label_prior_check.md",
+      "new_scientific_calls": 0,
+      "report": "results/summit_snar/case_analysis/20260919T2023_CST/report.md",
+      "reused_test_episodes": 35,
+      "source_benchmark_export_id": "summit_snar_accepted_20260919T162548_CST",
+      "summary": "results/summit_snar/case_analysis/20260919T2023_CST/case_summary.json",
+      "test_recalibration": false,
+      "validation_script": "results/summit_snar/case_analysis/20260919T2023_CST/recompute.py"
+    },
+    {
+      "additional_independent_experiments": false,
+      "benchmark": "Summit SnAr",
+      "descriptive_selected_action_analysis": true,
+      "executed_queries": 750,
+      "export_id": "snar_exact_candidate_analysis_20260919T202943_CST",
+      "full_candidates": 248,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-19T20:29:43.318896+08:00",
+      "report": "results/summit_snar/candidate_analysis/20260919T202943_CST/report.md",
+      "reused_test_episodes": 15,
+      "scientific_input": "results/summit_snar/candidate_analysis/20260919T202943_CST/observations.json.gz",
+      "source_benchmark_export_id": "summit_snar_accepted_20260919T162548_CST",
+      "summary": "results/summit_snar/candidate_analysis/20260919T202943_CST/summary.json",
+      "test_recalibration": false,
+      "train_dev_feature_rows": 125,
+      "validation_script": "results/summit_snar/candidate_analysis/20260919T202943_CST/analyze.py"
+    },
+    {
+      "ES_only_base_physical_curves_equal": true,
+      "NN_models": 12,
+      "NN_training_seeds": [
+        1729,
+        1730,
+        1731
+      ],
+      "accepted_reconstruction_CST": "2026-09-19T21:53:05.531281+08:00",
+      "additional_independent_physical_experiments": false,
+      "benchmark": "Summit SnAr",
+      "calibration_bin_rows": 1440,
+      "causal_graph_contribution_isolated": false,
+      "diagnostic_kind": "posthoc feature-family prediction diagnostic on fixed selected actions",
+      "export_id": "snar_feature_family_20260919T215305_CST",
+      "feature_families": 4,
+      "full_UQ_physical_curves_equal": true,
+      "manifest": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/MANIFEST.json",
+      "metrics": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/model_metrics.csv",
+      "new_fits_for_publication": 0,
+      "new_physical_queries_for_diagnostic": 0,
+      "original_audit_returncode": 1,
+      "physical_selected_generation": {
+        "es_only": 0,
+        "full": 0
+      },
+      "policy_deployed": false,
+      "prediction_records": 2688,
+      "readme": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/README.md",
+      "recorded_CPU_optimizer_steps": 746,
+      "report": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/REPORT.md",
+      "separate_byte_exact_reconstruction_accepted": true,
+      "unique_executed_actions": 224,
+      "validation_script": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/recompute.py"
+    },
+    {
+      "additional_independent_experiments": false,
+      "benchmark": "Summit SnAr",
+      "both_ES_branches_selected_G0": true,
+      "export_id": "snar_paper_table_20260919T162548_CST",
+      "new_scientific_calls": 0,
+      "report": "results/summit_snar/paper_table/20260919T162548_CST/REPORT.md",
+      "reused_test_episodes": 35,
+      "source_benchmark_export_id": "summit_snar_accepted_20260919T162548_CST",
+      "summary": "results/summit_snar/paper_table/20260919T162548_CST/summary.json",
+      "table_tex": "results/summit_snar/paper_table/20260919T162548_CST/table.tex",
+      "validation_script": "results/summit_snar/paper_table/20260919T162548_CST/recompute.py"
+    },
+    {
+      "NN_training_seeds": [
+        1729,
+        1730,
+        1731
+      ],
+      "benchmark": "Summit SnAr",
+      "causal_graph_contribution_isolated": false,
+      "cumulative_CPU_optimizer_steps": 926,
+      "cumulative_NN_models": 15,
+      "diagnostic_kind": "additional sampling+hidden feature family on fixed saved actions",
+      "export_id": "snar_sampling_hidden_20260919T221018_CST",
+      "manifest": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/MANIFEST.json",
+      "new_NN_models": 3,
+      "new_fits_for_publication": 0,
+      "new_physical_queries": 0,
+      "new_prediction_records": 672,
+      "new_recorded_CPU_optimizer_steps": 180,
+      "original_new_audit_passed": true,
+      "policy_deployed": false,
+      "report": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/REPORT.md",
+      "summary": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/summary.json",
+      "unique_physical_actions": 224,
+      "validation_script": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/recompute.py"
+    },
+    {
+      "NN_contribution_causally_isolated": false,
+      "additional_independent_experiments": false,
+      "benchmark": "MADE",
+      "candidate_ORB_steps": 600,
+      "executed_policy_tools": 1174,
+      "export_id": "made_core60_mechanism_20260919T220626_CST",
+      "new_scientific_calls": 0,
+      "proposals": 1237,
+      "report": "results/made_components/core5/mechanism_analysis/20260919T220626_CST/REPORT.md",
+      "reused_trajectories": 60,
+      "summary": "results/made_components/core5/mechanism_analysis/20260919T220626_CST/summary.json",
+      "test_tuning": false,
+      "validation_Python_version": "3.12",
+      "validation_script": "results/made_components/core5/mechanism_analysis/20260919T220626_CST/analyze.py"
+    },
+    {
+      "additional_independent_experiment": false,
+      "benchmarks": [
+        "MADE",
+        "Summit SnAr"
+      ],
+      "export_id": "paper_evidence_ES_20260920T020319_CST",
+      "manifest": "results/method_audits/full_parameter_ES/20260920T020319_CST/manifest.json",
+      "metadata_audit": true,
+      "new_scientific_calls": 0,
+      "parameter_numel": 4539265536,
+      "parameter_tensors": 723,
+      "report": "results/method_audits/full_parameter_ES/20260920T020319_CST/REPORT.md",
+      "selected_generations": {
+        "MADE_ES_only": 1,
+        "MADE_full": 2,
+        "SnAr_ES_only": 0,
+        "SnAr_full": 0
+      },
+      "verification_scripts": [
+        "results/method_audits/full_parameter_ES/20260920T020319_CST/verify.py"
+      ]
+    },
+    {
+      "additional_independent_experiment": false,
+      "benchmark": "MADE",
+      "complete_three_seed_B10_baseline_full_systems": 24,
+      "current_B50_matched_pairs": 0,
+      "export_id": "paper_evidence_framing_20260920T024720_CST",
+      "manifest": "results/made_components/full_baseline_recheck/20260920T024720_CST/manifest.json",
+      "new_scientific_calls": 0,
+      "old_seed1_B50_scope_separate": true,
+      "planned": 1080,
+      "positive_tie_negative_systems": {
+        "AUDC": [
+          8,
+          7,
+          9
+        ],
+        "SUN": [
+          6,
+          9,
+          9
+        ]
+      },
+      "report": "results/made_components/full_baseline_recheck/20260920T024720_CST/REPORT.md",
+      "snapshot_accepted": 395,
+      "verification_scripts": [
+        "results/made_components/full_baseline_recheck/20260920T024720_CST/recompute.py"
+      ]
+    },
+    {
+      "additional_independent_experiment": false,
+      "benchmark": "MADE",
+      "export_id": "paper_evidence_recovery_20260920T021929_CST",
+      "manifest": "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/manifest.json",
+      "new_scientific_calls": 0,
+      "original_candidate_budget": 430,
+      "original_failed_attempts_preserved": true,
+      "original_preexecution_failures": 23,
+      "physical_calls_before_recovery": 0,
+      "provenance_only": true,
+      "recovery_not_scientific_completion": true,
+      "report": "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/REPORT.md",
+      "verification_scripts": [
+        "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/verify.py"
+      ]
+    },
+    {
+      "additional_independent_experiment": false,
+      "archive_addendum": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/ARCHIVE_ACTUAL_ADDENDUM.md",
+      "archive_rescored_rows": 125,
+      "benchmark": "Summit SnAr",
+      "causal_mechanism_isolated": false,
+      "descriptive_failure_diagnosis": true,
+      "dev_label_flips": 3,
+      "export_id": "paper_evidence_snar_20260920T022703_CST",
+      "manifest": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/manifest.json",
+      "new_scientific_calls": 0,
+      "no_test_based_fitting": true,
+      "report": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/REPORT.md",
+      "train_label_flips": 3,
+      "verification_scripts": [
+        "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/analyze.py",
+        "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/verify.py"
+      ]
+    },
+    {
+      "additional_independent_experiment": false,
+      "benchmark": "MADE",
+      "budget": 10,
+      "chemistries": 24,
+      "evaluation_seeds": [
+        2,
+        3,
+        4
+      ],
+      "existing_candidate_steps": 1440,
+      "existing_trajectories": 144,
+      "export_id": "made_all_complete_B10_mechanisms_20260920T043843_CST",
+      "full_minus_baseline_total_SUN": -26,
+      "full_risk_ranking_selection_changes": 0,
+      "full_scalar_threshold_crossings": 0,
+      "manifest": "results/made_components/mechanism_analysis/20260920T043843_CST/manifest.json",
+      "new_scientific_calls": 0,
+      "not_full_1080_completion": true,
+      "posthoc_analysis": true,
+      "report": "results/made_components/mechanism_analysis/20260920T043843_CST/REPORT.md",
+      "source_observed_CST": "2026-09-20T04:38:43.119663+08:00",
+      "source_snapshot_accepted": 429,
+      "summary": "results/made_components/mechanism_analysis/20260920T043843_CST/summary.json",
+      "validation_script": "results/made_components/mechanism_analysis/20260920T043843_CST/recompute.py"
+    },
+    {
+      "additional_independent_experiment": false,
+      "baseline_full_SUN": [
+        233,
+        147
+      ],
+      "baseline_full_event_stable_new": [
+        237,
+        148
+      ],
+      "baseline_full_non_novel": [
+        183,
+        417
+      ],
+      "baseline_full_prior_stable_reclassified": [
+        4,
+        1
+      ],
+      "benchmark": "MADE",
+      "budget": 50,
+      "causal_attribution_isolated": false,
+      "chemistries": 30,
+      "current_1080_scope_unchanged": true,
+      "evaluation_seeds": [
+        1
+      ],
+      "existing_candidate_steps": 3000,
+      "existing_trajectories": 60,
+      "export_id": "original_seed1_B50_hull_mechanisms_20260920T054512_CST",
+      "manifest": "results/budget_sweep/B50_mechanism_analysis/20260920T054512_CST/manifest.json",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T05:45:12.035489+08:00",
+      "observed_UTC": "2026-09-19T21:45:12.035489+00:00",
+      "official_metrics_unchanged": true,
+      "posthoc_analysis": true,
+      "report": "results/budget_sweep/B50_mechanism_analysis/20260920T054512_CST/REPORT.md",
+      "summary": "results/budget_sweep/B50_mechanism_analysis/20260920T054512_CST/outputs/summary.json",
+      "test_used_for_training_selection": false,
+      "validation_script": "results/budget_sweep/B50_mechanism_analysis/20260920T054512_CST/recompute.py",
+      "within_episode_repeated_candidate_hashes": 0
+    }
+  ],
+  "benchmark_exports": [
+    {
+      "accepted_CST": "2026-09-19T16:25:48.135994+08:00",
+      "arms": 7,
+      "benchmark": "Summit SnAr",
+      "evaluation_seeds": [
+        5101,
+        5102,
+        5103,
+        5104,
+        5105
+      ],
+      "export_id": "summit_snar_accepted_20260919T162548_CST",
+      "independent_derived_acceptance_passed": true,
+      "not_part_of_MADE_180_matrix": true,
+      "original_report_failure_preserved": true,
+      "report": "results/summit_snar/20260919T162548_CST/report.md",
+      "summary": "results/summit_snar/20260919T162548_CST/summary.json",
+      "test_episodes": 35,
+      "unique_physical_calls": 2300,
+      "validation_script": "results/summit_snar/20260919T162548_CST/recompute.py"
+    }
+  ],
+  "component_study_exports": [
+    {
+      "accepted_evaluations": 172,
+      "case_report": "results/made_components/20260919T172603_CST/report.md",
+      "common_budget": 10,
+      "common_four_arm_systems": 17,
+      "common_seed": 2,
+      "complete": false,
+      "observed_CST": "2026-09-19T17:26:03.436872+08:00",
+      "observed_utc": "2026-09-19T09:26:03.436872+00:00",
+      "planned_evaluations": 1080,
+      "repeated_seed_variance_estimated": false,
+      "report": "results/made_components/20260919T172603_CST/progress.md",
+      "snapshot_id": "made_components_20260919T172603_CST",
+      "summary": "results/made_components/20260919T172603_CST/progress_summary.json"
+    },
+    {
+      "accepted_evaluations": 205,
+      "complete": false,
+      "evaluation_seeds": [
+        2,
+        3,
+        4
+      ],
+      "fixed_configurations_with_three_seeds": {
+        "baseline_reference": 8,
+        "es_only_independent": 10,
+        "full_support_aware": 1,
+        "uq_only_support_aware": 0
+      },
+      "observed_CST": "2026-09-19T18:50:04.141141+08:00",
+      "observed_utc": "2026-09-19T10:50:04.141141+00:00",
+      "planned_evaluations": 1080,
+      "report": "results/made_components/20260919T185004_CST/report.md",
+      "snapshot_id": "made_components_20260919T185004_CST",
+      "summary": "results/made_components/20260919T185004_CST/summary.json",
+      "variance_scope": "within fixed system,budget,arm across completed evaluation seeds; n<3 explicitly partial; complete all30/core5 seed aggregation separate"
+    },
+    {
+      "accepted_evaluations": 254,
+      "accepted_evaluations_in_source_snapshot": 254,
+      "budget": 10,
+      "complete": false,
+      "complete_runs_by_arm": {
+        "baseline_reference": 15,
+        "es_only_independent": 15,
+        "full_support_aware": 15,
+        "uq_only_support_aware": 11
+      },
+      "evaluation_seeds": [
+        2,
+        3,
+        4
+      ],
+      "export_scope": "Fixed-five-system B10 subset; 60 original planned cells,56 complete",
+      "exported_completed_evaluations": 56,
+      "exported_planned_cells": 60,
+      "four_arm_core_ablation_complete": false,
+      "not_additive_to_1080": true,
+      "observed_CST": "2026-09-19T20:34:17.577945+08:00",
+      "observed_utc": "2026-09-19T12:34:17.577945+00:00",
+      "planned_evaluations": 1080,
+      "report": "results/made_components/core5/20260919T203417_CST/report.md",
+      "snapshot_id": "made_core5_20260919T203417_CST",
+      "summary": "results/made_components/core5/20260919T203417_CST/summary.json",
+      "validation_script": "results/made_components/core5/20260919T203417_CST/analyze.py",
+      "variance_scope": "Evaluation seeds within fixed system/arm, or three complete five-system seed aggregates; ddof=1; not training repeats"
+    },
+    {
+      "NN_contribution_separately_isolated": false,
+      "accepted_evaluations": 279,
+      "algorithm_contrasts_not_fixed_weight_causal_effects": true,
+      "budget": 10,
+      "complete": false,
+      "complete_runs_by_arm": {
+        "baseline_reference": 15,
+        "es_only_independent": 15,
+        "full_support_aware": 15,
+        "uq_only_support_aware": 15
+      },
+      "evaluation_seeds": [
+        2,
+        3,
+        4
+      ],
+      "export_scope": "Complete fixed-five-system four-arm B10 evaluation-seed subset, not full1080 completion",
+      "exported_completed_evaluations": 60,
+      "exported_planned_cells": 60,
+      "four_arm_core_ablation_complete": true,
+      "full_study_complete": false,
+      "not_additive_to_1080": true,
+      "observed_CST": "2026-09-19T21:27:12.079926+08:00",
+      "observed_utc": "2026-09-19T13:27:12.079926+00:00",
+      "planned_evaluations": 1080,
+      "report": "results/made_components/core5/20260919T212712_CST/report.md",
+      "snapshot_id": "made_core5_complete_20260919T212712_CST",
+      "summary": "results/made_components/core5/20260919T212712_CST/summary.json",
+      "validation_script": "results/made_components/core5/20260919T212712_CST/analyze.py",
+      "variance_scope": "ddof1 across evaluation seeds within fixed system/arm or fixed-five seed aggregates; not training repeats"
+    }
+  ],
+  "development_exports": [
+    {
+      "G0_dev_executed_at_snapshot": false,
+      "deduplicated_train_dev_events": 60,
+      "descriptive_only": true,
+      "export_id": "support_mechanism_audit_20260919T174119_CST",
+      "fixed_test_cohort_observed_CST": "2026-09-19T17:26:03.436872+08:00",
+      "fixed_test_trajectories": 68,
+      "full_train_dev_trajectories": 6,
+      "observed_utc": "2026-09-19T09:41:19.132087+00:00",
+      "repeated_seed_variance_estimated": false,
+      "report": "results/development/support_mechanism_audit/20260919T174119_CST/REPORT.md",
+      "summary": "results/development/support_mechanism_audit/20260919T174119_CST/analysis.json"
+    },
+    {
+      "calibrated_dev_metrics_in_sample": true,
+      "candidate_states": 54,
+      "completed_CST": "2026-09-19T19:24:55.039408+08:00",
+      "controller_deployed": false,
+      "dev_rows": 83,
+      "export_id": "grouped_scalar_risk_20260919T192455_CST",
+      "new_LLM_generation_calls": 0,
+      "new_oracle_calls": 0,
+      "not_part_of_materials_test_matrix": true,
+      "observed_CST": "2026-09-19T19:28:21.417572+08:00",
+      "raw_proposals": 386,
+      "report": "results/development/grouped_scalar_risk/20260919T192455_CST/report.md",
+      "selected_optimizer_updates": {
+        "external_only_control": 32,
+        "full_internal": 8
+      },
+      "summary": "results/development/grouped_scalar_risk/20260919T192455_CST/summary.json",
+      "train_rows": 293,
+      "training_diagnostic": true,
+      "validation_script": "results/development/grouped_scalar_risk/20260919T192455_CST/recompute.py"
+    },
+    {
+      "AUDC_by_generation": {
+        "G0": 0.68,
+        "G1": 0.62,
+        "G2": 0.64
+      },
+      "budget": 10,
+      "export_id": "G0_development_comparison_20260919T200818_CST",
+      "heldout_evaluation": false,
+      "new_calls_for_G1_G2_references": 0,
+      "new_candidate_calls_in_G0_diagnostic": 10,
+      "new_scientific_calls_for_export": 0,
+      "not_part_of_materials_test_matrix": true,
+      "original_G2_selection_unchanged": true,
+      "previously_used_development_seeds": 1,
+      "report": "results/development/G0_comparison/20260919T200818_CST/report.md",
+      "summary": "results/development/G0_comparison/20260919T200818_CST/comparison.json",
+      "task": "Al-Pd-Sm",
+      "validation_script": "results/development/G0_comparison/20260919T200818_CST/recompute.py"
+    }
+  ],
+  "incremental_component_exports": [
+    {
+      "accepted_evaluations": 360,
+      "complete": false,
+      "completed_terminal_signature": "81c737d7bc671b306605406db23e4a9125d8bcec16f6f7f2391f5b3b31c4c329",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T00:47:24.240443+08:00",
+      "observed_UTC": "2026-09-19T16:47:24.240443+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T004724_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T004724_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T004724_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T004724_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T004724_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 369,
+      "complete": false,
+      "completed_terminal_signature": "f940f5e32465bb2e7513f156fca027ef8856bd684d0309539297678088613117",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T01:17:20.973019+08:00",
+      "observed_UTC": "2026-09-19T17:17:20.973019+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T011720_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T011720_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T011720_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T011720_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T011720_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 378,
+      "complete": false,
+      "completed_terminal_signature": "c39f496c633593ce75a102127040a11e16290e5ad93384afbf5605e38b5f94db",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T01:47:23.122827+08:00",
+      "observed_UTC": "2026-09-19T17:47:23.122827+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T014723_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T014723_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T014723_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T014723_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T014723_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 387,
+      "complete": false,
+      "completed_terminal_signature": "f0d92a66ee1367f25e93704a44b8286c919f536514c74cc2eb22d02d545122d2",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T02:17:24.244546+08:00",
+      "observed_UTC": "2026-09-19T18:17:24.244546+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T021724_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T021724_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T021724_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T021724_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T021724_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 395,
+      "complete": false,
+      "completed_terminal_signature": "f60578b4efbe8ee46adf5a2d0e86add13218ce90da248b4af18e533dc9d32a17",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T02:47:20.330199+08:00",
+      "observed_UTC": "2026-09-19T18:47:20.330199+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T024720_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T024720_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T024720_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T024720_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T024720_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 405,
+      "complete": false,
+      "completed_terminal_signature": "726b5cd59176903043a554ad04f9a06febb6c66591cc25f07138168b5cc65f9b",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T03:17:24.674094+08:00",
+      "observed_UTC": "2026-09-19T19:17:24.674094+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T031724_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T031724_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T031724_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T031724_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T031724_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 429,
+      "complete": false,
+      "completed_terminal_signature": "01c996c0e3b721b0beaab6c6192c08116f879ea912c481866c709cbd0b213581",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T04:38:43.119663+08:00",
+      "observed_UTC": "2026-09-19T20:38:43.119663+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T043843_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T043843_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T043843_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T043843_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T043843_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 436,
+      "complete": false,
+      "completed_terminal_signature": "3fdf4d89e8924522eab995f98618fb791f3ae609e72655bc713112168b5df0aa",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T05:08:40.053797+08:00",
+      "observed_UTC": "2026-09-19T21:08:40.053797+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T050840_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T050840_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T050840_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T050840_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T050840_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 445,
+      "complete": false,
+      "completed_terminal_signature": "f07ba82089f61e358ae53613fd0496bf50752e05916c0e1d3e64c611b56c1330",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T05:38:42.316543+08:00",
+      "observed_UTC": "2026-09-19T21:38:42.316543+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T053842_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T053842_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T053842_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T053842_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T053842_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 454,
+      "complete": false,
+      "completed_terminal_signature": "2e3da2cb2b6f7519647b15de7d2bc62364681461001fdc2076860e8544e47b08",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T06:08:40.821446+08:00",
+      "observed_UTC": "2026-09-19T22:08:40.821446+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T060840_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T060840_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T060840_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T060840_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T060840_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 462,
+      "complete": false,
+      "completed_terminal_signature": "bd8bd9a4dd41005e729b4106a70d5bcf90d9208f1365b27a9140703b5ebb0cd8",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T06:38:46.160844+08:00",
+      "observed_UTC": "2026-09-19T22:38:46.160844+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T063846_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T063846_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T063846_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T063846_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T063846_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 473,
+      "complete": false,
+      "completed_terminal_signature": "2cbd99ccd76f139609076ae3b1009f324ddb0884d5af47e7a2715f7d7196bd8f",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T07:08:39.821468+08:00",
+      "observed_UTC": "2026-09-19T23:08:39.821468+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T070839_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T070839_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T070839_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T070839_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T070839_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 478,
+      "complete": false,
+      "completed_terminal_signature": "d313cc0a5eda95683792ba0f01b0bae2a3dc8efe52f3ccb17ae5574e915227b7",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T07:38:44.801421+08:00",
+      "observed_UTC": "2026-09-19T23:38:44.801421+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T073844_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T073844_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T073844_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T073844_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T073844_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 483,
+      "complete": false,
+      "completed_terminal_signature": "58aba09338b54fcc11031edb94a8016aeece833dcf9200331881ba28a318a5d1",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T08:08:47.198599+08:00",
+      "observed_UTC": "2026-09-20T00:08:47.198599+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T080847_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T080847_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T080847_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T080847_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T080847_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 497,
+      "complete": false,
+      "completed_terminal_signature": "b3751c190e5494923ab942a381eacdbd5b31ddc379c2ad399a6372b27730e147",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T08:38:44.808611+08:00",
+      "observed_UTC": "2026-09-20T00:38:44.808611+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T083844_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T083844_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T083844_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T083844_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T083844_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 504,
+      "complete": false,
+      "completed_terminal_signature": "05bcc155d09fd88433db167972b994d1dbe5d8b896b2dca26e83b74807449688",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T09:08:48.195769+08:00",
+      "observed_UTC": "2026-09-20T01:08:48.195769+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T090848_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T090848_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T090848_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T090848_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T090848_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 510,
+      "complete": false,
+      "completed_terminal_signature": "64ee14bcafa7127b02f26fec64ad2a4b97a3ac33bf52fea443ee7375d1b27320",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T09:38:47.666306+08:00",
+      "observed_UTC": "2026-09-20T01:38:47.666306+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T093847_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T093847_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T093847_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T093847_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T093847_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 522,
+      "complete": false,
+      "completed_terminal_signature": "4e0af8475865a8116981e318a5efad8d8668dbf08f0cbea48a3a401d92ed816b",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T10:08:49.292415+08:00",
+      "observed_UTC": "2026-09-20T02:08:49.292415+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T100849_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T100849_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T100849_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T100849_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T100849_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 530,
+      "complete": false,
+      "completed_terminal_signature": "c0162a6c8bf253c582e4446ac8ff7ccdbf042512118053fb840a98b5a0adfac3",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T10:38:46.635000+08:00",
+      "observed_UTC": "2026-09-20T02:38:46.635000+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T103846_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T103846_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T103846_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T103846_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T103846_CST/recompute.py"
+    },
+    {
+      "accepted_evaluations": 539,
+      "complete": false,
+      "completed_terminal_signature": "4a7c0efed1c6aa33c5399f039236b9b6a0f157b7326ff55f51b20e51db85f2a2",
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-20T11:08:45.767092+08:00",
+      "observed_UTC": "2026-09-20T03:08:45.767092+00:00",
+      "pending_failed_unknown_excluded_from_means": true,
+      "planned_evaluations": 1080,
+      "report": "results/made_components/incremental/20260920T110845_CST/report.md",
+      "snapshot": "results/made_components/incremental/20260920T110845_CST/snapshot.json",
+      "snapshot_id": "made_incremental_20260920T110845_CST",
+      "snapshots_overlap_not_additive": true,
+      "summary": "results/made_components/incremental/20260920T110845_CST/summary.json",
+      "validation_script": "results/made_components/incremental/20260920T110845_CST/recompute.py"
+    }
+  ],
+  "latest_B50_mechanism_audit_export_id": "original_seed1_B50_hull_mechanisms_20260920T054512_CST",
+  "latest_component_study_export_id": "made_core5_complete_20260919T212712_CST",
+  "latest_incremental_component_export_id": "made_incremental_20260920T110845_CST",
+  "latest_observation_utc": "2026-09-18T21:21:38.188817+00:00",
+  "latest_snapshot_id": "b10_b30_b50_complete_20260919T052138_CST",
+  "latest_statistical_export_id": "b10_b30_b50_complete_20260919T052138_CST",
+  "planning_exports": [
+    {
+      "excluded_from_result_means": true,
+      "forecast_new_4B_MADE_range": [
+        321,
+        392
+      ],
+      "kind": "conditional_24hour_capacity_not_experimental_result",
+      "later_separate_actual_CST": "2026-09-20T01:17:20+08:00",
+      "later_separate_actual_completed": 369,
+      "manifest": "results/planning/capacity/20260920T010300_CST/manifest.json",
+      "new_scientific_calls_for_planning": 0,
+      "planning_baseline_CST": "2026-09-20T01:03:00+08:00",
+      "planning_baseline_completed": 362,
+      "planning_id": "capacity_actual_allocation_20260920T010300_CST",
+      "report": "results/planning/capacity/20260920T010300_CST/REPORT.md",
+      "validation_script": "results/planning/capacity/20260920T010300_CST/recompute.py"
+    }
+  ],
   "schema": "public_results_snapshot_index_v1",
   "snapshots": [
     {
-      "snapshot_id": "core2_b10_20260917T083208Z",
-      "observed_utc": "2026-09-17T08:32:08.511276+00:00",
-      "observed_CST": "2026-09-17T16:32:08.511276+08:00",
-      "summary": "results/snapshots/core2_b10_20260917T083208Z/summary.json",
       "budgets": {
         "10": {
-          "expected_trajectories": 4,
-          "completed_trajectories": 4,
-          "expected_systems": 2,
-          "complete_pairs": 2,
-          "unpaired_systems": {},
-          "not_yet_represented_systems": 0,
-          "completed_candidate_attempts": 40,
-          "counts_are_not_additive_across_snapshots": true,
-          "data_computation_complete": true,
-          "scope_publication_accepted_at_snapshot": false,
-          "SUN": {
-            "pairs": 2,
-            "baseline_sum": 6,
-            "full_sum": 6,
-            "baseline_mean": 3,
-            "full_mean": 3,
-            "full_minus_baseline": 0,
-            "wins": 1,
-            "losses": 1,
-            "ties": 0
-          },
           "AUDC": {
-            "pairs": 2,
-            "baseline_sum": 0.68,
-            "full_sum": 0.5,
             "baseline_mean": 0.34,
+            "baseline_sum": 0.68,
             "full_mean": 0.25,
             "full_minus_baseline": -0.09000000000000002,
-            "wins": 1,
+            "full_sum": 0.5,
             "losses": 1,
-            "ties": 0
-          },
-          "mSUN": {
             "pairs": 2,
-            "baseline_sum": 0.6,
-            "full_sum": 0.6000000000000001,
+            "ties": 0,
+            "wins": 1
+          },
+          "SUN": {
+            "baseline_mean": 3,
+            "baseline_sum": 6,
+            "full_mean": 3,
+            "full_minus_baseline": 0,
+            "full_sum": 6,
+            "losses": 1,
+            "pairs": 2,
+            "ties": 0,
+            "wins": 1
+          },
+          "complete_pairs": 2,
+          "completed_candidate_attempts": 40,
+          "completed_trajectories": 4,
+          "counts_are_not_additive_across_snapshots": true,
+          "data_computation_complete": true,
+          "expected_systems": 2,
+          "expected_trajectories": 4,
+          "mSUN": {
             "baseline_mean": 0.3,
+            "baseline_sum": 0.6,
             "full_mean": 0.30000000000000004,
             "full_minus_baseline": 5.551115123125783e-17,
-            "wins": 1,
+            "full_sum": 0.6000000000000001,
             "losses": 1,
-            "ties": 0
+            "pairs": 2,
+            "ties": 0,
+            "wins": 1
           },
+          "not_yet_represented_systems": 0,
           "rollout_wall_seconds_by_method": {
             "baseline": {
+              "median": 611.147186416667,
               "n": 2,
               "p25": 571.1333054031711,
-              "median": 611.147186416667,
               "p75": 651.1610674301628
             },
             "esopt_graph_risk": {
+              "median": 3330.206730030477,
               "n": 2,
               "p25": 3167.052092666272,
-              "median": 3330.206730030477,
               "p75": 3493.361367394682
             }
-          }
+          },
+          "scope_publication_accepted_at_snapshot": false,
+          "unpaired_systems": {}
         }
-      }
+      },
+      "observed_CST": "2026-09-17T16:32:08.511276+08:00",
+      "observed_utc": "2026-09-17T08:32:08.511276+00:00",
+      "snapshot_id": "core2_b10_20260917T083208Z",
+      "summary": "results/snapshots/core2_b10_20260917T083208Z/summary.json"
     },
     {
-      "snapshot_id": "original_five_b10_accepted_20260917",
-      "observed_utc": "2026-09-17T17:04:38.858954+00:00",
-      "observed_CST": "2026-09-18T01:04:38.858954+08:00",
-      "summary": "results/snapshots/original_five_b10_accepted_20260917/summary.json",
       "budgets": {
         "10": {
-          "expected_trajectories": 10,
-          "completed_trajectories": 10,
-          "expected_systems": 5,
-          "complete_pairs": 5,
-          "unpaired_systems": {},
-          "not_yet_represented_systems": 0,
-          "completed_candidate_attempts": 100,
-          "counts_are_not_additive_across_snapshots": true,
-          "data_computation_complete": true,
-          "scope_publication_accepted_at_snapshot": true,
-          "SUN": {
-            "pairs": 5,
-            "baseline_sum": 12,
-            "full_sum": 6,
-            "baseline_mean": 2.4,
-            "full_mean": 1.2,
-            "full_minus_baseline": -1.2,
-            "wins": 1,
-            "losses": 2,
-            "ties": 2
-          },
           "AUDC": {
-            "pairs": 5,
-            "baseline_sum": 1.48,
-            "full_sum": 0.5,
             "baseline_mean": 0.29600000000000004,
+            "baseline_sum": 1.48,
             "full_mean": 0.1,
             "full_minus_baseline": -0.19600000000000004,
-            "wins": 1,
+            "full_sum": 0.5,
             "losses": 2,
-            "ties": 2
-          },
-          "mSUN": {
             "pairs": 5,
-            "baseline_sum": 1.2,
-            "full_sum": 0.6000000000000001,
+            "ties": 2,
+            "wins": 1
+          },
+          "SUN": {
+            "baseline_mean": 2.4,
+            "baseline_sum": 12,
+            "full_mean": 1.2,
+            "full_minus_baseline": -1.2,
+            "full_sum": 6,
+            "losses": 2,
+            "pairs": 5,
+            "ties": 2,
+            "wins": 1
+          },
+          "complete_pairs": 5,
+          "completed_candidate_attempts": 100,
+          "completed_trajectories": 10,
+          "counts_are_not_additive_across_snapshots": true,
+          "data_computation_complete": true,
+          "expected_systems": 5,
+          "expected_trajectories": 10,
+          "mSUN": {
             "baseline_mean": 0.24,
+            "baseline_sum": 1.2,
             "full_mean": 0.12000000000000001,
             "full_minus_baseline": -0.11999999999999998,
-            "wins": 1,
+            "full_sum": 0.6000000000000001,
             "losses": 2,
-            "ties": 2
+            "pairs": 5,
+            "ties": 2,
+            "wins": 1
           },
+          "not_yet_represented_systems": 0,
           "rollout_wall_seconds_by_method": {
             "baseline": {
+              "median": 779.171055121813,
               "n": 5,
               "p25": 691.1749484436586,
-              "median": 779.171055121813,
               "p75": 785.4784273309633
             },
             "esopt_graph_risk": {
+              "median": 2568.4011063771322,
               "n": 5,
               "p25": 1449.447651279159,
-              "median": 2568.4011063771322,
               "p75": 3003.897455302067
             }
-          }
+          },
+          "scope_publication_accepted_at_snapshot": true,
+          "unpaired_systems": {}
         }
-      }
+      },
+      "observed_CST": "2026-09-18T01:04:38.858954+08:00",
+      "observed_utc": "2026-09-17T17:04:38.858954+00:00",
+      "snapshot_id": "original_five_b10_accepted_20260917",
+      "summary": "results/snapshots/original_five_b10_accepted_20260917/summary.json"
     },
     {
-      "snapshot_id": "partial_20260918T010438_CST",
-      "observed_utc": "2026-09-17T17:04:38.858954+00:00",
-      "observed_CST": "2026-09-18T01:04:38.858954+08:00",
-      "summary": "results/snapshots/partial_20260918T010438_CST/summary.json",
       "budgets": {
         "10": {
-          "expected_trajectories": 60,
-          "completed_trajectories": 53,
-          "expected_systems": 30,
+          "AUDC": {
+            "baseline_mean": 0.11652173913043479,
+            "baseline_sum": 2.68,
+            "full_mean": 0.14130434782608695,
+            "full_minus_baseline": 0.02478260869565216,
+            "full_sum": 3.25,
+            "losses": 4,
+            "pairs": 23,
+            "ties": 13,
+            "wins": 6
+          },
+          "SUN": {
+            "baseline_mean": 0.9565217391304348,
+            "baseline_sum": 22,
+            "full_mean": 1.3478260869565217,
+            "full_minus_baseline": 0.3913043478260869,
+            "full_sum": 31,
+            "losses": 4,
+            "pairs": 23,
+            "ties": 13,
+            "wins": 6
+          },
+          "claimed_or_ledger_running": 4,
           "complete_pairs": 23,
+          "completed_candidate_attempts": 530,
+          "completed_trajectories": 53,
+          "counts_are_not_additive_across_snapshots": true,
+          "data_computation_complete": false,
+          "expected_systems": 30,
+          "expected_trajectories": 60,
+          "mSUN": {
+            "baseline_mean": 0.09565217391304348,
+            "baseline_sum": 2.2,
+            "full_mean": 0.13478260869565217,
+            "full_minus_baseline": 0.03913043478260869,
+            "full_sum": 3.0999999999999996,
+            "losses": 4,
+            "pairs": 23,
+            "ties": 13,
+            "wins": 6
+          },
+          "not_yet_represented_systems": 0,
+          "pending_unclaimed": 3,
+          "rollout_wall_seconds_by_method": {
+            "baseline": {
+              "median": 529.1765337297693,
+              "n": 30,
+              "p25": 413.99127098592,
+              "p75": 672.6520330987405
+            },
+            "esopt_graph_risk": {
+              "median": 1708.7622740194201,
+              "n": 23,
+              "p25": 1415.642453316832,
+              "p75": 1880.9711845165584
+            }
+          },
+          "scope_publication_accepted_at_snapshot": false,
           "unpaired_systems": {
             "Co-Hf-In-Ru-Tm": [
               "baseline"
@@ -168,262 +1277,262 @@
             "Mg-Sn-Sr": [
               "baseline"
             ]
-          },
-          "not_yet_represented_systems": 0,
-          "completed_candidate_attempts": 530,
-          "counts_are_not_additive_across_snapshots": true,
-          "data_computation_complete": false,
-          "scope_publication_accepted_at_snapshot": false,
-          "claimed_or_ledger_running": 4,
-          "pending_unclaimed": 3,
-          "SUN": {
-            "pairs": 23,
-            "baseline_sum": 22,
-            "full_sum": 31,
-            "baseline_mean": 0.9565217391304348,
-            "full_mean": 1.3478260869565217,
-            "full_minus_baseline": 0.3913043478260869,
-            "wins": 6,
-            "losses": 4,
-            "ties": 13
-          },
-          "AUDC": {
-            "pairs": 23,
-            "baseline_sum": 2.68,
-            "full_sum": 3.25,
-            "baseline_mean": 0.11652173913043479,
-            "full_mean": 0.14130434782608695,
-            "full_minus_baseline": 0.02478260869565216,
-            "wins": 6,
-            "losses": 4,
-            "ties": 13
-          },
-          "mSUN": {
-            "pairs": 23,
-            "baseline_sum": 2.2,
-            "full_sum": 3.0999999999999996,
-            "baseline_mean": 0.09565217391304348,
-            "full_mean": 0.13478260869565217,
-            "full_minus_baseline": 0.03913043478260869,
-            "wins": 6,
-            "losses": 4,
-            "ties": 13
-          },
-          "rollout_wall_seconds_by_method": {
-            "baseline": {
-              "n": 30,
-              "p25": 413.99127098592,
-              "median": 529.1765337297693,
-              "p75": 672.6520330987405
-            },
-            "esopt_graph_risk": {
-              "n": 23,
-              "p25": 1415.642453316832,
-              "median": 1708.7622740194201,
-              "p75": 1880.9711845165584
-            }
           }
         },
         "30": {
-          "expected_trajectories": 60,
-          "completed_trajectories": 1,
-          "expected_systems": 30,
+          "AUDC": {
+            "baseline_mean": null,
+            "baseline_sum": null,
+            "full_mean": null,
+            "full_minus_baseline": null,
+            "full_sum": null,
+            "losses": 0,
+            "pairs": 0,
+            "ties": 0,
+            "wins": 0
+          },
+          "SUN": {
+            "baseline_mean": null,
+            "baseline_sum": null,
+            "full_mean": null,
+            "full_minus_baseline": null,
+            "full_sum": null,
+            "losses": 0,
+            "pairs": 0,
+            "ties": 0,
+            "wins": 0
+          },
+          "claimed_or_ledger_running": 2,
           "complete_pairs": 0,
+          "completed_candidate_attempts": 30,
+          "completed_trajectories": 1,
+          "counts_are_not_additive_across_snapshots": true,
+          "data_computation_complete": false,
+          "expected_systems": 30,
+          "expected_trajectories": 60,
+          "mSUN": {
+            "baseline_mean": null,
+            "baseline_sum": null,
+            "full_mean": null,
+            "full_minus_baseline": null,
+            "full_sum": null,
+            "losses": 0,
+            "pairs": 0,
+            "ties": 0,
+            "wins": 0
+          },
+          "not_yet_represented_systems": 29,
+          "pending_unclaimed": 57,
+          "rollout_wall_seconds_by_method": {
+            "baseline": {
+              "median": 2388.581607230939,
+              "n": 1,
+              "p25": 2388.581607230939,
+              "p75": 2388.581607230939
+            },
+            "esopt_graph_risk": {
+              "median": null,
+              "n": 0,
+              "p25": null,
+              "p75": null
+            }
+          },
+          "scope_publication_accepted_at_snapshot": false,
           "unpaired_systems": {
             "Al-Li-V": [
               "baseline"
             ]
-          },
-          "not_yet_represented_systems": 29,
-          "completed_candidate_attempts": 30,
-          "counts_are_not_additive_across_snapshots": true,
-          "data_computation_complete": false,
-          "scope_publication_accepted_at_snapshot": false,
-          "claimed_or_ledger_running": 2,
-          "pending_unclaimed": 57,
-          "SUN": {
-            "pairs": 0,
-            "baseline_sum": null,
-            "full_sum": null,
-            "baseline_mean": null,
-            "full_mean": null,
-            "full_minus_baseline": null,
-            "wins": 0,
-            "losses": 0,
-            "ties": 0
-          },
-          "AUDC": {
-            "pairs": 0,
-            "baseline_sum": null,
-            "full_sum": null,
-            "baseline_mean": null,
-            "full_mean": null,
-            "full_minus_baseline": null,
-            "wins": 0,
-            "losses": 0,
-            "ties": 0
-          },
-          "mSUN": {
-            "pairs": 0,
-            "baseline_sum": null,
-            "full_sum": null,
-            "baseline_mean": null,
-            "full_mean": null,
-            "full_minus_baseline": null,
-            "wins": 0,
-            "losses": 0,
-            "ties": 0
-          },
-          "rollout_wall_seconds_by_method": {
-            "baseline": {
-              "n": 1,
-              "p25": 2388.581607230939,
-              "median": 2388.581607230939,
-              "p75": 2388.581607230939
-            },
-            "esopt_graph_risk": {
-              "n": 0,
-              "p25": null,
-              "median": null,
-              "p75": null
-            }
           }
         },
         "50": {
-          "expected_trajectories": 60,
-          "completed_trajectories": 0,
-          "expected_systems": 30,
+          "AUDC": {
+            "baseline_mean": null,
+            "baseline_sum": null,
+            "full_mean": null,
+            "full_minus_baseline": null,
+            "full_sum": null,
+            "losses": 0,
+            "pairs": 0,
+            "ties": 0,
+            "wins": 0
+          },
+          "SUN": {
+            "baseline_mean": null,
+            "baseline_sum": null,
+            "full_mean": null,
+            "full_minus_baseline": null,
+            "full_sum": null,
+            "losses": 0,
+            "pairs": 0,
+            "ties": 0,
+            "wins": 0
+          },
+          "claimed_or_ledger_running": 0,
           "complete_pairs": 0,
-          "unpaired_systems": {},
-          "not_yet_represented_systems": 30,
           "completed_candidate_attempts": 0,
+          "completed_trajectories": 0,
           "counts_are_not_additive_across_snapshots": true,
           "data_computation_complete": false,
-          "scope_publication_accepted_at_snapshot": false,
-          "claimed_or_ledger_running": 0,
-          "pending_unclaimed": 60,
-          "SUN": {
-            "pairs": 0,
-            "baseline_sum": null,
-            "full_sum": null,
-            "baseline_mean": null,
-            "full_mean": null,
-            "full_minus_baseline": null,
-            "wins": 0,
-            "losses": 0,
-            "ties": 0
-          },
-          "AUDC": {
-            "pairs": 0,
-            "baseline_sum": null,
-            "full_sum": null,
-            "baseline_mean": null,
-            "full_mean": null,
-            "full_minus_baseline": null,
-            "wins": 0,
-            "losses": 0,
-            "ties": 0
-          },
+          "expected_systems": 30,
+          "expected_trajectories": 60,
           "mSUN": {
-            "pairs": 0,
-            "baseline_sum": null,
-            "full_sum": null,
             "baseline_mean": null,
+            "baseline_sum": null,
             "full_mean": null,
             "full_minus_baseline": null,
-            "wins": 0,
+            "full_sum": null,
             "losses": 0,
-            "ties": 0
+            "pairs": 0,
+            "ties": 0,
+            "wins": 0
           },
+          "not_yet_represented_systems": 30,
+          "pending_unclaimed": 60,
           "rollout_wall_seconds_by_method": {
             "baseline": {
+              "median": null,
               "n": 0,
               "p25": null,
-              "median": null,
               "p75": null
             },
             "esopt_graph_risk": {
+              "median": null,
               "n": 0,
               "p25": null,
-              "median": null,
               "p75": null
             }
-          }
+          },
+          "scope_publication_accepted_at_snapshot": false,
+          "unpaired_systems": {}
         }
-      }
+      },
+      "observed_CST": "2026-09-18T01:04:38.858954+08:00",
+      "observed_utc": "2026-09-17T17:04:38.858954+00:00",
+      "snapshot_id": "partial_20260918T010438_CST",
+      "summary": "results/snapshots/partial_20260918T010438_CST/summary.json"
     },
     {
-      "snapshot_id": "latest_20260918T153227_CST",
-      "observed_utc": "2026-09-18T07:32:27.562281+00:00",
-      "observed_CST": "2026-09-18T15:32:27.562281+08:00",
-      "summary": "results/snapshots/latest_20260918T153227_CST/summary.json",
       "budgets": {
         "10": {
-          "expected_trajectories": 60,
-          "completed_trajectories": 60,
-          "expected_systems": 30,
-          "complete_pairs": 30,
-          "unpaired_systems": {},
-          "not_yet_represented_systems": 0,
-          "completed_candidate_attempts": 600,
-          "counts_are_not_additive_across_snapshots": true,
-          "data_computation_complete": true,
-          "scope_publication_accepted_at_snapshot": false,
-          "claimed_or_ledger_running": 0,
-          "pending_unclaimed": 0,
-          "SUN": {
-            "pairs": 30,
-            "baseline_sum": 42,
-            "full_sum": 54,
-            "baseline_mean": 1.4,
-            "full_mean": 1.8,
-            "full_minus_baseline": 0.40000000000000013,
-            "wins": 7,
-            "losses": 5,
-            "ties": 18
-          },
           "AUDC": {
-            "pairs": 30,
-            "baseline_sum": 4.64,
-            "full_sum": 5.66,
             "baseline_mean": 0.15466666666666667,
+            "baseline_sum": 4.64,
             "full_mean": 0.18866666666666668,
             "full_minus_baseline": 0.034,
-            "wins": 8,
+            "full_sum": 5.66,
             "losses": 6,
-            "ties": 16
-          },
-          "mSUN": {
             "pairs": 30,
-            "baseline_sum": 4.2,
-            "full_sum": 5.3999999999999995,
+            "ties": 16,
+            "wins": 8
+          },
+          "SUN": {
+            "baseline_mean": 1.4,
+            "baseline_sum": 42,
+            "full_mean": 1.8,
+            "full_minus_baseline": 0.40000000000000013,
+            "full_sum": 54,
+            "losses": 5,
+            "pairs": 30,
+            "ties": 18,
+            "wins": 7
+          },
+          "claimed_or_ledger_running": 0,
+          "complete_pairs": 30,
+          "completed_candidate_attempts": 600,
+          "completed_trajectories": 60,
+          "counts_are_not_additive_across_snapshots": true,
+          "data_computation_complete": true,
+          "expected_systems": 30,
+          "expected_trajectories": 60,
+          "mSUN": {
             "baseline_mean": 0.13999999999999999,
+            "baseline_sum": 4.2,
             "full_mean": 0.18,
             "full_minus_baseline": 0.04000000000000001,
-            "wins": 7,
+            "full_sum": 5.3999999999999995,
             "losses": 5,
-            "ties": 18
+            "pairs": 30,
+            "ties": 18,
+            "wins": 7
           },
+          "not_yet_represented_systems": 0,
+          "pending_unclaimed": 0,
           "rollout_wall_seconds_by_method": {
             "baseline": {
+              "median": 529.1765337297693,
               "n": 30,
               "p25": 413.99127098592,
-              "median": 529.1765337297693,
               "p75": 672.6520330987405
             },
             "esopt_graph_risk": {
+              "median": 1698.631892804755,
               "n": 30,
               "p25": 1424.6971375739668,
-              "median": 1698.631892804755,
               "p75": 1922.663153593894
             }
-          }
+          },
+          "scope_publication_accepted_at_snapshot": false,
+          "unpaired_systems": {}
         },
         "30": {
-          "expected_trajectories": 60,
-          "completed_trajectories": 45,
-          "expected_systems": 30,
+          "AUDC": {
+            "baseline_mean": 0.2657777777777778,
+            "baseline_sum": 3.9866666666666672,
+            "full_mean": 0.1637037037037037,
+            "full_minus_baseline": -0.10207407407407407,
+            "full_sum": 2.4555555555555557,
+            "losses": 8,
+            "pairs": 15,
+            "ties": 6,
+            "wins": 1
+          },
+          "SUN": {
+            "baseline_mean": 7.333333333333333,
+            "baseline_sum": 110,
+            "full_mean": 4.533333333333333,
+            "full_minus_baseline": -2.8,
+            "full_sum": 68,
+            "losses": 6,
+            "pairs": 15,
+            "ties": 7,
+            "wins": 2
+          },
+          "claimed_or_ledger_running": 3,
           "complete_pairs": 15,
+          "completed_candidate_attempts": 1350,
+          "completed_trajectories": 45,
+          "counts_are_not_additive_across_snapshots": true,
+          "data_computation_complete": false,
+          "expected_systems": 30,
+          "expected_trajectories": 60,
+          "mSUN": {
+            "baseline_mean": 0.24444444444444444,
+            "baseline_sum": 3.6666666666666665,
+            "full_mean": 0.1511111111111111,
+            "full_minus_baseline": -0.09333333333333332,
+            "full_sum": 2.2666666666666666,
+            "losses": 6,
+            "pairs": 15,
+            "ties": 7,
+            "wins": 2
+          },
+          "not_yet_represented_systems": 0,
+          "pending_unclaimed": 12,
+          "rollout_wall_seconds_by_method": {
+            "baseline": {
+              "median": 2897.4134569836315,
+              "n": 30,
+              "p25": 2070.7932427148335,
+              "p75": 3314.3464441520628
+            },
+            "esopt_graph_risk": {
+              "median": 4044.6915138065815,
+              "n": 15,
+              "p25": 3912.681418721564,
+              "p75": 4433.011412884109
+            }
+          },
+          "scope_publication_accepted_at_snapshot": false,
           "unpaired_systems": {
             "Ag-Nd-Pd-Pt-Tb": [
               "baseline"
@@ -470,130 +1579,76 @@
             "Ho-In-Mg-Pd-Zr": [
               "baseline"
             ]
-          },
-          "not_yet_represented_systems": 0,
-          "completed_candidate_attempts": 1350,
-          "counts_are_not_additive_across_snapshots": true,
-          "data_computation_complete": false,
-          "scope_publication_accepted_at_snapshot": false,
-          "claimed_or_ledger_running": 3,
-          "pending_unclaimed": 12,
-          "SUN": {
-            "pairs": 15,
-            "baseline_sum": 110,
-            "full_sum": 68,
-            "baseline_mean": 7.333333333333333,
-            "full_mean": 4.533333333333333,
-            "full_minus_baseline": -2.8,
-            "wins": 2,
-            "losses": 6,
-            "ties": 7
-          },
-          "AUDC": {
-            "pairs": 15,
-            "baseline_sum": 3.9866666666666672,
-            "full_sum": 2.4555555555555557,
-            "baseline_mean": 0.2657777777777778,
-            "full_mean": 0.1637037037037037,
-            "full_minus_baseline": -0.10207407407407407,
-            "wins": 1,
-            "losses": 8,
-            "ties": 6
-          },
-          "mSUN": {
-            "pairs": 15,
-            "baseline_sum": 3.6666666666666665,
-            "full_sum": 2.2666666666666666,
-            "baseline_mean": 0.24444444444444444,
-            "full_mean": 0.1511111111111111,
-            "full_minus_baseline": -0.09333333333333332,
-            "wins": 2,
-            "losses": 6,
-            "ties": 7
-          },
-          "rollout_wall_seconds_by_method": {
-            "baseline": {
-              "n": 30,
-              "p25": 2070.7932427148335,
-              "median": 2897.4134569836315,
-              "p75": 3314.3464441520628
-            },
-            "esopt_graph_risk": {
-              "n": 15,
-              "p25": 3912.681418721564,
-              "median": 4044.6915138065815,
-              "p75": 4433.011412884109
-            }
           }
         },
         "50": {
-          "expected_trajectories": 60,
-          "completed_trajectories": 0,
-          "expected_systems": 30,
+          "AUDC": {
+            "baseline_mean": null,
+            "baseline_sum": null,
+            "full_mean": null,
+            "full_minus_baseline": null,
+            "full_sum": null,
+            "losses": 0,
+            "pairs": 0,
+            "ties": 0,
+            "wins": 0
+          },
+          "SUN": {
+            "baseline_mean": null,
+            "baseline_sum": null,
+            "full_mean": null,
+            "full_minus_baseline": null,
+            "full_sum": null,
+            "losses": 0,
+            "pairs": 0,
+            "ties": 0,
+            "wins": 0
+          },
+          "claimed_or_ledger_running": 0,
           "complete_pairs": 0,
-          "unpaired_systems": {},
-          "not_yet_represented_systems": 30,
           "completed_candidate_attempts": 0,
+          "completed_trajectories": 0,
           "counts_are_not_additive_across_snapshots": true,
           "data_computation_complete": false,
-          "scope_publication_accepted_at_snapshot": false,
-          "claimed_or_ledger_running": 0,
-          "pending_unclaimed": 60,
-          "SUN": {
-            "pairs": 0,
-            "baseline_sum": null,
-            "full_sum": null,
-            "baseline_mean": null,
-            "full_mean": null,
-            "full_minus_baseline": null,
-            "wins": 0,
-            "losses": 0,
-            "ties": 0
-          },
-          "AUDC": {
-            "pairs": 0,
-            "baseline_sum": null,
-            "full_sum": null,
-            "baseline_mean": null,
-            "full_mean": null,
-            "full_minus_baseline": null,
-            "wins": 0,
-            "losses": 0,
-            "ties": 0
-          },
+          "expected_systems": 30,
+          "expected_trajectories": 60,
           "mSUN": {
-            "pairs": 0,
-            "baseline_sum": null,
-            "full_sum": null,
             "baseline_mean": null,
+            "baseline_sum": null,
             "full_mean": null,
             "full_minus_baseline": null,
-            "wins": 0,
+            "full_sum": null,
             "losses": 0,
-            "ties": 0
+            "pairs": 0,
+            "ties": 0,
+            "wins": 0
           },
+          "not_yet_represented_systems": 30,
+          "pending_unclaimed": 60,
           "rollout_wall_seconds_by_method": {
             "baseline": {
+              "median": null,
               "n": 0,
               "p25": null,
-              "median": null,
               "p75": null
             },
             "esopt_graph_risk": {
+              "median": null,
               "n": 0,
               "p25": null,
-              "median": null,
               "p75": null
             }
-          }
+          },
+          "scope_publication_accepted_at_snapshot": false,
+          "unpaired_systems": {}
         }
-      }
+      },
+      "observed_CST": "2026-09-18T15:32:27.562281+08:00",
+      "observed_utc": "2026-09-18T07:32:27.562281+00:00",
+      "snapshot_id": "latest_20260918T153227_CST",
+      "summary": "results/snapshots/latest_20260918T153227_CST/summary.json"
     },
     {
-      "snapshot_id": "b10_b30_complete_b50_partial_20260919T011039_CST",
-      "observed_utc": "2026-09-18T17:10:39.978473+00:00",
-      "observed_CST": "2026-09-19T01:10:39.978473+08:00",
-      "summary": "results/budget_sweep/20260919T010939_CST/summary.json",
       "budgets": {
         "10": {
           "AUDC": {
@@ -1073,13 +2128,13 @@
           ],
           "pending_trajectories": 16
         }
-      }
+      },
+      "observed_CST": "2026-09-19T01:10:39.978473+08:00",
+      "observed_utc": "2026-09-18T17:10:39.978473+00:00",
+      "snapshot_id": "b10_b30_complete_b50_partial_20260919T011039_CST",
+      "summary": "results/budget_sweep/20260919T010939_CST/summary.json"
     },
     {
-      "snapshot_id": "b10_b30_b50_complete_20260919T052138_CST",
-      "observed_utc": "2026-09-18T21:21:38.188817+00:00",
-      "observed_CST": "2026-09-19T05:21:38.188817+08:00",
-      "summary": "results/budget_sweep/20260919T052138_CST/summary.json",
       "budgets": {
         "10": {
           "AUDC": {
@@ -1606,18 +2661,16 @@
           "pending_trajectories": 0,
           "run_to_run_variance": null
         }
-      }
+      },
+      "observed_CST": "2026-09-19T05:21:38.188817+08:00",
+      "observed_utc": "2026-09-18T21:21:38.188817+00:00",
+      "snapshot_id": "b10_b30_b50_complete_20260919T052138_CST",
+      "summary": "results/budget_sweep/20260919T052138_CST/summary.json"
     }
   ],
   "snapshots_are_not_independent_additive_runs": true,
-  "latest_snapshot_id": "b10_b30_b50_complete_20260919T052138_CST",
   "statistical_exports": [
     {
-      "export_id": "b10_b30_complete_20260918T184426_CST",
-      "observed_utc": "2026-09-18T10:44:26.822934+00:00",
-      "observed_CST": "2026-09-18T18:44:26.822961+08:00",
-      "summary": "results/statistics/b10_b30_complete_20260918T184426_CST/summary.json",
-      "provenance": "results/statistics/b10_b30_complete_20260918T184426_CST/provenance.json",
       "complete_pairs": {
         "10": 30,
         "30": 30,
@@ -1628,17 +2681,18 @@
         "30": 60,
         "50": 0
       },
-      "three_budget_global_receipt_published": false,
-      "variance_axis": "chemical_system",
+      "export_id": "b10_b30_complete_20260918T184426_CST",
+      "observed_CST": "2026-09-18T18:44:26.822961+08:00",
+      "observed_utc": "2026-09-18T10:44:26.822934+00:00",
+      "provenance": "results/statistics/b10_b30_complete_20260918T184426_CST/provenance.json",
       "sample_variance_ddof": 1,
-      "seed": 1
+      "seed": 1,
+      "summary": "results/statistics/b10_b30_complete_20260918T184426_CST/summary.json",
+      "three_budget_global_receipt_published": false,
+      "variance_axis": "chemical_system"
     },
     {
-      "export_id": "b10_b30_complete_b50_partial_20260919T011039_CST",
-      "observed_utc": "2026-09-18T17:10:39.978473+00:00",
-      "observed_CST": "2026-09-19T01:10:39.978473+08:00",
-      "summary": "results/budget_sweep/20260919T010939_CST/summary.json",
-      "provenance": "results/budget_sweep/20260919T010939_CST/provenance.json",
+      "all_registered_rows": "results/budget_sweep/20260919T010939_CST/all_system_results.csv",
       "complete_pairs": {
         "10": 30,
         "30": 30,
@@ -1649,19 +2703,21 @@
         "30": 60,
         "50": 34
       },
-      "three_budget_global_receipt_published": false,
-      "variance_axis": "chemical_system",
+      "export_id": "b10_b30_complete_b50_partial_20260919T011039_CST",
+      "observed_CST": "2026-09-19T01:10:39.978473+08:00",
+      "observed_utc": "2026-09-18T17:10:39.978473+00:00",
+      "provenance": "results/budget_sweep/20260919T010939_CST/provenance.json",
       "sample_variance_ddof": 1,
       "seed": 1,
-      "all_registered_rows": "results/budget_sweep/20260919T010939_CST/all_system_results.csv",
-      "validation_script": "results/budget_sweep/20260919T010939_CST/recompute.py"
+      "summary": "results/budget_sweep/20260919T010939_CST/summary.json",
+      "three_budget_global_receipt_published": false,
+      "validation_script": "results/budget_sweep/20260919T010939_CST/recompute.py",
+      "variance_axis": "chemical_system"
     },
     {
-      "export_id": "b10_b30_b50_complete_20260919T052138_CST",
-      "observed_utc": "2026-09-18T21:21:38.188817+00:00",
-      "observed_CST": "2026-09-19T05:21:38.188817+08:00",
-      "summary": "results/budget_sweep/20260919T052138_CST/summary.json",
-      "provenance": "results/budget_sweep/20260919T052138_CST/provenance.json",
+      "available_seeds": [
+        1
+      ],
       "complete_pairs": {
         "10": 30,
         "30": 30,
@@ -1672,1030 +2728,16 @@
         "30": 60,
         "50": 60
       },
-      "original_runner_acceptances": 179,
+      "export_id": "b10_b30_b50_complete_20260919T052138_CST",
       "independently_derived_acceptances": 1,
+      "observed_CST": "2026-09-19T05:21:38.188817+08:00",
+      "observed_utc": "2026-09-18T21:21:38.188817+00:00",
+      "original_runner_acceptances": 179,
+      "provenance": "results/budget_sweep/20260919T052138_CST/provenance.json",
+      "run_to_run_variance": null,
+      "summary": "results/budget_sweep/20260919T052138_CST/summary.json",
       "three_budget_global_receipt_published": false,
-      "variance_axis": "chemical_system_at_seed1_not_repeated_seeds",
-      "available_seeds": [
-        1
-      ],
-      "run_to_run_variance": null
-    }
-  ],
-  "latest_statistical_export_id": "b10_b30_b50_complete_20260919T052138_CST",
-  "latest_observation_utc": "2026-09-18T21:21:38.188817+00:00",
-  "benchmark_exports": [
-    {
-      "benchmark": "Summit SnAr",
-      "export_id": "summit_snar_accepted_20260919T162548_CST",
-      "accepted_CST": "2026-09-19T16:25:48.135994+08:00",
-      "report": "results/summit_snar/20260919T162548_CST/report.md",
-      "summary": "results/summit_snar/20260919T162548_CST/summary.json",
-      "validation_script": "results/summit_snar/20260919T162548_CST/recompute.py",
-      "arms": 7,
-      "test_episodes": 35,
-      "evaluation_seeds": [
-        5101,
-        5102,
-        5103,
-        5104,
-        5105
-      ],
-      "unique_physical_calls": 2300,
-      "independent_derived_acceptance_passed": true,
-      "original_report_failure_preserved": true,
-      "not_part_of_MADE_180_matrix": true
-    }
-  ],
-  "component_study_exports": [
-    {
-      "snapshot_id": "made_components_20260919T172603_CST",
-      "observed_utc": "2026-09-19T09:26:03.436872+00:00",
-      "observed_CST": "2026-09-19T17:26:03.436872+08:00",
-      "summary": "results/made_components/20260919T172603_CST/progress_summary.json",
-      "report": "results/made_components/20260919T172603_CST/progress.md",
-      "case_report": "results/made_components/20260919T172603_CST/report.md",
-      "accepted_evaluations": 172,
-      "planned_evaluations": 1080,
-      "common_four_arm_systems": 17,
-      "common_budget": 10,
-      "common_seed": 2,
-      "complete": false,
-      "repeated_seed_variance_estimated": false
-    },
-    {
-      "snapshot_id": "made_components_20260919T185004_CST",
-      "observed_utc": "2026-09-19T10:50:04.141141+00:00",
-      "observed_CST": "2026-09-19T18:50:04.141141+08:00",
-      "summary": "results/made_components/20260919T185004_CST/summary.json",
-      "report": "results/made_components/20260919T185004_CST/report.md",
-      "accepted_evaluations": 205,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "evaluation_seeds": [
-        2,
-        3,
-        4
-      ],
-      "fixed_configurations_with_three_seeds": {
-        "baseline_reference": 8,
-        "uq_only_support_aware": 0,
-        "es_only_independent": 10,
-        "full_support_aware": 1
-      },
-      "variance_scope": "within fixed system,budget,arm across completed evaluation seeds; n<3 explicitly partial; complete all30/core5 seed aggregation separate"
-    },
-    {
-      "snapshot_id": "made_core5_20260919T203417_CST",
-      "observed_CST": "2026-09-19T20:34:17.577945+08:00",
-      "observed_utc": "2026-09-19T12:34:17.577945+00:00",
-      "report": "results/made_components/core5/20260919T203417_CST/report.md",
-      "summary": "results/made_components/core5/20260919T203417_CST/summary.json",
-      "validation_script": "results/made_components/core5/20260919T203417_CST/analyze.py",
-      "accepted_evaluations_in_source_snapshot": 254,
-      "planned_evaluations": 1080,
-      "export_scope": "Fixed-five-system B10 subset; 60 original planned cells,56 complete",
-      "exported_planned_cells": 60,
-      "exported_completed_evaluations": 56,
-      "evaluation_seeds": [
-        2,
-        3,
-        4
-      ],
-      "budget": 10,
-      "complete_runs_by_arm": {
-        "baseline_reference": 15,
-        "full_support_aware": 15,
-        "es_only_independent": 15,
-        "uq_only_support_aware": 11
-      },
-      "four_arm_core_ablation_complete": false,
-      "complete": false,
-      "variance_scope": "Evaluation seeds within fixed system/arm, or three complete five-system seed aggregates; ddof=1; not training repeats",
-      "not_additive_to_1080": true,
-      "accepted_evaluations": 254
-    },
-    {
-      "snapshot_id": "made_core5_complete_20260919T212712_CST",
-      "observed_CST": "2026-09-19T21:27:12.079926+08:00",
-      "observed_utc": "2026-09-19T13:27:12.079926+00:00",
-      "report": "results/made_components/core5/20260919T212712_CST/report.md",
-      "summary": "results/made_components/core5/20260919T212712_CST/summary.json",
-      "validation_script": "results/made_components/core5/20260919T212712_CST/analyze.py",
-      "accepted_evaluations": 279,
-      "planned_evaluations": 1080,
-      "export_scope": "Complete fixed-five-system four-arm B10 evaluation-seed subset, not full1080 completion",
-      "exported_planned_cells": 60,
-      "exported_completed_evaluations": 60,
-      "evaluation_seeds": [
-        2,
-        3,
-        4
-      ],
-      "budget": 10,
-      "complete_runs_by_arm": {
-        "baseline_reference": 15,
-        "uq_only_support_aware": 15,
-        "es_only_independent": 15,
-        "full_support_aware": 15
-      },
-      "four_arm_core_ablation_complete": true,
-      "complete": false,
-      "full_study_complete": false,
-      "not_additive_to_1080": true,
-      "variance_scope": "ddof1 across evaluation seeds within fixed system/arm or fixed-five seed aggregates; not training repeats",
-      "algorithm_contrasts_not_fixed_weight_causal_effects": true,
-      "NN_contribution_separately_isolated": false
-    }
-  ],
-  "development_exports": [
-    {
-      "export_id": "support_mechanism_audit_20260919T174119_CST",
-      "observed_utc": "2026-09-19T09:41:19.132087+00:00",
-      "fixed_test_cohort_observed_CST": "2026-09-19T17:26:03.436872+08:00",
-      "report": "results/development/support_mechanism_audit/20260919T174119_CST/REPORT.md",
-      "summary": "results/development/support_mechanism_audit/20260919T174119_CST/analysis.json",
-      "fixed_test_trajectories": 68,
-      "full_train_dev_trajectories": 6,
-      "deduplicated_train_dev_events": 60,
-      "descriptive_only": true,
-      "G0_dev_executed_at_snapshot": false,
-      "repeated_seed_variance_estimated": false
-    },
-    {
-      "export_id": "grouped_scalar_risk_20260919T192455_CST",
-      "completed_CST": "2026-09-19T19:24:55.039408+08:00",
-      "observed_CST": "2026-09-19T19:28:21.417572+08:00",
-      "report": "results/development/grouped_scalar_risk/20260919T192455_CST/report.md",
-      "summary": "results/development/grouped_scalar_risk/20260919T192455_CST/summary.json",
-      "validation_script": "results/development/grouped_scalar_risk/20260919T192455_CST/recompute.py",
-      "training_diagnostic": true,
-      "candidate_states": 54,
-      "raw_proposals": 386,
-      "train_rows": 293,
-      "dev_rows": 83,
-      "selected_optimizer_updates": {
-        "full_internal": 8,
-        "external_only_control": 32
-      },
-      "new_oracle_calls": 0,
-      "new_LLM_generation_calls": 0,
-      "controller_deployed": false,
-      "calibrated_dev_metrics_in_sample": true,
-      "not_part_of_materials_test_matrix": true
-    },
-    {
-      "export_id": "G0_development_comparison_20260919T200818_CST",
-      "report": "results/development/G0_comparison/20260919T200818_CST/report.md",
-      "summary": "results/development/G0_comparison/20260919T200818_CST/comparison.json",
-      "validation_script": "results/development/G0_comparison/20260919T200818_CST/recompute.py",
-      "task": "Al-Pd-Sm",
-      "budget": 10,
-      "previously_used_development_seeds": 1,
-      "AUDC_by_generation": {
-        "G0": 0.68,
-        "G1": 0.62,
-        "G2": 0.64
-      },
-      "new_candidate_calls_in_G0_diagnostic": 10,
-      "new_calls_for_G1_G2_references": 0,
-      "new_scientific_calls_for_export": 0,
-      "original_G2_selection_unchanged": true,
-      "heldout_evaluation": false,
-      "not_part_of_materials_test_matrix": true
-    }
-  ],
-  "latest_component_study_export_id": "made_core5_complete_20260919T212712_CST",
-  "analysis_exports": [
-    {
-      "export_id": "snar_case_analysis_20260919T2023_CST",
-      "benchmark": "Summit SnAr",
-      "report": "results/summit_snar/case_analysis/20260919T2023_CST/report.md",
-      "summary": "results/summit_snar/case_analysis/20260919T2023_CST/case_summary.json",
-      "label_and_prior_audit": "results/summit_snar/case_analysis/20260919T2023_CST/label_prior_check.md",
-      "validation_script": "results/summit_snar/case_analysis/20260919T2023_CST/recompute.py",
-      "source_benchmark_export_id": "summit_snar_accepted_20260919T162548_CST",
-      "reused_test_episodes": 35,
-      "new_scientific_calls": 0,
-      "test_recalibration": false,
-      "descriptive_case_analysis": true,
-      "additional_independent_experiments": false
-    },
-    {
-      "export_id": "snar_exact_candidate_analysis_20260919T202943_CST",
-      "benchmark": "Summit SnAr",
-      "observed_CST": "2026-09-19T20:29:43.318896+08:00",
-      "report": "results/summit_snar/candidate_analysis/20260919T202943_CST/report.md",
-      "summary": "results/summit_snar/candidate_analysis/20260919T202943_CST/summary.json",
-      "validation_script": "results/summit_snar/candidate_analysis/20260919T202943_CST/analyze.py",
-      "scientific_input": "results/summit_snar/candidate_analysis/20260919T202943_CST/observations.json.gz",
-      "source_benchmark_export_id": "summit_snar_accepted_20260919T162548_CST",
-      "reused_test_episodes": 15,
-      "executed_queries": 750,
-      "full_candidates": 248,
-      "train_dev_feature_rows": 125,
-      "new_scientific_calls": 0,
-      "test_recalibration": false,
-      "descriptive_selected_action_analysis": true,
-      "additional_independent_experiments": false
-    },
-    {
-      "export_id": "snar_feature_family_20260919T215305_CST",
-      "benchmark": "Summit SnAr",
-      "diagnostic_kind": "posthoc feature-family prediction diagnostic on fixed selected actions",
-      "accepted_reconstruction_CST": "2026-09-19T21:53:05.531281+08:00",
-      "report": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/REPORT.md",
-      "readme": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/README.md",
-      "metrics": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/model_metrics.csv",
-      "validation_script": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/recompute.py",
-      "manifest": "results/summit_snar/feature_family_diagnostic/20260919T215305_CST/MANIFEST.json",
-      "NN_models": 12,
-      "feature_families": 4,
-      "NN_training_seeds": [
-        1729,
-        1730,
-        1731
-      ],
-      "recorded_CPU_optimizer_steps": 746,
-      "unique_executed_actions": 224,
-      "prediction_records": 2688,
-      "calibration_bin_rows": 1440,
-      "original_audit_returncode": 1,
-      "separate_byte_exact_reconstruction_accepted": true,
-      "physical_selected_generation": {
-        "full": 0,
-        "es_only": 0
-      },
-      "full_UQ_physical_curves_equal": true,
-      "ES_only_base_physical_curves_equal": true,
-      "new_physical_queries_for_diagnostic": 0,
-      "new_fits_for_publication": 0,
-      "causal_graph_contribution_isolated": false,
-      "policy_deployed": false,
-      "additional_independent_physical_experiments": false
-    },
-    {
-      "export_id": "snar_paper_table_20260919T162548_CST",
-      "benchmark": "Summit SnAr",
-      "report": "results/summit_snar/paper_table/20260919T162548_CST/REPORT.md",
-      "table_tex": "results/summit_snar/paper_table/20260919T162548_CST/table.tex",
-      "summary": "results/summit_snar/paper_table/20260919T162548_CST/summary.json",
-      "validation_script": "results/summit_snar/paper_table/20260919T162548_CST/recompute.py",
-      "source_benchmark_export_id": "summit_snar_accepted_20260919T162548_CST",
-      "reused_test_episodes": 35,
-      "new_scientific_calls": 0,
-      "additional_independent_experiments": false,
-      "both_ES_branches_selected_G0": true
-    },
-    {
-      "export_id": "snar_sampling_hidden_20260919T221018_CST",
-      "benchmark": "Summit SnAr",
-      "report": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/REPORT.md",
-      "summary": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/summary.json",
-      "validation_script": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/recompute.py",
-      "manifest": "results/summit_snar/sampling_hidden_diagnostic/20260919T221018_CST/MANIFEST.json",
-      "diagnostic_kind": "additional sampling+hidden feature family on fixed saved actions",
-      "new_NN_models": 3,
-      "cumulative_NN_models": 15,
-      "new_recorded_CPU_optimizer_steps": 180,
-      "cumulative_CPU_optimizer_steps": 926,
-      "new_prediction_records": 672,
-      "unique_physical_actions": 224,
-      "NN_training_seeds": [
-        1729,
-        1730,
-        1731
-      ],
-      "original_new_audit_passed": true,
-      "new_physical_queries": 0,
-      "new_fits_for_publication": 0,
-      "policy_deployed": false,
-      "causal_graph_contribution_isolated": false
-    },
-    {
-      "export_id": "made_core60_mechanism_20260919T220626_CST",
-      "benchmark": "MADE",
-      "report": "results/made_components/core5/mechanism_analysis/20260919T220626_CST/REPORT.md",
-      "summary": "results/made_components/core5/mechanism_analysis/20260919T220626_CST/summary.json",
-      "validation_script": "results/made_components/core5/mechanism_analysis/20260919T220626_CST/analyze.py",
-      "validation_Python_version": "3.12",
-      "reused_trajectories": 60,
-      "proposals": 1237,
-      "executed_policy_tools": 1174,
-      "candidate_ORB_steps": 600,
-      "new_scientific_calls": 0,
-      "test_tuning": false,
-      "additional_independent_experiments": false,
-      "NN_contribution_causally_isolated": false
-    },
-    {
-      "export_id": "paper_evidence_ES_20260920T020319_CST",
-      "report": "results/method_audits/full_parameter_ES/20260920T020319_CST/REPORT.md",
-      "manifest": "results/method_audits/full_parameter_ES/20260920T020319_CST/manifest.json",
-      "new_scientific_calls": 0,
-      "additional_independent_experiment": false,
-      "verification_scripts": [
-        "results/method_audits/full_parameter_ES/20260920T020319_CST/verify.py"
-      ],
-      "benchmarks": [
-        "MADE",
-        "Summit SnAr"
-      ],
-      "parameter_tensors": 723,
-      "parameter_numel": 4539265536,
-      "metadata_audit": true,
-      "selected_generations": {
-        "MADE_full": 2,
-        "MADE_ES_only": 1,
-        "SnAr_full": 0,
-        "SnAr_ES_only": 0
-      }
-    },
-    {
-      "export_id": "paper_evidence_framing_20260920T024720_CST",
-      "report": "results/made_components/full_baseline_recheck/20260920T024720_CST/REPORT.md",
-      "manifest": "results/made_components/full_baseline_recheck/20260920T024720_CST/manifest.json",
-      "new_scientific_calls": 0,
-      "additional_independent_experiment": false,
-      "verification_scripts": [
-        "results/made_components/full_baseline_recheck/20260920T024720_CST/recompute.py"
-      ],
-      "benchmark": "MADE",
-      "snapshot_accepted": 395,
-      "planned": 1080,
-      "complete_three_seed_B10_baseline_full_systems": 24,
-      "positive_tie_negative_systems": {
-        "SUN": [
-          6,
-          9,
-          9
-        ],
-        "AUDC": [
-          8,
-          7,
-          9
-        ]
-      },
-      "old_seed1_B50_scope_separate": true,
-      "current_B50_matched_pairs": 0
-    },
-    {
-      "export_id": "paper_evidence_recovery_20260920T021929_CST",
-      "report": "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/REPORT.md",
-      "manifest": "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/manifest.json",
-      "new_scientific_calls": 0,
-      "additional_independent_experiment": false,
-      "verification_scripts": [
-        "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/verify.py"
-      ],
-      "benchmark": "MADE",
-      "provenance_only": true,
-      "original_preexecution_failures": 23,
-      "original_candidate_budget": 430,
-      "physical_calls_before_recovery": 0,
-      "original_failed_attempts_preserved": true,
-      "recovery_not_scientific_completion": true
-    },
-    {
-      "export_id": "paper_evidence_snar_20260920T022703_CST",
-      "report": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/REPORT.md",
-      "manifest": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/manifest.json",
-      "new_scientific_calls": 0,
-      "additional_independent_experiment": false,
-      "verification_scripts": [
-        "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/analyze.py",
-        "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/verify.py"
-      ],
-      "benchmark": "Summit SnAr",
-      "descriptive_failure_diagnosis": true,
-      "archive_rescored_rows": 125,
-      "train_label_flips": 3,
-      "dev_label_flips": 3,
-      "archive_addendum": "results/summit_snar/risk_failure_diagnosis/20260920T022703_CST/ARCHIVE_ACTUAL_ADDENDUM.md",
-      "no_test_based_fitting": true,
-      "causal_mechanism_isolated": false
-    },
-    {
-      "export_id": "made_all_complete_B10_mechanisms_20260920T043843_CST",
-      "report": "results/made_components/mechanism_analysis/20260920T043843_CST/REPORT.md",
-      "summary": "results/made_components/mechanism_analysis/20260920T043843_CST/summary.json",
-      "manifest": "results/made_components/mechanism_analysis/20260920T043843_CST/manifest.json",
-      "validation_script": "results/made_components/mechanism_analysis/20260920T043843_CST/recompute.py",
-      "benchmark": "MADE",
-      "source_snapshot_accepted": 429,
-      "source_observed_CST": "2026-09-20T04:38:43.119663+08:00",
-      "chemistries": 24,
-      "evaluation_seeds": [
-        2,
-        3,
-        4
-      ],
-      "budget": 10,
-      "existing_trajectories": 144,
-      "existing_candidate_steps": 1440,
-      "posthoc_analysis": true,
-      "additional_independent_experiment": false,
-      "new_scientific_calls": 0,
-      "not_full_1080_completion": true,
-      "full_minus_baseline_total_SUN": -26,
-      "full_scalar_threshold_crossings": 0,
-      "full_risk_ranking_selection_changes": 0
-    }
-  ],
-  "incremental_component_exports": [
-    {
-      "snapshot_id": "made_incremental_20260920T004724_CST",
-      "observed_CST": "2026-09-20T00:47:24.240443+08:00",
-      "observed_UTC": "2026-09-19T16:47:24.240443+00:00",
-      "report": "results/made_components/incremental/20260920T004724_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T004724_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T004724_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T004724_CST/recompute.py",
-      "accepted_evaluations": 360,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "81c737d7bc671b306605406db23e4a9125d8bcec16f6f7f2391f5b3b31c4c329",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T011720_CST",
-      "observed_CST": "2026-09-20T01:17:20.973019+08:00",
-      "observed_UTC": "2026-09-19T17:17:20.973019+00:00",
-      "report": "results/made_components/incremental/20260920T011720_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T011720_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T011720_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T011720_CST/recompute.py",
-      "accepted_evaluations": 369,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "f940f5e32465bb2e7513f156fca027ef8856bd684d0309539297678088613117",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T014723_CST",
-      "observed_CST": "2026-09-20T01:47:23.122827+08:00",
-      "observed_UTC": "2026-09-19T17:47:23.122827+00:00",
-      "report": "results/made_components/incremental/20260920T014723_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T014723_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T014723_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T014723_CST/recompute.py",
-      "accepted_evaluations": 378,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "c39f496c633593ce75a102127040a11e16290e5ad93384afbf5605e38b5f94db",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T021724_CST",
-      "observed_CST": "2026-09-20T02:17:24.244546+08:00",
-      "observed_UTC": "2026-09-19T18:17:24.244546+00:00",
-      "report": "results/made_components/incremental/20260920T021724_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T021724_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T021724_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T021724_CST/recompute.py",
-      "accepted_evaluations": 387,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "f0d92a66ee1367f25e93704a44b8286c919f536514c74cc2eb22d02d545122d2",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T024720_CST",
-      "observed_CST": "2026-09-20T02:47:20.330199+08:00",
-      "observed_UTC": "2026-09-19T18:47:20.330199+00:00",
-      "report": "results/made_components/incremental/20260920T024720_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T024720_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T024720_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T024720_CST/recompute.py",
-      "accepted_evaluations": 395,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "f60578b4efbe8ee46adf5a2d0e86add13218ce90da248b4af18e533dc9d32a17",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T031724_CST",
-      "observed_CST": "2026-09-20T03:17:24.674094+08:00",
-      "observed_UTC": "2026-09-19T19:17:24.674094+00:00",
-      "report": "results/made_components/incremental/20260920T031724_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T031724_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T031724_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T031724_CST/recompute.py",
-      "accepted_evaluations": 405,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "726b5cd59176903043a554ad04f9a06febb6c66591cc25f07138168b5cc65f9b",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T043843_CST",
-      "observed_CST": "2026-09-20T04:38:43.119663+08:00",
-      "observed_UTC": "2026-09-19T20:38:43.119663+00:00",
-      "report": "results/made_components/incremental/20260920T043843_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T043843_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T043843_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T043843_CST/recompute.py",
-      "accepted_evaluations": 429,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "01c996c0e3b721b0beaab6c6192c08116f879ea912c481866c709cbd0b213581",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T050840_CST",
-      "observed_CST": "2026-09-20T05:08:40.053797+08:00",
-      "observed_UTC": "2026-09-19T21:08:40.053797+00:00",
-      "report": "results/made_components/incremental/20260920T050840_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T050840_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T050840_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T050840_CST/recompute.py",
-      "accepted_evaluations": 436,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "3fdf4d89e8924522eab995f98618fb791f3ae609e72655bc713112168b5df0aa",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T053842_CST",
-      "observed_CST": "2026-09-20T05:38:42.316543+08:00",
-      "observed_UTC": "2026-09-19T21:38:42.316543+00:00",
-      "report": "results/made_components/incremental/20260920T053842_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T053842_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T053842_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T053842_CST/recompute.py",
-      "accepted_evaluations": 445,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "f07ba82089f61e358ae53613fd0496bf50752e05916c0e1d3e64c611b56c1330",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T060840_CST",
-      "observed_CST": "2026-09-20T06:08:40.821446+08:00",
-      "observed_UTC": "2026-09-19T22:08:40.821446+00:00",
-      "report": "results/made_components/incremental/20260920T060840_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T060840_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T060840_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T060840_CST/recompute.py",
-      "accepted_evaluations": 454,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "2e3da2cb2b6f7519647b15de7d2bc62364681461001fdc2076860e8544e47b08",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T063846_CST",
-      "observed_CST": "2026-09-20T06:38:46.160844+08:00",
-      "observed_UTC": "2026-09-19T22:38:46.160844+00:00",
-      "report": "results/made_components/incremental/20260920T063846_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T063846_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T063846_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T063846_CST/recompute.py",
-      "accepted_evaluations": 462,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "bd8bd9a4dd41005e729b4106a70d5bcf90d9208f1365b27a9140703b5ebb0cd8",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T070839_CST",
-      "observed_CST": "2026-09-20T07:08:39.821468+08:00",
-      "observed_UTC": "2026-09-19T23:08:39.821468+00:00",
-      "report": "results/made_components/incremental/20260920T070839_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T070839_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T070839_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T070839_CST/recompute.py",
-      "accepted_evaluations": 473,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "2cbd99ccd76f139609076ae3b1009f324ddb0884d5af47e7a2715f7d7196bd8f",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T073844_CST",
-      "observed_CST": "2026-09-20T07:38:44.801421+08:00",
-      "observed_UTC": "2026-09-19T23:38:44.801421+00:00",
-      "report": "results/made_components/incremental/20260920T073844_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T073844_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T073844_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T073844_CST/recompute.py",
-      "accepted_evaluations": 478,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "d313cc0a5eda95683792ba0f01b0bae2a3dc8efe52f3ccb17ae5574e915227b7",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T080847_CST",
-      "observed_CST": "2026-09-20T08:08:47.198599+08:00",
-      "observed_UTC": "2026-09-20T00:08:47.198599+00:00",
-      "report": "results/made_components/incremental/20260920T080847_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T080847_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T080847_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T080847_CST/recompute.py",
-      "accepted_evaluations": 483,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "58aba09338b54fcc11031edb94a8016aeece833dcf9200331881ba28a318a5d1",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T083844_CST",
-      "observed_CST": "2026-09-20T08:38:44.808611+08:00",
-      "observed_UTC": "2026-09-20T00:38:44.808611+00:00",
-      "report": "results/made_components/incremental/20260920T083844_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T083844_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T083844_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T083844_CST/recompute.py",
-      "accepted_evaluations": 497,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "b3751c190e5494923ab942a381eacdbd5b31ddc379c2ad399a6372b27730e147",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T090848_CST",
-      "observed_CST": "2026-09-20T09:08:48.195769+08:00",
-      "observed_UTC": "2026-09-20T01:08:48.195769+00:00",
-      "report": "results/made_components/incremental/20260920T090848_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T090848_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T090848_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T090848_CST/recompute.py",
-      "accepted_evaluations": 504,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "05bcc155d09fd88433db167972b994d1dbe5d8b896b2dca26e83b74807449688",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T093847_CST",
-      "observed_CST": "2026-09-20T09:38:47.666306+08:00",
-      "observed_UTC": "2026-09-20T01:38:47.666306+00:00",
-      "report": "results/made_components/incremental/20260920T093847_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T093847_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T093847_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T093847_CST/recompute.py",
-      "accepted_evaluations": 510,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "64ee14bcafa7127b02f26fec64ad2a4b97a3ac33bf52fea443ee7375d1b27320",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T100849_CST",
-      "observed_CST": "2026-09-20T10:08:49.292415+08:00",
-      "observed_UTC": "2026-09-20T02:08:49.292415+00:00",
-      "report": "results/made_components/incremental/20260920T100849_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T100849_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T100849_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T100849_CST/recompute.py",
-      "accepted_evaluations": 522,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "4e0af8475865a8116981e318a5efad8d8668dbf08f0cbea48a3a401d92ed816b",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T103846_CST",
-      "observed_CST": "2026-09-20T10:38:46.635000+08:00",
-      "observed_UTC": "2026-09-20T02:38:46.635000+00:00",
-      "report": "results/made_components/incremental/20260920T103846_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T103846_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T103846_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T103846_CST/recompute.py",
-      "accepted_evaluations": 530,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "c0162a6c8bf253c582e4446ac8ff7ccdbf042512118053fb840a98b5a0adfac3",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    },
-    {
-      "snapshot_id": "made_incremental_20260920T110845_CST",
-      "observed_CST": "2026-09-20T11:08:45.767092+08:00",
-      "observed_UTC": "2026-09-20T03:08:45.767092+00:00",
-      "report": "results/made_components/incremental/20260920T110845_CST/report.md",
-      "summary": "results/made_components/incremental/20260920T110845_CST/summary.json",
-      "snapshot": "results/made_components/incremental/20260920T110845_CST/snapshot.json",
-      "validation_script": "results/made_components/incremental/20260920T110845_CST/recompute.py",
-      "accepted_evaluations": 539,
-      "planned_evaluations": 1080,
-      "complete": false,
-      "completed_terminal_signature": "4a7c0efed1c6aa33c5399f039236b9b6a0f157b7326ff55f51b20e51db85f2a2",
-      "new_scientific_calls": 0,
-      "snapshots_overlap_not_additive": true,
-      "pending_failed_unknown_excluded_from_means": true
-    }
-  ],
-  "latest_incremental_component_export_id": "made_incremental_20260920T110845_CST",
-  "planning_exports": [
-    {
-      "planning_id": "capacity_actual_allocation_20260920T010300_CST",
-      "kind": "conditional_24hour_capacity_not_experimental_result",
-      "report": "results/planning/capacity/20260920T010300_CST/REPORT.md",
-      "manifest": "results/planning/capacity/20260920T010300_CST/manifest.json",
-      "validation_script": "results/planning/capacity/20260920T010300_CST/recompute.py",
-      "planning_baseline_completed": 362,
-      "planning_baseline_CST": "2026-09-20T01:03:00+08:00",
-      "later_separate_actual_completed": 369,
-      "later_separate_actual_CST": "2026-09-20T01:17:20+08:00",
-      "forecast_new_4B_MADE_range": [
-        321,
-        392
-      ],
-      "new_scientific_calls_for_planning": 0,
-      "excluded_from_result_means": true
-    }
-  ],
-  "additional_scope_exports": [
-    {
-      "snapshot_id": "qwen35_9b_stage1_20260920T014640_CST",
-      "scope": "qwen35_9b_stage1",
-      "observed_CST": "2026-09-20T01:46:40.697369+08:00",
-      "accepted_test_trajectories": 1,
-      "planned_test_trajectories": 15,
-      "report": "results/qwen35_9b_core/stage1/20260920T014640_CST/report.md",
-      "snapshot": "results/qwen35_9b_core/stage1/20260920T014640_CST/snapshot.json",
-      "summary": "results/qwen35_9b_core/stage1/20260920T014640_CST/summary.json",
-      "recompute": "results/qwen35_9b_core/stage1/20260920T014640_CST/recompute.py",
-      "terminal_signature": "2f6b8cd83a7479679bae247aa4b9c7e08a8820646e65324320aeb78bad870299",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T015751_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T01:57:51.960078+08:00",
-      "accepted_test_trajectories": 1,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T015751_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T015751_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T015751_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T015751_CST/recompute.py",
-      "terminal_signature": "c718fa133c7afa211dafe92a2ac5d01b73cf31d8f5ffeb5ce1f34f2daa30fcb7",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "qwen35_9b_stage1_20260920T020808_CST",
-      "scope": "qwen35_9b_stage1",
-      "observed_CST": "2026-09-20T02:08:08.981891+08:00",
-      "accepted_test_trajectories": 2,
-      "planned_test_trajectories": 15,
-      "report": "results/qwen35_9b_core/stage1/20260920T020808_CST/report.md",
-      "snapshot": "results/qwen35_9b_core/stage1/20260920T020808_CST/snapshot.json",
-      "summary": "results/qwen35_9b_core/stage1/20260920T020808_CST/summary.json",
-      "recompute": "results/qwen35_9b_core/stage1/20260920T020808_CST/recompute.py",
-      "terminal_signature": "cb3ed3e959f9f58f15ce06bd9668ccb8ae38afb240343199f8659e87c67b6663",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T022750_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T02:27:50.880124+08:00",
-      "accepted_test_trajectories": 2,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T022750_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T022750_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T022750_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T022750_CST/recompute.py",
-      "terminal_signature": "8d650f6ed47685453360a467b98b4da2bf2811d81340e1dd6e13e715deffefc8",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T023747_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T02:37:47.965107+08:00",
-      "accepted_test_trajectories": 3,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T023747_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T023747_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T023747_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T023747_CST/recompute.py",
-      "terminal_signature": "d93207f7ce4297315bbe8a487259d2534d8b238e9ee9e89ee9712f234ad6eb73",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T024748_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T02:47:48.213248+08:00",
-      "accepted_test_trajectories": 4,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T024748_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T024748_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T024748_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T024748_CST/recompute.py",
-      "terminal_signature": "15d6161319d09bc2c21e64f9a84ba084259b7b36820aa64b436e50cb1c77a702",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "qwen35_9b_stage1_20260920T025808_CST",
-      "scope": "qwen35_9b_stage1",
-      "observed_CST": "2026-09-20T02:58:08.890909+08:00",
-      "accepted_test_trajectories": 3,
-      "planned_test_trajectories": 15,
-      "report": "results/qwen35_9b_core/stage1/20260920T025808_CST/report.md",
-      "snapshot": "results/qwen35_9b_core/stage1/20260920T025808_CST/snapshot.json",
-      "summary": "results/qwen35_9b_core/stage1/20260920T025808_CST/summary.json",
-      "recompute": "results/qwen35_9b_core/stage1/20260920T025808_CST/recompute.py",
-      "terminal_signature": "7e479e5b41592fbebd43072a4fed762f8086ab06b0ba6f084c1bff1a73f61e50",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "qwen35_9b_stage1_20260920T030809_CST",
-      "scope": "qwen35_9b_stage1",
-      "observed_CST": "2026-09-20T03:08:09.372155+08:00",
-      "accepted_test_trajectories": 4,
-      "planned_test_trajectories": 15,
-      "report": "results/qwen35_9b_core/stage1/20260920T030809_CST/report.md",
-      "snapshot": "results/qwen35_9b_core/stage1/20260920T030809_CST/snapshot.json",
-      "summary": "results/qwen35_9b_core/stage1/20260920T030809_CST/summary.json",
-      "recompute": "results/qwen35_9b_core/stage1/20260920T030809_CST/recompute.py",
-      "terminal_signature": "9009d3139b874820edef78ea4c63ed088aa41478d0f43b961fcd0bc56cd7da03",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T031751_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T03:17:51.971199+08:00",
-      "accepted_test_trajectories": 5,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T031751_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T031751_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T031751_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T031751_CST/recompute.py",
-      "terminal_signature": "c2d8c311cf7c591858ed2379ac8393b6614f73cf00b86b10aaa138ab960a6caa",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T043838_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T04:38:38.152784+08:00",
-      "accepted_test_trajectories": 6,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T043838_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T043838_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T043838_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T043838_CST/recompute.py",
-      "terminal_signature": "ec7f500458cbfed212623ee0f530458895e07d53a44619e99846f7e065c8cd96",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "qwen35_9b_stage1_20260920T044748_CST",
-      "scope": "qwen35_9b_stage1",
-      "observed_CST": "2026-09-20T04:47:48.101780+08:00",
-      "accepted_test_trajectories": 5,
-      "planned_test_trajectories": 15,
-      "report": "results/qwen35_9b_core/stage1/20260920T044748_CST/report.md",
-      "snapshot": "results/qwen35_9b_core/stage1/20260920T044748_CST/snapshot.json",
-      "summary": "results/qwen35_9b_core/stage1/20260920T044748_CST/summary.json",
-      "recompute": "results/qwen35_9b_core/stage1/20260920T044748_CST/recompute.py",
-      "terminal_signature": "d42a2c3880d2b8e6574f0777b97ea0b225bc37378a082338c7689b14ea03f27c",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T044748_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T04:47:48.101780+08:00",
-      "accepted_test_trajectories": 7,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T044748_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T044748_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T044748_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T044748_CST/recompute.py",
-      "terminal_signature": "23bb00d0f04b4a2f7c8de433674615fa089c4000e412a4537475545e881d5afa",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T045718_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T04:57:18.284049+08:00",
-      "accepted_test_trajectories": 8,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T045718_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T045718_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T045718_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T045718_CST/recompute.py",
-      "terminal_signature": "451406a59d808f23028bb7b6ccebb9f5c8bdb92d2c04c75cca7f0b0879780f4d",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T050720_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T05:07:20.603533+08:00",
-      "accepted_test_trajectories": 9,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T050720_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T050720_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T050720_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T050720_CST/recompute.py",
-      "terminal_signature": "a420a4e9317f0b25148d91741f6479d3ed3bb3aadc9ff04af134109f5d9f93d2",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "qwen35_9b_stage1_20260920T051720_CST",
-      "scope": "qwen35_9b_stage1",
-      "observed_CST": "2026-09-20T05:17:20.269206+08:00",
-      "accepted_test_trajectories": 5,
-      "planned_test_trajectories": 15,
-      "report": "results/qwen35_9b_core/stage1/20260920T051720_CST/report.md",
-      "snapshot": "results/qwen35_9b_core/stage1/20260920T051720_CST/snapshot.json",
-      "summary": "results/qwen35_9b_core/stage1/20260920T051720_CST/summary.json",
-      "recompute": "results/qwen35_9b_core/stage1/20260920T051720_CST/recompute.py",
-      "terminal_signature": "ae6ab52e02868c37b8942bb2c2d4f6a491141b956663fdbd00bde9713c426b6b",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T051720_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T05:17:20.269206+08:00",
-      "accepted_test_trajectories": 10,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T051720_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T051720_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T051720_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T051720_CST/recompute.py",
-      "terminal_signature": "00201104c13a683ec8bb3200a5283560b938b8b8182d6bc5308f24b3898cc813",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T052717_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T05:27:17.429671+08:00",
-      "accepted_test_trajectories": 11,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T052717_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T052717_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T052717_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T052717_CST/recompute.py",
-      "terminal_signature": "296e08b29a7bbba46b9128c3c8763e617c5f7f708f394d15a78a298a2bbf33e8",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
-    },
-    {
-      "snapshot_id": "snar_extra_seeds_20260920T053718_CST",
-      "scope": "snar_extra_seeds",
-      "observed_CST": "2026-09-20T05:37:18.208677+08:00",
-      "accepted_test_trajectories": 12,
-      "planned_test_trajectories": 12,
-      "report": "results/summit_snar/extra_seeds/20260920T053718_CST/report.md",
-      "snapshot": "results/summit_snar/extra_seeds/20260920T053718_CST/snapshot.json",
-      "summary": "results/summit_snar/extra_seeds/20260920T053718_CST/summary.json",
-      "recompute": "results/summit_snar/extra_seeds/20260920T053718_CST/recompute.py",
-      "terminal_signature": "c1f4cfe3e64ae49377dc4452af5a5e030c4b136d5682adbcd10b9ce869c2afe7",
-      "snapshots_overlap_not_additive": true,
-      "new_scientific_calls": 0
+      "variance_axis": "chemical_system_at_seed1_not_repeated_seeds"
     }
   ]
 }

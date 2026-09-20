@@ -1,0 +1,21 @@
+{
+  "files": {
+    "README.md": "67ee479ab48d6d7d5b884ef109a6d7ac9b9efcfcd35f09c77f5cdb1187085ab2",
+    "REPORT.md": "626e001ff7673b17ed53beda01a4c473ce3181b4d8d148c45512a55575cbffe3",
+    "outputs/composition_arity.csv": "08044bff8c14fc81065cac2af432c2be22d91db9698a1aeab2b0b1e3b88dccd1",
+    "outputs/episodes.csv": "1e1e3764492c31242347e762f45ba36f67a60a12817753350c5ee3a4098fb052",
+    "outputs/paired_systems.csv": "8e4664a0ab91d5c8c53274c6a8c52644d9f93fd35d75879acfd6e003979d702f",
+    "outputs/per_episode_bands.csv": "35ab834aac345f71bbef25d3180b56dab6371b3ea65b9c5131ba75047a8339df",
+    "outputs/reclassified_entries.csv": "54f8a06ab4374ebdaddb508b49c42ca2ebaf32b7e958a54fd2c0acee68a77ca6",
+    "outputs/steps.csv": "8bf666f12d32bcc62dde4a1d3d0b8123a53b2bb6a6eaaed4b0a8c0129d19dbb7",
+    "outputs/summary.json": "9d5374d9fcdeb52e8156011efc5b9578e18a31a4de08000ff75644fd36bda814",
+    "outputs/ten_step_bands.csv": "95e3b4340eb39c2b4a6ef46bcb988c9519ed0fe50e1f37c5568dd561708e23c8",
+    "recompute.py": "750b8ef3194c58c49993f65810ca1b5893bd5f0fcdb1381a8c29119638dcebac",
+    "scientific_payload.json.gz": "05a838b3636a4bcc2787c108c718e05b368b7d420b0afd9ab26c3bc6bad45a62",
+    "source_provenance.json": "632972e4c038a1ff2fd82e275dd2a4b0363c0724681c655597bb7a6477dfaa89",
+    "verification.json": "243211ce17a55555a82ab7b7c74e4b4ce2041388a370d4c6afb1b6efe50e04f6"
+  },
+  "new_science": false,
+  "schema": "B50_posthoc_scientific_bundle_v1",
+  "status": "await_root_review_before_publication"
+}
