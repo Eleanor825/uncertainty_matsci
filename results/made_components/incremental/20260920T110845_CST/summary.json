@@ -1,0 +1,217 @@
+{
+  "schema": "incremental_completed_MADE_summary_v1",
+  "observed_CST": "2026-09-20T11:08:45.767092+08:00",
+  "observed_UTC": "2026-09-20T03:08:45.767092+00:00",
+  "source_snapshot_fingerprint": "4250a97dac5b5d4489a919a83e7cd6eacff6f570d0c83d0602d351ac1cad7257",
+  "planned": 1080,
+  "accepted": 539,
+  "counts_by_arm": {
+    "baseline_reference": {
+      "accepted": 119,
+      "unclaimed": 150,
+      "claimed_pending": 1
+    },
+    "uq_only_support_aware": {
+      "accepted": 134,
+      "unclaimed": 128,
+      "claimed_pending": 8
+    },
+    "es_only_independent": {
+      "accepted": 124,
+      "unclaimed": 144,
+      "claimed_pending": 2
+    },
+    "full_support_aware": {
+      "accepted": 162,
+      "unclaimed": 100,
+      "claimed_pending": 8
+    }
+  },
+  "full_study_complete": false,
+  "matched_comparisons": {
+    "uq_only_support_aware@B10": {
+      "matched_pairs": 83,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 1.4939759036144578,
+        "arm_mean": 1.4216867469879517,
+        "paired_mean_delta": -0.07228915662650602,
+        "wins": 16,
+        "ties": 49,
+        "losses": 18
+      },
+      "AUDC": {
+        "baseline_mean": 0.15903614457831325,
+        "arm_mean": 0.16457831325301206,
+        "paired_mean_delta": 0.00554216867469879,
+        "wins": 21,
+        "ties": 45,
+        "losses": 17
+      }
+    },
+    "uq_only_support_aware@B30": {
+      "matched_pairs": 22,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 2.772727272727273,
+        "arm_mean": 2.6363636363636362,
+        "paired_mean_delta": -0.13636363636363635,
+        "wins": 5,
+        "ties": 14,
+        "losses": 3
+      },
+      "AUDC": {
+        "baseline_mean": 0.09550505050505052,
+        "arm_mean": 0.10464646464646465,
+        "paired_mean_delta": 0.009141414141414134,
+        "wins": 7,
+        "ties": 12,
+        "losses": 3
+      }
+    },
+    "uq_only_support_aware@B50": {
+      "matched_pairs": 2,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 9.5,
+        "arm_mean": 12.5,
+        "paired_mean_delta": 3.0,
+        "wins": 1,
+        "ties": 0,
+        "losses": 1
+      },
+      "AUDC": {
+        "baseline_mean": 0.21539999999999998,
+        "arm_mean": 0.2822,
+        "paired_mean_delta": 0.0668,
+        "wins": 2,
+        "ties": 0,
+        "losses": 0
+      }
+    },
+    "es_only_independent@B10": {
+      "matched_pairs": 90,
+      "means_are_over_current_matching_set_not_full_study": false,
+      "SUN": {
+        "baseline_mean": 1.5444444444444445,
+        "arm_mean": 1.0333333333333334,
+        "paired_mean_delta": -0.5111111111111111,
+        "wins": 14,
+        "ties": 49,
+        "losses": 27
+      },
+      "AUDC": {
+        "baseline_mean": 0.16566666666666666,
+        "arm_mean": 0.12277777777777779,
+        "paired_mean_delta": -0.042888888888888886,
+        "wins": 18,
+        "ties": 44,
+        "losses": 28
+      }
+    },
+    "es_only_independent@B30": {
+      "matched_pairs": 19,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 2.0526315789473686,
+        "arm_mean": 1.0526315789473684,
+        "paired_mean_delta": -1.0,
+        "wins": 2,
+        "ties": 10,
+        "losses": 7
+      },
+      "AUDC": {
+        "baseline_mean": 0.07245614035087719,
+        "arm_mean": 0.037192982456140354,
+        "paired_mean_delta": -0.035263157894736843,
+        "wins": 2,
+        "ties": 10,
+        "losses": 7
+      }
+    },
+    "es_only_independent@B50": {
+      "matched_pairs": 4,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 10.25,
+        "arm_mean": 9.75,
+        "paired_mean_delta": -0.5,
+        "wins": 2,
+        "ties": 0,
+        "losses": 2
+      },
+      "AUDC": {
+        "baseline_mean": 0.23850000000000002,
+        "arm_mean": 0.2007,
+        "paired_mean_delta": -0.037800000000000014,
+        "wins": 1,
+        "ties": 0,
+        "losses": 3
+      }
+    },
+    "full_support_aware@B10": {
+      "matched_pairs": 84,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 1.4880952380952381,
+        "arm_mean": 1.1904761904761905,
+        "paired_mean_delta": -0.2976190476190476,
+        "wins": 15,
+        "ties": 49,
+        "losses": 20
+      },
+      "AUDC": {
+        "baseline_mean": 0.16202380952380951,
+        "arm_mean": 0.14047619047619048,
+        "paired_mean_delta": -0.021547619047619048,
+        "wins": 17,
+        "ties": 43,
+        "losses": 24
+      }
+    },
+    "full_support_aware@B30": {
+      "matched_pairs": 23,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": 2.782608695652174,
+        "arm_mean": 2.5217391304347827,
+        "paired_mean_delta": -0.2608695652173913,
+        "wins": 5,
+        "ties": 12,
+        "losses": 6
+      },
+      "AUDC": {
+        "baseline_mean": 0.09642512077294688,
+        "arm_mean": 0.08531400966183575,
+        "paired_mean_delta": -0.011111111111111113,
+        "wins": 4,
+        "ties": 12,
+        "losses": 7
+      }
+    },
+    "full_support_aware@B50": {
+      "matched_pairs": 0,
+      "means_are_over_current_matching_set_not_full_study": true,
+      "SUN": {
+        "baseline_mean": null,
+        "arm_mean": null,
+        "paired_mean_delta": null,
+        "wins": 0,
+        "ties": 0,
+        "losses": 0
+      },
+      "AUDC": {
+        "baseline_mean": null,
+        "arm_mean": null,
+        "paired_mean_delta": null,
+        "wins": 0,
+        "ties": 0,
+        "losses": 0
+      }
+    }
+  },
+  "variance_axis": "evaluation seeds within fixed system/budget/arm; ddof1; n<2 unavailable; n<3 partial; not training repeats",
+  "pending_failed_unknown_excluded_from_means": true,
+  "new_scientific_calls_for_export": 0,
+  "raw_trajectory_reaudit_performed": false
+}
