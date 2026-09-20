@@ -1,0 +1,1333 @@
+{
+  "schema": "additional_completed_scientific_projection_v1",
+  "scope": "qwen35_9b_stage1",
+  "observed_CST": "2026-09-20T22:49:29.048318+08:00",
+  "rows": [
+    {
+      "job": {
+        "budget": 50,
+        "job_id": "collection-made-qwen35-9b-v1-b2e27268bcd3ed3a45d766e5",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 1,
+        "split": "train",
+        "stage": "collection",
+        "task_id": "Al-Au-Hf"
+      },
+      "status": "collection_result_pending_separate_audit",
+      "failure_sha256": null,
+      "completed_source_sha256": "73922184ce48c9c9389c55762efcd0c9ea174c236df14e810eef066056da6d41",
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 50,
+        "job_id": "collection-made-qwen35-9b-v1-4eeb32242569e1f59c2fea0b",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 2,
+        "split": "train",
+        "stage": "collection",
+        "task_id": "Al-Au-Hf"
+      },
+      "status": "collection_result_pending_separate_audit",
+      "failure_sha256": null,
+      "completed_source_sha256": "ba737496257fcee493fac2c1c0d6d11d548ed78200dbd7506bee9174e8ac0676",
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 50,
+        "job_id": "collection-made-qwen35-9b-v1-77ecb57073ee2d2e70249682",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 3,
+        "split": "train",
+        "stage": "collection",
+        "task_id": "Al-Au-Hf"
+      },
+      "status": "failed",
+      "failure_sha256": "63a1263cd7be38f327a3a869631a949e88b15a8f5f735a03b9f9181023c8fe08",
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 50,
+        "job_id": "collection-made-qwen35-9b-v1-6eea5f96cc5c5c2343bca6c9",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 1,
+        "split": "train",
+        "stage": "collection",
+        "task_id": "Au-Li-Pd"
+      },
+      "status": "claimed_pending",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 50,
+        "job_id": "collection-made-qwen35-9b-v1-9cd3bdeb340468884b8d0f99",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 1,
+        "split": "train",
+        "stage": "collection",
+        "task_id": "Au-Mg-Nd"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 50,
+        "job_id": "collection-made-qwen35-9b-v1-b7effee7747bb0f2001a2014",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 1,
+        "split": "dev",
+        "stage": "collection",
+        "task_id": "Al-Pd-Sm"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 50,
+        "job_id": "collection-made-qwen35-9b-v1-4e6160b172897356904d9109",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 1,
+        "split": "dev",
+        "stage": "collection",
+        "task_id": "Dy-In-Pd"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-457357831752a303f15a4950",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 2,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Al-Li-V"
+      },
+      "status": "accepted",
+      "failure_sha256": null,
+      "completed_source_sha256": "14cbe67431dc3adfbf5b181e2043db3c581622ce1ae0096f12d63a148599f663",
+      "accepted": {
+        "source_job_id": "qwen35-9b-core-baseline-v1-457357831752a303f15a4950",
+        "result_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-457357831752a303f15a4950/result.json",
+          "sha256": "14cbe67431dc3adfbf5b181e2043db3c581622ce1ae0096f12d63a148599f663",
+          "bytes": 27273
+        },
+        "registration_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/registration.json",
+          "sha256": "91dccc3ef32f501d3d2b082ed53ef5f4655ac7953a3a844f4f34180f1d7c131d",
+          "bytes": 97814
+        },
+        "CPU_auditor_source": {
+          "path": "technical_not_main/additional_scope_result_publisher_20260920_v1/audit_one.py",
+          "sha256": "0a44b7e4dd8aecd40c3d58c26d5fb0d82bdeb33b8a72576befb104198792ff38",
+          "bytes": 6753
+        },
+        "audited_epoch": 1789839999.3747966,
+        "audit": {
+          "passed": true,
+          "original_audit_job_reexecuted": true,
+          "complete_raw_inventory_RPC_labels_prefixes_verified": true,
+          "new_model_loads_or_graph_oracle_calls": 0,
+          "checkpoint_files_hashed_without_loading_model": true,
+          "source_runner": {
+            "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runner.py",
+            "sha256": "bcdcfe44df80fd1b98770d81b19724bd986b023a33bbeb9c6f746299ed7cb5f2",
+            "bytes": 31151
+          }
+        },
+        "episode": {
+          "benchmark": "made",
+          "complete": true,
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 6786,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 16,
+            "initialization_wall_seconds": 51.897051718086004,
+            "llm_calls": 35,
+            "prompt_tokens": 66661,
+            "rpc_attempts": 68,
+            "step_attempts": 10,
+            "tool_attempts": 34,
+            "wall_seconds": 1164.2094949670136
+          },
+          "discovery_curve": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              10,
+              1
+            ]
+          ],
+          "environment_seed": 2,
+          "episode_id": "0",
+          "method": "baseline",
+          "metrics": {
+            "AUDC": 0.01,
+            "failure_rate": 0.9,
+            "mSUN": 0.1
+          },
+          "model_key": "qwen35_9b",
+          "official_metrics": {
+            "discovery_curve_acceleration_factor": 0.0,
+            "discovery_curve_area_under_discovery_curve": 0.5,
+            "discovery_curve_area_under_discovery_curve_normalized": 0.01,
+            "discovery_curve_enhancement_factor": 0.0,
+            "discovery_efficiency": 1.0,
+            "diversity_all_composition_l1_distance_max": 0.6666666666666667,
+            "diversity_all_composition_l1_distance_mean": 0.39296296296296296,
+            "diversity_all_composition_l1_distance_min": 0.0,
+            "diversity_all_composition_l1_distance_std": 0.2585927941690548,
+            "diversity_all_composition_l2_distance_max": 0.4365266951236265,
+            "diversity_all_composition_l2_distance_mean": 0.252121695894249,
+            "diversity_all_composition_l2_distance_min": 0.0,
+            "diversity_all_composition_l2_distance_std": 0.16137743073542177,
+            "diversity_all_composition_unique_composition_count": 6.0,
+            "diversity_all_composition_unique_composition_fraction": 0.6,
+            "diversity_all_structure_amd_distance_max": 11.81498289360566,
+            "diversity_all_structure_amd_distance_mean": 4.479174343462266,
+            "diversity_all_structure_amd_distance_min": 0.3455381331918028,
+            "diversity_all_structure_lattice_parameter_variance": 15.305839537274558,
+            "diversity_all_structure_spacegroup_entropy": 0.5004024235381879,
+            "diversity_all_structure_unique_spacegroups_count": 2.0,
+            "diversity_all_structure_unique_spacegroups_fraction": 0.2,
+            "diversity_all_structure_unique_structure_count": 10.0,
+            "diversity_all_structure_unique_structure_fraction": 1.0,
+            "diversity_stable_composition_l1_distance_max": 0.0,
+            "diversity_stable_composition_l1_distance_mean": 0.0,
+            "diversity_stable_composition_l1_distance_min": 0.0,
+            "diversity_stable_composition_l1_distance_std": 0.0,
+            "diversity_stable_composition_l2_distance_max": 0.0,
+            "diversity_stable_composition_l2_distance_mean": 0.0,
+            "diversity_stable_composition_l2_distance_min": 0.0,
+            "diversity_stable_composition_l2_distance_std": 0.0,
+            "diversity_stable_composition_unique_composition_count": 1.0,
+            "diversity_stable_composition_unique_composition_fraction": 1.0,
+            "diversity_stable_structure_amd_distance_max": 0.0,
+            "diversity_stable_structure_amd_distance_mean": 0.0,
+            "diversity_stable_structure_amd_distance_min": 0.0,
+            "diversity_stable_structure_lattice_parameter_variance": 0.0,
+            "diversity_stable_structure_spacegroup_entropy": -0.0,
+            "diversity_stable_structure_unique_spacegroups_count": 1.0,
+            "diversity_stable_structure_unique_spacegroups_fraction": 1.0,
+            "diversity_stable_structure_unique_structure_count": 1.0,
+            "diversity_stable_structure_unique_structure_fraction": 1.0,
+            "novelty_novel_structure_count": 10.0,
+            "novelty_novel_structure_fraction": 1.0,
+            "novelty_stable_count": 1.0,
+            "novelty_stable_fraction": 0.1,
+            "novelty_stable_novel_count": 1.0,
+            "novelty_stable_novel_fraction": 0.1,
+            "novelty_stable_unique_count": 1.0,
+            "novelty_stable_unique_fraction": 0.1,
+            "novelty_stable_unique_novel_count": 1.0,
+            "novelty_stable_unique_novel_fraction": 0.1,
+            "novelty_unique_structure_count": 10.0,
+            "novelty_unique_structure_fraction": 1.0,
+            "num_newly_discovered_stable": 1,
+            "num_newly_discovered_structures": 10,
+            "queries_used": 10,
+            "stable_discovery_efficiency": 0.1,
+            "validity_distance_and_smact_valid_count": 10.0,
+            "validity_distance_and_smact_valid_fraction": 1.0,
+            "validity_distance_valid_count": 10.0,
+            "validity_distance_valid_fraction": 1.0,
+            "validity_min_interatomic_distance_mean": 2.2349243875198814,
+            "validity_min_interatomic_distance_min": 0.9085660962118813,
+            "validity_min_interatomic_distance_std": 0.670966896615029,
+            "validity_smact_valid_count": 10.0,
+            "validity_smact_valid_fraction": 1.0
+          },
+          "seed": 2,
+          "status": "succeeded",
+          "task_id": "Al-Li-V"
+        },
+        "model": {
+          "id": "Qwen/Qwen3.5-9B",
+          "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+          "checkpoint_manifest_hash": "168072704506394bab628df1d34a3e93a3e27ce41e485de8bac0aa9ed800cba4",
+          "actual_theta0_hash": "cd3e7bcf6b56e82a0a13f176e319df13c894fa07fa7f0a5f2229c508d211acf8",
+          "selected_generation": 0,
+          "NN_or_ES_applied": false
+        },
+        "profile_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-457357831752a303f15a4950/profile.json",
+          "sha256": "05998c20d1ed0bdabea464151c2713a063d0594e5045047e059b5490e91facbf",
+          "bytes": 28458
+        },
+        "episodes_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-457357831752a303f15a4950/raw/episodes.json",
+          "sha256": "f25d758bb58a9bc724bdd9cc9cd0dfd78800704edfb4bbbf6976f53e83ec4ac0",
+          "bytes": 4199
+        }
+      }
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-b39ab0b590b64ba91017e778",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 3,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Al-Li-V"
+      },
+      "status": "accepted",
+      "failure_sha256": null,
+      "completed_source_sha256": "b52cceb0ba31bc8a0362cb00326dc9ba9965683dd917079baa6456b8c9e609d4",
+      "accepted": {
+        "source_job_id": "qwen35-9b-core-baseline-v1-b39ab0b590b64ba91017e778",
+        "result_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-b39ab0b590b64ba91017e778/result.json",
+          "sha256": "b52cceb0ba31bc8a0362cb00326dc9ba9965683dd917079baa6456b8c9e609d4",
+          "bytes": 31140
+        },
+        "registration_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/registration.json",
+          "sha256": "91dccc3ef32f501d3d2b082ed53ef5f4655ac7953a3a844f4f34180f1d7c131d",
+          "bytes": 97814
+        },
+        "CPU_auditor_source": {
+          "path": "technical_not_main/additional_scope_result_publisher_20260920_v1/audit_one.py",
+          "sha256": "0a44b7e4dd8aecd40c3d58c26d5fb0d82bdeb33b8a72576befb104198792ff38",
+          "bytes": 6753
+        },
+        "audited_epoch": 1789841287.5099182,
+        "audit": {
+          "passed": true,
+          "original_audit_job_reexecuted": true,
+          "complete_raw_inventory_RPC_labels_prefixes_verified": true,
+          "new_model_loads_or_graph_oracle_calls": 0,
+          "checkpoint_files_hashed_without_loading_model": true,
+          "source_runner": {
+            "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runner.py",
+            "sha256": "bcdcfe44df80fd1b98770d81b19724bd986b023a33bbeb9c6f746299ed7cb5f2",
+            "bytes": 31151
+          }
+        },
+        "episode": {
+          "benchmark": "made",
+          "complete": true,
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 7268,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 16,
+            "initialization_wall_seconds": 50.18354184925556,
+            "llm_calls": 43,
+            "prompt_tokens": 85162,
+            "rpc_attempts": 80,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 2,
+            "tool_attempts": 40,
+            "wall_seconds": 1086.8883394263685
+          },
+          "discovery_curve": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "environment_seed": 3,
+          "episode_id": "0",
+          "method": "baseline",
+          "metrics": {
+            "AUDC": 0.37,
+            "failure_rate": 0.7,
+            "mSUN": 0.3
+          },
+          "model_key": "qwen35_9b",
+          "official_metrics": {
+            "discovery_curve_acceleration_factor": 0.0,
+            "discovery_curve_area_under_discovery_curve": 18.5,
+            "discovery_curve_area_under_discovery_curve_normalized": 0.37,
+            "discovery_curve_enhancement_factor": 0.0,
+            "discovery_efficiency": 1.0,
+            "diversity_all_composition_l1_distance_max": 1.0285714285714285,
+            "diversity_all_composition_l1_distance_mean": 0.5216931216931217,
+            "diversity_all_composition_l1_distance_min": 0.0,
+            "diversity_all_composition_l1_distance_std": 0.3455028075548369,
+            "diversity_all_composition_l2_distance_max": 0.6904597699196898,
+            "diversity_all_composition_l2_distance_mean": 0.3444873155998347,
+            "diversity_all_composition_l2_distance_min": 0.0,
+            "diversity_all_composition_l2_distance_std": 0.22934696715006558,
+            "diversity_all_composition_unique_composition_count": 6.0,
+            "diversity_all_composition_unique_composition_fraction": 0.6,
+            "diversity_all_structure_amd_distance_max": 12.022494007409286,
+            "diversity_all_structure_amd_distance_mean": 4.842656075169955,
+            "diversity_all_structure_amd_distance_min": 0.27752938595903043,
+            "diversity_all_structure_lattice_parameter_variance": 11.31411194102943,
+            "diversity_all_structure_spacegroup_entropy": 1.8343719702816235,
+            "diversity_all_structure_unique_spacegroups_count": 7.0,
+            "diversity_all_structure_unique_spacegroups_fraction": 0.7,
+            "diversity_all_structure_unique_structure_count": 10.0,
+            "diversity_all_structure_unique_structure_fraction": 1.0,
+            "diversity_stable_composition_l1_distance_max": 0.0,
+            "diversity_stable_composition_l1_distance_mean": 0.0,
+            "diversity_stable_composition_l1_distance_min": 0.0,
+            "diversity_stable_composition_l1_distance_std": 0.0,
+            "diversity_stable_composition_l2_distance_max": 0.0,
+            "diversity_stable_composition_l2_distance_mean": 0.0,
+            "diversity_stable_composition_l2_distance_min": 0.0,
+            "diversity_stable_composition_l2_distance_std": 0.0,
+            "diversity_stable_composition_unique_composition_count": 1.0,
+            "diversity_stable_composition_unique_composition_fraction": 0.3333333333333333,
+            "diversity_stable_structure_amd_distance_max": 7.695366140974553,
+            "diversity_stable_structure_amd_distance_mean": 5.270028928450402,
+            "diversity_stable_structure_amd_distance_min": 0.5377624796674407,
+            "diversity_stable_structure_lattice_parameter_variance": 6.5906965561147075,
+            "diversity_stable_structure_spacegroup_entropy": 0.6365141682948128,
+            "diversity_stable_structure_unique_spacegroups_count": 2.0,
+            "diversity_stable_structure_unique_spacegroups_fraction": 0.6666666666666666,
+            "diversity_stable_structure_unique_structure_count": 3.0,
+            "diversity_stable_structure_unique_structure_fraction": 1.0,
+            "novelty_novel_structure_count": 10.0,
+            "novelty_novel_structure_fraction": 1.0,
+            "novelty_stable_count": 3.0,
+            "novelty_stable_fraction": 0.3,
+            "novelty_stable_novel_count": 3.0,
+            "novelty_stable_novel_fraction": 0.3,
+            "novelty_stable_unique_count": 3.0,
+            "novelty_stable_unique_fraction": 0.3,
+            "novelty_stable_unique_novel_count": 3.0,
+            "novelty_stable_unique_novel_fraction": 0.3,
+            "novelty_unique_structure_count": 10.0,
+            "novelty_unique_structure_fraction": 1.0,
+            "num_newly_discovered_stable": 3,
+            "num_newly_discovered_structures": 10,
+            "queries_used": 10,
+            "stable_discovery_efficiency": 0.3,
+            "validity_distance_and_smact_valid_count": 10.0,
+            "validity_distance_and_smact_valid_fraction": 1.0,
+            "validity_distance_valid_count": 10.0,
+            "validity_distance_valid_fraction": 1.0,
+            "validity_min_interatomic_distance_mean": 2.5475350436198614,
+            "validity_min_interatomic_distance_min": 1.7688804316894002,
+            "validity_min_interatomic_distance_std": 0.3287352553593732,
+            "validity_smact_valid_count": 10.0,
+            "validity_smact_valid_fraction": 1.0
+          },
+          "seed": 3,
+          "status": "succeeded",
+          "task_id": "Al-Li-V"
+        },
+        "model": {
+          "id": "Qwen/Qwen3.5-9B",
+          "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+          "checkpoint_manifest_hash": "168072704506394bab628df1d34a3e93a3e27ce41e485de8bac0aa9ed800cba4",
+          "actual_theta0_hash": "cd3e7bcf6b56e82a0a13f176e319df13c894fa07fa7f0a5f2229c508d211acf8",
+          "selected_generation": 0,
+          "NN_or_ES_applied": false
+        },
+        "profile_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-b39ab0b590b64ba91017e778/profile.json",
+          "sha256": "05998c20d1ed0bdabea464151c2713a063d0594e5045047e059b5490e91facbf",
+          "bytes": 28458
+        },
+        "episodes_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-b39ab0b590b64ba91017e778/raw/episodes.json",
+          "sha256": "0d0913d5abb765677f8e54a9d4bcdf1090b9f45d5633b3d3909bbfcd59dde264",
+          "bytes": 4335
+        }
+      }
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-612c021e510b4ea69dc1c682",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 4,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Al-Li-V"
+      },
+      "status": "accepted",
+      "failure_sha256": null,
+      "completed_source_sha256": "15bce3c2dec1509ec839f55128946689ab9f7902710e1380a59123505625350d",
+      "accepted": {
+        "source_job_id": "qwen35-9b-core-baseline-v1-612c021e510b4ea69dc1c682",
+        "result_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-612c021e510b4ea69dc1c682/result.json",
+          "sha256": "15bce3c2dec1509ec839f55128946689ab9f7902710e1380a59123505625350d",
+          "bytes": 20630
+        },
+        "registration_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/registration.json",
+          "sha256": "91dccc3ef32f501d3d2b082ed53ef5f4655ac7953a3a844f4f34180f1d7c131d",
+          "bytes": 97814
+        },
+        "CPU_auditor_source": {
+          "path": "technical_not_main/additional_scope_result_publisher_20260920_v1/audit_one.py",
+          "sha256": "0a44b7e4dd8aecd40c3d58c26d5fb0d82bdeb33b8a72576befb104198792ff38",
+          "bytes": 6753
+        },
+        "audited_epoch": 1789844287.5834086,
+        "audit": {
+          "passed": true,
+          "original_audit_job_reexecuted": true,
+          "complete_raw_inventory_RPC_labels_prefixes_verified": true,
+          "new_model_loads_or_graph_oracle_calls": 0,
+          "checkpoint_files_hashed_without_loading_model": true,
+          "source_runner": {
+            "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runner.py",
+            "sha256": "bcdcfe44df80fd1b98770d81b19724bd986b023a33bbeb9c6f746299ed7cb5f2",
+            "bytes": 31151
+          }
+        },
+        "episode": {
+          "benchmark": "made",
+          "complete": true,
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 3539,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 16,
+            "initialization_wall_seconds": 55.38240575417876,
+            "llm_calls": 22,
+            "prompt_tokens": 48256,
+            "rpc_attempts": 40,
+            "score_sentinels": 14,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 314,
+            "tool_attempts": 20,
+            "wall_seconds": 1589.9996199570596
+          },
+          "discovery_curve": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ]
+          ],
+          "environment_seed": 4,
+          "episode_id": "0",
+          "method": "baseline",
+          "metrics": {
+            "AUDC": 0.05,
+            "failure_rate": 0.9,
+            "mSUN": 0.1
+          },
+          "model_key": "qwen35_9b",
+          "official_metrics": {
+            "discovery_curve_acceleration_factor": 0.0,
+            "discovery_curve_area_under_discovery_curve": 2.5,
+            "discovery_curve_area_under_discovery_curve_normalized": 0.05,
+            "discovery_curve_enhancement_factor": 0.0,
+            "discovery_efficiency": 1.0,
+            "diversity_all_composition_l1_distance_max": 0.8,
+            "diversity_all_composition_l1_distance_mean": 0.32000000000000006,
+            "diversity_all_composition_l1_distance_min": 0.0,
+            "diversity_all_composition_l1_distance_std": 0.2745501370929867,
+            "diversity_all_composition_l2_distance_max": 0.565685424949238,
+            "diversity_all_composition_l2_distance_mean": 0.22459000383763733,
+            "diversity_all_composition_l2_distance_min": 0.0,
+            "diversity_all_composition_l2_distance_std": 0.19149527745435696,
+            "diversity_all_composition_unique_composition_count": 4.0,
+            "diversity_all_composition_unique_composition_fraction": 0.4,
+            "diversity_all_structure_amd_distance_max": 12.6122105352148,
+            "diversity_all_structure_amd_distance_mean": 4.856966373249358,
+            "diversity_all_structure_amd_distance_min": 0.36630050222295685,
+            "diversity_all_structure_lattice_parameter_variance": 12.005258766613059,
+            "diversity_all_structure_spacegroup_entropy": 0.3250829733914482,
+            "diversity_all_structure_unique_spacegroups_count": 2.0,
+            "diversity_all_structure_unique_spacegroups_fraction": 0.2,
+            "diversity_all_structure_unique_structure_count": 10.0,
+            "diversity_all_structure_unique_structure_fraction": 1.0,
+            "diversity_stable_composition_l1_distance_max": 0.0,
+            "diversity_stable_composition_l1_distance_mean": 0.0,
+            "diversity_stable_composition_l1_distance_min": 0.0,
+            "diversity_stable_composition_l1_distance_std": 0.0,
+            "diversity_stable_composition_l2_distance_max": 0.0,
+            "diversity_stable_composition_l2_distance_mean": 0.0,
+            "diversity_stable_composition_l2_distance_min": 0.0,
+            "diversity_stable_composition_l2_distance_std": 0.0,
+            "diversity_stable_composition_unique_composition_count": 1.0,
+            "diversity_stable_composition_unique_composition_fraction": 1.0,
+            "diversity_stable_structure_amd_distance_max": 0.0,
+            "diversity_stable_structure_amd_distance_mean": 0.0,
+            "diversity_stable_structure_amd_distance_min": 0.0,
+            "diversity_stable_structure_lattice_parameter_variance": 0.0,
+            "diversity_stable_structure_spacegroup_entropy": -0.0,
+            "diversity_stable_structure_unique_spacegroups_count": 1.0,
+            "diversity_stable_structure_unique_spacegroups_fraction": 1.0,
+            "diversity_stable_structure_unique_structure_count": 1.0,
+            "diversity_stable_structure_unique_structure_fraction": 1.0,
+            "novelty_novel_structure_count": 10.0,
+            "novelty_novel_structure_fraction": 1.0,
+            "novelty_stable_count": 1.0,
+            "novelty_stable_fraction": 0.1,
+            "novelty_stable_novel_count": 1.0,
+            "novelty_stable_novel_fraction": 0.1,
+            "novelty_stable_unique_count": 1.0,
+            "novelty_stable_unique_fraction": 0.1,
+            "novelty_stable_unique_novel_count": 1.0,
+            "novelty_stable_unique_novel_fraction": 0.1,
+            "novelty_unique_structure_count": 10.0,
+            "novelty_unique_structure_fraction": 1.0,
+            "num_newly_discovered_stable": 1,
+            "num_newly_discovered_structures": 10,
+            "queries_used": 10,
+            "stable_discovery_efficiency": 0.1,
+            "validity_distance_and_smact_valid_count": 10.0,
+            "validity_distance_and_smact_valid_fraction": 1.0,
+            "validity_distance_valid_count": 10.0,
+            "validity_distance_valid_fraction": 1.0,
+            "validity_min_interatomic_distance_mean": 2.495769492610215,
+            "validity_min_interatomic_distance_min": 1.5684779162737812,
+            "validity_min_interatomic_distance_std": 0.8220152169052751,
+            "validity_smact_valid_count": 10.0,
+            "validity_smact_valid_fraction": 1.0
+          },
+          "seed": 4,
+          "status": "succeeded",
+          "task_id": "Al-Li-V"
+        },
+        "model": {
+          "id": "Qwen/Qwen3.5-9B",
+          "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+          "checkpoint_manifest_hash": "168072704506394bab628df1d34a3e93a3e27ce41e485de8bac0aa9ed800cba4",
+          "actual_theta0_hash": "cd3e7bcf6b56e82a0a13f176e319df13c894fa07fa7f0a5f2229c508d211acf8",
+          "selected_generation": 0,
+          "NN_or_ES_applied": false
+        },
+        "profile_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-612c021e510b4ea69dc1c682/profile.json",
+          "sha256": "05998c20d1ed0bdabea464151c2713a063d0594e5045047e059b5490e91facbf",
+          "bytes": 28458
+        },
+        "episodes_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-612c021e510b4ea69dc1c682/raw/episodes.json",
+          "sha256": "77db570020fccda38a10d76114c92d60a1cbc7a9d0893c489ccc2b333067effa",
+          "bytes": 4241
+        }
+      }
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-ef4de55a3dadb5eb50a80440",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 2,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Al-V-Zn"
+      },
+      "status": "accepted",
+      "failure_sha256": null,
+      "completed_source_sha256": "640be8b487f982fc0bd42738bfedb8c341255ab7cd1a192e4f84a20347886c8b",
+      "accepted": {
+        "source_job_id": "qwen35-9b-core-baseline-v1-ef4de55a3dadb5eb50a80440",
+        "result_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-ef4de55a3dadb5eb50a80440/result.json",
+          "sha256": "640be8b487f982fc0bd42738bfedb8c341255ab7cd1a192e4f84a20347886c8b",
+          "bytes": 19699
+        },
+        "registration_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/registration.json",
+          "sha256": "91dccc3ef32f501d3d2b082ed53ef5f4655ac7953a3a844f4f34180f1d7c131d",
+          "bytes": 97814
+        },
+        "CPU_auditor_source": {
+          "path": "technical_not_main/additional_scope_result_publisher_20260920_v1/audit_one.py",
+          "sha256": "0a44b7e4dd8aecd40c3d58c26d5fb0d82bdeb33b8a72576befb104198792ff38",
+          "bytes": 6753
+        },
+        "audited_epoch": 1789844888.0458865,
+        "audit": {
+          "passed": true,
+          "original_audit_job_reexecuted": true,
+          "complete_raw_inventory_RPC_labels_prefixes_verified": true,
+          "new_model_loads_or_graph_oracle_calls": 0,
+          "checkpoint_files_hashed_without_loading_model": true,
+          "source_runner": {
+            "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runner.py",
+            "sha256": "bcdcfe44df80fd1b98770d81b19724bd986b023a33bbeb9c6f746299ed7cb5f2",
+            "bytes": 31151
+          }
+        },
+        "episode": {
+          "benchmark": "made",
+          "complete": true,
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 3704,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 12,
+            "initialization_wall_seconds": 44.41942858323455,
+            "llm_calls": 20,
+            "prompt_tokens": 48256,
+            "rpc_attempts": 38,
+            "step_attempts": 10,
+            "tool_attempts": 19,
+            "wall_seconds": 619.8292440511286
+          },
+          "discovery_curve": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              8,
+              6
+            ],
+            [
+              9,
+              7
+            ],
+            [
+              10,
+              7
+            ]
+          ],
+          "environment_seed": 2,
+          "episode_id": "0",
+          "method": "baseline",
+          "metrics": {
+            "AUDC": 0.69,
+            "failure_rate": 0.30000000000000004,
+            "mSUN": 0.7
+          },
+          "model_key": "qwen35_9b",
+          "official_metrics": {
+            "discovery_curve_acceleration_factor": 0.0,
+            "discovery_curve_area_under_discovery_curve": 34.5,
+            "discovery_curve_area_under_discovery_curve_normalized": 0.69,
+            "discovery_curve_enhancement_factor": 0.0,
+            "discovery_efficiency": 0.9,
+            "diversity_all_composition_l1_distance_max": 0.7,
+            "diversity_all_composition_l1_distance_mean": 0.3422222222222222,
+            "diversity_all_composition_l1_distance_min": 0.0,
+            "diversity_all_composition_l1_distance_std": 0.1808621328833405,
+            "diversity_all_composition_l2_distance_max": 0.4636809247747852,
+            "diversity_all_composition_l2_distance_mean": 0.22299309635984016,
+            "diversity_all_composition_l2_distance_min": 0.0,
+            "diversity_all_composition_l2_distance_std": 0.1213707917882545,
+            "diversity_all_composition_unique_composition_count": 6.0,
+            "diversity_all_composition_unique_composition_fraction": 0.6,
+            "diversity_all_structure_amd_distance_max": 12.448523717896498,
+            "diversity_all_structure_amd_distance_mean": 5.417829806195493,
+            "diversity_all_structure_amd_distance_min": 0.030105572163265037,
+            "diversity_all_structure_lattice_parameter_variance": 12.802890826800398,
+            "diversity_all_structure_spacegroup_entropy": 0.6730116670092565,
+            "diversity_all_structure_unique_spacegroups_count": 2.0,
+            "diversity_all_structure_unique_spacegroups_fraction": 0.2,
+            "diversity_all_structure_unique_structure_count": 9.0,
+            "diversity_all_structure_unique_structure_fraction": 0.9,
+            "diversity_stable_composition_l1_distance_max": 0.7,
+            "diversity_stable_composition_l1_distance_mean": 0.3226190476190475,
+            "diversity_stable_composition_l1_distance_min": 0.0,
+            "diversity_stable_composition_l1_distance_std": 0.18431631959469633,
+            "diversity_stable_composition_l2_distance_max": 0.4636809247747852,
+            "diversity_stable_composition_l2_distance_mean": 0.21040231286966898,
+            "diversity_stable_composition_l2_distance_min": 0.0,
+            "diversity_stable_composition_l2_distance_std": 0.12375055584694264,
+            "diversity_stable_composition_unique_composition_count": 5.0,
+            "diversity_stable_composition_unique_composition_fraction": 0.625,
+            "diversity_stable_structure_amd_distance_max": 7.709671118198289,
+            "diversity_stable_structure_amd_distance_mean": 3.725332988640726,
+            "diversity_stable_structure_amd_distance_min": 0.030105572163265037,
+            "diversity_stable_structure_lattice_parameter_variance": 5.780100592919272,
+            "diversity_stable_structure_spacegroup_entropy": 0.6931471805599453,
+            "diversity_stable_structure_unique_spacegroups_count": 2.0,
+            "diversity_stable_structure_unique_spacegroups_fraction": 0.25,
+            "diversity_stable_structure_unique_structure_count": 7.0,
+            "diversity_stable_structure_unique_structure_fraction": 0.875,
+            "novelty_novel_structure_count": 10.0,
+            "novelty_novel_structure_fraction": 1.0,
+            "novelty_stable_count": 8.0,
+            "novelty_stable_fraction": 0.8,
+            "novelty_stable_novel_count": 8.0,
+            "novelty_stable_novel_fraction": 0.8,
+            "novelty_stable_unique_count": 7.0,
+            "novelty_stable_unique_fraction": 0.7,
+            "novelty_stable_unique_novel_count": 7.0,
+            "novelty_stable_unique_novel_fraction": 0.7,
+            "novelty_unique_structure_count": 9.0,
+            "novelty_unique_structure_fraction": 0.9,
+            "num_newly_discovered_stable": 7,
+            "num_newly_discovered_structures": 9,
+            "queries_used": 10,
+            "stable_discovery_efficiency": 0.7,
+            "validity_distance_and_smact_valid_count": 10.0,
+            "validity_distance_and_smact_valid_fraction": 1.0,
+            "validity_distance_valid_count": 10.0,
+            "validity_distance_valid_fraction": 1.0,
+            "validity_min_interatomic_distance_mean": 2.489383061691607,
+            "validity_min_interatomic_distance_min": 1.8512291582681266,
+            "validity_min_interatomic_distance_std": 0.4945110589200056,
+            "validity_smact_valid_count": 10.0,
+            "validity_smact_valid_fraction": 1.0
+          },
+          "seed": 2,
+          "status": "succeeded",
+          "task_id": "Al-V-Zn"
+        },
+        "model": {
+          "id": "Qwen/Qwen3.5-9B",
+          "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+          "checkpoint_manifest_hash": "168072704506394bab628df1d34a3e93a3e27ce41e485de8bac0aa9ed800cba4",
+          "actual_theta0_hash": "cd3e7bcf6b56e82a0a13f176e319df13c894fa07fa7f0a5f2229c508d211acf8",
+          "selected_generation": 0,
+          "NN_or_ES_applied": false
+        },
+        "profile_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-ef4de55a3dadb5eb50a80440/profile.json",
+          "sha256": "05998c20d1ed0bdabea464151c2713a063d0594e5045047e059b5490e91facbf",
+          "bytes": 28458
+        },
+        "episodes_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-ef4de55a3dadb5eb50a80440/raw/episodes.json",
+          "sha256": "a2736fa31514b9c219a807766b7cf66b7d8151579de973ccc06633e1cf3a785d",
+          "bytes": 4355
+        }
+      }
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-c757bc7d9a420855f00f8414",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 3,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Al-V-Zn"
+      },
+      "status": "accepted",
+      "failure_sha256": null,
+      "completed_source_sha256": "d443cf0581cd9f0980192979e46e6ed25d6abd6d8bbe747e691e404623b09e49",
+      "accepted": {
+        "source_job_id": "qwen35-9b-core-baseline-v1-c757bc7d9a420855f00f8414",
+        "result_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-c757bc7d9a420855f00f8414/result.json",
+          "sha256": "d443cf0581cd9f0980192979e46e6ed25d6abd6d8bbe747e691e404623b09e49",
+          "bytes": 27625
+        },
+        "registration_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/registration.json",
+          "sha256": "91dccc3ef32f501d3d2b082ed53ef5f4655ac7953a3a844f4f34180f1d7c131d",
+          "bytes": 97814
+        },
+        "CPU_auditor_source": {
+          "path": "technical_not_main/additional_scope_result_publisher_20260920_v1/audit_one.py",
+          "sha256": "0a44b7e4dd8aecd40c3d58c26d5fb0d82bdeb33b8a72576befb104198792ff38",
+          "bytes": 6753
+        },
+        "audited_epoch": 1789850866.7203584,
+        "audit": {
+          "passed": true,
+          "original_audit_job_reexecuted": true,
+          "complete_raw_inventory_RPC_labels_prefixes_verified": true,
+          "new_model_loads_or_graph_oracle_calls": 0,
+          "checkpoint_files_hashed_without_loading_model": true,
+          "source_runner": {
+            "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runner.py",
+            "sha256": "bcdcfe44df80fd1b98770d81b19724bd986b023a33bbeb9c6f746299ed7cb5f2",
+            "bytes": 31151
+          }
+        },
+        "episode": {
+          "benchmark": "made",
+          "complete": true,
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 6108,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 12,
+            "initialization_wall_seconds": 43.470741618424654,
+            "llm_calls": 38,
+            "prompt_tokens": 73518,
+            "rpc_attempts": 58,
+            "score_sentinels": 306,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 505,
+            "tool_attempts": 29,
+            "wall_seconds": 3029.553708679974
+          },
+          "discovery_curve": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ]
+          ],
+          "environment_seed": 3,
+          "episode_id": "0",
+          "method": "baseline",
+          "metrics": {
+            "AUDC": 0.03,
+            "failure_rate": 0.9,
+            "mSUN": 0.1
+          },
+          "model_key": "qwen35_9b",
+          "official_metrics": {
+            "discovery_curve_acceleration_factor": 0.0,
+            "discovery_curve_area_under_discovery_curve": 1.5,
+            "discovery_curve_area_under_discovery_curve_normalized": 0.03,
+            "discovery_curve_enhancement_factor": 0.0,
+            "discovery_efficiency": 1.0,
+            "diversity_all_composition_l1_distance_max": 0.2,
+            "diversity_all_composition_l1_distance_mean": 0.09604938271604938,
+            "diversity_all_composition_l1_distance_min": 0.0,
+            "diversity_all_composition_l1_distance_std": 0.06691510960980933,
+            "diversity_all_composition_l2_distance_max": 0.1274754878398196,
+            "diversity_all_composition_l2_distance_mean": 0.060276717929229624,
+            "diversity_all_composition_l2_distance_min": 0.0,
+            "diversity_all_composition_l2_distance_std": 0.042388682688294814,
+            "diversity_all_composition_unique_composition_count": 4.0,
+            "diversity_all_composition_unique_composition_fraction": 0.4,
+            "diversity_all_structure_amd_distance_max": 11.80832155125141,
+            "diversity_all_structure_amd_distance_mean": 4.32227701466168,
+            "diversity_all_structure_amd_distance_min": 0.6740699535064909,
+            "diversity_all_structure_lattice_parameter_variance": 11.798147206010901,
+            "diversity_all_structure_spacegroup_entropy": -0.0,
+            "diversity_all_structure_unique_spacegroups_count": 1.0,
+            "diversity_all_structure_unique_spacegroups_fraction": 0.1,
+            "diversity_all_structure_unique_structure_count": 10.0,
+            "diversity_all_structure_unique_structure_fraction": 1.0,
+            "diversity_stable_composition_l1_distance_max": 0.0,
+            "diversity_stable_composition_l1_distance_mean": 0.0,
+            "diversity_stable_composition_l1_distance_min": 0.0,
+            "diversity_stable_composition_l1_distance_std": 0.0,
+            "diversity_stable_composition_l2_distance_max": 0.0,
+            "diversity_stable_composition_l2_distance_mean": 0.0,
+            "diversity_stable_composition_l2_distance_min": 0.0,
+            "diversity_stable_composition_l2_distance_std": 0.0,
+            "diversity_stable_composition_unique_composition_count": 1.0,
+            "diversity_stable_composition_unique_composition_fraction": 1.0,
+            "diversity_stable_structure_amd_distance_max": 0.0,
+            "diversity_stable_structure_amd_distance_mean": 0.0,
+            "diversity_stable_structure_amd_distance_min": 0.0,
+            "diversity_stable_structure_lattice_parameter_variance": 0.0,
+            "diversity_stable_structure_spacegroup_entropy": -0.0,
+            "diversity_stable_structure_unique_spacegroups_count": 1.0,
+            "diversity_stable_structure_unique_spacegroups_fraction": 1.0,
+            "diversity_stable_structure_unique_structure_count": 1.0,
+            "diversity_stable_structure_unique_structure_fraction": 1.0,
+            "novelty_novel_structure_count": 10.0,
+            "novelty_novel_structure_fraction": 1.0,
+            "novelty_stable_count": 1.0,
+            "novelty_stable_fraction": 0.1,
+            "novelty_stable_novel_count": 1.0,
+            "novelty_stable_novel_fraction": 0.1,
+            "novelty_stable_unique_count": 1.0,
+            "novelty_stable_unique_fraction": 0.1,
+            "novelty_stable_unique_novel_count": 1.0,
+            "novelty_stable_unique_novel_fraction": 0.1,
+            "novelty_unique_structure_count": 10.0,
+            "novelty_unique_structure_fraction": 1.0,
+            "num_newly_discovered_stable": 1,
+            "num_newly_discovered_structures": 10,
+            "queries_used": 10,
+            "stable_discovery_efficiency": 0.1,
+            "validity_distance_and_smact_valid_count": 10.0,
+            "validity_distance_and_smact_valid_fraction": 1.0,
+            "validity_distance_valid_count": 10.0,
+            "validity_distance_valid_fraction": 1.0,
+            "validity_min_interatomic_distance_mean": 1.9807914159398918,
+            "validity_min_interatomic_distance_min": 0.9785640026557498,
+            "validity_min_interatomic_distance_std": 0.700977052039467,
+            "validity_smact_valid_count": 10.0,
+            "validity_smact_valid_fraction": 1.0
+          },
+          "seed": 3,
+          "status": "succeeded",
+          "task_id": "Al-V-Zn"
+        },
+        "model": {
+          "id": "Qwen/Qwen3.5-9B",
+          "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+          "checkpoint_manifest_hash": "168072704506394bab628df1d34a3e93a3e27ce41e485de8bac0aa9ed800cba4",
+          "actual_theta0_hash": "cd3e7bcf6b56e82a0a13f176e319df13c894fa07fa7f0a5f2229c508d211acf8",
+          "selected_generation": 0,
+          "NN_or_ES_applied": false
+        },
+        "profile_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-c757bc7d9a420855f00f8414/profile.json",
+          "sha256": "05998c20d1ed0bdabea464151c2713a063d0594e5045047e059b5490e91facbf",
+          "bytes": 28458
+        },
+        "episodes_source": {
+          "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/qwen35-9b-core-baseline-v1-c757bc7d9a420855f00f8414/raw/episodes.json",
+          "sha256": "6d6430b646dd01a210f63ecccd27d11c95994f4bda518d6d9b8098f35b5c1a9e",
+          "bytes": 4231
+        }
+      }
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-fed029a700b9f3f66153f67d",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 4,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Al-V-Zn"
+      },
+      "status": "failed",
+      "failure_sha256": "63a1263cd7be38f327a3a869631a949e88b15a8f5f735a03b9f9181023c8fe08",
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-30ed342bb8b1bc931fdc8450",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 2,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Au-K-Tb"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-c1a6a99e1657b275c0c44a70",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 3,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Au-K-Tb"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-e63283d21f323b39b826711a",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 4,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Au-K-Tb"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-50af3e552cf5d9ebe550180a",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 2,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Co-Dy-W"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-036f873bd642ec7374f0d48b",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 3,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Co-Dy-W"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-3e6caa38fe59768b4662baf0",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 4,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Co-Dy-W"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-ec28851881b67182b12c95c0",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 2,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Co-Mg-Na"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-8c84a53147e0ae9a398c4b03",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 3,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Co-Mg-Na"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    },
+    {
+      "job": {
+        "budget": 10,
+        "job_id": "qwen35-9b-core-baseline-v1-c04a8078d4427a7821f264b9",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "seed": 4,
+        "split": "test",
+        "stage": "final_eval",
+        "task_id": "Co-Mg-Na"
+      },
+      "status": "unclaimed",
+      "failure_sha256": null,
+      "completed_source_sha256": null,
+      "accepted": null
+    }
+  ],
+  "new_scientific_calls_for_export": 0,
+  "source_monitor_snapshot_sha256": "248624ab4a43a795b949953d8ef822cd84fbca7e59026c33e944fa71b67fe97c",
+  "original_source_SHA_and_derived_export_SHA_are_distinct": true,
+  "fingerprint": "3c004d7f678270cb4b3688863a79e4185f144917d5784d38b62e5dc21c98b00c"
+}
