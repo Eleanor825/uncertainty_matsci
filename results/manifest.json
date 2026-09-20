@@ -15,19 +15,19 @@
   ],
   "files": [
     {
-      "bytes": 21610,
-      "export_sha256": "b707285d1273677ec5a9dc106fab061c879c55d7adfeb334fa259240f3aab8ef",
-      "path": "README.md"
+      "path": "README.md",
+      "bytes": 22106,
+      "export_sha256": "b7d6302e03a20a2782f8a9922fa187cdbbc70783bb5e4f8cf94c740b4bed7ce2"
     },
     {
-      "bytes": 18564,
-      "export_sha256": "f2f998c56aff22fd65c0f1947e7ddfb4259a38439ff97930d2534e2316308e61",
-      "path": "docs/results.md"
+      "path": "docs/results.md",
+      "bytes": 19063,
+      "export_sha256": "c8d4365727f912e3afc5d3f9a87c5c54ca7c20f3de4477369e84df64ed854a89"
     },
     {
-      "bytes": 17664,
-      "export_sha256": "229fd998674e87073c7eb3272c394ef1c86afc03e89a152c6ecb48df8c79543a",
-      "path": "results/README.md"
+      "path": "results/README.md",
+      "bytes": 18152,
+      "export_sha256": "6c846c584580104e9c680794d9bcc6c5a6ed4c15f14dea826b4eec9d5d3c16ea"
     },
     {
       "bytes": 55304,
@@ -671,8 +671,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 113656,
-      "export_sha256": "3d825d4ddad6f49fee96229c0ed90d42192ed535678bf54a5f7810fbafa78686"
+      "bytes": 114487,
+      "export_sha256": "75cc3a6f86cad8d81a12dda8102befcf1064ae493108f86a31a0c6364cc9dfe9"
     },
     {
       "bytes": 1517,
@@ -2788,6 +2788,36 @@
       "bytes": 1726,
       "export_sha256": "a99bbd2bc84433c3e16c007effb25060e9f6714173c9f629eedd4c3393d007f0",
       "path": "results/provenance/zero_physics_initialization_recovery/20260920T021929_CST/verify.py"
+    },
+    {
+      "path": "results/qwen35_9b_core/collections/20260920T231045_CST/accepted_seed1.json",
+      "bytes": 13627,
+      "export_sha256": "ca185adedd274df13d4b28b17b46021ec2036ed385ef157067e0a44d5bce740f"
+    },
+    {
+      "path": "results/qwen35_9b_core/collections/20260920T231045_CST/accepted_seed2.json",
+      "bytes": 13637,
+      "export_sha256": "0d3a3afe11927768a124159d2dced2a9bcc3b4b3b25df299d65509700d0f2667"
+    },
+    {
+      "path": "results/qwen35_9b_core/collections/20260920T231045_CST/manifest.json",
+      "bytes": 891,
+      "export_sha256": "935f7daaf98cd127b62d2e80a9e025064074030d803bf8063908dbbb04b4b253"
+    },
+    {
+      "path": "results/qwen35_9b_core/collections/20260920T231045_CST/progress.json",
+      "bytes": 1595,
+      "export_sha256": "7bb334f63800f24169daea9723d030e6f40dff451449acc8c5e6b31ca4d7902d"
+    },
+    {
+      "path": "results/qwen35_9b_core/collections/20260920T231045_CST/report.md",
+      "bytes": 2816,
+      "export_sha256": "c94535a5c7d1d19aff1ad2e253a522fc7c783458f209f39a76c118c5a81b3eb1"
+    },
+    {
+      "path": "results/qwen35_9b_core/collections/20260920T231045_CST/verify.py",
+      "bytes": 3034,
+      "export_sha256": "6438d26e112f3e527d28bbc85a8ead4031994c72149c883166ec0fd10cddaba0"
     },
     {
       "bytes": 3583,

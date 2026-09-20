@@ -542,6 +542,23 @@
       "test_used_for_training_selection": false,
       "validation_script": "results/budget_sweep/B50_mechanism_analysis/20260920T054512_CST/recompute.py",
       "within_episode_repeated_candidate_hashes": 0
+    },
+    {
+      "export_id": "qwen35_9b_training_collection_acceptance_20260920T231045_CST",
+      "report": "results/qwen35_9b_core/collections/20260920T231045_CST/report.md",
+      "progress": "results/qwen35_9b_core/collections/20260920T231045_CST/progress.json",
+      "manifest": "results/qwen35_9b_core/collections/20260920T231045_CST/manifest.json",
+      "validation_script": "results/qwen35_9b_core/collections/20260920T231045_CST/verify.py",
+      "completed_CST": "2026-09-20T23:10:45.045040+08:00",
+      "model": "Qwen3.5-9B",
+      "split": "train",
+      "accepted_collection_jobs": 2,
+      "registered_collection_jobs": 7,
+      "existing_candidate_calls": 100,
+      "new_candidate_calls": 0,
+      "test_count_increment": 0,
+      "new_model_graph_or_oracle_calls": 0,
+      "full_9B_method_completed": false
     }
   ],
   "benchmark_exports": [

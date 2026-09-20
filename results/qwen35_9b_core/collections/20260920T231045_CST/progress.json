@@ -1,0 +1,52 @@
+{
+  "schema": "verified_two_9B_collection_acceptance_readback_v1",
+  "completed_CST": "2026-09-20T23:10:45.045040",
+  "actual_exit_code": 0,
+  "accepted_collections": 2,
+  "registered_collections": 7,
+  "jobs": [
+    {
+      "job_id": "collection-made-qwen35-9b-v1-4eeb32242569e1f59c2fea0b",
+      "seed": 2,
+      "split": "train",
+      "SUN": 14,
+      "AUDC": 0.368,
+      "proposal_rows": 156,
+      "activation_rows_per_layer": 2496,
+      "activation_layers": 32,
+      "activation_tensor_bytes": 2617245696,
+      "future_failure_counts": {
+        "0": 44,
+        "1": 97,
+        "unknown": 15
+      },
+      "candidate_calls": 50,
+      "initialization_calls": 28,
+      "accepted_sha256": "0d3a3afe11927768a124159d2dced2a9bcc3b4b3b25df299d65509700d0f2667"
+    },
+    {
+      "job_id": "collection-made-qwen35-9b-v1-b2e27268bcd3ed3a45d766e5",
+      "seed": 1,
+      "split": "train",
+      "SUN": 14,
+      "AUDC": 0.2888,
+      "proposal_rows": 180,
+      "activation_rows_per_layer": 2880,
+      "activation_layers": 32,
+      "activation_tensor_bytes": 3019898880,
+      "future_failure_counts": {
+        "0": 48,
+        "1": 112,
+        "unknown": 20
+      },
+      "candidate_calls": 50,
+      "initialization_calls": 28,
+      "accepted_sha256": "ca185adedd274df13d4b28b17b46021ec2036ed385ef157067e0a44d5bce740f"
+    }
+  ],
+  "test_count_increment": 0,
+  "new_model_or_oracle_calls": 0,
+  "actual_CPU_audit_process_exited": true,
+  "source_snapshot_sha256": "ddf559d27ce12b7d001511f9dcde7564313f5ba726c25d97bfb7258f5841d135",
+  "raw_remote_accepted_bytes_preserved": true
+}
