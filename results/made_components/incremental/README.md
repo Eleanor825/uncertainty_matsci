@@ -40,3 +40,4 @@ These snapshots overlap. Only original accepted receipts enter metrics; unfinish
 | 2026-09-21T00:50:03.091110+08:00 | 731 | [report](20260921T005003_CST/report.md) |
 | 2026-09-21T01:20:08.602963+08:00 | 737 | [report](20260921T012008_CST/report.md) |
 | 2026-09-21T15:38:57.813514+08:00 | 920 | [report](20260921T153857_CST/report.md) |
+| 2026-09-21T16:43:08.511583+08:00 | 936 | [report](20260921T164308_CST/report.md) |
