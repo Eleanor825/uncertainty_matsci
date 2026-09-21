@@ -1,0 +1,83 @@
+{
+  "schema": "cumulative_existing_9B_training_collection_acceptance_v2",
+  "completed_CST": "2026-09-21T17:07:16.298529+08:00",
+  "actual_new_audit_exit_code": 0,
+  "newly_accepted_this_audit": 1,
+  "accepted_collections": 3,
+  "registered_collections": 7,
+  "overlaps_prior_two_collection_report": true,
+  "previous_report": "../20260920T231045_CST/report.md",
+  "jobs": [
+    {
+      "file": "accepted_AlAuHf_seed1.json",
+      "job_id": "collection-made-qwen35-9b-v1-b2e27268bcd3ed3a45d766e5",
+      "task_id": "Al-Au-Hf",
+      "seed": 1,
+      "split": "train",
+      "SUN": 14,
+      "AUDC": 0.2888,
+      "proposal_rows": 180,
+      "activation_rows_per_layer": 2880,
+      "activation_layers": 32,
+      "activation_tensor_bytes": 3019898880,
+      "future_failure_counts": {
+        "0": 48,
+        "1": 112,
+        "unknown": 20
+      },
+      "candidate_calls": 50,
+      "initialization_calls": 28,
+      "accepted_sha256": "ca185adedd274df13d4b28b17b46021ec2036ed385ef157067e0a44d5bce740f",
+      "result_sha256": "73922184ce48c9c9389c55762efcd0c9ea174c236df14e810eef066056da6d41"
+    },
+    {
+      "file": "accepted_AlAuHf_seed2.json",
+      "job_id": "collection-made-qwen35-9b-v1-4eeb32242569e1f59c2fea0b",
+      "task_id": "Al-Au-Hf",
+      "seed": 2,
+      "split": "train",
+      "SUN": 14,
+      "AUDC": 0.368,
+      "proposal_rows": 156,
+      "activation_rows_per_layer": 2496,
+      "activation_layers": 32,
+      "activation_tensor_bytes": 2617245696,
+      "future_failure_counts": {
+        "0": 44,
+        "1": 97,
+        "unknown": 15
+      },
+      "candidate_calls": 50,
+      "initialization_calls": 28,
+      "accepted_sha256": "0d3a3afe11927768a124159d2dced2a9bcc3b4b3b25df299d65509700d0f2667",
+      "result_sha256": "ba737496257fcee493fac2c1c0d6d11d548ed78200dbd7506bee9174e8ac0676"
+    },
+    {
+      "file": "accepted_AuLiPd_seed1.json",
+      "job_id": "collection-made-qwen35-9b-v1-6eea5f96cc5c5c2343bca6c9",
+      "task_id": "Au-Li-Pd",
+      "seed": 1,
+      "split": "train",
+      "SUN": 43,
+      "AUDC": 0.842,
+      "proposal_rows": 164,
+      "activation_rows_per_layer": 2624,
+      "activation_layers": 32,
+      "activation_tensor_bytes": 2751463424,
+      "future_failure_counts": {
+        "0": 128,
+        "1": 20,
+        "unknown": 16
+      },
+      "candidate_calls": 50,
+      "initialization_calls": 24,
+      "accepted_sha256": "7254f9aedd6fdd836470cc0d17327bedca6a482814af80ad5ce50d5ab60e05e7",
+      "result_sha256": "9b9b4a4688e529e31cf2446247df2cf69fc066706fe32bf51defd1a361b50f61"
+    }
+  ],
+  "test_count_increment": 0,
+  "new_model_or_oracle_calls": 0,
+  "actual_CPU_audit_process_exited": true,
+  "source_snapshot_sha256": "3c06efca4b4e3008c8f03dbd0ee7b272adc55ac263271dba1db49e48ce6adafe",
+  "original_accepted_bytes_preserved": true
+}

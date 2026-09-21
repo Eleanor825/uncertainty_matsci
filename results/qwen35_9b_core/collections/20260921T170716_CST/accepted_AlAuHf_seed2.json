@@ -1,0 +1,537 @@
+{
+  "schema": "independent_original_9B_collection_CPU_acceptance_v1",
+  "complete": true,
+  "job": {
+    "job_id": "collection-made-qwen35-9b-v1-4eeb32242569e1f59c2fea0b",
+    "task_id": "Al-Au-Hf",
+    "seed": 2,
+    "split": "train",
+    "stage": "collection",
+    "budget": 50,
+    "result_sha256": "ba737496257fcee493fac2c1c0d6d11d548ed78200dbd7506bee9174e8ac0676"
+  },
+  "result_source": {
+    "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/collection-made-qwen35-9b-v1-4eeb32242569e1f59c2fea0b/result.json",
+    "sha256": "ba737496257fcee493fac2c1c0d6d11d548ed78200dbd7506bee9174e8ac0676",
+    "bytes": 122361
+  },
+  "collection_manifest_source": {
+    "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/collection-made-qwen35-9b-v1-4eeb32242569e1f59c2fea0b/raw/collection_manifest.json",
+    "sha256": "fedaed65ee6a976febfce37e0e214449c9df44a31df330b73c8fa240c22f80ac",
+    "bytes": 37927
+  },
+  "profile_source": {
+    "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/collection-made-qwen35-9b-v1-4eeb32242569e1f59c2fea0b/profile.json",
+    "sha256": "470115a831899460aa58b9712145915d9e88103fbae3a0f3aef048524dd0fd2b",
+    "bytes": 28457
+  },
+  "episodes_source": {
+    "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/jobs/collection-made-qwen35-9b-v1-4eeb32242569e1f59c2fea0b/raw/episodes.json",
+    "sha256": "f8e0b4d0b7b2a74fc7580d2f3ee3c2fdaf56aabc1666d135923d1a341fe66fd7",
+    "bytes": 4889
+  },
+  "registration_source": {
+    "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runs/v2/registration.json",
+    "sha256": "91dccc3ef32f501d3d2b082ed53ef5f4655ac7953a3a844f4f34180f1d7c131d",
+    "bytes": 97814
+  },
+  "auditor_source": {
+    "path": "technical_not_main/qwen35_9b_collection_acceptance_20260920_v1/audit.py",
+    "sha256": "37e41ef647348f9803f7cf1d0e3ea3c771716cc6b93462edb07fda74a7043e4a",
+    "bytes": 8166
+  },
+  "original_runner_source": {
+    "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/runner.py",
+    "sha256": "bcdcfe44df80fd1b98770d81b19724bd986b023a33bbeb9c6f746299ed7cb5f2",
+    "bytes": 31151
+  },
+  "original_evidence_source": {
+    "path": "benchmark_extensions/qwen35_9b_core_20260920_v1/evidence.py",
+    "sha256": "8441808a13f986cfc79dbd41e0495385bba6976b04b96669aa0d4458cc7d5c92",
+    "bytes": 26612
+  },
+  "original_audit_job_reexecuted_once": true,
+  "collection_proof": {
+    "activation_layers": 32,
+    "activation_rows_per_layer": 2496,
+    "activation_shards": [
+      {
+        "layer_path": "model.language_model.layers.0.mlp",
+        "rows": 2496,
+        "tensor_hash": "8bc7cae1196baf37f2f4adb7179cc00187de67d382d443a28b897bcc7229a5b9"
+      },
+      {
+        "layer_path": "model.language_model.layers.1.mlp",
+        "rows": 2496,
+        "tensor_hash": "27da0e5df99b5bb0ccef07930c95d8962202f463ef14725471e6d0342ba3263c"
+      },
+      {
+        "layer_path": "model.language_model.layers.2.mlp",
+        "rows": 2496,
+        "tensor_hash": "07d63b170a79ec7fd9dada94914342380f54a4865c95a5359801eaea7b274ae8"
+      },
+      {
+        "layer_path": "model.language_model.layers.3.mlp",
+        "rows": 2496,
+        "tensor_hash": "b43f0fbd5b211d564d0a859ba692a88d4d13c42fbb625c8b6fa5c5c5f494658f"
+      },
+      {
+        "layer_path": "model.language_model.layers.4.mlp",
+        "rows": 2496,
+        "tensor_hash": "33093fd57af64b2746a1900277bdc3357afd6384d484f4ec0aeaadf44f68f141"
+      },
+      {
+        "layer_path": "model.language_model.layers.5.mlp",
+        "rows": 2496,
+        "tensor_hash": "b6f262198ba95ad79323ce329bbdb8b89d1281ff872b7236899c79db494692ee"
+      },
+      {
+        "layer_path": "model.language_model.layers.6.mlp",
+        "rows": 2496,
+        "tensor_hash": "bfdce7bdcbcc5be722271408bd805b4af5983b068880c6654749991962eb5813"
+      },
+      {
+        "layer_path": "model.language_model.layers.7.mlp",
+        "rows": 2496,
+        "tensor_hash": "277ed5c0f14e705ec046b86fe0e81ec27aaf2c2277ffc08ff6db24a2cc51756e"
+      },
+      {
+        "layer_path": "model.language_model.layers.8.mlp",
+        "rows": 2496,
+        "tensor_hash": "c1b0a4c2c661b726278d19412b911e7d306f73c04df48fedc5fc4faf3c83db7a"
+      },
+      {
+        "layer_path": "model.language_model.layers.9.mlp",
+        "rows": 2496,
+        "tensor_hash": "53996c21510519a2892e3b7bc2d3e7d15698bf36850030e19fff0710dca9f790"
+      },
+      {
+        "layer_path": "model.language_model.layers.10.mlp",
+        "rows": 2496,
+        "tensor_hash": "246dc68ee21206f253cba892bf6b69256bcc2f3c07ded4475356e1614163f1f4"
+      },
+      {
+        "layer_path": "model.language_model.layers.11.mlp",
+        "rows": 2496,
+        "tensor_hash": "cf025edacbd90ebc8d6d698e2922768c8585808411dd870dc1b768b7a445c787"
+      },
+      {
+        "layer_path": "model.language_model.layers.12.mlp",
+        "rows": 2496,
+        "tensor_hash": "5ee8184a14299d7b384498aeb7dce74b619c6b683e6143d36d743d379c79b030"
+      },
+      {
+        "layer_path": "model.language_model.layers.13.mlp",
+        "rows": 2496,
+        "tensor_hash": "764ac554dfb862d3fd616a8c45da901ba6ff6c55fddfbf4222589d6373cc7718"
+      },
+      {
+        "layer_path": "model.language_model.layers.14.mlp",
+        "rows": 2496,
+        "tensor_hash": "f0ce36d3c5765e8b77731bccd48d38805a75436696d6f1d2288d9033e25371cf"
+      },
+      {
+        "layer_path": "model.language_model.layers.15.mlp",
+        "rows": 2496,
+        "tensor_hash": "0d1aa4868b24ecb38e79d9a3b4d5dd8c8a5c3b302ad27518c0820ed8a360849b"
+      },
+      {
+        "layer_path": "model.language_model.layers.16.mlp",
+        "rows": 2496,
+        "tensor_hash": "8443b112497ded7b1c959f7dc9615c0793fdc7e71d373507811cd30809917902"
+      },
+      {
+        "layer_path": "model.language_model.layers.17.mlp",
+        "rows": 2496,
+        "tensor_hash": "153244beb311da658dfbd0a13edd215040bbd488096b2c96f822d964610ccfd4"
+      },
+      {
+        "layer_path": "model.language_model.layers.18.mlp",
+        "rows": 2496,
+        "tensor_hash": "7d9d51882938101cf3b289f9ab6141bef95483fa6476945e2ae5f9e08966ad83"
+      },
+      {
+        "layer_path": "model.language_model.layers.19.mlp",
+        "rows": 2496,
+        "tensor_hash": "dff82dd247d4e74cf28d71ce8147c46b84f62935448a62c89de8ad5c0ab932a7"
+      },
+      {
+        "layer_path": "model.language_model.layers.20.mlp",
+        "rows": 2496,
+        "tensor_hash": "10beb022347ca29236fb80e44cf6435422224aa4b067d9b591255276f18da5cd"
+      },
+      {
+        "layer_path": "model.language_model.layers.21.mlp",
+        "rows": 2496,
+        "tensor_hash": "c5dc3e70fb0912e1a9fdb7713e7fba3d6a411432614edde60b511adc8fd68116"
+      },
+      {
+        "layer_path": "model.language_model.layers.22.mlp",
+        "rows": 2496,
+        "tensor_hash": "c4b0bc21df068e4626b7fd4dfbb753518848eb3484271cdaa1282fd1b55de6d1"
+      },
+      {
+        "layer_path": "model.language_model.layers.23.mlp",
+        "rows": 2496,
+        "tensor_hash": "9b41e72b4bfacf4e722ccb6730afc821250a1e3c09c179860738beca9cab00f3"
+      },
+      {
+        "layer_path": "model.language_model.layers.24.mlp",
+        "rows": 2496,
+        "tensor_hash": "63c27d90833c108b6c0425efbe1ae94a7aef5f73e7f0073fbc58ee1105e05b03"
+      },
+      {
+        "layer_path": "model.language_model.layers.25.mlp",
+        "rows": 2496,
+        "tensor_hash": "e15ee4f218f9ef5e802cb3fc0e4a82b91e8bdf7521f24d3d3c23ab1e95801991"
+      },
+      {
+        "layer_path": "model.language_model.layers.26.mlp",
+        "rows": 2496,
+        "tensor_hash": "8d4aa68539c0ac630e949c198ef70390cd2be6d7b37af3e2cebd316817cb008b"
+      },
+      {
+        "layer_path": "model.language_model.layers.27.mlp",
+        "rows": 2496,
+        "tensor_hash": "acf73d63d13ab77b253c92ee21c413a616040f02aba788368e86c1fecc33c16e"
+      },
+      {
+        "layer_path": "model.language_model.layers.28.mlp",
+        "rows": 2496,
+        "tensor_hash": "eab1e51ec363c7bf389383c4038b4c7952ce2e8e24ed4177a7badd1fc1e7b7a0"
+      },
+      {
+        "layer_path": "model.language_model.layers.29.mlp",
+        "rows": 2496,
+        "tensor_hash": "e4e84d0defb53816e3e5b20d6460d42d522e8abe5b547ad822522c8667b9b647"
+      },
+      {
+        "layer_path": "model.language_model.layers.30.mlp",
+        "rows": 2496,
+        "tensor_hash": "c019820946aa72fbf9c3bf6be01ad60dd1a20f424aa48f666102c78f8c4c49f0"
+      },
+      {
+        "layer_path": "model.language_model.layers.31.mlp",
+        "rows": 2496,
+        "tensor_hash": "f151d30fe2c02d30fdecee88732fedfba2178ed24cc9a3cd0aadf692f9d6b4a2"
+      }
+    ],
+    "activation_tensor_bytes": 2617245696,
+    "actual_LLM_seeds_verified": true,
+    "all_proposals_preserved": true,
+    "full_prefix_tokens_verified": true,
+    "future_failure_counts": {
+      "0": 44,
+      "1": 97,
+      "unknown": 15
+    },
+    "new_oracle_calls_for_audit": 0,
+    "observed_failure_type_counts": {
+      "candidate_generation_failure": {
+        "0": 50,
+        "unknown": 106
+      },
+      "generation_invalid": {
+        "0": 141,
+        "1": 15
+      },
+      "not_new": {
+        "0": 109,
+        "1": 32,
+        "unknown": 15
+      },
+      "scientific_evaluation_failure": {
+        "0": 141,
+        "unknown": 15
+      },
+      "screening_unavailable": {
+        "0": 2,
+        "unknown": 154
+      },
+      "tool_execution_failure": {
+        "0": 101,
+        "1": 40,
+        "unknown": 15
+      },
+      "unstable": {
+        "0": 64,
+        "1": 77,
+        "unknown": 15
+      }
+    },
+    "observed_labels_fingerprint": "6572c628739a03091794357a4857ad97a3968ee93608df7dec0f042f26f27147",
+    "offline_graphs_complete": false,
+    "online_graphs_or_NN": false,
+    "physical": {
+      "costs": {
+        "candidate_oracle_attempts": 50,
+        "completed_episodes": 1,
+        "completion_tokens": 28087,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 28,
+        "initialization_wall_seconds": 97.37426699697971,
+        "llm_calls": 156,
+        "prompt_tokens": 258249,
+        "rpc_attempts": 284,
+        "rpc_calls": 286,
+        "rpc_elapsed_seconds": 2980.8093359470367,
+        "score_sentinels": 230,
+        "step_attempts": 50,
+        "surrogate_oracle_attempts": 741,
+        "tool_attempts": 142,
+        "wall_seconds": 7132.603012096137
+      },
+      "environment_seeds": [
+        2
+      ],
+      "episode_metric_values": [
+        0.368
+      ],
+      "metric_name": "AUDC",
+      "metric_value": 0.368,
+      "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+      "reward_is_llm_self_score": false
+    },
+    "proposal_rows": 156
+  },
+  "episode": {
+    "task_id": "Al-Au-Hf",
+    "seed": 2,
+    "complete": true,
+    "metrics": {
+      "AUDC": 0.368,
+      "failure_rate": 0.72,
+      "mSUN": 0.28
+    },
+    "discovery_curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        12,
+        7
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        15,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        17,
+        8
+      ],
+      [
+        18,
+        9
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        20,
+        9
+      ],
+      [
+        21,
+        9
+      ],
+      [
+        22,
+        9
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        25,
+        10
+      ],
+      [
+        26,
+        11
+      ],
+      [
+        27,
+        11
+      ],
+      [
+        28,
+        12
+      ],
+      [
+        29,
+        12
+      ],
+      [
+        30,
+        12
+      ],
+      [
+        31,
+        12
+      ],
+      [
+        32,
+        12
+      ],
+      [
+        33,
+        12
+      ],
+      [
+        34,
+        12
+      ],
+      [
+        35,
+        12
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        37,
+        12
+      ],
+      [
+        38,
+        12
+      ],
+      [
+        39,
+        12
+      ],
+      [
+        40,
+        13
+      ],
+      [
+        41,
+        13
+      ],
+      [
+        42,
+        13
+      ],
+      [
+        43,
+        13
+      ],
+      [
+        44,
+        13
+      ],
+      [
+        45,
+        13
+      ],
+      [
+        46,
+        13
+      ],
+      [
+        47,
+        13
+      ],
+      [
+        48,
+        13
+      ],
+      [
+        49,
+        13
+      ],
+      [
+        50,
+        14
+      ]
+    ],
+    "costs": {
+      "candidate_oracle_attempts": 50,
+      "completion_tokens": 28087,
+      "graph_seconds": 0,
+      "initialization_oracle_attempts": 28,
+      "initialization_wall_seconds": 97.37426699697971,
+      "llm_calls": 156,
+      "prompt_tokens": 258249,
+      "rpc_attempts": 284,
+      "score_sentinels": 230,
+      "step_attempts": 50,
+      "surrogate_oracle_attempts": 741,
+      "tool_attempts": 142,
+      "wall_seconds": 7132.603012096137
+    }
+  },
+  "actual_initial_model_state_hash": "cd3e7bcf6b56e82a0a13f176e319df13c894fa07fa7f0a5f2229c508d211acf8",
+  "model_key": "qwen35_9b",
+  "selected_generation": 0,
+  "split": "train",
+  "not_test_evaluation": true,
+  "accepted_test_count_increment": 0,
+  "NN_TC_ES_fitted": false,
+  "new_model_graph_or_oracle_calls": 0,
+  "audited_epoch": 1789917043.8142087
+}

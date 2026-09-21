@@ -1,0 +1,37 @@
+{
+  "schema": "cumulative_separate_training_collection_acceptance_manifest_v2",
+  "files": [
+    {
+      "path": "accepted_AlAuHf_seed1.json",
+      "bytes": 13627,
+      "sha256": "ca185adedd274df13d4b28b17b46021ec2036ed385ef157067e0a44d5bce740f"
+    },
+    {
+      "path": "accepted_AlAuHf_seed2.json",
+      "bytes": 13637,
+      "sha256": "0d3a3afe11927768a124159d2dced2a9bcc3b4b3b25df299d65509700d0f2667"
+    },
+    {
+      "path": "accepted_AuLiPd_seed1.json",
+      "bytes": 13646,
+      "sha256": "7254f9aedd6fdd836470cc0d17327bedca6a482814af80ad5ce50d5ab60e05e7"
+    },
+    {
+      "path": "progress.json",
+      "bytes": 2811,
+      "sha256": "681ebf117ea58416c89087e23a341323fcd0d04142ef619ddd816ca86424e1ff"
+    },
+    {
+      "path": "report.md",
+      "bytes": 2925,
+      "sha256": "65d2da58c8a4cb33af0580df6755b4a819d8cfdda917a0823469ff7089bd814f"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 3675,
+      "sha256": "19f0857911da3934c30adec975323471c9dc3669122d0400fd8996075283ae23"
+    }
+  ],
+  "test_count_increment": 0,
+  "new_scientific_calls": 0
+}
