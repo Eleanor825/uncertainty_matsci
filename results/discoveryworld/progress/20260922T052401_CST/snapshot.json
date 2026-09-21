@@ -1,0 +1,642 @@
+{
+  "schema": "discoveryworld_public_progress_v1",
+  "observed_UTC": "2026-09-21T21:24:01.963647+00:00",
+  "native_collection": [
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p101",
+        "arm": "Baseline",
+        "stage": "collection_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 0,
+        "policy_seed": 101,
+        "generation": null,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "failure_record_present": false,
+      "attempts": 100,
+      "final_score_normalized": 0.0,
+      "completed_successfully": false,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p101/result.json",
+        "sha256": "f9282230879e9a4ca1e14a89ba8cf0925aea6fdfffe37e3f24ecaec5efd7f13e",
+        "bytes": 2923
+      },
+      "summary": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p101/environment/discoveryworld-v1-df5a05a963d36f41f850e46a/summary.json",
+        "sha256": "985bd254704ac4f28931897ab25c4f385f335bb243a27d24f5f277d0176e7843",
+        "bytes": 1251
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102",
+        "arm": "Baseline",
+        "stage": "collection_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 0,
+        "policy_seed": 102,
+        "generation": null,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "failure_record_present": false,
+      "attempts": 100,
+      "final_score_normalized": 0.375,
+      "completed_successfully": false,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102/result.json",
+        "sha256": "baffbcb5fac86ee4a66ee53763297c674493aad5b9f149c1f1069588a657d2a5",
+        "bytes": 2922
+      },
+      "summary": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102/environment/discoveryworld-v1-591b41691ef5345fa2972c72/summary.json",
+        "sha256": "47cf42cf494af1e60fb22b42c21829eea3874fadacd8de3fb0ece3a0d63b24c4",
+        "bytes": 1252
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p103",
+        "arm": "Baseline",
+        "stage": "collection_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 0,
+        "policy_seed": 103,
+        "generation": null,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "failure_record_present": false,
+      "attempts": 100,
+      "final_score_normalized": 0.0,
+      "completed_successfully": false,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p103/result.json",
+        "sha256": "8278c88b8baca5f7812029cbfa469fa4acc4ab1f0811e1c5c454c3b181ab9305",
+        "bytes": 2923
+      },
+      "summary": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p103/environment/discoveryworld-v1-4471e8b0e3d20654b3d53025/summary.json",
+        "sha256": "14f75b871c88a5f6bd650aeed44d620574b5d3d8358a37cf5bc98d6285ac0479",
+        "bytes": 1251
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p101",
+        "arm": "Baseline",
+        "stage": "collection_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "generation": null,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "failure_record_present": false,
+      "attempts": 100,
+      "final_score_normalized": 0.0,
+      "completed_successfully": false,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p101/result.json",
+        "sha256": "8b8b8effccc0c19933655f58632def9eee7a225e2deb0295bae5e9d765b2d8c5",
+        "bytes": 2923
+      },
+      "summary": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p101/environment/discoveryworld-v1-b2925e776d8ddf48723bb2d0/summary.json",
+        "sha256": "dc722a6683c3f0b8bf62c151ca7759aea7db5315e218d25856daa73844e25e32",
+        "bytes": 1250
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p102",
+        "arm": "Baseline",
+        "stage": "collection_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "generation": null,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "failure_record_present": false,
+      "attempts": 100,
+      "final_score_normalized": 0.25,
+      "completed_successfully": false,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p102/result.json",
+        "sha256": "8ce4731a4950b58653e193aaa212caa12d916250c17420865daffa3af7a3d1d2",
+        "bytes": 2923
+      },
+      "summary": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p102/environment/discoveryworld-v1-6dc5aa3564e3c2a553a3abcb/summary.json",
+        "sha256": "23600a2ca66fc9d180d4baa89ded33b67d32d0ea9318f314a0b5832a94ffd0e7",
+        "bytes": 1251
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p103",
+        "arm": "Baseline",
+        "stage": "collection_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "generation": null,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "failure_record_present": false,
+      "attempts": 100,
+      "final_score_normalized": 0.5,
+      "completed_successfully": false,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p103/result.json",
+        "sha256": "f4252685c5c07e4c311db275a256b45fb13cdb839a9404a1ff8c1d61c9facd34",
+        "bytes": 2922
+      },
+      "summary": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p103/environment/discoveryworld-v1-563fd409046a6cabef8652e4/summary.json",
+        "sha256": "f6c49394bb7aff1a5eb5e7815d200f8a450cc3d179a9cc4f4bf9fa0f1478a778",
+        "bytes": 1251
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p201",
+        "arm": "Baseline",
+        "stage": "collection_nn_dev",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "generation": null,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "failure_record_present": false,
+      "attempts": 100,
+      "final_score_normalized": 0.375,
+      "completed_successfully": false,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p201/result.json",
+        "sha256": "32cffe7ef8ccff6bf8996c821096e72261716c398f1ad91b5c9c62814794c45b",
+        "bytes": 2927
+      },
+      "summary": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p201/environment/discoveryworld-v1-c3b9197fd21f2a61d23a1ced/summary.json",
+        "sha256": "594ae1a4a9ca1e2eb74b89d020363d8dd1e6b0476c36055e65be1106d1bfe27c",
+        "bytes": 1250
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p202",
+        "arm": "Baseline",
+        "stage": "collection_nn_dev",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "generation": null,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "failure_record_present": false,
+      "attempts": 100,
+      "final_score_normalized": 0.5,
+      "completed_successfully": false,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p202/result.json",
+        "sha256": "7635e1f82054da05937b6d75d7a1e0edfe93cc73f3892fca7480580fb409aac9",
+        "bytes": 2926
+      },
+      "summary": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p202/environment/discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4/summary.json",
+        "sha256": "299b16cd89b0236c3b76f3b631cc910f63e205fa1ce066b272239424d183c01a",
+        "bytes": 1248
+      }
+    }
+  ],
+  "collection_role": "training/calibration/development only; not held-out method evaluation",
+  "legacy_ES_only": [
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_dev-ES_only-w2-p303-g0",
+        "arm": "ES_only",
+        "stage": "es_dev",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "generation": 0,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/stages/es/ES_only/discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_dev-ES_only-w2-p303-g0_result.json",
+        "sha256": "e4ae8a8303f1574791ed1854c1d4d48002e905d5ca8d5cf7638b7b63af2ba9d7",
+        "bytes": 4145
+      },
+      "metrics": {
+        "F": -0.08700000000000001,
+        "J": -0.08700000000000001,
+        "scoreNormalized": 0.0,
+        "completedSuccessfully": false,
+        "failure_count": 87,
+        "agent_attempts": 100,
+        "failure_fraction": 0.87
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_dev-ES_only-w2-p303-g1",
+        "arm": "ES_only",
+        "stage": "es_dev",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "generation": 1,
+        "population_member": null,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/stages/es/ES_only/discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_dev-ES_only-w2-p303-g1_result.json",
+        "sha256": "2fc706b5afc8f547d68bc7d9717ec7f69778a0a4a637ae822aa97380ea7ecb89",
+        "bytes": 4118
+      },
+      "metrics": {
+        "F": -0.099,
+        "J": -0.099,
+        "scoreNormalized": 0.0,
+        "completedSuccessfully": false,
+        "failure_count": 99,
+        "agent_attempts": 100,
+        "failure_fraction": 0.99
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_train-ES_only-w0-p301-g1-m0",
+        "arm": "ES_only",
+        "stage": "es_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 0,
+        "policy_seed": 301,
+        "generation": 1,
+        "population_member": 0,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/stages/es/ES_only/discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_train-ES_only-w0-p301-g1-m0_result.json",
+        "sha256": "c198b4de5793f1089bc70033db135331704cf7bae4dd914a90b64ce1cf33180f",
+        "bytes": 4164
+      },
+      "metrics": {
+        "F": 0.119,
+        "J": 0.119,
+        "scoreNormalized": 0.125,
+        "completedSuccessfully": false,
+        "failure_count": 6,
+        "agent_attempts": 100,
+        "failure_fraction": 0.06
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_train-ES_only-w0-p301-g1-m1",
+        "arm": "ES_only",
+        "stage": "es_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 0,
+        "policy_seed": 301,
+        "generation": 1,
+        "population_member": 1,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/stages/es/ES_only/discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_train-ES_only-w0-p301-g1-m1_result.json",
+        "sha256": "771f6474b572ad8b1c04497b98122272d95e0e242cf1372d83c5c5fe759ca8cc",
+        "bytes": 4162
+      },
+      "metrics": {
+        "F": -0.05,
+        "J": -0.05,
+        "scoreNormalized": 0.0,
+        "completedSuccessfully": false,
+        "failure_count": 50,
+        "agent_attempts": 100,
+        "failure_fraction": 0.5
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_train-ES_only-w1-p302-g2-m0",
+        "arm": "ES_only",
+        "stage": "es_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 1,
+        "policy_seed": 302,
+        "generation": 2,
+        "population_member": 0,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/stages/es/ES_only/discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_train-ES_only-w1-p302-g2-m0_result.json",
+        "sha256": "bec33cea5a14c6a4ae760fc62f0bdd36de20381933a8b5df4b923445d657ff3f",
+        "bytes": 4165
+      },
+      "metrics": {
+        "F": -0.099,
+        "J": -0.099,
+        "scoreNormalized": 0.0,
+        "completedSuccessfully": false,
+        "failure_count": 99,
+        "agent_attempts": 100,
+        "failure_fraction": 0.99
+      }
+    },
+    {
+      "job": {
+        "job_id": "discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_train-ES_only-w1-p302-g2-m1",
+        "arm": "ES_only",
+        "stage": "es_train",
+        "model_key": "qwen35_4b",
+        "scenario": "Proteomics",
+        "difficulty": "Normal",
+        "world_seed": 1,
+        "policy_seed": 302,
+        "generation": 2,
+        "population_member": 1,
+        "max_agent_attempts": 100
+      },
+      "accepted": true,
+      "result": {
+        "path": "experiments/discoveryworld_full_method_20260922/runs/v1/stages/es/ES_only/discoveryworld_proteomics_normal_qwen35_4b_full_v1-es_train-ES_only-w1-p302-g2-m1_result.json",
+        "sha256": "24b60cbf985bced0ed650c5ddc8ca9bcd34c6a4a0f1166a5154f275d24ab7fbd",
+        "bytes": 4165
+      },
+      "metrics": {
+        "F": 0.103,
+        "J": 0.103,
+        "scoreNormalized": 0.125,
+        "completedSuccessfully": false,
+        "failure_count": 22,
+        "agent_attempts": 100,
+        "failure_fraction": 0.22
+      }
+    }
+  ],
+  "legacy_ES_only_role": "separate ES-only branch; not evidence of full internal-risk method",
+  "graph_groups": [
+    {
+      "group": "group0",
+      "claimed": true,
+      "complete": false,
+      "failed": true,
+      "error_type": "UnsupportedAttribution",
+      "message": "Current-policy transcoder fidelity gate failed at model.language_model.layers.0.mlp: FVU=0.843559980392456, defined=True.",
+      "failure": {
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/graph_workers/group0/failure.json",
+        "sha256": "dc7c8d023270701b805001f791723d00aabd85af65fb1558f7cecd967eb05a94",
+        "bytes": 2634
+      }
+    },
+    {
+      "group": "group1",
+      "claimed": true,
+      "complete": false,
+      "failed": true,
+      "error_type": "UnsupportedAttribution",
+      "message": "Current-policy transcoder fidelity gate failed at model.language_model.layers.0.mlp: FVU=0.843559980392456, defined=True.",
+      "failure": {
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/graph_workers/group1/failure.json",
+        "sha256": "68c4bc720c7204a387b8afa0f534a7ab7930099bed708f75f6ce726ce26aad5c",
+        "bytes": 2635
+      }
+    },
+    {
+      "group": "group2",
+      "claimed": true,
+      "complete": false,
+      "failed": true,
+      "error_type": "UnsupportedAttribution",
+      "message": "Current-policy transcoder fidelity gate failed at model.language_model.layers.0.mlp: FVU=0.843559980392456, defined=True.",
+      "failure": {
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/graph_workers/group2/failure.json",
+        "sha256": "d9e79786f35655d869dbfa7419f1f35b2c16af41aca5dee15b41c1a17c304604",
+        "bytes": 2635
+      }
+    },
+    {
+      "group": "group3",
+      "claimed": true,
+      "complete": false,
+      "failed": true,
+      "error_type": "UnsupportedAttribution",
+      "message": "Current-policy transcoder fidelity gate failed at model.language_model.layers.0.mlp: FVU=0.843559980392456, defined=True.",
+      "failure": {
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/graph_workers/group3/failure.json",
+        "sha256": "8e785625dd878a7e50e7e916e05f6d0736602b8a2464ccdda147bb0113788ea9",
+        "bytes": 2633
+      }
+    }
+  ],
+  "planned_subset_graph_rows": 160,
+  "written_subset_graph_records": 0,
+  "valid_subset_graph_rows": 0,
+  "NN_fit_complete": false,
+  "Full_ES_complete": false,
+  "held_out_paired_tests": [],
+  "held_out_paired_tests_planned": 2,
+  "effectiveness_demonstrated": false,
+  "subset_plan": {
+    "schema": "dw_six_hour_milestone_plan_v1",
+    "requested_scope": "User explicitly prioritized fixed subset results within six hours; original larger study deferred, preserved",
+    "created_UTC": "2026-09-21T20:48:07.706312+00:00",
+    "deadline_UTC": "2026-09-22T02:48:07.706312+00:00",
+    "model": "Qwen/Qwen3.5-4B",
+    "scenario": "Proteomics",
+    "difficulty": "Normal",
+    "test_world_seeds": [
+      3,
+      4
+    ],
+    "test_policy_seeds": [
+      401
+    ],
+    "test_agent_budget": 30,
+    "main_arms": [
+      "Baseline",
+      "UQ_only",
+      "ES_only",
+      "Full"
+    ],
+    "main_test_episodes": 8,
+    "additional_controls": [
+      "Native_2proposal"
+    ],
+    "control_test_episodes": 2,
+    "NN_graph_selection": "20 fixed evenly spaced action indices per each original100step Native episode;8episodes;120train/cal plus40dev rows maximum",
+    "NN_fit_world": 0,
+    "NN_calibration_world": 1,
+    "NN_dev_world": 2,
+    "ES_generations": 2,
+    "ES_population": 2,
+    "ES_episode_budget": 10,
+    "ES_parameter_scope": "full",
+    "ES_branch_episodes_each": 7,
+    "ES_branches": [
+      "ES_only",
+      "Full"
+    ],
+    "feature_extractor": "original full32-layer bank and MADE_FAST32feature/42backward graph, no projection substitution",
+    "NN_architecture": "original2x64GELU,200updates",
+    "qualification": "original8fixedtrainingprefixes,correct hash semantics required",
+    "evaluator_unchanged": true,
+    "native_prompt_decoding_unchanged": true,
+    "report_all_registered_results": true,
+    "positive_outcome_not_guaranteed": true,
+    "full112_plan_redefined_complete": false,
+    "implementation_status": "prospective not yet executable",
+    "active_first_milestone": {
+      "world_seed": 3,
+      "policy_seed": 401,
+      "budget": 30,
+      "arms": [
+        "Baseline",
+        "Full"
+      ],
+      "episodes": 2,
+      "max_generated_proposals": 230,
+      "ES_branch": "Full",
+      "ES_training_and_selection_episodes": 7,
+      "total_new_episodes": 9
+    },
+    "deferred_until_first_pair": [
+      "remaining_test_worlds",
+      "additional_sampling_seeds",
+      "ES_only",
+      "UQ_only",
+      "Native_2proposal",
+      "full112_plan"
+    ],
+    "selection_indices": [
+      1,
+      6,
+      11,
+      16,
+      21,
+      27,
+      32,
+      37,
+      42,
+      47,
+      53,
+      58,
+      63,
+      68,
+      73,
+      79,
+      84,
+      89,
+      94,
+      100
+    ],
+    "selection_rule": "fixed evenly spaced indices chosen before graph or test outcomes; only existing indices when terminal before100",
+    "NN_source_episodes": {
+      "fit": [
+        [
+          0,
+          101
+        ],
+        [
+          0,
+          102
+        ],
+        [
+          0,
+          103
+        ]
+      ],
+      "calibration": [
+        [
+          1,
+          101
+        ],
+        [
+          1,
+          102
+        ],
+        [
+          1,
+          103
+        ]
+      ],
+      "development": [
+        [
+          2,
+          201
+        ],
+        [
+          2,
+          202
+        ]
+      ]
+    },
+    "NN_primary_support_gate_unchanged": true,
+    "primary_pair_interpretation": "Single-case exploratory Full risk+parameter-ES comparison; no claim of general improvement"
+  },
+  "source_registration": {
+    "path": "experiments/discoveryworld_full_method_20260922/registrations/v3/base_stage.json",
+    "sha256": "421a8729ff5f1918e406f98e762ca7b828fc988cb94b56d790243e24e4efa9b3",
+    "bytes": 85909
+  },
+  "graph_registration": {
+    "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/registrations/graph_v1/registry.json",
+    "sha256": "2be125ec32383b076b5faef6e1f8e077e23f4bded2ae32b180a0501e148f50b7",
+    "bytes": 146270
+  },
+  "scientific_calls_for_export": 0,
+  "counts_are_a_sequential_snapshot": true,
+  "public_export_fingerprint": "49e4c494b3babc24851a3bebfa5379dd076bec0c1d2543ecf2665a5aa73c38ec"
+}

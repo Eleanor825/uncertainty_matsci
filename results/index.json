@@ -3155,5 +3155,25 @@
       "three_budget_global_receipt_published": false,
       "variance_axis": "chemical_system_at_seed1_not_repeated_seeds"
     }
-  ]
+  ],
+  "discoveryworld_progress_exports": [
+    {
+      "snapshot_id": "discoveryworld_progress_20260922T052401_CST",
+      "observed_UTC": "2026-09-21T21:24:01.963647+00:00",
+      "report": "results/discoveryworld/progress/20260922T052401_CST/report.md",
+      "snapshot": "results/discoveryworld/progress/20260922T052401_CST/snapshot.json",
+      "validation_script": "results/discoveryworld/progress/20260922T052401_CST/validate.py",
+      "native_collection_accepted": 8,
+      "native_collection_expected": 8,
+      "valid_graph_records": 0,
+      "held_out_test_accepted": 0,
+      "held_out_test_expected": 2,
+      "full_method_complete": false,
+      "effectiveness_demonstrated": false,
+      "preparatory_results_not_held_out_tests": true,
+      "snapshots_overlap_not_additive": true
+    }
+  ],
+  "latest_discoveryworld_progress_export_id": "discoveryworld_progress_20260922T052401_CST",
+  "latest_overview": "results/LATEST.md"
 }

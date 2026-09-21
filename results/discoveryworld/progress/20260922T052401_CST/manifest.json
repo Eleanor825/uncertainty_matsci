@@ -1,0 +1,21 @@
+{
+  "schema": "discoveryworld_progress_bundle_v1",
+  "files": [
+    {
+      "path": "report.md",
+      "bytes": 3822,
+      "sha256": "97c961c6ccdb52adba0cfe2ec2afac25abfe1baa98e552d84f596b06b5becd20"
+    },
+    {
+      "path": "snapshot.json",
+      "bytes": 23349,
+      "sha256": "d9bf35653424c0e7308e48259b2efefc2fd6dd5f1324a1d60582f5fdcb0b9181"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 6365,
+      "sha256": "9fd7d0e7e98eb40e801c6cea18c0bfb9759b6ef67c5b3468519a75fc3c00bc4a"
+    }
+  ],
+  "scientific_calls_for_export": 0
+}

@@ -25,9 +25,14 @@
       "path": "docs/results.md"
     },
     {
-      "bytes": 18218,
-      "export_sha256": "ce1203354b7301e65566eeaeb3fc1d24da77e42a970edd5f15c8b1668ed4c4f5",
-      "path": "results/README.md"
+      "path": "results/LATEST.md",
+      "bytes": 3323,
+      "export_sha256": "1ac83d8582c54d0606acd0f2cd233d81247f1d7b0b426d93b3476a3062ffd22b"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 18488,
+      "export_sha256": "a5e125b86c1672ec66f332ecea6ce55539f66396efb6a5847611b11b8f1d3ef6"
     },
     {
       "bytes": 55304,
@@ -670,9 +675,29 @@
       "path": "results/development/support_mechanism_audit/20260919T174119_CST/trajectory_evidence.json"
     },
     {
+      "path": "results/discoveryworld/progress/20260922T052401_CST/manifest.json",
+      "bytes": 544,
+      "export_sha256": "f10e45778e08133b86ebec6b0fc8a0dc8752936490fcda54c06b44fe991f451d"
+    },
+    {
+      "path": "results/discoveryworld/progress/20260922T052401_CST/report.md",
+      "bytes": 3822,
+      "export_sha256": "97c961c6ccdb52adba0cfe2ec2afac25abfe1baa98e552d84f596b06b5becd20"
+    },
+    {
+      "path": "results/discoveryworld/progress/20260922T052401_CST/snapshot.json",
+      "bytes": 23349,
+      "export_sha256": "d9bf35653424c0e7308e48259b2efefc2fd6dd5f1324a1d60582f5fdcb0b9181"
+    },
+    {
+      "path": "results/discoveryworld/progress/20260922T052401_CST/validate.py",
+      "bytes": 6365,
+      "export_sha256": "9fd7d0e7e98eb40e801c6cea18c0bfb9759b6ef67c5b3468519a75fc3c00bc4a"
+    },
+    {
       "path": "results/index.json",
-      "bytes": 126856,
-      "export_sha256": "ca73f0a03803867a014e1160ecce9cdc36e5eb04481b5289580541ce69907ce5"
+      "bytes": 127794,
+      "export_sha256": "ffca8d8fcc88e769ea97dabbbc0ed5a0eb18a624f0bdc9968083bef9c5c92336"
     },
     {
       "bytes": 1517,
