@@ -11,3 +11,4 @@ Only complete, independently CPU-audited trajectories enter the statistics. Snap
 | 2026-09-20T04:47:48.101780+08:00 | 5/15 | [report](20260920T044748_CST/report.md) |
 | 2026-09-20T05:17:20.269206+08:00 | 5/15 | [report](20260920T051720_CST/report.md) |
 | 2026-09-20T22:49:29.048318+08:00 | 5/15 | [report](20260920T224929_CST/report.md) |
+| 2026-09-21T16:43:10.813157+08:00 | 5/15 | [report](20260921T164310_CST/report.md) |

@@ -1,0 +1,47 @@
+{
+  "schema": "additional_scope_scientific_projection_manifest_v1",
+  "files": [
+    {
+      "path": "all_jobs.csv",
+      "bytes": 4329,
+      "sha256": "dd91d72b0347f28134ce8915973c6c803585d34bd2c07a33d82246bc474fecc4"
+    },
+    {
+      "path": "completed_costs.csv",
+      "bytes": 4584,
+      "sha256": "27a0825e9930f8305ff7c6d781b2b263aa00678d178a07b5ddc0a9d1fe803dfb"
+    },
+    {
+      "path": "completed_curves.csv",
+      "bytes": 3114,
+      "sha256": "16ef940e02e1f788be4ddbc87408a26a788d593cd07e76df8321c440fa899099"
+    },
+    {
+      "path": "recompute.py",
+      "bytes": 17141,
+      "sha256": "edcf6e5318f38600780c1b64bf2e834a91e93f9c76cc6b3636bfb2345b66bae9"
+    },
+    {
+      "path": "report.md",
+      "bytes": 2166,
+      "sha256": "862c68b16244b17f36e16ea56ffd4fa2232ee1e2d7ae8946fc52a4fc7488a52b"
+    },
+    {
+      "path": "seed_statistics.csv",
+      "bytes": 771,
+      "sha256": "53ea58f9356618bd8164d051f9aebd6a0e2c9137f9f57813311c713c38906335"
+    },
+    {
+      "path": "snapshot.json",
+      "bytes": 54232,
+      "sha256": "7708d6598e13a3c19ea5e401ac2967d82b259f4208e2d8ea55892798f0b8741c"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1188,
+      "sha256": "72fc8e1bf16851be48d07c53f45f89a64cb67d2dfc0a6088f4431f65deb03773"
+    }
+  ],
+  "original_and_export_hashes_are_distinct": true,
+  "new_scientific_calls": 0
+}
