@@ -15,23 +15,23 @@
   ],
   "files": [
     {
-      "bytes": 23432,
-      "export_sha256": "8240d8534262a3c4cd9915494ed85b83e1d65013a388a1f73f800a890ea7bd90",
+      "bytes": 23806,
+      "export_sha256": "86a9b9a755c7d268fc41ccb9afac2bcc53970e37af053a3edb01343822fc0d7c",
       "path": "README.md"
     },
     {
-      "bytes": 22623,
-      "export_sha256": "6f60d991e33dc791bb4772ff87836f3db38b96d75bc17e2b62edf729180ea315",
+      "bytes": 23000,
+      "export_sha256": "96bb19fcbb6e269775c83f901d27c2c762d82d2352e52e206d0a763becd01d50",
       "path": "docs/results.md"
     },
     {
-      "bytes": 5886,
-      "export_sha256": "c2f40aae7184c81835511de24c12efd1530c6b496e85ac09d384ae8f2cdfd4af",
+      "bytes": 6228,
+      "export_sha256": "474e3c288cf1693ad81c103ce93badda9091f877b39089c37282f59ec1ec5e6b",
       "path": "results/LATEST.md"
     },
     {
-      "bytes": 19182,
-      "export_sha256": "321772775a87b27422b8f676ef78f4ac8f54d5e2a96db30384dd46f3d2fde173",
+      "bytes": 19548,
+      "export_sha256": "a808db9b5d5c5483f017c0fa3fe0253c9de48ec28c35589c3eb61ff072f502e5",
       "path": "results/README.md"
     },
     {
@@ -898,6 +898,56 @@
       "bytes": 2508,
       "export_sha256": "203bed98c9f50ed20efba2272008343c23fe6bec16fdb52e97e7c36879a9462d",
       "path": "results/discoveryworld/development/20260922T231329_CST/validate.py"
+    },
+    {
+      "bytes": 1195,
+      "export_sha256": "fd5a1c3c197acf689d5f0683dc9254ae95cc07c3e4a97801da395c5c385a6976",
+      "path": "results/discoveryworld/development/20260923T002200_CST/action_types.csv"
+    },
+    {
+      "bytes": 43755,
+      "export_sha256": "a9f4eb881ef1b7d53ee5ea373ba234a9720e2a5486f36d30032a31eb2c1dd921",
+      "path": "results/discoveryworld/development/20260923T002200_CST/actions.csv"
+    },
+    {
+      "bytes": 281869,
+      "export_sha256": "d1b3afdf41534826098d3cb7ac5d1734c424965ff33cdbe87adcea885e8faec9",
+      "path": "results/discoveryworld/development/20260923T002200_CST/audit_projection.json"
+    },
+    {
+      "bytes": 1034,
+      "export_sha256": "f25af890ca461eedce098c6dfaf3fb4a3cb6b2634eab5f28d0d7bb0c66ad3ff3",
+      "path": "results/discoveryworld/development/20260923T002200_CST/episode_metrics.csv"
+    },
+    {
+      "bytes": 1426,
+      "export_sha256": "ff1d4bed4f757dce3d868e45ca331d61e84490fa9a4d184687b1bdbce478b35b",
+      "path": "results/discoveryworld/development/20260923T002200_CST/manifest.json"
+    },
+    {
+      "bytes": 414,
+      "export_sha256": "95831cbb24589974d79675df6d72e9ef1792525f78cee9162e092b1a725712e4",
+      "path": "results/discoveryworld/development/20260923T002200_CST/paired_differences.csv"
+    },
+    {
+      "bytes": 2989,
+      "export_sha256": "a1355c86c21c7016cb28c796c84213e56dd91e34c5ac5db1c21937d67a4616f7",
+      "path": "results/discoveryworld/development/20260923T002200_CST/provenance.json"
+    },
+    {
+      "bytes": 5149,
+      "export_sha256": "060535f6f98bb994a9e42e90ec775b876084305f5418247058feb2bb0c3ce909",
+      "path": "results/discoveryworld/development/20260923T002200_CST/report.md"
+    },
+    {
+      "bytes": 1372,
+      "export_sha256": "ca85cb069d28537b234d95b49f9564f5685bca7f92ff6d0476e03d9d16481b7f",
+      "path": "results/discoveryworld/development/20260923T002200_CST/statistics.csv"
+    },
+    {
+      "bytes": 6341,
+      "export_sha256": "452f6ed08e26f00c197e4b343cff4b3cb10c58e8e24784cd30357b3f2e076be1",
+      "path": "results/discoveryworld/development/20260923T002200_CST/validate.py"
     },
     {
       "bytes": 25184,
@@ -5953,6 +6003,7 @@
   "latest_B50_hull_audit_observation_utc": "2026-09-19T21:45:12.035489+00:00",
   "latest_CPU_prediction_diagnostic_observation_utc": "2026-09-19T11:28:21.417572+00:00",
   "latest_DW_SFT_behavior_observation_utc": "2026-09-22T15:13:29.398210+00:00",
+  "latest_DW_fixed9_policy_observation_unix": 1790094120.792998,
   "latest_DW_risk_refresh_observation_utc": "2026-09-22T13:29:53.529933+00:00",
   "latest_MADE_observation_utc": "2026-09-18T21:21:38.188817+00:00",
   "latest_collection_acceptance_observation_CST": "2026-09-21T17:07:16.298529+08:00",

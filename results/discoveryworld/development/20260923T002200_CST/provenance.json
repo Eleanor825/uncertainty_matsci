@@ -1,0 +1,63 @@
+{
+  "Internal_or_Full_efficacy_claimed": false,
+  "export_bytes_distinct_from_original_source_hashes": true,
+  "final9_publication": true,
+  "new_scientific_calls": 0,
+  "observer_source_SHA256": "a35bfd6ce1d26ed16710dfc849a7f2cabecdcb05bc75da12b62e4a3cdf8a910e",
+  "raw_full_prompts_published": false,
+  "raw_logs_published": false,
+  "raw_observer_SHA256": "fc4436ae8a751e2c6aabb4198f69d9bcf18d6e413b331b7716f7c0bf0cd8db18",
+  "raw_observer_bytes": 296128,
+  "resource_sources": [
+    {
+      "bytes": 3701,
+      "sha256": "4e67cd382e674b07cb4f2086249b8d68dcd981314cb611ea83374e973091e066",
+      "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_credit_dev_v1/chain_v1/run/completion.json"
+    },
+    {
+      "bytes": 259,
+      "sha256": "53e7a1610e8bc76c55e33a2df1fe3ee9ac0760206493361effa6e7eda3ffb0de",
+      "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_credit_dev_v1/chain_v1/run/resource_completion.json"
+    }
+  ],
+  "schema": "dw_fixed9_policy_training_diagnostic_export_v1",
+  "scientific_source_manifest_SHA256": "cb033ae5427889ba2d17da6228caa54d46cf7d3d6cb0d0cfde070932b7414d63",
+  "seed_completion_sources": [
+    {
+      "bytes": 91173,
+      "sha256": "0c3b61fe3b488869db398860b1c7ac54a7f5e81b29aaa6fc9a272b31e316815d",
+      "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_credit_dev_v1/runs/v1/study/seeds/309/completion.json"
+    },
+    {
+      "bytes": 91123,
+      "sha256": "732acd1f1fd5649e7a14da5b0672379da0de66963b2826543f84443272521189",
+      "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_credit_dev_v1/runs/v1/study/seeds/310/completion.json"
+    },
+    {
+      "bytes": 91160,
+      "sha256": "0d1bcead80b0e048e0c140a79239adba68ff29fc7f7f54227dd4e129a38c1afe",
+      "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_credit_dev_v1/runs/v1/study/seeds/311/completion.json"
+    }
+  ],
+  "study_completion": {
+    "bytes": 276139,
+    "sha256": "85e1ba5ad45a519e70ee3a83b530218190b7529098fa2caf51eec698b5f25795",
+    "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_credit_dev_v1/runs/v1/study/completion.json"
+  },
+  "study_registration": {
+    "bytes": 144137,
+    "commit": "59cb6ae366530a1bdff24f0ee361470419e0a9b8",
+    "sha256": "1bd007edd6a696855d035682c40397acc8c8fc92c7d29ed57352858d2d897fc8",
+    "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_credit_dev_v1/registrations/v1/registry.json"
+  },
+  "training_program_comparison": {
+    "changed_component": "row response-loss multiplier only",
+    "credit_gamma": 0.9,
+    "credit_horizon": 8,
+    "credit_mixture": 0.8,
+    "microbatches_per_update": 4,
+    "optimizer_updates_per_policy": 32,
+    "rows_per_policy": 106,
+    "same_tokens_and_schedule": true
+  }
+}

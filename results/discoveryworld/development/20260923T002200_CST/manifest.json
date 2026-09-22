@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "bytes": 1195,
+      "path": "action_types.csv",
+      "sha256": "fd5a1c3c197acf689d5f0683dc9254ae95cc07c3e4a97801da395c5c385a6976"
+    },
+    {
+      "bytes": 43755,
+      "path": "actions.csv",
+      "sha256": "a9f4eb881ef1b7d53ee5ea373ba234a9720e2a5486f36d30032a31eb2c1dd921"
+    },
+    {
+      "bytes": 281869,
+      "path": "audit_projection.json",
+      "sha256": "d1b3afdf41534826098d3cb7ac5d1734c424965ff33cdbe87adcea885e8faec9"
+    },
+    {
+      "bytes": 1034,
+      "path": "episode_metrics.csv",
+      "sha256": "f25af890ca461eedce098c6dfaf3fb4a3cb6b2634eab5f28d0d7bb0c66ad3ff3"
+    },
+    {
+      "bytes": 414,
+      "path": "paired_differences.csv",
+      "sha256": "95831cbb24589974d79675df6d72e9ef1792525f78cee9162e092b1a725712e4"
+    },
+    {
+      "bytes": 2989,
+      "path": "provenance.json",
+      "sha256": "a1355c86c21c7016cb28c796c84213e56dd91e34c5ac5db1c21937d67a4616f7"
+    },
+    {
+      "bytes": 5149,
+      "path": "report.md",
+      "sha256": "060535f6f98bb994a9e42e90ec775b876084305f5418247058feb2bb0c3ce909"
+    },
+    {
+      "bytes": 1372,
+      "path": "statistics.csv",
+      "sha256": "ca85cb069d28537b234d95b49f9564f5685bca7f92ff6d0476e03d9d16481b7f"
+    },
+    {
+      "bytes": 6341,
+      "path": "validate.py",
+      "sha256": "452f6ed08e26f00c197e4b343cff4b3cb10c58e8e24784cd30357b3f2e076be1"
+    }
+  ],
+  "schema": "dw_fixed9_policy_export_manifest_v1"
+}

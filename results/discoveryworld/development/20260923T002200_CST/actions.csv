@@ -1,0 +1,271 @@
+policy_seed,arm,action,action_type,attempt_index,error_excerpt,none_serialization_repair,official_success,sampling_seed,score_after,score_before,score_delta,score_observation_available,submitted
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""45538""}",TELEPORT_TO_OBJECT,1,,False,True,5758059436999058438,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,2,,False,True,9497342844446385,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""45538""}",TELEPORT_TO_OBJECT,3,,False,True,2357064243171543388,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""PICKUP"", ""arg1"": ""45538""}",PICKUP,4,,False,False,2103142829421802966,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,5,,False,True,770546382369465388,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""41261""}",TELEPORT_TO_OBJECT,6,,False,True,2108254856256032634,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""READ"", ""arg1"": ""41261""}",READ,7,,False,True,1838526989697951663,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""45538""}",TELEPORT_TO_OBJECT,8,,False,True,7381261100352110955,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,9,,False,True,1699205037887278621,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,10,,False,True,3607839138377165637,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""41261""}",TELEPORT_TO_OBJECT,11,,False,True,8701058440053420974,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,12,,False,True,5432472595639211726,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,13,,False,True,8646436004824748970,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""41261""}",TELEPORT_TO_OBJECT,14,,False,True,6195343272648412888,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""ACTIVATE"", ""arg1"": ""41261""}",ACTIVATE,15,,False,False,7985201056600417772,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,16,,False,True,6511641711398662986,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""41261""}",TELEPORT_TO_OBJECT,17,,False,True,1797767170931319821,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,18,,False,True,8362214034709085786,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,19,,False,True,1444149687257265394,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,20,,False,True,1787592918602837960,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,21,,False,True,6701322706409346260,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""41261""}",TELEPORT_TO_OBJECT,22,,False,True,5739437690703540627,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,23,,False,True,6281792985837476547,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""south""}",MOVE_DIRECTION,24,"arg1: Could not find object with UUID 'south'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). Note: expected type of arg1 is 'int', but found `<class 'str'>`. ",False,False,1211446287558963298,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""41261""}",TELEPORT_TO_OBJECT,25,,False,True,7419727604267307715,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,26,,False,True,6397169399556009017,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""41261""}",TELEPORT_TO_OBJECT,27,,False,True,8273877107276486873,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,28,,False,True,7733712718579312509,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,29,,False,True,5733483988113484704,0.0,0.0,0.0,True,True
+309,Baseline,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 1""}",TELEPORT_TO_LOCATION,30,,False,True,1341068465414427252,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,1,,False,True,5758059436999058438,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,2,,False,True,9497342844446385,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,3,,False,True,2357064243171543388,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,4,,False,True,2103142829421802966,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,5,,False,True,770546382369465388,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,6,,False,True,2108254856256032634,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,7,,False,True,1838526989697951663,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,8,,False,True,7381261100352110955,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,9,,False,True,1699205037887278621,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,10,,False,True,3607839138377165637,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,11,,False,True,8701058440053420974,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,12,,False,True,5432472595639211726,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,13,,False,True,8646436004824748970,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,14,,False,True,6195343272648412888,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,15,,False,True,7985201056600417772,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,16,,False,True,6511641711398662986,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,17,,False,True,1797767170931319821,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,18,,False,True,8362214034709085786,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,19,,False,True,1444149687257265394,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,20,,False,True,1787592918602837960,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,21,,False,True,6701322706409346260,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,22,,False,True,5739437690703540627,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,23,,False,True,6281792985837476547,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,24,,False,True,1211446287558963298,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,25,,False,True,7419727604267307715,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,26,,False,True,6397169399556009017,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,27,,False,True,8273877107276486873,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""east""}",MOVE_DIRECTION,28,,False,True,7733712718579312509,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,29,,False,True,5733483988113484704,0.0,0.0,0.0,True,True
+309,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,30,,False,True,1341068465414427252,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,1,,False,True,5758059436999058438,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,2,,False,True,9497342844446385,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,3,,False,True,2357064243171543388,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,4,,False,True,2103142829421802966,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,5,"arg1: Could not find object with UUID 'north'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). Note: expected type of arg1 is 'int', but found `<class 'str'>`. ",False,False,770546382369465388,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,6,,False,True,2108254856256032634,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,7,,False,True,1838526989697951663,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,8,,False,True,7381261100352110955,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""east""}",MOVE_DIRECTION,9,,False,True,1699205037887278621,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,10,,False,True,3607839138377165637,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,11,,False,True,8701058440053420974,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,12,,False,True,5432472595639211726,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,13,,False,True,8646436004824748970,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,14,,False,True,6195343272648412888,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,15,,False,True,7985201056600417772,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,16,,False,True,6511641711398662986,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,17,,False,True,1797767170931319821,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,18,,False,True,8362214034709085786,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,19,,False,True,1444149687257265394,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,20,,False,True,1787592918602837960,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,21,,False,True,6701322706409346260,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,22,,False,True,5739437690703540627,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,23,,False,True,6281792985837476547,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,24,,False,True,1211446287558963298,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,25,,False,True,7419727604267307715,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,26,,False,True,6397169399556009017,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,27,,False,True,8273877107276486873,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,28,,False,True,7733712718579312509,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,29,,False,True,5733483988113484704,0.0,0.0,0.0,True,True
+309,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,30,,False,True,1341068465414427252,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Instrument Table""}",TELEPORT_TO_LOCATION,1,,False,True,4374930730405832023,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": ""proteomics meter""}",PICKUP,2,"arg1: Could not find object with UUID 'proteomics meter'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). Note: expected type of arg1 is 'int', but found `<class 'str'>`. ",False,False,2359623891488966862,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,3,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5482114023166495896,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,4,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,7121258190071389779,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,5,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5789473862764179871,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,6,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,2936406641146001429,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,7,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,8534012849482164512,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,8,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,7867290093590120153,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,9,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1086835715800480903,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,10,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,8581862064226811971,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,11,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1116543140698574054,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,12,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,2964777569850155890,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,13,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,4390747106869095722,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,14,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,19541026367942339,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,15,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,2093954159491564801,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,16,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,3598902317623047733,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,17,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,8657918565746615149,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,18,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,7920569697616699605,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,19,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,8829777736299077662,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,20,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,2001163795558448878,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,21,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1382612905592181053,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,22,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,7808751354514688660,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,23,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5291893243497591087,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,24,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,9171902911407847901,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,25,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,3365363062824474725,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,26,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,6092424818008291380,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,27,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1044012359724744526,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,28,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,8841709729071898018,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,29,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,8972350475051130131,0.0,0.0,0.0,True,True
+310,Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,30,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5056616126143862402,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,1,,False,True,4374930730405832023,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,2,,False,True,2359623891488966862,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,3,,False,True,5482114023166495896,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,4,,False,True,7121258190071389779,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,5,,False,True,5789473862764179871,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,6,,False,True,2936406641146001429,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,7,,False,True,8534012849482164512,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,8,,False,True,7867290093590120153,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,9,,False,True,1086835715800480903,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,10,,False,True,8581862064226811971,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,11,,False,True,1116543140698574054,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,12,,False,True,2964777569850155890,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,13,,False,True,4390747106869095722,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,14,,False,True,19541026367942339,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,15,,False,True,2093954159491564801,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,16,,False,True,3598902317623047733,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,17,,False,True,8657918565746615149,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,18,,False,True,7920569697616699605,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,19,,False,True,8829777736299077662,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,20,,False,True,2001163795558448878,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,21,,False,True,1382612905592181053,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,22,,False,True,7808751354514688660,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,23,,False,True,5291893243497591087,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,24,,False,True,9171902911407847901,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,25,,False,True,3365363062824474725,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,26,,False,True,6092424818008291380,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,27,,False,True,1044012359724744526,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,28,,False,True,8841709729071898018,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,29,,False,True,8972350475051130131,0.0,0.0,0.0,True,True
+310,SFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""east""}",MOVE_DIRECTION,30,,False,True,5056616126143862402,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,1,,False,True,4374930730405832023,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,2,,False,True,2359623891488966862,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,3,,False,True,5482114023166495896,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,4,,False,True,7121258190071389779,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,5,,False,True,5789473862764179871,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,6,,False,True,2936406641146001429,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,7,,False,True,8534012849482164512,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,8,,False,True,7867290093590120153,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,9,,False,True,1086835715800480903,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,10,,False,True,8581862064226811971,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,11,,False,True,1116543140698574054,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,12,,False,True,2964777569850155890,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,13,,False,True,4390747106869095722,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,14,,False,True,19541026367942339,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,15,,False,True,2093954159491564801,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,16,,False,True,3598902317623047733,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,17,,False,True,8657918565746615149,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,18,,False,True,7920569697616699605,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,19,,False,True,8829777736299077662,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,20,,False,True,2001163795558448878,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,21,,False,True,1382612905592181053,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""45538""}",TELEPORT_TO_OBJECT,22,,False,True,7808751354514688660,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,23,,False,True,5291893243497591087,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,24,,False,True,9171902911407847901,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,25,,False,True,3365363062824474725,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,26,,False,True,6092424818008291380,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,27,,False,True,1044012359724744526,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,28,,False,True,8841709729071898018,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,29,,False,True,8972350475051130131,0.0,0.0,0.0,True,True
+310,CreditSFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,30,,False,True,5056616126143862402,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""46475""}",TELEPORT_TO_OBJECT,1,,False,True,4288197609018318628,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,2,,False,True,6813408075018985113,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""8549""}",TELEPORT_TO_OBJECT,3,,False,True,5025446190261747145,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""46475""}",TELEPORT_TO_OBJECT,4,,False,True,2930037809982929011,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,5,,False,True,2548073153693568251,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""DISCOVERY_FEED_GET_UPDATES""}",DISCOVERY_FEED_GET_UPDATES,6,,False,True,5624270141420800725,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""46475""}",TELEPORT_TO_OBJECT,7,,False,True,4464027901423027660,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""USE"", ""arg1"": ""46475"", ""arg2"": ""63296""}",USE,8,"arg2: Could not find object with UUID '63296' Are you sure it's accessible (i.e in your inventory, or directly in front of you?). Note: expected type of arg2 is 'int', but found `<class 'str'>`. ",False,False,2730652363342563354,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""46475""}",TELEPORT_TO_OBJECT,9,,False,True,2887231071429944345,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""8549""}",TELEPORT_TO_OBJECT,10,,False,True,3948264123011987880,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""46475""}",TELEPORT_TO_OBJECT,11,,False,True,4432115721076291809,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""USE"", ""arg1"": ""46475"", ""arg2"": ""63296""}",USE,12,"arg2: Could not find object with UUID '63296' Are you sure it's accessible (i.e in your inventory, or directly in front of you?). Note: expected type of arg2 is 'int', but found `<class 'str'>`. ",False,False,1154376434935084316,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""USE"", ""arg1"": 46475, ""arg2"": 8549}",USE,13,"arg2: Could not find object with UUID '8549' Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1555450754249391113,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""8549""}",TELEPORT_TO_OBJECT,14,,False,True,202429287613795448,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""8549""}",TELEPORT_TO_OBJECT,15,,False,True,5515645033428870324,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""PICKUP"", ""arg1"": ""46475""}",PICKUP,16,"arg1: Could not find object with UUID '46475'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). Note: expected type of arg1 is 'int', but found `<class 'str'>`. ",False,False,7862636440575801246,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 46475}",TELEPORT_TO_OBJECT,17,,False,True,5514598040773285430,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 46475}",TELEPORT_TO_OBJECT,18,,False,True,2692358892349238202,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 46475}",TELEPORT_TO_OBJECT,19,,False,True,6345760788094761898,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""PICKUP"", ""arg1"": 46475}",PICKUP,20,,False,False,7871498734055918690,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 46475}",TELEPORT_TO_OBJECT,21,,False,True,2860340995166079089,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 8549}",TELEPORT_TO_OBJECT,22,,False,True,2200532935935300629,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""PICKUP"", ""arg1"": 46475}",PICKUP,23,"arg1: Could not find object with UUID '46475'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1856651833782970262,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 46475}",TELEPORT_TO_OBJECT,24,,False,True,6374369120415281454,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 8549}",TELEPORT_TO_OBJECT,25,,False,True,734585071211048785,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 8549}",TELEPORT_TO_OBJECT,26,,False,True,3742632680203238364,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Instrument Table""}",TELEPORT_TO_LOCATION,27,,False,True,8128893061800798335,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""USE"", ""arg1"": ""33276"", ""arg2"": ""42983""}",USE,28,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). Note: expected type of arg1 is 'int', but found `<class 'str'>`.  | arg2: Could not find object with UUID '42",False,False,5912362529871867237,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 42983}",TELEPORT_TO_OBJECT,29,,False,True,2364679175226764099,0.0,0.0,0.0,True,True
+311,Baseline,"{""action"": ""USE"", ""arg1"": 33276, ""arg2"": 42983}",USE,30,,False,True,5158095909380516434,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,1,,False,True,4288197609018318628,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,2,,False,True,6813408075018985113,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,3,,False,True,5025446190261747145,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,4,,False,True,2930037809982929011,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,5,,False,True,2548073153693568251,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,6,,False,True,5624270141420800725,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,7,,False,True,4464027901423027660,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,8,,False,True,2730652363342563354,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,9,,False,True,2887231071429944345,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,10,,False,True,3948264123011987880,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,11,,False,True,4432115721076291809,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,12,,False,True,1154376434935084316,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,13,,False,True,1555450754249391113,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,14,,False,True,202429287613795448,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,15,,False,True,5515645033428870324,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,16,,False,True,7862636440575801246,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,17,,False,True,5514598040773285430,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,18,,False,True,2692358892349238202,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,19,,False,True,6345760788094761898,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,20,,False,True,7871498734055918690,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,21,,False,True,2860340995166079089,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,22,,False,True,2200532935935300629,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,23,,False,True,1856651833782970262,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,24,,False,True,6374369120415281454,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,25,,False,True,734585071211048785,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,26,,False,True,3742632680203238364,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,27,,False,True,8128893061800798335,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,28,,False,True,5912362529871867237,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,29,,False,True,2364679175226764099,0.0,0.0,0.0,True,True
+311,SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,30,,False,True,5158095909380516434,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,1,,False,True,4288197609018318628,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,2,,False,True,6813408075018985113,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,3,,False,True,5025446190261747145,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,4,,False,True,2930037809982929011,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,5,,False,True,2548073153693568251,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,6,,False,True,5624270141420800725,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,7,,False,True,4464027901423027660,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,8,,False,True,2730652363342563354,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,9,,False,True,2887231071429944345,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,10,,False,True,3948264123011987880,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,11,,False,True,4432115721076291809,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,12,,False,True,1154376434935084316,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,13,,False,True,1555450754249391113,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,14,,False,True,202429287613795448,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,15,,False,True,5515645033428870324,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,16,,False,True,7862636440575801246,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,17,,False,True,5514598040773285430,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,18,,False,True,2692358892349238202,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,19,,False,True,6345760788094761898,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,20,,False,True,7871498734055918690,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,21,,False,True,2860340995166079089,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,22,,False,True,2200532935935300629,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,23,,False,True,1856651833782970262,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,24,,False,True,6374369120415281454,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,25,,False,True,734585071211048785,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,26,,False,True,3742632680203238364,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,27,,False,True,8128893061800798335,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,28,,False,True,5912362529871867237,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,29,,False,True,2364679175226764099,0.0,0.0,0.0,True,True
+311,CreditSFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,30,,False,True,5158095909380516434,0.0,0.0,0.0,True,True
