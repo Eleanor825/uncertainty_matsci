@@ -1,0 +1,25 @@
+{
+  "files": {
+    "mechanism.json": {
+      "bytes": 12555,
+      "sha256": "f6f68652dc8d3aa0553104d5163b41b4c7f95b113c74239dfbbf3e6f4b6f9d66"
+    },
+    "provenance.json": {
+      "bytes": 4686,
+      "sha256": "84330d6492b9d2566b3dbf55333ce9ae8c4a87cd6443e04b57973dd9f2860f20"
+    },
+    "report.md": {
+      "bytes": 4235,
+      "sha256": "ddcaec7487e5fe5fc43762ecb5f6968ecee84e6a8e70ceb3c4ae5b08bc588570"
+    },
+    "steps.csv": {
+      "bytes": 1002,
+      "sha256": "61ab12e54ed2090ea617e7d7db4181ae076b23db4299137ed2f24fec8a3bfece"
+    },
+    "validate.py": {
+      "bytes": 3977,
+      "sha256": "2989a68342e1cd0d0c373cd44288b55eeb5b2a1e45274e1c9f86f9a38ae635e5"
+    }
+  },
+  "schema": "dw_p401_mechanism_incremental_manifest_v1"
+}

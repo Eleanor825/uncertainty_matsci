@@ -1,0 +1,78 @@
+{
+  "executed_observer_source_sha256": "7303fe757bd2ed5a7429823bc10f0a17aa8ef13fce55e4a36878310c39aa5600",
+  "existing_numerical_results_changed": false,
+  "input_receipt_bytes": 19058,
+  "input_receipt_sha256": "dc12535e53c9f3bcb4c7e456296f6fa8fe4ce68f0cfe6cb3eacfdb17d8f3ba7e",
+  "large_checkpoint_or_policy_attempt_log_read": false,
+  "new_model_environment_graph_fitting_calls": 0,
+  "original_pair_publication_commit": "64cfe3c4ffbbd868976690515a8f285548ec5511",
+  "original_pair_sources": {
+    "Full": {
+      "completion": {
+        "bytes": 5127,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/test_results/dw-full-es-v5-test-Full-w3-p401-b30/completion.json",
+        "sha256": "a78a4ceae6797daaac268fbe0aa8157a842d23caaf8b21ba432b1376f5f441f3"
+      },
+      "evaluator": {
+        "bytes": 6743,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/environment/discoveryworld-v1-0479d265bde3ad3971553fc2/evaluator.jsonl",
+        "sha256": "bad798c7094284cfed5a106c0428b857763663e24972019252edb841781a2a3e"
+      },
+      "events": {
+        "bytes": 254058,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/environment/discoveryworld-v1-0479d265bde3ad3971553fc2/events.jsonl",
+        "sha256": "0e7c8cc949e34dbe9fa5918fff4e88c308307fb861edcd5ab969ba29749c8923"
+      },
+      "small_policy_events": {
+        "bytes": 418550,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/events.jsonl",
+        "sha256": "0faea4f75ee92fbe62b7700f52168ba517ef64d4aba74337407a50f61b6d564f"
+      },
+      "summary": {
+        "bytes": 1266,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/environment/discoveryworld-v1-0479d265bde3ad3971553fc2/summary.json",
+        "sha256": "ad02699b6203e19a0459357fd4556be2129d659f70822ffc356514948382eb4c"
+      }
+    },
+    "Native": {
+      "completion": {
+        "bytes": 5206,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/test_results/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/completion.json",
+        "sha256": "cda074b539a0b4f6657893352357b1824ac5ea82c75dbd7720c578eaf8505c55"
+      },
+      "evaluator": {
+        "bytes": 6729,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/evaluator.jsonl",
+        "sha256": "ec35bc60730b788e55afcb40d328621795a6b608c8737f326620cb6c183178c3"
+      },
+      "events": {
+        "bytes": 255283,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/events.jsonl",
+        "sha256": "79752da20b25b1354ea3dd69c5cbb5e5770e01cd85d809741d06674b4f076cfe"
+      },
+      "small_policy_events": {
+        "bytes": 357406,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/events.jsonl",
+        "sha256": "bf35b6e4cd89b58d0891670db207408c32683239f96391b78a98b98a64b0cdec"
+      },
+      "summary": {
+        "bytes": 1267,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/summary.json",
+        "sha256": "45d8e852e8f70eb035286000f932a2a4fe7ece74662d38a9fd59e3c9f3383629"
+      }
+    }
+  },
+  "raw_prompts_credentials_hosts_PIDs_exported": false,
+  "schema": "dw_p401_small_evidence_mechanism_provenance_v1",
+  "semantic_UUID_rule": {
+    "action": "TELEPORT_TO_OBJECT",
+    "argument": "arg1",
+    "function": "actionTeleportAgentToObject",
+    "line": 556,
+    "normalization": "int(value), only for comparison; raw packets retained",
+    "official_commit": "fd591323920be0d3786ef350955de1945aa571e5",
+    "official_source": "experiments/discoveryworld_full_method_20260922/vendor/DiscoveryWorld/discoveryworld/Agent.py",
+    "official_source_sha256": "a6bd982f266eaebb3d8910e718ff20af4a5d16d7a4fbe2c835d3a502a508e7e4"
+  },
+  "total_remote_bytes_read": 1639870
+}

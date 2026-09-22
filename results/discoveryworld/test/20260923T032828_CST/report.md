@@ -20,3 +20,5 @@ This is **one world and one policy seed**, with a historical Native run and a la
 The p333 source/metadata registration receipt records zero scientific calls; this release does not infer its later execution or completion. GPU occupancy and deployed source alone are not experimental results. Existing MADE **1079 valid trajectories + 1 technical failure**, including negative Full-minus-Native aggregate results, are unchanged. [Prospective metadata status](prospective_status.json).
 
 The selected-versus-G0 weight comparison is recomputed from actual tensor hashes. [Provenance](provenance.json). Run [validate.py](validate.py) to check arithmetic, exact hashes, selected-state consistency and public-data scope.
+
+A later [four-step mechanism audit](../../test_mechanisms/20260923T044323_CST/report.md) records the two risk-triggered PICKUP→TELEPORT changes before step24's successful identical-PICKUP candidates. It retains the successful-action alarm and repeated teleport; no local necessity or unexecuted outcome is inferred. The numerical endpoints above are unchanged.

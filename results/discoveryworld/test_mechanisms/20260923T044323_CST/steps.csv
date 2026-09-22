@@ -1,0 +1,5 @@
+attempt,first_candidate,second_candidate,actual_executed_action,first_failure_risk,supported,neural_revision,actual_packet_changed_from_first,unique_proposal_match,official_action_success,official_score_delta
+22,"{""action"": ""PICKUP"", ""arg1"": 33276}","{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 33276}","{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 33276}",0.8803213834762573,True,True,True,1,True,0.0
+23,"{""action"": ""PICKUP"", ""arg1"": 33276}","{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 33276}","{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 33276}",0.9286850690841675,True,True,True,1,True,0.0
+24,"{""action"": ""PICKUP"", ""arg1"": 33276}","{""action"": ""PICKUP"", ""arg1"": 33276}","{""action"": ""PICKUP"", ""arg1"": 33276}",0.8780758380889893,True,True,False,,True,0.125
+25,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Instrument Table""}",,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Instrument Table""}",0.02372577041387558,True,False,False,0,True,0.0

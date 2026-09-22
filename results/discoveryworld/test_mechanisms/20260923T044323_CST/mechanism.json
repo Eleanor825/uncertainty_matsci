@@ -1,0 +1,347 @@
+{
+  "Full_final_score": 0.125,
+  "Native_final_score": 0.0,
+  "all_four_selected_steps_retained": true,
+  "both_task_success_false": true,
+  "budget": 30,
+  "calibration_failure_inferred_from_single_case": false,
+  "full_private_state_equivalence_claimed": false,
+  "model": "Qwen3.5-4B",
+  "new_scientific_calls": 0,
+  "observed_CST": "2026-09-23T04:43:23.412714+08:00",
+  "policy_seed": 401,
+  "positive_score_events": [
+    {
+      "after": 0.125,
+      "attempt": 24,
+      "before": 0.0,
+      "delta": 0.125
+    }
+  ],
+  "same_initial_public_observation_sha256": "20114e76c620d77e1e15b9969ea1730544736900a3bcb12e53cbb0d6c3aa371c",
+  "schema": "dw_p401_posthoc_positive_milestone_mechanism_v1",
+  "selected_generation": 1,
+  "selection_of_window": "all positive score events in the already closed pair, each preceding2 and following1 steps; outcome-conditioned descriptive audit",
+  "step22_23_semantic_teleport_same": true,
+  "step24_executed_same_packet_succeeded": true,
+  "step24_first_alarm_at_registered_0_5_threshold": true,
+  "step24_same_candidate_packets": true,
+  "steps": [
+    {
+      "actual_raw_action": {
+        "action": "TELEPORT_TO_OBJECT",
+        "arg1": "33276"
+      },
+      "actual_semantic_action": {
+        "action": "TELEPORT_TO_OBJECT",
+        "arg1": 33276
+      },
+      "attempt": 22,
+      "candidates": [
+        {
+          "generation_success": true,
+          "parsed_action": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "proposal_index": 0,
+          "raw_parsed_packet_sha256": "28b87499213a1c82d7427b6caed7e68855d46925aa94894020a6ddec1132c2bf",
+          "semantic_action": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "semantic_action_sha256": "28b87499213a1c82d7427b6caed7e68855d46925aa94894020a6ddec1132c2bf",
+          "source": {
+            "bytes": 47481,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/candidates/a0022_p0.json",
+            "sha256": "f9f4c1b76fca9d36236450c55916988ad4dcf4a05c70c3e0e72a98f86d30d6fe"
+          }
+        },
+        {
+          "generation_success": true,
+          "parsed_action": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "33276"
+          },
+          "proposal_index": 1,
+          "raw_parsed_packet_sha256": "14f18835cba5eaf0221c36edc1c91879924e5a2669021bfa8e72b99fc1759881",
+          "semantic_action": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": 33276
+          },
+          "semantic_action_sha256": "df8e6d39435376573a0030a29035bbacb7226406783b1e7e1d25a64e3a19f02a",
+          "source": {
+            "bytes": 48646,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/candidates/a0022_p1.json",
+            "sha256": "52c51e7f6e7e523c589902dc2d0dcbb421d24a8bd70d1ff023f8cafa37769e6f"
+          }
+        }
+      ],
+      "chosen_index_known_from_unique_packet_match": true,
+      "executed_matching_proposals": [
+        1
+      ],
+      "first_decision": {
+        "neural_revision": true,
+        "reason": null,
+        "risk": 0.8803213834762573,
+        "supported": true
+      },
+      "local_necessity_or_counterfactual_benefit_proven": false,
+      "official_result": {
+        "errors": [],
+        "success": true
+      },
+      "public_target_objects_after": [],
+      "public_target_objects_before": [],
+      "score_delta": 0.0,
+      "target_object_extraction_scope": "probe matched integer-valued actual packet arguments; empty at string UUID or named location is not evidence of invisibility",
+      "unexecuted_distinct_candidate_outcome": null
+    },
+    {
+      "actual_raw_action": {
+        "action": "TELEPORT_TO_OBJECT",
+        "arg1": 33276
+      },
+      "actual_semantic_action": {
+        "action": "TELEPORT_TO_OBJECT",
+        "arg1": 33276
+      },
+      "attempt": 23,
+      "candidates": [
+        {
+          "generation_success": true,
+          "parsed_action": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "proposal_index": 0,
+          "raw_parsed_packet_sha256": "28b87499213a1c82d7427b6caed7e68855d46925aa94894020a6ddec1132c2bf",
+          "semantic_action": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "semantic_action_sha256": "28b87499213a1c82d7427b6caed7e68855d46925aa94894020a6ddec1132c2bf",
+          "source": {
+            "bytes": 46291,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/candidates/a0023_p0.json",
+            "sha256": "58f46aba3db33e1c01b02998d5405b4b592ada8ad30f61ce1418f1a2695decf3"
+          }
+        },
+        {
+          "generation_success": true,
+          "parsed_action": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": 33276
+          },
+          "proposal_index": 1,
+          "raw_parsed_packet_sha256": "df8e6d39435376573a0030a29035bbacb7226406783b1e7e1d25a64e3a19f02a",
+          "semantic_action": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": 33276
+          },
+          "semantic_action_sha256": "df8e6d39435376573a0030a29035bbacb7226406783b1e7e1d25a64e3a19f02a",
+          "source": {
+            "bytes": 47352,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/candidates/a0023_p1.json",
+            "sha256": "eeb90ef27c450f8d237e4124a4d4c9b9fce45b90fb0047251c73e039cbbd51ee"
+          }
+        }
+      ],
+      "chosen_index_known_from_unique_packet_match": true,
+      "executed_matching_proposals": [
+        1
+      ],
+      "first_decision": {
+        "neural_revision": true,
+        "reason": null,
+        "risk": 0.9286850690841675,
+        "supported": true
+      },
+      "local_necessity_or_counterfactual_benefit_proven": false,
+      "official_result": {
+        "errors": [],
+        "success": true
+      },
+      "public_target_objects_after": [
+        {
+          "description": "proteomics meter (on table [uuid: 42983])",
+          "name": "proteomics meter",
+          "uuid": 33276
+        },
+        {
+          "description": "proteomics meter (on table [uuid: 42983])",
+          "distance": 1,
+          "name": "proteomics meter",
+          "uuid": 33276
+        }
+      ],
+      "public_target_objects_before": [
+        {
+          "description": "proteomics meter (on table [uuid: 42983])",
+          "name": "proteomics meter",
+          "uuid": 33276
+        },
+        {
+          "description": "proteomics meter (on table [uuid: 42983])",
+          "distance": 1,
+          "name": "proteomics meter",
+          "uuid": 33276
+        }
+      ],
+      "score_delta": 0.0,
+      "target_object_extraction_scope": "probe matched integer-valued actual packet arguments; empty at string UUID or named location is not evidence of invisibility",
+      "unexecuted_distinct_candidate_outcome": null
+    },
+    {
+      "actual_raw_action": {
+        "action": "PICKUP",
+        "arg1": 33276
+      },
+      "actual_semantic_action": {
+        "action": "PICKUP",
+        "arg1": 33276
+      },
+      "attempt": 24,
+      "candidates": [
+        {
+          "generation_success": true,
+          "parsed_action": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "proposal_index": 0,
+          "raw_parsed_packet_sha256": "28b87499213a1c82d7427b6caed7e68855d46925aa94894020a6ddec1132c2bf",
+          "semantic_action": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "semantic_action_sha256": "28b87499213a1c82d7427b6caed7e68855d46925aa94894020a6ddec1132c2bf",
+          "source": {
+            "bytes": 45979,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/candidates/a0024_p0.json",
+            "sha256": "7d487fa72ffe63e1232c642254106656a44b8d4e3d7d0443d9479beb93262268"
+          }
+        },
+        {
+          "generation_success": true,
+          "parsed_action": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "proposal_index": 1,
+          "raw_parsed_packet_sha256": "28b87499213a1c82d7427b6caed7e68855d46925aa94894020a6ddec1132c2bf",
+          "semantic_action": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "semantic_action_sha256": "28b87499213a1c82d7427b6caed7e68855d46925aa94894020a6ddec1132c2bf",
+          "source": {
+            "bytes": 46893,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/candidates/a0024_p1.json",
+            "sha256": "83c08341fd9bb12f40afa508bb738714746025fc4487e03e14d90eaefac1f468"
+          }
+        }
+      ],
+      "chosen_index_known_from_unique_packet_match": false,
+      "executed_matching_proposals": [
+        0,
+        1
+      ],
+      "first_decision": {
+        "neural_revision": true,
+        "reason": null,
+        "risk": 0.8780758380889893,
+        "supported": true
+      },
+      "local_necessity_or_counterfactual_benefit_proven": false,
+      "official_result": {
+        "errors": [],
+        "success": true
+      },
+      "public_target_objects_after": [
+        {
+          "description": "proteomics meter (on agent [uuid: 63296])",
+          "name": "proteomics meter",
+          "uuid": 33276
+        },
+        {
+          "description": "proteomics meter (on agent [uuid: 63296])",
+          "distance": 0,
+          "name": "proteomics meter",
+          "uuid": 33276
+        }
+      ],
+      "public_target_objects_before": [
+        {
+          "description": "proteomics meter (on table [uuid: 42983])",
+          "name": "proteomics meter",
+          "uuid": 33276
+        },
+        {
+          "description": "proteomics meter (on table [uuid: 42983])",
+          "distance": 1,
+          "name": "proteomics meter",
+          "uuid": 33276
+        }
+      ],
+      "score_delta": 0.125,
+      "target_object_extraction_scope": "probe matched integer-valued actual packet arguments; empty at string UUID or named location is not evidence of invisibility",
+      "unexecuted_distinct_candidate_outcome": null
+    },
+    {
+      "actual_raw_action": {
+        "action": "TELEPORT_TO_LOCATION",
+        "arg1": "Instrument Table"
+      },
+      "actual_semantic_action": {
+        "action": "TELEPORT_TO_LOCATION",
+        "arg1": "Instrument Table"
+      },
+      "attempt": 25,
+      "candidates": [
+        {
+          "generation_success": true,
+          "parsed_action": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Instrument Table"
+          },
+          "proposal_index": 0,
+          "raw_parsed_packet_sha256": "fa82a096705e328f209252518cf748a39535cbae6f499daa41d0b7fd8de64afb",
+          "semantic_action": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Instrument Table"
+          },
+          "semantic_action_sha256": "fa82a096705e328f209252518cf748a39535cbae6f499daa41d0b7fd8de64afb",
+          "source": {
+            "bytes": 45593,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/candidates/a0025_p0.json",
+            "sha256": "f9dc369d8877b9d0634a654ae54cfc7c3bf0af2ab2eed092097fffd5399c4e57"
+          }
+        }
+      ],
+      "chosen_index_known_from_unique_packet_match": true,
+      "executed_matching_proposals": [
+        0
+      ],
+      "first_decision": {
+        "neural_revision": false,
+        "reason": null,
+        "risk": 0.02372577041387558,
+        "supported": true
+      },
+      "local_necessity_or_counterfactual_benefit_proven": false,
+      "official_result": {
+        "errors": [],
+        "success": true
+      },
+      "public_target_objects_after": [],
+      "public_target_objects_before": [],
+      "score_delta": 0.0,
+      "target_object_extraction_scope": "probe matched integer-valued actual packet arguments; empty at string UUID or named location is not evidence of invisibility",
+      "unexecuted_distinct_candidate_outcome": null
+    }
+  ],
+  "unexecuted_outcomes_inferred": false,
+  "world_seed": 3
+}

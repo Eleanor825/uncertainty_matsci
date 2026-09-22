@@ -41,6 +41,8 @@ New original test comparison, audited **2026-09-23T03:28:28.657255+08:00**: **wo
 
 The two real ES updates and the selected checkpoint's actual test reload are verified. Original raw action events, official summaries, model/decoding and environment/evaluator contracts were checked. B30 matches environment actions, while Full uses additional candidate/graph computation. There is one paired episode per method; this is not a multi-seed estimate, task completion or component-level causal evidence. [Complete pair, selection trace, source hashes and validator](discoveryworld/test/20260923T032828_CST/report.md).
 
+A subsequent p401 mechanism audit records risk-triggered revisions at steps 22/23: proposed PICKUP became an actually executed successful TELEPORT_TO_OBJECT. Step 24 then picked up the meter for 0.125, but both candidates were identical PICKUP packets and the first risk was 0.878 despite success. The two teleports address the same object (string/integer UUID differences are normalized); step 23 is a repetition. This is trajectory evidence preceding progress, not proof either revision was necessary or that an unexecuted pickup would fail. All four steps 22–25 remain in the audit. [Small-evidence mechanism report](discoveryworld/test_mechanisms/20260923T044323_CST/report.md).
+
 Latest closed cohort: **world 2 / policy seed 307, four conditions × B30**.
 
 | Condition | Task score | Failed actions /30 | Actual NN packet changes |
