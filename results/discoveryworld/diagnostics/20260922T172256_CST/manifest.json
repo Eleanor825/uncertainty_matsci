@@ -1,0 +1,87 @@
+{
+  "schema": "dw_completed_CPU_diagnostics_bundle_v1",
+  "files": [
+    {
+      "path": "cached_predictions.json",
+      "bytes": 25184,
+      "sha256": "09d532d3f226d8eca4c28f4244b2b990c9cf880229aceeab9505c13253c41aa4"
+    },
+    {
+      "path": "cached_threshold_metrics.csv",
+      "bytes": 549,
+      "sha256": "e751643bfc75c9fb84fdd95e4a433c28d5c29ecf9463cb2ecb92dfd2b0cded67"
+    },
+    {
+      "path": "classical_fit_status.csv",
+      "bytes": 280,
+      "sha256": "70dbfd373941c41c72d56bb30e5c46991c0c2832e3c47950ff4a395101079d84"
+    },
+    {
+      "path": "feature_metrics.csv",
+      "bytes": 508,
+      "sha256": "3d001500d22c2e5dc4f05be789707cf9fad49f07b1f7a87f6c59fbec9750669d"
+    },
+    {
+      "path": "fixed_probability_cached_analysis.json",
+      "bytes": 1717,
+      "sha256": "e46fc44893623394172658daf4334c8ad75f7c249e68e8405cced62ba1ad6ce9"
+    },
+    {
+      "path": "four_feature_family_result.json",
+      "bytes": 8641,
+      "sha256": "fa7a3f8ca2fc11618fe07593487192889004d8bd4ffd8a7b9ee0fa40d1826199"
+    },
+    {
+      "path": "learning_curves.pdf",
+      "bytes": 45949,
+      "sha256": "2b90f1c60986be8e26299181c52214e2c4d87e1e89ff3b8d46da9333aa9fd9da"
+    },
+    {
+      "path": "learning_curves.png",
+      "bytes": 312412,
+      "sha256": "fe2709e735c1bd3f5c1c0753ff7a6fe2c7b69d5cea375b771b7a7d52d2e8e278"
+    },
+    {
+      "path": "learning_curves.svg",
+      "bytes": 142311,
+      "sha256": "aa868dbd2f187c29a56c198fe3ea0d02d488fe9aee6e399d1ae47c1f2b16b626"
+    },
+    {
+      "path": "protocol.md",
+      "bytes": 2739,
+      "sha256": "a92ed3a7ab7091a2bf0a1f038b9e023c7f781f1b0803882eb8bea78ee53c4995"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1446,
+      "sha256": "e7dc028264d98ad334c8be373c73e145e7b2eecf83d820a1e0708fc59a1c3a13"
+    },
+    {
+      "path": "report.md",
+      "bytes": 7142,
+      "sha256": "bbbe9265a71073fc8b28429fa451af5f4e4abefcc6ee0653dfb4afc81045bed5"
+    },
+    {
+      "path": "training_diagnostic.json",
+      "bytes": 54693,
+      "sha256": "7476dbace22db5e81022e0f78762ed90c689ab4b7d2cab5f1f5abe62635b084b"
+    },
+    {
+      "path": "training_diagnostic_report.md",
+      "bytes": 7400,
+      "sha256": "e34af65eb1ef0e2a126c03c86793be839e41efdedc6edb2316b6d6fe0703a9f6"
+    },
+    {
+      "path": "training_metrics.csv",
+      "bytes": 13640,
+      "sha256": "0c99b733eb11b7dba0182e01de9875f6efc735d3ba80c21c633b3fae58a93b55"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 10965,
+      "sha256": "f07405bf88bacd5bc6844ab5cc5aa84e253340fde022f38232d165a1b8b17582"
+    }
+  ],
+  "scientific_calls_for_export": 0,
+  "private_runtime_metadata_exported": false
+}

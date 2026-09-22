@@ -1,6 +1,6 @@
 # Time-stamped research results
 
-Current overview: [latest verified MADE and DiscoveryWorld status](LATEST.md), observed **2026-09-22 05:24 CST**. MADE is **1068/1080** accepted; DiscoveryWorld has **0/2 held-out comparisons**. Completed negative results and the DW bank-fidelity failure are included.
+Current overview: [latest verified results](LATEST.md). MADE has1079 valid evaluations and1 retained technical failure. The [completed DW CPU diagnostic](discoveryworld/diagnostics/20260922T172256_CST/report.md) reports four feature-family fits and fixed0.5 offline flagging; it adds no completed Full test or online-improvement claim.
 
 The [independent9B training-collection acceptance](qwen35_9b_core/collections/20260921T170716_CST/report.md) now verifies **three of seven** registered collections: Al-Au-Hf seeds1/2 and Au-Li-Pd seed1, B50. This cumulative record includes one newly accepted existing collection, rechecking150 already executed candidate evaluations and all32 activation layers per collection. These are training data, **not additions to the15 baseline tests**; the acceptance adds no model, graph, oracle or fitting calls and does not establish full9B method efficacy.
 

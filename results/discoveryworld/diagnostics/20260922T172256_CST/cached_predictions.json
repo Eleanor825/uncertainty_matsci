@@ -1,0 +1,906 @@
+{
+  "schema": "dw_frozen_risk_prediction_scientific_projection_v1",
+  "partitions": {
+    "G0_development": [
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 1,
+        "label": 0,
+        "risk": 0.036958321928977966
+      },
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 2,
+        "label": 0,
+        "risk": 0.0751255601644516
+      },
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 3,
+        "label": 1,
+        "risk": 0.06284524500370026
+      },
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 4,
+        "label": 0,
+        "risk": 0.010728181339800358
+      },
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 5,
+        "label": 1,
+        "risk": 0.7803812026977539
+      },
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 6,
+        "label": 1,
+        "risk": 0.8155595064163208
+      },
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 7,
+        "label": 1,
+        "risk": 0.8606324791908264
+      },
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 8,
+        "label": 1,
+        "risk": 0.8235461115837097
+      },
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 9,
+        "label": 1,
+        "risk": 0.8697880506515503
+      },
+      {
+        "episode_id": "discoveryworld-v1-317ebae6c081fa74f0938e97",
+        "world_seed": 2,
+        "policy_seed": 303,
+        "attempt_index": 10,
+        "label": 1,
+        "risk": 0.9163769483566284
+      }
+    ],
+    "calibration": [
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 1,
+        "label": 0,
+        "risk": 0.03351106867194176
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 6,
+        "label": 0,
+        "risk": 0.07934317737817764
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 11,
+        "label": 1,
+        "risk": 0.8012250661849976
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 16,
+        "label": 1,
+        "risk": 0.9653158187866211
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 21,
+        "label": 1,
+        "risk": 0.9920094013214111
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 27,
+        "label": 1,
+        "risk": 0.9936762452125549
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 32,
+        "label": 1,
+        "risk": 0.9913342595100403
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 37,
+        "label": 1,
+        "risk": 0.9917693138122559
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 42,
+        "label": 1,
+        "risk": 0.998855471611023
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 47,
+        "label": 1,
+        "risk": 0.9724768996238708
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 53,
+        "label": 1,
+        "risk": 0.9894651174545288
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 58,
+        "label": 1,
+        "risk": 0.9932704567909241
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 63,
+        "label": 1,
+        "risk": 0.9939785003662109
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 68,
+        "label": 1,
+        "risk": 0.9921314120292664
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 73,
+        "label": 1,
+        "risk": 0.9904449582099915
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 79,
+        "label": 1,
+        "risk": 0.9969622492790222
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 84,
+        "label": 1,
+        "risk": 0.9603149890899658
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 89,
+        "label": 1,
+        "risk": 0.9928054213523865
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 94,
+        "label": 1,
+        "risk": 0.9946318864822388
+      },
+      {
+        "episode_id": "discoveryworld-v1-b2925e776d8ddf48723bb2d0",
+        "world_seed": 1,
+        "policy_seed": 101,
+        "attempt_index": 100,
+        "label": 1,
+        "risk": 0.9930250644683838
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 1,
+        "label": 0,
+        "risk": 0.028942305594682693
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 6,
+        "label": 1,
+        "risk": 0.8565330505371094
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 11,
+        "label": 0,
+        "risk": 0.6107562184333801
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 16,
+        "label": 0,
+        "risk": 0.0894656777381897
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 21,
+        "label": 0,
+        "risk": 0.26663729548454285
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 27,
+        "label": 0,
+        "risk": 0.03588317707180977
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 32,
+        "label": 0,
+        "risk": 0.0401008166372776
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 37,
+        "label": 0,
+        "risk": 0.8206004500389099
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 42,
+        "label": 1,
+        "risk": 0.3098697066307068
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 47,
+        "label": 0,
+        "risk": 0.022561045363545418
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 53,
+        "label": 1,
+        "risk": 0.44327008724212646
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 58,
+        "label": 0,
+        "risk": 0.04648851230740547
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 63,
+        "label": 0,
+        "risk": 0.08161283284425735
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 68,
+        "label": 0,
+        "risk": 0.016464190557599068
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 73,
+        "label": 1,
+        "risk": 0.996966540813446
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 79,
+        "label": 0,
+        "risk": 0.048552703112363815
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 84,
+        "label": 0,
+        "risk": 0.08387167751789093
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 89,
+        "label": 0,
+        "risk": 0.021930459886789322
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 94,
+        "label": 0,
+        "risk": 0.059324972331523895
+      },
+      {
+        "episode_id": "discoveryworld-v1-6dc5aa3564e3c2a553a3abcb",
+        "world_seed": 1,
+        "policy_seed": 102,
+        "attempt_index": 100,
+        "label": 0,
+        "risk": 0.023031216114759445
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 1,
+        "label": 0,
+        "risk": 0.03351106867194176
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 6,
+        "label": 1,
+        "risk": 0.9717892408370972
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 11,
+        "label": 0,
+        "risk": 0.3073706030845642
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 16,
+        "label": 0,
+        "risk": 0.04298882931470871
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 21,
+        "label": 0,
+        "risk": 0.033356450498104095
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 27,
+        "label": 1,
+        "risk": 0.12035642564296722
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 32,
+        "label": 0,
+        "risk": 0.021572837606072426
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 37,
+        "label": 0,
+        "risk": 0.03788451850414276
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 42,
+        "label": 0,
+        "risk": 0.020833345130085945
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 47,
+        "label": 0,
+        "risk": 0.018506107851862907
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 53,
+        "label": 1,
+        "risk": 0.11378070712089539
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 58,
+        "label": 0,
+        "risk": 0.32949987053871155
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 63,
+        "label": 0,
+        "risk": 0.010457602329552174
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 68,
+        "label": 0,
+        "risk": 0.1076894998550415
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 73,
+        "label": 0,
+        "risk": 0.05079328641295433
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 79,
+        "label": 0,
+        "risk": 0.023168589919805527
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 84,
+        "label": 1,
+        "risk": 0.9867004752159119
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 89,
+        "label": 0,
+        "risk": 0.034267157316207886
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 94,
+        "label": 0,
+        "risk": 0.012539763934910297
+      },
+      {
+        "episode_id": "discoveryworld-v1-563fd409046a6cabef8652e4",
+        "world_seed": 1,
+        "policy_seed": 103,
+        "attempt_index": 100,
+        "label": 0,
+        "risk": 0.01831904612481594
+      }
+    ],
+    "development": [
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 1,
+        "label": 0,
+        "risk": 0.040027838200330734
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 6,
+        "label": 1,
+        "risk": 0.9712918996810913
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 11,
+        "label": 1,
+        "risk": 0.9797494411468506
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 16,
+        "label": 1,
+        "risk": 0.9971234202384949
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 21,
+        "label": 1,
+        "risk": 0.9729409217834473
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 27,
+        "label": 0,
+        "risk": 0.8534663319587708
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 32,
+        "label": 1,
+        "risk": 0.7454237341880798
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 37,
+        "label": 0,
+        "risk": 0.8332404494285583
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 42,
+        "label": 0,
+        "risk": 0.7902567982673645
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 47,
+        "label": 0,
+        "risk": 0.04146239534020424
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 53,
+        "label": 0,
+        "risk": 0.019383016973733902
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 58,
+        "label": 0,
+        "risk": 0.03416937217116356
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 63,
+        "label": 1,
+        "risk": 0.6668567061424255
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 68,
+        "label": 0,
+        "risk": 0.02064584381878376
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 73,
+        "label": 0,
+        "risk": 0.011710865423083305
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 79,
+        "label": 0,
+        "risk": 0.049614645540714264
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 84,
+        "label": 1,
+        "risk": 0.9297998547554016
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 89,
+        "label": 0,
+        "risk": 0.06350281834602356
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 94,
+        "label": 0,
+        "risk": 0.014510546810925007
+      },
+      {
+        "episode_id": "discoveryworld-v1-c3b9197fd21f2a61d23a1ced",
+        "world_seed": 2,
+        "policy_seed": 201,
+        "attempt_index": 100,
+        "label": 0,
+        "risk": 0.020207686349749565
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 1,
+        "label": 1,
+        "risk": 0.5003353357315063
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 6,
+        "label": 1,
+        "risk": 0.9543828368186951
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 11,
+        "label": 1,
+        "risk": 0.9847501516342163
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 16,
+        "label": 0,
+        "risk": 0.09451015293598175
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 21,
+        "label": 0,
+        "risk": 0.03831053525209427
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 27,
+        "label": 0,
+        "risk": 0.2287815809249878
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 32,
+        "label": 0,
+        "risk": 0.02811187505722046
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 37,
+        "label": 0,
+        "risk": 0.1103895753622055
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 42,
+        "label": 0,
+        "risk": 0.018546421080827713
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 47,
+        "label": 0,
+        "risk": 0.026841571554541588
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 53,
+        "label": 0,
+        "risk": 0.0238360483199358
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 58,
+        "label": 0,
+        "risk": 0.05856582522392273
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 63,
+        "label": 0,
+        "risk": 0.014133723452687263
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 68,
+        "label": 0,
+        "risk": 0.0352657251060009
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 73,
+        "label": 0,
+        "risk": 0.015387317165732384
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 79,
+        "label": 0,
+        "risk": 0.007620044983923435
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 84,
+        "label": 0,
+        "risk": 0.012975466437637806
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 89,
+        "label": 0,
+        "risk": 0.010218174196779728
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 94,
+        "label": 0,
+        "risk": 0.011634846217930317
+      },
+      {
+        "episode_id": "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4",
+        "world_seed": 2,
+        "policy_seed": 202,
+        "attempt_index": 100,
+        "label": 0,
+        "risk": 0.013841122388839722
+      }
+    ]
+  },
+  "original_threshold": 0.9867005323054212,
+  "cached_audit_source_sha256": "d91d0d39a1c0eb013447f50e41f18a87b31cc6a580db177b51e1ce010ce262f4",
+  "source_prediction_calls": {
+    "LLM_calls": 0,
+    "cached_G0_rows": 10,
+    "cached_dev_rows": 40,
+    "environment_calls": 0,
+    "frozen_NN_forward_intents": 1,
+    "frozen_NN_forward_returns": 1,
+    "frozen_NN_rows_intended": 60,
+    "frozen_NN_rows_returned": 60,
+    "optimizer_updates": 0
+  },
+  "calls_repeated_for_publication": 0,
+  "test_data_read": false
+}

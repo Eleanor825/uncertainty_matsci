@@ -1,0 +1,75 @@
+{
+  "protocol_commit": "c6c64513badfa887866259cd9b90f4f2c9a73bb4",
+  "source_sha256": "d91d0d39a1c0eb013447f50e41f18a87b31cc6a580db177b51e1ce010ce262f4",
+  "threshold_fixed_before_computation": 0.5,
+  "fitting": false,
+  "test_data_used": false,
+  "partitions": {
+    "G0_development": {
+      "original": {
+        "threshold": 0.9867005323054212,
+        "rows": 10,
+        "trigger": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 7,
+        "recall": 0.0,
+        "brier": 0.10421418549517365
+      },
+      "fixed_posterior": {
+        "threshold": 0.5,
+        "rows": 10,
+        "trigger": 6,
+        "TP": 6,
+        "FP": 0,
+        "FN": 1,
+        "recall": 0.8571428571428571,
+        "brier": 0.10421418549517365
+      }
+    },
+    "calibration": {
+      "original": {
+        "threshold": 0.9867005323054212,
+        "rows": 60,
+        "trigger": 15,
+        "TP": 15,
+        "FP": 0,
+        "FN": 11,
+        "recall": 0.5769230769230769,
+        "brier": 0.0632868524549867
+      },
+      "fixed_posterior": {
+        "threshold": 0.5,
+        "rows": 60,
+        "trigger": 24,
+        "TP": 22,
+        "FP": 2,
+        "FN": 4,
+        "recall": 0.8461538461538461,
+        "brier": 0.0632868524549867
+      }
+    },
+    "development": {
+      "original": {
+        "threshold": 0.9867005323054212,
+        "rows": 40,
+        "trigger": 1,
+        "TP": 1,
+        "FP": 0,
+        "FN": 9,
+        "recall": 0.1,
+        "brier": 0.06443833687583089
+      },
+      "fixed_posterior": {
+        "threshold": 0.5,
+        "rows": 40,
+        "trigger": 13,
+        "TP": 10,
+        "FP": 3,
+        "FN": 0,
+        "recall": 1.0,
+        "brier": 0.06443833687583089
+      }
+    }
+  }
+}

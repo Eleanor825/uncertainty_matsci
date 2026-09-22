@@ -1,6 +1,6 @@
 # Latest verified experimental results
 
-Observations: **MADE 2026-09-22 10:18 CST; DiscoveryWorld 2026-09-22 15:57 CST**. MADE remains at **1079 valid trajectories, 1 technical failure and 0 pending**. DiscoveryWorld has **160/160 V4 graphs**, a development-admitted next-action-failure risk head and **one accepted G0 development trajectory**. Full stopped before its first ES parameter perturbation; held-out tests remain **Baseline 1, Full 0, completed pairs 0**.
+MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September22 10:18 CST). DiscoveryWorld adds **completed CPU diagnostics through September22 17:22 CST**: four feature-family fits, a separate training/classifier diagnostic, and fixed0.5 cached-prediction analysis. These do not establish online improvement or a completed Full-method comparison.
 
 ## MADE — Qwen3.5-4B
 
@@ -28,30 +28,32 @@ The completed matched results do **not** show an overall Full-method improvement
 
 Variance is across evaluation seeds within the same system, budget and arm (sample variance, ddof=1). Missing/failed runs stay blank; n<2 variance is unavailable and incomplete seed sets are marked. These are not repeated training runs.
 
-## DiscoveryWorld — Qwen3.5-4B
+## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
 
-All **160 selected graphs** from eight preparatory episodes are complete. Each of four groups passed the same **8/8 fixed-prefix suite under the declared V4 local-Jacobian mathematical reference**. Original native FP32 finite-difference results and failure flags remain preserved; this does not mean every original native FP32 check passed. The full 32-feature / 42-backward-target graph procedure is unchanged.
+The completed CPU diagnostic used **60 fit /60 calibration /40 development rows**, with development clustered in **2 episodes from1 world**. Four fixed200-update fits completed in46.02s. The original Internal and OutputAction checkpoint/metric controls reproduce exactly; the production predictor is unchanged.
 
-The **next-action-failure** head passed its development admission on **40 rows from 2 episodes in 1 world**:
+| Features | Raw fields | AUROC | Brier | NLL |
+|---|---:|---:|---:|---:|
+| OutputAction | 10 | 0.9600 | 0.08107 | 0.25350 |
+| NoGraph | 140 | 0.9600 | 0.06871 | 0.23688 |
+| GraphOnly | 153 | 0.9133 | 0.08545 | 0.42457 |
+| Internal | 293 | 0.9700 | 0.06444 | 0.19994 |
 
-| Features | AUROC | Brier score | NLL |
-|---|---:|---:|---:|
-| Internal | 0.970000 | 0.064438 | 0.199944 |
-| OutputAction | 0.960000 | 0.081075 | 0.253498 |
+GraphOnly is weaker than OutputAction on pooled metrics. Internal minus NoGraph is +0.01 AUROC and −0.00428 Brier; model capacities differ. These small, clustered development results do not establish significance or a causal contribution to scientific planning.
 
-These are development statistics with clustered rows, not a held-out task-performance comparison or evidence of online improvement. Both feature-family NNs were fitted; the generation-invalid and terminal-noncompletion heads were not fitted because support was insufficient.
+A separate completed53.88s diagnostic reports4 NN fits plus4 classical fits and16 NN states at0/50/100/200 updates. Internal's raw fit NLL falls0.00920→0.000144 from50→200 updates, while raw development NLL rises0.16915→0.33678 and calibrated development Brier rises0.05535→0.06444; AUROC stays0.9700. This is consistent with late overfitting/overconfidence on this split, not proof that50 is a generalizable optimum or that graph signal is useless. Step0 already includes label-fitted error-prototype preprocessing. The production200-step NN remains unchanged. Full-feature GBC/L2-logistic development AUROCs0.9417/0.9633 do not exceed NN0.9700; these are classifier probes, not a full CRV reproduction.
 
-The **Full G0 development** trajectory (world 2, policy seed 303, B10) was accepted with **normalized score 0 and 7/10 failed attempts**. Its maximum supported risk, **0.916376948**, stayed below the frozen threshold **0.986700532**. All ten attempts used one candidate, with **0 neural revisions and 0 rank changes**. The registered controller-activity gate failed, stopping the V4 branch before the first ES parameter perturbation. There is no completed parameter-updating Full search or Full held-out test.
+On the **same cached probabilities**, fixed0.5 flags22/26 calibration failures,10/10 development failures and6/7 G0 failures, versus15/26,1/10 and0/7 under the original0.9867 threshold. Fixed0.5 also adds2 calibration and3 development false-positive flags. These are offline flagging counts, not prevented failures or observed benefits from revising actions. No threshold search or predictor change was made for this calculation.
 
-The existing **Baseline held-out** trajectory (world 3, policy seed 401, B30) remains accepted with normalized score 0 and 29/30 failed attempts. It cannot be paired with G0 because their worlds, policy seeds, budgets and development/test roles differ. A completed Baseline–Full effect estimate is still unavailable.
+The prior **160/160 V4 graphs** and frozen-risk completion remain unchanged. V4's accepted G0 world2/policy303/B10 had score0 and7 failures, and the activity gate stopped it before any ES parameter update. No completed new online operating-point pair, matched-proposal control or Full ES result is added here. Held-out Baseline1/Full0 and completed pairs0 remain the completed-result record; G0 cannot be compared with the different world/seed/B30 Baseline as an effect estimate.
 
-- [DiscoveryWorld scientific status through 15:57](discoveryworld/progress/20260922T155718_CST/report.md)
-- [Machine-readable scientific projection](discoveryworld/progress/20260922T155718_CST/snapshot.json)
-- [Earlier 10:44 state and numerical diagnosis](discoveryworld/progress/20260922T104452_CST/report.md)
-- [Historical Native preparation, earlier ES-only branch and failed MADE-bank transfer](discoveryworld/progress/20260922T052401_CST/report.md)
-
-The V4 branch is stopped at the activity gate. Released MADE resources remain assigned to DiscoveryWorld; resource allocation is not counted as completed science.
+- [Completed CPU feature/operating-point report](discoveryworld/diagnostics/20260922T172256_CST/report.md)
+- [Training curves and classifier audit](discoveryworld/diagnostics/20260922T172256_CST/training_diagnostic_report.md)
+- [All108 training metric rows](discoveryworld/diagnostics/20260922T172256_CST/training_metrics.csv)
+- [Four-family metrics](discoveryworld/diagnostics/20260922T172256_CST/feature_metrics.csv)
+- [Portable validator](discoveryworld/diagnostics/20260922T172256_CST/validate.py)
+- [Prior V4 graph/risk/G0 record](discoveryworld/progress/20260922T155718_CST/report.md)
 
 ## Scope and provenance
 
-This update re-exports existing records only. No model, simulator, graph extraction, NN fitting or ES job was run to generate these reports. MADE uses the unchanged 10:18 export; DW preserves each source observation time and ends at 15:57. Prior snapshots overlap and must not be added together. Existing 9B collections, original seed1 MADE and SnAr results remain separate. Negative results, unavailable heads, controller inactivity, failure records, source hashes, validation scripts and export manifests are retained.
+Publication reuses completed records only and adds no model, simulator, graph, NN-fitting or ES calls. The feature diagnostic records four fits/800 updates; the separate training diagnostic records another four NN fits/800 updates plus four classical fits. Neither adds graphs or environment calls. These repeated fits reuse the same observations and must not be counted as independent validation trials. Current exploration concerns MADE and DiscoveryWorld; existing historical9B, original seed1 MADE and SnAr exports remain separate. Negative results, unavailable heads, gate failures and source hashes remain preserved. There is no completed Full-method gain or larger-benchmark completion claim.

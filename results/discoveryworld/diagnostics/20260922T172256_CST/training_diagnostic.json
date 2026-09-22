@@ -1,0 +1,1821 @@
+{
+  "NN_learning_curves": {
+    "GraphOnly": [
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.4536199095022625,
+            "brier": 0.2458506401404434,
+            "episodes": 3,
+            "nll": 0.6848428791952803,
+            "probability_range": 0.046327143907547,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.6066666666666669,
+            "brier": 0.22126060055189758,
+            "episodes": 2,
+            "nll": 0.6353548287563553,
+            "probability_range": 0.029557019472122192,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.5045248868778281,
+            "brier": 0.2627260816566265,
+            "episodes": 3,
+            "nll": 0.7187592877550161,
+            "probability_range": 0.03481698036193848,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": -0.7688313606207551,
+          "nfev": 14,
+          "objective": 0.6848428751836677,
+          "temperature": 0.46355447991180204
+        },
+        "state": {
+          "bytes": 110357,
+          "sha256": "394e5d2b881ed0dca7a537e96ef74dba59711c78131090644ce210b1d07bfe2d",
+          "artifact_name": "learning_state_0.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 0,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.4536199095022625,
+            "brier": 0.2470409247750467,
+            "episodes": 3,
+            "nll": 0.6872245195921729,
+            "probability_range": 0.021699965000152588,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.6066666666666669,
+            "brier": 0.2356159113239277,
+            "episodes": 2,
+            "nll": 0.6643439304185451,
+            "probability_range": 0.013854146003723145,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.5045248868778281,
+            "brier": 0.25497358097998507,
+            "episodes": 3,
+            "nll": 0.7031070484280645,
+            "probability_range": 0.016286611557006836,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.976244343891403,
+            "brier": 0.05629501748853828,
+            "episodes": 3,
+            "nll": 0.19044970573606004,
+            "probability_range": 0.9902682336978614,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9100000000000003,
+            "brier": 0.08663591182352791,
+            "episodes": 2,
+            "nll": 0.42653532120675525,
+            "probability_range": 0.9903525924310088,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.0036692516807960117,
+            "episodes": 3,
+            "nll": 0.04284733326904748,
+            "probability_range": 0.991416432429105,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 0.4168306287943514,
+          "nfev": 11,
+          "objective": 0.19044969022029196,
+          "temperature": 1.5171455304053494
+        },
+        "state": {
+          "bytes": 110357,
+          "sha256": "951a80c231a815fb18ec7b23384c1f4a3f7b3cdbc53d9e08943e6b5b7f3ff579",
+          "artifact_name": "learning_state_50.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 50,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.976244343891403,
+            "brier": 0.062209884612609415,
+            "episodes": 3,
+            "nll": 0.21699751387788258,
+            "probability_range": 0.999287148588337,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9100000000000003,
+            "brier": 0.0869706125225785,
+            "episodes": 2,
+            "nll": 0.586335790548118,
+            "probability_range": 0.9993713205913082,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.0011600645017195723,
+            "episodes": 3,
+            "nll": 0.012935199409507032,
+            "probability_range": 0.999473395961104,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.976244343891403,
+            "brier": 0.05347428356250319,
+            "episodes": 3,
+            "nll": 0.18135826473244318,
+            "probability_range": 0.9950201227329671,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9100000000000003,
+            "brier": 0.08282858663729267,
+            "episodes": 2,
+            "nll": 0.413155748699344,
+            "probability_range": 0.9889165181666613,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.0016067528896466085,
+            "episodes": 3,
+            "nll": 0.03491479667098551,
+            "probability_range": 0.9917016220279038,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 0.7620644126900797,
+          "nfev": 11,
+          "objective": 0.1813582451233038,
+          "temperature": 2.1426950646509293
+        },
+        "state": {
+          "bytes": 110357,
+          "sha256": "7d2b96483a8762457d37facf88f4248a2395a5046400a7f9b61972306fb400a1",
+          "artifact_name": "learning_state_100.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 100,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.976244343891403,
+            "brier": 0.06574011969956521,
+            "episodes": 3,
+            "nll": 0.26712669062602074,
+            "probability_range": 0.9999887377944106,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9100000000000003,
+            "brier": 0.08297230336356787,
+            "episodes": 2,
+            "nll": 0.7918281755057777,
+            "probability_range": 0.9999669994886062,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 5.708498056708159e-06,
+            "episodes": 3,
+            "nll": 0.0012239193442427024,
+            "probability_range": 0.999984022472745,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.97737556561086,
+            "brier": 0.05340105043472735,
+            "episodes": 3,
+            "nll": 0.18128708046934114,
+            "probability_range": 0.9954308765009046,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9133333333333337,
+            "brier": 0.0854522007337076,
+            "episodes": 2,
+            "nll": 0.4245655109096483,
+            "probability_range": 0.9887665999121964,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.0014281067967229434,
+            "episodes": 3,
+            "nll": 0.034024303509893265,
+            "probability_range": 0.9924307537730783,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 0.9087482092674233,
+          "nfev": 9,
+          "objective": 0.18128706403267097,
+          "temperature": 2.481214627090778
+        },
+        "state": {
+          "bytes": 110357,
+          "sha256": "da8ff825da2fe183a911b5802c9ba194e3bf071b72412c3d5cd1a4a9c6ecec55",
+          "artifact_name": "learning_state_200.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 200,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.97737556561086,
+            "brier": 0.0685751181063183,
+            "episodes": 3,
+            "nll": 0.303155038271551,
+            "probability_range": 0.9999984278333613,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9133333333333337,
+            "brier": 0.08998549396291065,
+            "episodes": 2,
+            "nll": 0.9457124503669101,
+            "probability_range": 0.9999933303929538,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 3.987919724610623e-07,
+            "episodes": 3,
+            "nll": 0.0003810793820190668,
+            "probability_range": 0.999998000510459,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      }
+    ],
+    "Internal": [
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.7726244343891402,
+            "brier": 0.22853847132785324,
+            "episodes": 3,
+            "nll": 0.647405679198832,
+            "probability_range": 0.2285783588886261,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.7600000000000006,
+            "brier": 0.17992240299484233,
+            "episodes": 2,
+            "nll": 0.5471693782718133,
+            "probability_range": 0.20263923704624176,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.8834841628959278,
+            "brier": 0.2578582590448834,
+            "episodes": 3,
+            "nll": 0.7070967917944467,
+            "probability_range": 0.20472270250320435,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": -1.7470417877733808,
+          "nfev": 14,
+          "objective": 0.6474056770039207,
+          "temperature": 0.17428876475453198
+        },
+        "state": {
+          "bytes": 195861,
+          "sha256": "2ebc1007174e8931de8a516e98961e85db5681a76f07804b799c12059b0861d6",
+          "artifact_name": "learning_state_0.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 0,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.7726244343891402,
+            "brier": 0.24259976818075898,
+            "episodes": 3,
+            "nll": 0.6783159891641857,
+            "probability_range": 0.04318752884864807,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.7600000000000006,
+            "brier": 0.23249479213753124,
+            "episodes": 2,
+            "nll": 0.6580809423225333,
+            "probability_range": 0.03950238227844238,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.8834841628959278,
+            "brier": 0.24825263005750967,
+            "episodes": 3,
+            "nll": 0.6896308041418907,
+            "probability_range": 0.039178043603897095,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.976244343891403,
+            "brier": 0.0672541241690524,
+            "episodes": 3,
+            "nll": 0.21162302331342858,
+            "probability_range": 0.9869518056511879,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9700000000000006,
+            "brier": 0.0553490496006725,
+            "episodes": 2,
+            "nll": 0.17362218600523122,
+            "probability_range": 0.9895394006744027,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.0046295816862505544,
+            "episodes": 3,
+            "nll": 0.03654748221005148,
+            "probability_range": 0.9850359251722693,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 0.6298795028120275,
+          "nfev": 11,
+          "objective": 0.21162302446957612,
+          "temperature": 1.8773843460999382
+        },
+        "state": {
+          "bytes": 195861,
+          "sha256": "23bdff12cd4abc819054945d5361dcfe30fe2d0c05e1b3b5930c1484015d96c7",
+          "artifact_name": "learning_state_50.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 50,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.976244343891403,
+            "brier": 0.0762246307121317,
+            "episodes": 3,
+            "nll": 0.2654355279824135,
+            "probability_range": 0.9997235392220318,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9700000000000006,
+            "brier": 0.06405255970311531,
+            "episodes": 2,
+            "nll": 0.16914758189121165,
+            "probability_range": 0.9998475225729635,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.0012867361333064814,
+            "episodes": 3,
+            "nll": 0.00920293412509343,
+            "probability_range": 0.9997080479806755,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.9807692307692312,
+            "brier": 0.06371191938733844,
+            "episodes": 3,
+            "nll": 0.19727254206558614,
+            "probability_range": 0.9895180575549603,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9700000000000006,
+            "brier": 0.062089272952499906,
+            "episodes": 2,
+            "nll": 0.19041779197784287,
+            "probability_range": 0.9909780253656209,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.0010366425933646514,
+            "episodes": 3,
+            "nll": 0.02537805059450774,
+            "probability_range": 0.9894727347418666,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 0.8275732930301744,
+          "nfev": 11,
+          "objective": 0.19727254429531446,
+          "temperature": 2.287760274804362
+        },
+        "state": {
+          "bytes": 195861,
+          "sha256": "8cac1533f999bce87f75b19bea6fd80ca6a09de60e2acfe796d55196222d8806",
+          "artifact_name": "learning_state_100.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 100,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.9807692307692312,
+            "brier": 0.07819569316695561,
+            "episodes": 3,
+            "nll": 0.2895281896454457,
+            "probability_range": 0.9999741413685115,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9700000000000006,
+            "brier": 0.07672375251410428,
+            "episodes": 2,
+            "nll": 0.2699938345826927,
+            "probability_range": 0.9999870654264669,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 2.1353974997621847e-06,
+            "episodes": 3,
+            "nll": 0.0005337219354874664,
+            "probability_range": 0.9999830244141776,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.9819004524886882,
+            "brier": 0.06328685245498669,
+            "episodes": 3,
+            "nll": 0.19745963483202866,
+            "probability_range": 0.9883978692814708,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9700000000000006,
+            "brier": 0.06443833687583089,
+            "episodes": 2,
+            "nll": 0.19994415101328178,
+            "probability_range": 0.9895033752545714,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.0009466048544934363,
+            "episodes": 3,
+            "nll": 0.026625277984247294,
+            "probability_range": 0.9884724328294396,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 0.976693288900427,
+          "nfev": 9,
+          "objective": 0.1974596379202614,
+          "temperature": 2.655660205889806
+        },
+        "state": {
+          "bytes": 195861,
+          "sha256": "932fa1127d2c1caf523572403bd5e7e9f837b4627a4e3af07d3b72b899272fac",
+          "artifact_name": "learning_state_200.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 200,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.9819004524886882,
+            "brier": 0.07976887399420332,
+            "episodes": 3,
+            "nll": 0.33171161798323107,
+            "probability_range": 0.999994345334926,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9700000000000006,
+            "brier": 0.07925206969107275,
+            "episodes": 2,
+            "nll": 0.33677609787749724,
+            "probability_range": 0.9999973404392222,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 1.0093269905172094e-07,
+            "episodes": 3,
+            "nll": 0.00014416075162750123,
+            "probability_range": 0.999997069208348,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      }
+    ],
+    "NoGraph": [
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.31447963800904977,
+            "brier": 0.25012663532891993,
+            "episodes": 3,
+            "nll": 0.69340045149174,
+            "probability_range": 0.0008741617202758789,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.3966666666666668,
+            "brier": 0.25030056514469834,
+            "episodes": 2,
+            "nll": 0.6937483111116298,
+            "probability_range": 0.0007745027542114258,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.2952488687782806,
+            "brier": 0.24998245613740508,
+            "episodes": 3,
+            "nll": 0.6931120929463465,
+            "probability_range": 0.00077056884765625,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 3.9999939567248144,
+          "nfev": 31,
+          "objective": 0.6934004547489665,
+          "temperature": 54.59782008249596
+        },
+        "state": {
+          "bytes": 105749,
+          "sha256": "3a02776924eed3f4f4fbcc30b8a2f02c2f11f6a8a6826a3a1afa6e5833fd4613",
+          "artifact_name": "learning_state_0.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 0,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.31447963800904977,
+            "brier": 0.25789462437755967,
+            "episodes": 3,
+            "nll": 0.7089867766146075,
+            "probability_range": 0.04740530252456665,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.3966666666666668,
+            "brier": 0.2673358584166162,
+            "episodes": 2,
+            "nll": 0.7278658725096537,
+            "probability_range": 0.042120158672332764,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.2952488687782806,
+            "brier": 0.24993911481372505,
+            "episodes": 3,
+            "nll": 0.6930482473449462,
+            "probability_range": 0.041798293590545654,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.889140271493213,
+            "brier": 0.10878769681151677,
+            "episodes": 3,
+            "nll": 0.3559873384860476,
+            "probability_range": 0.9368865452706814,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9500000000000006,
+            "brier": 0.07595475152858885,
+            "episodes": 2,
+            "nll": 0.26436380413614724,
+            "probability_range": 0.9505057316273451,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.019764606614527516,
+            "episodes": 3,
+            "nll": 0.10784752321715114,
+            "probability_range": 0.9537383466959,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 0.8175557083940527,
+          "nfev": 12,
+          "objective": 0.35598733531730253,
+          "temperature": 2.2649568509357683
+        },
+        "state": {
+          "bytes": 105749,
+          "sha256": "44f573365f16d77632d9d3c6c3a772e90bdc870234e4144e94c4d5d846b8861e",
+          "artifact_name": "learning_state_50.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 50,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.889140271493213,
+            "brier": 0.10799374386928984,
+            "episodes": 3,
+            "nll": 0.4809545153810184,
+            "probability_range": 0.9985125029925257,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9500000000000006,
+            "brier": 0.07337091807662578,
+            "episodes": 2,
+            "nll": 0.2417837814358243,
+            "probability_range": 0.9995083952962887,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.006565268781893897,
+            "episodes": 3,
+            "nll": 0.03203804192322761,
+            "probability_range": 0.9994994199951179,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.9095022624434392,
+            "brier": 0.10294174491120477,
+            "episodes": 3,
+            "nll": 0.3404102164911525,
+            "probability_range": 0.9454738311469555,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9700000000000006,
+            "brier": 0.06901885730633169,
+            "episodes": 2,
+            "nll": 0.23790435783483535,
+            "probability_range": 0.9293821081519127,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.009003221422668552,
+            "episodes": 3,
+            "nll": 0.0884790423524778,
+            "probability_range": 0.9382361471652985,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 1.2431474204966542,
+          "nfev": 11,
+          "objective": 0.34041021051221193,
+          "temperature": 3.4665068674769395
+        },
+        "state": {
+          "bytes": 105749,
+          "sha256": "433241a7f57eb6f6744522fc35f2ad6a8a6808d47ffc81f83593c1c0d1f03f62",
+          "artifact_name": "learning_state_100.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 100,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.9095022624434392,
+            "brier": 0.11228811030386344,
+            "episodes": 3,
+            "nll": 0.6933373352098389,
+            "probability_range": 0.9999905817851413,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9700000000000006,
+            "brier": 0.07915346568736323,
+            "episodes": 2,
+            "nll": 0.3434961198198085,
+            "probability_range": 0.9999543559704307,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999997,
+            "brier": 8.47210561035693e-06,
+            "episodes": 3,
+            "nll": 0.0010168042197204168,
+            "probability_range": 0.9999770323307757,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.9174208144796384,
+            "brier": 0.1014743494011618,
+            "episodes": 3,
+            "nll": 0.33733281185428227,
+            "probability_range": 0.9370120707899332,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9600000000000007,
+            "brier": 0.06871359337287065,
+            "episodes": 2,
+            "nll": 0.23687866946119132,
+            "probability_range": 0.9193816687911749,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 0.008320547914301679,
+            "episodes": 3,
+            "nll": 0.08880715201173794,
+            "probability_range": 0.9270516932010651,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 1.398115158688347,
+          "nfev": 11,
+          "objective": 0.3373328132131304,
+          "temperature": 4.047563757202568
+        },
+        "state": {
+          "bytes": 105749,
+          "sha256": "9421e734c5ccd604bdd319d69f8c73ca2e5b55718d439745d73e0ea6bd3bce02",
+          "artifact_name": "learning_state_200.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 200,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.9174208144796384,
+            "brier": 0.11201231463175185,
+            "episodes": 3,
+            "nll": 0.8055594042037265,
+            "probability_range": 0.9999972327844944,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9600000000000007,
+            "brier": 0.07739586776805774,
+            "episodes": 2,
+            "nll": 0.41243195597680243,
+            "probability_range": 0.9999835507342567,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999996,
+            "brier": 2.463431744284948e-07,
+            "episodes": 3,
+            "nll": 0.00020584000831287043,
+            "probability_range": 0.999990242894043,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      }
+    ],
+    "OutputAction": [
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.13687782805429866,
+            "brier": 0.25006470377708395,
+            "episodes": 3,
+            "nll": 0.6932765881336234,
+            "probability_range": 0.000996708869934082,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.11,
+            "brier": 0.2500532437641283,
+            "episodes": 2,
+            "nll": 0.6932536681039438,
+            "probability_range": 0.0008952915668487549,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.00904977375565611,
+            "brier": 0.2501250860716396,
+            "episodes": 3,
+            "nll": 0.6933973527220438,
+            "probability_range": 0.000823974609375,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 3.999995181878604,
+          "nfev": 31,
+          "objective": 0.693276587416057,
+          "temperature": 54.59788697326311
+        },
+        "state": {
+          "bytes": 26645,
+          "sha256": "39b3b6f745c23e23347bc62cd6e31a410b1eed6863ecb7934985c0b0db25f2dd",
+          "artifact_name": "learning_state_0.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 0,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.13687782805429866,
+            "brier": 0.2536049948862404,
+            "episodes": 3,
+            "nll": 0.7003604782102152,
+            "probability_range": 0.0543617308139801,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.11,
+            "brier": 0.25296595346880413,
+            "episodes": 2,
+            "nll": 0.6990817412941434,
+            "probability_range": 0.048839271068573,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.00904977375565611,
+            "brier": 0.2569084185689304,
+            "episodes": 3,
+            "nll": 0.7069671562337219,
+            "probability_range": 0.04495695233345032,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.9128959276018104,
+            "brier": 0.10261156936911449,
+            "episodes": 3,
+            "nll": 0.3461776433786172,
+            "probability_range": 0.9638679660856724,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9433333333333339,
+            "brier": 0.08154028621607802,
+            "episodes": 2,
+            "nll": 0.2647151148315448,
+            "probability_range": 0.9774024169892073,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9988687782805425,
+            "brier": 0.024852172288230553,
+            "episodes": 3,
+            "nll": 0.11642089502398022,
+            "probability_range": 0.9746324922889471,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": -0.18849373381399662,
+          "nfev": 13,
+          "objective": 0.3461776388063225,
+          "temperature": 0.8282056931133044
+        },
+        "state": {
+          "bytes": 26645,
+          "sha256": "49a764a04f0c16df09dd0645f35105fced4d313a30954ff76e01ac8c18243cbb",
+          "artifact_name": "learning_state_50.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 50,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.9128959276018104,
+            "brier": 0.10437382059171342,
+            "episodes": 3,
+            "nll": 0.35172003788381806,
+            "probability_range": 0.9294792264699936,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9433333333333339,
+            "brier": 0.08372187639517768,
+            "episodes": 2,
+            "nll": 0.28313314849943216,
+            "probability_range": 0.9525664458051324,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9988687782805425,
+            "brier": 0.030273093580789445,
+            "episodes": 3,
+            "nll": 0.14688630740337008,
+            "probability_range": 0.9473051726818085,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.9479638009049777,
+            "brier": 0.08033297899498291,
+            "episodes": 3,
+            "nll": 0.2790918312724342,
+            "probability_range": 0.9787908978760242,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9566666666666673,
+            "brier": 0.09043195354971215,
+            "episodes": 2,
+            "nll": 0.2794514233860188,
+            "probability_range": 0.9815755656454712,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999997,
+            "brier": 0.006012151864025211,
+            "episodes": 3,
+            "nll": 0.05658594120689279,
+            "probability_range": 0.981655347160995,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 0.5612907533644367,
+          "nfev": 12,
+          "objective": 0.279091836472468,
+          "temperature": 1.7529336456924682
+        },
+        "state": {
+          "bytes": 26645,
+          "sha256": "bbd105f56bb9f53164d9ef74d9702f1b5281e3f9269ab239fb6277289e0ad1bc",
+          "artifact_name": "learning_state_100.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 100,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.9479638009049777,
+            "brier": 0.08202996972000978,
+            "episodes": 3,
+            "nll": 0.3368941338903528,
+            "probability_range": 0.9992089245934039,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9566666666666673,
+            "brier": 0.10657925825104413,
+            "episodes": 2,
+            "nll": 0.3623467751394568,
+            "probability_range": 0.9993177072428807,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999997,
+            "brier": 0.0018190217956864329,
+            "episodes": 3,
+            "nll": 0.013831646822134454,
+            "probability_range": 0.9993585680349497,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      },
+      {
+        "calibrated": {
+          "calibration": {
+            "auroc": 0.9660633484162899,
+            "brier": 0.07258270502590436,
+            "episodes": 3,
+            "nll": 0.2422183846601231,
+            "probability_range": 0.980223654769361,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9600000000000007,
+            "brier": 0.08107462035649157,
+            "episodes": 2,
+            "nll": 0.2534979453814361,
+            "probability_range": 0.984332752879709,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999997,
+            "brier": 0.002740822053151243,
+            "episodes": 3,
+            "nll": 0.04019238209545528,
+            "probability_range": 0.985254906816408,
+            "rows": 60,
+            "worlds": 1
+          }
+        },
+        "calibration": {
+          "log_temperature": 0.8102113527100533,
+          "nfev": 11,
+          "objective": 0.24221838077940827,
+          "temperature": 2.248383138331932
+        },
+        "state": {
+          "bytes": 26645,
+          "sha256": "67de05d15a7505b9bc573331614062aff1c2ea540fe10f3ec51637359b7b4586",
+          "artifact_name": "learning_state_200.pt",
+          "included_in_public_bundle": false
+        },
+        "step": 200,
+        "uncalibrated": {
+          "calibration": {
+            "auroc": 0.9660633484162899,
+            "brier": 0.0812418409992913,
+            "episodes": 3,
+            "nll": 0.35937145878945703,
+            "probability_range": 0.9999188751407928,
+            "rows": 60,
+            "worlds": 1
+          },
+          "development": {
+            "auroc": 0.9600000000000007,
+            "brier": 0.10120134631349093,
+            "episodes": 2,
+            "nll": 0.4066340383201588,
+            "probability_range": 0.9999455039310305,
+            "rows": 40,
+            "worlds": 1
+          },
+          "fit": {
+            "auroc": 0.9999999999999997,
+            "brier": 4.778722082522887e-05,
+            "episodes": 3,
+            "nll": 0.0021162180725662907,
+            "probability_range": 0.9999527216000388,
+            "rows": 60,
+            "worlds": 1
+          }
+        }
+      }
+    ]
+  },
+  "NN_states_reported": 16,
+  "all_results_reported": true,
+  "classical_fit_receipts": {
+    "GBC_GraphOnly": {
+      "GBC_train_score": [
+        1.1784702884700542,
+        1.023928656825732,
+        0.8955694209765315,
+        0.7873369576264828,
+        0.695028442558732,
+        0.6155956534926545,
+        0.5467521761927217,
+        0.4867368490539764,
+        0.4341635895434189,
+        0.38792195191798523,
+        0.3471089584603199,
+        0.3109809936927698,
+        0.27891900758291244,
+        0.25040280291260825,
+        0.22499167788446178,
+        0.20230961167224967,
+        0.1820337597902622,
+        0.16388540206235025,
+        0.14762273581201696,
+        0.13303507649665486,
+        0.11993814534598349,
+        0.10817020614409,
+        0.09758887232159431,
+        0.08806844831813106,
+        0.07949770060487318,
+        0.07177797711688025,
+        0.06482161139969567,
+        0.05855056110177137,
+        0.05289524065854925,
+        0.047793515912056696,
+        0.043189834567761445,
+        0.039034471229142616,
+        0.03528286958058618,
+        0.03189506734215265,
+        0.028835192069279654,
+        0.026071017848203086,
+        0.023573574544226438,
+        0.021316802572195058,
+        0.019277247236289527,
+        0.017433787576211394,
+        0.015767395395320714,
+        0.014260920762142233,
+        0.012898900792630504,
+        0.011667388954776425,
+        0.010553802504214123,
+        0.009546785970924303,
+        0.008636088882674482,
+        0.0078124561378407785,
+        0.00706752963527378,
+        0.006393759936845628,
+        0.005784326883526627,
+        0.005233068211811449,
+        0.0047344153268523035,
+        0.004283335484259017,
+        0.0038752797161248176,
+        0.003506135910173993,
+        0.003172186515384249,
+        0.002870070404253526,
+        0.0025967484720193484,
+        0.002349472597522789,
+        0.0021257576297400325,
+        0.0019233560989135464,
+        0.001740235382294234,
+        0.0015745570821229001,
+        0.0014246583981958332,
+        0.0012890352993244459,
+        0.0011663273177464127,
+        0.0010553038081030784,
+        0.0009548515284409553,
+        0.000863963414795238,
+        0.0007817284336435643,
+        0.0007073224078952232,
+        0.0006399997223611463,
+        0.0005790858238075309,
+        0.0005239704390661795,
+        0.0004741014420359492,
+        0.00042897930721129407,
+        0.0003881520934118584,
+        0.0003512109067884756,
+        0.0003177857971766788,
+        0.0002875420462527759,
+        0.000260176810001785,
+        0.0002354160815374657,
+        0.00021301194368211022,
+        0.00019274008357076787,
+        0.0001743975442531444,
+        0.00015780069063928975,
+        0.00014278336934809814,
+        0.0001291952439148348,
+        0.00011690028865323992,
+        0.00010577542600274222,
+        9.570929370803901e-05,
+        8.660112943459295e-05,
+        7.835976160935689e-05,
+        7.090269638927907e-05,
+        6.41552915754507e-05,
+        5.8050009188212326e-05,
+        5.25257392180144e-05,
+        4.752718776227614e-05,
+        4.3004323421968796e-05
+      ],
+      "algorithm": "GBC",
+      "calibration": {
+        "log_temperature": 1.581083286443084,
+        "nfev": 12,
+        "objective": 0.324066877906011,
+        "temperature": 4.8602179687468645
+      },
+      "converged": true,
+      "family": "GraphOnly",
+      "model": {
+        "bytes": 64718,
+        "sha256": "af70e4afc913b37aee565d4a8eb89161c8f8a2b33bdb188f8a6bc5a377140bdc",
+        "artifact_name": "model.pkl",
+        "included_in_public_bundle": false
+      },
+      "n_iter": [],
+      "parameters": {
+        "ccp_alpha": 0.0,
+        "criterion": "deprecated",
+        "init": null,
+        "learning_rate": 0.1,
+        "loss": "log_loss",
+        "max_depth": 3,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 100,
+        "n_iter_no_change": null,
+        "random_state": 1729,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "warnings": []
+    },
+    "GBC_Internal": {
+      "GBC_train_score": [
+        1.1784702884700542,
+        1.023928656825732,
+        0.8955694209765315,
+        0.7873369576264828,
+        0.695028442558732,
+        0.6155956534926545,
+        0.5467521761927217,
+        0.4867368490539764,
+        0.4341635895434189,
+        0.38792195191798523,
+        0.3471089584603199,
+        0.3109809936927696,
+        0.27891900758291244,
+        0.25040280291260825,
+        0.22499167788446178,
+        0.20230961167224967,
+        0.1820337597902622,
+        0.16388540206235025,
+        0.14762273581201696,
+        0.13303507649665486,
+        0.11993814534598349,
+        0.10817020614409,
+        0.09758887232159431,
+        0.08806844831813106,
+        0.07949770060487318,
+        0.07177797711688025,
+        0.06482161139969567,
+        0.05855056110177137,
+        0.05289524065854925,
+        0.047793515912056696,
+        0.043189834567761445,
+        0.039034471229142616,
+        0.03528286958058618,
+        0.03189506734215265,
+        0.028835192069279654,
+        0.026071017848203086,
+        0.023573574544226438,
+        0.021316802572195058,
+        0.019277247236289527,
+        0.017433787576211394,
+        0.015767395395320714,
+        0.014260920762142233,
+        0.012898900792630504,
+        0.011667388954776425,
+        0.010553802504214123,
+        0.009546785970924303,
+        0.008636088882674482,
+        0.0078124561378407785,
+        0.00706752963527378,
+        0.006393759936845628,
+        0.005784326883526627,
+        0.005233068211811449,
+        0.0047344153268523035,
+        0.004283335484259017,
+        0.0038752797161248176,
+        0.003506135910173993,
+        0.003172186515384249,
+        0.002870070404253526,
+        0.0025967484720193484,
+        0.002349472597522789,
+        0.0021257576297400325,
+        0.0019233560989135464,
+        0.001740235382294234,
+        0.0015745570821229001,
+        0.0014246583981958332,
+        0.0012890352993244459,
+        0.0011663273177464127,
+        0.0010553038081030784,
+        0.0009548515284409553,
+        0.000863963414795238,
+        0.0007817284336435643,
+        0.0007073224078952232,
+        0.0006399997223611463,
+        0.0005790858238075309,
+        0.0005239704390661795,
+        0.0004741014420359492,
+        0.00042897930721129407,
+        0.0003881520934118584,
+        0.0003512109067884756,
+        0.0003177857971766788,
+        0.0002875420462527759,
+        0.000260176810001785,
+        0.0002354160815374657,
+        0.00021301194368211022,
+        0.00019274008357076787,
+        0.0001743975442531444,
+        0.00015780069063928975,
+        0.00014278336934809814,
+        0.0001291952439148348,
+        0.00011690028865323992,
+        0.00010577542600274222,
+        9.570929370803901e-05,
+        8.660112943459295e-05,
+        7.835976160935689e-05,
+        7.090269638927907e-05,
+        6.41552915754507e-05,
+        5.8050009188212326e-05,
+        5.25257392180144e-05,
+        4.752718776227614e-05,
+        4.3004323421968796e-05
+      ],
+      "algorithm": "GBC",
+      "calibration": {
+        "log_temperature": 1.403244123346771,
+        "nfev": 11,
+        "objective": 0.29902003812177047,
+        "temperature": 4.0683768979713575
+      },
+      "converged": true,
+      "family": "Internal",
+      "model": {
+        "bytes": 91886,
+        "sha256": "fa0fae383e88394edfed20d8da72f773181f3e570e7041ceca6cca77d3c27e10",
+        "artifact_name": "model.pkl",
+        "included_in_public_bundle": false
+      },
+      "n_iter": [],
+      "parameters": {
+        "ccp_alpha": 0.0,
+        "criterion": "deprecated",
+        "init": null,
+        "learning_rate": 0.1,
+        "loss": "log_loss",
+        "max_depth": 3,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 100,
+        "n_iter_no_change": null,
+        "random_state": 1729,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "warnings": []
+    },
+    "L2Logistic_GraphOnly": {
+      "GBC_train_score": [],
+      "algorithm": "L2Logistic",
+      "calibration": {
+        "log_temperature": 0.37332822751136907,
+        "nfev": 10,
+        "objective": 0.17347562883919923,
+        "temperature": 1.4525610320894133
+      },
+      "converged": true,
+      "family": "GraphOnly",
+      "model": {
+        "bytes": 12815,
+        "sha256": "a7580739d9f8793381b6e682b5a7f2ac283b92cc663e6dfcc85a3e0c0c8369f0",
+        "artifact_name": "model.pkl",
+        "included_in_public_bundle": false
+      },
+      "n_iter": [
+        14
+      ],
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 1729,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "warnings": []
+    },
+    "L2Logistic_Internal": {
+      "GBC_train_score": [],
+      "algorithm": "L2Logistic",
+      "calibration": {
+        "log_temperature": 0.2917505509425629,
+        "nfev": 10,
+        "objective": 0.15613232312761186,
+        "temperature": 1.3387690213129988
+      },
+      "converged": true,
+      "family": "Internal",
+      "model": {
+        "bytes": 26910,
+        "sha256": "dfc7cd27dfba1e7749cff2d92eb09d57036dec24fdc48999b36b8653781a6f1c",
+        "artifact_name": "model.pkl",
+        "included_in_public_bundle": false
+      },
+      "n_iter": [
+        17
+      ],
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 1729,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "warnings": []
+    }
+  },
+  "counts": {
+    "LLM_calls": 0,
+    "NN_fits_completed": 4,
+    "NN_optimizer_updates": 800,
+    "classical_fits_completed": 4,
+    "environment_calls": 0,
+    "graph_extraction_calls": 0,
+    "test_outcome_reads": 0
+  },
+  "development_episodes": 2,
+  "development_rows": 40,
+  "development_worlds": 1,
+  "final_metrics": {
+    "GBC_GraphOnly": {
+      "calibration": {
+        "auroc": 0.8891402714932126,
+        "brier": 0.08981884687410195,
+        "episodes": 3,
+        "nll": 0.32406687790601096,
+        "probability_range": 0.8021407526180319,
+        "rows": 60,
+        "worlds": 1
+      },
+      "development": {
+        "auroc": 0.8500000000000002,
+        "brier": 0.11038404431830988,
+        "episodes": 2,
+        "nll": 0.38217349876625056,
+        "probability_range": 0.8021407526180319,
+        "rows": 40,
+        "worlds": 1
+      },
+      "fit": {
+        "auroc": 1.0000000000000002,
+        "brier": 0.009731031754555756,
+        "episodes": 3,
+        "nll": 0.1038304871978344,
+        "probability_range": 0.8021407526180319,
+        "rows": 60,
+        "worlds": 1
+      }
+    },
+    "GBC_Internal": {
+      "calibration": {
+        "auroc": 0.9660633484162898,
+        "brier": 0.08920154394626367,
+        "episodes": 3,
+        "nll": 0.29902003812177036,
+        "probability_range": 0.8666667647792201,
+        "rows": 60,
+        "worlds": 1
+      },
+      "development": {
+        "auroc": 0.941666666666667,
+        "brier": 0.08759001053059216,
+        "episodes": 2,
+        "nll": 0.2916459775735779,
+        "probability_range": 0.8666667647792201,
+        "rows": 40,
+        "worlds": 1
+      },
+      "fit": {
+        "auroc": 1.0000000000000002,
+        "brier": 0.0044136753295476085,
+        "episodes": 3,
+        "nll": 0.06871745830677563,
+        "probability_range": 0.8666667647792201,
+        "rows": 60,
+        "worlds": 1
+      }
+    },
+    "L2Logistic_GraphOnly": {
+      "calibration": {
+        "auroc": 0.97737556561086,
+        "brier": 0.04583917343220901,
+        "episodes": 3,
+        "nll": 0.17347566401548906,
+        "probability_range": 0.996026219567284,
+        "rows": 60,
+        "worlds": 1
+      },
+      "development": {
+        "auroc": 0.9000000000000002,
+        "brier": 0.08119210306106149,
+        "episodes": 2,
+        "nll": 0.39782026214898475,
+        "probability_range": 0.9880301859229803,
+        "rows": 40,
+        "worlds": 1
+      },
+      "fit": {
+        "auroc": 0.9999999999999996,
+        "brier": 0.0015201187127125053,
+        "episodes": 3,
+        "nll": 0.03291759697716199,
+        "probability_range": 0.9925798794720322,
+        "rows": 60,
+        "worlds": 1
+      }
+    },
+    "L2Logistic_Internal": {
+      "calibration": {
+        "auroc": 0.9852941176470592,
+        "brier": 0.05138940588984842,
+        "episodes": 3,
+        "nll": 0.156132326889968,
+        "probability_range": 0.9948094529099762,
+        "rows": 60,
+        "worlds": 1
+      },
+      "development": {
+        "auroc": 0.9633333333333339,
+        "brier": 0.07603882852703107,
+        "episodes": 2,
+        "nll": 0.2450141003268875,
+        "probability_range": 0.9956123975571245,
+        "rows": 40,
+        "worlds": 1
+      },
+      "fit": {
+        "auroc": 0.9999999999999996,
+        "brier": 0.00035631817799128767,
+        "episodes": 3,
+        "nll": 0.01285078911377844,
+        "probability_range": 0.9942218605428934,
+        "rows": 60,
+        "worlds": 1
+      }
+    },
+    "NN_GraphOnly": {
+      "calibration": {
+        "auroc": 0.97737556561086,
+        "brier": 0.05340105043472735,
+        "episodes": 3,
+        "nll": 0.18128708046934114,
+        "probability_range": 0.9954308765009046,
+        "rows": 60,
+        "worlds": 1
+      },
+      "development": {
+        "auroc": 0.9133333333333337,
+        "brier": 0.0854522007337076,
+        "episodes": 2,
+        "nll": 0.4245655109096483,
+        "probability_range": 0.9887665999121964,
+        "rows": 40,
+        "worlds": 1
+      },
+      "fit": {
+        "auroc": 0.9999999999999996,
+        "brier": 0.0014281067967229434,
+        "episodes": 3,
+        "nll": 0.034024303509893265,
+        "probability_range": 0.9924307537730783,
+        "rows": 60,
+        "worlds": 1
+      }
+    },
+    "NN_Internal": {
+      "calibration": {
+        "auroc": 0.9819004524886882,
+        "brier": 0.06328685245498669,
+        "episodes": 3,
+        "nll": 0.19745963483202866,
+        "probability_range": 0.9883978692814708,
+        "rows": 60,
+        "worlds": 1
+      },
+      "development": {
+        "auroc": 0.9700000000000006,
+        "brier": 0.06443833687583089,
+        "episodes": 2,
+        "nll": 0.19994415101328178,
+        "probability_range": 0.9895033752545714,
+        "rows": 40,
+        "worlds": 1
+      },
+      "fit": {
+        "auroc": 0.9999999999999996,
+        "brier": 0.0009466048544934363,
+        "episodes": 3,
+        "nll": 0.026625277984247294,
+        "probability_range": 0.9884724328294396,
+        "rows": 60,
+        "worlds": 1
+      }
+    },
+    "NN_NoGraph": {
+      "calibration": {
+        "auroc": 0.9174208144796384,
+        "brier": 0.1014743494011618,
+        "episodes": 3,
+        "nll": 0.33733281185428227,
+        "probability_range": 0.9370120707899332,
+        "rows": 60,
+        "worlds": 1
+      },
+      "development": {
+        "auroc": 0.9600000000000007,
+        "brier": 0.06871359337287065,
+        "episodes": 2,
+        "nll": 0.23687866946119132,
+        "probability_range": 0.9193816687911749,
+        "rows": 40,
+        "worlds": 1
+      },
+      "fit": {
+        "auroc": 0.9999999999999996,
+        "brier": 0.008320547914301679,
+        "episodes": 3,
+        "nll": 0.08880715201173794,
+        "probability_range": 0.9270516932010651,
+        "rows": 60,
+        "worlds": 1
+      }
+    },
+    "NN_OutputAction": {
+      "calibration": {
+        "auroc": 0.9660633484162899,
+        "brier": 0.07258270502590436,
+        "episodes": 3,
+        "nll": 0.2422183846601231,
+        "probability_range": 0.980223654769361,
+        "rows": 60,
+        "worlds": 1
+      },
+      "development": {
+        "auroc": 0.9600000000000007,
+        "brier": 0.08107462035649157,
+        "episodes": 2,
+        "nll": 0.2534979453814361,
+        "probability_range": 0.984332752879709,
+        "rows": 40,
+        "worlds": 1
+      },
+      "fit": {
+        "auroc": 0.9999999999999997,
+        "brier": 0.002740822053151243,
+        "episodes": 3,
+        "nll": 0.04019238209545528,
+        "probability_range": 0.985254906816408,
+        "rows": 60,
+        "worlds": 1
+      }
+    }
+  },
+  "final_models_reported": 8,
+  "heldout_outcome_reads": 0,
+  "interpretation": "Training-vs-signal descriptive diagnostic on fixed development only; no significance, causal, online-efficacy or heldout-selection claim",
+  "new_graphs": 0,
+  "protocol": {
+    "bytes": 88892,
+    "commit": "ff843959195159d731e151f4c616f28f3bc2e261",
+    "sha256": "74fce08238e0c7bf0761e500e76320350e45c2e08d5502c93d80af64f6c6fbcc",
+    "artifact_name": "protocol.json",
+    "included_in_public_bundle": false
+  },
+  "runtime": {
+    "cuda_initialized": false,
+    "threads": 2,
+    "versions": {
+      "numpy": "2.5.3",
+      "python": "3.12.14",
+      "scipy": "1.18.1",
+      "sklearn": "1.9.1",
+      "torch": "2.9.1+cu128"
+    }
+  },
+  "schema": "dw_v4_learning_curve_classical_CPU_result_v2",
+  "selects_no_production_model": true,
+  "status": "complete",
+  "wall_seconds": 53.87753920676187,
+  "source_receipt_sha256": "7349624b67925ba967d157957ba9f5d532277e421de13f3c257ae6d723f6543b",
+  "observed_UTC": "2026-09-22T09:22:56.356917+00:00",
+  "observed_CST": "2026-09-22T17:22:56.356917+08:00"
+}

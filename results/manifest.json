@@ -15,24 +15,24 @@
   ],
   "files": [
     {
-      "bytes": 22172,
-      "export_sha256": "4a2f3302e1ca1ce61f7144b8341d94f65e65bd5e5cc109dfeea871ee331da360",
-      "path": "README.md"
+      "path": "README.md",
+      "bytes": 22707,
+      "export_sha256": "7e3266177e070330fa40723a104aac8c4618c66149317d08a80f443209c0eae3"
     },
     {
-      "bytes": 19129,
-      "export_sha256": "ddd39070f3718eae3bae97ece2df75b5cb32d99d6c484fa43cdbb7d6b06e54d3",
-      "path": "docs/results.md"
+      "path": "docs/results.md",
+      "bytes": 19798,
+      "export_sha256": "c8a41747f3a9a0e9db81fe71689e2ffd837cfb1d50745e30f567ea46895d5a54"
     },
     {
       "path": "results/LATEST.md",
-      "bytes": 5459,
-      "export_sha256": "c1666572a7611276ff03b67757e36f30d396ebb7a21e63f0ada224d91ca37863"
+      "bytes": 6260,
+      "export_sha256": "ef372a0dc4a0d52a3cf0aa0fac8ee88baa3536aa98213c500d949bcca35132b7"
     },
     {
       "path": "results/README.md",
-      "bytes": 18488,
-      "export_sha256": "a5e125b86c1672ec66f332ecea6ce55539f66396efb6a5847611b11b8f1d3ef6"
+      "bytes": 18555,
+      "export_sha256": "241f0987832adff2432590614caf24f201720260440f0ad039d9bf9235d6be41"
     },
     {
       "bytes": 55304,
@@ -675,6 +675,91 @@
       "path": "results/development/support_mechanism_audit/20260919T174119_CST/trajectory_evidence.json"
     },
     {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/cached_predictions.json",
+      "bytes": 25184,
+      "export_sha256": "09d532d3f226d8eca4c28f4244b2b990c9cf880229aceeab9505c13253c41aa4"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/cached_threshold_metrics.csv",
+      "bytes": 549,
+      "export_sha256": "e751643bfc75c9fb84fdd95e4a433c28d5c29ecf9463cb2ecb92dfd2b0cded67"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/classical_fit_status.csv",
+      "bytes": 280,
+      "export_sha256": "70dbfd373941c41c72d56bb30e5c46991c0c2832e3c47950ff4a395101079d84"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/feature_metrics.csv",
+      "bytes": 508,
+      "export_sha256": "3d001500d22c2e5dc4f05be789707cf9fad49f07b1f7a87f6c59fbec9750669d"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/fixed_probability_cached_analysis.json",
+      "bytes": 1717,
+      "export_sha256": "e46fc44893623394172658daf4334c8ad75f7c249e68e8405cced62ba1ad6ce9"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/four_feature_family_result.json",
+      "bytes": 8641,
+      "export_sha256": "fa7a3f8ca2fc11618fe07593487192889004d8bd4ffd8a7b9ee0fa40d1826199"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/learning_curves.pdf",
+      "bytes": 45949,
+      "export_sha256": "2b90f1c60986be8e26299181c52214e2c4d87e1e89ff3b8d46da9333aa9fd9da"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/learning_curves.png",
+      "bytes": 312412,
+      "export_sha256": "fe2709e735c1bd3f5c1c0753ff7a6fe2c7b69d5cea375b771b7a7d52d2e8e278"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/learning_curves.svg",
+      "bytes": 142311,
+      "export_sha256": "aa868dbd2f187c29a56c198fe3ea0d02d488fe9aee6e399d1ae47c1f2b16b626"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/manifest.json",
+      "bytes": 2661,
+      "export_sha256": "e2408ec8bbf7a46f189ac332a29cfa788d9ef5b878d558c4e4d367807bd5af76"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/protocol.md",
+      "bytes": 2739,
+      "export_sha256": "a92ed3a7ab7091a2bf0a1f038b9e023c7f781f1b0803882eb8bea78ee53c4995"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/provenance.json",
+      "bytes": 1446,
+      "export_sha256": "e7dc028264d98ad334c8be373c73e145e7b2eecf83d820a1e0708fc59a1c3a13"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/report.md",
+      "bytes": 7142,
+      "export_sha256": "bbbe9265a71073fc8b28429fa451af5f4e4abefcc6ee0653dfb4afc81045bed5"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/training_diagnostic.json",
+      "bytes": 54693,
+      "export_sha256": "7476dbace22db5e81022e0f78762ed90c689ab4b7d2cab5f1f5abe62635b084b"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/training_diagnostic_report.md",
+      "bytes": 7400,
+      "export_sha256": "e34af65eb1ef0e2a126c03c86793be839e41efdedc6edb2316b6d6fe0703a9f6"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/training_metrics.csv",
+      "bytes": 13640,
+      "export_sha256": "0c99b733eb11b7dba0182e01de9875f6efc735d3ba80c21c633b3fae58a93b55"
+    },
+    {
+      "path": "results/discoveryworld/diagnostics/20260922T172256_CST/validate.py",
+      "bytes": 10965,
+      "export_sha256": "f07405bf88bacd5bc6844ab5cc5aa84e253340fde022f38232d165a1b8b17582"
+    },
+    {
       "path": "results/discoveryworld/progress/20260922T052401_CST/manifest.json",
       "bytes": 544,
       "export_sha256": "f10e45778e08133b86ebec6b0fc8a0dc8752936490fcda54c06b44fe991f451d"
@@ -736,8 +821,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 131169,
-      "export_sha256": "992f9108c79a8c2e63729e1a475d375a959721ea60254cf91f67028606eaee96"
+      "bytes": 132814,
+      "export_sha256": "c0522ac174f9fa40050f519c2ce1cb5d27b8cee7f2d39ab5c0ac11c28b14f14e"
     },
     {
       "bytes": 1517,

@@ -3244,5 +3244,36 @@
     }
   ],
   "latest_discoveryworld_progress_export_id": "discoveryworld_progress_20260922T155718_CST",
-  "latest_overview": "results/LATEST.md"
+  "latest_overview": "results/LATEST.md",
+  "discoveryworld_diagnostic_exports": [
+    {
+      "snapshot_id": "discoveryworld_CPU_diagnostics_20260922T172256_CST",
+      "observed_CST": "2026-09-22T17:22:56.356917+08:00",
+      "observed_UTC": "2026-09-22T09:22:56.356917+00:00",
+      "report": "results/discoveryworld/diagnostics/20260922T172256_CST/report.md",
+      "feature_metrics": "results/discoveryworld/diagnostics/20260922T172256_CST/four_feature_family_result.json",
+      "cached_operating_points": "results/discoveryworld/diagnostics/20260922T172256_CST/fixed_probability_cached_analysis.json",
+      "validation_script": "results/discoveryworld/diagnostics/20260922T172256_CST/validate.py",
+      "feature_families": 4,
+      "diagnostic_optimizer_updates": 800,
+      "training_diagnostic_report": "results/discoveryworld/diagnostics/20260922T172256_CST/training_diagnostic_report.md",
+      "training_metrics": "results/discoveryworld/diagnostics/20260922T172256_CST/training_metrics.csv",
+      "training_diagnostic_final_models": 8,
+      "training_diagnostic_NN_states": 16,
+      "training_diagnostic_NN_optimizer_updates": 800,
+      "fit_rows": 60,
+      "calibration_rows": 60,
+      "development_rows": 40,
+      "development_episodes": 2,
+      "development_worlds": 1,
+      "new_graphs": 0,
+      "new_environment_calls": 0,
+      "scientific_calls_for_export": 0,
+      "online_improvement_demonstrated": false,
+      "full_method_complete": false,
+      "production_predictor_changed": false,
+      "overlapping_source_data_not_additive": true
+    }
+  ],
+  "latest_discoveryworld_diagnostic_export_id": "discoveryworld_CPU_diagnostics_20260922T172256_CST"
 }

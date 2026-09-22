@@ -1,0 +1,22 @@
+{
+  "schema": "dw_cpu_diagnostic_publication_provenance_v1",
+  "observed_CST": "2026-09-22T17:12:44.559813+08:00",
+  "observed_UTC": "2026-09-22T09:12:44.559813+00:00",
+  "source_receipt_sha256": "b243528a04a7b962f5fd89a32c3c72579f294cfc7b475124aa35c814c2d2a3bc",
+  "feature_result_source_sha256": "01038a1c60941140417a85ad66505d5e2b46cc1924ad2eae6d9ebdc287938b03",
+  "fixed_probability_source_sha256": "c3247f6bc2360b8548b03ed90411da87a3e403d704143a5b9d6e13ca67ca4f31",
+  "protocol_markdown_source_sha256": "a92ed3a7ab7091a2bf0a1f038b9e023c7f781f1b0803882eb8bea78ee53c4995",
+  "cached_audit_receipt_sha256": "d91d0d39a1c0eb013447f50e41f18a87b31cc6a580db177b51e1ce010ce262f4",
+  "completed_science_only": true,
+  "private_runtime_metadata_exported": false,
+  "scientific_calls_for_export": 0,
+  "online_improvement_claimed": false,
+  "full_method_complete": false,
+  "source_metrics_not_all_recomputed_from_raw_feature_family_predictions": true,
+  "prior_control_snapshot": "results/discoveryworld/progress/20260922T155718_CST/snapshot.json",
+  "training_diagnostic_source_sha256": "7349624b67925ba967d157957ba9f5d532277e421de13f3c257ae6d723f6543b",
+  "training_diagnostic_observed_CST": "2026-09-22T17:22:56.356917+08:00",
+  "training_diagnostic_observed_UTC": "2026-09-22T09:22:56.356917+00:00",
+  "training_report_source_sha256": "56169c8c805db080a96268fc6e3d9ce8c30483cbfdbd16c4d55f1dd25e853722",
+  "learning_figure_visually_checked": true
+}

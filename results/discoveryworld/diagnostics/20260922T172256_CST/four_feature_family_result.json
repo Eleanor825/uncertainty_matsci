@@ -1,0 +1,277 @@
+{
+  "calibration_rows": 60,
+  "control_reproduction": {
+    "Internal": true,
+    "OutputAction": true
+  },
+  "counts": {
+    "LLM_calls": 0,
+    "dev_forward_batches": 4,
+    "environment_calls": 0,
+    "fits_completed": 4,
+    "graph_extraction_calls": 0,
+    "optimizer_updates_returned": 800
+  },
+  "development_episodes": 2,
+  "development_rows": 40,
+  "development_worlds": 1,
+  "episode_metrics": {
+    "GraphOnly": {
+      "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+        "auroc": 0.8131868131868133,
+        "brier": 0.15023938674225037,
+        "episodes": 1,
+        "nll": 0.7678591193603415,
+        "probability_range": 0.9887665999121964,
+        "rows": 20,
+        "worlds": 1
+      },
+      "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+        "auroc": 1.0000000000000002,
+        "brier": 0.020665014725164833,
+        "episodes": 1,
+        "nll": 0.08127190245895517,
+        "probability_range": 0.9405669840052724,
+        "rows": 20,
+        "worlds": 1
+      }
+    },
+    "Internal": {
+      "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+        "auroc": 0.9340659340659341,
+        "brier": 0.11212188300366555,
+        "episodes": 1,
+        "nll": 0.32234745154775646,
+        "probability_range": 0.9854125548154116,
+        "rows": 20,
+        "worlds": 1
+      },
+      "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+        "auroc": 1.0000000000000002,
+        "brier": 0.016754790747996243,
+        "episodes": 1,
+        "nll": 0.07754085047880707,
+        "probability_range": 0.9771301066502929,
+        "rows": 20,
+        "worlds": 1
+      }
+    },
+    "NoGraph": {
+      "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+        "auroc": 0.9450549450549451,
+        "brier": 0.09384330384001906,
+        "episodes": 1,
+        "nll": 0.30918282570206845,
+        "probability_range": 0.8988092318177223,
+        "rows": 20,
+        "worlds": 1
+      },
+      "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+        "auroc": 0.9607843137254903,
+        "brier": 0.04358388290572226,
+        "episodes": 1,
+        "nll": 0.1645745132203142,
+        "probability_range": 0.8917733337730169,
+        "rows": 20,
+        "worlds": 1
+      }
+    },
+    "OutputAction": {
+      "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+        "auroc": 0.9670329670329672,
+        "brier": 0.07614986329673129,
+        "episodes": 1,
+        "nll": 0.23869830854323623,
+        "probability_range": 0.9819745826534927,
+        "rows": 20,
+        "worlds": 1
+      },
+      "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+        "auroc": 0.9019607843137256,
+        "brier": 0.08599937741625184,
+        "episodes": 1,
+        "nll": 0.268297582219636,
+        "probability_range": 0.9021583325229585,
+        "rows": 20,
+        "worlds": 1
+      }
+    }
+  },
+  "existing_graphs_reused": 160,
+  "feature_dimensions": {
+    "GraphOnly": 153,
+    "Internal": 293,
+    "NoGraph": 140,
+    "OutputAction": 10
+  },
+  "fit_rows": 60,
+  "heldout_outcome_reads": 0,
+  "interpretation": "fixed-development descriptive signal diagnostic; two clustered episodes; no significance, online efficacy or heldout-selection claim",
+  "metric_direction": {
+    "auroc": "higher_is_better",
+    "brier": "lower_is_better",
+    "nll": "lower_is_better"
+  },
+  "metrics": {
+    "GraphOnly": {
+      "auroc": 0.9133333333333337,
+      "brier": 0.0854522007337076,
+      "episodes": 2,
+      "nll": 0.4245655109096483,
+      "probability_range": 0.9887665999121964,
+      "rows": 40,
+      "worlds": 1
+    },
+    "Internal": {
+      "auroc": 0.9700000000000006,
+      "brier": 0.06443833687583089,
+      "episodes": 2,
+      "nll": 0.19994415101328178,
+      "probability_range": 0.9895033752545714,
+      "rows": 40,
+      "worlds": 1
+    },
+    "NoGraph": {
+      "auroc": 0.9600000000000007,
+      "brier": 0.06871359337287065,
+      "episodes": 2,
+      "nll": 0.23687866946119132,
+      "probability_range": 0.9193816687911749,
+      "rows": 40,
+      "worlds": 1
+    },
+    "OutputAction": {
+      "auroc": 0.9600000000000007,
+      "brier": 0.08107462035649157,
+      "episodes": 2,
+      "nll": 0.2534979453814361,
+      "probability_range": 0.984332752879709,
+      "rows": 40,
+      "worlds": 1
+    }
+  },
+  "models": {
+    "GraphOnly": {
+      "checkpoint": {
+        "artifact_name": "next_action_failure_GraphOnly.pt",
+        "sha256": "fc4f548915a5b56c2a3cbbe0ceedb9e0ad9dcd5491649254eb82af1a72f1ef58",
+        "bytes": 112661,
+        "included_in_public_bundle": false
+      },
+      "family": "GraphOnly",
+      "final_tensor_hash": "1d17caccfd5b4c49933f3bc6598477e2d6fbc54902c776fd8e405b53ad0c78e8",
+      "head": "next_action_failure",
+      "initial_tensor_hash": "b1ccc8d40ec04a72fc501a1f30028d745f2227d03e08330c3a1c528b86658b89",
+      "parameters": 24065,
+      "temperature": 2.481214627090778,
+      "tensor_changed": true,
+      "threshold": {
+        "n": 60,
+        "quantile": 0.75,
+        "rank_one_based": 45,
+        "source_partition": "world1_calibration_only",
+        "threshold": 0.9578326738274906
+      },
+      "updates": 200
+    },
+    "Internal": {
+      "checkpoint": {
+        "artifact_name": "next_action_failure_Internal.pt",
+        "sha256": "f5155ccafec30317069ee3331045b88019a85b2a6fc8fc70a4bab77e4f70dbbc",
+        "bytes": 198229,
+        "included_in_public_bundle": false
+      },
+      "family": "Internal",
+      "final_tensor_hash": "d4564441e25c2d3cbd2218fa467b24acd34b25da9e0d05235a8da247a74a9cd5",
+      "head": "next_action_failure",
+      "initial_tensor_hash": "57d04dc561908f60354766560c8223cd3aa4770b2e89be18f43e44684722f27f",
+      "parameters": 41985,
+      "temperature": 2.655660205889806,
+      "tensor_changed": true,
+      "threshold": {
+        "n": 60,
+        "quantile": 0.75,
+        "rank_one_based": 45,
+        "source_partition": "world1_calibration_only",
+        "threshold": 0.9867005323054212
+      },
+      "updates": 200
+    },
+    "NoGraph": {
+      "checkpoint": {
+        "artifact_name": "next_action_failure_NoGraph.pt",
+        "sha256": "f268799dadf60f3109cf609e34d907eeeac4fc8a19679070ea026ae90fae9386",
+        "bytes": 107989,
+        "included_in_public_bundle": false
+      },
+      "family": "NoGraph",
+      "final_tensor_hash": "eacf7751c5549d57e0948c94dc80a5f24db529cfd955133d58c43cb88df05910",
+      "head": "next_action_failure",
+      "initial_tensor_hash": "797f3392f90e632c4dbf25375a6e38d00b4d5c98d2c1c60548243784259eb403",
+      "parameters": 22401,
+      "temperature": 4.047563757202568,
+      "tensor_changed": true,
+      "threshold": {
+        "n": 60,
+        "quantile": 0.75,
+        "rank_one_based": 45,
+        "source_partition": "world1_calibration_only",
+        "threshold": 0.8763700915138685
+      },
+      "updates": 200
+    },
+    "OutputAction": {
+      "checkpoint": {
+        "artifact_name": "next_action_failure_OutputAction.pt",
+        "sha256": "e939dfd6dfb770b443a1ae01401ede5dc2328536873c2426070fd2e2bc81536b",
+        "bytes": 28821,
+        "included_in_public_bundle": false
+      },
+      "family": "OutputAction",
+      "final_tensor_hash": "e24751f7cffe54bd71c4741d1b20186afb67b20777310a4f809cb8828c075912",
+      "head": "next_action_failure",
+      "initial_tensor_hash": "bf956dcd049cc9efd993c2792297d8223cc615a9072958519c827e614cedc275",
+      "parameters": 5761,
+      "temperature": 2.248383138331932,
+      "tensor_changed": true,
+      "threshold": {
+        "n": 60,
+        "quantile": 0.75,
+        "rank_one_based": 45,
+        "source_partition": "world1_calibration_only",
+        "threshold": 0.929683301304327
+      },
+      "updates": 200
+    }
+  },
+  "no_new_graphs": true,
+  "paired_feature_family_differences": {
+    "GraphOnly_minus_OutputAction": {
+      "auroc": -0.04666666666666708,
+      "brier": 0.004377580377216028,
+      "nll": 0.17106756552821217
+    },
+    "Internal_minus_NoGraph": {
+      "auroc": 0.009999999999999898,
+      "brier": -0.004275256497039762,
+      "nll": -0.03693451844790954
+    },
+    "Internal_minus_OutputAction": {
+      "auroc": 0.009999999999999898,
+      "brier": -0.01663628348066068,
+      "nll": -0.05355379436815433
+    }
+  },
+  "production_controller_changed": false,
+  "protocol": {
+    "sha256": "f65dec11231f2d03f5f286257b3cbea870aabe6c9f576405e8d572f436097595",
+    "bytes": 85938,
+    "commit": "ff3327b218242c30c2c5818565280c11fc776756"
+  },
+  "schema": "dw_v4_feature_family_CPU_diagnostic_result_v1",
+  "status": "complete",
+  "wall_seconds": 46.015502591151744,
+  "observed_CST": "2026-09-22T17:12:44.559813+08:00",
+  "observed_UTC": "2026-09-22T09:12:44.559813+00:00",
+  "scientific_projection_only": true
+}
