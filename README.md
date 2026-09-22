@@ -1,5 +1,7 @@
 # Uncertainty-guided materials discovery
 
+Latest closed SFT/Native comparison: [both task scores remain0](results/discoveryworld/development/20260922T231329_CST/report.md). SFT has0 action errors versus29 for Native, but28/30 SFT actions are rotations. This graph-free Native1 comparison demonstrates no NN contribution or scientific-task success.
+
 Latest DiscoveryWorld CPU result: [all eight risk-refresh fits](results/discoveryworld/development/20260922T212953_CST/report.md), 500 updates and two exact base84 reproductions. Combined Internal Brier worsens; combined OutputAction improves on the same 40 development rows. All variants remain reported, with no online-efficacy or production-replacement claim. [Current overview](results/LATEST.md).
 
 Latest DiscoveryWorld result: [completed matched-two-proposal development pair](results/discoveryworld/development/20260922T192407_CST/report.md), world 2 / policy seed 305 / B10. Common2 versus frozen-NN Internal2 has 1 versus 2 action failures, both task scores 0, and fitness −0.01 versus −0.02, with 20 candidate graphs each. This one-case negative mechanism observation is not Native versus Full and is not pooled with p304. [Current overview](results/LATEST.md) retains both completed development pairs and the incomplete Full comparison.

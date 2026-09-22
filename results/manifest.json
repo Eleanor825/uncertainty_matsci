@@ -15,23 +15,23 @@
   ],
   "files": [
     {
-      "bytes": 23125,
-      "export_sha256": "a32c15678b29f1b469e782b1eabf2cc21c2e61d1e9a19882e6522fdf55fd2abc",
+      "bytes": 23432,
+      "export_sha256": "8240d8534262a3c4cd9915494ed85b83e1d65013a388a1f73f800a890ea7bd90",
       "path": "README.md"
     },
     {
-      "bytes": 22313,
-      "export_sha256": "ce93c0a1a6ef939c98b6da88e6f88f022db85a158a259e76705dd5c901e16afa",
+      "bytes": 22623,
+      "export_sha256": "6f60d991e33dc791bb4772ff87836f3db38b96d75bc17e2b62edf729180ea315",
       "path": "docs/results.md"
     },
     {
-      "bytes": 5464,
-      "export_sha256": "1af560e7e607e24389d2c3d46fec3f70b2d7eaa6bd059f9e8595582b35034681",
+      "bytes": 5886,
+      "export_sha256": "c2f40aae7184c81835511de24c12efd1530c6b496e85ac09d384ae8f2cdfd4af",
       "path": "results/LATEST.md"
     },
     {
-      "bytes": 18883,
-      "export_sha256": "a5df24f93f9e72cc2a0f5e749818cb5001a4cde78fa675981b50a46f69239fd5",
+      "bytes": 19182,
+      "export_sha256": "321772775a87b27422b8f676ef78f4ac8f54d5e2a96db30384dd46f3d2fde173",
       "path": "results/README.md"
     },
     {
@@ -853,6 +853,51 @@
       "bytes": 3471,
       "export_sha256": "77cf2fa7cc24b5855f752c8192d574bad030b0f6486a5f8bfdcd523fdb093c0b",
       "path": "results/discoveryworld/development/20260922T212953_CST/validate.py"
+    },
+    {
+      "bytes": 229478,
+      "export_sha256": "6fc413c3721d3061004584a8e395d0ad34a83c4bc2fbf82621d0e4c6db1a1f7b",
+      "path": "results/discoveryworld/development/20260922T231329_CST/behavior_projection.json"
+    },
+    {
+      "bytes": 1299,
+      "export_sha256": "bf183c6533f166b9d57e84b86700e382b7fcb628cfca3bdb31f38b4fc34e86ef",
+      "path": "results/discoveryworld/development/20260922T231329_CST/manifest.json"
+    },
+    {
+      "bytes": 11809,
+      "export_sha256": "9d1bef8265f184f52fc730c9b6ed79fe87a89e4b6b8e5e6897db8c97383d02e3",
+      "path": "results/discoveryworld/development/20260922T231329_CST/pair_actions.csv"
+    },
+    {
+      "bytes": 292,
+      "export_sha256": "1faf3776d587e9b3d3f5f232bb5c7e1b8986096bc291518d835f52ac38487429",
+      "path": "results/discoveryworld/development/20260922T231329_CST/pair_metrics.csv"
+    },
+    {
+      "bytes": 6076,
+      "export_sha256": "9208c67abf7364f462ba91e51cd34c0a2bd6f744d20d0f7bab43ba761329f035",
+      "path": "results/discoveryworld/development/20260922T231329_CST/provenance.json"
+    },
+    {
+      "bytes": 4139,
+      "export_sha256": "3288f5c952bc40028bc6eb883e346de0e96b1467e460f9cda860eafcfb56bcc1",
+      "path": "results/discoveryworld/development/20260922T231329_CST/report.md"
+    },
+    {
+      "bytes": 5231,
+      "export_sha256": "23bb2e623c5455e346a65fcc0e3c0a6971234e329cc415acb014cd403ac74c1d",
+      "path": "results/discoveryworld/development/20260922T231329_CST/training_milestone_windows.csv"
+    },
+    {
+      "bytes": 19628,
+      "export_sha256": "9afb418eeb89c38622a8891f21d9a634e2d57e4445da3372dc2e3e19344cff46",
+      "path": "results/discoveryworld/development/20260922T231329_CST/training_p102_actions.csv"
+    },
+    {
+      "bytes": 2508,
+      "export_sha256": "203bed98c9f50ed20efba2272008343c23fe6bec16fdb52e97e7c36879a9462d",
+      "path": "results/discoveryworld/development/20260922T231329_CST/validate.py"
     },
     {
       "bytes": 25184,
@@ -5907,6 +5952,7 @@
   ],
   "latest_B50_hull_audit_observation_utc": "2026-09-19T21:45:12.035489+00:00",
   "latest_CPU_prediction_diagnostic_observation_utc": "2026-09-19T11:28:21.417572+00:00",
+  "latest_DW_SFT_behavior_observation_utc": "2026-09-22T15:13:29.398210+00:00",
   "latest_DW_risk_refresh_observation_utc": "2026-09-22T13:29:53.529933+00:00",
   "latest_MADE_observation_utc": "2026-09-18T21:21:38.188817+00:00",
   "latest_collection_acceptance_observation_CST": "2026-09-21T17:07:16.298529+08:00",

@@ -1,0 +1,28 @@
+milestone_step,window_role,arm,action,action_type,attempt_index,error_excerpt,none_serialization_repair,official_success,sampling_seed,score_after,score_before,score_delta,score_observation_available,submitted
+12,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""52922""}",TELEPORT_TO_OBJECT,4,,False,True,6022231443573132230,0.0,0.0,0.0,True,True
+12,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": 52922}",TELEPORT_TO_OBJECT,5,,False,True,8990132413995315100,0.0,0.0,0.0,True,True
+12,preceding,original_world0_p102,"{""action"": ""USE"", ""arg1"": 33276, ""arg2"": 52922}",USE,6,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,6166139344501877529,0.0,0.0,0.0,True,True
+12,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""42983""}",TELEPORT_TO_OBJECT,7,,False,True,5528628430911536339,0.0,0.0,0.0,True,True
+12,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""42983""}",TELEPORT_TO_OBJECT,8,,False,True,3593778901889831540,0.0,0.0,0.0,True,True
+12,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""42983""}",TELEPORT_TO_OBJECT,9,,False,True,3242792900669881149,0.0,0.0,0.0,True,True
+12,preceding,original_world0_p102,"{""action"": ""USE"", ""arg1"": 33276, ""arg2"": 52922}",USE,10,"arg2: Could not find object with UUID '52922' Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,950382964145275188,0.0,0.0,0.0,True,True
+12,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""42983""}",TELEPORT_TO_OBJECT,11,,False,True,4559573580679989498,0.0,0.0,0.0,True,True
+12,milestone,original_world0_p102,"{""action"": ""PICKUP"", ""arg1"": ""33276""}",PICKUP,12,,False,True,4438390461482354873,0.125,0.0,0.125,True,True
+19,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""42983""}",TELEPORT_TO_OBJECT,11,,False,True,4559573580679989498,0.0,0.0,0.0,True,True
+19,preceding,original_world0_p102,"{""action"": ""PICKUP"", ""arg1"": ""33276""}",PICKUP,12,,False,True,4438390461482354873,0.125,0.0,0.125,True,True
+19,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_OBJECT"", ""arg1"": ""52922""}",TELEPORT_TO_OBJECT,13,,False,True,9204487650637440695,0.125,0.125,0.0,True,True
+19,preceding,original_world0_p102,"{""action"": ""USE"", ""arg1"": 33276, ""arg2"": 52922}",USE,14,,False,True,3950164105095359993,0.125,0.125,0.0,True,True
+19,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Instrument Table""}",TELEPORT_TO_LOCATION,15,,False,True,7810807156171003799,0.125,0.125,0.0,True,True
+19,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 1""}",TELEPORT_TO_LOCATION,16,,False,True,5950491099946644302,0.125,0.125,0.0,True,True
+19,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 2""}",TELEPORT_TO_LOCATION,17,,False,True,8540083375196839691,0.125,0.125,0.0,True,True
+19,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 3""}",TELEPORT_TO_LOCATION,18,,False,True,7510750066373654512,0.125,0.125,0.0,True,True
+19,milestone,original_world0_p102,"{""action"": ""USE"", ""arg1"": 33276, ""arg2"": 4429}",USE,19,,False,True,654366395059469006,0.25,0.125,0.125,True,True
+71,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 10""}",TELEPORT_TO_LOCATION,63,,False,True,1164208531502337441,0.25,0.25,0.0,True,True
+71,preceding,original_world0_p102,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,64,,False,True,6935822984915903948,0.25,0.25,0.0,True,True
+71,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 1""}",TELEPORT_TO_LOCATION,65,,False,True,4337203200897369100,0.25,0.25,0.0,True,True
+71,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 2""}",TELEPORT_TO_LOCATION,66,,False,True,2423959947210328627,0.25,0.25,0.0,True,True
+71,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 3""}",TELEPORT_TO_LOCATION,67,,False,True,4663788452863508302,0.25,0.25,0.0,True,True
+71,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 1""}",TELEPORT_TO_LOCATION,68,,False,True,2887732273996130337,0.25,0.25,0.0,True,True
+71,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 4""}",TELEPORT_TO_LOCATION,69,,False,True,996909957892298403,0.25,0.25,0.0,True,True
+71,preceding,original_world0_p102,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Possible Animal Area 5""}",TELEPORT_TO_LOCATION,70,,False,True,6548225522430191530,0.25,0.25,0.0,True,True
+71,milestone,original_world0_p102,"{""action"": ""USE"", ""arg1"": ""33276"", ""arg2"": ""9390""}",USE,71,,False,True,1647420001336930455,0.375,0.25,0.125,True,True

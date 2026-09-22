@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "bytes": 229478,
+      "path": "behavior_projection.json",
+      "sha256": "6fc413c3721d3061004584a8e395d0ad34a83c4bc2fbf82621d0e4c6db1a1f7b"
+    },
+    {
+      "bytes": 11809,
+      "path": "pair_actions.csv",
+      "sha256": "9d1bef8265f184f52fc730c9b6ed79fe87a89e4b6b8e5e6897db8c97383d02e3"
+    },
+    {
+      "bytes": 292,
+      "path": "pair_metrics.csv",
+      "sha256": "1faf3776d587e9b3d3f5f232bb5c7e1b8986096bc291518d835f52ac38487429"
+    },
+    {
+      "bytes": 6076,
+      "path": "provenance.json",
+      "sha256": "9208c67abf7364f462ba91e51cd34c0a2bd6f744d20d0f7bab43ba761329f035"
+    },
+    {
+      "bytes": 4139,
+      "path": "report.md",
+      "sha256": "3288f5c952bc40028bc6eb883e346de0e96b1467e460f9cda860eafcfb56bcc1"
+    },
+    {
+      "bytes": 5231,
+      "path": "training_milestone_windows.csv",
+      "sha256": "23bb2e623c5455e346a65fcc0e3c0a6971234e329cc415acb014cd403ac74c1d"
+    },
+    {
+      "bytes": 19628,
+      "path": "training_p102_actions.csv",
+      "sha256": "9afb418eeb89c38622a8891f21d9a634e2d57e4445da3372dc2e3e19344cff46"
+    },
+    {
+      "bytes": 2508,
+      "path": "validate.py",
+      "sha256": "203bed98c9f50ed20efba2272008343c23fe6bec16fdb52e97e7c36879a9462d"
+    }
+  ],
+  "schema": "dw_SFT_behavior_export_manifest_v1"
+}

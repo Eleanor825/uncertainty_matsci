@@ -1,5 +1,7 @@
 # Experiment results and historical snapshots
 
+Latest closed SFT/Native comparison: [both task scores remain0](../results/discoveryworld/development/20260922T231329_CST/report.md). SFT has0 action errors versus29 for Native, but28/30 SFT actions are rotations. This graph-free Native1 comparison demonstrates no NN contribution or scientific-task success.
+
 Latest additive DiscoveryWorld record: [completed eight-fit data refresh](../results/discoveryworld/development/20260922T212953_CST/report.md). It preserves both exact base84 reproductions, all positive and negative outcomes, 500 update receipts, actual84/96/87/99 row counts, and the separate zero-fit v1 failure. No new online result is claimed.
 
 The [completed DiscoveryWorld matched-proposal pair at September 22, 19:24 CST](../results/discoveryworld/development/20260922T192407_CST/report.md) compares Common2/Internal2 at world 2 / policy seed 305 / B10. Failures are 1/2, task scores 0/0, fitness −0.01/−0.02, and candidate graph counts 20/20. The previously published Common2 row is reused; only Internal2 newly closes. This is a negative development mechanism observation, not a p304 or Full/Native comparison.

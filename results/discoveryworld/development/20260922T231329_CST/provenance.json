@@ -1,0 +1,99 @@
+{
+  "NN_contribution_claimed": false,
+  "derived_action_rows_not_original_log_bytes": true,
+  "development_raw_sources": {
+    "Baseline": [
+      {
+        "bytes": 913593,
+        "sha256": "8901aae833cc1ad9645f5d0b7e143186446771241d1cc846541e091bd4580ba5",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-Baseline-w2-p308-b30/policy_attempts.jsonl"
+      },
+      {
+        "bytes": 246321,
+        "sha256": "7ae4204b5df7b592c930cc06dbaa955f7d44cf4ddc38c23e1a44fccfa045ce39",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-Baseline-w2-p308-b30/environment/discoveryworld-v1-2fa08be7cae7417597a935cb/events.jsonl"
+      },
+      {
+        "bytes": 6729,
+        "sha256": "ec35bc60730b788e55afcb40d328621795a6b608c8737f326620cb6c183178c3",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-Baseline-w2-p308-b30/environment/discoveryworld-v1-2fa08be7cae7417597a935cb/evaluator.jsonl"
+      },
+      {
+        "bytes": 1266,
+        "sha256": "6a50278c645d10bc562a45c5e34b30b42801c9e2ce21f7a4d3ae35310f1c0fa3",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-Baseline-w2-p308-b30/environment/discoveryworld-v1-2fa08be7cae7417597a935cb/summary.json"
+      },
+      {
+        "bytes": 2911,
+        "sha256": "444d4ee3f80e6d13858b15f72f4b15411c547209e52c82aa7f195b175d4d312c",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-Baseline-w2-p308-b30/result.json"
+      }
+    ],
+    "SFT": [
+      {
+        "bytes": 820829,
+        "sha256": "6b9be8c3cc9e14038613415b5a48cc96eb3fbc382a8145fe61b8d1a447dbbabb",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-SFT-w2-p308-b30/policy_attempts.jsonl"
+      },
+      {
+        "bytes": 220147,
+        "sha256": "426435597119cd5379503e9ecf29254f6c2f4732fe0c0f6baf96d025bf6e5f69",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-SFT-w2-p308-b30/environment/discoveryworld-v1-3936fc1f75ccdbf2cdec5281/events.jsonl"
+      },
+      {
+        "bytes": 6729,
+        "sha256": "ec35bc60730b788e55afcb40d328621795a6b608c8737f326620cb6c183178c3",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-SFT-w2-p308-b30/environment/discoveryworld-v1-3936fc1f75ccdbf2cdec5281/evaluator.jsonl"
+      },
+      {
+        "bytes": 1227,
+        "sha256": "7e97bb1f068798b0c8e67e0ea00c7281f448a37f5948c4b35d6ac7c9ebe64bea",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-SFT-w2-p308-b30/environment/discoveryworld-v1-3936fc1f75ccdbf2cdec5281/summary.json"
+      },
+      {
+        "bytes": 2876,
+        "sha256": "f34e64f6e4db60595245bea5bfd503664e466fa8765889bc6c8d01afbe9e9c50",
+        "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/episodes/jobs/dw-sft-policy-dev-v1-SFT-w2-p308-b30/result.json"
+      }
+    ]
+  },
+  "publication_scientific_calls": 0,
+  "raw_full_prompts_published": false,
+  "raw_logs_published": false,
+  "raw_observer_bytes": 242582,
+  "raw_observer_sha256": "c0e85020debd3160986d43fdda8d916c6db3fbb7b9cd4470e53ca18140ff8847",
+  "raw_pair_resource_source": {
+    "bytes": 1332,
+    "sha256": "dae9592ed0d2ac2cd25473ef61a82d6d1ad3cfbb5c9f23ffe0c052cf6b8cb1f4",
+    "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/chain_v1/run/completion.json"
+  },
+  "raw_pair_source": {
+    "bytes": 61056,
+    "sha256": "94fd293ed39eafedd7102e4754d7d99963b5832a2f315aef5a1e6386ebce3047",
+    "source_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/sft_policy_dev_v2/runs/v1/pair/completion.json"
+  },
+  "schema": "dw_SFT_policy_only_behavior_publication_v1",
+  "source_hashes_distinct_from_export_hashes": true,
+  "training_raw_sources": [
+    {
+      "bytes": 2934132,
+      "sha256": "ed6fc1c0ef1e1e112e82fd28241b68d7cfcc6631a94e3328fbc25569108c3a32",
+      "source_relative_path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102/policy_attempts.jsonl"
+    },
+    {
+      "bytes": 778385,
+      "sha256": "9741074bf55801d00c4617a37bab9c6b3e2cb6ee98062a73be066ffcaf30c2c0",
+      "source_relative_path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102/environment/discoveryworld-v1-591b41691ef5345fa2972c72/events.jsonl"
+    },
+    {
+      "bytes": 22119,
+      "sha256": "43b8450539d997bf475f4e8205bc1331dda82dacea22528342633ef842311624",
+      "source_relative_path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102/environment/discoveryworld-v1-591b41691ef5345fa2972c72/evaluator.jsonl"
+    },
+    {
+      "bytes": 1252,
+      "sha256": "47cf42cf494af1e60fb22b42c21829eea3874fadacd8de3fb0ece3a0d63b24c4",
+      "source_relative_path": "experiments/discoveryworld_full_method_20260922/runs/v1/jobs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102/environment/discoveryworld-v1-591b41691ef5345fa2972c72/summary.json"
+    }
+  ]
+}

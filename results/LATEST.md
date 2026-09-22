@@ -30,6 +30,8 @@ Variance is across evaluation seeds within the same system, budget and arm (samp
 
 ## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
 
+Latest completed policy-only B30 pair: **world2/policy308, both task scores0**. Native has29/30 action failures; fixed final32 SFT has0/30, but performs28 rotations and2 moves without score progress. This pair contains0 NN-controller calls and0 candidate graphs. It does not establish Full-method efficacy. [All60 action rows and separate training-window audit](discoveryworld/development/20260922T231329_CST/report.md).
+
 Latest verified snapshot: **September 22, 21:16 CST**. Grounded repair is complete at world 2 / policy 306 / B10: GenericRisk and GroundedRisk each have 7 failures; GroundedCommon2 has 0 and GroundedInternal2 has 5. All task scores are zero. These mechanism comparisons show no task improvement and are not Native-versus-Full tests.
 
 The original Full ES completed one genuine update to 723 parameter tensors. Its G1 development rollout reduced failures from 10 to 9, with task score remaining zero; G2 has started. The held-out Full pair remains incomplete. The 24-graph supplement and 2,525-update CV2 diagnostic are complete. Three missed successful milestone graphs are also complete. The earlier v1 refresh failed before fitting and remains recorded. The independent corrected v2 refresh now completed eight fits and 500 updates in 67.124 seconds, with two exact base84 reproductions; see the separate 21:29 update below.

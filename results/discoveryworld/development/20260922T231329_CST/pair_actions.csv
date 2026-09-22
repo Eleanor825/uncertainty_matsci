@@ -1,0 +1,61 @@
+arm,action,action_type,attempt_index,error_excerpt,none_serialization_repair,official_success,sampling_seed,score_after,score_before,score_delta,score_observation_available,submitted
+Baseline,"{""action"": ""TELEPORT_TO_LOCATION"", ""arg1"": ""Instrument Table""}",TELEPORT_TO_LOCATION,1,,False,True,1966539705706991897,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": ""proteomics meter""}",PICKUP,2,"arg1: Could not find object with UUID 'proteomics meter'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). Note: expected type of arg1 is 'int', but found `<class 'str'>`. ",False,False,6610231394402490290,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,3,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5469876247522372222,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,4,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1270897661145209505,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,5,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1910258305949677730,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,6,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,9002891739537146265,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,7,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,6365732686747872722,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,8,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1742666914167456924,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,9,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5725741269169620902,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,10,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,4035512217206076649,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,11,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,1809965908469859477,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,12,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5922059080815072607,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,13,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,3578185875539898118,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,14,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,6354382498924683603,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,15,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,6845158751628999781,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,16,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,6932711420316834691,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,17,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5656436743483444155,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,18,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5822515996117130072,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,19,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,9172799451578179066,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,20,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,369061568475187777,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,21,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,7874139428451269809,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,22,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5490091975346003650,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,23,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,2203363480780111446,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,24,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,2046900540996907280,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,25,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5396176941244206159,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,26,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,6591011292642020729,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,27,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,7187741639070316807,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,28,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,8104375199600645320,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,29,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,783314112090819125,0.0,0.0,0.0,True,True
+Baseline,"{""action"": ""PICKUP"", ""arg1"": 33276}",PICKUP,30,"arg1: Could not find object with UUID '33276'. Are you sure it's accessible (i.e in your inventory, or directly in front of you?). ",False,False,5821862806749418993,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,1,,False,True,1966539705706991897,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,2,,False,True,6610231394402490290,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,3,,False,True,5469876247522372222,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,4,,False,True,1270897661145209505,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,5,,False,True,1910258305949677730,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""north""}",MOVE_DIRECTION,6,,False,True,9002891739537146265,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,7,,False,True,6365732686747872722,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,8,,False,True,1742666914167456924,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""MOVE_DIRECTION"", ""arg1"": ""east""}",MOVE_DIRECTION,9,,False,True,5725741269169620902,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,10,,False,True,4035512217206076649,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,11,,False,True,1809965908469859477,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,12,,False,True,5922059080815072607,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,13,,False,True,3578185875539898118,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,14,,False,True,6354382498924683603,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""south""}",ROTATE_DIRECTION,15,,False,True,6845158751628999781,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,16,,False,True,6932711420316834691,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,17,,False,True,5656436743483444155,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,18,,False,True,5822515996117130072,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,19,,False,True,9172799451578179066,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,20,,False,True,369061568475187777,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,21,,False,True,7874139428451269809,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,22,,False,True,5490091975346003650,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,23,,False,True,2203363480780111446,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,24,,False,True,2046900540996907280,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,25,,False,True,5396176941244206159,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,26,,False,True,6591011292642020729,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""north""}",ROTATE_DIRECTION,27,,False,True,7187741639070316807,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""west""}",ROTATE_DIRECTION,28,,False,True,8104375199600645320,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,29,,False,True,783314112090819125,0.0,0.0,0.0,True,True
+SFT,"{""action"": ""ROTATE_DIRECTION"", ""arg1"": ""east""}",ROTATE_DIRECTION,30,,False,True,5821862806749418993,0.0,0.0,0.0,True,True

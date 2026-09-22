@@ -1,5 +1,7 @@
 # Time-stamped research results
 
+Latest closed SFT/Native comparison: [both task scores remain0](discoveryworld/development/20260922T231329_CST/report.md). SFT has0 action errors versus29 for Native, but28/30 SFT actions are rotations. This graph-free Native1 comparison demonstrates no NN contribution or scientific-task success.
+
 Latest CPU refresh: [eight fixed data/feature fits](discoveryworld/development/20260922T212953_CST/report.md), 500 updates; actual data counts84/96/87/99. Internal combined worsens in Brier while OutputAction improves. These reused-development metrics do not establish online task progress.
 
 Current overview: [latest verified results](LATEST.md). MADE has 1079 valid evaluations and 1 retained technical failure. The [completed p305 matched-proposal pair](discoveryworld/development/20260922T192407_CST/report.md) retains Internal2's extra failure and equal zero task scores. It is distinct from the completed p304 threshold pair and is not a Native/Full result.
