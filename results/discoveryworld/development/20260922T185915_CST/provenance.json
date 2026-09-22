@@ -1,0 +1,19 @@
+{
+  "builder_sha256": "8246457bd944085bd954026212f6d99e159119d029b9a68662ba9f9b4de37766",
+  "new_scientific_calls_for_export": 0,
+  "portable_validation_scope": "Source-receipt fields, RPC closure flags, equality of G0 hashes, twenty action-audit rows, paired metric and cost arithmetic; no independent replay of private full graph/environment logs.",
+  "raw_completion": {
+    "bytes": 24464,
+    "sha256": "ae019417b886c230b301ef55f43239433d756a4956b327c940d0e063491e634f"
+  },
+  "raw_operational_receipts_exported": false,
+  "raw_pair_receipt": {
+    "bytes": 37697,
+    "sha256": "350a7a4b4de253a2213e56c7af460ffd18a2096665ddde35cbbb46bf3c9df518"
+  },
+  "raw_status_receipt": {
+    "bytes": 41983,
+    "sha256": "bda65827e766bd66503340ea1aea5b1b4f05c439c035294aefef1a81f009df13"
+  },
+  "schema": "dw_closed_pair_publication_provenance_v1"
+}

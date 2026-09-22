@@ -1,6 +1,6 @@
 # Latest verified experimental results
 
-MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September 22, 10:18 CST). DiscoveryWorld adds an **18:47 read-only diagnosis of 20 actions from two already completed development trajectories**: Q75's three revisions changed no executed action; Common2's nine successful actions earned no immediate task score. This adds no trajectories, model updates or completed Full-method benefit. The dated 18:33 status snapshot remains unchanged.
+MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September 22, 10:18 CST). DiscoveryWorld now has a **completed same-world/seed operating-point pair**, verified at 18:59: both Q75 and fixed-0.5 Posterior05 failed all 10 actions and scored 0. Lowering the threshold increased candidate graph calls from 13 to 19 without changing the executed action sequence. This is frozen-G0 development, not a Full/Native test; earlier snapshots remain unchanged.
 
 ## MADE — Qwen3.5-4B
 
@@ -30,35 +30,29 @@ Variance is across evaluation seeds within the same system, budget and arm (samp
 
 ## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
 
-The latest **closed-trajectory audit** reuses Q75/p304 and Common2/p305; it does not complete their partners. Q75 made three second proposals, all identical to their first action. Two recorded neural rank changes therefore changed candidate identity but not executed action; its longest identical failing-action run was nine. Common2 produced six different second actions in ten attempts, but its three second-candidate selections still changed no executed action relative to the first candidate. All nine successful actions had zero immediate task-score increase; neither trajectory completed the task.
+**The Q75 versus Posterior05 operating-point pair is complete** at world 2, policy seed 304, B10. It uses the same frozen G0 weights, 200-update risk NN and temperature. The observed paired differences in failed actions, task score and fitness are all zero.
 
-On the executed actions' **cached** risks, retrospective threshold 0.5 flags 9/10 Q75 failures (Brier 0.040686, NLL 0.145225) and misses Common2's only failure (Brier 0.099204, NLL 0.372739; 0 false alarms among 9 successes). The actual Q75 threshold remains unchanged. Q75 contains no successful actions, so it cannot assess two-class discrimination. Different policy seeds preclude a paired method comparison; action success without immediate score does not prove absence of future value. All 20 primary labels and selected risks were available. No outcome is assigned to an unexecuted proposal.
+| Condition | Threshold | Failed actions | Task score | Fitness | Neural revisions | Recorded rank changes | Actual action changes | Candidate graph returns |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Q75 | 0.9867005 | 10/10 | 0 | −0.10 | 3 | 2 | 0 | 13 |
+| Posterior05 | 0.5 | 10/10 | 0 | −0.10 | 9 | 7 | 0 | 19 |
 
-[Closed-action diagnosis and portable recomputation](discoveryworld/diagnostics/20260922T184705_CST/report.md) · [20 selected-action records](discoveryworld/diagnostics/20260922T184705_CST/audit.json)
+All second proposals repeat their first action. Both executed sequences match exactly and contain a nine-step exact run of the same failing action. Lowering the threshold caused six additional candidate graph calls but no observed improvement in this pair. The two activity gates pass, yet rank changes only change candidate identity. This is one development world/seed, not a general null-effect estimate and **not Full versus Native**. One model load and one actual eight-prefix qualification were shared at unchanged G0; 13/19 candidate graph counts exclude shared qualification cost. The pair made zero parameter updates and no held-out test calls. Q75 is reused from its earlier publication, not counted twice.
 
-The newest completed rows are **development conditions**, not Native/Full held-out tests:
+The separately registered Full ES continuation had started G0 qualification in the **18:56 observer**, with two of eight prefix results and no parameter update or completed Full test confirmed. Qualification-in-progress is not qualification passed. At that same snapshot, Internal2/p305 had five returned actions with zero failures and remained incomplete. Its Common2/p305 partner was complete with one failure, nine successful actions and task score zero. The p305 comparison remains unfinished and is not compared with p304.
 
-| Condition | Policy seed | Returned actions | Failed / successful actions | Task score | Fitness |
-|---|---:|---:|---:|---:|---:|
-| Q75 original quantile-risk controller | 304 | 10 | 10 / 0 | 0 | −0.10 |
-| Common2 fixed two-proposal hash selection | 305 | 10 | 1 / 9 | 0 | −0.01 |
+The earlier closed-action audit remains useful: Q75's cached executed-action risks flagged 9/10 failures at retrospective 0.5, while Common2's one failure was missed. Good alarm scores did not produce successful repair; Common2's nine successful actions had no immediate task-score increase. Such actions could still have later value. No outcomes are assigned to unexecuted proposals.
 
-Q75's supported controller-activity gate is true despite every action failing. Common2's successful actions did not earn task score. **The rows use different seeds and are not an effect comparison.** Each trajectory is one clustered observation from world 2.
+CV-v1 retains **0 fits and 0 optimizer updates** after one training fold had 33 positive / 7 negative rows, below the unchanged ten-per-class gate. At the published label-feasibility snapshot, 24 fixed extra training positions were prospective, with zero extra graphs extracted and no 84-row dataset ready. CPU feature and training diagnostics are unchanged; the production predictor is not replaced by a development-selected checkpoint.
 
-At 18:33, Posterior05/p304 had 7 returned actions, all failed, and Internal2/p305 had 1 returned successful action; both were incomplete. Neither pair supports a final improvement estimate. Each warm pair's eight-prefix qualification passed. Full ES still waited for its operating-point prerequisite, with no new parameter update confirmed. Grounded V6 was registered and waiting; resource/process metadata is not scientific execution.
+The prior V4 G0/p303 failure at its activity gate remains recorded. The held-out record remains Baseline 1 / Full 0, with zero completed Full-method pairs. No online Full-method improvement is established.
 
-**CV-v1 did not run: 0 fits and 0 optimizer updates.** One episode-held-out training fold has 33 positive / 7 negative rows, below the unchanged minimum of 10 rows in each class. No fold was dropped or gate relaxed. A training-only label audit identifies 24 fixed early positions that could supplement 60 fitting rows to at most 84, but **0 additional graphs were extracted and the 84-row dataset was not ready** at this snapshot.
-
-The prior completed CPU feature diagnostic remains: 60 fit / 60 calibration / 40 development rows, with development in 2 episodes from 1 world. GraphOnly AUROC 0.9133 is below OutputAction/NoGraph 0.9600; Internal is 0.9700. Different capacities and the small clustered split preclude a causal or significant graph-benefit claim. Training diagnostics show increasing late development probability loss despite declining fit loss; the production 200-step NN and temperature remain unchanged. Cached fixed-0.5 flagging is not online failure prevention.
-
-The prior V4 160/160 graph dataset and frozen-risk admission are unchanged. Its accepted G0/p303 B10 scored 0 with 7 failures and stopped at the activity gate before ES updates. Held-out Baseline 1 / Full 0 and completed Full-method pairs 0 remain the result record; different development worlds, seeds and budgets cannot be pooled into that test comparison.
-
-- [18:33 development status, CV stop and label-only feasibility](discoveryworld/development/20260922T183307_CST/report.md)
-- [Two completed development rows](discoveryworld/development/20260922T183307_CST/completed_development_metrics.csv)
-- [Portable status validator](discoveryworld/development/20260922T183307_CST/validate.py)
-- [Completed CPU feature and cached-risk report](discoveryworld/diagnostics/20260922T172256_CST/report.md)
-- [Training curves and classifier diagnostic](discoveryworld/diagnostics/20260922T172256_CST/training_diagnostic_report.md)
-- [Prior V4 graph/risk/G0 record](discoveryworld/progress/20260922T155718_CST/report.md)
+- [Completed operating-point pair and portable checks](discoveryworld/development/20260922T185915_CST/report.md)
+- [Paired metrics](discoveryworld/development/20260922T185915_CST/paired_metrics.csv)
+- [18:56 continuation status](discoveryworld/development/20260922T185915_CST/related_progress.json)
+- [Earlier closed-action risk and diversity audit](discoveryworld/diagnostics/20260922T184705_CST/report.md)
+- [Immutable 18:33 partial/development and CV snapshot](discoveryworld/development/20260922T183307_CST/report.md)
+- [CPU feature/training diagnostics](discoveryworld/diagnostics/20260922T172256_CST/report.md)
 
 ## Scope and provenance
 

@@ -15,23 +15,23 @@
   ],
   "files": [
     {
-      "bytes": 22695,
-      "export_sha256": "72fd22298c1a2290a24268e4470ff091b5c031cbdc0cba778b36a5d076172f47",
+      "bytes": 22683,
+      "export_sha256": "a4524b15a1df7fc6d9edf80ff46cf1ef42e1818c2dd44419b653b013923184e9",
       "path": "README.md"
     },
     {
-      "bytes": 20939,
-      "export_sha256": "428bc3ec0c38a64726692fccf802709fc1c77eecbe2b65a55e684ee5389ef423",
+      "bytes": 21488,
+      "export_sha256": "110c384b066842fb01b18dada1277573dedeabfe67e8cf4d10c13fc85f505b99",
       "path": "docs/results.md"
     },
     {
-      "bytes": 7763,
-      "export_sha256": "f85e94a0d334c566808d54b6c8fc992cbe23546f04701bfadcb2c81cc0fc5244",
+      "bytes": 6780,
+      "export_sha256": "7b984b44533910aeb04044d19e3bd959a61178051e5c4e107ea1aacfb190b2ba",
       "path": "results/LATEST.md"
     },
     {
-      "bytes": 18642,
-      "export_sha256": "f8125cc6611c59c84eb44d29acb0c4c71e47127d1f290a0c03814c1615e877a2",
+      "bytes": 18628,
+      "export_sha256": "f67005a78af22d1b25218e37a50c60769ae28416ba27e2c9e677c9e2d2daabe0",
       "path": "results/README.md"
     },
     {
@@ -715,6 +715,46 @@
       "path": "results/discoveryworld/development/20260922T183307_CST/validate.py"
     },
     {
+      "bytes": 25173,
+      "export_sha256": "d0672d9e845c29cd2d6b71ed6efda0311f3e2c26563892c74fe26659cb2b46ab",
+      "path": "results/discoveryworld/development/20260922T185915_CST/closed_pair.json"
+    },
+    {
+      "bytes": 1103,
+      "export_sha256": "260acb3f88c9d91797aee45bddad51ec4f52d54fd21fddc1682f70e4b1762e12",
+      "path": "results/discoveryworld/development/20260922T185915_CST/manifest.json"
+    },
+    {
+      "bytes": 409,
+      "export_sha256": "92dfba69f2b5c25f2e9950f318e1c66c879c5ed0c3b525f02f46015b3a186d43",
+      "path": "results/discoveryworld/development/20260922T185915_CST/paired_metrics.csv"
+    },
+    {
+      "bytes": 845,
+      "export_sha256": "6ef9e29e45fe70af081c93d65a43dbf1de21f44a7dd93ae8dbaba8e230aa9db3",
+      "path": "results/discoveryworld/development/20260922T185915_CST/provenance.json"
+    },
+    {
+      "bytes": 768,
+      "export_sha256": "12e505b533a84e8760c5da83ed48f6ca7c77614298b6af1fc7165d05ddc363ba",
+      "path": "results/discoveryworld/development/20260922T185915_CST/related_progress.json"
+    },
+    {
+      "bytes": 3890,
+      "export_sha256": "61882ad659c15943a7b8973906235a1878afcace06b42b81e3d32acc1e34e2fa",
+      "path": "results/discoveryworld/development/20260922T185915_CST/report.md"
+    },
+    {
+      "bytes": 2153,
+      "export_sha256": "c5c6febb7a879418a359648aaeecc9ca522447a397783e601022c3f3ad6f6c4c",
+      "path": "results/discoveryworld/development/20260922T185915_CST/summary.json"
+    },
+    {
+      "bytes": 4868,
+      "export_sha256": "9991a9821aa4019371c6f1c5a51c4c0d69fd8e50a3d39d77106123b37184bfa7",
+      "path": "results/discoveryworld/development/20260922T185915_CST/validate.py"
+    },
+    {
       "bytes": 25184,
       "export_sha256": "09d532d3f226d8eca4c28f4244b2b990c9cf880229aceeab9505c13253c41aa4",
       "path": "results/discoveryworld/diagnostics/20260922T172256_CST/cached_predictions.json"
@@ -895,8 +935,8 @@
       "path": "results/discoveryworld/progress/20260922T155718_CST/validate.py"
     },
     {
-      "bytes": 134471,
-      "export_sha256": "52db01dcc02909f52bfcb62b5ba18d2c6e5c3fa8a0f5778a3311239a93635f3d",
+      "bytes": 135525,
+      "export_sha256": "46f9f6adc7a702c90e726492efee1f99b3a28b74be6ca5a2c449e73ceb63f9d2",
       "path": "results/index.json"
     },
     {

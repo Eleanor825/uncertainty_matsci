@@ -1,0 +1,731 @@
+{
+  "Full_ES_registered_or_executed": false,
+  "Posterior05_supported_activity_gate_passed": true,
+  "actual_full_eight_prefix_qualifications": 1,
+  "actual_policy_loads": 1,
+  "automatic_retry": false,
+  "calibration_or_threshold_fitting": false,
+  "no_positive_effect_claimed": true,
+  "policy_parameter_updates": 0,
+  "registration": {
+    "commit": "3c67b8eddbbec0cabd57969c075fa570f6ffbf53",
+    "sha256": "3f4eef8864d5734509bdd967e59e1694b199a69f8274a61b357b416e71fcf8af"
+  },
+  "results": [
+    {
+      "accepted": true,
+      "action_change_and_repetition": {
+        "behavior_changed": false,
+        "counts": {
+          "consecutive_failed_action_repeats": 8,
+          "executed_action_changed_from_first_proposal": 0,
+          "generated_revision_action_different": 0,
+          "longest_identical_failed_action_run": 9
+        },
+        "environment_events": {
+          "bytes": 84699,
+          "sha256": "841b52d56280d8059b5ad3a2a3fbe8c0bb02581b1792ea62e15d840669605570"
+        },
+        "policy_attempts": {
+          "bytes": 30500668,
+          "sha256": "0c84b4584874b078a6bebf3683a50ac7a564d1fc4150e3c00057fa08b4fdd730"
+        },
+        "rows": [
+          {
+            "attempt_index": 1,
+            "candidate_count": 1,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": "33276"
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": "33276"
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": false,
+            "revision_action": null,
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 2,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": false,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 3,
+            "candidate_count": 1,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": null,
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 4,
+            "candidate_count": 1,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": null,
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 5,
+            "candidate_count": 1,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": null,
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 6,
+            "candidate_count": 1,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": null,
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 7,
+            "candidate_count": 1,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": null,
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 8,
+            "candidate_count": 1,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": null,
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 9,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 10,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          }
+        ],
+        "schema": "dw_action_change_repeat_failure_audit_v1"
+      },
+      "actual_G0_tensor_hash_after": "3977cda253db3654bf7b5b3102de00c45d3bac7235aa4008f3078aba3f858012",
+      "controller_provenance": {
+        "condition": "Q75",
+        "effective_primary_threshold": 0.9867005323054212,
+        "fixed_posterior_costs": {
+          "false_negative_alarm": 1,
+          "false_positive_alarm": 1
+        },
+        "frozen_evidence": {
+          "Q75_threshold": 0.9867005323054212,
+          "dev_admission": {
+            "bytes": 1997,
+            "sha256": "cb01b462d5d2727f5bb95c732acd81df169a205f5b511d91b877884bedf333ba"
+          },
+          "models_seal": {
+            "bytes": 28888,
+            "sha256": "c5a4f2a4950189a64a92bb078728e5e5ebd60abc091d0154708f75a43ebd7182"
+          },
+          "primary_checkpoint": {
+            "bytes": 198229,
+            "sha256": "f5155ccafec30317069ee3331045b88019a85b2a6fc8fc70a4bab77e4f70dbbc"
+          },
+          "risk_contract_sha256": "fb5d60acf2de5d0fcd30b9a0d7a46e7d9a2b9bf17497450c659842c3db6cbb81",
+          "temperature": 2.655660205889806
+        },
+        "original_Q75_threshold": 0.9867005323054212,
+        "original_provenance": {
+          "dev_admission": {
+            "bytes": 1997,
+            "sha256": "cb01b462d5d2727f5bb95c732acd81df169a205f5b511d91b877884bedf333ba"
+          },
+          "models_seal": {
+            "bytes": 28888,
+            "sha256": "c5a4f2a4950189a64a92bb078728e5e5ebd60abc091d0154708f75a43ebd7182"
+          }
+        },
+        "temperature_or_NN_changed": false,
+        "typed_predictors_and_thresholds_unchanged": true
+      },
+      "fitness": {
+        "F": -0.1,
+        "J": -0.1,
+        "agent_attempts": 10,
+        "completedSuccessfully": false,
+        "failure_count": 10,
+        "failure_fraction": 1.0,
+        "lambda_cal": 0.0,
+        "scoreNormalized": 0.0,
+        "source_events": {
+          "bytes": 84699,
+          "sha256": "841b52d56280d8059b5ad3a2a3fbe8c0bb02581b1792ea62e15d840669605570"
+        },
+        "source_summary": {
+          "bytes": 1231,
+          "sha256": "b262210917a62e3c55828e0d5464335b6f5e0372db88652e9a7c7e3bac7b3e2a"
+        }
+      },
+      "job": {
+        "arm": "Full",
+        "difficulty": "Normal",
+        "generation": 0,
+        "job_id": "dw-operating-point-v5-dev-Q75-w2-p304-b10-g0",
+        "max_agent_attempts": 10,
+        "max_proposals_per_attempt": 2,
+        "model_key": "qwen35_4b",
+        "num_user_agents": 1,
+        "operating_point": "Q75",
+        "policy_seed": 304,
+        "population_member": null,
+        "project_split": "dev",
+        "scenario": "Proteomics",
+        "stage": "es_dev",
+        "world_seed": 2
+      },
+      "qualification": {
+        "bytes": 237828,
+        "sha256": "0b13551395e8ede53210e4d8fbe1bd2bdd90203f84e517b65fdd1d7dec938171"
+      },
+      "result": {
+        "accepted": true,
+        "attempts": 10,
+        "automatic_replay": false,
+        "claim": {
+          "bytes": 2040,
+          "sha256": "abedce44ba66dba9e0b637fa577ec4850b909f92f1974e9c4bda3dbdfe4124b3"
+        },
+        "completed": true,
+        "controller_counts": {
+          "supported_neural_revisions": 3,
+          "supported_rank_changes": 2
+        },
+        "environment_process_closure": {
+          "automatic_signal_or_replay": false,
+          "child_still_running": false,
+          "closed_response": true,
+          "returncode": 0,
+          "time": 1790070990.2854805,
+          "unknown_connection": false
+        },
+        "environment_summary": {
+          "bytes": 1231,
+          "sha256": "b262210917a62e3c55828e0d5464335b6f5e0372db88652e9a7c7e3bac7b3e2a"
+        },
+        "failure": null,
+        "job": {
+          "arm": "Full",
+          "difficulty": "Normal",
+          "generation": 0,
+          "job_id": "dw-operating-point-v5-dev-Q75-w2-p304-b10-g0",
+          "max_agent_attempts": 10,
+          "max_proposals_per_attempt": 2,
+          "model_key": "qwen35_4b",
+          "num_user_agents": 1,
+          "operating_point": "Q75",
+          "policy_seed": 304,
+          "population_member": null,
+          "project_split": "dev",
+          "scenario": "Proteomics",
+          "stage": "es_dev",
+          "world_seed": 2
+        },
+        "policy_attempts": {
+          "bytes": 30500668,
+          "sha256": "0c84b4584874b078a6bebf3683a50ac7a564d1fc4150e3c00057fa08b4fdd730"
+        },
+        "registration": {
+          "commit": "3c67b8eddbbec0cabd57969c075fa570f6ffbf53",
+          "contract_sha256": "8e6dc53ba3fb292c8df7110a96e416641f1507b049b8f5cd218cc85db6e04ccf",
+          "sha256": "3f4eef8864d5734509bdd967e59e1694b199a69f8274a61b357b416e71fcf8af"
+        },
+        "schema": "dw_registered_episode_runner_result_v1"
+      },
+      "supported_activity_gate_passed": true
+    },
+    {
+      "accepted": true,
+      "action_change_and_repetition": {
+        "behavior_changed": false,
+        "counts": {
+          "consecutive_failed_action_repeats": 8,
+          "executed_action_changed_from_first_proposal": 0,
+          "generated_revision_action_different": 0,
+          "longest_identical_failed_action_run": 9
+        },
+        "environment_events": {
+          "bytes": 84689,
+          "sha256": "6e9c4673c197ac265dfa5f8a0618c8f878b5abb7e8a98c1277913aad32a73611"
+        },
+        "policy_attempts": {
+          "bytes": 31599249,
+          "sha256": "0f681a1fc5c3b8a8dd418f1cdf8ba5ef85952e90a3c85f4b8adf1236dc9404a7"
+        },
+        "rows": [
+          {
+            "attempt_index": 1,
+            "candidate_count": 1,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": "33276"
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": "33276"
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": false,
+            "revision_action": null,
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 2,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": false,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 3,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 4,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 5,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 6,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 7,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 8,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 9,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          },
+          {
+            "attempt_index": 10,
+            "candidate_count": 2,
+            "executed_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "executed_action_changed_from_first_proposal": false,
+            "first_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "generated_revision_action_different": false,
+            "official_or_parser_failure": true,
+            "repeats_previous_failed_action": true,
+            "revision_action": {
+              "action": "PICKUP",
+              "arg1": 33276
+            },
+            "revision_generated_but_unparsed": false
+          }
+        ],
+        "schema": "dw_action_change_repeat_failure_audit_v1"
+      },
+      "actual_G0_tensor_hash_after": "3977cda253db3654bf7b5b3102de00c45d3bac7235aa4008f3078aba3f858012",
+      "controller_provenance": {
+        "condition": "Posterior05",
+        "effective_primary_threshold": 0.5,
+        "fixed_posterior_costs": {
+          "false_negative_alarm": 1,
+          "false_positive_alarm": 1
+        },
+        "frozen_evidence": {
+          "Q75_threshold": 0.9867005323054212,
+          "dev_admission": {
+            "bytes": 1997,
+            "sha256": "cb01b462d5d2727f5bb95c732acd81df169a205f5b511d91b877884bedf333ba"
+          },
+          "models_seal": {
+            "bytes": 28888,
+            "sha256": "c5a4f2a4950189a64a92bb078728e5e5ebd60abc091d0154708f75a43ebd7182"
+          },
+          "primary_checkpoint": {
+            "bytes": 198229,
+            "sha256": "f5155ccafec30317069ee3331045b88019a85b2a6fc8fc70a4bab77e4f70dbbc"
+          },
+          "risk_contract_sha256": "fb5d60acf2de5d0fcd30b9a0d7a46e7d9a2b9bf17497450c659842c3db6cbb81",
+          "temperature": 2.655660205889806
+        },
+        "original_Q75_threshold": 0.9867005323054212,
+        "original_provenance": {
+          "dev_admission": {
+            "bytes": 1997,
+            "sha256": "cb01b462d5d2727f5bb95c732acd81df169a205f5b511d91b877884bedf333ba"
+          },
+          "models_seal": {
+            "bytes": 28888,
+            "sha256": "c5a4f2a4950189a64a92bb078728e5e5ebd60abc091d0154708f75a43ebd7182"
+          }
+        },
+        "temperature_or_NN_changed": false,
+        "typed_predictors_and_thresholds_unchanged": true
+      },
+      "fitness": {
+        "F": -0.1,
+        "J": -0.1,
+        "agent_attempts": 10,
+        "completedSuccessfully": false,
+        "failure_count": 10,
+        "failure_fraction": 1.0,
+        "lambda_cal": 0.0,
+        "scoreNormalized": 0.0,
+        "source_events": {
+          "bytes": 84689,
+          "sha256": "6e9c4673c197ac265dfa5f8a0618c8f878b5abb7e8a98c1277913aad32a73611"
+        },
+        "source_summary": {
+          "bytes": 1233,
+          "sha256": "620a285d269f7cad8973369c49fbb9fba774bbadbd392238733b4d6a627c6918"
+        }
+      },
+      "job": {
+        "arm": "Full",
+        "difficulty": "Normal",
+        "generation": 0,
+        "job_id": "dw-operating-point-v5-dev-Posterior05-w2-p304-b10-g0",
+        "max_agent_attempts": 10,
+        "max_proposals_per_attempt": 2,
+        "model_key": "qwen35_4b",
+        "num_user_agents": 1,
+        "operating_point": "Posterior05",
+        "policy_seed": 304,
+        "population_member": null,
+        "project_split": "dev",
+        "scenario": "Proteomics",
+        "stage": "es_dev",
+        "world_seed": 2
+      },
+      "qualification": {
+        "bytes": 237828,
+        "sha256": "0b13551395e8ede53210e4d8fbe1bd2bdd90203f84e517b65fdd1d7dec938171"
+      },
+      "result": {
+        "accepted": true,
+        "attempts": 10,
+        "automatic_replay": false,
+        "claim": {
+          "bytes": 2072,
+          "sha256": "6f3072862cac0cb1fe912dd0c8b7ced6c7f612db0593f23780db3e7ea5d3eaa3"
+        },
+        "completed": true,
+        "controller_counts": {
+          "supported_neural_revisions": 9,
+          "supported_rank_changes": 7
+        },
+        "environment_process_closure": {
+          "automatic_signal_or_replay": false,
+          "child_still_running": false,
+          "closed_response": true,
+          "returncode": 0,
+          "time": 1790074248.6620011,
+          "unknown_connection": false
+        },
+        "environment_summary": {
+          "bytes": 1233,
+          "sha256": "620a285d269f7cad8973369c49fbb9fba774bbadbd392238733b4d6a627c6918"
+        },
+        "failure": null,
+        "job": {
+          "arm": "Full",
+          "difficulty": "Normal",
+          "generation": 0,
+          "job_id": "dw-operating-point-v5-dev-Posterior05-w2-p304-b10-g0",
+          "max_agent_attempts": 10,
+          "max_proposals_per_attempt": 2,
+          "model_key": "qwen35_4b",
+          "num_user_agents": 1,
+          "operating_point": "Posterior05",
+          "policy_seed": 304,
+          "population_member": null,
+          "project_split": "dev",
+          "scenario": "Proteomics",
+          "stage": "es_dev",
+          "world_seed": 2
+        },
+        "policy_attempts": {
+          "bytes": 31599249,
+          "sha256": "0f681a1fc5c3b8a8dd418f1cdf8ba5ef85952e90a3c85f4b8adf1236dc9404a7"
+        },
+        "registration": {
+          "commit": "3c67b8eddbbec0cabd57969c075fa570f6ffbf53",
+          "contract_sha256": "8e6dc53ba3fb292c8df7110a96e416641f1507b049b8f5cd218cc85db6e04ccf",
+          "sha256": "3f4eef8864d5734509bdd967e59e1694b199a69f8274a61b357b416e71fcf8af"
+        },
+        "schema": "dw_registered_episode_runner_result_v1"
+      },
+      "supported_activity_gate_passed": true
+    }
+  ],
+  "schema": "dw_frozen_operating_point_development_pair_complete_v5",
+  "shared_qualification": {
+    "bytes": 237828,
+    "sha256": "0b13551395e8ede53210e4d8fbe1bd2bdd90203f84e517b65fdd1d7dec938171"
+  },
+  "status": "complete",
+  "test_episodes": 0
+}

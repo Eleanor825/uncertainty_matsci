@@ -1,0 +1,3 @@
+condition,world_seed,policy_seed,B,threshold,failures,score,F,neural_revisions,recorded_neural_rank_changes,second_proposals,generated_proposals,candidate_graph_returns,actual_action_changes,different_second_actions,longest_exact_failed_action_run,supported_activity_gate_passed
+Q75,2,304,10,0.9867005323054212,10,0.0,-0.1,3,2,3,13,13,0,0,9,True
+Posterior05,2,304,10,0.5,10,0.0,-0.1,9,7,9,19,19,0,0,9,True

@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "bytes": 25173,
+      "path": "closed_pair.json",
+      "sha256": "d0672d9e845c29cd2d6b71ed6efda0311f3e2c26563892c74fe26659cb2b46ab"
+    },
+    {
+      "bytes": 409,
+      "path": "paired_metrics.csv",
+      "sha256": "92dfba69f2b5c25f2e9950f318e1c66c879c5ed0c3b525f02f46015b3a186d43"
+    },
+    {
+      "bytes": 845,
+      "path": "provenance.json",
+      "sha256": "6ef9e29e45fe70af081c93d65a43dbf1de21f44a7dd93ae8dbaba8e230aa9db3"
+    },
+    {
+      "bytes": 768,
+      "path": "related_progress.json",
+      "sha256": "12e505b533a84e8760c5da83ed48f6ca7c77614298b6af1fc7165d05ddc363ba"
+    },
+    {
+      "bytes": 3890,
+      "path": "report.md",
+      "sha256": "61882ad659c15943a7b8973906235a1878afcace06b42b81e3d32acc1e34e2fa"
+    },
+    {
+      "bytes": 2153,
+      "path": "summary.json",
+      "sha256": "c5c6febb7a879418a359648aaeecc9ca522447a397783e601022c3f3ad6f6c4c"
+    },
+    {
+      "bytes": 4868,
+      "path": "validate.py",
+      "sha256": "9991a9821aa4019371c6f1c5a51c4c0d69fd8e50a3d39d77106123b37184bfa7"
+    }
+  ],
+  "schema": "dw_op_pair_manifest_v1"
+}

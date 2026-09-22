@@ -1,0 +1,25 @@
+{
+  "Full_ES_v5": {
+    "ES_parameter_updates_confirmed": 0,
+    "Full_test_complete": false,
+    "qualification_complete": false,
+    "qualification_prefix_results_observed": 2,
+    "registration": {
+      "bytes": 167654,
+      "commit": "8ee623b10a63e8eaff1cddfe7d5ff2d027f1cea8",
+      "sha256": "53fa5513f801461f3e2b636b7679e5afc13abdc0d5a676a54731f5ac10052027"
+    },
+    "required_prefixes": 8,
+    "stage": "G0_qualification_in_progress"
+  },
+  "Internal2_p305": {
+    "action_returns": 5,
+    "failed_action_returns": 0,
+    "final_fitness": null,
+    "final_score": null,
+    "status": "partial_not_final"
+  },
+  "export_model_or_environment_calls": 0,
+  "observed_CST": "2026-09-22T18:56:28.287118+08:00",
+  "schema": "dw_related_progress_not_results_v1"
+}
