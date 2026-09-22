@@ -1,6 +1,6 @@
 # Latest verified experimental results
 
-MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September22 10:18 CST). DiscoveryWorld adds **completed CPU diagnostics through September22 17:22 CST**: four feature-family fits, a separate training/classifier diagnostic, and fixed0.5 cached-prediction analysis. These do not establish online improvement or a completed Full-method comparison.
+MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September 22, 10:18 CST). DiscoveryWorld adds **development status through September 22, 18:33 CST**: Q75 and Common2 each closed B10, both with task score 0; their different-seed partners remain incomplete. CV-v1 did not fit because of insufficient training-fold support. No completed Full-method improvement is established.
 
 ## MADE — Qwen3.5-4B
 
@@ -30,28 +30,28 @@ Variance is across evaluation seeds within the same system, budget and arm (samp
 
 ## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
 
-The completed CPU diagnostic used **60 fit /60 calibration /40 development rows**, with development clustered in **2 episodes from1 world**. Four fixed200-update fits completed in46.02s. The original Internal and OutputAction checkpoint/metric controls reproduce exactly; the production predictor is unchanged.
+The newest completed rows are **development conditions**, not Native/Full held-out tests:
 
-| Features | Raw fields | AUROC | Brier | NLL |
-|---|---:|---:|---:|---:|
-| OutputAction | 10 | 0.9600 | 0.08107 | 0.25350 |
-| NoGraph | 140 | 0.9600 | 0.06871 | 0.23688 |
-| GraphOnly | 153 | 0.9133 | 0.08545 | 0.42457 |
-| Internal | 293 | 0.9700 | 0.06444 | 0.19994 |
+| Condition | Policy seed | Returned actions | Failed / successful actions | Task score | Fitness |
+|---|---:|---:|---:|---:|---:|
+| Q75 original quantile-risk controller | 304 | 10 | 10 / 0 | 0 | −0.10 |
+| Common2 fixed two-proposal hash selection | 305 | 10 | 1 / 9 | 0 | −0.01 |
 
-GraphOnly is weaker than OutputAction on pooled metrics. Internal minus NoGraph is +0.01 AUROC and −0.00428 Brier; model capacities differ. These small, clustered development results do not establish significance or a causal contribution to scientific planning.
+Q75's supported controller-activity gate is true despite every action failing. Common2's successful actions did not earn task score. **The rows use different seeds and are not an effect comparison.** Each trajectory is one clustered observation from world 2.
 
-A separate completed53.88s diagnostic reports4 NN fits plus4 classical fits and16 NN states at0/50/100/200 updates. Internal's raw fit NLL falls0.00920→0.000144 from50→200 updates, while raw development NLL rises0.16915→0.33678 and calibrated development Brier rises0.05535→0.06444; AUROC stays0.9700. This is consistent with late overfitting/overconfidence on this split, not proof that50 is a generalizable optimum or that graph signal is useless. Step0 already includes label-fitted error-prototype preprocessing. The production200-step NN remains unchanged. Full-feature GBC/L2-logistic development AUROCs0.9417/0.9633 do not exceed NN0.9700; these are classifier probes, not a full CRV reproduction.
+At 18:33, Posterior05/p304 had 7 returned actions, all failed, and Internal2/p305 had 1 returned successful action; both were incomplete. Neither pair supports a final improvement estimate. Each warm pair's eight-prefix qualification passed. Full ES still waited for its operating-point prerequisite, with no new parameter update confirmed. Grounded V6 was registered and waiting; resource/process metadata is not scientific execution.
 
-On the **same cached probabilities**, fixed0.5 flags22/26 calibration failures,10/10 development failures and6/7 G0 failures, versus15/26,1/10 and0/7 under the original0.9867 threshold. Fixed0.5 also adds2 calibration and3 development false-positive flags. These are offline flagging counts, not prevented failures or observed benefits from revising actions. No threshold search or predictor change was made for this calculation.
+**CV-v1 did not run: 0 fits and 0 optimizer updates.** One episode-held-out training fold has 33 positive / 7 negative rows, below the unchanged minimum of 10 rows in each class. No fold was dropped or gate relaxed. A training-only label audit identifies 24 fixed early positions that could supplement 60 fitting rows to at most 84, but **0 additional graphs were extracted and the 84-row dataset was not ready** at this snapshot.
 
-The prior **160/160 V4 graphs** and frozen-risk completion remain unchanged. V4's accepted G0 world2/policy303/B10 had score0 and7 failures, and the activity gate stopped it before any ES parameter update. No completed new online operating-point pair, matched-proposal control or Full ES result is added here. Held-out Baseline1/Full0 and completed pairs0 remain the completed-result record; G0 cannot be compared with the different world/seed/B30 Baseline as an effect estimate.
+The prior completed CPU feature diagnostic remains: 60 fit / 60 calibration / 40 development rows, with development in 2 episodes from 1 world. GraphOnly AUROC 0.9133 is below OutputAction/NoGraph 0.9600; Internal is 0.9700. Different capacities and the small clustered split preclude a causal or significant graph-benefit claim. Training diagnostics show increasing late development probability loss despite declining fit loss; the production 200-step NN and temperature remain unchanged. Cached fixed-0.5 flagging is not online failure prevention.
 
-- [Completed CPU feature/operating-point report](discoveryworld/diagnostics/20260922T172256_CST/report.md)
-- [Training curves and classifier audit](discoveryworld/diagnostics/20260922T172256_CST/training_diagnostic_report.md)
-- [All108 training metric rows](discoveryworld/diagnostics/20260922T172256_CST/training_metrics.csv)
-- [Four-family metrics](discoveryworld/diagnostics/20260922T172256_CST/feature_metrics.csv)
-- [Portable validator](discoveryworld/diagnostics/20260922T172256_CST/validate.py)
+The prior V4 160/160 graph dataset and frozen-risk admission are unchanged. Its accepted G0/p303 B10 scored 0 with 7 failures and stopped at the activity gate before ES updates. Held-out Baseline 1 / Full 0 and completed Full-method pairs 0 remain the result record; different development worlds, seeds and budgets cannot be pooled into that test comparison.
+
+- [18:33 development status, CV stop and label-only feasibility](discoveryworld/development/20260922T183307_CST/report.md)
+- [Two completed development rows](discoveryworld/development/20260922T183307_CST/completed_development_metrics.csv)
+- [Portable status validator](discoveryworld/development/20260922T183307_CST/validate.py)
+- [Completed CPU feature and cached-risk report](discoveryworld/diagnostics/20260922T172256_CST/report.md)
+- [Training curves and classifier diagnostic](discoveryworld/diagnostics/20260922T172256_CST/training_diagnostic_report.md)
 - [Prior V4 graph/risk/G0 record](discoveryworld/progress/20260922T155718_CST/report.md)
 
 ## Scope and provenance

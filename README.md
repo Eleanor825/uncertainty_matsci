@@ -1,6 +1,6 @@
 # Uncertainty-guided materials discovery
 
-Latest completed DiscoveryWorld evidence: [CPU feature-family, training-curve/classifier and fixed0.5 cached-risk diagnostics](results/discoveryworld/diagnostics/20260922T172256_CST/report.md), observed through September22 at17:22 CST. GraphOnly is weaker than OutputAction on pooled development metrics; the small Internal advantage is not an online or causal-effect result. The production200-step NN is unchanged. [Current overview](results/LATEST.md) preserves MADE's negative aggregate results and the incomplete Full comparison.
+Latest DiscoveryWorld evidence: [development status through September 22, 18:33 CST](results/discoveryworld/development/20260922T183307_CST/report.md). Q75/p304 closed with 10/10 failed actions; Common2/p305 closed with 1/10 failed actions; both scored 0. They are different-seed controls, not a paired effect comparison, and both partners remain incomplete. CV-v1 recorded zero fits because a training fold lacked class support. [Current overview](results/LATEST.md) preserves MADE's negative aggregate results and the incomplete Full comparison.
 
 Research code for a white-box language-model agent that proposes materials-discovery actions, estimates failure risk from internal representations, and adapts policy weights with Agentic ESOpt. The implemented interfaces cover MADE and CrystalGym. Published results include **MADE, Qwen3.5-4B, seed1, baseline versus a fixed G2 graph-risk policy**, and a separately accepted seven-arm Summit SnAr study with five evaluation seeds.
 

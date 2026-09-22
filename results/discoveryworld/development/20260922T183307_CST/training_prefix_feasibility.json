@@ -1,0 +1,229 @@
+{
+  "CV_v1_modified_or_retried": false,
+  "NN_updates": 0,
+  "actual_enriched_dataset_ready": false,
+  "actual_extra_graphs_completed": 0,
+  "all_training_folds_label_potentially_supported": true,
+  "dev_or_test_trajectory_reads": 0,
+  "episodes": [
+    {
+      "episode_id": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+      "first10_counts": {
+        "negative": 9,
+        "positive": 1,
+        "rows": 10,
+        "unknown": 0
+      },
+      "fixed8_extra_counts": {
+        "negative": 7,
+        "positive": 1,
+        "rows": 8,
+        "unknown": 0
+      },
+      "original_fixed20_counts": {
+        "negative": 6,
+        "positive": 14,
+        "rows": 20,
+        "unknown": 0
+      },
+      "policy_seed": 101,
+      "potential_fixed28_observed_label_counts": {
+        "negative": 13,
+        "positive": 15,
+        "rows": 28,
+        "unknown": 0
+      },
+      "potential_support_assumes_all_fixed_extra_graphs_pass": true,
+      "world_seed": 0
+    },
+    {
+      "episode_id": "discoveryworld-v1-591b41691ef5345fa2972c72",
+      "first10_counts": {
+        "negative": 6,
+        "positive": 4,
+        "rows": 10,
+        "unknown": 0
+      },
+      "fixed8_extra_counts": {
+        "negative": 5,
+        "positive": 3,
+        "rows": 8,
+        "unknown": 0
+      },
+      "original_fixed20_counts": {
+        "negative": 19,
+        "positive": 1,
+        "rows": 20,
+        "unknown": 0
+      },
+      "policy_seed": 102,
+      "potential_fixed28_observed_label_counts": {
+        "negative": 24,
+        "positive": 4,
+        "rows": 28,
+        "unknown": 0
+      },
+      "potential_support_assumes_all_fixed_extra_graphs_pass": true,
+      "world_seed": 0
+    },
+    {
+      "episode_id": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+      "first10_counts": {
+        "negative": 1,
+        "positive": 9,
+        "rows": 10,
+        "unknown": 0
+      },
+      "fixed8_extra_counts": {
+        "negative": 0,
+        "positive": 8,
+        "rows": 8,
+        "unknown": 0
+      },
+      "original_fixed20_counts": {
+        "negative": 1,
+        "positive": 19,
+        "rows": 20,
+        "unknown": 0
+      },
+      "policy_seed": 103,
+      "potential_fixed28_observed_label_counts": {
+        "negative": 1,
+        "positive": 27,
+        "rows": 28,
+        "unknown": 0
+      },
+      "potential_support_assumes_all_fixed_extra_graphs_pass": true,
+      "world_seed": 0
+    }
+  ],
+  "folds": [
+    {
+      "additional_negative_labels": 12,
+      "additional_positive_labels": 4,
+      "heldout_episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+      "label_only_potential_if_all_fixed_extra_graphs_pass": {
+        "episodes": 2,
+        "negative_episodes": 2,
+        "negative_rows": 37,
+        "passed": true,
+        "positive_episodes": 2,
+        "positive_rows": 19
+      },
+      "observed_existing_graph_supported": {
+        "episodes": 2,
+        "negative_episodes": 2,
+        "negative_rows": 25,
+        "passed": true,
+        "positive_episodes": 2,
+        "positive_rows": 15
+      },
+      "remaining_negative_shortfall": 0,
+      "remaining_positive_shortfall": 0
+    },
+    {
+      "additional_negative_labels": 7,
+      "additional_positive_labels": 9,
+      "heldout_episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+      "label_only_potential_if_all_fixed_extra_graphs_pass": {
+        "episodes": 2,
+        "negative_episodes": 2,
+        "negative_rows": 14,
+        "passed": true,
+        "positive_episodes": 2,
+        "positive_rows": 42
+      },
+      "observed_existing_graph_supported": {
+        "episodes": 2,
+        "negative_episodes": 2,
+        "negative_rows": 7,
+        "passed": false,
+        "positive_episodes": 2,
+        "positive_rows": 33
+      },
+      "remaining_negative_shortfall": 0,
+      "remaining_positive_shortfall": 0
+    },
+    {
+      "additional_negative_labels": 5,
+      "additional_positive_labels": 11,
+      "heldout_episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+      "label_only_potential_if_all_fixed_extra_graphs_pass": {
+        "episodes": 2,
+        "negative_episodes": 2,
+        "negative_rows": 25,
+        "passed": true,
+        "positive_episodes": 2,
+        "positive_rows": 31
+      },
+      "observed_existing_graph_supported": {
+        "episodes": 2,
+        "negative_episodes": 2,
+        "negative_rows": 20,
+        "passed": true,
+        "positive_episodes": 2,
+        "positive_rows": 20
+      },
+      "remaining_negative_shortfall": 0,
+      "remaining_positive_shortfall": 0
+    }
+  ],
+  "maximum_rows_if_all_graphs_eligible": 84,
+  "new_environment_calls": 0,
+  "new_graphs": 0,
+  "not_actual_graph_eligibility": "Additional labels are read from original actions, but rows cannot enter fitting until separately registered successful graph artifacts are joined; no graph flags or dataset rows were changed",
+  "schema": "dw_cv_fixed_prefix_label_feasibility_v1",
+  "scientific_calls": 0,
+  "scope": "Only original world0 policy101/102/103 raw trajectories reconstructed; shared train dataset metadata also contains world1, but no world1 raw trajectory was reconstructed",
+  "selection_rule": {
+    "fixed_extra_indices_per_episode": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ],
+    "fixed_prefix": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "label_selected": false,
+    "maximum_new_training_rows": 24,
+    "maximum_total_training_rows": 84,
+    "supplement_graph_units": 24,
+    "unchanged_indices": [
+      1,
+      6,
+      11,
+      16,
+      21,
+      27,
+      32,
+      37,
+      42,
+      47,
+      53,
+      58,
+      63,
+      68,
+      73,
+      79,
+      84,
+      89,
+      94,
+      100
+    ]
+  },
+  "status": "read_only_label_reconstruction_complete"
+}

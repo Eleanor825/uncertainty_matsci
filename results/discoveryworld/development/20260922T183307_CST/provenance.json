@@ -1,0 +1,21 @@
+{
+  "builder_sha256": "11897e571f09820dd94fd61b401c5e2830a2f202bd6861e3ac99c2d7b70e38a4",
+  "extraction": "Explicit scientific fields only; original result-summary and event hashes retained without operational paths. Raw operational receipts are not distributed.",
+  "input_receipt_hashes": {
+    "CV_original_nonexecution": {
+      "bytes": 28721,
+      "sha256": "0fb6984092107f6d2bc6143c806989fbc4d2cb9a903afc69e031b77657b43406"
+    },
+    "latest_development_status": {
+      "bytes": 35767,
+      "sha256": "807bada5b38fabd66fa19030212d2af0ec98b629f1789cee4cdf69f0e9c3b32d"
+    },
+    "training_label_feasibility": {
+      "bytes": 62903,
+      "sha256": "7ac0a0cd433330b5af8caabe94932ac01a3bc6287737947dbadf594090a23fea"
+    }
+  },
+  "portable_validation_scope": "Published aggregate arithmetic, statuses, support arithmetic and file hashes; not independent replay of unavailable raw environment logs.",
+  "schema": "scientific_whitelist_export_provenance_v1",
+  "scientific_calls_for_export": 0
+}

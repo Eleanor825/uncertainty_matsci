@@ -1,6 +1,6 @@
 # Time-stamped research results
 
-Current overview: [latest verified results](LATEST.md). MADE has1079 valid evaluations and1 retained technical failure. The [completed DW CPU diagnostic](discoveryworld/diagnostics/20260922T172256_CST/report.md) reports four feature-family fits and fixed0.5 offline flagging; it adds no completed Full test or online-improvement claim.
+Current overview: [latest verified results](LATEST.md). MADE has 1079 valid evaluations and 1 retained technical failure. The [18:33 DW development report](discoveryworld/development/20260922T183307_CST/report.md) retains Q75's all-failure trajectory, Common2's zero task score, incomplete partners and CV's no-fit support failure. No completed Full-method improvement is added.
 
 The [independent9B training-collection acceptance](qwen35_9b_core/collections/20260921T170716_CST/report.md) now verifies **three of seven** registered collections: Al-Au-Hf seeds1/2 and Au-Li-Pd seed1, B50. This cumulative record includes one newly accepted existing collection, rechecking150 already executed candidate evaluations and all32 activation layers per collection. These are training data, **not additions to the15 baseline tests**; the acceptance adds no model, graph, oracle or fitting calls and does not establish full9B method efficacy.
 

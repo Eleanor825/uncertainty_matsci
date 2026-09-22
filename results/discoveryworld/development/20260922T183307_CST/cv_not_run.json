@@ -1,0 +1,115 @@
+{
+  "completion": {
+    "counts": {
+      "LLM_calls": 0,
+      "development_forward_batches": 0,
+      "environment_calls": 0,
+      "final_fits_completed": 0,
+      "final_fits_started": 0,
+      "final_optimizer_updates": 0,
+      "fold_fits_completed": 0,
+      "fold_fits_started": 0,
+      "fold_optimizer_updates": 0,
+      "graph_extraction_calls": 0,
+      "optimizer_updates": 0,
+      "test_outcome_reads": 0
+    },
+    "limitation": "Insufficient preregistered training support; no fold omitted and no formal gate relaxed",
+    "protocol": {
+      "bytes": 86718,
+      "commit": "f8e5e45f0131930eac4e6773c6728d870aa44048",
+      "sha256": "12cc56b8fa8cf4af4973c084b26dbc0993025536d73c38c55addb0c536b3cccc"
+    },
+    "status": "not_run_insufficient_fold_support"
+  },
+  "fold_omitted": false,
+  "folds": [
+    {
+      "heldout_episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+      "training_support_original_gate": {
+        "episodes": 2,
+        "negative_episodes": 2,
+        "negative_rows": 25,
+        "passed": true,
+        "positive_episodes": 2,
+        "positive_rows": 15
+      },
+      "validation_has_both_classes": true,
+      "validation_is_single_episode_diagnostic_not_formal_admission": true,
+      "validation_support_original_gate": {
+        "episodes": 1,
+        "negative_episodes": 1,
+        "negative_rows": 1,
+        "passed": false,
+        "positive_episodes": 1,
+        "positive_rows": 19
+      }
+    },
+    {
+      "heldout_episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+      "training_support_original_gate": {
+        "episodes": 2,
+        "negative_episodes": 2,
+        "negative_rows": 7,
+        "passed": false,
+        "positive_episodes": 2,
+        "positive_rows": 33
+      },
+      "validation_has_both_classes": true,
+      "validation_is_single_episode_diagnostic_not_formal_admission": true,
+      "validation_support_original_gate": {
+        "episodes": 1,
+        "negative_episodes": 1,
+        "negative_rows": 19,
+        "passed": false,
+        "positive_episodes": 1,
+        "positive_rows": 1
+      }
+    },
+    {
+      "heldout_episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+      "training_support_original_gate": {
+        "episodes": 2,
+        "negative_episodes": 2,
+        "negative_rows": 20,
+        "passed": true,
+        "positive_episodes": 2,
+        "positive_rows": 20
+      },
+      "validation_has_both_classes": true,
+      "validation_is_single_episode_diagnostic_not_formal_admission": true,
+      "validation_support_original_gate": {
+        "episodes": 1,
+        "negative_episodes": 1,
+        "negative_rows": 6,
+        "passed": false,
+        "positive_episodes": 1,
+        "positive_rows": 14
+      }
+    }
+  ],
+  "full_world0_support": {
+    "episodes": 3,
+    "negative_episodes": 3,
+    "negative_rows": 26,
+    "passed": true,
+    "positive_episodes": 3,
+    "positive_rows": 34
+  },
+  "gate_relaxed": false,
+  "original_support_gate": {
+    "minimum_episodes_per_class": 2,
+    "minimum_rows_per_class": 10
+  },
+  "passed": false,
+  "production_predictor_replaced": false,
+  "schema": "dw_cv_v1_nonexecution_export",
+  "world1_support": {
+    "episodes": 3,
+    "negative_episodes": 3,
+    "negative_rows": 34,
+    "passed": true,
+    "positive_episodes": 3,
+    "positive_rows": 26
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "ES_parameter_updates_added": 0,
+  "Full_ES_v5": {
+    "new_parameter_updates_confirmed": 0,
+    "status": "waiting_for_operating_point_pair"
+  },
+  "complete_development_episodes": [
+    {
+      "accepted": true,
+      "action_returns": 10,
+      "budget": 10,
+      "condition": "Q75",
+      "experiment": "operating_point_v5",
+      "failed_action_returns": 10,
+      "fitness": {
+        "F": -0.1,
+        "J": -0.1,
+        "agent_attempts": 10,
+        "completedSuccessfully": false,
+        "failure_count": 10,
+        "failure_fraction": 1.0,
+        "lambda_cal": 0.0,
+        "scoreNormalized": 0.0,
+        "source_events": {
+          "bytes": 84699,
+          "sha256": "841b52d56280d8059b5ad3a2a3fbe8c0bb02581b1792ea62e15d840669605570"
+        },
+        "source_summary": {
+          "bytes": 1231,
+          "sha256": "b262210917a62e3c55828e0d5464335b6f5e0372db88652e9a7c7e3bac7b3e2a"
+        }
+      },
+      "graph_returns": 13,
+      "job_id": "dw-operating-point-v5-dev-Q75-w2-p304-b10-g0",
+      "model": "Qwen3.5-4B",
+      "policy_seed": 304,
+      "scenario": "Proteomics Normal",
+      "selected_attempts": 10,
+      "split": "development",
+      "status": "complete_accepted_development",
+      "successful_action_returns": 0,
+      "supported_activity_gate_passed": true,
+      "ticks_returned": 10,
+      "world_seed": 2
+    },
+    {
+      "accepted": true,
+      "action_returns": 10,
+      "budget": 10,
+      "condition": "Common2",
+      "experiment": "matched_proposal_v5",
+      "failed_action_returns": 1,
+      "fitness": {
+        "F": -0.01,
+        "J": -0.01,
+        "agent_attempts": 10,
+        "completedSuccessfully": false,
+        "failure_count": 1,
+        "failure_fraction": 0.1,
+        "lambda_cal": 0.0,
+        "scoreNormalized": 0.0,
+        "source_events": {
+          "bytes": 83724,
+          "sha256": "d494ccbc69858b5eec3272cabb8827cd3bf94fbd7f0908efe29ded8815231ebd"
+        },
+        "source_summary": {
+          "bytes": 1234,
+          "sha256": "f979ab468c6a73918f33625d1ae17bb1307c12d9263985ea4e1e9054e665eb80"
+        }
+      },
+      "graph_returns": 20,
+      "job_id": "dw-matched-proposal-v5-dev-Common2-w2-p305-b10-g0",
+      "model": "Qwen3.5-4B",
+      "policy_seed": 305,
+      "scenario": "Proteomics Normal",
+      "selected_attempts": 10,
+      "split": "development",
+      "status": "complete_accepted_development",
+      "successful_action_returns": 9,
+      "supported_activity_gate_passed": null,
+      "ticks_returned": 10,
+      "world_seed": 2
+    }
+  ],
+  "completed_within_seed_pairs": 0,
+  "cross_seed_effect_comparison": false,
+  "export_scientific_calls": 0,
+  "grounded_v6": {
+    "scientific_execution_confirmed": false,
+    "status": "registered_waiting_for_resource_predecessor"
+  },
+  "new_heldout_Full_tests": 0,
+  "observed_CST": "2026-09-22T18:33:07.728480+08:00",
+  "observed_UTC": "2026-09-22T10:33:07.728480+00:00",
+  "online_improvement_established": false,
+  "partial_development_episodes": [
+    {
+      "accepted": null,
+      "action_returns": 7,
+      "budget": 10,
+      "condition": "Posterior05",
+      "experiment": "operating_point_v5",
+      "failed_action_returns": 7,
+      "fitness": null,
+      "graph_returns": 13,
+      "job_id": "dw-operating-point-v5-dev-Posterior05-w2-p304-b10-g0",
+      "model": "Qwen3.5-4B",
+      "policy_seed": 304,
+      "scenario": "Proteomics Normal",
+      "selected_attempts": 7,
+      "split": "development",
+      "status": "partial_not_final",
+      "successful_action_returns": 0,
+      "supported_activity_gate_passed": null,
+      "ticks_returned": 7,
+      "world_seed": 2
+    },
+    {
+      "accepted": null,
+      "action_returns": 1,
+      "budget": 10,
+      "condition": "Internal2",
+      "experiment": "matched_proposal_v5",
+      "failed_action_returns": 0,
+      "fitness": null,
+      "graph_returns": 2,
+      "job_id": "dw-matched-proposal-v5-dev-Internal2-w2-p305-b10-g0",
+      "model": "Qwen3.5-4B",
+      "policy_seed": 305,
+      "scenario": "Proteomics Normal",
+      "selected_attempts": 1,
+      "split": "development",
+      "status": "partial_not_final",
+      "successful_action_returns": 1,
+      "supported_activity_gate_passed": null,
+      "ticks_returned": 1,
+      "world_seed": 2
+    }
+  ],
+  "qualification": [
+    {
+      "experiment": "operating_point_v5",
+      "failed_prefixes": 0,
+      "passed_prefixes": 8
+    },
+    {
+      "experiment": "matched_proposal_v5",
+      "failed_prefixes": 0,
+      "passed_prefixes": 8
+    }
+  ],
+  "schema": "dw_development_increment_status_v1"
+}

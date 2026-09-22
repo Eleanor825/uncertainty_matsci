@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "bytes": 259,
+      "path": "completed_development_metrics.csv",
+      "sha256": "b0c6833d7f589b9a996ef090cd9286c0a0da1cf3d08162af09b2af762b3de660"
+    },
+    {
+      "bytes": 3331,
+      "path": "cv_not_run.json",
+      "sha256": "a20b309ad163068b0b80d48224fbd8dc176eefb5a900d8e27bd39e06ad5acf09"
+    },
+    {
+      "bytes": 1004,
+      "path": "provenance.json",
+      "sha256": "07f50f73333e13268e39399dc9aeb388a8180939ccc4cc02a5c8f0c857c58c3d"
+    },
+    {
+      "bytes": 4309,
+      "path": "report.md",
+      "sha256": "118dcc84a727f874bdd6479b5f741478a6d07f8f387763f18e0385a32373b994"
+    },
+    {
+      "bytes": 4586,
+      "path": "status.json",
+      "sha256": "1b3fe3df7a117e0743cabab59fa743e9ce87b134bfe4538e44d0e22585b7feb2"
+    },
+    {
+      "bytes": 5839,
+      "path": "training_prefix_feasibility.json",
+      "sha256": "7440c5e9f405d43adf0673a9b32509b891e617c5773b62a228c8370438ce734d"
+    },
+    {
+      "bytes": 4276,
+      "path": "validate.py",
+      "sha256": "5b8154bb2e3fbd152f0a20ab43c1efcef5807ab92983fa0ab8feedf09d3d7d83"
+    }
+  ],
+  "schema": "dw_development_increment_manifest_v1"
+}
