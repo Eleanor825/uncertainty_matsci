@@ -1,0 +1,619 @@
+{
+  "schema": "discoveryworld_public_progress_v3",
+  "observed_CST": "2026-09-22T15:57:18.551619+08:00",
+  "observed_UTC": "2026-09-22T07:57:18.551619+00:00",
+  "model": "Qwen3.5-4B",
+  "scenario": "Proteomics",
+  "difficulty": "Normal",
+  "graph": {
+    "rows": 160,
+    "expected_rows": 160,
+    "indices": [
+      1,
+      6,
+      11,
+      16,
+      21,
+      27,
+      32,
+      37,
+      42,
+      47,
+      53,
+      58,
+      63,
+      68,
+      73,
+      79,
+      84,
+      89,
+      94,
+      100
+    ],
+    "qualification_semantics": "declared_V4_local_Jacobian_mathematical_reference",
+    "native_FP32_flags_preserved": true,
+    "all_native_FP32_checks_passed_claimed": false,
+    "groups": [
+      {
+        "group": "group0",
+        "status": "subset_graph_group_complete",
+        "source_episode_ids": [
+          "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p101",
+          "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102"
+        ],
+        "qualification_prefixes_intended": 8,
+        "qualification_prefixes_returned": 8,
+        "qualification_prefixes_failed": 0,
+        "qualification": {
+          "bytes": 237828,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graph_workers/group0/qualification.json",
+          "sha256": "496541fa287e5753f31916c9967e9dcf4be20d62aa99f3bedf2515e0cd9971fe"
+        },
+        "shards": [
+          {
+            "bytes": 36552,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p101/completion.json",
+            "sha256": "23696c9c6f90bc0efebf8500a0ded8200a283e1ed6fbb0c88c6316373713c1f0"
+          },
+          {
+            "bytes": 36552,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102/completion.json",
+            "sha256": "7beb776f282069b74040884673a62b892095360700546d35e546916779478c88"
+          }
+        ],
+        "new_environment_calls": 0,
+        "new_policy_generations": 0
+      },
+      {
+        "group": "group1",
+        "status": "subset_graph_group_complete",
+        "source_episode_ids": [
+          "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p103",
+          "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p101"
+        ],
+        "qualification_prefixes_intended": 8,
+        "qualification_prefixes_returned": 8,
+        "qualification_prefixes_failed": 0,
+        "qualification": {
+          "bytes": 237828,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graph_workers/group1/qualification.json",
+          "sha256": "c8c9bf54126f621eea1412e046f9bb3b4779f2018accacba984a48baf08c3587"
+        },
+        "shards": [
+          {
+            "bytes": 36552,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p103/completion.json",
+            "sha256": "6ea91c229cfec57dec9a5d8926ca10623c4973593a81681e2945fa7c93eb2d77"
+          },
+          {
+            "bytes": 36552,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p101/completion.json",
+            "sha256": "93eab347e583da995b1dd216d617a8be7245677fe985b2a0c54449f58351cda5"
+          }
+        ],
+        "new_environment_calls": 0,
+        "new_policy_generations": 0
+      },
+      {
+        "group": "group2",
+        "status": "subset_graph_group_complete",
+        "source_episode_ids": [
+          "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p102",
+          "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p103"
+        ],
+        "qualification_prefixes_intended": 8,
+        "qualification_prefixes_returned": 8,
+        "qualification_prefixes_failed": 0,
+        "qualification": {
+          "bytes": 237828,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graph_workers/group2/qualification.json",
+          "sha256": "caac2bdb3983c0e2272605c1928e63528954290763f3c2ddfc2e1edb89beb318"
+        },
+        "shards": [
+          {
+            "bytes": 36552,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p102/completion.json",
+            "sha256": "10591bc687e237fb73ab2bd00fb3ffba7dd60146acd6dce0142c2ec017191f13"
+          },
+          {
+            "bytes": 36552,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w1-p103/completion.json",
+            "sha256": "45c3ae9749d3d07a28fa258a0791ebe25c192873877414fed397c03e4f24c496"
+          }
+        ],
+        "new_environment_calls": 0,
+        "new_policy_generations": 0
+      },
+      {
+        "group": "group3",
+        "status": "subset_graph_group_complete",
+        "source_episode_ids": [
+          "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p201",
+          "discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p202"
+        ],
+        "qualification_prefixes_intended": 8,
+        "qualification_prefixes_returned": 8,
+        "qualification_prefixes_failed": 0,
+        "qualification": {
+          "bytes": 237828,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graph_workers/group3/qualification.json",
+          "sha256": "de28a02de416a5b33f758e05e727c178022814863a2001871de22d2b5da5bcc5"
+        },
+        "shards": [
+          {
+            "bytes": 36657,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p201/completion.json",
+            "sha256": "7494cb75cc77f012baeaf41ecb89d41ed3f84896a776749326e3684dd056674f"
+          },
+          {
+            "bytes": 36657,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_nn_dev-Baseline-w2-p202/completion.json",
+            "sha256": "eeda0b0a6ffe826aaea16abef14b86a93b1613860e215031547f4b74c47beb77"
+          }
+        ],
+        "new_environment_calls": 0,
+        "new_policy_generations": 0
+      }
+    ],
+    "registration": {
+      "bytes": 140394,
+      "commit": "a77f6257a7b48c5284bfc1447925aeb86e67f593",
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/registrations/graph_v4/registry.json",
+      "sha256": "869a9328bf435cbbc796a089b3180516f62f90d1e298354152c009bfe70aff98"
+    },
+    "main_graph_feature_cap": 32,
+    "main_graph_backward_target_cap": 42,
+    "source_fit_world": 0,
+    "source_calibration_world": 1,
+    "source_development_world": 2
+  },
+  "neural_risk": {
+    "admitted_for_frozen_controller": true,
+    "test_used": false,
+    "fit_dev_or_test_data_read": false,
+    "total_optimizer_updates": 400,
+    "heads": {
+      "generation_invalid": {
+        "admitted": false,
+        "reason": "not fitted; support unavailable"
+      },
+      "next_action_failure": {
+        "admitted": true,
+        "gates": {
+          "auroc_above_half": true,
+          "brier_beats_controls": true,
+          "finite": true,
+          "nll_beats_controls": true,
+          "range_at_least_02": true,
+          "support": true
+        },
+        "metrics": {
+          "Internal": {
+            "auroc": 0.9700000000000006,
+            "brier": 0.06443833687583089,
+            "episodes": 2,
+            "nll": 0.19994415101328178,
+            "probability_range": 0.9895033752545714,
+            "rows": 40,
+            "worlds": 1
+          },
+          "OutputAction": {
+            "auroc": 0.9600000000000007,
+            "brier": 0.08107462035649157,
+            "episodes": 2,
+            "nll": 0.2534979453814361,
+            "probability_range": 0.984332752879709,
+            "rows": 40,
+            "worlds": 1
+          },
+          "calibration": {
+            "auroc": 0.5000000000000001,
+            "brier": 0.22111111111111115,
+            "episodes": 2,
+            "nll": 0.6350500342546092,
+            "probability_range": 0.0,
+            "rows": 40,
+            "worlds": 1
+          },
+          "gradient": {
+            "auroc": 0.5000000000000001,
+            "brier": 0.2877777777777778,
+            "episodes": 2,
+            "nll": 0.7691820275519489,
+            "probability_range": 0.0,
+            "rows": 40,
+            "worlds": 1
+          },
+          "half": {
+            "auroc": 0.5000000000000001,
+            "brier": 0.25,
+            "episodes": 2,
+            "nll": 0.6931471805599453,
+            "probability_range": 0.0,
+            "rows": 40,
+            "worlds": 1
+          }
+        },
+        "support": {
+          "episodes": 2,
+          "negative_episodes": 2,
+          "negative_rows": 30,
+          "passed": true,
+          "positive_episodes": 2,
+          "positive_rows": 10
+        }
+      },
+      "terminal_noncompletion": {
+        "admitted": false,
+        "reason": "not fitted; support unavailable"
+      }
+    },
+    "models": {
+      "generation_invalid": {
+        "available": false,
+        "support": {
+          "calibration": {
+            "episodes": 3,
+            "negative_episodes": 3,
+            "negative_rows": 60,
+            "passed": false,
+            "positive_episodes": 0,
+            "positive_rows": 0
+          },
+          "gradient": {
+            "episodes": 3,
+            "negative_episodes": 3,
+            "negative_rows": 60,
+            "passed": false,
+            "positive_episodes": 0,
+            "positive_rows": 0
+          }
+        },
+        "reason": "fixed support gate failed"
+      },
+      "next_action_failure": {
+        "available": true,
+        "support": {
+          "calibration": {
+            "episodes": 3,
+            "negative_episodes": 3,
+            "negative_rows": 34,
+            "passed": true,
+            "positive_episodes": 3,
+            "positive_rows": 26
+          },
+          "gradient": {
+            "episodes": 3,
+            "negative_episodes": 3,
+            "negative_rows": 26,
+            "passed": true,
+            "positive_episodes": 3,
+            "positive_rows": 34
+          }
+        },
+        "models": {
+          "Internal": {
+            "family": "Internal",
+            "head": "next_action_failure",
+            "initial_tensor_hash": "57d04dc561908f60354766560c8223cd3aa4770b2e89be18f43e44684722f27f",
+            "final_tensor_hash": "d4564441e25c2d3cbd2218fa467b24acd34b25da9e0d05235a8da247a74a9cd5",
+            "parameters": 41985,
+            "temperature": 2.655660205889806,
+            "tensor_changed": true,
+            "threshold": {
+              "n": 60,
+              "quantile": 0.75,
+              "rank_one_based": 45,
+              "source_partition": "world1_calibration_only",
+              "threshold": 0.9867005323054212
+            },
+            "updates": 200,
+            "checkpoint": {
+              "bytes": 198229,
+              "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/neural_risk/next_action_failure_Internal.pt",
+              "sha256": "f5155ccafec30317069ee3331045b88019a85b2a6fc8fc70a4bab77e4f70dbbc"
+            }
+          },
+          "OutputAction": {
+            "family": "OutputAction",
+            "head": "next_action_failure",
+            "initial_tensor_hash": "bf956dcd049cc9efd993c2792297d8223cc615a9072958519c827e614cedc275",
+            "final_tensor_hash": "e24751f7cffe54bd71c4741d1b20186afb67b20777310a4f809cb8828c075912",
+            "parameters": 5761,
+            "temperature": 2.248383138331932,
+            "tensor_changed": true,
+            "threshold": {
+              "n": 60,
+              "quantile": 0.75,
+              "rank_one_based": 45,
+              "source_partition": "world1_calibration_only",
+              "threshold": 0.929683301304327
+            },
+            "updates": 200,
+            "checkpoint": {
+              "bytes": 28821,
+              "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/neural_risk/next_action_failure_OutputAction.pt",
+              "sha256": "e939dfd6dfb770b443a1ae01401ede5dc2328536873c2426070fd2e2bc81536b"
+            }
+          }
+        }
+      },
+      "terminal_noncompletion": {
+        "available": false,
+        "support": {
+          "calibration": {
+            "episodes": 3,
+            "negative_episodes": 0,
+            "negative_rows": 0,
+            "passed": false,
+            "positive_episodes": 3,
+            "positive_rows": 60
+          },
+          "gradient": {
+            "episodes": 3,
+            "negative_episodes": 0,
+            "negative_rows": 0,
+            "passed": false,
+            "positive_episodes": 3,
+            "positive_rows": 60
+          }
+        },
+        "reason": "fixed support gate failed"
+      }
+    },
+    "development_metrics_are_original_reported_values": true,
+    "dev_admission": {
+      "bytes": 1997,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/neural_risk/dev_admission/report.json",
+      "sha256": "cb01b462d5d2727f5bb95c732acd81df169a205f5b511d91b877884bedf333ba"
+    },
+    "models_seal": {
+      "bytes": 28888,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/neural_risk/models_seal.json",
+      "sha256": "c5a4f2a4950189a64a92bb078728e5e5ebd60abc091d0154708f75a43ebd7182"
+    },
+    "dataset_completions": {
+      "dev": {
+        "bytes": 685,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/datasets/dev/completion.json",
+        "sha256": "4a959d794c5cf065c2503fe390fe812d3f519af0ac6d9e90ef7e9bf6b9796c3f"
+      },
+      "train": {
+        "bytes": 690,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/datasets/train/completion.json",
+        "sha256": "1cd443ba024271d18ae89f403d54b92f423d908c6993ee91131f19704a73961e"
+      }
+    },
+    "registration": {
+      "bytes": 122949,
+      "commit": "ef7251fb6125ffdb192177051d56a14d98d961fa",
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/registrations/risk_v4/registry.json",
+      "sha256": "a92886d7c03610b6b4138c7ba03a100db6ba8da3861a8f067ed01df3303ea3a2"
+    },
+    "contract_sha256": "fb5d60acf2de5d0fcd30b9a0d7a46e7d9a2b9bf17497450c659842c3db6cbb81"
+  },
+  "Full_G0_development": {
+    "accepted": true,
+    "generation": 0,
+    "job": {
+      "job_id": "dw-six-hour-subset-v1-es_dev-Full-w2-p303-b10-g0",
+      "arm": "Full",
+      "stage": "es_dev",
+      "project_split": "dev",
+      "model_key": "qwen35_4b",
+      "scenario": "Proteomics",
+      "difficulty": "Normal",
+      "world_seed": 2,
+      "policy_seed": 303,
+      "generation": 0,
+      "max_agent_attempts": 10,
+      "max_proposals_per_attempt": 2
+    },
+    "metrics": {
+      "F": -0.07,
+      "J": -0.07,
+      "agent_attempts": 10,
+      "completedSuccessfully": false,
+      "failure_count": 7,
+      "failure_fraction": 0.7,
+      "scoreNormalized": 0.0
+    },
+    "controller_counts": {
+      "supported_neural_revisions": 0,
+      "supported_rank_changes": 0
+    },
+    "attempts": [
+      {
+        "attempt_index": 1,
+        "candidate_count": 1,
+        "risk": 0.036958321928977966,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      },
+      {
+        "attempt_index": 2,
+        "candidate_count": 1,
+        "risk": 0.0751255601644516,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      },
+      {
+        "attempt_index": 3,
+        "candidate_count": 1,
+        "risk": 0.06284524500370026,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      },
+      {
+        "attempt_index": 4,
+        "candidate_count": 1,
+        "risk": 0.010728181339800358,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      },
+      {
+        "attempt_index": 5,
+        "candidate_count": 1,
+        "risk": 0.7803812026977539,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      },
+      {
+        "attempt_index": 6,
+        "candidate_count": 1,
+        "risk": 0.8155595064163208,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      },
+      {
+        "attempt_index": 7,
+        "candidate_count": 1,
+        "risk": 0.8606324791908264,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      },
+      {
+        "attempt_index": 8,
+        "candidate_count": 1,
+        "risk": 0.8235461115837097,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      },
+      {
+        "attempt_index": 9,
+        "candidate_count": 1,
+        "risk": 0.8697880506515503,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      },
+      {
+        "attempt_index": 10,
+        "candidate_count": 1,
+        "risk": 0.9163769483566284,
+        "supported": true,
+        "neural_revision": false,
+        "neural_rank_change": false
+      }
+    ],
+    "frozen_threshold": 0.9867005323054212,
+    "max_risk": 0.9163769483566284,
+    "result": {
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/full_es/dw-six-hour-subset-v1-es_dev-Full-w2-p303-b10-g0_result.json",
+      "sha256": "c445f9ca6105020a08ad5373bf41727deeef43b6d6bcf51ca468235ab5c3ed5d"
+    },
+    "original_events": {
+      "bytes": 85063,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/scientific_episodes/jobs/dw-six-hour-subset-v1-es_dev-Full-w2-p303-b10-g0/environment/discoveryworld-v1-317ebae6c081fa74f0938e97/events.jsonl",
+      "sha256": "07384a3587e461f69fa6cbc50df33f85995ea950f482e95fbc6f1aafd2e1f386"
+    },
+    "original_summary": {
+      "bytes": 1231,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/scientific_episodes/jobs/dw-six-hour-subset-v1-es_dev-Full-w2-p303-b10-g0/environment/discoveryworld-v1-317ebae6c081fa74f0938e97/summary.json",
+      "sha256": "902fe48ac0f18eca0f04c27a4b078271edb289b4c1857cb1716204c4f93b2956"
+    }
+  },
+  "Full_ES": {
+    "status": "stopped_at_G0_controller_activity_gate",
+    "accepted_G0_development_episodes": 1,
+    "accepted_mutated_policy_episodes": 0,
+    "policy_parameter_perturbations": 0,
+    "planned_training_and_development_episodes": 7,
+    "failure": {
+      "arm": "Full",
+      "status": "incomplete",
+      "error_type": "ValueError",
+      "message": "Registered Full G0 controller-activity gate failed",
+      "automatic_retry": false
+    },
+    "stop_boundary": "registered G0 controller activity check before first ES generation loop",
+    "chain_registration": {
+      "bytes": 16524,
+      "commit": "3e05ef539cded2b3c68cd0428bd848f18c1654d5",
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/registrations/downstream_chain_v4/registry.json",
+      "sha256": "40e5806967b3c91197b2eb50496a79b0b7e9a1324a57294b07c7d8a693fc735c"
+    }
+  },
+  "held_out_Baseline": {
+    "accepted": true,
+    "job": {
+      "job_id": "dw-six-hour-subset-v1-test-Baseline-w3-p401-b30",
+      "arm": "Baseline",
+      "stage": "test",
+      "project_split": "test",
+      "model_key": "qwen35_4b",
+      "scenario": "Proteomics",
+      "difficulty": "Normal",
+      "world_seed": 3,
+      "policy_seed": 401,
+      "generation": null,
+      "max_agent_attempts": 30,
+      "max_proposals_per_attempt": 1
+    },
+    "metrics": {
+      "F": -0.09666666666666668,
+      "J": -0.09666666666666668,
+      "agent_attempts": 30,
+      "completedSuccessfully": false,
+      "failure_count": 29,
+      "failure_fraction": 0.9666666666666667,
+      "scoreNormalized": 0.0
+    },
+    "original_events": {
+      "bytes": 255283,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/events.jsonl",
+      "sha256": "79752da20b25b1354ea3dd69c5cbb5e5770e01cd85d809741d06674b4f076cfe"
+    },
+    "original_summary": {
+      "bytes": 1267,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/summary.json",
+      "sha256": "45d8e852e8f70eb035286000f932a2a4fe7ece74662d38a9fd59e3c9f3383629"
+    }
+  },
+  "held_out_Full_accepted": 0,
+  "completed_matched_pairs": 0,
+  "G0_vs_Baseline_comparison_valid": false,
+  "MADE_context": {
+    "planned": 1080,
+    "valid": 1079,
+    "technical_failures": 1,
+    "pending": 0,
+    "unchanged_export": "results/made_components/incremental/20260922T101850_CST/report.md"
+  },
+  "history_snapshot": {
+    "repo_path": "results/discoveryworld/progress/20260922T104452_CST/snapshot.json",
+    "sha256": "424b664008506a5d56673bc6145e8b53d19df7f3dfde663d16c550a5479c8849"
+  },
+  "source_observations": [
+    {
+      "role": "completed graphs and risk chain; retained Full ES failure",
+      "observed_CST": "2026-09-22T15:54:40.211426+08:00",
+      "record_sha256": "dd7b8cc0a8ae7ce6891f326c090d59c91d888860375b76745cb4ec43e198d62d"
+    },
+    {
+      "role": "risk model metrics, accepted G0 episode and retained held-out Baseline",
+      "observed_CST": "2026-09-22T15:57:18.551619+08:00",
+      "record_sha256": "935785bfe288e4db27883f1ae714178c3b9acf43ddf09dac377de9b0a26d65ef"
+    }
+  ],
+  "evidence_limits": [
+    "sequential existing-record projection",
+    "no raw simulator acceptance replay",
+    "no AUROC/Brier/NLL reconstruction from raw predictions",
+    "forty development rows are clustered within two episodes and one world",
+    "V4 mathematical-reference admission does not erase native FP32 FD failures",
+    "G0 development and Baseline test cannot be pooled or paired",
+    "risk model updates are not ES language-model parameter updates"
+  ],
+  "scientific_calls_for_export": 0,
+  "effectiveness_demonstrated": false,
+  "public_export_fingerprint": "bf9a976f9eccc2d730cf72ac7fa104bf3cdd500b2fb5b6d0503e55af31f423a6"
+}

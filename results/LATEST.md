@@ -1,6 +1,6 @@
 # Latest verified experimental results
 
-Observations: **MADE 2026-09-22 10:18 CST; DiscoveryWorld 2026-09-22 10:44 CST**. MADE has **1079 valid trajectories, 1 technical failure and 0 pending** out of 1080 registered evaluations. DiscoveryWorld has **1 Baseline trajectory, 0 Full trajectories and 0 completed matched pairs**.
+Observations: **MADE 2026-09-22 10:18 CST; DiscoveryWorld 2026-09-22 15:57 CST**. MADE remains at **1079 valid trajectories, 1 technical failure and 0 pending**. DiscoveryWorld has **160/160 V4 graphs**, a development-admitted next-action-failure risk head and **one accepted G0 development trajectory**. Full stopped before its first ES parameter perturbation; held-out tests remain **Baseline 1, Full 0, completed pairs 0**.
 
 ## MADE — Qwen3.5-4B
 
@@ -30,17 +30,28 @@ Variance is across evaluation seeds within the same system, budget and arm (samp
 
 ## DiscoveryWorld — Qwen3.5-4B
 
-The fixed **Baseline** test at world seed 3, policy seed 401 and B30 completed with **normalized score 0, task success false and 29/30 failed action attempts**. Full has no accepted held-out result. One completed Baseline trajectory does not constitute a completed Baseline–Full comparison.
+All **160 selected graphs** from eight preparatory episodes are complete. Each of four groups passed the same **8/8 fixed-prefix suite under the declared V4 local-Jacobian mathematical reference**. Original native FP32 finite-difference results and failure flags remain preserved; this does not mean every original native FP32 check passed. The full 32-feature / 42-backward-target graph procedure is unchanged.
 
-The newly trained DW-domain transcoder bank passed development fidelity for **32/32 layers** at the unchanged FVU limit of 0.5. The original attribution check at epsilon 0.001 failed. A separate diagnostic on one TRAIN prefix passed all four selected checks at epsilon 0.01, but explicitly remains **unqualified**; this is not the required eight-prefix formal qualification. At this snapshot there are **0 formally qualified graph rows, 0 fitted/calibrated risk NNs, 0 Full ES episodes and 0 Full test results**.
+The **next-action-failure** head passed its development admission on **40 rows from 2 episodes in 1 world**:
 
-The earlier MADE-to-DW bank transfer failure (layer 0 FVU 0.84356 > 0.5) is retained. The [05:24 historical report](discoveryworld/progress/20260922T052401_CST/report.md) preserves eight Native B100 preparatory trajectories and six of seven earlier ES-only B100 episodes at their original observation time; those are not held-out Full evaluations. The intended Full subset still includes a risk NN and full-parameter Agentic ESOpt. No method-effectiveness claim is supported yet.
+| Features | AUROC | Brier score | NLL |
+|---|---:|---:|---:|
+| Internal | 0.970000 | 0.064438 | 0.199944 |
+| OutputAction | 0.960000 | 0.081075 | 0.253498 |
 
-- [DiscoveryWorld scientific status through 10:44](discoveryworld/progress/20260922T104452_CST/report.md)
-- [Machine-readable scientific projection](discoveryworld/progress/20260922T104452_CST/snapshot.json)
+These are development statistics with clustered rows, not a held-out task-performance comparison or evidence of online improvement. Both feature-family NNs were fitted; the generation-invalid and terminal-noncompletion heads were not fitted because support was insufficient.
 
-With the registered MADE collection closed, released resources are assigned to DiscoveryWorld. Additional benchmarks and seeds remain deferred. Resource allocation and later V3 graph work are not counted as completed science in this snapshot.
+The **Full G0 development** trajectory (world 2, policy seed 303, B10) was accepted with **normalized score 0 and 7/10 failed attempts**. Its maximum supported risk, **0.916376948**, stayed below the frozen threshold **0.986700532**. All ten attempts used one candidate, with **0 neural revisions and 0 rank changes**. The registered controller-activity gate failed, stopping the V4 branch before the first ES parameter perturbation. There is no completed parameter-updating Full search or Full held-out test.
+
+The existing **Baseline held-out** trajectory (world 3, policy seed 401, B30) remains accepted with normalized score 0 and 29/30 failed attempts. It cannot be paired with G0 because their worlds, policy seeds, budgets and development/test roles differ. A completed Baseline–Full effect estimate is still unavailable.
+
+- [DiscoveryWorld scientific status through 15:57](discoveryworld/progress/20260922T155718_CST/report.md)
+- [Machine-readable scientific projection](discoveryworld/progress/20260922T155718_CST/snapshot.json)
+- [Earlier 10:44 state and numerical diagnosis](discoveryworld/progress/20260922T104452_CST/report.md)
+- [Historical Native preparation, earlier ES-only branch and failed MADE-bank transfer](discoveryworld/progress/20260922T052401_CST/report.md)
+
+The V4 branch is stopped at the activity gate. Released MADE resources remain assigned to DiscoveryWorld; resource allocation is not counted as completed science.
 
 ## Scope and provenance
 
-This update re-exports existing records only. No model, simulator or materials oracle was run to generate these reports. MADE uses the already published 10:18 export; DW preserves each source observation time and ends at 10:44. Prior snapshots overlap and must not be added together. Existing 9B collections, original seed1 MADE and SnAr results remain in the historical index and are not relabelled as new tests. Negative results, failure records, source hashes, metric recomputation scripts and export manifests are retained.
+This update re-exports existing records only. No model, simulator, graph extraction, NN fitting or ES job was run to generate these reports. MADE uses the unchanged 10:18 export; DW preserves each source observation time and ends at 15:57. Prior snapshots overlap and must not be added together. Existing 9B collections, original seed1 MADE and SnAr results remain separate. Negative results, unavailable heads, controller inactivity, failure records, source hashes, validation scripts and export manifests are retained.
