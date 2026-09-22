@@ -3188,8 +3188,31 @@
       "effectiveness_demonstrated": false,
       "preparatory_results_not_held_out_tests": true,
       "snapshots_overlap_not_additive": true
+    },
+    {
+      "snapshot_id": "discoveryworld_progress_20260922T104452_CST",
+      "observed_CST": "2026-09-22T10:44:52.819018+08:00",
+      "observed_UTC": "2026-09-22T02:44:52.819018+00:00",
+      "report": "results/discoveryworld/progress/20260922T104452_CST/report.md",
+      "snapshot": "results/discoveryworld/progress/20260922T104452_CST/snapshot.json",
+      "validation_script": "results/discoveryworld/progress/20260922T104452_CST/validate.py",
+      "valid_graph_records": 0,
+      "held_out_test_accepted": 1,
+      "held_out_test_expected": 2,
+      "held_out_Baseline_accepted": 1,
+      "held_out_Full_accepted": 0,
+      "completed_matched_pairs": 0,
+      "DW_bank_fidelity_layers_passed": 32,
+      "formal_attribution_qualification_complete": false,
+      "risk_NN_fit_and_calibration_complete": false,
+      "Full_ES_episodes_accepted": 0,
+      "full_method_complete": false,
+      "effectiveness_demonstrated": false,
+      "preparatory_results_not_held_out_tests": true,
+      "snapshots_overlap_not_additive": true,
+      "new_scientific_calls": 0
     }
   ],
-  "latest_discoveryworld_progress_export_id": "discoveryworld_progress_20260922T052401_CST",
+  "latest_discoveryworld_progress_export_id": "discoveryworld_progress_20260922T104452_CST",
   "latest_overview": "results/LATEST.md"
 }

@@ -1,0 +1,347 @@
+{
+  "schema": "discoveryworld_public_progress_v2",
+  "observed_CST": "2026-09-22T10:44:52.819018+08:00",
+  "observed_UTC": "2026-09-22T02:44:52.819018+00:00",
+  "model": "Qwen3.5-4B",
+  "scenario": "Proteomics",
+  "difficulty": "Normal",
+  "accepted_stage_completions": {
+    "held_out_Baseline": 1,
+    "held_out_Full": 0,
+    "completed_Baseline_Full_pairs": 0,
+    "risk_NN_fit_and_calibration": 0,
+    "Full_ES_episodes": 0,
+    "formally_qualified_graph_rows": 0
+  },
+  "held_out_Baseline": {
+    "job": {
+      "arm": "Baseline",
+      "stage": "test",
+      "model_key": "qwen35_4b",
+      "scenario": "Proteomics",
+      "difficulty": "Normal",
+      "world_seed": 3,
+      "policy_seed": 401,
+      "max_agent_attempts": 30,
+      "max_proposals_per_attempt": 1
+    },
+    "accepted": true,
+    "metrics": {
+      "F": -0.09666666666666668,
+      "J": -0.09666666666666668,
+      "agent_attempts": 30,
+      "completedSuccessfully": false,
+      "failure_count": 29,
+      "failure_fraction": 0.9666666666666667,
+      "scoreNormalized": 0.0
+    },
+    "original_events": {
+      "bytes": 255283,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/events.jsonl",
+      "sha256": "79752da20b25b1354ea3dd69c5cbb5e5770e01cd85d809741d06674b4f076cfe"
+    },
+    "original_summary": {
+      "bytes": 1267,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/summary.json",
+      "sha256": "45d8e852e8f70eb035286000f932a2a4fe7ece74662d38a9fd59e3c9f3383629"
+    }
+  },
+  "DW_domain_bank": {
+    "status": "complete",
+    "completed_CST": "2026-09-22T06:02:30.416261+08:00",
+    "completion_reobserved_CST": "2026-09-22T10:00:37.189979+08:00",
+    "passed_layers": 32,
+    "total_layers": 32,
+    "max_dev_fvu": 0.5,
+    "epochs_per_layer": 64,
+    "fit_world_seed": 0,
+    "fidelity_world_seed": 1,
+    "test_used": false,
+    "source_domain": "DiscoveryWorld Proteomics Normal world0 fit/world1 fidelity",
+    "new_DW_training_claimed": true,
+    "manifest": {
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/dw_bank_training_v1/runs/v1/bank/transcoder_manifest.json",
+      "sha256": "65e85674fcc56bada41c781331f75e6eee24a51e666c2e11ad8ca057cbf52a6a"
+    },
+    "original_builder_result": {
+      "bytes": 11213,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/dw_bank_training_v1/runs/v1/training/original_builder/result.json",
+      "sha256": "1f2402ca1b8d94cdaffe6a7bae4b281bbde0e02bc8719a7f9d92934f5cf82393"
+    },
+    "training_registration": {
+      "bytes": 127683,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/dw_bank_training_v1/registrations/training_v1/registry.json",
+      "sha256": "ad7064a51828594d4ad367a27811459c7df2e14a15f5b5049b7f43d1439e8fd9"
+    },
+    "original8prefix_qualification_still_required": true,
+    "acceptance_basis": "recorded original bank completion after manifest and recipe validation; no tensor re-audit in this export"
+  },
+  "finite_difference_diagnostic": {
+    "status": "diagnostic_complete",
+    "qualified": false,
+    "original_qualification_remains_failed": true,
+    "prefix_count": 1,
+    "required_formal_prefix_count": 8,
+    "prefix_role": "TRAIN",
+    "prefix_hash": "bab45369a67b48abd11de3914abc77d7ec49b5644ca5b9da5ad46c496b656e8f",
+    "epsilon_order": [
+      0.03,
+      0.01,
+      0.003,
+      0.001
+    ],
+    "rtol": 0.05,
+    "atol": 0.0001,
+    "checks": [
+      {
+        "ordinal": 0,
+        "epsilon": 0.03,
+        "analytical": 0.01641508750617504,
+        "finite_difference": 0.01633763313293457,
+        "absolute_error": 7.745437324047089e-05,
+        "original_tolerance": 0.0009207543753087521,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "token",
+        "target_kind": "score"
+      },
+      {
+        "ordinal": 1,
+        "epsilon": 0.03,
+        "analytical": 0.02251746691763401,
+        "finite_difference": 0.022526085376739502,
+        "absolute_error": 8.618459105491638e-06,
+        "original_tolerance": 0.0012258733458817006,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "feature",
+        "target_kind": "score"
+      },
+      {
+        "ordinal": 2,
+        "epsilon": 0.03,
+        "analytical": -1.8035281896591187,
+        "finite_difference": -1.802825927734375,
+        "absolute_error": 0.0007022619247436523,
+        "original_tolerance": 0.09027640948295594,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "decoder_bias",
+        "target_kind": "feature"
+      },
+      {
+        "ordinal": 3,
+        "epsilon": 0.03,
+        "analytical": 1.5541187524795532,
+        "finite_difference": 1.5541712443033855,
+        "absolute_error": 5.2491823832268025e-05,
+        "original_tolerance": 0.07780593762397767,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "omitted_features",
+        "target_kind": "feature"
+      },
+      {
+        "ordinal": 0,
+        "epsilon": 0.01,
+        "analytical": 0.01641508750617504,
+        "finite_difference": 0.01623481512069702,
+        "absolute_error": 0.00018027238547801971,
+        "original_tolerance": 0.0009207543753087521,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "token",
+        "target_kind": "score"
+      },
+      {
+        "ordinal": 1,
+        "epsilon": 0.01,
+        "analytical": 0.02251746691763401,
+        "finite_difference": 0.022476911544799805,
+        "absolute_error": 4.055537283420563e-05,
+        "original_tolerance": 0.0012258733458817006,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "feature",
+        "target_kind": "score"
+      },
+      {
+        "ordinal": 2,
+        "epsilon": 0.01,
+        "analytical": -1.8035281896591187,
+        "finite_difference": -1.8033504486083984,
+        "absolute_error": 0.00017774105072021484,
+        "original_tolerance": 0.09027640948295594,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "decoder_bias",
+        "target_kind": "feature"
+      },
+      {
+        "ordinal": 3,
+        "epsilon": 0.01,
+        "analytical": 1.5541187524795532,
+        "finite_difference": 1.5540122985839844,
+        "absolute_error": 0.00010645389556884766,
+        "original_tolerance": 0.07780593762397767,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "omitted_features",
+        "target_kind": "feature"
+      },
+      {
+        "ordinal": 0,
+        "epsilon": 0.003,
+        "analytical": 0.01641508750617504,
+        "finite_difference": 0.017116467157999676,
+        "absolute_error": 0.0007013796518246344,
+        "original_tolerance": 0.0009207543753087521,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "token",
+        "target_kind": "score"
+      },
+      {
+        "ordinal": 1,
+        "epsilon": 0.003,
+        "analytical": 0.02251746691763401,
+        "finite_difference": 0.022143125534057617,
+        "absolute_error": 0.00037434138357639313,
+        "original_tolerance": 0.0012258733458817006,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "feature",
+        "target_kind": "score"
+      },
+      {
+        "ordinal": 2,
+        "epsilon": 0.003,
+        "analytical": -1.8035281896591187,
+        "finite_difference": -1.8040339152018228,
+        "absolute_error": 0.0005057255427041163,
+        "original_tolerance": 0.09027640948295594,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "decoder_bias",
+        "target_kind": "feature"
+      },
+      {
+        "ordinal": 3,
+        "epsilon": 0.003,
+        "analytical": 1.5541187524795532,
+        "finite_difference": 1.5541712443033855,
+        "absolute_error": 5.2491823832268025e-05,
+        "original_tolerance": 0.07780593762397767,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "omitted_features",
+        "target_kind": "feature"
+      },
+      {
+        "ordinal": 0,
+        "epsilon": 0.001,
+        "analytical": 0.01641508750617504,
+        "finite_difference": 0.019431114196777344,
+        "absolute_error": 0.0030160266906023026,
+        "original_tolerance": 0.0009207543753087521,
+        "passes_original_numeric_tolerance": false,
+        "source_kind": "token",
+        "target_kind": "score"
+      },
+      {
+        "ordinal": 1,
+        "epsilon": 0.001,
+        "analytical": 0.02251746691763401,
+        "finite_difference": 0.022083520889282227,
+        "absolute_error": 0.00043394602835178375,
+        "original_tolerance": 0.0012258733458817006,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "feature",
+        "target_kind": "score"
+      },
+      {
+        "ordinal": 2,
+        "epsilon": 0.001,
+        "analytical": -1.8035281896591187,
+        "finite_difference": -1.804351806640625,
+        "absolute_error": 0.0008236169815063477,
+        "original_tolerance": 0.09027640948295594,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "decoder_bias",
+        "target_kind": "feature"
+      },
+      {
+        "ordinal": 3,
+        "epsilon": 0.001,
+        "analytical": 1.5541187524795532,
+        "finite_difference": 1.5540122985839844,
+        "absolute_error": 0.00010645389556884766,
+        "original_tolerance": 0.07780593762397767,
+        "passes_original_numeric_tolerance": true,
+        "source_kind": "omitted_features",
+        "target_kind": "feature"
+      }
+    ],
+    "registration": {
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/registrations/fd_diagnostic_v1/registry.json",
+      "sha256": "b62b43a7981bb6b0f41c91203dad519cabc2fd852abb62171d1ef026d7dc9d8a"
+    },
+    "test_used": false,
+    "training_updates": 0,
+    "environment_calls": 0,
+    "new_policy_generations": 0,
+    "capture_policy_forwards": 2,
+    "intervention_policy_forwards": 34,
+    "total_policy_forwards": 36,
+    "formal_qualification_demonstrated": false,
+    "new_V3_execution_included": false
+  },
+  "historical_MADE_bank_transfer": {
+    "layer0_fvu": 0.843559980392456,
+    "max_fvu": 0.5,
+    "passed": false,
+    "history_snapshot": {
+      "repo_path": "results/discoveryworld/progress/20260922T052401_CST/snapshot.json",
+      "sha256": "d9bf35653424c0e7308e48259b2efefc2fd6dd5f1324a1d60582f5fdcb0b9181"
+    }
+  },
+  "historical_preparation": {
+    "observed_CST": "2026-09-22T05:24:01.963647+08:00",
+    "Native_B100_episodes": 8,
+    "Native_action_attempts": 800,
+    "legacy_ES_only_B100_completed_episodes": 6,
+    "legacy_ES_only_B100_planned_episodes": 7,
+    "scope": "historical training/calibration/development snapshot; counts are not refreshed or pooled with held-out tests"
+  },
+  "planned_scope": {
+    "graph_rows": 160,
+    "fixed_qualification_prefixes": 8,
+    "Full_ES_B10_candidate_episodes": 4,
+    "Full_ES_B10_development_episodes_including_G0": 3,
+    "held_out_world_seed": 3,
+    "held_out_policy_seed": 401,
+    "held_out_attempt_budget": 30,
+    "planned_held_out_trajectories": 2,
+    "planned_matched_pairs": 1
+  },
+  "source_observations": [
+    {
+      "role": "Baseline result and FD diagnostic observation",
+      "observed_CST": "2026-09-22T10:44:52.819018+08:00",
+      "record_sha256": "f19ef73fc18dc97b3b421411f5c964caa980275b21b3d3c005a81db03d510aa8"
+    },
+    {
+      "role": "DW-bank completion receipt projection",
+      "record_sha256": "79ed9efe261fcfca14959e4397eced2bf56d848e26b703d6833360050fe81ca0"
+    },
+    {
+      "role": "DW-bank completion reobservation",
+      "observed_CST": "2026-09-22T10:00:37.189979+08:00",
+      "record_sha256": "6e4a142b65a3ac2b9bcac3aea502deacae5fa580bd34fdf7e57bdeade92a774b"
+    },
+    {
+      "role": "earlier graph qualification and downstream failure audit",
+      "observed_CST": "2026-09-22T10:12:33.061058+08:00",
+      "record_sha256": "66e1707cfc7becd6f9998381d3a5bcd198afa190e931d495b0813d447055aa19"
+    }
+  ],
+  "evidence_limits": [
+    "source observations are sequential",
+    "raw simulator acceptance not rerun",
+    "raw bank tensors not re-audited",
+    "completion counts do not imply no earlier launch attempt",
+    "diagnostic step-size pass is not formal eight-prefix qualification",
+    "no Full effect estimate without its held-out trajectory"
+  ],
+  "scientific_calls_for_export": 0,
+  "effectiveness_demonstrated": false,
+  "public_export_fingerprint": "04484e5c4f1bf3027cf58fe90bf4ea0b46aa37ce2232c66a232725b6f95c034e"
+}
