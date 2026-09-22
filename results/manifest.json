@@ -17,27 +17,33 @@
       "original_1079_results_unchanged": true,
       "path": "results/development/made_underperformance_20260923T012020_CST",
       "scope": "historical_development_metadata_selection_and_existing_evidence_audit"
+    },
+    {
+      "all_prior_results_unchanged": true,
+      "new_scientific_calls": 0,
+      "path": "results/discoveryworld/progress/20260923T054626_CST",
+      "scope": "TRAIN36_closed_zero_fit_support_result_and_CPUgateaudit_with_p332_partial_and_NoGraph_preflight_status"
     }
   ],
   "files": [
     {
-      "bytes": 23806,
-      "export_sha256": "86a9b9a755c7d268fc41ccb9afac2bcc53970e37af053a3edb01343822fc0d7c",
+      "bytes": 24548,
+      "export_sha256": "14d32f9f3af3086fc235ad66f4527910ca03f62012a7c47a97db7c4a8bcc3b16",
       "path": "README.md"
     },
     {
-      "bytes": 23000,
-      "export_sha256": "96bb19fcbb6e269775c83f901d27c2c762d82d2352e52e206d0a763becd01d50",
+      "bytes": 23745,
+      "export_sha256": "697332eaf8b7a6a06409bfac7423749b5bd9167219f49d667c1dbc777d01bcdd",
       "path": "docs/results.md"
     },
     {
-      "bytes": 10384,
-      "export_sha256": "136cdd8d94afd9dbf9be388ce84073817bfc4fbeaf6ab9ed392f837de6c9566d",
+      "bytes": 11118,
+      "export_sha256": "947d7de7ce7cbc9177988b4965829e65d920ec5a8e881380ce50aceec43d7018",
       "path": "results/LATEST.md"
     },
     {
-      "bytes": 19548,
-      "export_sha256": "a808db9b5d5c5483f017c0fa3fe0253c9de48ec28c35589c3eb61ff072f502e5",
+      "bytes": 20282,
+      "export_sha256": "d767ecf00eb6e708ff5154408f78e6bc1a4049512eed67ee25a62adbd2b1853f",
       "path": "results/README.md"
     },
     {
@@ -1269,6 +1275,51 @@
       "bytes": 13907,
       "export_sha256": "6af25fa967932882375af41ffc65fc757f921c97fde84a209b984bff9d076ed5",
       "path": "results/discoveryworld/progress/20260922T155718_CST/validate.py"
+    },
+    {
+      "bytes": 136,
+      "export_sha256": "bf7dfe88333348fb993400d3a3ac60c5e26c323bc84e1c4aa53c119f1f744b16",
+      "path": "results/discoveryworld/progress/20260923T054626_CST/TRAIN36_support.csv"
+    },
+    {
+      "bytes": 29176,
+      "export_sha256": "4f0dfbd6a2d3aeadee4e05b128cf12a030e75a71dc52f84efae47bc3cbc698af",
+      "path": "results/discoveryworld/progress/20260923T054626_CST/gate_audit.json"
+    },
+    {
+      "bytes": 3640,
+      "export_sha256": "feae1065012171dade92ed7e8e4f9c4bc7bd6809e13ceffd155ade45046d500a",
+      "path": "results/discoveryworld/progress/20260923T054626_CST/gate_audit_all36.csv"
+    },
+    {
+      "bytes": 1254,
+      "export_sha256": "a688565e1f71834186f19ad6e3e8f635192a90c387a97fd4f65e864f43a4a44d",
+      "path": "results/discoveryworld/progress/20260923T054626_CST/manifest.json"
+    },
+    {
+      "bytes": 451,
+      "export_sha256": "117f7a300563eb02825e90a35c719e27292645cd65383620f120a20e6a6d20e7",
+      "path": "results/discoveryworld/progress/20260923T054626_CST/p332_status.csv"
+    },
+    {
+      "bytes": 1827,
+      "export_sha256": "767bcdcdb9c46ce1d2d18ac5c4cc24d18c504f383734222d3e7160dd02ce63a0",
+      "path": "results/discoveryworld/progress/20260923T054626_CST/provenance.json"
+    },
+    {
+      "bytes": 6088,
+      "export_sha256": "856aedcb0ae9d3bd7c00ad031bdc3f2b360ea91f8da9b009ee0229176f64db40",
+      "path": "results/discoveryworld/progress/20260923T054626_CST/report.md"
+    },
+    {
+      "bytes": 10700,
+      "export_sha256": "8ef9e9c6e576f4e1241195ca86d776116051782e8fd083f9885d24e041dd1f56",
+      "path": "results/discoveryworld/progress/20260923T054626_CST/snapshot.json"
+    },
+    {
+      "bytes": 2769,
+      "export_sha256": "87a20d393e6cc6edfbf040ded22cef05a8a2a2c3f564604d62bff535fdd73f9b",
+      "path": "results/discoveryworld/progress/20260923T054626_CST/validate.py"
     },
     {
       "bytes": 126160,
@@ -6219,9 +6270,13 @@
   "latest_B50_hull_audit_observation_utc": "2026-09-19T21:45:12.035489+00:00",
   "latest_CPU_prediction_diagnostic_observation_utc": "2026-09-19T11:28:21.417572+00:00",
   "latest_DW_B30_closed_cohort_observation_CST": "2026-09-23T01:34:32+08:00",
+  "latest_DW_NoGraph_preflight_partial_observation_CST": "2026-09-23T05:46:26.620815+08:00",
   "latest_DW_SFT_behavior_observation_utc": "2026-09-22T15:13:29.398210+00:00",
+  "latest_DW_TRAIN36_support_observation_CST": "2026-09-23T05:34:15.140879+08:00",
   "latest_DW_fixed9_policy_observation_unix": 1790094120.792998,
+  "latest_DW_gate_audit_v2_observation_CST": "2026-09-23T05:42:25.670878+08:00",
   "latest_DW_original_test_pair_observation_CST": "2026-09-23T03:28:28.657255+08:00",
+  "latest_DW_p332_partial_observation_CST": "2026-09-23T05:35:44.039040+08:00",
   "latest_DW_risk_refresh_observation_utc": "2026-09-22T13:29:53.529933+00:00",
   "latest_DW_test_mechanism_observation_CST": "2026-09-23T04:43:23.412714+08:00",
   "latest_MADE_observation_utc": "2026-09-18T21:21:38.188817+00:00",

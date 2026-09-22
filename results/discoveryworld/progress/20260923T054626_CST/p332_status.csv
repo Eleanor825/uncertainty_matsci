@@ -1,0 +1,4 @@
+condition,status,planned_budget,observed_attempts,observed_failures,final_task_score,final_task_success,final_failure_fraction,final_F,RPC_closed,candidate_files,graph_files,graph_intents,graph_returns,partial_metrics_are_not_final
+Native1,closed,30,30,29,0.0,False,0.9666666666666667,-0.09666666666666668,True,30,0,0,0,False
+Common2,closed,30,30,9,0.125,False,0.3,0.095,True,60,60,60,60,False
+Internal_combined,pending,30,12,11,,,,,,26,25,26,25,True

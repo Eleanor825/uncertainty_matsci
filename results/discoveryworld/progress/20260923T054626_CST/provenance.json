@@ -1,0 +1,38 @@
+{
+  "existing_manifest_entries": 1239,
+  "full_history_rehash_performed": false,
+  "new_model_environment_graph_fit_calls": 0,
+  "previous_git_commit": "cd75b47e5fbf82d3f4459e40e3b14df587ee81da",
+  "previous_manifest_sha256": "0ddd0f19ec58b222137ee7eb0ce03130d8497a1d94660e14a4a845c56352f9e6",
+  "projection": "Explicit allowlisted scientific counts, metrics, status and relative-path/SHA references; no process, GPU UUID, hostname, authentication or raw-prompt fields",
+  "schema": "whitelist_only_fixed_receipt_publication_v1",
+  "source_artifacts_are_not_published": true,
+  "source_hashes_distinct_from_export_hashes": true,
+  "source_observers": [
+    {
+      "bytes": 14777,
+      "id": "TRAIN36_pipeline_snapshot",
+      "observer_source_sha256": "815e4f98fc9ed12b0bb4501f941ea3d093c982a9a768582b4b04e801aec63b22",
+      "sha256": "6e5932a1da3f67d1375c5bc09ffe1c6dfce27a81a5a391b6319f25ac36859959"
+    },
+    {
+      "bytes": 10769,
+      "id": "p332_partial_snapshot",
+      "observer_source_sha256": "731c23e8c8b195523aa31f560ce3bd8fb9a517547dc44ac7ec506b7f82276de2",
+      "sha256": "a31826ca41f08b5611fa136d6e851a4adbb79bf295427892f115886e00116b8f"
+    },
+    {
+      "bytes": 43262,
+      "id": "TRAIN36_gate_audit_v2",
+      "observer_source_sha256": "33c392b1caec41aad668919b9e6a37a0ecf8a856617b78262e053a43084a6768",
+      "sha256": "21fcdc53e9ff8b3ed006538436d1f0d6547d4f53e644a07dc8106196325a18bf"
+    },
+    {
+      "bytes": 5984,
+      "id": "NoGraph_p335_snapshot",
+      "observer_source_sha256": "02e6d18ee6e7f7127ed74047cbcc524b9699ed01ebfff2ab8e5d357775c947dd",
+      "sha256": "539e2bfdb4cc7e9b02a9cf609bd06b43d3c1b29732e0f21340ac72240ae2a550"
+    }
+  ],
+  "validation_scope": "New bundle and updated index entries only; existing committed manifest entries preserved; no full historical file rehash"
+}

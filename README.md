@@ -1,5 +1,7 @@
 # Uncertainty-guided materials discovery
 
+**Latest verified DiscoveryWorld status — September23,05:46 CST:** TRAIN36 is complete; the frozen support gate returned **0utility fits/0updates**. A separate CPU audit found2/4 positive-R8 roots below0.5, which is **not evidence of actual hard rejection**. P332 remains2/3closed: Native1 score0/29failures, Common2 score0.125/9failures, preselected Internal-combined12/30actions with11failures so far and no final score. NoGraph passed8qualification prefixes/3TRAIN checks and fully closed; p335 then loaded G0 and entered its own qualification with0environment actions/results. [Current report, all36 audit rows and exact statuses](results/discoveryworld/progress/20260923T054626_CST/report.md). Earlier results below remain unchanged.
+
 Latest completed policy-only comparison: **9/9 world2 B30 episodes**, three sampling seeds. Mean official task scores: Baseline 0.000000 / SFT 0.000000 / CreditSFT 0.000000. Error rates and behavior remain separate; this is not Internal/Full efficacy evidence. [All9 rows, paired variance and action audit](results/discoveryworld/development/20260923T002200_CST/report.md).
 
 Earlier p308 SFT/Native comparison: [both task scores remain0](results/discoveryworld/development/20260922T231329_CST/report.md). SFT has0 action errors versus29 for Native, but28/30 SFT actions are rotations. This graph-free Native1 comparison demonstrates no NN contribution or scientific-task success.

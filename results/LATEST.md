@@ -1,5 +1,7 @@
 # Latest verified experimental results
 
+**Latest verified DiscoveryWorld status — September23,05:46 CST:** TRAIN36 is complete; the frozen support gate returned **0utility fits/0updates**. A separate CPU audit found2/4 positive-R8 roots below0.5, which is **not evidence of actual hard rejection**. P332 remains2/3closed: Native1 score0/29failures, Common2 score0.125/9failures, preselected Internal-combined12/30actions with11failures so far and no final score. NoGraph passed8qualification prefixes/3TRAIN checks and fully closed; p335 then loaded G0 and entered its own qualification with0environment actions/results. [Current report, all36 audit rows and exact statuses](discoveryworld/progress/20260923T054626_CST/report.md). Earlier results below remain unchanged.
+
 MADE remains **1079 valid trajectories, 1 technical failure and 0 pending**. One original DiscoveryWorld Native–Full B30 test pair is now closed: Full scored **0.125 versus Native 0**, with **22 versus 29 failed actions**. Both task-success flags are false. This single world/seed result does not establish general improvement or isolate an NN/ES effect.
 
 ## MADE — Qwen3.5-4B

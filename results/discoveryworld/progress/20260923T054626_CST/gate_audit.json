@@ -1,0 +1,721 @@
+{
+  "by_original_source": {
+    "101": {
+      "coverage_among_supported_positive_roots": null,
+      "coverage_of_all_positive_roots": null,
+      "no_positive_denominator_is_not_zero_coverage": true,
+      "positive_R8_le_05_count": 0,
+      "positive_R8_roots": 0,
+      "positive_R8_roots_admitted": 0,
+      "positive_R8_roots_missing_risk": 0,
+      "positive_R8_roots_with_supported_risk": 0,
+      "windows": 12
+    },
+    "102": {
+      "coverage_among_supported_positive_roots": 0.5,
+      "coverage_of_all_positive_roots": 0.5,
+      "no_positive_denominator_is_not_zero_coverage": false,
+      "positive_R8_le_05_count": 2,
+      "positive_R8_roots": 4,
+      "positive_R8_roots_admitted": 2,
+      "positive_R8_roots_missing_risk": 0,
+      "positive_R8_roots_with_supported_risk": 4,
+      "windows": 12
+    },
+    "103": {
+      "coverage_among_supported_positive_roots": null,
+      "coverage_of_all_positive_roots": null,
+      "no_positive_denominator_is_not_zero_coverage": true,
+      "positive_R8_le_05_count": 0,
+      "positive_R8_roots": 0,
+      "positive_R8_roots_admitted": 0,
+      "positive_R8_roots_missing_risk": 0,
+      "positive_R8_roots_with_supported_risk": 0,
+      "windows": 12
+    }
+  },
+  "controller_or_threshold_modified": false,
+  "counts": {
+    "GPU_initialized": false,
+    "LLM_forward_calls": 0,
+    "NN_inference_batches": 1,
+    "NN_inference_rows": 36,
+    "NN_updates": 0,
+    "environment_calls": 0
+  },
+  "interpretation": "The <0.5 comparison is a hypothetical hard-cutoff coverage diagnostic. P335 uses0.5 to trigger an extra proposal, not to hard-reject the original action. R8 includes later continuation actions; positive return does not establish root-action success or necessity. Four positive windows are dependent anchors/replicas in a single source trajectory.",
+  "observed_CST": "2026-09-23T05:42:25.670878+08:00",
+  "observed_unix": 1790113345.6708784,
+  "original_failure_preserved": true,
+  "overall": {
+    "coverage_among_supported_positive_roots": 0.5,
+    "coverage_of_all_positive_roots": 0.5,
+    "no_positive_denominator_is_not_zero_coverage": false,
+    "positive_R8_le_05_count": 2,
+    "positive_R8_roots": 4,
+    "positive_R8_roots_admitted": 2,
+    "positive_R8_roots_missing_risk": 0,
+    "positive_R8_roots_with_supported_risk": 4,
+    "windows": 36
+  },
+  "registry": {
+    "bytes": 90250,
+    "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/train_gate_audit_v2/registrations/v2/registry.json",
+    "sha256": "8ba8a35b0d268bbb59fb20ebd8ac42bd035578ee44a552a8fd7a27fbbf512623"
+  },
+  "registry_commit": "8d2bbf4fcb1558a8a6932447d9bb8b882d6736b7",
+  "risk_model": "original frozen V4 Internal next-action-failure predictor, not the separate p335 NoGraph checkpoint",
+  "rows": [
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 217683,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a000/replicas/A/completion.json",
+        "sha256": "410b1acdbb4c6fb87610e625ba2a44f9c06d70e3656860a62db9f62783c519c8"
+      },
+      "frozen_V4_failure_probability": 0.021520763635635376,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a000-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 217683,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a000/replicas/B/completion.json",
+        "sha256": "96745bd1928335eb229d18f65b750a786bf8bf4ff0c47f0e99645e793716be18"
+      },
+      "frozen_V4_failure_probability": 0.021520763635635376,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a000-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 213007,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a005/replicas/A/completion.json",
+        "sha256": "ad2025df7d2394a969e095d44c425d785ecd1c09ca4df71a2d5b7fa9d782a21a"
+      },
+      "frozen_V4_failure_probability": 0.05061934143304825,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a005-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 213007,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a005/replicas/B/completion.json",
+        "sha256": "4aa6cdfe0df2d14d9d4655a5782c043511c2f2f1070f5c4acdc4a046801f9541"
+      },
+      "frozen_V4_failure_probability": 0.05061934143304825,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a005-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 211767,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a011/replicas/A/completion.json",
+        "sha256": "0878c0a01bf1a0c090e06b64353197f19b1809299b1edbb23aaa1eeac90b50dd"
+      },
+      "frozen_V4_failure_probability": 0.013140884228050709,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a011-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 215626,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a011/replicas/B/completion.json",
+        "sha256": "55fdd3b71db71315ebce33847f482c58e730f0e6bb6e61b440b3ca0aee2e6aeb"
+      },
+      "frozen_V4_failure_probability": 0.09211576730012894,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a011-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 212992,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a018/replicas/A/completion.json",
+        "sha256": "56f56b3b16408d1cb565ddc1dc1e977ee8e43d92874718957e1bde3d01838c7f"
+      },
+      "frozen_V4_failure_probability": 0.0501183457672596,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a018-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 210491,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a018/replicas/B/completion.json",
+        "sha256": "1e755e24674690da65d5f601be48e24841796f3ac52695e200b9f527d48e4d6d"
+      },
+      "frozen_V4_failure_probability": 0.0015303457621484995,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a018-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 226936,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a035/replicas/A/completion.json",
+        "sha256": "2f3b0b2f4e116c836182013a64f9b24f5559ed0e9f9db7704e2d0f0916d92b8a"
+      },
+      "frozen_V4_failure_probability": 0.9303165674209595,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a035-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 226936,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a035/replicas/B/completion.json",
+        "sha256": "b36c26cecb45eebc3c9d6cdb1f777d7eabb8f093f033c8ff578dc03f9b470af2"
+      },
+      "frozen_V4_failure_probability": 0.9303165674209595,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a035-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 227751,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a070/replicas/A/completion.json",
+        "sha256": "5bc2bf7eda646a6f327036b615e549e60e99660d8df5673fcd30405942549044"
+      },
+      "frozen_V4_failure_probability": 0.9726496338844299,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a070-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 227751,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p101-a070/replicas/B/completion.json",
+        "sha256": "bef1c6c0a9fdd11f6ce67ebc175a3e4773d8b12db190c3303f79225e4f567ab0"
+      },
+      "frozen_V4_failure_probability": 0.9726496338844299,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "101",
+      "window_id": "dw-observed-return-v1-w0-p101-a070-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 214304,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a000/replicas/A/completion.json",
+        "sha256": "3ab8f61986f09e507533180f5eab1f546c29511716f8bb931994adb3c60ad587"
+      },
+      "frozen_V4_failure_probability": 0.3843994140625,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a000-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 209216,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a000/replicas/B/completion.json",
+        "sha256": "f935ca728bca1915dc32c050b71470f3fee6f37b1dc4f05a020b0ae626a7338d"
+      },
+      "frozen_V4_failure_probability": 0.029920632019639015,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a000-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 224100,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a005/replicas/A/completion.json",
+        "sha256": "d085c5d202ef6a36b338dbe4903edfd22a266e8b7f4166207631b7fb7bab2423"
+      },
+      "frozen_V4_failure_probability": 0.9165308475494385,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a005-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 221251,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a005/replicas/B/completion.json",
+        "sha256": "d8d19bdd6a26cd569ddb6efed1f802083b7b1e72eabe63d791a14b88fe0666bc"
+      },
+      "frozen_V4_failure_probability": 0.04875565320253372,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a005-B"
+    },
+    {
+      "R8": 0.125,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 217774,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a011/replicas/A/completion.json",
+        "sha256": "973b5e3c749b42a15e6fdabb28d9811b41c4b4deae430d4078ae96c6f1ca95f6"
+      },
+      "frozen_V4_failure_probability": 0.7513903975486755,
+      "positive_R8": true,
+      "positive_task_gain": true,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a011-A"
+    },
+    {
+      "R8": 0.125,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 217791,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a011/replicas/B/completion.json",
+        "sha256": "126f77a08ee30b77bb2b04b78c75ceb7428eb2f310d56014753cb6dd727dcb94"
+      },
+      "frozen_V4_failure_probability": 0.7409842014312744,
+      "positive_R8": true,
+      "positive_task_gain": true,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a011-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 210630,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a018/replicas/A/completion.json",
+        "sha256": "14f4ec9d494bca11d204db93f5ce32eb39e4a2f8fed79f6c9d98f62bf0f60bf8"
+      },
+      "frozen_V4_failure_probability": 0.015250355005264282,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a018-A"
+    },
+    {
+      "R8": 0.125,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 209511,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a018/replicas/B/completion.json",
+        "sha256": "3f16434fec9598fc0076c5be4fa491623bb5b25f887ac1247e78705dc14f5c83"
+      },
+      "frozen_V4_failure_probability": 0.011752024292945862,
+      "positive_R8": true,
+      "positive_task_gain": true,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a018-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 212347,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a035/replicas/A/completion.json",
+        "sha256": "cdf3ee26b2895e960c017661f3583cbe335ed4c2f894c7445fa8d565dfac6105"
+      },
+      "frozen_V4_failure_probability": 0.023748457431793213,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a035-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 212009,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a035/replicas/B/completion.json",
+        "sha256": "9ab57d90474f11679dbddec0f0831be858a62ce92931e7b9dca6e65822c5eb97"
+      },
+      "frozen_V4_failure_probability": 0.03049652650952339,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a035-B"
+    },
+    {
+      "R8": 0.125,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 216322,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a070/replicas/A/completion.json",
+        "sha256": "d2551058f773e1586d67c61d98c73182e25e786fc01bf635b7b0d3e4a62aafbd"
+      },
+      "frozen_V4_failure_probability": 0.19979771971702576,
+      "positive_R8": true,
+      "positive_task_gain": true,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a070-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 214082,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p102-a070/replicas/B/completion.json",
+        "sha256": "ea7721a8d4cf43e9849018248af6ba4e1699acf4dea65910c4b810c25c44a507"
+      },
+      "frozen_V4_failure_probability": 0.03213029354810715,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "102",
+      "window_id": "dw-observed-return-v1-w0-p102-a070-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 203588,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a000/replicas/A/completion.json",
+        "sha256": "875c845eebbeb039eb6d5321755eab982781dac311ad4696797d83a916fda6b2"
+      },
+      "frozen_V4_failure_probability": 0.029920632019639015,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a000-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": true,
+      "completion_source": {
+        "bytes": 214796,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a000/replicas/B/completion.json",
+        "sha256": "7c15699c6129e5e5518435cbf41f7de0e56469e84f44499048dde5a465cbda0a"
+      },
+      "frozen_V4_failure_probability": 0.021520763635635376,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a000-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 226951,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a005/replicas/A/completion.json",
+        "sha256": "9c9b3d32f510a38f097d4eba75f862d6ab793f7a966e64bb5ab0fbedb30ac18c"
+      },
+      "frozen_V4_failure_probability": 0.989933431148529,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a005-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 226951,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a005/replicas/B/completion.json",
+        "sha256": "ee00b3fb235506a0acbd64126641ced30f21be9c6f1934e1f5ac7a77ea83002f"
+      },
+      "frozen_V4_failure_probability": 0.989933431148529,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a005-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 227141,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a011/replicas/A/completion.json",
+        "sha256": "94c91af81601ce0b44a35716e78f26fb9be34193f08019ee13fc84a721819c61"
+      },
+      "frozen_V4_failure_probability": 0.9982175230979919,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a011-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 227141,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a011/replicas/B/completion.json",
+        "sha256": "3d8ecfe50da934dc42a93426c652a7b2c94211adc95138010cbdd5cd8c0311d9"
+      },
+      "frozen_V4_failure_probability": 0.9982175230979919,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a011-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 227176,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a018/replicas/A/completion.json",
+        "sha256": "4accff483206c533d32a847d63c8f117aac1b456b842853021c81e4d79ce8102"
+      },
+      "frozen_V4_failure_probability": 0.9853323101997375,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a018-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 227176,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a018/replicas/B/completion.json",
+        "sha256": "b4d9198c18d6d69ee8f3e238f6978b0057b6515f0f8749fd5072966129c9567e"
+      },
+      "frozen_V4_failure_probability": 0.9853323101997375,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a018-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 227181,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a035/replicas/A/completion.json",
+        "sha256": "9422301f5451eef45ac3465f7dff23e0b900da3f3b6351ea7c7e7f78ac926bc1"
+      },
+      "frozen_V4_failure_probability": 0.9983343482017517,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a035-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 227181,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a035/replicas/B/completion.json",
+        "sha256": "57db497831b295f8bb553b81199b37a6d527938b82477b5a8447597181f70ce1"
+      },
+      "frozen_V4_failure_probability": 0.9983343482017517,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a035-B"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 226509,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a070/replicas/A/completion.json",
+        "sha256": "2e08f51fc9d02b396469f7353c9b20ef56bf474bce25dfafd6c7e634ab6d19a7"
+      },
+      "frozen_V4_failure_probability": 0.9831116795539856,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "A",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a070-A"
+    },
+    {
+      "R8": 0.0,
+      "actual_horizon": 8,
+      "at_0_5": false,
+      "below_0_5": false,
+      "completion_source": {
+        "bytes": 227452,
+        "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/observed_return_collection_v1/runs/v1/anchors/dw-observed-return-v1-w0-p103-a070/replicas/B/completion.json",
+        "sha256": "6521b450d0adc20fb55b2866051c6e7d7ed703d033dbaa959051f1a9fb524ffa"
+      },
+      "frozen_V4_failure_probability": 0.9602997303009033,
+      "positive_R8": false,
+      "positive_task_gain": false,
+      "replica": "B",
+      "risk_supported": true,
+      "source_episode": "103",
+      "window_id": "dw-observed-return-v1-w0-p103-a070-B"
+    }
+  ],
+  "schema": "dw_TRAIN36_frozen_V4_failure_vs_observed_R8_public_v1",
+  "test_or_dev_outcomes_read": false,
+  "unexecuted_action_labels_created": false
+}
