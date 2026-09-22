@@ -1293,7 +1293,7 @@
     },
     {
       "bytes": 1254,
-      "export_sha256": "a688565e1f71834186f19ad6e3e8f635192a90c387a97fd4f65e864f43a4a44d",
+      "export_sha256": "f49482e6e07d4560cc5617ad584ae0c69614d250fe762642e5e147f425d9fbb7",
       "path": "results/discoveryworld/progress/20260923T054626_CST/manifest.json"
     },
     {
@@ -1307,8 +1307,8 @@
       "path": "results/discoveryworld/progress/20260923T054626_CST/provenance.json"
     },
     {
-      "bytes": 6088,
-      "export_sha256": "856aedcb0ae9d3bd7c00ad031bdc3f2b360ea91f8da9b009ee0229176f64db40",
+      "bytes": 6096,
+      "export_sha256": "faf549b32ed02a22311616b2aa6863391d2cd7fe45d748124a7c966a9eb7cbfd",
       "path": "results/discoveryworld/progress/20260923T054626_CST/report.md"
     },
     {

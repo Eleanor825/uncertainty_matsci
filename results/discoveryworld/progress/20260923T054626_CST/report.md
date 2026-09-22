@@ -10,7 +10,7 @@ Verified through **September23,05:46:26 CST**, with each component timestamp ret
 | policy102 |12/12|4|
 | policy103 |12/12|0|
 
-All36 independent windows and their original resource are closed. Actual work:36 root generations +252 continuation generations,36 root graphs,288 executed window attempts,834 prefix-replay actions and36 bootstrap ticks/environment initializations. These are training windows, not36 independent worlds or test episodes.
+All36 separately executed windows and their original resource are closed. Actual work:36 root generations +252 continuation generations,36 root graphs,288 executed window attempts,834 prefix-replay actions and36 bootstrap ticks/environment initializations. These are training windows, not36 independent worlds or test episodes.
 
 Positive task gain is supported by only **one** original source trajectory. The fixed gate required at least two; additionally, the leave-source102-out training fold has no target variation after duplicate-input purging. The registered result is `not_run_support`. It is a valid fail-closed data-support result, **not a failed fitted NN or evidence that a trained utility model is ineffective**. All optimizer/NN-forward/NN-backward counts are0. The gate, labels and split were not loosened, and no utility-online result exists.
 
