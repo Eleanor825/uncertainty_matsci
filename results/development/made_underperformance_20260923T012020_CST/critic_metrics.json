@@ -1,0 +1,172 @@
+{
+  "original_fit": {
+    "dev": {
+      "calibrated": {
+        "auroc": 0.516260162601626,
+        "brier": 0.25000646955214473,
+        "ece": 0.018365029110965977,
+        "error_auprc": 0.5447206388515821,
+        "error_rate": 0.5060240963855421,
+        "n": 83,
+        "nll": 0.6931601196443504,
+        "overconfident_error_rate_p_le_0_1": 0.0,
+        "risk_coverage_auc": 0.469543748698831
+      },
+      "chemistry": [
+        "Al-Pd-Sm"
+      ],
+      "class_counts": {
+        "0": 41,
+        "1": 42
+      },
+      "constant_half": {
+        "auroc": 0.5,
+        "brier": 0.25,
+        "ece": 0.0060240963855421326,
+        "error_auprc": 0.5060240963855421,
+        "error_rate": 0.5060240963855421,
+        "n": 83,
+        "nll": 0.6931471805599454,
+        "overconfident_error_rate_p_le_0_1": 0.0,
+        "risk_coverage_auc": 0.5167344752269633
+      },
+      "episodes": 1,
+      "rows": 83,
+      "uncalibrated": {
+        "auroc": 0.516260162601626,
+        "brier": 0.25078376818631365,
+        "ece": 0.034033500468423766,
+        "error_auprc": 0.5447206388515821,
+        "error_rate": 0.5060240963855421,
+        "n": 83,
+        "nll": 0.6947142429313427,
+        "overconfident_error_rate_p_le_0_1": 0.0,
+        "risk_coverage_auc": 0.469543748698831
+      }
+    },
+    "train": {
+      "calibrated": {
+        "auroc": 0.5952577660277594,
+        "brier": 0.24995370878579332,
+        "ece": 0.19624168636855815,
+        "error_auprc": 0.7658712103008516,
+        "error_rate": 0.6962457337883959,
+        "n": 293,
+        "nll": 0.6930545980026316,
+        "overconfident_error_rate_p_le_0_1": 0.0,
+        "risk_coverage_auc": 0.6197839691709351
+      },
+      "chemistry": [
+        "Al-Au-Hf"
+      ],
+      "class_counts": {
+        "0": 89,
+        "1": 204
+      },
+      "constant_half": {
+        "auroc": 0.5,
+        "brier": 0.25,
+        "ece": 0.19624573378839594,
+        "error_auprc": 0.6962457337883959,
+        "error_rate": 0.6962457337883959,
+        "n": 293,
+        "nll": 0.6931471805599453,
+        "overconfident_error_rate_p_le_0_1": 0.0,
+        "risk_coverage_auc": 0.6263196564728936
+      },
+      "episodes": 3,
+      "rows": 293,
+      "uncalibrated": {
+        "auroc": 0.5952302269222296,
+        "brier": 0.24789246186662858,
+        "ece": 0.196038611789,
+        "error_auprc": 0.7658552714904449,
+        "error_rate": 0.6962457337883959,
+        "n": 293,
+        "nll": 0.688913443902366,
+        "overconfident_error_rate_p_le_0_1": 0.0,
+        "risk_coverage_auc": 0.6197839691709351
+      }
+    }
+  },
+  "original_scalar": {
+    "episode_weighted_not_class_balanced_BCE": true,
+    "history": [
+      {
+        "development_bce": 0.6947143077850342,
+        "epoch": 1
+      },
+      {
+        "development_bce": 0.7001041769981384,
+        "epoch": 2
+      },
+      {
+        "development_bce": 0.7102186679840088,
+        "epoch": 3
+      },
+      {
+        "development_bce": 0.726910412311554,
+        "epoch": 4
+      },
+      {
+        "development_bce": 0.7515510320663452,
+        "epoch": 5
+      },
+      {
+        "development_bce": 0.7784110307693481,
+        "epoch": 6
+      },
+      {
+        "development_bce": 0.796707034111023,
+        "epoch": 7
+      },
+      {
+        "development_bce": 0.8026577234268188,
+        "epoch": 8
+      },
+      {
+        "development_bce": 0.8008326292037964,
+        "epoch": 9
+      },
+      {
+        "development_bce": 0.7902302742004395,
+        "epoch": 10
+      },
+      {
+        "development_bce": 0.7653149962425232,
+        "epoch": 11
+      },
+      {
+        "development_bce": 0.7454389929771423,
+        "epoch": 12
+      },
+      {
+        "development_bce": 0.7384962439537048,
+        "epoch": 13
+      },
+      {
+        "development_bce": 0.7387688159942627,
+        "epoch": 14
+      },
+      {
+        "development_bce": 0.743820309638977,
+        "epoch": 15
+      },
+      {
+        "development_bce": 0.7473727464675903,
+        "epoch": 16
+      }
+    ],
+    "optimization_steps_retained": 2,
+    "raw_features": 298,
+    "raw_logit_required_for_p_ge_0_6": 22.137504394445852,
+    "selected_epoch": 1,
+    "temperature": 54.5978037363953,
+    "temperature_log_distance_to_upper_bound": 6.342666316605516e-06,
+    "temperature_upper_bound": 54.598150033144236,
+    "trainable_parameters": 42625,
+    "transformed_features": 599
+  },
+  "schema": "made_original_scalar_training_whitelist_v1",
+  "source_artifact_sha256": "3912156546805b7ccc732cfbf61c67088746ecc4f645f4d27c71287d05aed447"
+}

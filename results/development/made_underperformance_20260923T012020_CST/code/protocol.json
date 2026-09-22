@@ -1,0 +1,29 @@
+{
+  "schema": "made_incumbent_dev_selection_protocol_v1",
+  "scope": "retrospective metadata-only audit; no live selection activation",
+  "historical_projection": {
+    "project_relative_path": "technical_not_main/G0_development_result_20260919T200818_CST/comparison.json",
+    "sha256": "09fd7ed68d68407c54212be0446c1595b03308759377cab5b169852e7c2a731f"
+  },
+  "candidate_generations": [0, 1, 2],
+  "environment_seeds": [4272278902],
+  "development_task": "Al-Pd-Sm",
+  "candidate_ORB_budget_per_result": 10,
+  "score": "equal-seed mean official AUDC",
+  "tie": "earliest generation, retaining G0 when tied",
+  "original_G1_G2_rule": "max(dev_curve, key=lambda r: (r['AUDC'], -r['generation']))",
+  "original_source": {
+    "project_relative_path": "benchmark_extensions/made_support_aware_method_20260919/full_es_training.py",
+    "sha256": "6022bd57c0ab70f59ac1521e86b1858daa02ce28076d970293779227c67b31c9",
+    "line": 375
+  },
+  "incomplete": "selection_incomplete; no measured winner; deployment remains G0",
+  "test_outcomes_read_by_selector": false,
+  "new_model_calls": 0,
+  "new_environment_calls": 0,
+  "new_training_updates": 0,
+  "old_results_modified": false,
+  "historical_dev_seed_previously_used": true,
+  "historical_raw_RPC_revalidated": false,
+  "new_efficacy_claim": false
+}

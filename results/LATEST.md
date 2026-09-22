@@ -28,6 +28,8 @@ The completed matched results do **not** show an overall Full-method improvement
 
 Variance is across evaluation seeds within the same system, budget and arm (sample variance, ddof=1). Missing/failed runs stay blank; n<2 variance is unavailable and incomplete seed sets are marked. These are not repeated training runs.
 
+A new [historical MADE cause audit and incumbent-selection replay](development/made_underperformance_20260923T012020_CST/report.md) preserves these 1079 results. On one previously used development seed, official AUDC is G0 **0.68**, G1 **0.62**, G2 **0.64**: the original G1/G2-only rule selects G2, while the implemented candidate rule retaining G0 selects G0. Original scalar-risk development AUROC is **0.516260**; its calibration compression and inactive threshold are distinct from causal evidence. This adds **no held-out experiment, model/environment call or production replacement**, and does not establish superiority to Native.
+
 ## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
 
 Latest completed policy-only comparison: **9/9 world2 B30 episodes**, three sampling seeds. Mean official task scores: Baseline 0.000000 / SFT 0.000000 / CreditSFT 0.000000. Error rates and behavior remain separate; this is not Internal/Full efficacy evidence. [Complete fixed9 report](discoveryworld/development/20260923T002200_CST/report.md).

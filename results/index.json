@@ -773,6 +773,29 @@
       "summary": "results/development/G0_comparison/20260919T200818_CST/comparison.json",
       "task": "Al-Pd-Sm",
       "validation_script": "results/development/G0_comparison/20260919T200818_CST/recompute.py"
+    },
+    {
+      "G0_G1_G2_AUDC": [
+        0.68,
+        0.62,
+        0.64
+      ],
+      "causal_or_Native_superiority_claim": false,
+      "critic_audit": "results/development/made_underperformance_20260923T012020_CST/critic_audit.md",
+      "export_id": "made_underperformance_20260923T012020_CST",
+      "historical_dev_only_selection_replay": true,
+      "incumbent_selected_generation": 0,
+      "new_heldout_experiments": 0,
+      "new_scientific_calls_for_export": 0,
+      "original_MADE_accepted": 1079,
+      "original_selected_generation": 2,
+      "original_technical_failures": 1,
+      "previously_used_dev_seeds": 1,
+      "production_model_activated": false,
+      "report": "results/development/made_underperformance_20260923T012020_CST/report.md",
+      "selection": "results/development/made_underperformance_20260923T012020_CST/selection.json",
+      "selector_source": "results/development/made_underperformance_20260923T012020_CST/code/selector.py",
+      "validation_script": "results/development/made_underperformance_20260923T012020_CST/validate.py"
     }
   ],
   "discoveryworld_development_exports": [
@@ -1658,6 +1681,7 @@
     }
   ],
   "latest_B50_mechanism_audit_export_id": "original_seed1_B50_hull_mechanisms_20260920T054512_CST",
+  "latest_MADE_underperformance_audit_export_id": "made_underperformance_20260923T012020_CST",
   "latest_component_study_export_id": "made_core5_complete_20260919T212712_CST",
   "latest_discoveryworld_development_export_id": "discoveryworld_matched_pair_20260922T192407_CST",
   "latest_discoveryworld_diagnostic_export_id": "discoveryworld_closed_risk_audit_20260922T184705_CST",

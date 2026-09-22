@@ -1,0 +1,15 @@
+{
+  "exact_selector_source_bytes_preserved": true,
+  "local_stdlib_tests_passed": 10,
+  "original_dev_projection": {
+    "path": "results/development/G0_comparison/20260919T200818_CST/comparison.json",
+    "sha256": "09fd7ed68d68407c54212be0446c1595b03308759377cab5b169852e7c2a731f"
+  },
+  "original_selection_output_sha256": "47fbc243d7e877c0ed22d3fa0b694d0a67a7a47980432be32d024817bab8186c",
+  "original_tinygit_commit": "61a5877cace4585f52ff0a5263e136d70a517141",
+  "production_sources_or_results_modified": false,
+  "protocol_sha256": "7eead3d5abecf6d7468c3c6abedc8a2f5b634360934bc8cc766554c12703eaac",
+  "schema": "made_safe_incumbent_public_source_v1",
+  "selection_is_metadata_only": true,
+  "selector_source_sha256": "f94ae53327e00a78cd40be2272f3e2bf4b657183a0f045fd2e66be1d7260845f"
+}

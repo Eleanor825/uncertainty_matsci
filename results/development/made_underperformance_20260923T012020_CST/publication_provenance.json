@@ -1,0 +1,11 @@
+{
+  "new_scientific_calls_for_publication": 0,
+  "original_1079_results_unchanged": true,
+  "original_MADE_result_asof": "2026-09-22T10:18:50+08:00",
+  "original_dev_comparison": "2026-09-19T20:08:18+08:00",
+  "prepared_CST": "2026-09-23T01:20:20+08:00",
+  "raw_prompts_credentials_hostnames_process_ids_published": false,
+  "research_agent_source_branch_overwritten": false,
+  "schema": "made_underperformance_additive_publication_v1",
+  "scope": "historical evidence audit and development-only metadata selector replay"
+}

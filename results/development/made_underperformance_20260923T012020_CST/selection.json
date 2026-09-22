@@ -1,0 +1,272 @@
+{
+  "status": "complete_metadata_selection",
+  "original_G1_G2_ranking": [
+    {
+      "generation": 2,
+      "mean_AUDC": 0.64,
+      "seed_scores": [
+        {
+          "seed": 4272278902,
+          "AUDC": 0.64
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "mean_AUDC": 0.62,
+      "seed_scores": [
+        {
+          "seed": 4272278902,
+          "AUDC": 0.62
+        }
+      ]
+    }
+  ],
+  "incumbent_G0_G1_G2_ranking": [
+    {
+      "generation": 0,
+      "mean_AUDC": 0.68,
+      "seed_scores": [
+        {
+          "seed": 4272278902,
+          "AUDC": 0.68
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "mean_AUDC": 0.64,
+      "seed_scores": [
+        {
+          "seed": 4272278902,
+          "AUDC": 0.64
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "mean_AUDC": 0.62,
+      "seed_scores": [
+        {
+          "seed": 4272278902,
+          "AUDC": 0.62
+        }
+      ]
+    }
+  ],
+  "original_selected_generation": 2,
+  "selected_generation": 0,
+  "selected_dev_AUDC": 0.68,
+  "change_in_selected_dev_AUDC": 0.040000000000000036,
+  "equal_seed_weighting": true,
+  "tie_break": "smaller_generation",
+  "all_observed_rows": [
+    {
+      "generation": 0,
+      "seed": 4272278902,
+      "split": "dev",
+      "metric_name": "AUDC",
+      "AUDC": 0.68,
+      "status": "accepted",
+      "source_role": "SHA_verified_historical_dev_projection",
+      "original_output_references": {
+        "original_result": {
+          "path": "project-artifact:benchmark_extensions/made_support_g0_dev_diagnostic_20260919/runs/v1/attempt/result.json",
+          "sha256": "cd954e3c5490993fd31be311bc3a96a6aaa050484bcdb5d522d26a0e4a136f6c",
+          "bytes": 20538,
+          "mtime": 1789819225.0
+        },
+        "completion": {
+          "path": "project-artifact:benchmark_extensions/made_support_g0_dev_diagnostic_20260919/runs/v1/completion.json",
+          "sha256": "3939c581c65c8470814fb75c9890cc3565c7f0b50d661cc6b6e4c9b8fdcc7a23",
+          "bytes": 553,
+          "mtime": 1789819225.0
+        }
+      },
+      "physical_evidence": {
+        "costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 2272,
+          "graph_seconds": 1244.6739735733718,
+          "initialization_oracle_attempts": 26,
+          "initialization_wall_seconds": 67.29152601398528,
+          "llm_calls": 22,
+          "prompt_tokens": 40653,
+          "rpc_attempts": 44,
+          "rpc_calls": 46,
+          "rpc_elapsed_seconds": 130.54200434684753,
+          "step_attempts": 10,
+          "surrogate_oracle_attempts": 46,
+          "tool_attempts": 22,
+          "wall_seconds": 1575.4122749343514
+        },
+        "environment_seeds": [
+          4272278902
+        ],
+        "episode_metric_values": [
+          0.68
+        ],
+        "metric_name": "AUDC",
+        "metric_value": 0.68,
+        "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+        "reward_is_llm_self_score": false
+      }
+    },
+    {
+      "generation": 1,
+      "seed": 4272278902,
+      "split": "dev",
+      "metric_name": "AUDC",
+      "AUDC": 0.62,
+      "status": "accepted",
+      "source_role": "SHA_verified_historical_dev_projection",
+      "original_output_references": {
+        "AUDC": 0.62,
+        "RPC": {
+          "bytes": 1750145,
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5/rpc/rpc.jsonl",
+          "sha256": "8e080a7eb4f5bc56a03b3b843eae41b0bf99dc3cf4e77ab0c31aa0a750ddda3e"
+        },
+        "decisions": {
+          "bytes": 2254962,
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5/decisions.jsonl",
+          "sha256": "8302f6ae6c7efb664e006e219a8b7239ba96a04fbfbd20c0b01c7217850ef616"
+        },
+        "generation": 1,
+        "new_calls": 0,
+        "oracle_journal": {
+          "bytes": 84518,
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5/environment/oracle_attempts.jsonl",
+          "sha256": "169308dd04e6aa0c839e7a52b52fb760560d8acb10b970082f30d42702c9fa04"
+        },
+        "raw_job": {
+          "bytes": 2629,
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5/job.json",
+          "sha256": "6c8a08d8d39e5efb788954a1941a65a3301af767176aea214516a421df30154e"
+        },
+        "request_id": "75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5",
+        "role": "existing_original_physical_identity_readonly_reference",
+        "source_job": {
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/jobs/75fa51f112a3d11df17a5f1ac52afac7163683413be5e0c8380c4e234626a0b5.json",
+          "sha256": "2540e712887bb6d43917e6671fd3795e0cfcddf3e7014dafb15a985072d84bfd"
+        }
+      },
+      "physical_evidence": {
+        "costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 2451,
+          "graph_seconds": 1152.7630269667134,
+          "initialization_oracle_attempts": 26,
+          "initialization_wall_seconds": 72.19864633586258,
+          "llm_calls": 18,
+          "prompt_tokens": 38955,
+          "rpc_attempts": 34,
+          "rpc_calls": 36,
+          "rpc_elapsed_seconds": 105.64199590682983,
+          "step_attempts": 10,
+          "tool_attempts": 17,
+          "wall_seconds": 1475.9937535570934
+        },
+        "environment_seeds": [
+          4272278902
+        ],
+        "episode_metric_values": [
+          0.62
+        ],
+        "metric_name": "AUDC",
+        "metric_value": 0.62,
+        "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+        "reward_is_llm_self_score": false
+      }
+    },
+    {
+      "generation": 2,
+      "seed": 4272278902,
+      "split": "dev",
+      "metric_name": "AUDC",
+      "AUDC": 0.64,
+      "status": "accepted",
+      "source_role": "SHA_verified_historical_dev_projection",
+      "original_output_references": {
+        "AUDC": 0.64,
+        "RPC": {
+          "bytes": 1519822,
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44/rpc/rpc.jsonl",
+          "sha256": "e1f330ef4136922e6545b13a6a0b615b3c9ad22afcf8034a16ae228db0809d87"
+        },
+        "decisions": {
+          "bytes": 1956498,
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44/decisions.jsonl",
+          "sha256": "1cf8a7cc786a3c6cde4f3bc289389b6055ee6688babc48f7d8e5afa3687770ed"
+        },
+        "generation": 2,
+        "new_calls": 0,
+        "oracle_journal": {
+          "bytes": 84511,
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44/environment/oracle_attempts.jsonl",
+          "sha256": "ec05b05665889a6d8c35a002333f4d4edda0c036f4ad66db7f23d11b7b085e12"
+        },
+        "raw_job": {
+          "bytes": 2629,
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/rollouts/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44/job.json",
+          "sha256": "c0a57eba69752fcf8bd4cf0236c0ff4111d66de8113cc5d0c598b490e692cb87"
+        },
+        "request_id": "b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44",
+        "role": "existing_original_physical_identity_readonly_reference",
+        "source_job": {
+          "path": "project-artifact:evaluation_workspaces/made_support_aware_method_v1/experiments/full_es/run/jobs/b48cf2a7bc8886abcbd1062a608e2a662f795a3e31d044e4e9f0edf071009c44.json",
+          "sha256": "4775019199e3d81987f882b383fd6ca6564311cf4bd7f8a338f274d5092bb1c9"
+        }
+      },
+      "physical_evidence": {
+        "costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 2024,
+          "graph_seconds": 1057.722162344493,
+          "initialization_oracle_attempts": 26,
+          "initialization_wall_seconds": 74.71768242307007,
+          "llm_calls": 15,
+          "prompt_tokens": 34400,
+          "rpc_attempts": 30,
+          "rpc_calls": 32,
+          "rpc_elapsed_seconds": 105.8550033569336,
+          "step_attempts": 10,
+          "tool_attempts": 15,
+          "wall_seconds": 1331.3061985056847
+        },
+        "environment_seeds": [
+          4272278902
+        ],
+        "episode_metric_values": [
+          0.64
+        ],
+        "metric_name": "AUDC",
+        "metric_value": 0.64,
+        "official_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+        "reward_is_llm_self_score": false
+      }
+    }
+  ],
+  "schema": "made_safe_incumbent_selection_audit_v1",
+  "protocol_commit": "61a5877cace4585f52ff0a5263e136d70a517141",
+  "protocol_sha256": "7eead3d5abecf6d7468c3c6abedc8a2f5b634360934bc8cc766554c12703eaac",
+  "selector_sha256": "f94ae53327e00a78cd40be2272f3e2bf4b657183a0f045fd2e66be1d7260845f",
+  "historical_projection": {
+    "project_relative_path": "technical_not_main/G0_development_result_20260919T200818_CST/comparison.json",
+    "sha256": "09fd7ed68d68407c54212be0446c1595b03308759377cab5b169852e7c2a731f",
+    "bytes": 8878
+  },
+  "original_raw_references_reread": false,
+  "metadata_projection_only": true,
+  "original_G0_state_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516",
+  "original_selection_rewritten": false,
+  "eligible_for_live_model_activation": false,
+  "test_outcomes_read_by_this_audit": false,
+  "new_model_calls": 0,
+  "new_environment_calls": 0,
+  "new_training_updates": 0,
+  "interpretation": "One previously used development seed; retrospective rule audit, not independent efficacy or deployment."
+}
