@@ -1,6 +1,6 @@
 # Latest verified experimental results
 
-MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September 22, 10:18 CST). DiscoveryWorld now has a **completed same-world/seed operating-point pair**, verified at 18:59: both Q75 and fixed-0.5 Posterior05 failed all 10 actions and scored 0. Lowering the threshold increased candidate graph calls from 13 to 19 without changing the executed action sequence. This is frozen-G0 development, not a Full/Native test; earlier snapshots remain unchanged.
+MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September 22, 10:18 CST). DiscoveryWorld now has two completed, separate development pairs. The newest matched-proposal pair at world 2 / policy seed 305 gives Common2 versus Internal2 **1 versus 2 failures, score 0 versus 0, and fitness −0.01 versus −0.02**. Both used 20 candidate graphs. This negative mechanism result is not a Native/Full test or a p304 comparison.
 
 ## MADE — Qwen3.5-4B
 
@@ -30,6 +30,10 @@ Variance is across evaluation seeds within the same system, budget and arm (samp
 
 ## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
 
+**The fixed-two-proposal Common2/Internal2 pair is now complete**, separately at world 2 / policy seed 305 / B10. Common2 has 1 failed and 9 successful actions; Internal2 has 2 failed and 8 successful actions. Both score 0; fitness is −0.01 versus −0.02. Candidate graph returns are 20 each. Internal-risk ranking therefore gives no observed improvement in this one matched case. This is not a general effect estimate; ten actions within an episode are dependent. The pair has zero parameter updates and is not Native versus Full. Common2 is reused from its earlier report, not added twice.
+
+[Completed matched-proposal result and source-hash checks](discoveryworld/development/20260922T192407_CST/report.md) · [Paired metrics](discoveryworld/development/20260922T192407_CST/paired_metrics.csv)
+
 **The Q75 versus Posterior05 operating-point pair is complete** at world 2, policy seed 304, B10. It uses the same frozen G0 weights, 200-update risk NN and temperature. The observed paired differences in failed actions, task score and fitness are all zero.
 
 | Condition | Threshold | Failed actions | Task score | Fitness | Neural revisions | Recorded rank changes | Actual action changes | Candidate graph returns |
@@ -39,7 +43,7 @@ Variance is across evaluation seeds within the same system, budget and arm (samp
 
 All second proposals repeat their first action. Both executed sequences match exactly and contain a nine-step exact run of the same failing action. Lowering the threshold caused six additional candidate graph calls but no observed improvement in this pair. The two activity gates pass, yet rank changes only change candidate identity. This is one development world/seed, not a general null-effect estimate and **not Full versus Native**. One model load and one actual eight-prefix qualification were shared at unchanged G0; 13/19 candidate graph counts exclude shared qualification cost. The pair made zero parameter updates and no held-out test calls. Q75 is reused from its earlier publication, not counted twice.
 
-The separately registered Full ES continuation had started G0 qualification in the **18:56 observer**, with two of eight prefix results and no parameter update or completed Full test confirmed. Qualification-in-progress is not qualification passed. At that same snapshot, Internal2/p305 had five returned actions with zero failures and remained incomplete. Its Common2/p305 partner was complete with one failure, nine successful actions and task score zero. The p305 comparison remains unfinished and is not compared with p304.
+The separately registered Full ES continuation had started G0 qualification in the **18:56 observer**, with two of eight prefix results and no parameter update or completed Full test confirmed. Qualification-in-progress is not qualification passed. Internal2/p305 was still partial in that earlier observer; the new 19:24 terminal result above supersedes its live status while preserving the dated snapshot. The p305 mechanism pair remains separate from p304.
 
 The earlier closed-action audit remains useful: Q75's cached executed-action risks flagged 9/10 failures at retrospective 0.5, while Common2's one failure was missed. Good alarm scores did not produce successful repair; Common2's nine successful actions had no immediate task-score increase. Such actions could still have later value. No outcomes are assigned to unexecuted proposals.
 

@@ -1,0 +1,14 @@
+{
+  "export_scientific_calls": 0,
+  "observed_CST": "2026-09-22T19:24:07.294640+08:00",
+  "observed_UTC": "2026-09-22T11:24:07.294640+00:00",
+  "raw_observer_receipt": {
+    "bytes": 75366,
+    "sha256": "d2795beee6a92ba80c6cecb16807488515fd0b8af5d7c3d8ce66651ffe80160e"
+  },
+  "raw_operational_receipt_exported": false,
+  "schema": "dw_terminal_pair_publication_provenance_v1",
+  "source_method_controller_sha256": "7f85d56b9c90a19a455b505dd9b3ca599ce8f7e2bebc553f8e71483f7f8e0a57",
+  "source_method_protocol_sha256": "5362866d0055eef96822dc387c96924e9abc4790260c7270ceeac117d685827d",
+  "validation_scope": "Accepted terminal fields, action/tick/graph counts and fitness arithmetic from original observer; raw environment and summary SHA retained. Full per-candidate action audit is not supplied in this increment."
+}

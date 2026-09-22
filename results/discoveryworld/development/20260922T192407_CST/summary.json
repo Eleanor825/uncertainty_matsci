@@ -1,0 +1,46 @@
+{
+  "Full_vs_Native": false,
+  "Internal2_minus_Common2": {
+    "F": -0.01,
+    "candidate_graph_returns": 0,
+    "failed_actions": 1,
+    "failure_fraction": 0.1,
+    "successful_actions": -1,
+    "task_score": 0.0
+  },
+  "budget": 10,
+  "candidate_graph_counts_exclude_qualification": true,
+  "conditions": [
+    {
+      "F": -0.01,
+      "candidate_graph_returns": 20,
+      "condition": "Common2",
+      "failed_actions": 1,
+      "failure_fraction": 0.1,
+      "successful_actions": 9,
+      "task_score": 0.0
+    },
+    {
+      "F": -0.02,
+      "candidate_graph_returns": 20,
+      "condition": "Internal2",
+      "failed_actions": 2,
+      "failure_fraction": 0.2,
+      "successful_actions": 8,
+      "task_score": 0.0
+    }
+  ],
+  "model": "Qwen3.5-4B",
+  "new_scientific_calls_for_export": 0,
+  "newly_closed_since_previous_export": 1,
+  "paired_cases": 1,
+  "paired_proposal_limit_per_step": 2,
+  "policy_parameter_updates": 0,
+  "policy_seed": 305,
+  "pooled_with_p304": false,
+  "previous_Common2_reused": true,
+  "scenario": "Proteomics Normal",
+  "schema": "dw_completed_matched_proposal_pair_summary_v1",
+  "split": "development",
+  "world_seed": 2
+}

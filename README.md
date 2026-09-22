@@ -1,6 +1,6 @@
 # Uncertainty-guided materials discovery
 
-Latest DiscoveryWorld result: [completed Q75 versus fixed-0.5 development pair](results/discoveryworld/development/20260922T185915_CST/report.md), same world 2 / policy seed 304 / B10. Both fail all ten actions with task score 0 and fitness −0.1. Candidate graph calls rise 13→19, but executed actions do not change. This frozen-G0 pair makes zero parameter updates and is not Full versus Native. [Current overview](results/LATEST.md) preserves the adverse result and the still-incomplete Full comparison.
+Latest DiscoveryWorld result: [completed matched-two-proposal development pair](results/discoveryworld/development/20260922T192407_CST/report.md), world 2 / policy seed 305 / B10. Common2 versus frozen-NN Internal2 has 1 versus 2 action failures, both task scores 0, and fitness −0.01 versus −0.02, with 20 candidate graphs each. This one-case negative mechanism observation is not Native versus Full and is not pooled with p304. [Current overview](results/LATEST.md) retains both completed development pairs and the incomplete Full comparison.
 
 Research code for a white-box language-model agent that proposes materials-discovery actions, estimates failure risk from internal representations, and adapts policy weights with Agentic ESOpt. The implemented interfaces cover MADE and CrystalGym. Published results include **MADE, Qwen3.5-4B, seed1, baseline versus a fixed G2 graph-risk policy**, and a separately accepted seven-arm Summit SnAr study with five evaluation seeds.
 

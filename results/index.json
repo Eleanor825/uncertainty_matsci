@@ -817,6 +817,39 @@
       "summary": "results/discoveryworld/development/20260922T185915_CST/summary.json",
       "validation_script": "results/discoveryworld/development/20260922T185915_CST/validate.py",
       "world_seed": 2
+    },
+    {
+      "Full_vs_Native": false,
+      "budget": 10,
+      "candidate_graph_returns": [
+        20,
+        20
+      ],
+      "failed_actions": [
+        1,
+        2
+      ],
+      "fitness": [
+        -0.01,
+        -0.02
+      ],
+      "new_scientific_calls_for_export": 0,
+      "newly_closed_since_previous_export": 1,
+      "observed_CST": "2026-09-22T19:24:07.294640+08:00",
+      "observed_UTC": "2026-09-22T11:24:07.294640+00:00",
+      "paired_cases": 1,
+      "policy_parameter_updates": 0,
+      "policy_seed": 305,
+      "previous_Common2_reused": true,
+      "report": "results/discoveryworld/development/20260922T192407_CST/report.md",
+      "snapshot_id": "discoveryworld_matched_pair_20260922T192407_CST",
+      "summary": "results/discoveryworld/development/20260922T192407_CST/summary.json",
+      "task_scores": [
+        0,
+        0
+      ],
+      "validation_script": "results/discoveryworld/development/20260922T192407_CST/validate.py",
+      "world_seed": 2
     }
   ],
   "discoveryworld_diagnostic_exports": [
@@ -1626,7 +1659,7 @@
   ],
   "latest_B50_mechanism_audit_export_id": "original_seed1_B50_hull_mechanisms_20260920T054512_CST",
   "latest_component_study_export_id": "made_core5_complete_20260919T212712_CST",
-  "latest_discoveryworld_development_export_id": "discoveryworld_closed_operating_point_pair_20260922T185915_CST",
+  "latest_discoveryworld_development_export_id": "discoveryworld_matched_pair_20260922T192407_CST",
   "latest_discoveryworld_diagnostic_export_id": "discoveryworld_closed_risk_audit_20260922T184705_CST",
   "latest_discoveryworld_progress_export_id": "discoveryworld_progress_20260922T155718_CST",
   "latest_incremental_component_export_id": "made_incremental_20260922T101850_CST",

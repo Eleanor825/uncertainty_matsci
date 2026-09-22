@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "bytes": 161,
+      "path": "paired_metrics.csv",
+      "sha256": "533defeba4e37bf0e1d513886b7abec7fde2153dcc934b44ee09839f062a5f0c"
+    },
+    {
+      "bytes": 820,
+      "path": "provenance.json",
+      "sha256": "f0ada5d1b7f2ee6971d3e1c0387c34c0189f2e269fc46236ce485c4c94aa1092"
+    },
+    {
+      "bytes": 3240,
+      "path": "report.md",
+      "sha256": "a9783c4ec58469ca59d2ab09d991a119bacbcbff98f17190f45fde2661d2d181"
+    },
+    {
+      "bytes": 1168,
+      "path": "summary.json",
+      "sha256": "f2b003d4d3d0333aaa85d8354357ab48d8de2bd3e31e05014a56dea19cc2c661"
+    },
+    {
+      "bytes": 1820,
+      "path": "terminal_source_projection.json",
+      "sha256": "97256e43e40e914f6089f41b779bca23e896e57eeb022de8f3b84de03309b28b"
+    },
+    {
+      "bytes": 2586,
+      "path": "validate.py",
+      "sha256": "91c0498993963aaff9cf601a956a53b884dfb6813b9183e55e1120603ba1df71"
+    }
+  ],
+  "schema": "dw_completed_matched_pair_manifest_v1"
+}

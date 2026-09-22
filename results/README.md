@@ -1,6 +1,6 @@
 # Time-stamped research results
 
-Current overview: [latest verified results](LATEST.md). MADE has 1079 valid evaluations and 1 retained technical failure. The [completed DW operating-point pair](discoveryworld/development/20260922T185915_CST/report.md) records zero benefit in failures, score or fitness, with 13 versus 19 candidate graph calls and no action changes. Earlier snapshots remain unchanged; this is not a Full/Native comparison.
+Current overview: [latest verified results](LATEST.md). MADE has 1079 valid evaluations and 1 retained technical failure. The [completed p305 matched-proposal pair](discoveryworld/development/20260922T192407_CST/report.md) retains Internal2's extra failure and equal zero task scores. It is distinct from the completed p304 threshold pair and is not a Native/Full result.
 
 The [independent9B training-collection acceptance](qwen35_9b_core/collections/20260921T170716_CST/report.md) now verifies **three of seven** registered collections: Al-Au-Hf seeds1/2 and Au-Li-Pd seed1, B50. This cumulative record includes one newly accepted existing collection, rechecking150 already executed candidate evaluations and all32 activation layers per collection. These are training data, **not additions to the15 baseline tests**; the acceptance adds no model, graph, oracle or fitting calls and does not establish full9B method efficacy.
 
