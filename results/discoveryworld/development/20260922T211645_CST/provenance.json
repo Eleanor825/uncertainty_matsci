@@ -1,0 +1,17 @@
+{
+  "raw_observer_receipts": [
+    {
+      "filename": "observe_dw_training_redesign_progress_v3_secondary_1790083021265324000.json",
+      "sha256": "93d139d8e765e5edc384157604da63bcd910582af22de1d99fca418f2768ea9d",
+      "bytes": 798679
+    },
+    {
+      "filename": "observe_dw_refresh_deployment_reconcile_v2_secondary_1790082834120975000.json",
+      "sha256": "742ab900fd8d5cb139322de28d2123a202fa5e0da84664a43a2d61d5dceb56ff",
+      "bytes": 25306
+    }
+  ],
+  "raw_full_logs_exported": false,
+  "qualification_source_semantics": "Explicit V4 local-Jacobian reference checks; not original CRV replication",
+  "new_model_or_environment_calls": 0
+}

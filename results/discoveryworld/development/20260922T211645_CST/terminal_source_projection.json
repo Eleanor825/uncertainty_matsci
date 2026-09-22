@@ -1,0 +1,266 @@
+{
+  "GenericRisk": {
+    "job": {
+      "arm": "GenericRisk",
+      "difficulty": "Normal",
+      "generation": 0,
+      "grounded_repair": "GenericRisk",
+      "job_id": "dw-grounded-repair-v6-dev-GenericRisk-w2-p306-b10-g0",
+      "max_agent_attempts": 10,
+      "max_proposals_per_attempt": 2,
+      "model_key": "qwen35_4b",
+      "num_user_agents": 1,
+      "policy_seed": 306,
+      "population_member": null,
+      "project_split": "dev",
+      "scenario": "Proteomics",
+      "stage": "es_dev",
+      "world_seed": 2
+    },
+    "registration": {
+      "commit": "abd9bf303bf8c0f546daacff84a78576e15d3d69",
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/registrations/development_v1/registry.json",
+      "repo": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/registrations/development_v1",
+      "sha256": "2a0e16dd39c992450db359643aad9c7512460b93ef40b6c40feb0385110aa987"
+    },
+    "fitness": {
+      "F": -0.07,
+      "J": -0.07,
+      "agent_attempts": 10,
+      "completedSuccessfully": false,
+      "failure_count": 7,
+      "failure_fraction": 0.7,
+      "lambda_cal": 0.0,
+      "scoreNormalized": 0.0,
+      "source_events": {
+        "bytes": 86031,
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/episodes/jobs/dw-grounded-repair-v6-dev-GenericRisk-w2-p306-b10-g0/environment/discoveryworld-v1-8c347e8308bbad07c107c224/events.jsonl",
+        "sha256": "c9669b1a3a177c0e6db67f6d0f950fff72729b66e6152dbbe07ec9ec5e389e45"
+      },
+      "source_summary": {
+        "bytes": 1238,
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/episodes/jobs/dw-grounded-repair-v6-dev-GenericRisk-w2-p306-b10-g0/environment/discoveryworld-v1-8c347e8308bbad07c107c224/summary.json",
+        "sha256": "bd3f0d008f63a881a94ef96d9d497b6558fc94b93836a59dd6f08e00b277e31d"
+      }
+    },
+    "action_audit_counts": {
+      "consecutive_failed_action_repeats": 5,
+      "executed_action_changed_from_first_proposal": 0,
+      "generated_revision_action_different": 0,
+      "longest_identical_failed_action_run": 6
+    },
+    "policy_parameter_updates": 0,
+    "qualification": {
+      "bytes": 237828,
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/groups/GenericRisk/G0_pair_qualification.json",
+      "sha256": "3b9fac8d8addb66253aff9575e8b54226d5d2cd3df26785081e28534939677dc"
+    },
+    "environment_process_closure": {
+      "automatic_signal_or_replay": false,
+      "child_pid": 505791,
+      "child_still_running": false,
+      "closed_response": true,
+      "returncode": 0,
+      "time": 1790079744.5635328,
+      "unknown_connection": false
+    }
+  },
+  "GroundedRisk": {
+    "job": {
+      "arm": "GroundedRisk",
+      "difficulty": "Normal",
+      "generation": 0,
+      "grounded_repair": "GroundedRisk",
+      "job_id": "dw-grounded-repair-v6-dev-GroundedRisk-w2-p306-b10-g0",
+      "max_agent_attempts": 10,
+      "max_proposals_per_attempt": 2,
+      "model_key": "qwen35_4b",
+      "num_user_agents": 1,
+      "policy_seed": 306,
+      "population_member": null,
+      "project_split": "dev",
+      "scenario": "Proteomics",
+      "stage": "es_dev",
+      "world_seed": 2
+    },
+    "registration": {
+      "commit": "abd9bf303bf8c0f546daacff84a78576e15d3d69",
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/registrations/development_v1/registry.json",
+      "repo": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/registrations/development_v1",
+      "sha256": "2a0e16dd39c992450db359643aad9c7512460b93ef40b6c40feb0385110aa987"
+    },
+    "fitness": {
+      "F": -0.07,
+      "J": -0.07,
+      "agent_attempts": 10,
+      "completedSuccessfully": false,
+      "failure_count": 7,
+      "failure_fraction": 0.7,
+      "lambda_cal": 0.0,
+      "scoreNormalized": 0.0,
+      "source_events": {
+        "bytes": 86033,
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/episodes/jobs/dw-grounded-repair-v6-dev-GroundedRisk-w2-p306-b10-g0/environment/discoveryworld-v1-80eb83a6da50cb4c5e24b4d3/events.jsonl",
+        "sha256": "31d454c524aea37ebdcc7f55ff379512182f099ff1f57548e9b8855807c7612f"
+      },
+      "source_summary": {
+        "bytes": 1238,
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/episodes/jobs/dw-grounded-repair-v6-dev-GroundedRisk-w2-p306-b10-g0/environment/discoveryworld-v1-80eb83a6da50cb4c5e24b4d3/summary.json",
+        "sha256": "e2323042ab482a4c6f033ec0f7770b44e547f22841454e6c3c5ef11d80c27a7c"
+      }
+    },
+    "action_audit_counts": {
+      "consecutive_failed_action_repeats": 5,
+      "executed_action_changed_from_first_proposal": 0,
+      "generated_revision_action_different": 0,
+      "longest_identical_failed_action_run": 6
+    },
+    "policy_parameter_updates": 0,
+    "qualification": {
+      "bytes": 237828,
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/groups/GroundedRisk/G0_pair_qualification.json",
+      "sha256": "cb7f1b04f15f8bc8aed02b491cf90b564bd5c7a5b134da40eec812cc9a29775f"
+    },
+    "environment_process_closure": {
+      "automatic_signal_or_replay": false,
+      "child_pid": 92,
+      "child_still_running": false,
+      "closed_response": true,
+      "returncode": 0,
+      "time": 1790079867.8102727,
+      "unknown_connection": false
+    }
+  },
+  "GroundedCommon2": {
+    "job": {
+      "arm": "GroundedCommon2",
+      "difficulty": "Normal",
+      "generation": 0,
+      "grounded_repair": "GroundedCommon2",
+      "job_id": "dw-grounded-repair-v6-dev-GroundedCommon2-w2-p306-b10-g0",
+      "max_agent_attempts": 10,
+      "max_proposals_per_attempt": 2,
+      "model_key": "qwen35_4b",
+      "num_user_agents": 1,
+      "policy_seed": 306,
+      "population_member": null,
+      "project_split": "dev",
+      "scenario": "Proteomics",
+      "stage": "es_dev",
+      "world_seed": 2
+    },
+    "registration": {
+      "commit": "abd9bf303bf8c0f546daacff84a78576e15d3d69",
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/registrations/development_v1/registry.json",
+      "repo": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/registrations/development_v1",
+      "sha256": "2a0e16dd39c992450db359643aad9c7512460b93ef40b6c40feb0385110aa987"
+    },
+    "fitness": {
+      "F": 0.0,
+      "J": 0.0,
+      "agent_attempts": 10,
+      "completedSuccessfully": false,
+      "failure_count": 0,
+      "failure_fraction": 0.0,
+      "lambda_cal": 0.0,
+      "scoreNormalized": 0.0,
+      "source_events": {
+        "bytes": 82553,
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/episodes/jobs/dw-grounded-repair-v6-dev-GroundedCommon2-w2-p306-b10-g0/environment/discoveryworld-v1-67ce6e19e683f199d21f982d/events.jsonl",
+        "sha256": "decfb533ec107ef24466899bafc24238702adae974def8d623281cc522065963"
+      },
+      "source_summary": {
+        "bytes": 1241,
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/episodes/jobs/dw-grounded-repair-v6-dev-GroundedCommon2-w2-p306-b10-g0/environment/discoveryworld-v1-67ce6e19e683f199d21f982d/summary.json",
+        "sha256": "acedc56204d4925e584ea20da281b95bd0c5f75b1471e760fc96eed4c0d0cd7e"
+      }
+    },
+    "action_audit_counts": {
+      "consecutive_failed_action_repeats": 0,
+      "executed_action_changed_from_first_proposal": 3,
+      "generated_revision_action_different": 6,
+      "longest_identical_failed_action_run": 0
+    },
+    "policy_parameter_updates": 0,
+    "qualification": {
+      "bytes": 237828,
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/groups/GroundedCommon2/G0_pair_qualification.json",
+      "sha256": "89d983883d6d8e2413010c16d8710c27f505de57fdd2d939821365270dec1800"
+    },
+    "environment_process_closure": {
+      "automatic_signal_or_replay": false,
+      "child_pid": 89,
+      "child_still_running": false,
+      "closed_response": true,
+      "returncode": 0,
+      "time": 1790080028.7563803,
+      "unknown_connection": false
+    }
+  },
+  "GroundedInternal2": {
+    "job": {
+      "arm": "GroundedInternal2",
+      "difficulty": "Normal",
+      "generation": 0,
+      "grounded_repair": "GroundedInternal2",
+      "job_id": "dw-grounded-repair-v6-dev-GroundedInternal2-w2-p306-b10-g0",
+      "max_agent_attempts": 10,
+      "max_proposals_per_attempt": 2,
+      "model_key": "qwen35_4b",
+      "num_user_agents": 1,
+      "policy_seed": 306,
+      "population_member": null,
+      "project_split": "dev",
+      "scenario": "Proteomics",
+      "stage": "es_dev",
+      "world_seed": 2
+    },
+    "registration": {
+      "commit": "abd9bf303bf8c0f546daacff84a78576e15d3d69",
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/registrations/development_v1/registry.json",
+      "repo": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/registrations/development_v1",
+      "sha256": "2a0e16dd39c992450db359643aad9c7512460b93ef40b6c40feb0385110aa987"
+    },
+    "fitness": {
+      "F": -0.05,
+      "J": -0.05,
+      "agent_attempts": 10,
+      "completedSuccessfully": false,
+      "failure_count": 5,
+      "failure_fraction": 0.5,
+      "lambda_cal": 0.0,
+      "scoreNormalized": 0.0,
+      "source_events": {
+        "bytes": 85301,
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/episodes/jobs/dw-grounded-repair-v6-dev-GroundedInternal2-w2-p306-b10-g0/environment/discoveryworld-v1-eb582cd41ca79696ca704be9/events.jsonl",
+        "sha256": "fba64d324aeaa7a9e9c58434b024c853ed4947008e3f5b85bab4503295bf6ca3"
+      },
+      "source_summary": {
+        "bytes": 1244,
+        "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/episodes/jobs/dw-grounded-repair-v6-dev-GroundedInternal2-w2-p306-b10-g0/environment/discoveryworld-v1-eb582cd41ca79696ca704be9/summary.json",
+        "sha256": "721cab26daaa061bba2f4c725e49fa5414c1f4907ea0e38a15aea5afea01f93f"
+      }
+    },
+    "action_audit_counts": {
+      "consecutive_failed_action_repeats": 1,
+      "executed_action_changed_from_first_proposal": 3,
+      "generated_revision_action_different": 7,
+      "longest_identical_failed_action_run": 2
+    },
+    "policy_parameter_updates": 0,
+    "qualification": {
+      "bytes": 237828,
+      "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/runs/v1/groups/GroundedInternal2/G0_pair_qualification.json",
+      "sha256": "8f8fd2c387dfd2f8d538ddeb52d8742f2185bc63241ea4a1cde05d8ea84ea08b"
+    },
+    "environment_process_closure": {
+      "automatic_signal_or_replay": false,
+      "child_pid": 97,
+      "child_still_running": false,
+      "closed_response": true,
+      "returncode": 0,
+      "time": 1790079495.1659434,
+      "unknown_connection": false
+    }
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "schema": "dw_grounded_and_training_status_projection_v1",
+  "observed_unix": 1790083005.242273,
+  "model": "Qwen3.5-4B",
+  "benchmark": "DiscoveryWorld Proteomics Normal",
+  "V6": [
+    {
+      "condition": "GenericRisk",
+      "actions": 10,
+      "failures": 7,
+      "score": 0.0,
+      "fitness": -0.07,
+      "graph_returns": 17,
+      "actual_action_changes": 0
+    },
+    {
+      "condition": "GroundedRisk",
+      "actions": 10,
+      "failures": 7,
+      "score": 0.0,
+      "fitness": -0.07,
+      "graph_returns": 17,
+      "actual_action_changes": 0
+    },
+    {
+      "condition": "GroundedCommon2",
+      "actions": 10,
+      "failures": 0,
+      "score": 0.0,
+      "fitness": 0.0,
+      "graph_returns": 20,
+      "actual_action_changes": 3
+    },
+    {
+      "condition": "GroundedInternal2",
+      "actions": 10,
+      "failures": 5,
+      "score": 0.0,
+      "fitness": -0.05,
+      "graph_returns": 20,
+      "actual_action_changes": 3
+    }
+  ],
+  "V6_world": 2,
+  "V6_policy_seed": 306,
+  "V6_budget": 10,
+  "CV2": {
+    "counts": {
+      "LLM_calls": 0,
+      "development_forward_batches": 2,
+      "environment_calls": 0,
+      "final_fits_completed": 2,
+      "final_fits_started": 2,
+      "final_optimizer_updates": 125,
+      "fold_fits_completed": 12,
+      "fold_fits_started": 12,
+      "fold_optimizer_updates": 2400,
+      "graph_extraction_calls": 0,
+      "optimizer_updates": 2525,
+      "test_outcome_reads": 0
+    },
+    "fit_rows": 84,
+    "development_rows": 40,
+    "development_metrics": {
+      "Internal": {
+        "calibrated": {
+          "auroc": 0.9600000000000007,
+          "brier": 0.06886971556587929,
+          "episodes": 2,
+          "nll": 0.22076867780751253,
+          "probability_range": 0.9867709027603269,
+          "rows": 40,
+          "worlds": 1
+        },
+        "uncalibrated": {
+          "auroc_available": true,
+          "metrics": {
+            "auroc": 0.9600000000000007,
+            "brier": 0.0688226385373962,
+            "episodes": 2,
+            "nll": 0.2108376203337416,
+            "probability_range": 0.9936133157461882,
+            "rows": 40,
+            "worlds": 1
+          },
+          "raw_logit_nll": 0.21083762138266787
+        }
+      },
+      "OutputAction": {
+        "calibrated": {
+          "auroc": 0.9100000000000006,
+          "brier": 0.11068947541783113,
+          "episodes": 2,
+          "nll": 0.3557955868766246,
+          "probability_range": 0.9646757976152003,
+          "rows": 40,
+          "worlds": 1
+        },
+        "uncalibrated": {
+          "auroc_available": true,
+          "metrics": {
+            "auroc": 0.9100000000000006,
+            "brier": 0.12532410368911476,
+            "episodes": 2,
+            "nll": 0.4994674534814261,
+            "probability_range": 0.9989050079166191,
+            "rows": 40,
+            "worlds": 1
+          },
+          "raw_logit_nll": 0.49946747456309465
+        }
+      }
+    },
+    "selections": {
+      "Internal": {
+        "all_candidates": [
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.04888501664302688
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.2925832173498072
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 0.3522180271473351
+              }
+            ],
+            "mean_fold_raw_nll": 0.23122875371338972,
+            "steps": 25,
+            "weight_decay": 0.0001
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.00394793350274219
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.1671707121928507
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 0.8512751503244583
+              }
+            ],
+            "mean_fold_raw_nll": 0.3407979320066838,
+            "steps": 50,
+            "weight_decay": 0.0001
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.0013760685145925132
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.19491138750968676
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 1.1029617597492942
+              }
+            ],
+            "mean_fold_raw_nll": 0.4330830719245245,
+            "steps": 100,
+            "weight_decay": 0.0001
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.0009275079717249975
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.20294763128333082
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 1.2198421916051252
+              }
+            ],
+            "mean_fold_raw_nll": 0.4745724436200603,
+            "steps": 200,
+            "weight_decay": 0.0001
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.04890925414610778
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.29262618721643513
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 0.3521576385984346
+              }
+            ],
+            "mean_fold_raw_nll": 0.23123102665365916,
+            "steps": 25,
+            "weight_decay": 0.01
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.00395608217197261
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.16717952815417564
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 0.8507644879101839
+              }
+            ],
+            "mean_fold_raw_nll": 0.3406333660787774,
+            "steps": 50,
+            "weight_decay": 0.01
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.0013862110431056406
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.19472637899198975
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 1.1013367323997758
+              }
+            ],
+            "mean_fold_raw_nll": 0.4324831074782904,
+            "steps": 100,
+            "weight_decay": 0.01
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.0009420560490117861
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.20244572279120707
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 1.216250721672468
+              }
+            ],
+            "mean_fold_raw_nll": 0.47321283350422894,
+            "steps": 200,
+            "weight_decay": 0.01
+          }
+        ],
+        "selected": {
+          "fold_scores": [
+            {
+              "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+              "raw_nll": 0.04888501664302688
+            },
+            {
+              "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+              "raw_nll": 0.2925832173498072
+            },
+            {
+              "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+              "raw_nll": 0.3522180271473351
+            }
+          ],
+          "mean_fold_raw_nll": 0.23122875371338972,
+          "steps": 25,
+          "weight_decay": 0.0001
+        }
+      },
+      "OutputAction": {
+        "all_candidates": [
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.5499777580501872
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.6669686232811615
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 0.6523114127350125
+              }
+            ],
+            "mean_fold_raw_nll": 0.6230859313554538,
+            "steps": 25,
+            "weight_decay": 0.0001
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.185868229299854
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.6611502980866192
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 0.8651762833669339
+              }
+            ],
+            "mean_fold_raw_nll": 0.5707316035844691,
+            "steps": 50,
+            "weight_decay": 0.0001
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.03937925480950422
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.4483501147689946
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 1.0352090509117295
+              }
+            ],
+            "mean_fold_raw_nll": 0.5076461401634095,
+            "steps": 100,
+            "weight_decay": 0.0001
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.010650041081906212
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.30262403711885977
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 1.7126352665257099
+              }
+            ],
+            "mean_fold_raw_nll": 0.6753031149088252,
+            "steps": 200,
+            "weight_decay": 0.0001
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.5500730801620499
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.6669748615639604
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 0.6522922998446147
+              }
+            ],
+            "mean_fold_raw_nll": 0.623113413856875,
+            "steps": 25,
+            "weight_decay": 0.01
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.1860902211918097
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.6611259171666378
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 0.8646942812171893
+              }
+            ],
+            "mean_fold_raw_nll": 0.5706368065252122,
+            "steps": 50,
+            "weight_decay": 0.01
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.039474301654256506
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.44853730459226804
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 1.0336656397635182
+              }
+            ],
+            "mean_fold_raw_nll": 0.5072257486700142,
+            "steps": 100,
+            "weight_decay": 0.01
+          },
+          {
+            "fold_scores": [
+              {
+                "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+                "raw_nll": 0.010704475499836158
+              },
+              {
+                "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+                "raw_nll": 0.3022697098232368
+              },
+              {
+                "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+                "raw_nll": 1.7085346479561367
+              }
+            ],
+            "mean_fold_raw_nll": 0.6738362777597365,
+            "steps": 200,
+            "weight_decay": 0.01
+          }
+        ],
+        "selected": {
+          "fold_scores": [
+            {
+              "episode": "discoveryworld-v1-4471e8b0e3d20654b3d53025",
+              "raw_nll": 0.039474301654256506
+            },
+            {
+              "episode": "discoveryworld-v1-591b41691ef5345fa2972c72",
+              "raw_nll": 0.44853730459226804
+            },
+            {
+              "episode": "discoveryworld-v1-df5a05a963d36f41f850e46a",
+              "raw_nll": 1.0336656397635182
+            }
+          ],
+          "mean_fold_raw_nll": 0.5072257486700142,
+          "steps": 100,
+          "weight_decay": 0.01
+        }
+      }
+    },
+    "wall_seconds": 86.25668794289231
+  },
+  "Full_ES_G1": {
+    "generation": 0,
+    "alpha": 0.0005,
+    "sigma": 0.001,
+    "rewards": [
+      -0.02,
+      -0.04
+    ],
+    "normalized_rewards": [
+      0.9999989867210388,
+      -0.9999989867210388
+    ],
+    "state_hash_before": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516",
+    "state_hash_after": "8398c70cb2a58d95fcd34496aa562645c306a159d1a4ec8695477803711ba744",
+    "updated_tensors": 723,
+    "total_delta_l2": 23.820606629159244
+  },
+  "Full_closed_results": {
+    "dw-full-es-v5-es_dev-Full-w2-p304-b10-g1_result.json": {
+      "fitness": {
+        "F": -0.09,
+        "J": -0.09,
+        "agent_attempts": 10,
+        "completedSuccessfully": false,
+        "failure_count": 9,
+        "failure_fraction": 0.9,
+        "lambda_cal": 0.0,
+        "scoreNormalized": 0.0,
+        "source_events": {
+          "bytes": 84925,
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-es_dev-Full-w2-p304-b10-g1/environment/discoveryworld-v1-e962a4339c9addeece6d203d/events.jsonl",
+          "sha256": "3ea2f60eb290f9646872dbc0e2d64200bede5027e34434a993ebd31324102117"
+        },
+        "source_summary": {
+          "bytes": 1231,
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-es_dev-Full-w2-p304-b10-g1/environment/discoveryworld-v1-e962a4339c9addeece6d203d/summary.json",
+          "sha256": "389c2168b40682cf3c3bda519a6352d382c5b628c0217dcb8a17ad9f02a4b3c6"
+        }
+      },
+      "accepted": true
+    },
+    "dw-full-es-v5-es_train-Full-w0-p301-b10-g1-m0_result.json": {
+      "fitness": {
+        "F": -0.02,
+        "J": -0.02,
+        "agent_attempts": 10,
+        "completedSuccessfully": false,
+        "failure_count": 2,
+        "failure_fraction": 0.2,
+        "lambda_cal": 0.0,
+        "scoreNormalized": 0.0,
+        "source_events": {
+          "bytes": 78906,
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-es_train-Full-w0-p301-b10-g1-m0/environment/discoveryworld-v1-e2e435af90a2983a2a54eeb7/events.jsonl",
+          "sha256": "37c41174799f64817b6856059d098912a1dfc4736507603992831f20dd81e7c9"
+        },
+        "source_summary": {
+          "bytes": 1233,
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-es_train-Full-w0-p301-b10-g1-m0/environment/discoveryworld-v1-e2e435af90a2983a2a54eeb7/summary.json",
+          "sha256": "43ff4de4d53f2e18dca39aef5e54bd4417a4f3f7730d3c8994d0562c8cc29f8c"
+        }
+      },
+      "accepted": true
+    },
+    "dw-full-es-v5-es_train-Full-w0-p301-b10-g1-m1_result.json": {
+      "fitness": {
+        "F": -0.04,
+        "J": -0.04,
+        "agent_attempts": 10,
+        "completedSuccessfully": false,
+        "failure_count": 4,
+        "failure_fraction": 0.4,
+        "lambda_cal": 0.0,
+        "scoreNormalized": 0.0,
+        "source_events": {
+          "bytes": 85111,
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-es_train-Full-w0-p301-b10-g1-m1/environment/discoveryworld-v1-6d38674e83e97fd3e5656783/events.jsonl",
+          "sha256": "8cead9f910dbeb1d6dab8c6a45dc87c079a1d21afb7f960b216a87e3d4f48589"
+        },
+        "source_summary": {
+          "bytes": 1232,
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-es_train-Full-w0-p301-b10-g1-m1/environment/discoveryworld-v1-6d38674e83e97fd3e5656783/summary.json",
+          "sha256": "eefc64ed8d1ea7a59aeccd20fb6527e94daf1e20ffd53250920fbdb617e6d638"
+        }
+      },
+      "accepted": true
+    },
+    "dw-operating-point-v5-dev-Posterior05-w2-p304-b10-g0_result.json": {
+      "fitness": {
+        "F": -0.1,
+        "J": -0.1,
+        "agent_attempts": 10,
+        "completedSuccessfully": false,
+        "failure_count": 10,
+        "failure_fraction": 1.0,
+        "lambda_cal": 0.0,
+        "scoreNormalized": 0.0,
+        "source_events": {
+          "bytes": 84689,
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/operating_point_v5/runs/v1/episodes/jobs/dw-operating-point-v5-dev-Posterior05-w2-p304-b10-g0/environment/discoveryworld-v1-24b58f506dfe6b46448e3598/events.jsonl",
+          "sha256": "6e9c4673c197ac265dfa5f8a0618c8f878b5abb7e8a98c1277913aad32a73611"
+        },
+        "source_summary": {
+          "bytes": 1233,
+          "path": "/mnt/ai-material-data/made_crystalgym_crv_esopt_20260915_164607/experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/operating_point_v5/runs/v1/episodes/jobs/dw-operating-point-v5-dev-Posterior05-w2-p304-b10-g0/environment/discoveryworld-v1-24b58f506dfe6b46448e3598/summary.json",
+          "sha256": "620a285d269f7cad8973369c49fbb9fba774bbadbd392238733b4d6a627c6918"
+        }
+      },
+      "accepted": true,
+      "supported_activity_gate_passed": true
+    }
+  },
+  "milestone_graphs": {
+    "completed": 3,
+    "optimizer_updates": 0,
+    "environment_calls": 0
+  },
+  "new_refresh_v1": {
+    "status": "prepare_failed_before_registration_or_fit",
+    "reason": "Sparse producer Counter legitimately omits adapter_input_rejections at zero; consumer assumed dense keys",
+    "optimizer_updates": 0,
+    "preserved_failure": "728ac07f90366773594b43bebe806718e6f84cb1a7a897f7eb6afd2ed12bc021"
+  },
+  "heldout_Full_pair_completed": false,
+  "method_improvement_proven": false,
+  "scientific_calls_for_publication": 0
+}

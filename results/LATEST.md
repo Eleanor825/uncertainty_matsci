@@ -1,6 +1,6 @@
 # Latest verified experimental results
 
-MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September 22, 10:18 CST). DiscoveryWorld now has two completed, separate development pairs. The newest matched-proposal pair at world 2 / policy seed 305 gives Common2 versus Internal2 **1 versus 2 failures, score 0 versus 0, and fitness −0.01 versus −0.02**. Both used 20 candidate graphs. This negative mechanism result is not a Native/Full test or a p304 comparison.
+MADE remains **1079 valid trajectories, 1 technical failure and 0 pending**. The latest DiscoveryWorld grounded-repair comparisons and first actual Full-ES update are reported below. Scientific-task improvement is not established.
 
 ## MADE — Qwen3.5-4B
 
@@ -30,33 +30,17 @@ Variance is across evaluation seeds within the same system, budget and arm (samp
 
 ## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
 
-**The fixed-two-proposal Common2/Internal2 pair is now complete**, separately at world 2 / policy seed 305 / B10. Common2 has 1 failed and 9 successful actions; Internal2 has 2 failed and 8 successful actions. Both score 0; fitness is −0.01 versus −0.02. Candidate graph returns are 20 each. Internal-risk ranking therefore gives no observed improvement in this one matched case. This is not a general effect estimate; ten actions within an episode are dependent. The pair has zero parameter updates and is not Native versus Full. Common2 is reused from its earlier report, not added twice.
+Latest verified snapshot: **September 22, 21:16 CST**. Grounded repair is complete at world 2 / policy 306 / B10: GenericRisk and GroundedRisk each have 7 failures; GroundedCommon2 has 0 and GroundedInternal2 has 5. All task scores are zero. These mechanism comparisons show no task improvement and are not Native-versus-Full tests.
 
-[Completed matched-proposal result and source-hash checks](discoveryworld/development/20260922T192407_CST/report.md) · [Paired metrics](discoveryworld/development/20260922T192407_CST/paired_metrics.csv)
+The original Full ES completed one genuine update to 723 parameter tensors. Its G1 development rollout reduced failures from 10 to 9, with task score remaining zero; G2 has started. The held-out Full pair remains incomplete. The 24-graph supplement and 2,525-update CV2 diagnostic are complete. Three missed successful milestone graphs are also complete. The new eight-fit refresh failed during data preparation before any fit; its failure remains recorded and an independent correction is being prepared.
 
-**The Q75 versus Posterior05 operating-point pair is complete** at world 2, policy seed 304, B10. It uses the same frozen G0 weights, 200-update risk NN and temperature. The observed paired differences in failed actions, task score and fitness are all zero.
+- [Latest grounded-repair, CV2 and ES-update report](discoveryworld/development/20260922T211645_CST/report.md)
+- [Latest terminal per-arm metrics](discoveryworld/development/20260922T211645_CST/V6_metrics.csv)
+- [Earlier matched-proposal pair: 1 versus 2 failures, both score zero](discoveryworld/development/20260922T192407_CST/report.md)
+- [Earlier threshold pair: both 10 failures, no actual action changes](discoveryworld/development/20260922T185915_CST/report.md)
+- [Original feature/training diagnostics](discoveryworld/diagnostics/20260922T172256_CST/report.md)
 
-| Condition | Threshold | Failed actions | Task score | Fitness | Neural revisions | Recorded rank changes | Actual action changes | Candidate graph returns |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Q75 | 0.9867005 | 10/10 | 0 | −0.10 | 3 | 2 | 0 | 13 |
-| Posterior05 | 0.5 | 10/10 | 0 | −0.10 | 9 | 7 | 0 | 19 |
-
-All second proposals repeat their first action. Both executed sequences match exactly and contain a nine-step exact run of the same failing action. Lowering the threshold caused six additional candidate graph calls but no observed improvement in this pair. The two activity gates pass, yet rank changes only change candidate identity. This is one development world/seed, not a general null-effect estimate and **not Full versus Native**. One model load and one actual eight-prefix qualification were shared at unchanged G0; 13/19 candidate graph counts exclude shared qualification cost. The pair made zero parameter updates and no held-out test calls. Q75 is reused from its earlier publication, not counted twice.
-
-The separately registered Full ES continuation had started G0 qualification in the **18:56 observer**, with two of eight prefix results and no parameter update or completed Full test confirmed. Qualification-in-progress is not qualification passed. Internal2/p305 was still partial in that earlier observer; the new 19:24 terminal result above supersedes its live status while preserving the dated snapshot. The p305 mechanism pair remains separate from p304.
-
-The earlier closed-action audit remains useful: Q75's cached executed-action risks flagged 9/10 failures at retrospective 0.5, while Common2's one failure was missed. Good alarm scores did not produce successful repair; Common2's nine successful actions had no immediate task-score increase. Such actions could still have later value. No outcomes are assigned to unexecuted proposals.
-
-CV-v1 retains **0 fits and 0 optimizer updates** after one training fold had 33 positive / 7 negative rows, below the unchanged ten-per-class gate. At the published label-feasibility snapshot, 24 fixed extra training positions were prospective, with zero extra graphs extracted and no 84-row dataset ready. CPU feature and training diagnostics are unchanged; the production predictor is not replaced by a development-selected checkpoint.
-
-The prior V4 G0/p303 failure at its activity gate remains recorded. The held-out record remains Baseline 1 / Full 0, with zero completed Full-method pairs. No online Full-method improvement is established.
-
-- [Completed operating-point pair and portable checks](discoveryworld/development/20260922T185915_CST/report.md)
-- [Paired metrics](discoveryworld/development/20260922T185915_CST/paired_metrics.csv)
-- [18:56 continuation status](discoveryworld/development/20260922T185915_CST/related_progress.json)
-- [Earlier closed-action risk and diversity audit](discoveryworld/diagnostics/20260922T184705_CST/report.md)
-- [Immutable 18:33 partial/development and CV snapshot](discoveryworld/development/20260922T183307_CST/report.md)
-- [CPU feature/training diagnostics](discoveryworld/diagnostics/20260922T172256_CST/report.md)
+No robust online Full-method improvement or completed held-out Full/Native pair has been established. Actions within a trajectory are dependent; diagnostic fits reusing these actions are not independent validation trials. New fixed B30 training-refresh comparisons are prospective.
 
 ## Scope and provenance
 
