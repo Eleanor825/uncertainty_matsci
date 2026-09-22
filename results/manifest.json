@@ -31,8 +31,8 @@
       "path": "docs/results.md"
     },
     {
-      "bytes": 8773,
-      "export_sha256": "a8d616636cdb83c56625986d10daa2c6154e2c91407349a33b79182b3abf446c",
+      "bytes": 9698,
+      "export_sha256": "7f329781360c9fc4564b307eadc67bf8d752bb08555d649403afe3754e329846",
       "path": "results/LATEST.md"
     },
     {
@@ -1271,8 +1271,53 @@
       "path": "results/discoveryworld/progress/20260922T155718_CST/validate.py"
     },
     {
-      "bytes": 138762,
-      "export_sha256": "2121bbf167bef76c6e97c5e17fd30abe41726eee4cadea2a637184500f504c9f",
+      "bytes": 126160,
+      "export_sha256": "24f56493807784d285f973ff6daeb96a681e46b84195a789a2ffb9b8c8b3c3fe",
+      "path": "results/discoveryworld/test/20260923T032828_CST/ES_trace.json"
+    },
+    {
+      "bytes": 2193,
+      "export_sha256": "c23db69750889e755fc889320cfc1fa8a4570dc3e21e6b7174c1297d276aef7f",
+      "path": "results/discoveryworld/test/20260923T032828_CST/comparison.json"
+    },
+    {
+      "bytes": 1186,
+      "export_sha256": "71a0b9b844bee7fd7f6d0fe64465ac1143a4eaefe51f95365a31f8b276e39dd1",
+      "path": "results/discoveryworld/test/20260923T032828_CST/manifest.json"
+    },
+    {
+      "bytes": 363,
+      "export_sha256": "59ca003a9724c170f942c2c57ab4135f08ab6ac10617ec078437be2b9bb54a29",
+      "path": "results/discoveryworld/test/20260923T032828_CST/metrics.csv"
+    },
+    {
+      "bytes": 642,
+      "export_sha256": "87a0fc13f1c4bbdc7a452e694886aa26f8863260a1e3001d72816b3ffb617a41",
+      "path": "results/discoveryworld/test/20260923T032828_CST/prospective_status.json"
+    },
+    {
+      "bytes": 581,
+      "export_sha256": "b5419e5bf7e1ce541216c41e5c24526482db6930a9e8b731b80d3e17aa58903f",
+      "path": "results/discoveryworld/test/20260923T032828_CST/provenance.json"
+    },
+    {
+      "bytes": 4087,
+      "export_sha256": "d2794d7afdfba7a54e64a8ee758a6739175759f7ef143dafed4d75f46d04d8ff",
+      "path": "results/discoveryworld/test/20260923T032828_CST/report.md"
+    },
+    {
+      "bytes": 8041,
+      "export_sha256": "36c4982abe26ce60aba06e98973cdeb5e777bc7c2995cf2d836e03f80f83f04a",
+      "path": "results/discoveryworld/test/20260923T032828_CST/source_evidence.json"
+    },
+    {
+      "bytes": 4582,
+      "export_sha256": "31b1fb1a73eac8855426e0cfd2a00051434e514cba4400d9401f342c6e778521",
+      "path": "results/discoveryworld/test/20260923T032828_CST/validate.py"
+    },
+    {
+      "bytes": 139905,
+      "export_sha256": "4c3ded7ac3c6036af4a7fe2822b4f103c2897873253cf6be1362709305cb559b",
       "path": "results/index.json"
     },
     {
@@ -6146,6 +6191,7 @@
   "latest_DW_B30_closed_cohort_observation_CST": "2026-09-23T01:34:32+08:00",
   "latest_DW_SFT_behavior_observation_utc": "2026-09-22T15:13:29.398210+00:00",
   "latest_DW_fixed9_policy_observation_unix": 1790094120.792998,
+  "latest_DW_original_test_pair_observation_CST": "2026-09-23T03:28:28.657255+08:00",
   "latest_DW_risk_refresh_observation_utc": "2026-09-22T13:29:53.529933+00:00",
   "latest_MADE_observation_utc": "2026-09-18T21:21:38.188817+00:00",
   "latest_collection_acceptance_observation_CST": "2026-09-21T17:07:16.298529+08:00",

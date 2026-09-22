@@ -1,6 +1,6 @@
 # Latest verified experimental results
 
-MADE remains **1079 valid trajectories, 1 technical failure and 0 pending**. The latest DiscoveryWorld evidence closes four fixed B30 development conditions: both Internal variants reached task score 0.125; Common2 and OutputAction remained at 0, and all four task-success flags are false. This cohort contains no Native1 comparator and does not establish Full-method superiority.
+MADE remains **1079 valid trajectories, 1 technical failure and 0 pending**. One original DiscoveryWorld Native–Full B30 test pair is now closed: Full scored **0.125 versus Native 0**, with **22 versus 29 failed actions**. Both task-success flags are false. This single world/seed result does not establish general improvement or isolate an NN/ES effect.
 
 ## MADE — Qwen3.5-4B
 
@@ -32,6 +32,15 @@ A new [historical MADE cause audit and incumbent-selection replay](development/m
 
 ## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
 
+New original test comparison, audited **2026-09-23T03:28:28.657255+08:00**: **world 3 / policy seed 401 / B30**.
+
+| Method | Task score | Failed actions /30 | Task success |
+|---|---:|---:|---|
+| Native (earlier unchanged Baseline run) | 0 | 29 | No |
+| Full, dev-selected G1 | 0.125 | 22 | No |
+
+The two real ES updates and the selected checkpoint's actual test reload are verified. Original raw action events, official summaries, model/decoding and environment/evaluator contracts were checked. B30 matches environment actions, while Full uses additional candidate/graph computation. There is one paired episode per method; this is not a multi-seed estimate, task completion or component-level causal evidence. [Complete pair, selection trace, source hashes and validator](discoveryworld/test/20260923T032828_CST/report.md).
+
 Latest closed cohort: **world 2 / policy seed 307, four conditions × B30**.
 
 | Condition | Task score | Failed actions /30 | Actual NN packet changes |
@@ -53,9 +62,9 @@ Latest completed policy-only comparison: **9/9 world2 B30 episodes**, three samp
 
 Earlier p308 policy-only B30 pair: **world2/policy308, both task scores0**. Native has29/30 action failures; fixed final32 SFT has0/30, but performs28 rotations and2 moves without score progress. This pair contains0 NN-controller calls and0 candidate graphs. It does not establish Full-method efficacy. [All60 action rows and separate training-window audit](discoveryworld/development/20260922T231329_CST/report.md).
 
-Latest verified snapshot: **September 22, 21:16 CST**. Grounded repair is complete at world 2 / policy 306 / B10: GenericRisk and GroundedRisk each have 7 failures; GroundedCommon2 has 0 and GroundedInternal2 has 5. All task scores are zero. These mechanism comparisons show no task improvement and are not Native-versus-Full tests.
+Earlier verified snapshot: **September 22, 21:16 CST**. Grounded repair is complete at world 2 / policy 306 / B10: GenericRisk and GroundedRisk each have 7 failures; GroundedCommon2 has 0 and GroundedInternal2 has 5. All task scores are zero. These mechanism comparisons show no task improvement and are not Native-versus-Full tests.
 
-The original Full ES completed one genuine update to 723 parameter tensors. Its G1 development rollout reduced failures from 10 to 9, with task score remaining zero; G2 has started. The held-out Full pair remains incomplete. The 24-graph supplement and 2,525-update CV2 diagnostic are complete. Three missed successful milestone graphs are also complete. The earlier v1 refresh failed before fitting and remains recorded. The independent corrected v2 refresh now completed eight fits and 500 updates in 67.124 seconds, with two exact base84 reproductions; see the separate 21:29 update below.
+The original Full ES completed one genuine update to 723 parameter tensors. Its G1 development rollout reduced failures from 10 to 9, with task score remaining zero; G2 has started. At that earlier snapshot, the held-out Full pair remained incomplete. The 24-graph supplement and 2,525-update CV2 diagnostic are complete. Three missed successful milestone graphs are also complete. The earlier v1 refresh failed before fitting and remains recorded. The independent corrected v2 refresh now completed eight fits and 500 updates in 67.124 seconds, with two exact base84 reproductions; see the separate 21:29 update below.
 
 - [Latest grounded-repair, CV2 and ES-update report](discoveryworld/development/20260922T211645_CST/report.md)
 - [Latest terminal per-arm metrics](discoveryworld/development/20260922T211645_CST/V6_metrics.csv)
@@ -68,8 +77,8 @@ Latest CPU refresh snapshot: **September 22, 21:29:53 CST**. The fixed data vari
 - [Eight-fit report and all variants](discoveryworld/development/20260922T212953_CST/report.md)
 - [Exact eight-model metrics](discoveryworld/development/20260922T212953_CST/metrics.csv)
 
-No robust online Full-method improvement or completed held-out Full/Native pair has been established. Actions within a trajectory are dependent; diagnostic fits reusing these actions are not independent validation trials. The closed p307 B30 cohort above adds development evidence, not a held-out Full/Native test pair.
+The single original Full/Native pair above is now complete; robust online Full-method improvement has not been established. Actions within a trajectory are dependent; diagnostic fits reusing these actions are not independent validation trials. The closed p307 B30 cohort above adds development evidence, not a held-out Full/Native test pair.
 
 ## Scope and provenance
 
-Publication reuses completed records only and adds no model, simulator, graph, NN-fitting or ES calls. The feature diagnostic records four fits/800 updates; the separate training diagnostic records another four NN fits/800 updates plus four classical fits. Neither adds graphs or environment calls. These repeated fits reuse the same observations and must not be counted as independent validation trials. Current exploration concerns MADE and DiscoveryWorld; existing historical9B, original seed1 MADE and SnAr exports remain separate. Negative results, unavailable heads, gate failures and source hashes remain preserved. There is no completed Full-method gain or larger-benchmark completion claim.
+Publication reuses completed records only and adds no model, simulator, graph, NN-fitting or ES calls. The feature diagnostic records four fits/800 updates; the separate training diagnostic records another four NN fits/800 updates plus four classical fits. Neither adds graphs or environment calls. These repeated fits reuse the same observations and must not be counted as independent validation trials. Current exploration concerns MADE and DiscoveryWorld; existing historical9B, original seed1 MADE and SnAr exports remain separate. Negative results, unavailable heads, gate failures and source hashes remain preserved. The single-pair positive task-score difference is reported above; there is no general Full-method improvement or larger-benchmark completion claim.

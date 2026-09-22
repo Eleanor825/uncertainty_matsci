@@ -1,0 +1,71 @@
+{
+  "Full_minus_Native": {
+    "action_failures": -7,
+    "failure_fraction": -0.23333333333333334,
+    "official_fitness": 0.14833333333333334,
+    "task_score": 0.125,
+    "task_success": 0
+  },
+  "actual_ES_updates": 2,
+  "asof_CST": "2026-09-23T03:28:28.657255+08:00",
+  "both_tasks_unsuccessful": true,
+  "comparison_checks": {
+    "equal_policy_parameters": false,
+    "equal_proposal_or_graph_compute_budget": false,
+    "independent_worlds": 1,
+    "multiple_seed_effect_estimated": false,
+    "paired_episodes": 1,
+    "policy_seeds": 1,
+    "same_actual_initial_configuration_fingerprint": true,
+    "same_actual_initial_parameter_hash": true,
+    "same_environment_evaluator_runtime_contract_except_output": true,
+    "same_model_prompt_decoding_contract": true,
+    "same_world_seed_policy_seed_B30": true
+  },
+  "difficulty": "Normal",
+  "historical_Native_reused_not_rerun": true,
+  "matched_LLM_compute_claimed": false,
+  "method_component_effect_isolated": false,
+  "model": "Qwen3.5-4B",
+  "new_scientific_calls_for_publication": 0,
+  "paired_episodes": 1,
+  "policy_seed": 401,
+  "rows": [
+    {
+      "accepted_RPC_closed": true,
+      "action_failures": 29,
+      "actual_actions": 30,
+      "actual_candidate_files": 30,
+      "actual_candidate_graph_files": 0,
+      "arm": "Native",
+      "budget": 30,
+      "failure_fraction": 0.9666666666666667,
+      "official_fitness": -0.09666666666666668,
+      "policy_seed": 401,
+      "task_score": 0.0,
+      "task_success": false,
+      "world_seed": 3
+    },
+    {
+      "accepted_RPC_closed": true,
+      "action_failures": 22,
+      "actual_actions": 30,
+      "actual_candidate_files": 55,
+      "actual_candidate_graph_files": 55,
+      "arm": "Full",
+      "budget": 30,
+      "failure_fraction": 0.7333333333333333,
+      "official_fitness": 0.051666666666666666,
+      "policy_seed": 401,
+      "task_score": 0.125,
+      "task_success": false,
+      "world_seed": 3
+    }
+  ],
+  "schema": "dw_single_original_Native_Full_B30_test_comparison_v1",
+  "selected_generation": 1,
+  "significance_or_multiseed_claimed": false,
+  "task": "Proteomics",
+  "unexecuted_candidate_outcomes_inferred": false,
+  "world_seed": 3
+}

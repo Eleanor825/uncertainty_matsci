@@ -1,0 +1,161 @@
+{
+  "environment_source_pins": {
+    "environment_adapter.py": "e367949e139fd797c411dc14332619a8956ab36b4fbc253b0aa4041b58ddc600",
+    "environment_rpc.py": "f6a35e78998a1d32707feb6305ffd814aaa33af0a97486759fe0c268ba40c6db",
+    "policy/action_mapping.py": "2956b3ac870e2c973dd41e247322ed98500decf13d813ec97ccff317ed35cbd3",
+    "policy/collect_episode.py": "e45e5ea2a8ff0c5a20a127644d5653d3c641445ef7869bb78bba24d8650c98a8",
+    "policy/full_policy.py": "59206e67e637c1f46c5a43f73a72061962353c1ad24823466790884b7b234815",
+    "policy/prepare_collection.py": "d1a910f25573e9476f494ac9896c8f212ad214c970f014ba3e8fd55a136bafe0",
+    "risk_es_contract.py": "8e1bd3e84184c3d723291bd5e75d6235627fc173e9204c003f6a672eaa0f1d19",
+    "runtime_lock.json": "7bcd05e73348ed9e2611c6b04e60b6a3d66f4f4d9a235048fcef7d14d8cb89c3",
+    "runtime_support.py": "288a3a4761f875b1166112a8266d9d21db008348716578a8c140098fc459d67d",
+    "source_lock.json": "9e1b733e75fdca87d81132f5a674a500693084cbf2a61dea1016ef68111aeae2",
+    "task_registry.py": "0b7707b313d37beeddc7d2cc211a93f75466a692b0ba017eedd5d9639ff88af8"
+  },
+  "episodes": [
+    {
+      "arm": "Native",
+      "controller_counts": {
+        "supported_neural_revisions": 0,
+        "supported_rank_changes": 0
+      },
+      "job": {
+        "arm": "Baseline",
+        "difficulty": "Normal",
+        "generation": null,
+        "job_id": "dw-six-hour-subset-v1-test-Baseline-w3-p401-b30",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 1,
+        "model_key": "qwen35_4b",
+        "num_user_agents": 1,
+        "policy_seed": 401,
+        "population_member": null,
+        "project_split": "test",
+        "scenario": "Proteomics",
+        "stage": "test",
+        "world_seed": 3
+      },
+      "raw_official_metrics_recomputed": true,
+      "registration": {
+        "commit": "73e3c363512b1698c3e29667c1b9fa835967c43a",
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/registrations/execution_v1/registry.json",
+        "sha256": "87efafb4d59f2525678fcdcfe49dec2f84be5b575ea3aafb2883bc655cfb6980"
+      },
+      "source_refs": {
+        "completion": {
+          "bytes": 5206,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/test_results/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/completion.json",
+          "sha256": "cda074b539a0b4f6657893352357b1824ac5ea82c75dbd7720c578eaf8505c55"
+        },
+        "source_evaluator": {
+          "bytes": 6729,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/evaluator.jsonl",
+          "sha256": "ec35bc60730b788e55afcb40d328621795a6b608c8737f326620cb6c183178c3"
+        },
+        "source_events": {
+          "bytes": 255283,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/events.jsonl",
+          "sha256": "79752da20b25b1354ea3dd69c5cbb5e5770e01cd85d809741d06674b4f076cfe"
+        },
+        "source_summary": {
+          "bytes": 1267,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v1/scientific_episodes/jobs/dw-six-hour-subset-v1-test-Baseline-w3-p401-b30/environment/discoveryworld-v1-df4e7898bcbf99ecd0330d46/summary.json",
+          "sha256": "45d8e852e8f70eb035286000f932a2a4fe7ece74662d38a9fd59e3c9f3383629"
+        }
+      },
+      "spec": {
+        "difficulty": "Normal",
+        "max_agent_requests": 30,
+        "max_ticks": 30,
+        "model_key": "qwen35_4b",
+        "policy_seed": 401,
+        "scenario": "Proteomics",
+        "variation_seed": 3
+      }
+    },
+    {
+      "arm": "Full",
+      "controller_counts": {
+        "supported_neural_revisions": 25,
+        "supported_rank_changes": 21
+      },
+      "job": {
+        "arm": "Full",
+        "difficulty": "Normal",
+        "generation": null,
+        "job_id": "dw-full-es-v5-test-Full-w3-p401-b30",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 2,
+        "model_key": "qwen35_4b",
+        "num_user_agents": 1,
+        "policy_seed": 401,
+        "population_member": null,
+        "project_split": "test",
+        "scenario": "Proteomics",
+        "stage": "test",
+        "world_seed": 3
+      },
+      "raw_official_metrics_recomputed": true,
+      "registration": {
+        "commit": "52cb34d533369150bef87735502fba5d94ed0c59",
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/registrations/full_test_v1/registry.json",
+        "sha256": "0e543ec382281b4e3becd3c50da535d071ea9db74b16ea09765be5ef1c3ae2bd"
+      },
+      "source_refs": {
+        "completion": {
+          "bytes": 5127,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/test_results/dw-full-es-v5-test-Full-w3-p401-b30/completion.json",
+          "sha256": "a78a4ceae6797daaac268fbe0aa8157a842d23caaf8b21ba432b1376f5f441f3"
+        },
+        "source_evaluator": {
+          "bytes": 6743,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/environment/discoveryworld-v1-0479d265bde3ad3971553fc2/evaluator.jsonl",
+          "sha256": "bad798c7094284cfed5a106c0428b857763663e24972019252edb841781a2a3e"
+        },
+        "source_events": {
+          "bytes": 254058,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/environment/discoveryworld-v1-0479d265bde3ad3971553fc2/events.jsonl",
+          "sha256": "0e7c8cc949e34dbe9fa5918fff4e88c308307fb861edcd5ab969ba29749c8923"
+        },
+        "source_summary": {
+          "bytes": 1266,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/episodes/jobs/dw-full-es-v5-test-Full-w3-p401-b30/environment/discoveryworld-v1-0479d265bde3ad3971553fc2/summary.json",
+          "sha256": "ad02699b6203e19a0459357fd4556be2129d659f70822ffc356514948382eb4c"
+        }
+      },
+      "spec": {
+        "difficulty": "Normal",
+        "max_agent_requests": 30,
+        "max_ticks": 30,
+        "model_key": "qwen35_4b",
+        "policy_seed": 401,
+        "scenario": "Proteomics",
+        "variation_seed": 3
+      }
+    }
+  ],
+  "policy_contract_SHA256": "cb191bced4996691eb46bf480d77852704ca260794eae54ce643673b789ebbac",
+  "pretest_admission": {
+    "bytes": 15047,
+    "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/runs/v1/test_results/dw-full-es-v5-test-Full-w3-p401-b30/pretest_admission.json",
+    "sha256": "84b8ab4c857b9d00ef95c0585c6a85b0699d8dae5719b82f8a912c404570dc15"
+  },
+  "registrations": {
+    "Full": {
+      "bytes": 182319,
+      "commit": "52cb34d533369150bef87735502fba5d94ed0c59",
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/full_es_v5/registrations/full_test_v1/registry.json",
+      "sha256": "0e543ec382281b4e3becd3c50da535d071ea9db74b16ea09765be5ef1c3ae2bd"
+    },
+    "Native": {
+      "commit": "73e3c363512b1698c3e29667c1b9fa835967c43a",
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/registrations/execution_v1/registry.json",
+      "sha256": "87efafb4d59f2525678fcdcfe49dec2f84be5b575ea3aafb2883bc655cfb6980"
+    }
+  },
+  "same_actual_initial_configuration_fingerprint": "9cae6e7258b602755e18f7ad52a8f776cef2797482fa4b20a14400cf7f9118a1",
+  "same_actual_initial_parameter_hash": "3977cda253db3654bf7b5b3102de00c45d3bac7235aa4008f3078aba3f858012",
+  "same_environment_evaluator_runtime_contract_except_output": true,
+  "same_model_prompt_decoding_contract": true,
+  "schema": "dw_original_B30_pair_scientific_evidence_v1"
+}

@@ -1014,6 +1014,32 @@
       "validation_script": "results/discoveryworld/progress/20260922T155718_CST/validate.py"
     }
   ],
+  "discoveryworld_test_exports": [
+    {
+      "Full_action_failures": 22,
+      "Full_score": 0.125,
+      "Full_task_success": false,
+      "Native_action_failures": 29,
+      "Native_score": 0,
+      "Native_task_success": false,
+      "actual_ES_updates": 2,
+      "asof_CST": "2026-09-23T03:28:28.657255+08:00",
+      "budget": 30,
+      "historical_Native_reused": true,
+      "matched_inference_compute_claimed": false,
+      "metrics": "results/discoveryworld/test/20260923T032828_CST/metrics.csv",
+      "multiseed_or_component_causal_claimed": false,
+      "new_scientific_calls_for_export": 0,
+      "original_completed_test_pairs_added": 1,
+      "policy_seed": 401,
+      "report": "results/discoveryworld/test/20260923T032828_CST/report.md",
+      "selected_generation": 1,
+      "snapshot_id": "discoveryworld_test_20260923T032828_CST",
+      "status": "results/discoveryworld/test/20260923T032828_CST/comparison.json",
+      "validation_script": "results/discoveryworld/test/20260923T032828_CST/validate.py",
+      "world_seed": 3
+    }
+  ],
   "incremental_component_exports": [
     {
       "accepted_evaluations": 360,
@@ -1710,6 +1736,7 @@
   "latest_discoveryworld_development_export_id": "discoveryworld_development_20260923T013432_CST",
   "latest_discoveryworld_diagnostic_export_id": "discoveryworld_closed_risk_audit_20260922T184705_CST",
   "latest_discoveryworld_progress_export_id": "discoveryworld_progress_20260922T155718_CST",
+  "latest_discoveryworld_test_export_id": "discoveryworld_test_20260923T032828_CST",
   "latest_incremental_component_export_id": "made_incremental_20260922T101850_CST",
   "latest_observation_utc": "2026-09-18T21:21:38.188817+00:00",
   "latest_overview": "results/LATEST.md",

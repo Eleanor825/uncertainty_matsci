@@ -1,0 +1,13 @@
+{
+  "publication_does_not_assert_current_GPU_occupancy": true,
+  "schema": "dw_p333_fixed_prospective_metadata_snapshot_v1",
+  "science_start_or_completion_inferred_from_registration": false,
+  "scientific_calls_in_registration_receipt": 0,
+  "scientific_registration": {
+    "bytes": 251657,
+    "commit": "a0b11a3671d8a16cf69a5181815ec9b684d7e1ca",
+    "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/refresh_confirmation_p333_v1/registrations/development_v1/registry.json",
+    "sha256": "6d66e3eaf79c73f89006f1ef904e657e4bc40af4702e588da77d52168a15df7b"
+  },
+  "status": "fourth_pod_registered_not_launched"
+}
