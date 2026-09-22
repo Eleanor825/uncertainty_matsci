@@ -1,0 +1,1198 @@
+{
+  "completion": {
+    "NN_calls": 0,
+    "actual_selector_backward_intents": 11,
+    "actual_selector_backward_returns": 11,
+    "graph_attempts": 3,
+    "new_environment_calls": 0,
+    "new_policy_generations": 0,
+    "original_graphs_reextracted": 0,
+    "qualification": {
+      "bytes": 305585,
+      "path": "project-artifact:experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/action_influence_selection_diagnostic_v1/runs/v1/qualification.json",
+      "sha256": "8d1a9e6d9f5339ba0c3dcad8535dddd81bf83399c940c6322fdb16487f612831"
+    },
+    "schema": "dw_three_action_influence_selection_graph_outcomes_v1",
+    "successful_graphs": 3
+  },
+  "completion_sha256": "3b677dfca8f991d17f522a6483523c2a5d8abfdeb74ab282acb06e758373f69f",
+  "limitations": [
+    "Absolute attribution shares describe the local cut graph, not causal task coverage.",
+    "Residual projections aggregate signed values across the full prefix before absolute value.",
+    "Old/new graph latency is historical, not a same-host randomized speed comparison.",
+    "Masked feature nodes are not missing graphs.",
+    "A spawn/claim is not model loading or scientific completion."
+  ],
+  "online_efficacy_test": false,
+  "phase": "recorded_science_and_resource_complete",
+  "qualification": {
+    "counts": {
+      "action_influence_selection_intent": 8,
+      "action_influence_selection_returned": 8,
+      "qualification_prefix_intent": 8,
+      "qualification_prefix_result": 8
+    },
+    "exists": true,
+    "failures": [],
+    "final_qualification": {
+      "bytes": 305585,
+      "exists": true,
+      "sha256": "8d1a9e6d9f5339ba0c3dcad8535dddd81bf83399c940c6322fdb16487f612831",
+      "value": {
+        "local_jacobian_reference_validated": true,
+        "native_FP32_FD_all_prefixes_passed": true,
+        "parent_assemble_unchanged_statement_inherited": false,
+        "qualified": true,
+        "schema": "dw_current_state_graph_qualification_v1"
+      }
+    },
+    "full32_fidelity_complete_per_result": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "native_FP32_all_passed_per_result": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "prefix_intents": 8,
+    "prefix_results": 8,
+    "prefix_results_passed": 8,
+    "unparsed_lines": 0
+  },
+  "schema": "dw_three_fixed_TRAIN_selection_graph_public_v1",
+  "selector_costs": {
+    "actual_extra_backward_returns": 11,
+    "failed": [],
+    "intent_count": 11,
+    "selection_seconds": 85.32868746854365,
+    "selection_terminal_events": 11
+  },
+  "three_old_new_graphs": [
+    {
+      "new": {
+        "TC_devices": [
+          "cpu"
+        ],
+        "activation_coverage_denominator": "all positive activations within original causal horizon, including all non-prediction positions excluded by this diagnostic",
+        "activation_mass_coverage": 1.3123151712990415e-05,
+        "all_graph_edge_mass_coverage": 0.8184265354285809,
+        "backward_targets": 33,
+        "bytes": 5534531,
+        "causal_horizon": 3618,
+        "constant_storage_policy": "cpu",
+        "direct_action_score_attribution": {
+          "NN_effective_masks": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.9461788143962622,
+                "absolute_share": 0.20135581581927564,
+                "edges": 32,
+                "signed_mass": 0.1462607877328992
+              },
+              "feature": {
+                "absolute_mass": 0.23348922887817025,
+                "absolute_share": 0.049688719986587845,
+                "edges": 21,
+                "signed_mass": 0.027116873767226934
+              },
+              "omitted_features": {
+                "absolute_mass": 1.1610189895145595,
+                "absolute_share": 0.24707584048427905,
+                "edges": 32,
+                "signed_mass": -0.27132749976590276
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.8960851072333753,
+                "absolute_share": 0.19069540034629648,
+                "edges": 32,
+                "signed_mass": -0.1620072233490646
+              },
+              "token": {
+                "absolute_mass": 1.4622667754738359,
+                "absolute_share": 0.311184223363561,
+                "edges": 1954,
+                "signed_mass": 0.014688852519611828
+              }
+            },
+            "total_absolute_mass": 4.699038915496203
+          },
+          "raw_all_nonzero": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.9461788143962622,
+                "absolute_share": 0.1950064843355008,
+                "edges": 32,
+                "signed_mass": 0.1462607877328992
+              },
+              "feature": {
+                "absolute_mass": 0.28958104830235243,
+                "absolute_share": 0.059682357394213154,
+                "edges": 32,
+                "signed_mass": 0.011194239370524883
+              },
+              "omitted_features": {
+                "absolute_mass": 1.1610189895145595,
+                "absolute_share": 0.23928482433466366,
+                "edges": 32,
+                "signed_mass": -0.27132749976590276
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.8960851072333753,
+                "absolute_share": 0.18468222260765838,
+                "edges": 32,
+                "signed_mass": -0.1620072233490646
+              },
+              "token": {
+                "absolute_mass": 1.5591737439171993,
+                "absolute_share": 0.32134411132796403,
+                "edges": 3619,
+                "signed_mass": 0.018950906040117843
+              }
+            },
+            "total_absolute_mass": 4.852037703363749
+          },
+          "row_mask_only": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.9461788143962622,
+                "absolute_share": 0.19898061002777118,
+                "edges": 32,
+                "signed_mass": 0.1462607877328992
+              },
+              "feature": {
+                "absolute_mass": 0.28958104830235243,
+                "absolute_share": 0.06089865125594719,
+                "edges": 32,
+                "signed_mass": 0.011194239370524883
+              },
+              "omitted_features": {
+                "absolute_mass": 1.1610189895145595,
+                "absolute_share": 0.24416131842356134,
+                "edges": 32,
+                "signed_mass": -0.27132749976590276
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.8960851072333753,
+                "absolute_share": 0.18844594548216526,
+                "edges": 32,
+                "signed_mass": -0.1620072233490646
+              },
+              "token": {
+                "absolute_mass": 1.4622667754738359,
+                "absolute_share": 0.307513474810555,
+                "edges": 1954,
+                "signed_mass": 0.014688852519611828
+              }
+            },
+            "total_absolute_mass": 4.755130734920385
+          }
+        },
+        "exists": true,
+        "full_prefix_tokens": 3624,
+        "input_identity": {
+          "bank_sha256": "65e85674fcc56bada41c781331f75e6eee24a51e666c2e11ad8ca057cbf52a6a",
+          "configuration_fingerprint": "9cae6e7258b602755e18f7ad52a8f776cef2797482fa4b20a14400cf7f9118a1",
+          "generation_prefix_hash": "d133239a7d0ebedd41b88448870cd091fb0e8d71108968bf1ef7e4b991936618",
+          "source_model_stamp_sha256": "06d09e975416a70e6f6e4e13779e9504b43c64b507f21e614013091ead5e5645"
+        },
+        "missing_graph": false,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/action_influence_selection_diagnostic_v1/runs/v1/graphs/w0p101a2.json",
+        "recorded_ref_verified": true,
+        "retained": {
+          "at_action_prediction_positions": 21,
+          "count": 21,
+          "distance_gt512": 0,
+          "horizon_distance": {
+            "max": 18,
+            "median": 13,
+            "min": 13
+          },
+          "layer_counts": {
+            "12": 1,
+            "17": 1,
+            "18": 2,
+            "19": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "26": 1,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "9": 2
+          },
+          "represented_layers": 14,
+          "unique_layer_feature_ids": 21
+        },
+        "score_direct_absolute_mass_retained_ratio": 0.968467106559894,
+        "seconds": 126.0507123703137,
+        "selected": {
+          "at_action_prediction_positions": 32,
+          "count": 32,
+          "distance_gt512": 0,
+          "horizon_distance": {
+            "max": 18,
+            "median": 13.0,
+            "min": 13
+          },
+          "layer_counts": {
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2,
+            "25": 1,
+            "26": 1,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "6": 2,
+            "8": 1,
+            "9": 2
+          },
+          "represented_layers": 19,
+          "unique_layer_feature_ids": 32
+        },
+        "selector_extra_backward_calls": 1,
+        "selector_positive_candidates": 22528,
+        "selector_seconds": 7.782986419275403,
+        "sha256": "6d27e16147f7124a264a466c57d1430fa1ce4c84b67d573556b3b0c48f05b466",
+        "source_selection_rule": "action_prediction_local_influence_layercap2_v1",
+        "status": "verified_available",
+        "total_backward_calls_including_selector": 34
+      },
+      "old": {
+        "TC_devices": [
+          "cpu"
+        ],
+        "activation_coverage_denominator": "all positive activations within original causal horizon, including structurally excluded final-MLP positions",
+        "activation_mass_coverage": 0.00010672575845429989,
+        "all_graph_edge_mass_coverage": 0.1584132307470014,
+        "backward_targets": 33,
+        "bytes": 2315397,
+        "causal_horizon": 3618,
+        "constant_storage_policy": "cpu",
+        "direct_action_score_attribution": {
+          "NN_effective_masks": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.9461788143962622,
+                "absolute_share": 0.20565889924369427,
+                "edges": 32,
+                "signed_mass": 0.1462607877328992
+              },
+              "feature": {
+                "absolute_mass": 0.06019736174494028,
+                "absolute_share": 0.013084337722926505,
+                "edges": 3,
+                "signed_mass": 0.016687010414898396
+              },
+              "omitted_features": {
+                "absolute_mass": 1.2327706953510642,
+                "absolute_share": 0.26795174481639183,
+                "edges": 32,
+                "signed_mass": -0.27226961124688387
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.8960851072333753,
+                "absolute_share": 0.19477066488734915,
+                "edges": 32,
+                "signed_mass": -0.1620072233490646
+              },
+              "token": {
+                "absolute_mass": 1.465487065652269,
+                "absolute_share": 0.3185343533296382,
+                "edges": 1977,
+                "signed_mass": 0.014266376456362195
+              }
+            },
+            "total_absolute_mass": 4.600719044377911
+          },
+          "raw_all_nonzero": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.9461788143962622,
+                "absolute_share": 0.20129677509990093,
+                "edges": 32,
+                "signed_mass": 0.1462607877328992
+              },
+              "feature": {
+                "absolute_mass": 0.0662087914717091,
+                "absolute_share": 0.014085726718602289,
+                "edges": 32,
+                "signed_mass": 0.012136401581315681
+              },
+              "omitted_features": {
+                "absolute_mass": 1.2327706953510642,
+                "absolute_share": 0.2622683594645617,
+                "edges": 32,
+                "signed_mass": -0.27226961124688387
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.8960851072333753,
+                "absolute_share": 0.1906394854298483,
+                "edges": 32,
+                "signed_mass": -0.1620072233490646
+              },
+              "token": {
+                "absolute_mass": 1.5591737439171993,
+                "absolute_share": 0.33170965328708685,
+                "edges": 3619,
+                "signed_mass": 0.018950906040117843
+              }
+            },
+            "total_absolute_mass": 4.70041715236961
+          },
+          "row_mask_only": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.9461788143962622,
+                "absolute_share": 0.2054045474892056,
+                "edges": 32,
+                "signed_mass": 0.1462607877328992
+              },
+              "feature": {
+                "absolute_mass": 0.06589441653341055,
+                "absolute_share": 0.01430492059658601,
+                "edges": 9,
+                "signed_mass": 0.012087719340343028
+              },
+              "omitted_features": {
+                "absolute_mass": 1.2327706953510642,
+                "absolute_share": 0.26762035144288365,
+                "edges": 32,
+                "signed_mass": -0.27226961124688387
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.8960851072333753,
+                "absolute_share": 0.1945297793213989,
+                "edges": 32,
+                "signed_mass": -0.1620072233490646
+              },
+              "token": {
+                "absolute_mass": 1.465487065652269,
+                "absolute_share": 0.3181404011499258,
+                "edges": 1977,
+                "signed_mass": 0.014266376456362195
+              }
+            },
+            "total_absolute_mass": 4.606416099166381
+          }
+        },
+        "exists": true,
+        "full_prefix_tokens": 3624,
+        "input_identity": {
+          "bank_sha256": "65e85674fcc56bada41c781331f75e6eee24a51e666c2e11ad8ca057cbf52a6a",
+          "configuration_fingerprint": "9cae6e7258b602755e18f7ad52a8f776cef2797482fa4b20a14400cf7f9118a1",
+          "generation_prefix_hash": "d133239a7d0ebedd41b88448870cd091fb0e8d71108968bf1ef7e4b991936618",
+          "source_model_stamp_sha256": "06d09e975416a70e6f6e4e13779e9504b43c64b507f21e614013091ead5e5645"
+        },
+        "missing_graph": false,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/train_prefix_enrichment_v1/runs/v1/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p101/graph_a0002.json",
+        "recorded_ref_verified": true,
+        "retained": {
+          "at_action_prediction_positions": 3,
+          "count": 3,
+          "distance_gt512": 0,
+          "horizon_distance": {
+            "max": 18,
+            "median": 18,
+            "min": 13
+          },
+          "layer_counts": {
+            "31": 3
+          },
+          "represented_layers": 1,
+          "unique_layer_feature_ids": 3
+        },
+        "score_direct_absolute_mass_retained_ratio": 0.9787895191512016,
+        "seconds": 144.04093258827925,
+        "selected": {
+          "at_action_prediction_positions": 5,
+          "count": 32,
+          "distance_gt512": 24,
+          "horizon_distance": {
+            "max": 3502,
+            "median": 2839.5,
+            "min": 3
+          },
+          "layer_counts": {
+            "30": 27,
+            "31": 5
+          },
+          "represented_layers": 2,
+          "unique_layer_feature_ids": 31
+        },
+        "selector_extra_backward_calls": 0,
+        "selector_positive_candidates": 0,
+        "selector_seconds": null,
+        "sha256": "6be5451e8d1c4a318797a3a8b09af259cb90223161285763b450193b8493891f",
+        "source_selection_rule": "qwen_final_mlp_causal_activation_v1",
+        "status": "verified_available",
+        "total_backward_calls_including_selector": 33
+      },
+      "original_source_prefix_model_bank_match": true,
+      "sample_id": "w0p101a2"
+    },
+    {
+      "new": {
+        "TC_devices": [
+          "cpu"
+        ],
+        "activation_coverage_denominator": "all positive activations within original causal horizon, including all non-prediction positions excluded by this diagnostic",
+        "activation_mass_coverage": 1.5321840516928435e-05,
+        "all_graph_edge_mass_coverage": 0.6720037183440608,
+        "backward_targets": 33,
+        "bytes": 5718483,
+        "causal_horizon": 3743,
+        "constant_storage_policy": "cpu",
+        "direct_action_score_attribution": {
+          "NN_effective_masks": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.5379507010802627,
+                "absolute_share": 0.17436498213554902,
+                "edges": 32,
+                "signed_mass": -0.03316189907491207
+              },
+              "feature": {
+                "absolute_mass": 0.13690314372070134,
+                "absolute_share": 0.044374166928725686,
+                "edges": 18,
+                "signed_mass": -0.01940694940276444
+              },
+              "omitted_features": {
+                "absolute_mass": 0.9169055647216737,
+                "absolute_share": 0.2971949327171273,
+                "edges": 32,
+                "signed_mass": 0.13032192317768931
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.6270783967338502,
+                "absolute_share": 0.20325377999232838,
+                "edges": 32,
+                "signed_mass": -0.06022893497720361
+              },
+              "token": {
+                "absolute_mass": 0.8663613804819761,
+                "absolute_share": 0.2808121382262696,
+                "edges": 1831,
+                "signed_mass": -0.02670823900552932
+              }
+            },
+            "total_absolute_mass": 3.085199186738464
+          },
+          "raw_all_nonzero": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.5379507010802627,
+                "absolute_share": 0.16904643405778907,
+                "edges": 32,
+                "signed_mass": -0.03316189907491207
+              },
+              "feature": {
+                "absolute_mass": 0.17040484421886504,
+                "absolute_share": 0.053548273482172226,
+                "edges": 32,
+                "signed_mass": -0.019845570670440793
+              },
+              "omitted_features": {
+                "absolute_mass": 0.9169055647216737,
+                "absolute_share": 0.2881297780125324,
+                "edges": 32,
+                "signed_mass": 0.13032192317768931
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.6270783967338502,
+                "absolute_share": 0.19705405463672188,
+                "edges": 32,
+                "signed_mass": -0.06022893497720361
+              },
+              "token": {
+                "absolute_mass": 0.9299263841446646,
+                "absolute_share": 0.2922214598107844,
+                "edges": 3744,
+                "signed_mass": -0.028707839459229945
+              }
+            },
+            "total_absolute_mass": 3.182265890899316
+          },
+          "row_mask_only": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.5379507010802627,
+                "absolute_share": 0.17249191908138456,
+                "edges": 32,
+                "signed_mass": -0.03316189907491207
+              },
+              "feature": {
+                "absolute_mass": 0.17040484421886504,
+                "absolute_share": 0.05463968824847927,
+                "edges": 32,
+                "signed_mass": -0.019845570670440793
+              },
+              "omitted_features": {
+                "absolute_mass": 0.9169055647216737,
+                "absolute_share": 0.2940024060897074,
+                "edges": 32,
+                "signed_mass": 0.13032192317768931
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.6270783967338502,
+                "absolute_share": 0.20107038776953137,
+                "edges": 32,
+                "signed_mass": -0.06022893497720361
+              },
+              "token": {
+                "absolute_mass": 0.8663613804819761,
+                "absolute_share": 0.27779559881089744,
+                "edges": 1831,
+                "signed_mass": -0.02670823900552932
+              }
+            },
+            "total_absolute_mass": 3.1187008872366278
+          }
+        },
+        "exists": true,
+        "full_prefix_tokens": 3749,
+        "input_identity": {
+          "bank_sha256": "65e85674fcc56bada41c781331f75e6eee24a51e666c2e11ad8ca057cbf52a6a",
+          "configuration_fingerprint": "9cae6e7258b602755e18f7ad52a8f776cef2797482fa4b20a14400cf7f9118a1",
+          "generation_prefix_hash": "e85a9b9981705d8e55648103b0115a7c5de529927e038f39a2fede614d7ab423",
+          "source_model_stamp_sha256": "ec9b8f6f84f92ba175f0f743a2a725c8aa47ab7e20ef7ef6b6585840800a16fd"
+        },
+        "missing_graph": false,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/action_influence_selection_diagnostic_v1/runs/v1/graphs/w0p102a47.json",
+        "recorded_ref_verified": true,
+        "retained": {
+          "at_action_prediction_positions": 18,
+          "count": 18,
+          "distance_gt512": 0,
+          "horizon_distance": {
+            "max": 13,
+            "median": 13.0,
+            "min": 9
+          },
+          "layer_counts": {
+            "18": 1,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 1,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2
+          },
+          "represented_layers": 10,
+          "unique_layer_feature_ids": 18
+        },
+        "score_direct_absolute_mass_retained_ratio": 0.9694976134965828,
+        "seconds": 141.34611179493368,
+        "selected": {
+          "at_action_prediction_positions": 32,
+          "count": 32,
+          "distance_gt512": 0,
+          "horizon_distance": {
+            "max": 13,
+            "median": 13.0,
+            "min": 1
+          },
+          "layer_counts": {
+            "10": 1,
+            "12": 1,
+            "13": 1,
+            "16": 1,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 1,
+            "21": 1,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2
+          },
+          "represented_layers": 19,
+          "unique_layer_feature_ids": 32
+        },
+        "selector_extra_backward_calls": 1,
+        "selector_positive_candidates": 20480,
+        "selector_seconds": 8.008175886236131,
+        "sha256": "ffa518dfb76e75c3217561b7305904f6fa7c1aa36074b1b00ed03375dadbe41f",
+        "source_selection_rule": "action_prediction_local_influence_layercap2_v1",
+        "status": "verified_available",
+        "total_backward_calls_including_selector": 34
+      },
+      "old": {
+        "TC_devices": [
+          "cpu"
+        ],
+        "activation_coverage_denominator": "all positive activations within original causal horizon, including structurally excluded final-MLP positions",
+        "activation_mass_coverage": 0.00010996848718997836,
+        "all_graph_edge_mass_coverage": 0.15372662269570014,
+        "backward_targets": 33,
+        "bytes": 3289793,
+        "causal_horizon": 3743,
+        "constant_storage_policy": "cpu",
+        "direct_action_score_attribution": {
+          "NN_effective_masks": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.5379507010802627,
+                "absolute_share": 0.17620395097155075,
+                "edges": 32,
+                "signed_mass": -0.03316189907491207
+              },
+              "feature": {
+                "absolute_mass": 0.027739392826333642,
+                "absolute_share": 0.00908594524319175,
+                "edges": 4,
+                "signed_mass": -0.027739392826333642
+              },
+              "omitted_features": {
+                "absolute_mass": 0.9925255603156984,
+                "absolute_share": 0.32509842410593864,
+                "edges": 31,
+                "signed_mass": 0.13704357342794538
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.6270783967338502,
+                "absolute_share": 0.2053974292654082,
+                "edges": 32,
+                "signed_mass": -0.06022893497720361
+              },
+              "token": {
+                "absolute_mass": 0.8677061690395931,
+                "absolute_share": 0.2842142504139107,
+                "edges": 1847,
+                "signed_mass": -0.026878452496021055
+              }
+            },
+            "total_absolute_mass": 3.053000219995738
+          },
+          "raw_all_nonzero": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.5379507010802627,
+                "absolute_share": 0.17238126174739907,
+                "edges": 32,
+                "signed_mass": -0.03316189907491207
+              },
+              "feature": {
+                "absolute_mass": 0.03320473936160795,
+                "absolute_share": 0.010640147611395152,
+                "edges": 32,
+                "signed_mass": -0.026550116324770556
+              },
+              "omitted_features": {
+                "absolute_mass": 0.9925426649861038,
+                "absolute_share": 0.31805099721006397,
+                "edges": 32,
+                "signed_mass": 0.13702646875754
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.6270783967338502,
+                "absolute_share": 0.20094139672361744,
+                "edges": 32,
+                "signed_mass": -0.06022893497720361
+              },
+              "token": {
+                "absolute_mass": 0.9299263841446646,
+                "absolute_share": 0.29798619670752435,
+                "edges": 3744,
+                "signed_mass": -0.028707839459229945
+              }
+            },
+            "total_absolute_mass": 3.120702886306489
+          },
+          "row_mask_only": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.5379507010802627,
+                "absolute_share": 0.17589918337040317,
+                "edges": 32,
+                "signed_mass": -0.03316189907491207
+              },
+              "feature": {
+                "absolute_mass": 0.033029102167347446,
+                "absolute_share": 0.010799859702807979,
+                "edges": 11,
+                "signed_mass": -0.026497120241401717
+              },
+              "omitted_features": {
+                "absolute_mass": 0.9925255603156984,
+                "absolute_share": 0.32453612418981687,
+                "edges": 31,
+                "signed_mass": 0.13704357342794538
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.6270783967338502,
+                "absolute_share": 0.2050421677547897,
+                "edges": 32,
+                "signed_mass": -0.06022893497720361
+              },
+              "token": {
+                "absolute_mass": 0.8677061690395931,
+                "absolute_share": 0.28372266498218224,
+                "edges": 1847,
+                "signed_mass": -0.026878452496021055
+              }
+            },
+            "total_absolute_mass": 3.058289929336752
+          }
+        },
+        "exists": true,
+        "full_prefix_tokens": 3749,
+        "input_identity": {
+          "bank_sha256": "65e85674fcc56bada41c781331f75e6eee24a51e666c2e11ad8ca057cbf52a6a",
+          "configuration_fingerprint": "9cae6e7258b602755e18f7ad52a8f776cef2797482fa4b20a14400cf7f9118a1",
+          "generation_prefix_hash": "e85a9b9981705d8e55648103b0115a7c5de529927e038f39a2fede614d7ab423",
+          "source_model_stamp_sha256": "ec9b8f6f84f92ba175f0f743a2a725c8aa47ab7e20ef7ef6b6585840800a16fd"
+        },
+        "missing_graph": false,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p102/graph_a0047.json",
+        "recorded_ref_verified": true,
+        "retained": {
+          "at_action_prediction_positions": 4,
+          "count": 4,
+          "distance_gt512": 0,
+          "horizon_distance": {
+            "max": 13,
+            "median": 11.0,
+            "min": 9
+          },
+          "layer_counts": {
+            "31": 4
+          },
+          "represented_layers": 1,
+          "unique_layer_feature_ids": 4
+        },
+        "score_direct_absolute_mass_retained_ratio": 0.9783053149315086,
+        "seconds": 159.0846744189039,
+        "selected": {
+          "at_action_prediction_positions": 14,
+          "count": 32,
+          "distance_gt512": 16,
+          "horizon_distance": {
+            "max": 3625,
+            "median": 1320.5,
+            "min": 4
+          },
+          "layer_counts": {
+            "30": 18,
+            "31": 14
+          },
+          "represented_layers": 2,
+          "unique_layer_feature_ids": 32
+        },
+        "selector_extra_backward_calls": 0,
+        "selector_positive_candidates": 0,
+        "selector_seconds": null,
+        "sha256": "92c2bfa294f2df4778b9251e3c537a46861e4a4a0b1e239ad95ee9a4a512e8ec",
+        "source_selection_rule": "qwen_final_mlp_causal_activation_v1",
+        "status": "verified_available",
+        "total_backward_calls_including_selector": 33
+      },
+      "original_source_prefix_model_bank_match": true,
+      "sample_id": "w0p102a47"
+    },
+    {
+      "new": {
+        "TC_devices": [
+          "cpu"
+        ],
+        "activation_coverage_denominator": "all positive activations within original causal horizon, including all non-prediction positions excluded by this diagnostic",
+        "activation_mass_coverage": 1.409697801081822e-05,
+        "all_graph_edge_mass_coverage": 0.7821577667851614,
+        "backward_targets": 33,
+        "bytes": 6395711,
+        "causal_horizon": 4235,
+        "constant_storage_policy": "cpu",
+        "direct_action_score_attribution": {
+          "NN_effective_masks": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.6160048120655119,
+                "absolute_share": 0.18866231250020005,
+                "edges": 32,
+                "signed_mass": -0.01937095122411847
+              },
+              "feature": {
+                "absolute_mass": 0.1683458322659135,
+                "absolute_share": 0.051558873231140126,
+                "edges": 20,
+                "signed_mass": -0.01183286402374506
+              },
+              "omitted_features": {
+                "absolute_mass": 1.0081953234039247,
+                "absolute_share": 0.30877755731726797,
+                "edges": 32,
+                "signed_mass": 0.023689838591963053
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.5875336457975209,
+                "absolute_share": 0.1799425168711918,
+                "edges": 32,
+                "signed_mass": -0.227954865898937
+              },
+              "token": {
+                "absolute_mass": 0.885038914391771,
+                "absolute_share": 0.27105874008020003,
+                "edges": 2314,
+                "signed_mass": -0.01899951131781563
+              }
+            },
+            "total_absolute_mass": 3.265118527924642
+          },
+          "raw_all_nonzero": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.6160048120655119,
+                "absolute_share": 0.18288539304673143,
+                "edges": 32,
+                "signed_mass": -0.01937095122411847
+              },
+              "feature": {
+                "absolute_mass": 0.20415079640224576,
+                "absolute_share": 0.060610238604527765,
+                "edges": 32,
+                "signed_mass": -0.022837939206510782
+              },
+              "omitted_features": {
+                "absolute_mass": 1.0081953234039247,
+                "absolute_share": 0.29932265848759976,
+                "edges": 32,
+                "signed_mass": 0.023689838591963053
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.5875336457975209,
+                "absolute_share": 0.17443260123174376,
+                "edges": 32,
+                "signed_mass": -0.227954865898937
+              },
+              "token": {
+                "absolute_mass": 0.9523713655930806,
+                "absolute_share": 0.2827491086293973,
+                "edges": 4236,
+                "signed_mass": -0.01060038045170586
+              }
+            },
+            "total_absolute_mass": 3.368255943262284
+          },
+          "row_mask_only": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.6160048120655119,
+                "absolute_share": 0.18661590114010834,
+                "edges": 32,
+                "signed_mass": -0.01937095122411847
+              },
+              "feature": {
+                "absolute_mass": 0.20415079640224576,
+                "absolute_share": 0.061846570177481325,
+                "edges": 32,
+                "signed_mass": -0.022837939206510782
+              },
+              "omitted_features": {
+                "absolute_mass": 1.0081953234039247,
+                "absolute_share": 0.30542826146341395,
+                "edges": 32,
+                "signed_mass": 0.023689838591963053
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.5875336457975209,
+                "absolute_share": 0.17799068873016705,
+                "edges": 32,
+                "signed_mass": -0.227954865898937
+              },
+              "token": {
+                "absolute_mass": 0.885038914391771,
+                "absolute_share": 0.26811857848882936,
+                "edges": 2314,
+                "signed_mass": -0.01899951131781563
+              }
+            },
+            "total_absolute_mass": 3.3009234920609742
+          }
+        },
+        "exists": true,
+        "full_prefix_tokens": 4241,
+        "input_identity": {
+          "bank_sha256": "65e85674fcc56bada41c781331f75e6eee24a51e666c2e11ad8ca057cbf52a6a",
+          "configuration_fingerprint": "9cae6e7258b602755e18f7ad52a8f776cef2797482fa4b20a14400cf7f9118a1",
+          "generation_prefix_hash": "c4b848186b23ac643b2e71d7535d40fb37b2e2494b8c62d924a0eb44fda5c3f9",
+          "source_model_stamp_sha256": "adb55ec4c3e1073b8408721eeb84388c0e7585ecc303484513e8af701a2a0ba7"
+        },
+        "missing_graph": false,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/action_influence_selection_diagnostic_v1/runs/v1/graphs/w0p103a100.json",
+        "recorded_ref_verified": true,
+        "retained": {
+          "at_action_prediction_positions": 20,
+          "count": 20,
+          "distance_gt512": 0,
+          "horizon_distance": {
+            "max": 11,
+            "median": 11.0,
+            "min": 11
+          },
+          "layer_counts": {
+            "20": 1,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 1,
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2
+          },
+          "represented_layers": 11,
+          "unique_layer_feature_ids": 20
+        },
+        "score_direct_absolute_mass_retained_ratio": 0.9693795789052333,
+        "seconds": 161.24573942553252,
+        "selected": {
+          "at_action_prediction_positions": 32,
+          "count": 32,
+          "distance_gt512": 0,
+          "horizon_distance": {
+            "max": 11,
+            "median": 11.0,
+            "min": 11
+          },
+          "layer_counts": {
+            "16": 1,
+            "17": 2,
+            "18": 2,
+            "19": 1,
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "3": 1,
+            "30": 2,
+            "31": 2,
+            "7": 1
+          },
+          "represented_layers": 18,
+          "unique_layer_feature_ids": 32
+        },
+        "selector_extra_backward_calls": 1,
+        "selector_positive_candidates": 16384,
+        "selector_seconds": 8.923426613211632,
+        "sha256": "bf7d745aa95c91f5eacfb04a236e4a477262bc97245cec5c0147f7eab3ea46d1",
+        "source_selection_rule": "action_prediction_local_influence_layercap2_v1",
+        "status": "verified_available",
+        "total_backward_calls_including_selector": 34
+      },
+      "old": {
+        "TC_devices": [
+          "cpu"
+        ],
+        "activation_coverage_denominator": "all positive activations within original causal horizon, including structurally excluded final-MLP positions",
+        "activation_mass_coverage": 9.284418376941187e-05,
+        "all_graph_edge_mass_coverage": 0.10219646763244371,
+        "backward_targets": 33,
+        "bytes": 2831062,
+        "causal_horizon": 4235,
+        "constant_storage_policy": "cpu",
+        "direct_action_score_attribution": {
+          "NN_effective_masks": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.6160048120655119,
+                "absolute_share": 0.19401392980288026,
+                "edges": 32,
+                "signed_mass": -0.01937095122411847
+              },
+              "feature": {
+                "absolute_mass": 0.02515453938394785,
+                "absolute_share": 0.00792255343249173,
+                "edges": 2,
+                "signed_mass": -0.013375534676015377
+              },
+              "omitted_features": {
+                "absolute_mass": 1.0585624775849283,
+                "absolute_share": 0.33339977577364055,
+                "edges": 31,
+                "signed_mass": 0.013032117392867804
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.5875336457975209,
+                "absolute_share": 0.18504678742747832,
+                "edges": 32,
+                "signed_mass": -0.227954865898937
+              },
+              "token": {
+                "absolute_mass": 0.887799082804122,
+                "absolute_share": 0.27961695356350913,
+                "edges": 2348,
+                "signed_mass": -0.01916435279417783
+              }
+            },
+            "total_absolute_mass": 3.175054557636031
+          },
+          "raw_all_nonzero": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.6160048120655119,
+                "absolute_share": 0.19002569159270266,
+                "edges": 32,
+                "signed_mass": -0.01937095122411847
+              },
+              "feature": {
+                "absolute_mass": 0.027208311949760144,
+                "absolute_share": 0.00839324335468553,
+                "edges": 32,
+                "signed_mass": -0.01216855109688808
+              },
+              "omitted_features": {
+                "absolute_mass": 1.0585741163231432,
+                "absolute_share": 0.32654984931359016,
+                "edges": 32,
+                "signed_mass": 0.013020478654652834
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.5875336457975209,
+                "absolute_share": 0.1812428818571994,
+                "edges": 32,
+                "signed_mass": -0.227954865898937
+              },
+              "token": {
+                "absolute_mass": 0.9523713655930806,
+                "absolute_share": 0.29378833388182224,
+                "edges": 4236,
+                "signed_mass": -0.01060038045170586
+              }
+            },
+            "total_absolute_mass": 3.2416922517290168
+          },
+          "row_mask_only": {
+            "by_kind": {
+              "decoder_bias": {
+                "absolute_mass": 0.6160048120655119,
+                "absolute_share": 0.19389919847857773,
+                "edges": 32,
+                "signed_mass": -0.01937095122411847
+              },
+              "feature": {
+                "absolute_mass": 0.02703323830064619,
+                "absolute_share": 0.008509224499723923,
+                "edges": 8,
+                "signed_mass": -0.012226507380546536
+              },
+              "omitted_features": {
+                "absolute_mass": 1.0585624775849283,
+                "absolute_share": 0.3332026177766063,
+                "edges": 31,
+                "signed_mass": 0.013032117392867804
+              },
+              "reconstruction_error": {
+                "absolute_mass": 0.5875336457975209,
+                "absolute_share": 0.18493735887767754,
+                "edges": 32,
+                "signed_mass": -0.227954865898937
+              },
+              "token": {
+                "absolute_mass": 0.887799082804122,
+                "absolute_share": 0.2794516003674145,
+                "edges": 2348,
+                "signed_mass": -0.01916435279417783
+              }
+            },
+            "total_absolute_mass": 3.1769332565527293
+          }
+        },
+        "exists": true,
+        "full_prefix_tokens": 4241,
+        "input_identity": {
+          "bank_sha256": "65e85674fcc56bada41c781331f75e6eee24a51e666c2e11ad8ca057cbf52a6a",
+          "configuration_fingerprint": "9cae6e7258b602755e18f7ad52a8f776cef2797482fa4b20a14400cf7f9118a1",
+          "generation_prefix_hash": "c4b848186b23ac643b2e71d7535d40fb37b2e2494b8c62d924a0eb44fda5c3f9",
+          "source_model_stamp_sha256": "adb55ec4c3e1073b8408721eeb84388c0e7585ecc303484513e8af701a2a0ba7"
+        },
+        "missing_graph": false,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/runs/v4/graphs/discoveryworld_proteomics_normal_qwen35_4b_full_v1-collection_train-Baseline-w0-p103/graph_a0100.json",
+        "recorded_ref_verified": true,
+        "retained": {
+          "at_action_prediction_positions": 2,
+          "count": 2,
+          "distance_gt512": 0,
+          "horizon_distance": {
+            "max": 11,
+            "median": 11.0,
+            "min": 11
+          },
+          "layer_counts": {
+            "31": 2
+          },
+          "represented_layers": 1,
+          "unique_layer_feature_ids": 2
+        },
+        "score_direct_absolute_mass_retained_ratio": 0.9794435470987589,
+        "seconds": 182.1543778628111,
+        "selected": {
+          "at_action_prediction_positions": 6,
+          "count": 32,
+          "distance_gt512": 25,
+          "horizon_distance": {
+            "max": 4119,
+            "median": 3162.0,
+            "min": 10
+          },
+          "layer_counts": {
+            "30": 26,
+            "31": 6
+          },
+          "represented_layers": 2,
+          "unique_layer_feature_ids": 31
+        },
+        "selector_extra_backward_calls": 0,
+        "selector_positive_candidates": 0,
+        "selector_seconds": null,
+        "sha256": "6ea08b7a42d46cdbb81bc5f39e710783bdd21e74482e5e6196eb7c2b79ee213f",
+        "source_selection_rule": "qwen_final_mlp_causal_activation_v1",
+        "status": "verified_available",
+        "total_backward_calls_including_selector": 33
+      },
+      "original_source_prefix_model_bank_match": true,
+      "sample_id": "w0p103a100"
+    }
+  ]
+}

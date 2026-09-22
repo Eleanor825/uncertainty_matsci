@@ -1,0 +1,6211 @@
+{
+  "arms": [
+    {
+      "condition": "Common2",
+      "failure_count": 7,
+      "official_score": 0.0,
+      "progress": [],
+      "selection_counts": {
+        "NN_rankchange": 0,
+        "NN_rankchange_changed_action": 0,
+        "NN_supported_comparison": 0,
+        "fallback_to_common_hash": 0,
+        "second_action_different_from_first": 24,
+        "selected_action_differs_from_common": 0,
+        "selected_action_differs_from_first": 11
+      },
+      "task_success": false
+    },
+    {
+      "condition": "Internal_base84",
+      "failure_count": 5,
+      "official_score": 0.125,
+      "progress": [
+        {
+          "attempt_index": 3,
+          "completed": false,
+          "completed_successfully": false,
+          "delta_since_previous_observation": 0.125,
+          "previous_observed_attempt": 2,
+          "score_after": 0.125,
+          "score_before": 0.0
+        }
+      ],
+      "selection_counts": {
+        "NN_rankchange": 14,
+        "NN_rankchange_changed_action": 10,
+        "NN_supported_comparison": 27,
+        "fallback_to_common_hash": 3,
+        "second_action_different_from_first": 18,
+        "selected_action_differs_from_common": 10,
+        "selected_action_differs_from_first": 17
+      },
+      "task_success": false
+    },
+    {
+      "condition": "Internal_combined",
+      "failure_count": 21,
+      "official_score": 0.125,
+      "progress": [
+        {
+          "attempt_index": 25,
+          "completed": false,
+          "completed_successfully": false,
+          "delta_since_previous_observation": 0.125,
+          "previous_observed_attempt": 24,
+          "score_after": 0.125,
+          "score_before": 0.0
+        }
+      ],
+      "selection_counts": {
+        "NN_rankchange": 13,
+        "NN_rankchange_changed_action": 3,
+        "NN_supported_comparison": 27,
+        "fallback_to_common_hash": 3,
+        "second_action_different_from_first": 9,
+        "selected_action_differs_from_common": 3,
+        "selected_action_differs_from_first": 4
+      },
+      "task_success": false
+    },
+    {
+      "condition": "OutputAction_combined",
+      "failure_count": 26,
+      "official_score": 0.0,
+      "progress": [],
+      "selection_counts": {
+        "NN_rankchange": 16,
+        "NN_rankchange_changed_action": 3,
+        "NN_supported_comparison": 29,
+        "fallback_to_common_hash": 1,
+        "second_action_different_from_first": 7,
+        "selected_action_differs_from_common": 3,
+        "selected_action_differs_from_first": 3
+      },
+      "task_success": false
+    }
+  ],
+  "limitations": [
+    "One development world and one policy seed; four dependent adaptive trajectories, not 120 independent tests.",
+    "Only actually selected and executed actions are labeled. All three shadow heads are compared on the same complete-case rows.",
+    "Parsed packet equality does not imply raw generation/prefix equality. Risk variation is a descriptive sensitivity, not proof of an incorrect target.",
+    "No causal effect of an unexecuted alternative, no refitting, threshold selection or production changes.",
+    "No Native1 condition in this four-arm cohort. Fixed two-proposal rules differ from the original Full ES method."
+  ],
+  "matched_selected_action_metrics": {
+    "base84/Internal": {
+      "AUROC_descriptive": 0.9213659147869674,
+      "Brier": 0.12435354793240051,
+      "ECE_10_fixed_bins": 0.1202746601569244,
+      "bins": [
+        {
+          "bin": 0,
+          "failure_rate": 0.11538461538461539,
+          "n": 52,
+          "risk": 0.029493139438832607
+        },
+        {
+          "bin": 1,
+          "failure_rate": 0.3333333333333333,
+          "n": 9,
+          "risk": 0.1401375780502955
+        },
+        {
+          "bin": 3,
+          "failure_rate": 1,
+          "n": 2,
+          "risk": 0.31645238399505615
+        },
+        {
+          "bin": 4,
+          "failure_rate": 1,
+          "n": 5,
+          "risk": 0.4432238280773163
+        },
+        {
+          "bin": 5,
+          "failure_rate": 0.75,
+          "n": 4,
+          "risk": 0.5314024835824966
+        },
+        {
+          "bin": 6,
+          "failure_rate": 1,
+          "n": 2,
+          "risk": 0.6683400869369507
+        },
+        {
+          "bin": 7,
+          "failure_rate": 0.5,
+          "n": 2,
+          "risk": 0.7463139891624451
+        },
+        {
+          "bin": 8,
+          "failure_rate": 0.6666666666666666,
+          "n": 3,
+          "risk": 0.8308169841766357
+        },
+        {
+          "bin": 9,
+          "failure_rate": 0.9705882352941176,
+          "n": 34,
+          "risk": 0.9915339157861822
+        }
+      ],
+      "failures": 57,
+      "mean_predicted_failure": 0.41418962422511085,
+      "n": 113,
+      "observed_failure_rate": 0.504424778761062
+    },
+    "combined/Internal": {
+      "AUROC_descriptive": 0.918859649122807,
+      "Brier": 0.1273423121061353,
+      "ECE_10_fixed_bins": 0.09748327915053981,
+      "bins": [
+        {
+          "bin": 0,
+          "failure_rate": 0.075,
+          "n": 40,
+          "risk": 0.05050709811039269
+        },
+        {
+          "bin": 1,
+          "failure_rate": 0.2,
+          "n": 10,
+          "risk": 0.14907944202423096
+        },
+        {
+          "bin": 2,
+          "failure_rate": 0.5555555555555556,
+          "n": 9,
+          "risk": 0.23628522124555376
+        },
+        {
+          "bin": 3,
+          "failure_rate": 0.75,
+          "n": 4,
+          "risk": 0.3677179217338562
+        },
+        {
+          "bin": 4,
+          "failure_rate": 1,
+          "n": 3,
+          "risk": 0.451421578725179
+        },
+        {
+          "bin": 5,
+          "failure_rate": 0.6,
+          "n": 5,
+          "risk": 0.5717707753181458
+        },
+        {
+          "bin": 6,
+          "failure_rate": 0,
+          "n": 1,
+          "risk": 0.6279202699661255
+        },
+        {
+          "bin": 7,
+          "failure_rate": 1,
+          "n": 2,
+          "risk": 0.769017219543457
+        },
+        {
+          "bin": 8,
+          "failure_rate": 0.5,
+          "n": 2,
+          "risk": 0.8140994906425476
+        },
+        {
+          "bin": 9,
+          "failure_rate": 0.9459459459459459,
+          "n": 37,
+          "risk": 0.9897070639842266
+        }
+      ],
+      "failures": 57,
+      "mean_predicted_failure": 0.45783142206481603,
+      "n": 113,
+      "observed_failure_rate": 0.504424778761062
+    },
+    "combined/OutputAction": {
+      "AUROC_descriptive": 0.8790726817042607,
+      "Brier": 0.1780229498502733,
+      "ECE_10_fixed_bins": 0.16869233065517614,
+      "bins": [
+        {
+          "bin": 0,
+          "failure_rate": 0.08333333333333333,
+          "n": 36,
+          "risk": 0.016995386587546416
+        },
+        {
+          "bin": 1,
+          "failure_rate": 0.42857142857142855,
+          "n": 7,
+          "risk": 0.14300947210618428
+        },
+        {
+          "bin": 2,
+          "failure_rate": 1,
+          "n": 1,
+          "risk": 0.20960581302642822
+        },
+        {
+          "bin": 3,
+          "failure_rate": 0.5,
+          "n": 2,
+          "risk": 0.380741611123085
+        },
+        {
+          "bin": 4,
+          "failure_rate": 0,
+          "n": 2,
+          "risk": 0.4524722844362259
+        },
+        {
+          "bin": 5,
+          "failure_rate": 0.5,
+          "n": 2,
+          "risk": 0.5710619986057281
+        },
+        {
+          "bin": 6,
+          "failure_rate": 0.5,
+          "n": 2,
+          "risk": 0.6864080131053925
+        },
+        {
+          "bin": 7,
+          "failure_rate": 0.4,
+          "n": 5,
+          "risk": 0.7645798087120056
+        },
+        {
+          "bin": 8,
+          "failure_rate": 1,
+          "n": 1,
+          "risk": 0.8966466188430786
+        },
+        {
+          "bin": 9,
+          "failure_rate": 0.8,
+          "n": 55,
+          "risk": 0.9872742837125604
+        }
+      ],
+      "failures": 57,
+      "mean_predicted_failure": 0.5754292488146565,
+      "n": 113,
+      "observed_failure_rate": 0.504424778761062
+    }
+  },
+  "same_parsed_packet_risk_variation": {
+    "base84/Internal": {
+      "max_absolute_gap": 0.571225494146347,
+      "mean_absolute_gap": 0.08890033856933487,
+      "median_absolute_gap": 0.011799492640420794,
+      "n": 58,
+      "rows": [
+        {
+          "absolute_gap": 0.4112243317067623,
+          "attempt_index": 5,
+          "condition": "Common2",
+          "risks": [
+            0.47204670310020447,
+            0.060822371393442154
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": "33276",
+            "arg2": "45538"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.44059648364782333,
+          "attempt_index": 7,
+          "condition": "Common2",
+          "risks": [
+            0.5198025703430176,
+            0.07920608669519424
+          ],
+          "same_parsed_packet": {
+            "action": "READ",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.06511706998571754,
+          "attempt_index": 13,
+          "condition": "Common2",
+          "risks": [
+            0.07165449857711792,
+            0.006537428591400385
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": "33276"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.01173462113365531,
+          "attempt_index": 16,
+          "condition": "Common2",
+          "risks": [
+            0.01884894259274006,
+            0.007114321459084749
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Possible Animal Area 2"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0015140175819396973,
+          "attempt_index": 21,
+          "condition": "Common2",
+          "risks": [
+            0.08012738078832626,
+            0.07861336320638657
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Possible Animal Area 1"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.011582206934690475,
+          "attempt_index": 2,
+          "condition": "Internal_base84",
+          "risks": [
+            0.049596741795539856,
+            0.03801453486084938
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "42983"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.3398941308259964,
+          "attempt_index": 3,
+          "condition": "Internal_base84",
+          "risks": [
+            0.43953362107276917,
+            0.09963949024677277
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.2734503448009491,
+          "attempt_index": 5,
+          "condition": "Internal_base84",
+          "risks": [
+            0.40832453966140747,
+            0.13487419486045837
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 42983
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.05129966791719198,
+          "attempt_index": 8,
+          "condition": "Internal_base84",
+          "risks": [
+            0.055279381573200226,
+            0.0039797136560082436
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "45538"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.11014550551772118,
+          "attempt_index": 9,
+          "condition": "Internal_base84",
+          "risks": [
+            0.13238230347633362,
+            0.022236797958612442
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 45538
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.04057520441710949,
+          "attempt_index": 18,
+          "condition": "Internal_base84",
+          "risks": [
+            0.052822742611169815,
+            0.012247538194060326
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "41261"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.21328572183847427,
+          "attempt_index": 19,
+          "condition": "Internal_base84",
+          "risks": [
+            0.27332085371017456,
+            0.06003513187170029
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": "33276",
+            "arg2": "41261"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0826935600489378,
+          "attempt_index": 24,
+          "condition": "Internal_base84",
+          "risks": [
+            0.1028069481253624,
+            0.0201133880764246
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "41261"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.042068786919116974,
+          "attempt_index": 26,
+          "condition": "Internal_base84",
+          "risks": [
+            0.06133004650473595,
+            0.019261259585618973
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Possible Animal Area 1"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.398366566747427,
+          "attempt_index": 28,
+          "condition": "Internal_base84",
+          "risks": [
+            0.44197049736976624,
+            0.04360393062233925
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 23195
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.571225494146347,
+          "attempt_index": 5,
+          "condition": "Internal_combined",
+          "risks": [
+            0.7247856259346008,
+            0.15356013178825378
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.291275218129158,
+          "attempt_index": 6,
+          "condition": "Internal_combined",
+          "risks": [
+            0.44008564949035645,
+            0.14881043136119843
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.10371318459510803,
+          "attempt_index": 7,
+          "condition": "Internal_combined",
+          "risks": [
+            0.5355680584907532,
+            0.43185487389564514
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.07121777534484863,
+          "attempt_index": 8,
+          "condition": "Internal_combined",
+          "risks": [
+            0.6683400869369507,
+            0.7395578622817993
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.08250945806503296,
+          "attempt_index": 9,
+          "condition": "Internal_combined",
+          "risks": [
+            0.8228227496147156,
+            0.9053322076797485
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.02685379981994629,
+          "attempt_index": 10,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9528412818908691,
+            0.9796950817108154
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0003038644790649414,
+          "attempt_index": 11,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9916553497314453,
+            0.9913514852523804
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.004109501838684082,
+          "attempt_index": 12,
+          "condition": "Internal_combined",
+          "risks": [
+            0.99534672498703,
+            0.9994562268257141
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0017039775848388672,
+          "attempt_index": 13,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9966675639152527,
+            0.9983715415000916
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.002082526683807373,
+          "attempt_index": 14,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9964900612831116,
+            0.998572587966919
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0019077062606811523,
+          "attempt_index": 15,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9968944787979126,
+            0.9988021850585938
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00238192081451416,
+          "attempt_index": 16,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9966912269592285,
+            0.9990731477737427
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0019765496253967285,
+          "attempt_index": 17,
+          "condition": "Internal_combined",
+          "risks": [
+            0.996855616569519,
+            0.9988321661949158
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.002084791660308838,
+          "attempt_index": 18,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9965448975563049,
+            0.9986296892166138
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0021719932556152344,
+          "attempt_index": 19,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9962403774261475,
+            0.9984123706817627
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.04152238368988037,
+          "attempt_index": 21,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9504234194755554,
+            0.9919458031654358
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.013536989688873291,
+          "attempt_index": 22,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9791066646575928,
+            0.9926436543464661
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.01186436414718628,
+          "attempt_index": 23,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9768685698509216,
+            0.9887329339981079
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.11434125900268555,
+          "attempt_index": 24,
+          "condition": "Internal_combined",
+          "risks": [
+            0.7678423523902893,
+            0.8821836113929749
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "33276"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.13719791173934937,
+          "attempt_index": 27,
+          "condition": "Internal_combined",
+          "risks": [
+            0.5346712470054626,
+            0.671869158744812
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 18718
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.571225494146347,
+          "attempt_index": 5,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.7247856259346008,
+            0.15356013178825378
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.291275218129158,
+          "attempt_index": 6,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.44008564949035645,
+            0.14881043136119843
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.10371318459510803,
+          "attempt_index": 7,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.5355680584907532,
+            0.43185487389564514
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.07121777534484863,
+          "attempt_index": 8,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.6683400869369507,
+            0.7395578622817993
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.08250945806503296,
+          "attempt_index": 9,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.8228227496147156,
+            0.9053322076797485
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.02685379981994629,
+          "attempt_index": 10,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9528412818908691,
+            0.9796950817108154
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0003038644790649414,
+          "attempt_index": 11,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9916553497314453,
+            0.9913514852523804
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.004109501838684082,
+          "attempt_index": 12,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.99534672498703,
+            0.9994562268257141
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0017039775848388672,
+          "attempt_index": 13,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9966675639152527,
+            0.9983715415000916
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.002082526683807373,
+          "attempt_index": 14,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9964900612831116,
+            0.998572587966919
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0019077062606811523,
+          "attempt_index": 15,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9968944787979126,
+            0.9988021850585938
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00238192081451416,
+          "attempt_index": 16,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9966912269592285,
+            0.9990731477737427
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0019765496253967285,
+          "attempt_index": 17,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.996855616569519,
+            0.9988321661949158
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.002084791660308838,
+          "attempt_index": 18,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9965448975563049,
+            0.9986296892166138
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0021719932556152344,
+          "attempt_index": 19,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9962403774261475,
+            0.9984123706817627
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0015202164649963379,
+          "attempt_index": 21,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9972947239875793,
+            0.9988149404525757
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0016977190971374512,
+          "attempt_index": 22,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9974507689476013,
+            0.9991484880447388
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0013432502746582031,
+          "attempt_index": 23,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.997498095035553,
+            0.9988413453102112
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.001690506935119629,
+          "attempt_index": 24,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.997333288192749,
+            0.9990237951278687
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0017816424369812012,
+          "attempt_index": 25,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9974147081375122,
+            0.9991963505744934
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0011776089668273926,
+          "attempt_index": 26,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.997605562210083,
+            0.9987831711769104
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.002104043960571289,
+          "attempt_index": 27,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9970263838768005,
+            0.9991304278373718
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0018579959869384766,
+          "attempt_index": 28,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9971216320991516,
+            0.9989796280860901
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        }
+      ]
+    },
+    "combined/Internal": {
+      "max_absolute_gap": 0.44154973328113556,
+      "mean_absolute_gap": 0.057455418663549016,
+      "median_absolute_gap": 0.006628772243857384,
+      "n": 58,
+      "rows": [
+        {
+          "absolute_gap": 0.10199160873889923,
+          "attempt_index": 5,
+          "condition": "Common2",
+          "risks": [
+            0.2003439962863922,
+            0.09835238754749298
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": "33276",
+            "arg2": "45538"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.14269429445266724,
+          "attempt_index": 7,
+          "condition": "Common2",
+          "risks": [
+            0.4941367506980896,
+            0.35144245624542236
+          ],
+          "same_parsed_packet": {
+            "action": "READ",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.05752267688512802,
+          "attempt_index": 13,
+          "condition": "Common2",
+          "risks": [
+            0.12684889137744904,
+            0.06932621449232101
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": "33276"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0580156147480011,
+          "attempt_index": 16,
+          "condition": "Common2",
+          "risks": [
+            0.02605675905942917,
+            0.08407237380743027
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Possible Animal Area 2"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.42363789677619934,
+          "attempt_index": 21,
+          "condition": "Common2",
+          "risks": [
+            0.1433657705783844,
+            0.5670036673545837
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Possible Animal Area 1"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.15699485316872597,
+          "attempt_index": 2,
+          "condition": "Internal_base84",
+          "risks": [
+            0.047777172178030014,
+            0.20477202534675598
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "42983"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0090474933385849,
+          "attempt_index": 3,
+          "condition": "Internal_base84",
+          "risks": [
+            0.24357278645038605,
+            0.25262027978897095
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.08107730746269226,
+          "attempt_index": 5,
+          "condition": "Internal_base84",
+          "risks": [
+            0.27117201685905457,
+            0.3522493243217468
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 42983
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.04637265391647816,
+          "attempt_index": 8,
+          "condition": "Internal_base84",
+          "risks": [
+            0.07011537253856659,
+            0.023742718622088432
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "45538"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.04939965903759003,
+          "attempt_index": 9,
+          "condition": "Internal_base84",
+          "risks": [
+            0.19121220707893372,
+            0.1418125480413437
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 45538
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.019205007702112198,
+          "attempt_index": 18,
+          "condition": "Internal_base84",
+          "risks": [
+            0.0375865176320076,
+            0.0567915253341198
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "41261"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.05447758734226227,
+          "attempt_index": 19,
+          "condition": "Internal_base84",
+          "risks": [
+            0.19370922446250916,
+            0.24818681180477142
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": "33276",
+            "arg2": "41261"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.020459607243537903,
+          "attempt_index": 24,
+          "condition": "Internal_base84",
+          "risks": [
+            0.061436768621206284,
+            0.04097716137766838
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "41261"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0054218582808971405,
+          "attempt_index": 26,
+          "condition": "Internal_base84",
+          "risks": [
+            0.031135916709899902,
+            0.03655777499079704
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Possible Animal Area 1"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.44154973328113556,
+          "attempt_index": 28,
+          "condition": "Internal_base84",
+          "risks": [
+            0.6864831447601318,
+            0.24493341147899628
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 23195
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.411853551864624,
+          "attempt_index": 5,
+          "condition": "Internal_combined",
+          "risks": [
+            0.8093202710151672,
+            0.3974667191505432
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.010931432247161865,
+          "attempt_index": 6,
+          "condition": "Internal_combined",
+          "risks": [
+            0.43006399273872375,
+            0.4409954249858856
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.09929478168487549,
+          "attempt_index": 7,
+          "condition": "Internal_combined",
+          "risks": [
+            0.5835163593292236,
+            0.6828111410140991
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.07344120740890503,
+          "attempt_index": 8,
+          "condition": "Internal_combined",
+          "risks": [
+            0.769017219543457,
+            0.8424584269523621
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.029216110706329346,
+          "attempt_index": 9,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9036215543746948,
+            0.9328376650810242
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.007835686206817627,
+          "attempt_index": 10,
+          "condition": "Internal_combined",
+          "risks": [
+            0.974467396736145,
+            0.9823030829429626
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0014085769653320312,
+          "attempt_index": 11,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9946902990341187,
+            0.9932817220687866
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.001587212085723877,
+          "attempt_index": 12,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9980292916297913,
+            0.9996165037155151
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00010091066360473633,
+          "attempt_index": 13,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9985778331756592,
+            0.9986787438392639
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0002548694610595703,
+          "attempt_index": 14,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9985016584396362,
+            0.9987565279006958
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.000273287296295166,
+          "attempt_index": 15,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9986176490783691,
+            0.9988909363746643
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00032395124435424805,
+          "attempt_index": 16,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9987465143203735,
+            0.9990704655647278
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0002576112747192383,
+          "attempt_index": 17,
+          "condition": "Internal_combined",
+          "risks": [
+            0.998633086681366,
+            0.9988906979560852
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00029271841049194336,
+          "attempt_index": 18,
+          "condition": "Internal_combined",
+          "risks": [
+            0.998498797416687,
+            0.998791515827179
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0001704692840576172,
+          "attempt_index": 19,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9984978437423706,
+            0.9986683130264282
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.010283946990966797,
+          "attempt_index": 21,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9835989475250244,
+            0.9938828945159912
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0038644075393676758,
+          "attempt_index": 22,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9905439615249634,
+            0.994408369064331
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.002355217933654785,
+          "attempt_index": 23,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9895089864730835,
+            0.9918642044067383
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.11891859769821167,
+          "attempt_index": 24,
+          "condition": "Internal_combined",
+          "risks": [
+            0.818878710269928,
+            0.9377973079681396
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "33276"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.2533838152885437,
+          "attempt_index": 27,
+          "condition": "Internal_combined",
+          "risks": [
+            0.5975707769393921,
+            0.8509545922279358
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 18718
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.411853551864624,
+          "attempt_index": 5,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.8093202710151672,
+            0.3974667191505432
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.010931432247161865,
+          "attempt_index": 6,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.43006399273872375,
+            0.4409954249858856
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.09929478168487549,
+          "attempt_index": 7,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.5835163593292236,
+            0.6828111410140991
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.07344120740890503,
+          "attempt_index": 8,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.769017219543457,
+            0.8424584269523621
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.029216110706329346,
+          "attempt_index": 9,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9036215543746948,
+            0.9328376650810242
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.007835686206817627,
+          "attempt_index": 10,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.974467396736145,
+            0.9823030829429626
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0014085769653320312,
+          "attempt_index": 11,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9946902990341187,
+            0.9932817220687866
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.001587212085723877,
+          "attempt_index": 12,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9980292916297913,
+            0.9996165037155151
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00010091066360473633,
+          "attempt_index": 13,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9985778331756592,
+            0.9986787438392639
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0002548694610595703,
+          "attempt_index": 14,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9985016584396362,
+            0.9987565279006958
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.000273287296295166,
+          "attempt_index": 15,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9986176490783691,
+            0.9988909363746643
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00032395124435424805,
+          "attempt_index": 16,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9987465143203735,
+            0.9990704655647278
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0002576112747192383,
+          "attempt_index": 17,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.998633086681366,
+            0.9988906979560852
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00029271841049194336,
+          "attempt_index": 18,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.998498797416687,
+            0.998791515827179
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0001704692840576172,
+          "attempt_index": 19,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9984978437423706,
+            0.9986683130264282
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 3.165006637573242e-05,
+          "attempt_index": 21,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9989481568336487,
+            0.998916506767273
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0002091526985168457,
+          "attempt_index": 22,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9988892674446106,
+            0.9990984201431274
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00015103816986083984,
+          "attempt_index": 23,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9988142251968384,
+            0.9989652633666992
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0001849532127380371,
+          "attempt_index": 24,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9987596273422241,
+            0.9989445805549622
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00028252601623535156,
+          "attempt_index": 25,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9988092184066772,
+            0.9990917444229126
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 3.600120544433594e-05,
+          "attempt_index": 26,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9989293217658997,
+            0.9988933205604553
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00033980607986450195,
+          "attempt_index": 27,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.998694121837616,
+            0.9990339279174805
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 2.0563602447509766e-05,
+          "attempt_index": 28,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9988069534301758,
+            0.9988275170326233
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        }
+      ]
+    },
+    "combined/OutputAction": {
+      "max_absolute_gap": 0.9205673635005951,
+      "mean_absolute_gap": 0.07243906978642214,
+      "median_absolute_gap": 0.005692083039321005,
+      "n": 58,
+      "rows": [
+        {
+          "absolute_gap": 0.06259751319885254,
+          "attempt_index": 5,
+          "condition": "Common2",
+          "risks": [
+            0.8966466188430786,
+            0.9592441320419312
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": "33276",
+            "arg2": "45538"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.2361910492181778,
+          "attempt_index": 7,
+          "condition": "Common2",
+          "risks": [
+            0.16853679716587067,
+            0.40472784638404846
+          ],
+          "same_parsed_packet": {
+            "action": "READ",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.019738275557756424,
+          "attempt_index": 13,
+          "condition": "Common2",
+          "risks": [
+            0.04516337439417839,
+            0.025425098836421967
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": "33276"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.12140226061455905,
+          "attempt_index": 16,
+          "condition": "Common2",
+          "risks": [
+            0.0021554857958108187,
+            0.12355774641036987
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Possible Animal Area 2"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.4359325133264065,
+          "attempt_index": 21,
+          "condition": "Common2",
+          "risks": [
+            0.024595294147729874,
+            0.46052780747413635
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Possible Animal Area 1"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.006030385498888791,
+          "attempt_index": 2,
+          "condition": "Internal_base84",
+          "risks": [
+            0.0010658380342647433,
+            0.007096223533153534
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "42983"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.752626433968544,
+          "attempt_index": 3,
+          "condition": "Internal_base84",
+          "risks": [
+            0.23751406371593475,
+            0.9901404976844788
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.45785951614379883,
+          "attempt_index": 5,
+          "condition": "Internal_base84",
+          "risks": [
+            0.5378279089927673,
+            0.9956874251365662
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 42983
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.007236095145344734,
+          "attempt_index": 8,
+          "condition": "Internal_base84",
+          "risks": [
+            0.008158787153661251,
+            0.015394882299005985
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "45538"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.17175745964050293,
+          "attempt_index": 9,
+          "condition": "Internal_base84",
+          "risks": [
+            0.8136512637138367,
+            0.9854087233543396
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 45538
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00535378057975322,
+          "attempt_index": 18,
+          "condition": "Internal_base84",
+          "risks": [
+            0.00632832245901227,
+            0.0009745418792590499
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "41261"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.08833038806915283,
+          "attempt_index": 19,
+          "condition": "Internal_base84",
+          "risks": [
+            0.8770712018013,
+            0.9654015898704529
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": "33276",
+            "arg2": "41261"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.013241332955658436,
+          "attempt_index": 24,
+          "condition": "Internal_base84",
+          "risks": [
+            0.015336591750383377,
+            0.0020952587947249413
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "41261"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.007740876113530248,
+          "attempt_index": 26,
+          "condition": "Internal_base84",
+          "risks": [
+            0.0007048431434668601,
+            0.008445719256997108
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_LOCATION",
+            "arg1": "Possible Animal Area 1"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.03351932764053345,
+          "attempt_index": 28,
+          "condition": "Internal_base84",
+          "risks": [
+            0.940395712852478,
+            0.9739150404930115
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 23195
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.023073315620422363,
+          "attempt_index": 5,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9766228199005127,
+            0.9996961355209351
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.08881258964538574,
+          "attempt_index": 6,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9110976457595825,
+            0.9999102354049683
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.04558825492858887,
+          "attempt_index": 7,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9543869495391846,
+            0.9999752044677734
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.006362855434417725,
+          "attempt_index": 8,
+          "condition": "Internal_combined",
+          "risks": [
+            0.993619978427887,
+            0.9999828338623047
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.020086705684661865,
+          "attempt_index": 9,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9799031615257263,
+            0.9999898672103882
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.004178225994110107,
+          "attempt_index": 10,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9958140254020691,
+            0.9999922513961792
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0006522536277770996,
+          "attempt_index": 11,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9993360638618469,
+            0.999988317489624
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00043332576751708984,
+          "attempt_index": 12,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9995331764221191,
+            0.9999665021896362
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0006153583526611328,
+          "attempt_index": 13,
+          "condition": "Internal_combined",
+          "risks": [
+            0.999446451663971,
+            0.9988310933113098
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0005270838737487793,
+          "attempt_index": 14,
+          "condition": "Internal_combined",
+          "risks": [
+            0.999446451663971,
+            0.9989193677902222
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0008917450904846191,
+          "attempt_index": 15,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9988558292388916,
+            0.9997475743293762
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00025027990341186523,
+          "attempt_index": 16,
+          "condition": "Internal_combined",
+          "risks": [
+            0.999446451663971,
+            0.9996967315673828
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0008410215377807617,
+          "attempt_index": 17,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9989377856254578,
+            0.9997788071632385
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0002846717834472656,
+          "attempt_index": 18,
+          "condition": "Internal_combined",
+          "risks": [
+            0.999446451663971,
+            0.9997311234474182
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 2.9027462005615234e-05,
+          "attempt_index": 19,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9989113807678223,
+            0.9988823533058167
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.20548313856124878,
+          "attempt_index": 21,
+          "condition": "Internal_combined",
+          "risks": [
+            0.7944714426994324,
+            0.9999545812606812
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.007205486297607422,
+          "attempt_index": 22,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9926631450653076,
+            0.999868631362915
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0074065327644348145,
+          "attempt_index": 23,
+          "condition": "Internal_combined",
+          "risks": [
+            0.9925088286399841,
+            0.999915361404419
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.9205673635005951,
+          "attempt_index": 24,
+          "condition": "Internal_combined",
+          "risks": [
+            0.051717132329940796,
+            0.9722844958305359
+          ],
+          "same_parsed_packet": {
+            "action": "TELEPORT_TO_OBJECT",
+            "arg1": "33276"
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.2529556155204773,
+          "attempt_index": 27,
+          "condition": "Internal_combined",
+          "risks": [
+            0.7428135275840759,
+            0.9957691431045532
+          ],
+          "same_parsed_packet": {
+            "action": "USE",
+            "arg1": 33276,
+            "arg2": 18718
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.023073315620422363,
+          "attempt_index": 5,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9766228199005127,
+            0.9996961355209351
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.08881258964538574,
+          "attempt_index": 6,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9110976457595825,
+            0.9999102354049683
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.04558825492858887,
+          "attempt_index": 7,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9543869495391846,
+            0.9999752044677734
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.006362855434417725,
+          "attempt_index": 8,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.993619978427887,
+            0.9999828338623047
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.020086705684661865,
+          "attempt_index": 9,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9799031615257263,
+            0.9999898672103882
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.004178225994110107,
+          "attempt_index": 10,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9958140254020691,
+            0.9999922513961792
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0006522536277770996,
+          "attempt_index": 11,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9993360638618469,
+            0.999988317489624
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00043332576751708984,
+          "attempt_index": 12,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9995331764221191,
+            0.9999665021896362
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0006153583526611328,
+          "attempt_index": 13,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.999446451663971,
+            0.9988310933113098
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0005270838737487793,
+          "attempt_index": 14,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.999446451663971,
+            0.9989193677902222
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0008917450904846191,
+          "attempt_index": 15,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9988558292388916,
+            0.9997475743293762
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00025027990341186523,
+          "attempt_index": 16,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.999446451663971,
+            0.9996967315673828
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0008410215377807617,
+          "attempt_index": 17,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9989377856254578,
+            0.9997788071632385
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0002846717834472656,
+          "attempt_index": 18,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.999446451663971,
+            0.9997311234474182
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 2.9027462005615234e-05,
+          "attempt_index": 19,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9989113807678223,
+            0.9988823533058167
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0003056526184082031,
+          "attempt_index": 21,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.999446451663971,
+            0.9997521042823792
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0003095865249633789,
+          "attempt_index": 22,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9994414448738098,
+            0.9997510313987732
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0004298090934753418,
+          "attempt_index": 23,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9994414448738098,
+            0.9998712539672852
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00039142370223999023,
+          "attempt_index": 24,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9994414448738098,
+            0.9998328685760498
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0004380345344543457,
+          "attempt_index": 25,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9994414448738098,
+            0.9998794794082642
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.00040990114212036133,
+          "attempt_index": 26,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9994414448738098,
+            0.9998513460159302
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0004176497459411621,
+          "attempt_index": 27,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9994414448738098,
+            0.999859094619751
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        },
+        {
+          "absolute_gap": 0.0003352165222167969,
+          "attempt_index": 28,
+          "condition": "OutputAction_combined",
+          "risks": [
+            0.9994414448738098,
+            0.9997766613960266
+          ],
+          "same_parsed_packet": {
+            "action": "PICKUP",
+            "arg1": 33276
+          },
+          "unexecuted_candidate_label": null
+        }
+      ]
+    }
+  },
+  "schema": "dw_selected_shadow_descriptive_audit_v1",
+  "selected_observed_rows": {
+    "base84/Internal": [
+      {
+        "attempt_index": 1,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.13153794407844543
+      },
+      {
+        "attempt_index": 2,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "READ",
+          "arg1": 45538
+        },
+        "risk": 0.13136456906795502
+      },
+      {
+        "attempt_index": 3,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.027645263820886612
+      },
+      {
+        "attempt_index": 4,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "33276"
+        },
+        "risk": 0.021441487595438957
+      },
+      {
+        "attempt_index": 5,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": "33276",
+          "arg2": "45538"
+        },
+        "risk": 0.47204670310020447
+      },
+      {
+        "attempt_index": 6,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "READ",
+          "arg1": 33276
+        },
+        "risk": 0.11880308389663696
+      },
+      {
+        "attempt_index": 7,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "READ",
+          "arg1": 33276
+        },
+        "risk": 0.5198025703430176
+      },
+      {
+        "attempt_index": 8,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.004988847766071558
+      },
+      {
+        "attempt_index": 10,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.025780120864510536
+      },
+      {
+        "attempt_index": 11,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.01062539778649807
+      },
+      {
+        "attempt_index": 12,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.022525062784552574
+      },
+      {
+        "attempt_index": 13,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": "33276"
+        },
+        "risk": 0.006537428591400385
+      },
+      {
+        "attempt_index": 14,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.1700230985879898
+      },
+      {
+        "attempt_index": 15,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.0452536977827549
+      },
+      {
+        "attempt_index": 16,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.007114321459084749
+      },
+      {
+        "attempt_index": 17,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.055630698800086975
+      },
+      {
+        "attempt_index": 19,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.040158577263355255
+      },
+      {
+        "attempt_index": 20,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 3"
+        },
+        "risk": 0.03182293102145195
+      },
+      {
+        "attempt_index": 21,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.07861336320638657
+      },
+      {
+        "attempt_index": 22,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.038049183785915375
+      },
+      {
+        "attempt_index": 23,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.043606895953416824
+      },
+      {
+        "attempt_index": 24,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.017453128471970558
+      },
+      {
+        "attempt_index": 25,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "23195"
+        },
+        "risk": 0.03713911026716232
+      },
+      {
+        "attempt_index": 26,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 5"
+        },
+        "risk": 0.012870106846094131
+      },
+      {
+        "attempt_index": 27,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.0076881637796759605
+      },
+      {
+        "attempt_index": 28,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.00943578127771616
+      },
+      {
+        "attempt_index": 29,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.036191172897815704
+      },
+      {
+        "attempt_index": 30,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 3"
+        },
+        "risk": 0.011878950521349907
+      },
+      {
+        "attempt_index": 1,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.04934356361627579
+      },
+      {
+        "attempt_index": 2,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "42983"
+        },
+        "risk": 0.03801453486084938
+      },
+      {
+        "attempt_index": 3,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.09963949024677277
+      },
+      {
+        "attempt_index": 4,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "42983"
+        },
+        "risk": 0.030882133170962334
+      },
+      {
+        "attempt_index": 5,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 42983
+        },
+        "risk": 0.13487419486045837
+      },
+      {
+        "attempt_index": 6,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "64555"
+        },
+        "risk": 0.01690860278904438
+      },
+      {
+        "attempt_index": 7,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "42960"
+        },
+        "risk": 0.0048568230122327805
+      },
+      {
+        "attempt_index": 8,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.0039797136560082436
+      },
+      {
+        "attempt_index": 9,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 45538
+        },
+        "risk": 0.022236797958612442
+      },
+      {
+        "attempt_index": 10,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "north"
+        },
+        "risk": 0.016856541857123375
+      },
+      {
+        "attempt_index": 11,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.006489849649369717
+      },
+      {
+        "attempt_index": 12,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "south"
+        },
+        "risk": 0.02087727002799511
+      },
+      {
+        "attempt_index": 14,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "west"
+        },
+        "risk": 0.02773978002369404
+      },
+      {
+        "attempt_index": 15,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "west"
+        },
+        "risk": 0.059095777571201324
+      },
+      {
+        "attempt_index": 16,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.062050409615039825
+      },
+      {
+        "attempt_index": 17,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.04706743732094765
+      },
+      {
+        "attempt_index": 18,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.012247538194060326
+      },
+      {
+        "attempt_index": 19,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": "33276",
+          "arg2": "41261"
+        },
+        "risk": 0.06003513187170029
+      },
+      {
+        "attempt_index": 20,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "ROTATE_DIRECTION",
+          "arg1": "south"
+        },
+        "risk": 0.029600027948617935
+      },
+      {
+        "attempt_index": 21,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "north"
+        },
+        "risk": 0.030603792518377304
+      },
+      {
+        "attempt_index": 22,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "ROTATE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.040201734751462936
+      },
+      {
+        "attempt_index": 23,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "south"
+        },
+        "risk": 0.04575226455926895
+      },
+      {
+        "attempt_index": 24,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.0201133880764246
+      },
+      {
+        "attempt_index": 25,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.06484807282686234
+      },
+      {
+        "attempt_index": 26,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.019261259585618973
+      },
+      {
+        "attempt_index": 27,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": "33276",
+          "arg2": "23195"
+        },
+        "risk": 0.028543809428811073
+      },
+      {
+        "attempt_index": 28,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 23195
+        },
+        "risk": 0.04360393062233925
+      },
+      {
+        "attempt_index": 29,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 23195
+        },
+        "risk": 0.32162100076675415
+      },
+      {
+        "attempt_index": 1,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.13153794407844543
+      },
+      {
+        "attempt_index": 2,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "DISCOVERY_FEED_GET_UPDATES"
+        },
+        "risk": 0.010678326711058617
+      },
+      {
+        "attempt_index": 3,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.009493614546954632
+      },
+      {
+        "attempt_index": 4,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": "33276"
+        },
+        "risk": 0.43195056915283203
+      },
+      {
+        "attempt_index": 5,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.15356013178825378
+      },
+      {
+        "attempt_index": 6,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.44008564949035645
+      },
+      {
+        "attempt_index": 7,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.5355680584907532
+      },
+      {
+        "attempt_index": 8,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.6683400869369507
+      },
+      {
+        "attempt_index": 9,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.8228227496147156
+      },
+      {
+        "attempt_index": 10,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9528412818908691
+      },
+      {
+        "attempt_index": 11,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9913514852523804
+      },
+      {
+        "attempt_index": 12,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.99534672498703
+      },
+      {
+        "attempt_index": 13,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9966675639152527
+      },
+      {
+        "attempt_index": 14,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9964900612831116
+      },
+      {
+        "attempt_index": 15,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9968944787979126
+      },
+      {
+        "attempt_index": 16,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9966912269592285
+      },
+      {
+        "attempt_index": 17,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.996855616569519
+      },
+      {
+        "attempt_index": 18,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9965448975563049
+      },
+      {
+        "attempt_index": 19,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9962403774261475
+      },
+      {
+        "attempt_index": 20,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "north"
+        },
+        "risk": 0.9962421655654907
+      },
+      {
+        "attempt_index": 21,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9504234194755554
+      },
+      {
+        "attempt_index": 22,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9791066646575928
+      },
+      {
+        "attempt_index": 23,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9768685698509216
+      },
+      {
+        "attempt_index": 24,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "33276"
+        },
+        "risk": 0.7678423523902893
+      },
+      {
+        "attempt_index": 25,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.8468054533004761
+      },
+      {
+        "attempt_index": 27,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 18718
+        },
+        "risk": 0.5346712470054626
+      },
+      {
+        "attempt_index": 28,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.15799929201602936
+      },
+      {
+        "attempt_index": 29,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 53269
+        },
+        "risk": 0.31128376722335815
+      },
+      {
+        "attempt_index": 1,
+        "condition": "OutputAction_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.13153794407844543
+      },
+      {
+        "attempt_index": 2,
+        "condition": "OutputAction_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "DISCOVERY_FEED_GET_UPDATES"
+        },
+        "risk": 0.010678326711058617
+      },
+      {
+        "attempt_index": 3,
+        "condition": "OutputAction_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.009493614546954632
+      },
+      {
+        "attempt_index": 4,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": "33276"
+        },
+        "risk": 0.43195056915283203
+      },
+      {
+        "attempt_index": 5,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.7247856259346008
+      },
+      {
+        "attempt_index": 6,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.44008564949035645
+      },
+      {
+        "attempt_index": 7,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.5355680584907532
+      },
+      {
+        "attempt_index": 8,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.6683400869369507
+      },
+      {
+        "attempt_index": 9,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.8228227496147156
+      },
+      {
+        "attempt_index": 10,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9528412818908691
+      },
+      {
+        "attempt_index": 11,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9916553497314453
+      },
+      {
+        "attempt_index": 12,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.99534672498703
+      },
+      {
+        "attempt_index": 13,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9983715415000916
+      },
+      {
+        "attempt_index": 14,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.998572587966919
+      },
+      {
+        "attempt_index": 15,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9968944787979126
+      },
+      {
+        "attempt_index": 16,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9966912269592285
+      },
+      {
+        "attempt_index": 17,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.996855616569519
+      },
+      {
+        "attempt_index": 18,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9965448975563049
+      },
+      {
+        "attempt_index": 19,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9984123706817627
+      },
+      {
+        "attempt_index": 20,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9969568252563477
+      },
+      {
+        "attempt_index": 21,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9972947239875793
+      },
+      {
+        "attempt_index": 22,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9974507689476013
+      },
+      {
+        "attempt_index": 23,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.997498095035553
+      },
+      {
+        "attempt_index": 24,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.997333288192749
+      },
+      {
+        "attempt_index": 25,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9974147081375122
+      },
+      {
+        "attempt_index": 26,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.997605562210083
+      },
+      {
+        "attempt_index": 27,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9970263838768005
+      },
+      {
+        "attempt_index": 28,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9971216320991516
+      },
+      {
+        "attempt_index": 29,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 37350
+        },
+        "risk": 0.9957005381584167
+      }
+    ],
+    "combined/Internal": [
+      {
+        "attempt_index": 1,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.071848563849926
+      },
+      {
+        "attempt_index": 2,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "READ",
+          "arg1": 45538
+        },
+        "risk": 0.19300860166549683
+      },
+      {
+        "attempt_index": 3,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.04304011911153793
+      },
+      {
+        "attempt_index": 4,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "33276"
+        },
+        "risk": 0.02982974424958229
+      },
+      {
+        "attempt_index": 5,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": "33276",
+          "arg2": "45538"
+        },
+        "risk": 0.2003439962863922
+      },
+      {
+        "attempt_index": 6,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "READ",
+          "arg1": 33276
+        },
+        "risk": 0.3819730579853058
+      },
+      {
+        "attempt_index": 7,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "READ",
+          "arg1": 33276
+        },
+        "risk": 0.4941367506980896
+      },
+      {
+        "attempt_index": 8,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.022936850786209106
+      },
+      {
+        "attempt_index": 10,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.04794521629810333
+      },
+      {
+        "attempt_index": 11,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.035671766847372055
+      },
+      {
+        "attempt_index": 12,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.028105558827519417
+      },
+      {
+        "attempt_index": 13,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": "33276"
+        },
+        "risk": 0.06932621449232101
+      },
+      {
+        "attempt_index": 14,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.339182585477829
+      },
+      {
+        "attempt_index": 15,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.06835329532623291
+      },
+      {
+        "attempt_index": 16,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.08407237380743027
+      },
+      {
+        "attempt_index": 17,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.052739180624485016
+      },
+      {
+        "attempt_index": 19,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.066547691822052
+      },
+      {
+        "attempt_index": 20,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 3"
+        },
+        "risk": 0.021963434293866158
+      },
+      {
+        "attempt_index": 21,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.5670036673545837
+      },
+      {
+        "attempt_index": 22,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.05614159628748894
+      },
+      {
+        "attempt_index": 23,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.06708364188671112
+      },
+      {
+        "attempt_index": 24,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.09227661043405533
+      },
+      {
+        "attempt_index": 25,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "23195"
+        },
+        "risk": 0.043913595378398895
+      },
+      {
+        "attempt_index": 26,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 5"
+        },
+        "risk": 0.047311753034591675
+      },
+      {
+        "attempt_index": 27,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.03131037577986717
+      },
+      {
+        "attempt_index": 28,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.030602669343352318
+      },
+      {
+        "attempt_index": 29,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.0351046547293663
+      },
+      {
+        "attempt_index": 30,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 3"
+        },
+        "risk": 0.022454284131526947
+      },
+      {
+        "attempt_index": 1,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.11330946534872055
+      },
+      {
+        "attempt_index": 2,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "42983"
+        },
+        "risk": 0.20477202534675598
+      },
+      {
+        "attempt_index": 3,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.25262027978897095
+      },
+      {
+        "attempt_index": 4,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "42983"
+        },
+        "risk": 0.09934283047914505
+      },
+      {
+        "attempt_index": 5,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 42983
+        },
+        "risk": 0.3522493243217468
+      },
+      {
+        "attempt_index": 6,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "64555"
+        },
+        "risk": 0.06282475590705872
+      },
+      {
+        "attempt_index": 7,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "42960"
+        },
+        "risk": 0.01907459646463394
+      },
+      {
+        "attempt_index": 8,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.023742718622088432
+      },
+      {
+        "attempt_index": 9,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 45538
+        },
+        "risk": 0.1418125480413437
+      },
+      {
+        "attempt_index": 10,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "north"
+        },
+        "risk": 0.10163012146949768
+      },
+      {
+        "attempt_index": 11,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.019671296700835228
+      },
+      {
+        "attempt_index": 12,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "south"
+        },
+        "risk": 0.041920408606529236
+      },
+      {
+        "attempt_index": 14,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "west"
+        },
+        "risk": 0.17609260976314545
+      },
+      {
+        "attempt_index": 15,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "west"
+        },
+        "risk": 0.27610695362091064
+      },
+      {
+        "attempt_index": 16,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.1889578253030777
+      },
+      {
+        "attempt_index": 17,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.18234659731388092
+      },
+      {
+        "attempt_index": 18,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.0567915253341198
+      },
+      {
+        "attempt_index": 19,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": "33276",
+          "arg2": "41261"
+        },
+        "risk": 0.24818681180477142
+      },
+      {
+        "attempt_index": 20,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "ROTATE_DIRECTION",
+          "arg1": "south"
+        },
+        "risk": 0.18136270344257355
+      },
+      {
+        "attempt_index": 21,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "north"
+        },
+        "risk": 0.07508327811956406
+      },
+      {
+        "attempt_index": 22,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "ROTATE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.09334451705217361
+      },
+      {
+        "attempt_index": 23,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "south"
+        },
+        "risk": 0.10091230273246765
+      },
+      {
+        "attempt_index": 24,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.04097716137766838
+      },
+      {
+        "attempt_index": 25,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.0320919007062912
+      },
+      {
+        "attempt_index": 26,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.03655777499079704
+      },
+      {
+        "attempt_index": 27,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": "33276",
+          "arg2": "23195"
+        },
+        "risk": 0.11136164516210556
+      },
+      {
+        "attempt_index": 28,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 23195
+        },
+        "risk": 0.24493341147899628
+      },
+      {
+        "attempt_index": 29,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 23195
+        },
+        "risk": 0.5272467136383057
+      },
+      {
+        "attempt_index": 1,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.071848563849926
+      },
+      {
+        "attempt_index": 2,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "DISCOVERY_FEED_GET_UPDATES"
+        },
+        "risk": 0.06423384696245193
+      },
+      {
+        "attempt_index": 3,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.03905857354402542
+      },
+      {
+        "attempt_index": 4,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": "33276"
+        },
+        "risk": 0.22560393810272217
+      },
+      {
+        "attempt_index": 5,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.3974667191505432
+      },
+      {
+        "attempt_index": 6,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.43006399273872375
+      },
+      {
+        "attempt_index": 7,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.5835163593292236
+      },
+      {
+        "attempt_index": 8,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.769017219543457
+      },
+      {
+        "attempt_index": 9,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9036215543746948
+      },
+      {
+        "attempt_index": 10,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.974467396736145
+      },
+      {
+        "attempt_index": 11,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9932817220687866
+      },
+      {
+        "attempt_index": 12,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9980292916297913
+      },
+      {
+        "attempt_index": 13,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9985778331756592
+      },
+      {
+        "attempt_index": 14,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9985016584396362
+      },
+      {
+        "attempt_index": 15,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9986176490783691
+      },
+      {
+        "attempt_index": 16,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9987465143203735
+      },
+      {
+        "attempt_index": 17,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.998633086681366
+      },
+      {
+        "attempt_index": 18,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.998498797416687
+      },
+      {
+        "attempt_index": 19,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9984978437423706
+      },
+      {
+        "attempt_index": 20,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "north"
+        },
+        "risk": 0.996483325958252
+      },
+      {
+        "attempt_index": 21,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9835989475250244
+      },
+      {
+        "attempt_index": 22,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9905439615249634
+      },
+      {
+        "attempt_index": 23,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9895089864730835
+      },
+      {
+        "attempt_index": 24,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "33276"
+        },
+        "risk": 0.818878710269928
+      },
+      {
+        "attempt_index": 25,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.954318106174469
+      },
+      {
+        "attempt_index": 27,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 18718
+        },
+        "risk": 0.5975707769393921
+      },
+      {
+        "attempt_index": 28,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.6279202699661255
+      },
+      {
+        "attempt_index": 29,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 53269
+        },
+        "risk": 0.248395636677742
+      },
+      {
+        "attempt_index": 1,
+        "condition": "OutputAction_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.071848563849926
+      },
+      {
+        "attempt_index": 2,
+        "condition": "OutputAction_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "DISCOVERY_FEED_GET_UPDATES"
+        },
+        "risk": 0.06423384696245193
+      },
+      {
+        "attempt_index": 3,
+        "condition": "OutputAction_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.03905857354402542
+      },
+      {
+        "attempt_index": 4,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": "33276"
+        },
+        "risk": 0.22560393810272217
+      },
+      {
+        "attempt_index": 5,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.8093202710151672
+      },
+      {
+        "attempt_index": 6,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.43006399273872375
+      },
+      {
+        "attempt_index": 7,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.5835163593292236
+      },
+      {
+        "attempt_index": 8,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.769017219543457
+      },
+      {
+        "attempt_index": 9,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9036215543746948
+      },
+      {
+        "attempt_index": 10,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.974467396736145
+      },
+      {
+        "attempt_index": 11,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9946902990341187
+      },
+      {
+        "attempt_index": 12,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9980292916297913
+      },
+      {
+        "attempt_index": 13,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9986787438392639
+      },
+      {
+        "attempt_index": 14,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9987565279006958
+      },
+      {
+        "attempt_index": 15,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9986176490783691
+      },
+      {
+        "attempt_index": 16,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9987465143203735
+      },
+      {
+        "attempt_index": 17,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.998633086681366
+      },
+      {
+        "attempt_index": 18,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.998498797416687
+      },
+      {
+        "attempt_index": 19,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9986683130264282
+      },
+      {
+        "attempt_index": 20,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9986540079116821
+      },
+      {
+        "attempt_index": 21,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9989481568336487
+      },
+      {
+        "attempt_index": 22,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9988892674446106
+      },
+      {
+        "attempt_index": 23,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9988142251968384
+      },
+      {
+        "attempt_index": 24,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9987596273422241
+      },
+      {
+        "attempt_index": 25,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9988092184066772
+      },
+      {
+        "attempt_index": 26,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9989293217658997
+      },
+      {
+        "attempt_index": 27,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.998694121837616
+      },
+      {
+        "attempt_index": 28,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9988069534301758
+      },
+      {
+        "attempt_index": 29,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 37350
+        },
+        "risk": 0.9945216178894043
+      }
+    ],
+    "combined/OutputAction": [
+      {
+        "attempt_index": 1,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.0025975373573601246
+      },
+      {
+        "attempt_index": 2,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "READ",
+          "arg1": 45538
+        },
+        "risk": 0.38170549273490906
+      },
+      {
+        "attempt_index": 3,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.07781751453876495
+      },
+      {
+        "attempt_index": 4,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "33276"
+        },
+        "risk": 0.0011834646575152874
+      },
+      {
+        "attempt_index": 5,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": "33276",
+          "arg2": "45538"
+        },
+        "risk": 0.8966466188430786
+      },
+      {
+        "attempt_index": 6,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "READ",
+          "arg1": 33276
+        },
+        "risk": 0.379777729511261
+      },
+      {
+        "attempt_index": 7,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "READ",
+          "arg1": 33276
+        },
+        "risk": 0.16853679716587067
+      },
+      {
+        "attempt_index": 8,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.0027591490652412176
+      },
+      {
+        "attempt_index": 10,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.04162028059363365
+      },
+      {
+        "attempt_index": 11,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.002728257793933153
+      },
+      {
+        "attempt_index": 12,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.012725481763482094
+      },
+      {
+        "attempt_index": 13,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": "33276"
+        },
+        "risk": 0.025425098836421967
+      },
+      {
+        "attempt_index": 14,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.20960581302642822
+      },
+      {
+        "attempt_index": 15,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.0027992187533527613
+      },
+      {
+        "attempt_index": 16,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.12355774641036987
+      },
+      {
+        "attempt_index": 17,
+        "condition": "Common2",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.15018689632415771
+      },
+      {
+        "attempt_index": 19,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.1478167623281479
+      },
+      {
+        "attempt_index": 20,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 3"
+        },
+        "risk": 0.03862202912569046
+      },
+      {
+        "attempt_index": 21,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.46052780747413635
+      },
+      {
+        "attempt_index": 22,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.002823081100359559
+      },
+      {
+        "attempt_index": 23,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.0023288214579224586
+      },
+      {
+        "attempt_index": 24,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.039586324244737625
+      },
+      {
+        "attempt_index": 25,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "23195"
+        },
+        "risk": 0.039451103657484055
+      },
+      {
+        "attempt_index": 26,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 5"
+        },
+        "risk": 0.010040228255093098
+      },
+      {
+        "attempt_index": 27,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.001109005301259458
+      },
+      {
+        "attempt_index": 28,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.0075419144704937935
+      },
+      {
+        "attempt_index": 29,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 2"
+        },
+        "risk": 0.0380902960896492
+      },
+      {
+        "attempt_index": 30,
+        "condition": "Common2",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 3"
+        },
+        "risk": 0.015631794929504395
+      },
+      {
+        "attempt_index": 1,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.12175924330949783
+      },
+      {
+        "attempt_index": 2,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "42983"
+        },
+        "risk": 0.007096223533153534
+      },
+      {
+        "attempt_index": 3,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9901404976844788
+      },
+      {
+        "attempt_index": 4,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "42983"
+        },
+        "risk": 0.001740047475323081
+      },
+      {
+        "attempt_index": 5,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 42983
+        },
+        "risk": 0.9956874251365662
+      },
+      {
+        "attempt_index": 6,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "64555"
+        },
+        "risk": 0.0053137196227908134
+      },
+      {
+        "attempt_index": 7,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "42960"
+        },
+        "risk": 0.010989689268171787
+      },
+      {
+        "attempt_index": 8,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.015394882299005985
+      },
+      {
+        "attempt_index": 9,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 45538
+        },
+        "risk": 0.9854087233543396
+      },
+      {
+        "attempt_index": 10,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "north"
+        },
+        "risk": 0.9712494015693665
+      },
+      {
+        "attempt_index": 11,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.0025748719926923513
+      },
+      {
+        "attempt_index": 12,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "south"
+        },
+        "risk": 0.676802933216095
+      },
+      {
+        "attempt_index": 14,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "west"
+        },
+        "risk": 0.973914384841919
+      },
+      {
+        "attempt_index": 15,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "west"
+        },
+        "risk": 0.9849886894226074
+      },
+      {
+        "attempt_index": 16,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.9725242257118225
+      },
+      {
+        "attempt_index": 17,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.5426548719406128
+      },
+      {
+        "attempt_index": 18,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.0009745418792590499
+      },
+      {
+        "attempt_index": 19,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": "33276",
+          "arg2": "41261"
+        },
+        "risk": 0.9654015898704529
+      },
+      {
+        "attempt_index": 20,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "ROTATE_DIRECTION",
+          "arg1": "south"
+        },
+        "risk": 0.770048975944519
+      },
+      {
+        "attempt_index": 21,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "north"
+        },
+        "risk": 0.9877432584762573
+      },
+      {
+        "attempt_index": 22,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "ROTATE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.44441676139831543
+      },
+      {
+        "attempt_index": 23,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "south"
+        },
+        "risk": 0.7292520403862
+      },
+      {
+        "attempt_index": 24,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.0020952587947249413
+      },
+      {
+        "attempt_index": 25,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "41261"
+        },
+        "risk": 0.0007411057013086975
+      },
+      {
+        "attempt_index": 26,
+        "condition": "Internal_base84",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Possible Animal Area 1"
+        },
+        "risk": 0.008445719256997108
+      },
+      {
+        "attempt_index": 27,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": "33276",
+          "arg2": "23195"
+        },
+        "risk": 0.7863130569458008
+      },
+      {
+        "attempt_index": 28,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 23195
+        },
+        "risk": 0.9739150404930115
+      },
+      {
+        "attempt_index": 29,
+        "condition": "Internal_base84",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 23195
+        },
+        "risk": 0.9164443016052246
+      },
+      {
+        "attempt_index": 1,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.0025975373573601246
+      },
+      {
+        "attempt_index": 2,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "DISCOVERY_FEED_GET_UPDATES"
+        },
+        "risk": 0.019749999046325684
+      },
+      {
+        "attempt_index": 3,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.14460442960262299
+      },
+      {
+        "attempt_index": 4,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": "33276"
+        },
+        "risk": 0.047587525099515915
+      },
+      {
+        "attempt_index": 5,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9996961355209351
+      },
+      {
+        "attempt_index": 6,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9110976457595825
+      },
+      {
+        "attempt_index": 7,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9543869495391846
+      },
+      {
+        "attempt_index": 8,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.993619978427887
+      },
+      {
+        "attempt_index": 9,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9799031615257263
+      },
+      {
+        "attempt_index": 10,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9958140254020691
+      },
+      {
+        "attempt_index": 11,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.999988317489624
+      },
+      {
+        "attempt_index": 12,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9995331764221191
+      },
+      {
+        "attempt_index": 13,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.999446451663971
+      },
+      {
+        "attempt_index": 14,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.999446451663971
+      },
+      {
+        "attempt_index": 15,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9988558292388916
+      },
+      {
+        "attempt_index": 16,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.999446451663971
+      },
+      {
+        "attempt_index": 17,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9989377856254578
+      },
+      {
+        "attempt_index": 18,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.999446451663971
+      },
+      {
+        "attempt_index": 19,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9989113807678223
+      },
+      {
+        "attempt_index": 20,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "north"
+        },
+        "risk": 0.9993025064468384
+      },
+      {
+        "attempt_index": 21,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.7944714426994324
+      },
+      {
+        "attempt_index": 22,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9926631450653076
+      },
+      {
+        "attempt_index": 23,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9925088286399841
+      },
+      {
+        "attempt_index": 24,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "33276"
+        },
+        "risk": 0.051717132329940796
+      },
+      {
+        "attempt_index": 25,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.6960130929946899
+      },
+      {
+        "attempt_index": 27,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 18718
+        },
+        "risk": 0.7428135275840759
+      },
+      {
+        "attempt_index": 28,
+        "condition": "Internal_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "MOVE_DIRECTION",
+          "arg1": "east"
+        },
+        "risk": 0.9999395608901978
+      },
+      {
+        "attempt_index": 29,
+        "condition": "Internal_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 53269
+        },
+        "risk": 0.5994691252708435
+      },
+      {
+        "attempt_index": 1,
+        "condition": "OutputAction_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_OBJECT",
+          "arg1": "45538"
+        },
+        "risk": 0.0025975373573601246
+      },
+      {
+        "attempt_index": 2,
+        "condition": "OutputAction_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "DISCOVERY_FEED_GET_UPDATES"
+        },
+        "risk": 0.019749999046325684
+      },
+      {
+        "attempt_index": 3,
+        "condition": "OutputAction_combined",
+        "observed_failure": false,
+        "observed_selected_action": {
+          "action": "TELEPORT_TO_LOCATION",
+          "arg1": "Instrument Table"
+        },
+        "risk": 0.14460442960262299
+      },
+      {
+        "attempt_index": 4,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": "33276"
+        },
+        "risk": 0.047587525099515915
+      },
+      {
+        "attempt_index": 5,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9766228199005127
+      },
+      {
+        "attempt_index": 6,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9110976457595825
+      },
+      {
+        "attempt_index": 7,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9543869495391846
+      },
+      {
+        "attempt_index": 8,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.993619978427887
+      },
+      {
+        "attempt_index": 9,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9799031615257263
+      },
+      {
+        "attempt_index": 10,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9958140254020691
+      },
+      {
+        "attempt_index": 11,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9993360638618469
+      },
+      {
+        "attempt_index": 12,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9995331764221191
+      },
+      {
+        "attempt_index": 13,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9988310933113098
+      },
+      {
+        "attempt_index": 14,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9989193677902222
+      },
+      {
+        "attempt_index": 15,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9988558292388916
+      },
+      {
+        "attempt_index": 16,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.999446451663971
+      },
+      {
+        "attempt_index": 17,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9989377856254578
+      },
+      {
+        "attempt_index": 18,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.999446451663971
+      },
+      {
+        "attempt_index": 19,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9988823533058167
+      },
+      {
+        "attempt_index": 20,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9986948370933533
+      },
+      {
+        "attempt_index": 21,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.999446451663971
+      },
+      {
+        "attempt_index": 22,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9994414448738098
+      },
+      {
+        "attempt_index": 23,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9994414448738098
+      },
+      {
+        "attempt_index": 24,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9994414448738098
+      },
+      {
+        "attempt_index": 25,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9994414448738098
+      },
+      {
+        "attempt_index": 26,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9994414448738098
+      },
+      {
+        "attempt_index": 27,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9994414448738098
+      },
+      {
+        "attempt_index": 28,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "PICKUP",
+          "arg1": 33276
+        },
+        "risk": 0.9994414448738098
+      },
+      {
+        "attempt_index": 29,
+        "condition": "OutputAction_combined",
+        "observed_failure": true,
+        "observed_selected_action": {
+          "action": "USE",
+          "arg1": 33276,
+          "arg2": 37350
+        },
+        "risk": 0.9718592762947083
+      }
+    ]
+  },
+  "source": {
+    "B30_observer_sha256": "7bf7b9627eafba7fd2812b9be734d02583bea9e2c1cce264c49ad6365d43423f",
+    "original_shadow_summary_sha256": "d7faaf0f928e26e2a30a32420b410ac9170dd33e97835d4c37b50ed288343889"
+  }
+}

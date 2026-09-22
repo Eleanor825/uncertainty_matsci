@@ -873,6 +873,30 @@
       ],
       "validation_script": "results/discoveryworld/development/20260922T192407_CST/validate.py",
       "world_seed": 2
+    },
+    {
+      "Common2_score": 0,
+      "Internal_base84_score": 0.125,
+      "Internal_combined_score": 0.125,
+      "Native1_in_cohort": false,
+      "OutputAction_combined_score": 0,
+      "asof_CST": "2026-09-23T01:34:32+08:00",
+      "causal_local_action_benefit_claimed": false,
+      "closed_development_trajectories": 4,
+      "completed_Full_vs_Native_test_pairs_added": 0,
+      "metrics": "results/discoveryworld/development/20260923T013432_CST/metrics.csv",
+      "new_scientific_calls_for_export": 0,
+      "preselected_Internal_variant": "combined",
+      "report": "results/discoveryworld/development/20260923T013432_CST/report.md",
+      "returned_actions": 120,
+      "separate_TRAIN_diagnostics": [
+        "SFT_numerical_path_v2",
+        "action_influence_selection_v1"
+      ],
+      "snapshot_id": "discoveryworld_development_20260923T013432_CST",
+      "status": "results/discoveryworld/development/20260923T013432_CST/cohort.json",
+      "task_successes": 0,
+      "validation_script": "results/discoveryworld/development/20260923T013432_CST/validate.py"
     }
   ],
   "discoveryworld_diagnostic_exports": [
@@ -1683,7 +1707,7 @@
   "latest_B50_mechanism_audit_export_id": "original_seed1_B50_hull_mechanisms_20260920T054512_CST",
   "latest_MADE_underperformance_audit_export_id": "made_underperformance_20260923T012020_CST",
   "latest_component_study_export_id": "made_core5_complete_20260919T212712_CST",
-  "latest_discoveryworld_development_export_id": "discoveryworld_matched_pair_20260922T192407_CST",
+  "latest_discoveryworld_development_export_id": "discoveryworld_development_20260923T013432_CST",
   "latest_discoveryworld_diagnostic_export_id": "discoveryworld_closed_risk_audit_20260922T184705_CST",
   "latest_discoveryworld_progress_export_id": "discoveryworld_progress_20260922T155718_CST",
   "latest_incremental_component_export_id": "made_incremental_20260922T101850_CST",

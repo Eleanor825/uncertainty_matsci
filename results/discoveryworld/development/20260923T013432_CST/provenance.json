@@ -1,0 +1,28 @@
+{
+  "asof_CST": "2026-09-23T01:34:32+08:00",
+  "new_native_comparator_added": false,
+  "new_scientific_calls_for_publication": 0,
+  "preselected_combined_replaced": false,
+  "raw_operations_prompts_credentials_hostnames_PIDs_published": false,
+  "schema": "dw_four_B30_and_separate_TRAIN_diagnostics_provenance_v1",
+  "shadow_summary_sha256": "d7faaf0f928e26e2a30a32420b410ac9170dd33e97835d4c37b50ed288343889",
+  "source_and_production_models_unchanged": true,
+  "source_receipts": {
+    "B30": {
+      "bytes": 1141403,
+      "sha256": "7bf7b9627eafba7fd2812b9be734d02583bea9e2c1cce264c49ad6365d43423f"
+    },
+    "numeric": {
+      "bytes": 63612,
+      "sha256": "d3884d4291b663345ea133deb21ec6d96f64808e0b28139eefc4659dc0c7caac"
+    },
+    "object_identity": {
+      "bytes": 6139,
+      "sha256": "5d93af4494e6340296173db752b549d74bab5eb5ed682914dd445cd5fc71ddd8"
+    },
+    "selector": {
+      "bytes": 53995,
+      "sha256": "90e09123d4d87327e95fe57567a1cf5c3954257987f6e9a33fe0b90df087affe"
+    }
+  }
+}

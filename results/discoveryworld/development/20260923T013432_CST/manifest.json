@@ -1,0 +1,59 @@
+{
+  "files": {
+    "action_influence_diagnostic.json": {
+      "bytes": 44202,
+      "sha256": "f7083773913e4d445ae2e5f3679d6f1206a938aa5aa0a005780503c8676a74dc"
+    },
+    "action_influence_graphs.csv": {
+      "bytes": 2107,
+      "sha256": "960288b1482446cc29e3eaa2b3770a645bd67c3c0bcdc61f4e6a16fac7de7388"
+    },
+    "actions.csv": {
+      "bytes": 29097,
+      "sha256": "76bed7d5a34534e141d854476475af7e8ce51087e2f097fbf8156feef69fdbb6"
+    },
+    "cohort.json": {
+      "bytes": 429347,
+      "sha256": "a043d1df3921977afe2f24a8b5c1cbfa566efc5064fc995661aae36a927b637f"
+    },
+    "metrics.csv": {
+      "bytes": 707,
+      "sha256": "43b7274c009159e678f81d2cfa3e6ecd722d47a625064572912d15b62bd739ed"
+    },
+    "milestone_source.json": {
+      "bytes": 576,
+      "sha256": "74a34b31f731ab0eca421c30f69648113d260e228bf0b2273d1447df28dbb38c"
+    },
+    "numerical_path_diagnostic.json": {
+      "bytes": 22445,
+      "sha256": "8acf2827e9b6316fe453d384b2b9022e7c48c012fc72a9d2b5748d2b85c80b36"
+    },
+    "provenance.json": {
+      "bytes": 1011,
+      "sha256": "382a8a6b54e4b3888aca9efa474e82ed3dc76ff451777abeaa6f4c330334247a"
+    },
+    "public_object_identity.json": {
+      "bytes": 5424,
+      "sha256": "3b7b387bc8d26d884f594706771a624e480eed60055b0e3a9fa865283ff9fb53"
+    },
+    "report.md": {
+      "bytes": 7950,
+      "sha256": "e0f554f35ba68f3334856a3f09a843f610a8875d856c86d3e00ef2f2ecd33e0f"
+    },
+    "selected_shadow_rows.csv": {
+      "bytes": 15435,
+      "sha256": "37a3474fa346d430c3d584a0ba8fe57047a71013071cafda6549558026543a3f"
+    },
+    "shadow_diagnostic.json": {
+      "bytes": 169579,
+      "sha256": "8be7bf88069e83297b9002164a17c48cf75aa8dbb5fe81536a3df7711ff3d59f"
+    },
+    "validate.py": {
+      "bytes": 9338,
+      "sha256": "cf7dc079927aef298af6c2739026040d1d12c44a96f7bccfd5c5086a73851224"
+    }
+  },
+  "new_scientific_calls_for_export": 0,
+  "original_sources_unchanged": true,
+  "schema": "dw_B30_and_separate_TRAIN_diagnostics_export_manifest_v1"
+}

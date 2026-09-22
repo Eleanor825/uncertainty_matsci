@@ -1,0 +1,184 @@
+{
+  "arms": [
+    {
+      "condition": "Common2",
+      "environment_source_sha256": "afc6882c831ed375aa3fa802bb9bf9a5e9b2901d2427bb0e40dbdf03aa40f4b4",
+      "initial_public_observation_sha256": "eae1bac7c0e9dda84dcdb53114254bf11f85f16abdbe5e00556605804c88ddd6",
+      "object_33276_public_identity": [
+        {
+          "attempt": 0,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 4,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 3,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 1,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 4,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        }
+      ]
+    },
+    {
+      "condition": "Internal_base84",
+      "environment_source_sha256": "977b6b1dd8d23ae72372ba356c25c557ce2d0b6e4ce58cad75b8d9bc01e3b366",
+      "initial_public_observation_sha256": "eae1bac7c0e9dda84dcdb53114254bf11f85f16abdbe5e00556605804c88ddd6",
+      "object_33276_public_identity": [
+        {
+          "attempt": 0,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 4,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 2,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 2,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 1,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 3,
+          "object": {
+            "description": "proteomics meter (on agent [uuid: 63296])",
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 3,
+          "object": {
+            "description": "proteomics meter (on agent [uuid: 63296])",
+            "distance": 0,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        }
+      ]
+    },
+    {
+      "condition": "Internal_combined",
+      "environment_source_sha256": "a2b7dc47aa591dff5d1b00d43f7739aad97a18d2a797627cff0eb528a6c5314c",
+      "initial_public_observation_sha256": "eae1bac7c0e9dda84dcdb53114254bf11f85f16abdbe5e00556605804c88ddd6",
+      "object_33276_public_identity": [
+        {
+          "attempt": 0,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 4,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 3,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 1,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 20,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 2,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 24,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 25,
+          "object": {
+            "description": "proteomics meter (on agent [uuid: 63296])",
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 25,
+          "object": {
+            "description": "proteomics meter (on agent [uuid: 63296])",
+            "distance": 0,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        }
+      ]
+    },
+    {
+      "condition": "OutputAction_combined",
+      "environment_source_sha256": "e839aa678ad66a221dfaef232179e4545e45576603929462139a22e16eb90132",
+      "initial_public_observation_sha256": "eae1bac7c0e9dda84dcdb53114254bf11f85f16abdbe5e00556605804c88ddd6",
+      "object_33276_public_identity": [
+        {
+          "attempt": 0,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 4,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 3,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 1,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        },
+        {
+          "attempt": 30,
+          "object": {
+            "description": "proteomics meter (on table [uuid: 42983])",
+            "distance": 2,
+            "name": "proteomics meter",
+            "uuid": 33276
+          }
+        }
+      ]
+    }
+  ],
+  "new_scientific_calls": 0,
+  "observed_unix": 1790098472.907454,
+  "read_only": true,
+  "schema": "closed_DW_public_object_identity_v1"
+}

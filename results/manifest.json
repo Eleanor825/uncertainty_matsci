@@ -31,8 +31,8 @@
       "path": "docs/results.md"
     },
     {
-      "bytes": 6867,
-      "export_sha256": "2fdbba75fbab5fb68f4409423744893d5025a1d85372030f69e09c335fca748b",
+      "bytes": 8773,
+      "export_sha256": "a8d616636cdb83c56625986d10daa2c6154e2c91407349a33b79182b3abf446c",
       "path": "results/LATEST.md"
     },
     {
@@ -1021,6 +1021,76 @@
       "path": "results/discoveryworld/development/20260923T002200_CST/validate.py"
     },
     {
+      "bytes": 44202,
+      "export_sha256": "f7083773913e4d445ae2e5f3679d6f1206a938aa5aa0a005780503c8676a74dc",
+      "path": "results/discoveryworld/development/20260923T013432_CST/action_influence_diagnostic.json"
+    },
+    {
+      "bytes": 2107,
+      "export_sha256": "960288b1482446cc29e3eaa2b3770a645bd67c3c0bcdc61f4e6a16fac7de7388",
+      "path": "results/discoveryworld/development/20260923T013432_CST/action_influence_graphs.csv"
+    },
+    {
+      "bytes": 29097,
+      "export_sha256": "76bed7d5a34534e141d854476475af7e8ce51087e2f097fbf8156feef69fdbb6",
+      "path": "results/discoveryworld/development/20260923T013432_CST/actions.csv"
+    },
+    {
+      "bytes": 429347,
+      "export_sha256": "a043d1df3921977afe2f24a8b5c1cbfa566efc5064fc995661aae36a927b637f",
+      "path": "results/discoveryworld/development/20260923T013432_CST/cohort.json"
+    },
+    {
+      "bytes": 2000,
+      "export_sha256": "6014372fdc325103c393223cb33cedfb93436c89a46815c546a3889dbc81228a",
+      "path": "results/discoveryworld/development/20260923T013432_CST/manifest.json"
+    },
+    {
+      "bytes": 707,
+      "export_sha256": "43b7274c009159e678f81d2cfa3e6ecd722d47a625064572912d15b62bd739ed",
+      "path": "results/discoveryworld/development/20260923T013432_CST/metrics.csv"
+    },
+    {
+      "bytes": 576,
+      "export_sha256": "74a34b31f731ab0eca421c30f69648113d260e228bf0b2273d1447df28dbb38c",
+      "path": "results/discoveryworld/development/20260923T013432_CST/milestone_source.json"
+    },
+    {
+      "bytes": 22445,
+      "export_sha256": "8acf2827e9b6316fe453d384b2b9022e7c48c012fc72a9d2b5748d2b85c80b36",
+      "path": "results/discoveryworld/development/20260923T013432_CST/numerical_path_diagnostic.json"
+    },
+    {
+      "bytes": 1011,
+      "export_sha256": "382a8a6b54e4b3888aca9efa474e82ed3dc76ff451777abeaa6f4c330334247a",
+      "path": "results/discoveryworld/development/20260923T013432_CST/provenance.json"
+    },
+    {
+      "bytes": 5424,
+      "export_sha256": "3b7b387bc8d26d884f594706771a624e480eed60055b0e3a9fa865283ff9fb53",
+      "path": "results/discoveryworld/development/20260923T013432_CST/public_object_identity.json"
+    },
+    {
+      "bytes": 7950,
+      "export_sha256": "e0f554f35ba68f3334856a3f09a843f610a8875d856c86d3e00ef2f2ecd33e0f",
+      "path": "results/discoveryworld/development/20260923T013432_CST/report.md"
+    },
+    {
+      "bytes": 15435,
+      "export_sha256": "37a3474fa346d430c3d584a0ba8fe57047a71013071cafda6549558026543a3f",
+      "path": "results/discoveryworld/development/20260923T013432_CST/selected_shadow_rows.csv"
+    },
+    {
+      "bytes": 169579,
+      "export_sha256": "8be7bf88069e83297b9002164a17c48cf75aa8dbb5fe81536a3df7711ff3d59f",
+      "path": "results/discoveryworld/development/20260923T013432_CST/shadow_diagnostic.json"
+    },
+    {
+      "bytes": 9338,
+      "export_sha256": "cf7dc079927aef298af6c2739026040d1d12c44a96f7bccfd5c5086a73851224",
+      "path": "results/discoveryworld/development/20260923T013432_CST/validate.py"
+    },
+    {
       "bytes": 25184,
       "export_sha256": "09d532d3f226d8eca4c28f4244b2b990c9cf880229aceeab9505c13253c41aa4",
       "path": "results/discoveryworld/diagnostics/20260922T172256_CST/cached_predictions.json"
@@ -1201,8 +1271,8 @@
       "path": "results/discoveryworld/progress/20260922T155718_CST/validate.py"
     },
     {
-      "bytes": 137679,
-      "export_sha256": "a4370ac2195f0e53e53167dfe4c9f8e00b8db35a79dd4db22cf7b5a11cc4aec9",
+      "bytes": 138762,
+      "export_sha256": "2121bbf167bef76c6e97c5e17fd30abe41726eee4cadea2a637184500f504c9f",
       "path": "results/index.json"
     },
     {
@@ -6073,6 +6143,7 @@
   ],
   "latest_B50_hull_audit_observation_utc": "2026-09-19T21:45:12.035489+00:00",
   "latest_CPU_prediction_diagnostic_observation_utc": "2026-09-19T11:28:21.417572+00:00",
+  "latest_DW_B30_closed_cohort_observation_CST": "2026-09-23T01:34:32+08:00",
   "latest_DW_SFT_behavior_observation_utc": "2026-09-22T15:13:29.398210+00:00",
   "latest_DW_fixed9_policy_observation_unix": 1790094120.792998,
   "latest_DW_risk_refresh_observation_utc": "2026-09-22T13:29:53.529933+00:00",

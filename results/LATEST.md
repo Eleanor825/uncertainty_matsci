@@ -1,6 +1,6 @@
 # Latest verified experimental results
 
-MADE remains **1079 valid trajectories, 1 technical failure and 0 pending**. The latest DiscoveryWorld grounded-repair comparisons and first actual Full-ES update are reported below. Scientific-task improvement is not established.
+MADE remains **1079 valid trajectories, 1 technical failure and 0 pending**. The latest DiscoveryWorld evidence closes four fixed B30 development conditions: both Internal variants reached task score 0.125; Common2 and OutputAction remained at 0, and all four task-success flags are false. This cohort contains no Native1 comparator and does not establish Full-method superiority.
 
 ## MADE — Qwen3.5-4B
 
@@ -32,6 +32,23 @@ A new [historical MADE cause audit and incumbent-selection replay](development/m
 
 ## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
 
+Latest closed cohort: **world 2 / policy seed 307, four conditions × B30**.
+
+| Condition | Task score | Failed actions /30 | Actual NN packet changes |
+|---|---:|---:|---:|
+| Common2 | 0 | 7 | 0 |
+| Internal-base84 | 0.125 | 5 | 10 |
+| Internal-combined (preselected) | 0.125 | 21 | 3 |
+| OutputAction-combined | 0 | 26 | 3 |
+
+Both Internal trajectories earned their sole 0.125 milestone by picking up the proteomics meter. At base84's scoring step the two parsed candidate actions were identical; combined's scoring step used common-hash fallback because the alternative graph was unavailable. These steps do not prove that NN rejection of a different action caused progress. All four failed to complete the task; base84 does not replace the preselected combined variant. This is one world/seed cohort, not independent replications or a Native/Full test.
+
+Three shadow heads scored the same 113 executed actions: Internal-base84 / Internal-combined / OutputAction AUROC 0.921366 / 0.918860 / 0.879073 and Brier 0.124354 / 0.127342 / 0.178023. These correlated action-level metrics have no causal or significance claim and assign no outcome to unexecuted alternatives.
+
+Separate fixed-TRAIN diagnostics: the checkpointed/uncheckpointed SFT gradient comparison matched, but strict teacher-forcing/cache numerical parity failed; no admission was granted. The action-influence selector passed 8 qualification prefixes and produced 3 wider-layer graphs, with 11 extra selector backwards recorded, 0 NN fits and 0 environment calls. Neither diagnostic is an online performance result.
+
+[Full report, all 120 action rows, source hashes and independent validator](discoveryworld/development/20260923T013432_CST/report.md).
+
 Latest completed policy-only comparison: **9/9 world2 B30 episodes**, three sampling seeds. Mean official task scores: Baseline 0.000000 / SFT 0.000000 / CreditSFT 0.000000. Error rates and behavior remain separate; this is not Internal/Full efficacy evidence. [Complete fixed9 report](discoveryworld/development/20260923T002200_CST/report.md).
 
 Earlier p308 policy-only B30 pair: **world2/policy308, both task scores0**. Native has29/30 action failures; fixed final32 SFT has0/30, but performs28 rotations and2 moves without score progress. This pair contains0 NN-controller calls and0 candidate graphs. It does not establish Full-method efficacy. [All60 action rows and separate training-window audit](discoveryworld/development/20260922T231329_CST/report.md).
@@ -51,7 +68,7 @@ Latest CPU refresh snapshot: **September 22, 21:29:53 CST**. The fixed data vari
 - [Eight-fit report and all variants](discoveryworld/development/20260922T212953_CST/report.md)
 - [Exact eight-model metrics](discoveryworld/development/20260922T212953_CST/metrics.csv)
 
-No robust online Full-method improvement or completed held-out Full/Native pair has been established. Actions within a trajectory are dependent; diagnostic fits reusing these actions are not independent validation trials. New fixed B30 training-refresh comparisons are prospective.
+No robust online Full-method improvement or completed held-out Full/Native pair has been established. Actions within a trajectory are dependent; diagnostic fits reusing these actions are not independent validation trials. The closed p307 B30 cohort above adds development evidence, not a held-out Full/Native test pair.
 
 ## Scope and provenance
 

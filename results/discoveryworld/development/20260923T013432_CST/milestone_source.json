@@ -1,0 +1,15 @@
+{
+  "class": "ProteomicsTask",
+  "description": "Taking the proteomics meter earns one point out of eight; the five animal-use points and final flag-placement objective remain distinct.",
+  "meter_inventory_update_lines": [
+    3148,
+    3153
+  ],
+  "schema": "DW_official_milestone_source_reference_v1",
+  "scorecard_lines": [
+    3115,
+    3124
+  ],
+  "source_project_relative_path": "experiments/discoveryworld_full_method_20260922/vendor/DiscoveryWorld/discoveryworld/TaskScorer.py",
+  "source_sha256": "32755603cc4ce0a706943047e1f9ab0e031eb0d0992b9feaabb226b1b35fd79e"
+}
