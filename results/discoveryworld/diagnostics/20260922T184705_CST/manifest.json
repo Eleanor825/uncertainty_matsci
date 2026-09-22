@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "bytes": 33665,
+      "path": "audit.json",
+      "sha256": "c39b8336a1556aae317e833116a992b9429543c155bd371b85b1af427ee85b94"
+    },
+    {
+      "bytes": 472,
+      "path": "behavior.csv",
+      "sha256": "6c6cc57c8ab2729f703a8f923dc2f48c91626fc6e47286683192d17c5852cb12"
+    },
+    {
+      "bytes": 232,
+      "path": "metrics.csv",
+      "sha256": "8b361fcac09cc50b290c24a3577e19a4f923745feef2fce32e0a132656a1250a"
+    },
+    {
+      "bytes": 1248,
+      "path": "provenance.json",
+      "sha256": "1bc2033e47b2164e78249ca4020ff91919de3c5127b0fac5ffe02149b85ecb9d"
+    },
+    {
+      "bytes": 3279,
+      "path": "report.md",
+      "sha256": "debd0cae381551961be105e8a7824d3a5b6daa9dea287943a1033abf3ae39349"
+    },
+    {
+      "bytes": 4632,
+      "path": "validate.py",
+      "sha256": "960f6f014e89ff1fb995ee31b32bed59211baa27286c58f03b4443dc8387fa76"
+    }
+  ],
+  "schema": "dw_closed_development_audit_manifest_v1"
+}

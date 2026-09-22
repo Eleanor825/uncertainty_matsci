@@ -1,0 +1,3 @@
+condition,policy_seed,n,failures,successes,Brier,NLL,alarms,TP,FP,TN,FN,failure_recall
+Q75,304,10,10,0,0.040686447851911466,0.14522471989016256,9,9,0,0,1,0.9
+Common2,305,10,1,9,0.0992041623861048,0.3727390391981958,0,0,0,9,1,0.0

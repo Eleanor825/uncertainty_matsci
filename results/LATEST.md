@@ -1,6 +1,6 @@
 # Latest verified experimental results
 
-MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September 22, 10:18 CST). DiscoveryWorld adds **development status through September 22, 18:33 CST**: Q75 and Common2 each closed B10, both with task score 0; their different-seed partners remain incomplete. CV-v1 did not fit because of insufficient training-fold support. No completed Full-method improvement is established.
+MADE remains **1079 valid trajectories, 1 technical failure and 0 pending** (September 22, 10:18 CST). DiscoveryWorld adds an **18:47 read-only diagnosis of 20 actions from two already completed development trajectories**: Q75's three revisions changed no executed action; Common2's nine successful actions earned no immediate task score. This adds no trajectories, model updates or completed Full-method benefit. The dated 18:33 status snapshot remains unchanged.
 
 ## MADE — Qwen3.5-4B
 
@@ -29,6 +29,12 @@ The completed matched results do **not** show an overall Full-method improvement
 Variance is across evaluation seeds within the same system, budget and arm (sample variance, ddof=1). Missing/failed runs stay blank; n<2 variance is unavailable and incomplete seed sets are marked. These are not repeated training runs.
 
 ## DiscoveryWorld — Qwen3.5-4B, Proteomics Normal
+
+The latest **closed-trajectory audit** reuses Q75/p304 and Common2/p305; it does not complete their partners. Q75 made three second proposals, all identical to their first action. Two recorded neural rank changes therefore changed candidate identity but not executed action; its longest identical failing-action run was nine. Common2 produced six different second actions in ten attempts, but its three second-candidate selections still changed no executed action relative to the first candidate. All nine successful actions had zero immediate task-score increase; neither trajectory completed the task.
+
+On the executed actions' **cached** risks, retrospective threshold 0.5 flags 9/10 Q75 failures (Brier 0.040686, NLL 0.145225) and misses Common2's only failure (Brier 0.099204, NLL 0.372739; 0 false alarms among 9 successes). The actual Q75 threshold remains unchanged. Q75 contains no successful actions, so it cannot assess two-class discrimination. Different policy seeds preclude a paired method comparison; action success without immediate score does not prove absence of future value. All 20 primary labels and selected risks were available. No outcome is assigned to an unexecuted proposal.
+
+[Closed-action diagnosis and portable recomputation](discoveryworld/diagnostics/20260922T184705_CST/report.md) · [20 selected-action records](discoveryworld/diagnostics/20260922T184705_CST/audit.json)
 
 The newest completed rows are **development conditions**, not Native/Full held-out tests:
 

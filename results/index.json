@@ -821,6 +821,20 @@
       "training_diagnostic_report": "results/discoveryworld/diagnostics/20260922T172256_CST/training_diagnostic_report.md",
       "training_metrics": "results/discoveryworld/diagnostics/20260922T172256_CST/training_metrics.csv",
       "validation_script": "results/discoveryworld/diagnostics/20260922T172256_CST/validate.py"
+    },
+    {
+      "actual_Q75_threshold_changed": false,
+      "additional_trajectories": 0,
+      "audit": "results/discoveryworld/diagnostics/20260922T184705_CST/audit.json",
+      "closed_development_episodes_reused": 2,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-22T18:47:05.183961+08:00",
+      "observed_UTC": "2026-09-22T10:47:05.183961+00:00",
+      "paired_treatment_effect_estimated": false,
+      "report": "results/discoveryworld/diagnostics/20260922T184705_CST/report.md",
+      "selected_action_rows": 20,
+      "snapshot_id": "discoveryworld_closed_risk_audit_20260922T184705_CST",
+      "validation_script": "results/discoveryworld/diagnostics/20260922T184705_CST/validate.py"
     }
   ],
   "discoveryworld_progress_exports": [
@@ -1587,7 +1601,7 @@
   "latest_B50_mechanism_audit_export_id": "original_seed1_B50_hull_mechanisms_20260920T054512_CST",
   "latest_component_study_export_id": "made_core5_complete_20260919T212712_CST",
   "latest_discoveryworld_development_export_id": "discoveryworld_development_20260922T183307_CST",
-  "latest_discoveryworld_diagnostic_export_id": "discoveryworld_CPU_diagnostics_20260922T172256_CST",
+  "latest_discoveryworld_diagnostic_export_id": "discoveryworld_closed_risk_audit_20260922T184705_CST",
   "latest_discoveryworld_progress_export_id": "discoveryworld_progress_20260922T155718_CST",
   "latest_incremental_component_export_id": "made_incremental_20260922T101850_CST",
   "latest_observation_utc": "2026-09-18T21:21:38.188817+00:00",

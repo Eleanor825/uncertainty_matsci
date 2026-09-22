@@ -1,0 +1,19 @@
+{
+  "actual_Q75_controller_threshold_changed": false,
+  "additional_trajectories": 0,
+  "builder_sha256": "4a8d85bcf32de14ac88bb42e606ba0146cdfa7f595bd06b03ba5af91f3adc6af",
+  "candidate_outcomes": "Only executed actions receive labels; unexecuted candidates have no assigned outcomes.",
+  "executed_readonly_probe_sha256": "c5e9824abf2f00f266b9b34c2589c413563c23415e0ab494d5a463b3dde6ea69",
+  "input_scope": "Only source-hash-verified, accepted Q75/p304 and Common2/p305 development B10 episodes.",
+  "limitations": "Different policy seeds; no paired treatment effect. Ten Q75 actions all fail, so that episode cannot estimate class discrimination. Successful actions without immediate score do not prove zero future value.",
+  "new_scientific_calls": 0,
+  "original_audit_sha256": "c39b8336a1556aae317e833116a992b9429543c155bd371b85b1af427ee85b94",
+  "original_report_sha256": "e5368a0f58ee4652c72b9354a9cd1f261561064468b339fdbd310eeceae83fa1",
+  "raw_operational_receipt_distributed": false,
+  "raw_readonly_receipt": {
+    "bytes": 37623,
+    "sha256": "a7d946af4067fe4e38dc2ab241487e007b119849cc04accd8a938f6bce721ae6"
+  },
+  "schema": "dw_closed_development_portable_audit_provenance_v1",
+  "threshold_05_is_retrospective_diagnostic": true
+}

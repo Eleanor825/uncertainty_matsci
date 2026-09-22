@@ -1,6 +1,6 @@
 # Uncertainty-guided materials discovery
 
-Latest DiscoveryWorld evidence: [development status through September 22, 18:33 CST](results/discoveryworld/development/20260922T183307_CST/report.md). Q75/p304 closed with 10/10 failed actions; Common2/p305 closed with 1/10 failed actions; both scored 0. They are different-seed controls, not a paired effect comparison, and both partners remain incomplete. CV-v1 recorded zero fits because a training fold lacked class support. [Current overview](results/LATEST.md) preserves MADE's negative aggregate results and the incomplete Full comparison.
+Latest DiscoveryWorld diagnosis: [20 existing closed development actions, audited at 18:47 CST](results/discoveryworld/diagnostics/20260922T184705_CST/report.md). Q75's three revision proposals changed no executed action; Common2's nine successful actions produced no immediate task score. Cached-risk metrics do not establish successful repair or a paired method benefit. No trajectories, fits or model calls were added. [Current overview](results/LATEST.md) preserves adverse results and the incomplete Full comparison.
 
 Research code for a white-box language-model agent that proposes materials-discovery actions, estimates failure risk from internal representations, and adapts policy weights with Agentic ESOpt. The implemented interfaces cover MADE and CrystalGym. Published results include **MADE, Qwen3.5-4B, seed1, baseline versus a fixed G2 graph-risk policy**, and a separately accepted seven-arm Summit SnAr study with five evaluation seeds.
 

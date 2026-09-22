@@ -1,0 +1,3 @@
+condition,policy_seed,absent_adjacent_score_observations,both_candidates_parsed,executed_action_differs_from_first,longest_identical_failed_action_run,neural_revision_requested,recorded_neural_rank_change,repeats_previous_failed_action,second_action_differs_from_first,second_candidates,selected_nonfirst,successful_action_without_score_increase,successful_actions,task_score_increasing_actions
+Q75,304,0,3,0,9,3,2,8,0,3,2,0,0,0
+Common2,305,0,10,0,1,0,0,0,6,10,3,9,9,0
