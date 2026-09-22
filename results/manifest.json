@@ -696,8 +696,8 @@
     },
     {
       "path": "results/index.json",
-      "bytes": 127794,
-      "export_sha256": "ffca8d8fcc88e769ea97dabbbc0ed5a0eb18a624f0bdc9968083bef9c5c92336"
+      "bytes": 128686,
+      "export_sha256": "e7ac919c0c067f584df0a4ae6f01d368bcf90a25189295729c00873770261e55"
     },
     {
       "bytes": 1517,
@@ -3120,9 +3120,54 @@
       "export_sha256": "b8060eeddcec316ce323eaf7e7d939f90c34069c224ba8f9f747e65a9cfadeab"
     },
     {
+      "path": "results/made_components/incremental/20260922T101850_CST/all_system_results.csv",
+      "bytes": 322530,
+      "export_sha256": "95f5f578529fac8ecb88dc933dea4a25616da1af678a91a0e7ac8b36f27d299b"
+    },
+    {
+      "path": "results/made_components/incremental/20260922T101850_CST/completed_curves.csv",
+      "bytes": 1495968,
+      "export_sha256": "e170e7160b1f2825c659b4aeeb6f2c312009354557ff7173c0961ce80867af36"
+    },
+    {
+      "path": "results/made_components/incremental/20260922T101850_CST/manifest.json",
+      "bytes": 1315,
+      "export_sha256": "f60139715d0a80fd3cf231c015176eb921389e55ed0684485c0bdad4a3de12eb"
+    },
+    {
+      "path": "results/made_components/incremental/20260922T101850_CST/paired_results.csv",
+      "bytes": 54695,
+      "export_sha256": "157c2ec87bd8d622b0ffcc8f3739e7fc478a307879af86a15987ad4778d2f2d6"
+    },
+    {
+      "path": "results/made_components/incremental/20260922T101850_CST/recompute.py",
+      "bytes": 7693,
+      "export_sha256": "9ff3fd8ad58ee7e40af0d90fee13eb651223e5969b2a6f697d1cb4621fcd9b9b"
+    },
+    {
+      "path": "results/made_components/incremental/20260922T101850_CST/report.md",
+      "bytes": 2477,
+      "export_sha256": "fc27014d97ce4bca78b9c6fa9fd57389acff1817abea1e8892d31cf9503c2940"
+    },
+    {
+      "path": "results/made_components/incremental/20260922T101850_CST/seed_statistics.csv",
+      "bytes": 97080,
+      "export_sha256": "40c5e432cce6dbbf8f7c2ada18b16f997fe75b9861523df29a4c04805e58054d"
+    },
+    {
+      "path": "results/made_components/incremental/20260922T101850_CST/snapshot.json",
+      "bytes": 3184347,
+      "export_sha256": "16af199ddb97fb8dafaebad757b33e10f6dc5014df90a3736151d3c1682929fe"
+    },
+    {
+      "path": "results/made_components/incremental/20260922T101850_CST/summary.json",
+      "bytes": 6088,
+      "export_sha256": "b379d2f197d62b1b3cde7d5fd49bd8165e03f9bfb75e1951e5a37e56fc400453"
+    },
+    {
       "path": "results/made_components/incremental/README.md",
-      "bytes": 3826,
-      "export_sha256": "6675c4b8092d4e314a3c5a4839768b8ab5418d7ee7e1c1eaa0c068464fa2321d"
+      "bytes": 3912,
+      "export_sha256": "c45949f22866507cd7b0f470625901ba0ef7746d588dd2751e2b61e7ed8e8fec"
     },
     {
       "bytes": 851,
