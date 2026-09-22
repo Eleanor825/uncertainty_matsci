@@ -1,5 +1,7 @@
 # Experiment results and historical snapshots
 
+Latest additive DiscoveryWorld record: [completed eight-fit data refresh](../results/discoveryworld/development/20260922T212953_CST/report.md). It preserves both exact base84 reproductions, all positive and negative outcomes, 500 update receipts, actual84/96/87/99 row counts, and the separate zero-fit v1 failure. No new online result is claimed.
+
 The [completed DiscoveryWorld matched-proposal pair at September 22, 19:24 CST](../results/discoveryworld/development/20260922T192407_CST/report.md) compares Common2/Internal2 at world 2 / policy seed 305 / B10. Failures are 1/2, task scores 0/0, fitness −0.01/−0.02, and candidate graph counts 20/20. The previously published Common2 row is reused; only Internal2 newly closes. This is a negative development mechanism observation, not a p304 or Full/Native comparison.
 
 The [completed DiscoveryWorld operating-point pair, verified September 22 at 18:59 CST](../results/discoveryworld/development/20260922T185915_CST/report.md), compares Q75 and fixed 0.5 at identical world 2 / policy seed 304 / B10 and frozen G0. Both fail ten actions, score zero and obtain fitness −0.1. Revision counts rise 3→9 and graph calls 13→19, but actual action changes remain zero. Q75 is reused from earlier snapshots. Full ES was only at G0 qualification in the separately dated 18:56 observer, with no parameter update confirmed.

@@ -1,0 +1,132 @@
+{
+  "no_new_online_result": true,
+  "production_replacement": false,
+  "prospective_online_setup_receipt_only": {
+    "source_bytes": 4012,
+    "source_kind": "deploy_dw_refresh_online_B30_fresh_sources_v1",
+    "source_sha256": "0ac2d60cb1178222f46eb2150c8768946ec40bd92193e62541b4c531f0094a51"
+  },
+  "public_values_are_allowlisted_observer_projections": true,
+  "publication_scientific_calls": 0,
+  "raw_files_published": false,
+  "raw_model_seals": {
+    "models/base84/Internal/model_seal.json": {
+      "bytes": 1831,
+      "sha256": "53134db9f5dca73c954ee65e40abc55eb899762e724735acf68e86c59f4290e1"
+    },
+    "models/base84/OutputAction/model_seal.json": {
+      "bytes": 3435,
+      "sha256": "a4f70331278e9bfa5a95bdc996f214efd88370fe4752679e7d0b57fa68f73c17"
+    },
+    "models/combined/Internal/model_seal.json": {
+      "bytes": 1839,
+      "sha256": "4db0fbf27d8a0eb7779b6fc07bc38b481af0bd27e7a8043fb7c76494ef8e4faa"
+    },
+    "models/combined/OutputAction/model_seal.json": {
+      "bytes": 3445,
+      "sha256": "725f34470f4b170280f33fc43cd0b92e08d7392f9a84951758b55b90e3d434a2"
+    },
+    "models/with_ES/Internal/model_seal.json": {
+      "bytes": 1835,
+      "sha256": "c6e554efd730c67c18dca73c681b2544ce2e2520005927eec09bb2c2648a451f"
+    },
+    "models/with_ES/OutputAction/model_seal.json": {
+      "bytes": 3440,
+      "sha256": "c17137d2887a2a571379f82c42ec33227b15f337495dd8ece32cb4cd3793a41b"
+    },
+    "models/with_milestones/Internal/model_seal.json": {
+      "bytes": 1848,
+      "sha256": "cbdde068891019a6ffe08063ee5b1d283f55719b5b6565784106857dc1f3ba33"
+    },
+    "models/with_milestones/OutputAction/model_seal.json": {
+      "bytes": 3474,
+      "sha256": "b66498624b444c22bdfe8da14bcf66d8c7cb1ede79f2f87e8b729b812d379743"
+    }
+  },
+  "raw_observer_receipts": [
+    {
+      "source_bytes": 108546,
+      "source_kind": "observe_dw_refresh_v2_deployment_and_training_v1",
+      "source_sha256": "c1a1af7669046cdb264bddaf803da0e22b3188687ceb9a977d48e903e0c3f648"
+    }
+  ],
+  "schema": "dw_eight_fit_refresh_publication_provenance_v1",
+  "source_artifacts": {
+    "completion.json": {
+      "bytes": 23535,
+      "sha256": "f1a7aed82943bc04f07cf0bed06fe276d936441b6bcd8957ca0ec342703656b6"
+    },
+    "models_seal.json": {
+      "bytes": 26892,
+      "sha256": "23878840a8d7eb178e21902a03321d25a079a9c075e902e6ff7def4e620a9bcf"
+    },
+    "protocol.json": {
+      "bytes": 1167179,
+      "sha256": "5ae9c4cbfca13f4018adfa8e199d6217ebe73200d1424743c6a0415266bccc26"
+    },
+    "protocol_receipt.json": {
+      "bytes": 549,
+      "sha256": "04d002bb94162569f5d0733f6d1f76b1d3dff37e07ec640ee69a180d3b8f02ae"
+    }
+  },
+  "source_code_inventory": {
+    "cpu_chain.py": {
+      "bytes": 13210,
+      "sha256": "8eb5f7ab553da5830625c2893ba447cd505a3768688a3a00985b5251eb4034aa"
+    },
+    "cpu_chain_protocol.md": {
+      "bytes": 3176,
+      "sha256": "a01b82ec926461ce0688eac253f9543b6e32eb5b69043e3c3e7b6b02754d1ad9"
+    },
+    "data.py": {
+      "bytes": 28963,
+      "sha256": "ef77feef5fae56dfab1d64f40c66a09eeed8266f0958b97e61a0f8dd74612654"
+    },
+    "data_protocol.md": {
+      "bytes": 5693,
+      "sha256": "2ab1b5199c476d6e968c88aa40f392f992e121ce885cc3ff5b634d51bede0afd"
+    },
+    "data_source_manifest.json": {
+      "bytes": 1714,
+      "sha256": "3304186daecbe7cea852a1bea24aeae9be5a4658026a7bfe55d9966a0e8903ad"
+    },
+    "milestone_adapter.py": {
+      "bytes": 4199,
+      "sha256": "56985294fba1046e5b35ccf315300ea55c5fd5e06aa6f7f9c2be0a5a6a8a578b"
+    },
+    "protocol.md": {
+      "bytes": 5066,
+      "sha256": "4cb51dc0308fcd1606f0db70620a790f390893a5592a212335dd41db41b1a0ca"
+    },
+    "test_counter_producer.py": {
+      "bytes": 6392,
+      "sha256": "ded17a8a2a2e5422b39c001c4335ccd6c6bffda1b3547465ffa4f9a0d3e94670"
+    },
+    "test_cpu_chain.py": {
+      "bytes": 4962,
+      "sha256": "655784fe4173f6c0b6e3cb506a2e1b8af60558e0419aabdbba56ada5051e4406"
+    },
+    "test_data.py": {
+      "bytes": 8683,
+      "sha256": "8e2c075fdb0f909f7b7489a33c913a2bdf9bb06f7c65e9463f6e250477cd71ec"
+    },
+    "test_training.py": {
+      "bytes": 3871,
+      "sha256": "07e505c0b3776011d3d6161d9327a15e80966d8cdf17d26b547c320a9daf0a1a"
+    },
+    "training.py": {
+      "bytes": 20864,
+      "sha256": "c01413e427ff9f4da797f8cc19796495ecade076a90a80a1e1bf602e43f524d6"
+    },
+    "training_source_manifest.json": {
+      "bytes": 1618,
+      "sha256": "e647c1431f363c15fc3595cb00a2f3bdacda49c41ead0193d5c4f7259dffac47"
+    },
+    "v1_failure_ancestry.json": {
+      "bytes": 2056,
+      "sha256": "b752a67f5bd302c45f42f0a70eb515f133f9d39ebee395449849784d944b1146"
+    }
+  },
+  "source_hashes_are_not_export_hashes": true,
+  "statistical_limit": "One fixed development world/two correlated episodes; no independent fit-seed variance or significance claim."
+}

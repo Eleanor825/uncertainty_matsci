@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "bytes": 3526,
+      "path": "episode_metrics.csv",
+      "sha256": "790ad5aadcced19cfe0215f577cc9da0b8c94bfb3f8b512598ee90be7cdc7e5f"
+    },
+    {
+      "bytes": 1493,
+      "path": "metrics.csv",
+      "sha256": "09c77e21323b0ba1cc7dd4e4167c524eabec2541a0ffde57be51537d5b39d32d"
+    },
+    {
+      "bytes": 3071,
+      "path": "models_and_calibration.csv",
+      "sha256": "0e88cafd60b392422a6c44b860485ed163a698f28bf136bdaa15b95f8ce904e6"
+    },
+    {
+      "bytes": 4811,
+      "path": "provenance.json",
+      "sha256": "668ae1e0cb599f0ebbbe00877fbf9471910d8e1218c5ba9d039d49afddd381d7"
+    },
+    {
+      "bytes": 4097,
+      "path": "report.md",
+      "sha256": "e37605e3bbc28fe42b3556f095b10eeaff5f6c05e3a6d798d8db244e180631bb"
+    },
+    {
+      "bytes": 22340,
+      "path": "summary.json",
+      "sha256": "13c8f1da4abee6a472c1c9b372c7d13767c3bec58334cd38204115e6e2c81e55"
+    },
+    {
+      "bytes": 3471,
+      "path": "validate.py",
+      "sha256": "77cf2fa7cc24b5855f752c8192d574bad030b0f6486a5f8bfdcd523fdb093c0b"
+    }
+  ],
+  "schema": "dw_eight_fit_refresh_export_manifest_v1"
+}

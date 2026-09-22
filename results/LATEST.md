@@ -32,13 +32,18 @@ Variance is across evaluation seeds within the same system, budget and arm (samp
 
 Latest verified snapshot: **September 22, 21:16 CST**. Grounded repair is complete at world 2 / policy 306 / B10: GenericRisk and GroundedRisk each have 7 failures; GroundedCommon2 has 0 and GroundedInternal2 has 5. All task scores are zero. These mechanism comparisons show no task improvement and are not Native-versus-Full tests.
 
-The original Full ES completed one genuine update to 723 parameter tensors. Its G1 development rollout reduced failures from 10 to 9, with task score remaining zero; G2 has started. The held-out Full pair remains incomplete. The 24-graph supplement and 2,525-update CV2 diagnostic are complete. Three missed successful milestone graphs are also complete. The new eight-fit refresh failed during data preparation before any fit; its failure remains recorded and an independent correction is being prepared.
+The original Full ES completed one genuine update to 723 parameter tensors. Its G1 development rollout reduced failures from 10 to 9, with task score remaining zero; G2 has started. The held-out Full pair remains incomplete. The 24-graph supplement and 2,525-update CV2 diagnostic are complete. Three missed successful milestone graphs are also complete. The earlier v1 refresh failed before fitting and remains recorded. The independent corrected v2 refresh now completed eight fits and 500 updates in 67.124 seconds, with two exact base84 reproductions; see the separate 21:29 update below.
 
 - [Latest grounded-repair, CV2 and ES-update report](discoveryworld/development/20260922T211645_CST/report.md)
 - [Latest terminal per-arm metrics](discoveryworld/development/20260922T211645_CST/V6_metrics.csv)
 - [Earlier matched-proposal pair: 1 versus 2 failures, both score zero](discoveryworld/development/20260922T192407_CST/report.md)
 - [Earlier threshold pair: both 10 failures, no actual action changes](discoveryworld/development/20260922T185915_CST/report.md)
 - [Original feature/training diagnostics](discoveryworld/diagnostics/20260922T172256_CST/report.md)
+
+Latest CPU refresh snapshot: **September 22, 21:29:53 CST**. The fixed data variants have **84/96/87/99** fitting rows. Combined Internal Brier worsens from **0.068870 to 0.084463**; combined OutputAction improves from **0.110689 to 0.082908**. All eight models are reported without selecting a development winner. The same 40 reused development rows contain 10 failures; no new online result or LLM parameter update is part of this refresh.
+
+- [Eight-fit report and all variants](discoveryworld/development/20260922T212953_CST/report.md)
+- [Exact eight-model metrics](discoveryworld/development/20260922T212953_CST/metrics.csv)
 
 No robust online Full-method improvement or completed held-out Full/Native pair has been established. Actions within a trajectory are dependent; diagnostic fits reusing these actions are not independent validation trials. New fixed B30 training-refresh comparisons are prospective.
 

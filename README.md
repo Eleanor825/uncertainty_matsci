@@ -1,5 +1,7 @@
 # Uncertainty-guided materials discovery
 
+Latest DiscoveryWorld CPU result: [all eight risk-refresh fits](results/discoveryworld/development/20260922T212953_CST/report.md), 500 updates and two exact base84 reproductions. Combined Internal Brier worsens; combined OutputAction improves on the same 40 development rows. All variants remain reported, with no online-efficacy or production-replacement claim. [Current overview](results/LATEST.md).
+
 Latest DiscoveryWorld result: [completed matched-two-proposal development pair](results/discoveryworld/development/20260922T192407_CST/report.md), world 2 / policy seed 305 / B10. Common2 versus frozen-NN Internal2 has 1 versus 2 action failures, both task scores 0, and fitness −0.01 versus −0.02, with 20 candidate graphs each. This one-case negative mechanism observation is not Native versus Full and is not pooled with p304. [Current overview](results/LATEST.md) retains both completed development pairs and the incomplete Full comparison.
 
 Research code for a white-box language-model agent that proposes materials-discovery actions, estimates failure risk from internal representations, and adapts policy weights with Agentic ESOpt. The implemented interfaces cover MADE and CrystalGym. Published results include **MADE, Qwen3.5-4B, seed1, baseline versus a fixed G2 graph-risk policy**, and a separately accepted seven-arm Summit SnAr study with five evaluation seeds.
