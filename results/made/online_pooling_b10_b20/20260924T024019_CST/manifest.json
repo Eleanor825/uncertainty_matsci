@@ -1,0 +1,23 @@
+{
+  "existing_results_modified": false,
+  "files": {
+    "provenance.json": {
+      "bytes": 2236,
+      "sha256": "cafd460302b8b09c0c0fe8082c63baf6dee63a0af2c234143af4e511e8d5c3d5"
+    },
+    "report.md": {
+      "bytes": 3745,
+      "sha256": "7b532f1228a746205870fe34378d87848dab169e749f8b81a956c614dacf807f"
+    },
+    "snapshot.json": {
+      "bytes": 18783,
+      "sha256": "00955e56106642760b81f54e2c2cff9c9fb7c9d60bcd397b04f84dfba337e606"
+    },
+    "validate.py": {
+      "bytes": 3685,
+      "sha256": "d65e8e23db6dd39f42bca09656faa1ce3b5124593f70ebf29e9c9501ddad5646"
+    }
+  },
+  "new_scientific_calls": 0,
+  "schema": "MADE_online20_publication_manifest_v2"
+}

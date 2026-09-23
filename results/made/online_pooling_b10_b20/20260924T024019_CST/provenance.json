@@ -1,0 +1,49 @@
+{
+  "boundary_diagnosis": {
+    "affected_observed_rows": [
+      "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Public2",
+      "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-FullPool2"
+    ],
+    "error": "Wrong action-position boundary",
+    "mechanism": "ActionTargets.to_dict preserves tuple prediction_positions; online boundary compares to a list of j-1, causing a type-sensitive false comparison before using the risk score.",
+    "metrics_replaced_with_zero": false,
+    "models_or_environments_loaded": false,
+    "original_dataclass_CPU_boundary_reproduction": true,
+    "source_files": {
+      "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/frozen_src/matdiscovery/action_targets.py": {
+        "bytes": 13183,
+        "sha256": "30734893a803ba3147c61901699612f8618a5f96d4c0a53c4282b70fb293d618"
+      },
+      "technical_not_main/internal_value_diagnostics_plan_20260923_v1/made_online_pooling_b10_b20_v1/features.py": {
+        "bytes": 2849,
+        "sha256": "3b924e7303ebed982d48d5d8bb095f97f8e1b40477d493155007ee9a9585cbe4"
+      }
+    }
+  },
+  "completed_and_failed_records_reconstructed_as_canonical_JSON_and_SHA_verified": true,
+  "excluded_from_public_export": [
+    "raw prompts or token IDs",
+    "raw structures and RPC logs",
+    "machine identities and private paths",
+    "model weights"
+  ],
+  "later_snapshots_not_merged": true,
+  "observer_source_sha256": "2bc91bade5187fd1db6a06a84492be0b82d2b31960558f80e9b441b9039ad398",
+  "original_method_source_manifest": {
+    "bytes": 7123,
+    "sha256": "1bea52055f423ed9f122e7c9638bde6b8bdf1c61315eef05b237fb26cb97cf06"
+  },
+  "paper_not_modified": true,
+  "raw_record_reference_locations": "per-row completion/failure references in snapshot.json; raw private execution files retained separately",
+  "schema": "MADE_online20_public_provenance_v2",
+  "scientific_registration": {
+    "bytes": 145959,
+    "commit": "0a390c73241fc9edc853b62511231b899cc73bd9",
+    "sha256": "84e6c292343ae2b8a61d979a6cae03b13e5287d7108fe1ebabe80b00cc31252e"
+  },
+  "source_observation": {
+    "bytes": 2518692,
+    "filename": "observe_MADE_online20_v2_primary_1790188820121640000.json",
+    "sha256": "ae79b27091efa2d42338de33da222c6958c4589aed1653fc4d57c880b7fb802b"
+  }
+}

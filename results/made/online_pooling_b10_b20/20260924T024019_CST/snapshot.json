@@ -1,0 +1,719 @@
+{
+  "accepted": 4,
+  "accepted_candidate_ORB_attempts": 40,
+  "complete": false,
+  "completed_pairs": [
+    {
+      "budget": 10,
+      "contrast": "Common2_minus_Native1",
+      "differences": {
+        "AUDC": 0.07000000000000006,
+        "SUN": 1.0,
+        "mSUN": 0.09999999999999998
+      },
+      "internal_risk_used": false,
+      "seed": 501,
+      "statistical_significance_claimed": false,
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "budget": 10,
+      "contrast": "Common2_minus_Native1",
+      "differences": {
+        "AUDC": 0.39,
+        "SUN": 3.0,
+        "mSUN": 0.3
+      },
+      "internal_risk_used": false,
+      "seed": 501,
+      "statistical_significance_claimed": false,
+      "task": "Au-K-Tb"
+    }
+  ],
+  "costs_for_failed_or_unclaimed_not_imputed": true,
+  "development_descriptive_previously_examined_systems": true,
+  "expected_trajectories": 20,
+  "later_core_results_included": false,
+  "method": {
+    "ES_updates": 0,
+    "accepted_control_risk_used_decisions": 0,
+    "accepted_internal_risk_trajectories": 0,
+    "arms": {
+      "ActionPool2": "K2 frozen public plus action-value j-1 MLP pooled logistic risk",
+      "Common2": "K2 fixed public feedback and public hash selection; no internal risk",
+      "FullPool2": "K2 frozen public plus full-prefix MLP pooled logistic risk",
+      "Native1": "K1 original native policy",
+      "Public2": "K2 frozen public-feature logistic risk"
+    },
+    "environment_seed": 501,
+    "model": {
+      "actual_model_state_hash": "6a308686126804830c81a7d2a3495feda3b3a13b074b9958e0e6026759826516",
+      "initial_checkpoint_manifest_hash": "aaafdb80b6b69295c3de7f5adc800e0344c3054703f19426ad39490a9879cc4a",
+      "model_id": "Qwen/Qwen3.5-4B",
+      "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "policy_configuration_fingerprint": "11c85e0c8c8626a170fbfec3f6ce9e2bba590550c18812d7b81b5716896f0659",
+      "selected_generation": 0,
+      "tokenizer_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+    },
+    "official_MADE_commit": "bffda0c9a1fa1904b35c0ef67b455881c975df86",
+    "policy_seed": 501,
+    "source_manifest": {
+      "bytes": 7123,
+      "sha256": "1bea52055f423ed9f122e7c9638bde6b8bdf1c61315eef05b237fb26cb97cf06"
+    }
+  },
+  "new_holdout_claimed": false,
+  "new_scientific_calls_for_publication": 0,
+  "observed_CST": "2026-09-24T02:40:19.773670+08:00",
+  "provenance_file": "provenance.json",
+  "registered_candidate_ORB_attempts": 300,
+  "rows": [
+    {
+      "accepted_completion_bytes_sha_verified": true,
+      "arm": "Native1",
+      "budget": 10,
+      "completion": {
+        "bytes": 122939,
+        "sha256": "e567bd3f383429c50ca8f4316d3958fbda14dc582acc8a8f5c26ae17cf693279"
+      },
+      "costs": {
+        "online_costs": {
+          "ES_updates": 0,
+          "candidate_generation_context_rejections": 1,
+          "candidate_generation_intents": 22,
+          "candidate_generation_returns": 21,
+          "capture_forward_intents": 0,
+          "capture_forward_returns": 0,
+          "capture_seconds": 0.0,
+          "common_fallback_decisions": 0,
+          "completion_tokens": 2911,
+          "counterfactual_outcome_labels": 0,
+          "distinct_valid_actions_total": 21,
+          "fits": 0,
+          "fixed_nonpolicy_recovery_actions": 0,
+          "graph_calls": 0,
+          "prompt_tokens": 51709,
+          "risk_used_decisions": 0,
+          "selector_calls": 0,
+          "tool_decisions": 21
+        },
+        "reconstructed_scientific_costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 2911,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 96,
+          "initialization_wall_seconds": 184.04841529019177,
+          "llm_calls": 21,
+          "prompt_tokens": 51709,
+          "rpc_attempts": 42,
+          "rpc_calls": 44,
+          "rpc_elapsed_seconds": 225.88077783584595,
+          "score_sentinels": 3,
+          "step_attempts": 10,
+          "surrogate_oracle_attempts": 4,
+          "tool_attempts": 21,
+          "wall_seconds": 334.6789031838998
+        },
+        "whole_job_wall_seconds": 657.7271972950548
+      },
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Native1",
+      "metrics": {
+        "AUDC": 0.86,
+        "SUN": 8.0,
+        "discovery_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            10,
+            8
+          ]
+        ],
+        "mSUN": 0.8
+      },
+      "seed": 501,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "accepted_completion_bytes_sha_verified": true,
+      "arm": "Common2",
+      "budget": 10,
+      "completion": {
+        "bytes": 122905,
+        "sha256": "764682616701e629d553d9bdd511103122de6c885af7b99479040f28ab755c5d"
+      },
+      "costs": {
+        "online_costs": {
+          "ES_updates": 0,
+          "candidate_generation_context_rejections": 5,
+          "candidate_generation_intents": 33,
+          "candidate_generation_returns": 28,
+          "capture_forward_intents": 0,
+          "capture_forward_returns": 0,
+          "capture_seconds": 0.0,
+          "common_fallback_decisions": 0,
+          "completion_tokens": 4180,
+          "counterfactual_outcome_labels": 0,
+          "distinct_valid_actions_total": 27,
+          "fits": 0,
+          "fixed_nonpolicy_recovery_actions": 0,
+          "graph_calls": 0,
+          "prompt_tokens": 52973,
+          "risk_used_decisions": 0,
+          "selector_calls": 0,
+          "tool_decisions": 14
+        },
+        "reconstructed_scientific_costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 4180,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 96,
+          "initialization_wall_seconds": 176.5966582018882,
+          "llm_calls": 28,
+          "prompt_tokens": 52973,
+          "rpc_attempts": 28,
+          "rpc_calls": 30,
+          "rpc_elapsed_seconds": 221.35188174247742,
+          "score_sentinels": 1,
+          "step_attempts": 10,
+          "surrogate_oracle_attempts": 1,
+          "tool_attempts": 14,
+          "wall_seconds": 452.8633688967675
+        },
+        "whole_job_wall_seconds": 761.6698683556169
+      },
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Common2",
+      "metrics": {
+        "AUDC": 0.93,
+        "SUN": 9.0,
+        "discovery_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            10,
+            9
+          ]
+        ],
+        "mSUN": 0.9
+      },
+      "seed": 501,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "Public2",
+      "budget": 10,
+      "completion": null,
+      "costs": null,
+      "failure": {
+        "automatic_retry": false,
+        "classification": "technical_tuple_list_boundary",
+        "error": "Wrong action-position boundary",
+        "error_type": "ValueError",
+        "failure_bytes_sha_verified": true,
+        "reference": {
+          "bytes": 3870,
+          "sha256": "4952104045a3af0e97307ea61b75284455a117c381744525516dc352799ed1a4"
+        },
+        "scientific_zero_result": false,
+        "unknown_outcomes_imputed": false
+      },
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Public2",
+      "metrics": null,
+      "seed": 501,
+      "status": "technical_failure",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "FullPool2",
+      "budget": 10,
+      "completion": null,
+      "costs": null,
+      "failure": {
+        "automatic_retry": false,
+        "classification": "technical_tuple_list_boundary",
+        "error": "Wrong action-position boundary",
+        "error_type": "ValueError",
+        "failure_bytes_sha_verified": true,
+        "reference": {
+          "bytes": 3878,
+          "sha256": "232adf4332c8aaf2f44b9a8fa469919491270925bce8f49eba86c8a372f4dba0"
+        },
+        "scientific_zero_result": false,
+        "unknown_outcomes_imputed": false
+      },
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-FullPool2",
+      "metrics": null,
+      "seed": 501,
+      "status": "technical_failure",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-ActionPool2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "accepted_completion_bytes_sha_verified": true,
+      "arm": "Native1",
+      "budget": 10,
+      "completion": {
+        "bytes": 121590,
+        "sha256": "7a3c7c4d5df88e4015dfac61918a551f3a45d2cef1b10773f4366d34c88eaf53"
+      },
+      "costs": {
+        "online_costs": {
+          "ES_updates": 0,
+          "candidate_generation_context_rejections": 4,
+          "candidate_generation_intents": 22,
+          "candidate_generation_returns": 18,
+          "capture_forward_intents": 0,
+          "capture_forward_returns": 0,
+          "capture_seconds": 0.0,
+          "common_fallback_decisions": 0,
+          "completion_tokens": 2941,
+          "counterfactual_outcome_labels": 0,
+          "distinct_valid_actions_total": 17,
+          "fits": 0,
+          "fixed_nonpolicy_recovery_actions": 0,
+          "graph_calls": 0,
+          "prompt_tokens": 39621,
+          "risk_used_decisions": 0,
+          "selector_calls": 0,
+          "tool_decisions": 18
+        },
+        "reconstructed_scientific_costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 2941,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 11,
+          "initialization_wall_seconds": 31.67513752821833,
+          "llm_calls": 18,
+          "prompt_tokens": 39621,
+          "rpc_attempts": 34,
+          "rpc_calls": 36,
+          "rpc_elapsed_seconds": 72.11500310897827,
+          "step_attempts": 10,
+          "tool_attempts": 17,
+          "wall_seconds": 332.04266552021727
+        },
+        "whole_job_wall_seconds": 500.3056483878754
+      },
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Native1",
+      "metrics": {
+        "AUDC": 0.0,
+        "SUN": 0.0,
+        "discovery_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "mSUN": 0.0
+      },
+      "seed": 501,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "accepted_completion_bytes_sha_verified": true,
+      "arm": "Common2",
+      "budget": 10,
+      "completion": {
+        "bytes": 122844,
+        "sha256": "3a070b629c109924deae7be36e358c888e33fce4010b606ceefcd6ef8aaa40ec"
+      },
+      "costs": {
+        "online_costs": {
+          "ES_updates": 0,
+          "candidate_generation_context_rejections": 8,
+          "candidate_generation_intents": 40,
+          "candidate_generation_returns": 32,
+          "capture_forward_intents": 0,
+          "capture_forward_returns": 0,
+          "capture_seconds": 0.0,
+          "common_fallback_decisions": 0,
+          "completion_tokens": 4653,
+          "counterfactual_outcome_labels": 0,
+          "distinct_valid_actions_total": 32,
+          "fits": 0,
+          "fixed_nonpolicy_recovery_actions": 0,
+          "graph_calls": 0,
+          "prompt_tokens": 71555,
+          "risk_used_decisions": 0,
+          "selector_calls": 0,
+          "tool_decisions": 16
+        },
+        "reconstructed_scientific_costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 4653,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 11,
+          "initialization_wall_seconds": 34.25859875511378,
+          "llm_calls": 32,
+          "prompt_tokens": 71555,
+          "rpc_attempts": 32,
+          "rpc_calls": 34,
+          "rpc_elapsed_seconds": 64.2181007862091,
+          "step_attempts": 10,
+          "surrogate_oracle_attempts": 3,
+          "tool_attempts": 16,
+          "wall_seconds": 487.60636688768864
+        },
+        "whole_job_wall_seconds": 656.2663262197748
+      },
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Common2",
+      "metrics": {
+        "AUDC": 0.39,
+        "SUN": 3.0,
+        "discovery_curve": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            10,
+            3
+          ]
+        ],
+        "mSUN": 0.3
+      },
+      "seed": 501,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Public2",
+      "budget": 10,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Public2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "FullPool2",
+      "budget": 10,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-FullPool2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-ActionPool2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Native1",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b20-s501-Native1",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "Common2",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b20-s501-Common2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "Public2",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b20-s501-Public2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "FullPool2",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b20-s501-FullPool2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b20-s501-ActionPool2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "Native1",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b20-s501-Native1",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Common2",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b20-s501-Common2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Public2",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b20-s501-Public2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "FullPool2",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b20-s501-FullPool2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 20,
+      "completion": null,
+      "costs": null,
+      "failure": null,
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b20-s501-ActionPool2",
+      "metrics": null,
+      "seed": 501,
+      "status": "unclaimed",
+      "task": "Au-K-Tb"
+    }
+  ],
+  "schema": "MADE_online20_fixed_partial_snapshot_v2",
+  "scientific_registration": {
+    "bytes": 145959,
+    "commit": "0a390c73241fc9edc853b62511231b899cc73bd9",
+    "sha256": "84e6c292343ae2b8a61d979a6cae03b13e5287d7108fe1ebabe80b00cc31252e"
+  },
+  "technical_failed": 2,
+  "unclaimed": 14,
+  "unexecuted_candidate_labels_imputed": false,
+  "unfinished_metrics_imputed": false
+}
