@@ -1,0 +1,62 @@
+{
+  "CPU_operator_sha256": "d851f06f063690d3d8a6f992dcf1bfbf6a98d45f31014bd218bcf2ab1ff5a76f",
+  "CPU_run_receipt_sha256": "29ec5e78a437ab5336fca020f6edefb48fd55223328c411cbf2ec3d2c9f2d0b1",
+  "feature_dimensions": {
+    "GraphOnly": 153,
+    "Internal": 293,
+    "NoGraph": 140
+  },
+  "frozen_models": {
+    "GraphOnly": {
+      "checkpoint": {
+        "bytes": 112661,
+        "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/models/GraphOnly/next_action_failure_GraphOnly.pt",
+        "sha256": "fc4f548915a5b56c2a3cbbe0ceedb9e0ad9dcd5491649254eb82af1a72f1ef58"
+      },
+      "head": "next_action_failure",
+      "temperature": 2.481214627090778,
+      "tensor_hash": "1d17caccfd5b4c49933f3bc6598477e2d6fbc54902c776fd8e405b53ad0c78e8",
+      "updates": 200
+    },
+    "Internal": {
+      "checkpoint": {
+        "bytes": 198229,
+        "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/models/Internal/next_action_failure_Internal.pt",
+        "sha256": "f5155ccafec30317069ee3331045b88019a85b2a6fc8fc70a4bab77e4f70dbbc"
+      },
+      "head": "next_action_failure",
+      "temperature": 2.655660205889806,
+      "tensor_hash": "d4564441e25c2d3cbd2218fa467b24acd34b25da9e0d05235a8da247a74a9cd5",
+      "updates": 200
+    },
+    "NoGraph": {
+      "checkpoint": {
+        "bytes": 107989,
+        "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/models/NoGraph/next_action_failure_NoGraph.pt",
+        "sha256": "f268799dadf60f3109cf609e34d907eeeac4fc8a19679070ea026ae90fae9386"
+      },
+      "head": "next_action_failure",
+      "temperature": 4.047563757202568,
+      "tensor_hash": "eacf7751c5549d57e0948c94dc80a5f24db529cfd955133d58c43cb88df05910",
+      "updates": 200
+    }
+  },
+  "independent_source_audit_operator_sha256": "d6049fd2d1aa08741808f48165f9c52f3d8613f68bd9747d59b28c901d50203c",
+  "known_after_outcome_analysis": true,
+  "new_fits_graphs_LLM_environment_calls": 0,
+  "original_CPU_completion": {
+    "bytes": 10831,
+    "path": "technical_not_main/dw_graph_incremental_cpu_audit_20260923_v1/runs/v1/completion.json",
+    "sha256": "247e985a0a33043cebc812410a30f5f790e1c2680a3b3894dd28e9af57b84a2f"
+  },
+  "original_CPU_protocol": {
+    "bytes": 209652,
+    "commit": "2d7bef88e4824fb760cad3ce041373723e54da99",
+    "path": "technical_not_main/dw_graph_incremental_cpu_audit_20260923_v1/registrations/v1/protocol.json",
+    "sha256": "03eb8461754e740808174fba4936568de97022c81433ed3e25ce3258f9d0c7fa"
+  },
+  "publication_changes_scientific_sources": false,
+  "raw_prompts_private_answers_weights_activations_exported": false,
+  "schema": "portable_graph_increment_provenance_v1",
+  "source_audit_receipt_sha256": "ffac267d54ed8b92a75e8f6f682b9d81efa6f2a6f7c20912bbd058bfd5c5f580"
+}

@@ -1,0 +1,109 @@
+{
+  "CSV_hashes_verified": 2,
+  "CSV_line_endings": "Original CRLF restored from text-normalized transport; recovered bytes exactly match remote SHA256",
+  "NN_inference_reexecuted_by_review": false,
+  "NNoff_coverage_retained_zero": true,
+  "candidate_rows": 110,
+  "executed_labels": 90,
+  "export_hashes_verified": 3,
+  "independently_rebuilt_official_labels": 90,
+  "independently_verified_source_files": 218,
+  "maximum_absolute_metric_error": 0,
+  "metrics_and_deltas_checked": 81,
+  "model_checkpoint_SHA_independently_rechecked": true,
+  "new_NN_or_LLM_or_environment_calls": 0,
+  "no_cohort_pooling": true,
+  "official_failure_totals": {
+    "Full": 16,
+    "G0_UQ": 4,
+    "selected_theta_NN_off": 18
+  },
+  "operator_source_sha256": "d851f06f063690d3d8a6f992dcf1bfbf6a98d45f31014bd218bcf2ab1ff5a76f",
+  "recomputed_metrics": {
+    "Full": {
+      "GraphOnly": {
+        "auroc": 0.9732142857142857,
+        "brier": 0.0786682217557241,
+        "logloss": 0.2489139141986189,
+        "n": 30,
+        "negative": 14,
+        "positive": 16
+      },
+      "Internal": {
+        "auroc": 0.9330357142857143,
+        "brier": 0.14491567750631024,
+        "logloss": 0.5229616149018989,
+        "n": 30,
+        "negative": 14,
+        "positive": 16
+      },
+      "NoGraph": {
+        "auroc": 0.8125,
+        "brier": 0.1842228869328549,
+        "logloss": 0.6653473018406101,
+        "n": 30,
+        "negative": 14,
+        "positive": 16
+      }
+    },
+    "G0_UQ": {
+      "GraphOnly": {
+        "auroc": 0.9711538461538461,
+        "brier": 0.051433644379249924,
+        "logloss": 0.18485310757935475,
+        "n": 30,
+        "negative": 26,
+        "positive": 4
+      },
+      "Internal": {
+        "auroc": 0.9807692307692307,
+        "brier": 0.04614951838185843,
+        "logloss": 0.15149631292181248,
+        "n": 30,
+        "negative": 26,
+        "positive": 4
+      },
+      "NoGraph": {
+        "auroc": 0.9423076923076923,
+        "brier": 0.09223894831820778,
+        "logloss": 0.28276595806375077,
+        "n": 30,
+        "negative": 26,
+        "positive": 4
+      }
+    },
+    "selected_theta_NN_off": {
+      "GraphOnly": {
+        "auroc": null,
+        "brier": null,
+        "logloss": null,
+        "n": 0,
+        "negative": 0,
+        "positive": 0
+      },
+      "Internal": {
+        "auroc": null,
+        "brier": null,
+        "logloss": null,
+        "n": 0,
+        "negative": 0,
+        "positive": 0
+      },
+      "NoGraph": {
+        "auroc": null,
+        "brier": null,
+        "logloss": null,
+        "n": 0,
+        "negative": 0,
+        "positive": 0
+      }
+    }
+  },
+  "schema": "independent_graph_increment_CSV_review_v1",
+  "source_audit_operator_sha256": "d6049fd2d1aa08741808f48165f9c52f3d8613f68bd9747d59b28c901d50203c",
+  "source_audit_receipt_sha256": "ffac267d54ed8b92a75e8f6f682b9d81efa6f2a6f7c20912bbd058bfd5c5f580",
+  "source_label_reaudit": "independent remote audit passed: 218 source files and all 90 official action labels verified",
+  "source_receipt_sha256": "29ec5e78a437ab5336fca020f6edefb48fd55223328c411cbf2ec3d2c9f2d0b1",
+  "status": "passed",
+  "unexecuted_unlabelled_candidates": 20
+}

@@ -1,0 +1,1798 @@
+{
+  "cohort_counts": {
+    "Full": {
+      "attempts": 30,
+      "none_serialization_repairs": 0,
+      "official_failures": 16
+    },
+    "G0_UQ": {
+      "attempts": 30,
+      "none_serialization_repairs": 0,
+      "official_failures": 4
+    },
+    "selected_theta_NN_off": {
+      "attempts": 30,
+      "none_serialization_repairs": 0,
+      "official_failures": 18
+    }
+  },
+  "environment_calls": 0,
+  "labels": [
+    {
+      "attempt": 1,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 2,
+      "condition": "G0_UQ",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 3,
+      "condition": "G0_UQ",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 4,
+      "condition": "G0_UQ",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 5,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 6,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 7,
+      "condition": "G0_UQ",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 8,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 9,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 10,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 11,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 12,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 13,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 14,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 15,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 16,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 17,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 18,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 19,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 20,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 21,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 22,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 23,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 24,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 25,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 26,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 27,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 28,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 29,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 30,
+      "condition": "G0_UQ",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 1,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 2,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 3,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 4,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 5,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 6,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 7,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 8,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 9,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 10,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 11,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 12,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 13,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 14,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 15,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 16,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 17,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 18,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 19,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 20,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 21,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 22,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 23,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 24,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 25,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 26,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 27,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 28,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 29,
+      "condition": "Full",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 30,
+      "condition": "Full",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 1
+    },
+    {
+      "attempt": 1,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 2,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 3,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 4,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 5,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 6,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 7,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 8,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 9,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 10,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 11,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 12,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 13,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 14,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 15,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 0,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 16,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 17,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 18,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 19,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 20,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 21,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 22,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 23,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 24,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 25,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 26,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 27,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 28,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 29,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    },
+    {
+      "attempt": 30,
+      "condition": "selected_theta_NN_off",
+      "official_failure": 1,
+      "repaired": false,
+      "selected_proposal": 0
+    }
+  ],
+  "model_calls": 0,
+  "models": {
+    "GraphOnly": {
+      "checkpoint": {
+        "bytes": 112661,
+        "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/models/GraphOnly/next_action_failure_GraphOnly.pt",
+        "sha256": "fc4f548915a5b56c2a3cbbe0ceedb9e0ad9dcd5491649254eb82af1a72f1ef58"
+      },
+      "head": "next_action_failure",
+      "temperature": 2.481214627090778,
+      "tensor_hash": "1d17caccfd5b4c49933f3bc6598477e2d6fbc54902c776fd8e405b53ad0c78e8",
+      "updates": 200
+    },
+    "Internal": {
+      "checkpoint": {
+        "bytes": 198229,
+        "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/models/Internal/next_action_failure_Internal.pt",
+        "sha256": "f5155ccafec30317069ee3331045b88019a85b2a6fc8fc70a4bab77e4f70dbbc"
+      },
+      "head": "next_action_failure",
+      "temperature": 2.655660205889806,
+      "tensor_hash": "d4564441e25c2d3cbd2218fa467b24acd34b25da9e0d05235a8da247a74a9cd5",
+      "updates": 200
+    },
+    "NoGraph": {
+      "checkpoint": {
+        "bytes": 107989,
+        "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/models/NoGraph/next_action_failure_NoGraph.pt",
+        "sha256": "f268799dadf60f3109cf609e34d907eeeac4fc8a19679070ea026ae90fae9386"
+      },
+      "head": "next_action_failure",
+      "temperature": 4.047563757202568,
+      "tensor_hash": "eacf7751c5549d57e0948c94dc80a5f24db529cfd955133d58c43cb88df05910",
+      "updates": 200
+    }
+  },
+  "new_graph_calls": 0,
+  "protocol_commit": "2d7bef88e4824fb760cad3ce041373723e54da99",
+  "protocol_sha256": "03eb8461754e740808174fba4936568de97022c81433ed3e25ce3258f9d0c7fa",
+  "source_mutations": 0,
+  "source_refs": [
+    {
+      "bytes": 209652,
+      "path": "technical_not_main/dw_graph_incremental_cpu_audit_20260923_v1/registrations/v1/protocol.json",
+      "sha256": "03eb8461754e740808174fba4936568de97022c81433ed3e25ce3258f9d0c7fa"
+    },
+    {
+      "bytes": 21456,
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/esopt.py",
+      "sha256": "14e672a2c0e6e81b44bff0e81d72021e0cd5c632011c73712344445b5a3b1c79"
+    },
+    {
+      "bytes": 10963,
+      "path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/uncertainty.py",
+      "sha256": "62b81414c2c1cc2df467a5d20cf44f76fd326ce9ee7562de5475529953a08656"
+    },
+    {
+      "bytes": 44530,
+      "path": "experiments/discoveryworld_full_method_20260922/policy/full_policy.py",
+      "sha256": "59206e67e637c1f46c5a43f73a72061962353c1ad24823466790884b7b234815"
+    },
+    {
+      "bytes": 3905,
+      "path": "experiments/discoveryworld_full_method_20260922/risk_controller.py",
+      "sha256": "85d4710b2432bc0dfc7ba8047009d4ecd9ae511fbe6a60228333d576191b9760"
+    },
+    {
+      "bytes": 10779,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/risk_data.py",
+      "sha256": "fb6dc1ad4fdaa912a5ee0e922430c129ba043f22d099819bd457425335f6996a"
+    },
+    {
+      "bytes": 23604,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/risk_training.py",
+      "sha256": "823e17882cc933109a656efd9c8561f0b3813c1cc0aee1912d541a18485fdf65"
+    },
+    {
+      "bytes": 7198,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/train_only_policy_sft_v1/data.py",
+      "sha256": "2987045f11b4509e6495d1e5a1f4998b6674d7f0aaaa999ce289dea89ff272f6"
+    },
+    {
+      "bytes": 22999,
+      "path": "technical_not_main/dw_graph_incremental_cpu_audit_20260923_v1/diagnostic.py",
+      "sha256": "4cc3038da9febc14020342e740ceb86dd608b7bea8cf74540b72ff0f22d63259"
+    },
+    {
+      "bytes": 2779,
+      "path": "technical_not_main/dw_graph_incremental_cpu_audit_20260923_v1/protocol.md",
+      "sha256": "af9412af9ddcb4878663bb92e6a4cbc880fd2a8d3c85665e84f03cdde44b4443"
+    },
+    {
+      "bytes": 3184,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/result.json",
+      "sha256": "22a2855f40853c812ff8f77f7ef31a6a0077fede07645867f7a0c071d2e95149"
+    },
+    {
+      "bytes": 1266,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/environment/discoveryworld-v1-6c68bba129a663d3d276fb8a/summary.json",
+      "sha256": "2e6e20710ab17501e15ecfb7fb3a65258046aef01927cd7a9ffde30ee061a6cb"
+    },
+    {
+      "bytes": 110103970,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/policy_attempts.jsonl",
+      "sha256": "5e5c231d6010572952f7200c6b5cdb9a69a0a8c328b7acc50220a12d802fe067"
+    },
+    {
+      "bytes": 237688,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/environment/discoveryworld-v1-6c68bba129a663d3d276fb8a/events.jsonl",
+      "sha256": "b63f386e9c11093bed284f5fe1560634f17618b2f465885ffffac9f1a70833dc"
+    },
+    {
+      "bytes": 42012,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0001_p0.json",
+      "sha256": "b47b4a05621d0eb32cb8df2bc0a1e11b551895a2d2501cdcc80231463a4e099f"
+    },
+    {
+      "bytes": 3558925,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0001_p0.json",
+      "sha256": "0926cff18a6d2c66e5f5571293bcf031054131f8317eeb829b81f097a135e533"
+    },
+    {
+      "bytes": 43102,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0002_p0.json",
+      "sha256": "adb003beefafdd1652bfed035f74038df3191c6dd9301b18ebced2dc6e6b2ea0"
+    },
+    {
+      "bytes": 2437656,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0002_p0.json",
+      "sha256": "65ebbe8ee7cc0ffb40edcf0a4374daee5fec3f64d62a4d85263bd66ae9ca7e38"
+    },
+    {
+      "bytes": 44056,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0002_p1.json",
+      "sha256": "8c7bc6ab708c2fc7462c3d11f45a0ffd094a4fe5ace1f9f6c4caa1a68906992e"
+    },
+    {
+      "bytes": 2992312,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0002_p1.json",
+      "sha256": "a742ed2e61babba3d8ee4ca4b0206c28b57a9b0fb411c4c0a7db5df69cd41e3a"
+    },
+    {
+      "bytes": 45351,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0003_p0.json",
+      "sha256": "a9a359e9ad5d049a3234bb735ccb11b386aeb93617a5c9ac815c27bf86e093ef"
+    },
+    {
+      "bytes": 2895991,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0003_p0.json",
+      "sha256": "1455f80dbcc554773b46716afc4e11dcef3ba1b1d1149267e0949400ade609d4"
+    },
+    {
+      "bytes": 46320,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0003_p1.json",
+      "sha256": "91ac9d24f476196a1b9c56c923ddf6ff31b9b240b6316e98b1f13fff4002106f"
+    },
+    {
+      "bytes": 3225583,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0003_p1.json",
+      "sha256": "6d41a2181ba924f0b6ecad3340256148fa89bad618d385c9ef19d4103c446a55"
+    },
+    {
+      "bytes": 45565,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0004_p0.json",
+      "sha256": "9287eff79ac5054acf4b39502e882669d43ea4dcf37f3062b30f56af344b27a7"
+    },
+    {
+      "bytes": 3324410,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0004_p0.json",
+      "sha256": "6c8b1e73d20a9a777bc8f789944cfcdb22e1650f46ab5dc9574959fa8a34c494"
+    },
+    {
+      "bytes": 46346,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0004_p1.json",
+      "sha256": "cc9473e53d5a1bc9d137b71abbac1892e80ff0c9861f242efe7cdebd4cf0dac2"
+    },
+    {
+      "bytes": 3446985,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0004_p1.json",
+      "sha256": "c9f7bae87ef4fb11a25871c9225fb7cb815af87b8273fe6925f5cc2e789ce2cb"
+    },
+    {
+      "bytes": 46202,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0005_p0.json",
+      "sha256": "681b61b332d34aa6872850e4930f9746d440d72b32400343db524edc5c95baf2"
+    },
+    {
+      "bytes": 4195208,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0005_p0.json",
+      "sha256": "db185e3126bc971c1b7226ee07c9208b4c606928c2c6c9713fdf2cc40ea4fd30"
+    },
+    {
+      "bytes": 45777,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0006_p0.json",
+      "sha256": "6c8fc26671b84b3cdf83fba6351838d915841353f16adc634b44555a3101b8ea"
+    },
+    {
+      "bytes": 3194078,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0006_p0.json",
+      "sha256": "e84f2065e1ec0adb48aeec5d5b81a3d18e7b1513a5a231789a69fac82d0c46f2"
+    },
+    {
+      "bytes": 46933,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0006_p1.json",
+      "sha256": "cd13c61f6793b4e3252bfd8992e6ced9b0c34d84f0a05093ac4c234b561567fa"
+    },
+    {
+      "bytes": 4480459,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0006_p1.json",
+      "sha256": "e8c8073a6685275c59b357d379218c818c9062834ff44a476a5a215ed331d557"
+    },
+    {
+      "bytes": 46433,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0007_p0.json",
+      "sha256": "4d8fcb39e27157994e36a79cd374e4694c915b5d7937d27166a7f26d89c3e87a"
+    },
+    {
+      "bytes": 3033020,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0007_p0.json",
+      "sha256": "a57a8a61b7d917bfcaf8cf2a170d3ad4d2675024caafe61a650bffe7abbfd32a"
+    },
+    {
+      "bytes": 47403,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0007_p1.json",
+      "sha256": "a633b3941a9bb8fcc2a3c30490f0a190e9ba892d9fd27ddf1399621d1facf79c"
+    },
+    {
+      "bytes": 3360332,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0007_p1.json",
+      "sha256": "6f75b0adce1b2e8b806cb3ff86b0e5376ff3332068d59bd7033c390a031f5912"
+    },
+    {
+      "bytes": 48126,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0008_p0.json",
+      "sha256": "d7bc5ed105e35440b8af40eaab566ea923fe9810d6f30be81027c952bc41792a"
+    },
+    {
+      "bytes": 4498391,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0008_p0.json",
+      "sha256": "81b545d45c37c08c8a534089c9e9f32d3d639c5bdcb200c164d7191b9735826d"
+    },
+    {
+      "bytes": 47360,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0009_p0.json",
+      "sha256": "c5b443ece809a88686ad5a468ff56c9b9bafc74378f99b1f1755b37294dbe30b"
+    },
+    {
+      "bytes": 4161271,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0009_p0.json",
+      "sha256": "ac3ab67866b7c60f9e02f57d9d98a3b5701dd4e0e4086e016f3a1378997a251c"
+    },
+    {
+      "bytes": 47205,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0010_p0.json",
+      "sha256": "2432b928b34d5627860ce7ef7902b262a9549f30e5743aeeb5a4208ec5c13755"
+    },
+    {
+      "bytes": 3519114,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0010_p0.json",
+      "sha256": "bc0946ee873fc9e84428494a8b936733106afd186b684a06109fe6c6e7cc336a"
+    },
+    {
+      "bytes": 48323,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0010_p1.json",
+      "sha256": "cdbdb6cac3a208dcab5df1ed175b7caac21feef4dbf65b92fa2b45d31e6e893b"
+    },
+    {
+      "bytes": 3508267,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0010_p1.json",
+      "sha256": "ca2a2a9a00c2b1bb84d2738f8061a58466fce6b449af4d3f52b8cb0f298804a4"
+    },
+    {
+      "bytes": 46638,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0011_p0.json",
+      "sha256": "e2f99bf6b36b744ec882444a08ccef036a3217541f05aaa150cb531bd563cfb9"
+    },
+    {
+      "bytes": 4240587,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0011_p0.json",
+      "sha256": "2c9e926ef881c984d518d4a513bf50c387f92b070a048217a90aedb1421653e2"
+    },
+    {
+      "bytes": 43935,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0012_p0.json",
+      "sha256": "99972fe3e7dcbd4476f9a7a79d31c02731a6c96d41df81e0b49df52d4f187c55"
+    },
+    {
+      "bytes": 4061112,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0012_p0.json",
+      "sha256": "16ce949aaf5df3fd06b414c9bb1f2bb6632900e283c876c27d4be78fee194052"
+    },
+    {
+      "bytes": 43575,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0013_p0.json",
+      "sha256": "e65623aff65f99514564c12c981b02751025fe2b188a4c25890b39cd46c9dfe8"
+    },
+    {
+      "bytes": 3795696,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0013_p0.json",
+      "sha256": "3a32524c7bcda9c1f7ad4350617efe226ad697fa89edefa07abc3f9e464f8176"
+    },
+    {
+      "bytes": 43141,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0014_p0.json",
+      "sha256": "d09dd0ac35dcdb5412811f0efdd2859ea886d6c307efdfa2beae611f9ef12d77"
+    },
+    {
+      "bytes": 3528103,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0014_p0.json",
+      "sha256": "4704e5defff5266d1080458aa33653075c8c5352a34eb86202cabb34ba41b457"
+    },
+    {
+      "bytes": 43098,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0015_p0.json",
+      "sha256": "c4884bbf1b27ebcc8d54998e79ab27644bbaf46ebf7edd7d6682f8882bc05f72"
+    },
+    {
+      "bytes": 3570487,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0015_p0.json",
+      "sha256": "98016c8eb5037576e2e837931e06b2dd4cd610fc036dbef56ec3ccd93721cf73"
+    },
+    {
+      "bytes": 42518,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0016_p0.json",
+      "sha256": "f1bb90c7df3df996544668dd960825e5bae571dfb2c1af62d149ea3bd5315432"
+    },
+    {
+      "bytes": 3494306,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0016_p0.json",
+      "sha256": "d2b03bda2840a0c8e6374e4082d31db0d426da367666d401bb735cbb736bc28d"
+    },
+    {
+      "bytes": 43247,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0017_p0.json",
+      "sha256": "2ae5913f100b1ddf625ca1082838ec3e9e9a409295dd1d4ea90e390f13a3f23c"
+    },
+    {
+      "bytes": 3724873,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0017_p0.json",
+      "sha256": "b10ed48a4590877c159d54fae9ef5fe7e0c9f606ddc44881f988ef124992390b"
+    },
+    {
+      "bytes": 42538,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0018_p0.json",
+      "sha256": "00917171f191c330d0b0d0fcc3793fecd7ebb332df4c487c0fec66aac59438db"
+    },
+    {
+      "bytes": 3221509,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0018_p0.json",
+      "sha256": "efafc08a6e991ccd160403e27ba5bcae34ba95830905efb52ae97e5be99c2682"
+    },
+    {
+      "bytes": 44047,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0019_p0.json",
+      "sha256": "df5f80b608c4dc8d5a00ab8db27dca0e6b0e55060e6d0cdaf68d0228e93c78b7"
+    },
+    {
+      "bytes": 3360919,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0019_p0.json",
+      "sha256": "ec64418c6bdca14a2f3baf1cb6e58bb9b8f1627a2055a05762e386479c527b72"
+    },
+    {
+      "bytes": 44355,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0020_p0.json",
+      "sha256": "1f2219bd9448c2380442bbaa7a1d231f9e63e3a45be7077ec6729a889587716a"
+    },
+    {
+      "bytes": 3784957,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0020_p0.json",
+      "sha256": "ce8cc22acd6add14ea3fa548bb9c377d879bf0eebc5790e12f317562722ecfab"
+    },
+    {
+      "bytes": 42595,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0021_p0.json",
+      "sha256": "ada45bb7ee65a80893b4a6c38b2410bc2399b74247708a935e7a7c54dccd0c45"
+    },
+    {
+      "bytes": 3755233,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0021_p0.json",
+      "sha256": "30ddefca953d1d9ff07e725f45adb85550e61735b0949584f709e6a09beacf21"
+    },
+    {
+      "bytes": 42804,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0022_p0.json",
+      "sha256": "18c7b20a69b660343b1bc6d91261f501d0891d4e8010542d50a7514fe3b4aa83"
+    },
+    {
+      "bytes": 3543801,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0022_p0.json",
+      "sha256": "d6df8abbfe458ba15ee9e2044bfe173f019e28be5e8225df8bfb0def908e32fa"
+    },
+    {
+      "bytes": 44347,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0023_p0.json",
+      "sha256": "70737b30e8e2a27fd9e7bee99723379562c0ac0e1a6e92a174bc1c4c2f5a6c84"
+    },
+    {
+      "bytes": 3774585,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0023_p0.json",
+      "sha256": "ee1d160494d8791ec9328c672d98ad8431411f12e37e33f1d683730ead9731b2"
+    },
+    {
+      "bytes": 42431,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0024_p0.json",
+      "sha256": "e6b567b4c597837ea5347d10953d4f5a69b08c19cc62984af4f40a35fd7d08ca"
+    },
+    {
+      "bytes": 3572024,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0024_p0.json",
+      "sha256": "cc16ef0089bc96c215496c3fd8ebc57a88762bf8d5768f91d791fbd944b4bc74"
+    },
+    {
+      "bytes": 42434,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0025_p0.json",
+      "sha256": "c2e34267c6904f975811193c42991ac9a1f862fc05217382e0c4a547763812e8"
+    },
+    {
+      "bytes": 3610205,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0025_p0.json",
+      "sha256": "7c2af64533afab89ecc0f62bf189f60987c32b650023346ac7691f30c93f888e"
+    },
+    {
+      "bytes": 41872,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0026_p0.json",
+      "sha256": "aa2dd15c5e3d07480326c0aae3ff5bd4a4499c6e891244edf4eaed197ab9e3c1"
+    },
+    {
+      "bytes": 3558075,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0026_p0.json",
+      "sha256": "b539cf5d21aae62033c6176e32a468c5eee54c50a11ab979cc3a29626349dc24"
+    },
+    {
+      "bytes": 42904,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0027_p0.json",
+      "sha256": "4d5fdaee47062f75838ab29e77dc3a3c4c0c8f9e1bcc553322f9b33f110a62f2"
+    },
+    {
+      "bytes": 3620398,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0027_p0.json",
+      "sha256": "8d8d5b4e165b5cbeae4f87b843591d1c7e5db98e5fb86a3440893a4498bf1bdc"
+    },
+    {
+      "bytes": 42902,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0028_p0.json",
+      "sha256": "391c0b05da8b080ff521c2706b13b674c44e3c5d686fd8d9682c4884e940b61e"
+    },
+    {
+      "bytes": 3661444,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0028_p0.json",
+      "sha256": "c6ff32620c2477035cd572e8072a3009f0289005d0c2bda26ac317dc3480234d"
+    },
+    {
+      "bytes": 43125,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0029_p0.json",
+      "sha256": "76372892febdcff4b879bc938adf387aaee3c11f968caee2b4c00ac0b9fde712"
+    },
+    {
+      "bytes": 3653011,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0029_p0.json",
+      "sha256": "1e0dabe1a72a07009239a2173cd865b9666dad982e5a1af9c2e292d808c40eaf"
+    },
+    {
+      "bytes": 42410,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/candidates/a0030_p0.json",
+      "sha256": "311bc429a330eaeb97d21cccb4e51e3477de30ca8be1ef04fead44799459cb05"
+    },
+    {
+      "bytes": 3471058,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30/graphs/a0030_p0.json",
+      "sha256": "b83b1295548ee88661da31f3a6c36f218bc5a9af6bc1c79cb87faa4ee1a33c12"
+    },
+    {
+      "bytes": 3192,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/result.json",
+      "sha256": "0ad88798c63d18ebd285126b806e3c5d25d5b16c108f81fdc58520da5ab61ef9"
+    },
+    {
+      "bytes": 1263,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/environment/discoveryworld-v1-4f2ba08bcb372b2562e2f789/summary.json",
+      "sha256": "82575199348f3caf4dc273c0d059ed81b4ebddbcc63fa27de187a022a0a6cf59"
+    },
+    {
+      "bytes": 110879219,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/policy_attempts.jsonl",
+      "sha256": "b9128ff707feefcca378e29747d1bb222c3834887956e8f106db11d346f81a54"
+    },
+    {
+      "bytes": 242952,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/environment/discoveryworld-v1-4f2ba08bcb372b2562e2f789/events.jsonl",
+      "sha256": "01ff9089093c46939c7fe605faae63d457e336a4557d8fb96b30129c1d44f0d5"
+    },
+    {
+      "bytes": 42143,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0001_p0.json",
+      "sha256": "c370e3ea7882b107d0bb8d17cd3570187bbb3f196eea648ff66c65c38e9ff1b7"
+    },
+    {
+      "bytes": 3664616,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0001_p0.json",
+      "sha256": "178bc32a0562eccd5f0232eb0e6c703735c04031212a1c212e80f13a4eab87ca"
+    },
+    {
+      "bytes": 40897,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0002_p0.json",
+      "sha256": "25c838db84fd6d7ffa77339be369998a4068548f637c518f5296ad3b25506505"
+    },
+    {
+      "bytes": 2758615,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0002_p0.json",
+      "sha256": "52abf9ecb32373ee5fd03abb647fc9aba501cc24bb5f531c7915463a2f1a46b5"
+    },
+    {
+      "bytes": 42417,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0003_p0.json",
+      "sha256": "f06a80a2cb861f5ec5cc39808f199027388ab6aed69b89aca924eb4ee3c233cd"
+    },
+    {
+      "bytes": 2874834,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0003_p0.json",
+      "sha256": "6e94c5850ff69b1cda1e2baeab520ec2305f1a31c5d218bd0534cab199b18464"
+    },
+    {
+      "bytes": 42619,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0004_p0.json",
+      "sha256": "952a970b6c0e1a44e8d7a493b9e2da2b1c7048db5dfc6dc9e4cb09a42913cf2a"
+    },
+    {
+      "bytes": 3848849,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0004_p0.json",
+      "sha256": "6ddb4d1a4cc51f81a42055a8e4435b595507e8f18c1b13f84f348c53a59fee38"
+    },
+    {
+      "bytes": 41184,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0005_p0.json",
+      "sha256": "132b9739d73671918def35d109351b39475fa182445aa0d464c220671ce9b58e"
+    },
+    {
+      "bytes": 3720390,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0005_p0.json",
+      "sha256": "050dd0e29c43e0850452e5c2aa99b7dbc2c4051cc8102ea22dd785c754f39b7e"
+    },
+    {
+      "bytes": 45089,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0006_p0.json",
+      "sha256": "9f0e7e66a9a14c681eaeaa1a7b1db023f094fe53cf131276dd9c5f7833769f62"
+    },
+    {
+      "bytes": 4128430,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0006_p0.json",
+      "sha256": "e350109ffae2f44123e46052a626f64727884f2b8fd21338336983cf2b829f93"
+    },
+    {
+      "bytes": 42992,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0007_p0.json",
+      "sha256": "7decc3657591de8a76a18e43baa8d43f38b24ef0f4d8c76ee321670511a13192"
+    },
+    {
+      "bytes": 2878790,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0007_p0.json",
+      "sha256": "3f9ea7839a1f24f918c2d9f5968d9c5882f177ee6819df5d0b240c9bac59b972"
+    },
+    {
+      "bytes": 44062,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0008_p0.json",
+      "sha256": "c8247918ed61900e8406c5a13b64b809888c91b7a91f2999818c7efd253bee62"
+    },
+    {
+      "bytes": 4082163,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0008_p0.json",
+      "sha256": "8c9e16dddf5af1380ac51edf90c0f65b7bd6b3bd4c4c419edf641fc48e5bd9c8"
+    },
+    {
+      "bytes": 44130,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0009_p0.json",
+      "sha256": "4972e85000cf7b39291d90ba7376e01b9cdea3d9b499bbfc607c6884f0ce4620"
+    },
+    {
+      "bytes": 4042195,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0009_p0.json",
+      "sha256": "645c015acbb996e3b8827f869db2d723b456acb51bbc8cfcc4cceee83db36198"
+    },
+    {
+      "bytes": 44167,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0010_p0.json",
+      "sha256": "679b06ef7b367a8bb6cc74f7b39bf40843d28967fc61b1d323b8ce4b55b2cee1"
+    },
+    {
+      "bytes": 3942065,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0010_p0.json",
+      "sha256": "0321b626458d4c3601352d027fc99d322bba7e15e327360f6b4be63a8f8102b0"
+    },
+    {
+      "bytes": 43734,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0011_p0.json",
+      "sha256": "ac5d9b07aef8f80049e956c3ae6e1c4d71d4b8c2909a04961709cf92daef796a"
+    },
+    {
+      "bytes": 3786553,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0011_p0.json",
+      "sha256": "f4b59ca3778902ddbaff6827c95340020e55d708d1bd4fc05ebd84a791ed8cbb"
+    },
+    {
+      "bytes": 43204,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0012_p0.json",
+      "sha256": "011202863cfedda06b36964f5ed2ffad5db4596a132ef8a999c1f1872e993e02"
+    },
+    {
+      "bytes": 3684489,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0012_p0.json",
+      "sha256": "52eb1ef9277879438810cfea88a7bbd898556b5a38b65e7c9093068b8dc78dab"
+    },
+    {
+      "bytes": 43297,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0013_p0.json",
+      "sha256": "a8bd56c4dfb6d79ff869c91578b57bea1f383459e82f6c775ce61bb4a36dcfbc"
+    },
+    {
+      "bytes": 3689345,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0013_p0.json",
+      "sha256": "35d62a495f9e6d320501e263b03e49908b415c60695f522efb634b20ff6b445f"
+    },
+    {
+      "bytes": 43279,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0014_p0.json",
+      "sha256": "1a44739b94ac873e5b306c148b64bab5a0f35d3cc675b648f51d5f7920f48cb6"
+    },
+    {
+      "bytes": 3651923,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0014_p0.json",
+      "sha256": "02c62077f28bec2914c35271e2e808c0efa7fdf74f4c3bf1b02fb0ddcbde8cae"
+    },
+    {
+      "bytes": 42802,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0015_p0.json",
+      "sha256": "bb7ed0b5720e16673cf6eaf422eb9ccfb76eee6c7d1467a1d9f8e983bd52463b"
+    },
+    {
+      "bytes": 3617407,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0015_p0.json",
+      "sha256": "2adf02730f7ddc1e2e46aa1bb16282b5b7c77f65de6ba0f78a36cf42c3a7a7f2"
+    },
+    {
+      "bytes": 45012,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0016_p0.json",
+      "sha256": "330e3d1dfddf15c08ccb652ef0bd13669cb364ca8c72069ab6d48be3989e6e4a"
+    },
+    {
+      "bytes": 2931964,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0016_p0.json",
+      "sha256": "934dbe23db01051ecb006aba97b2bf51183117ed644865330d3d00cadadc4df8"
+    },
+    {
+      "bytes": 46940,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0017_p0.json",
+      "sha256": "092193b527adf19e700b8711c8788dd6a098da6a43da5245242ccdb0f49d3a4a"
+    },
+    {
+      "bytes": 3204777,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0017_p0.json",
+      "sha256": "4bd6aa6601c80f05cfd1ad925a3af95114973261e6ab573d91b40133c8799c32"
+    },
+    {
+      "bytes": 47858,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0017_p1.json",
+      "sha256": "6ff83881d051f5793241e1e19267763b5f48dccdbe5693e996a7c8382404b76c"
+    },
+    {
+      "bytes": 3382860,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0017_p1.json",
+      "sha256": "5c9aaade93937d9fe2269fbf3c1924c4dd6d0bed7523a2ee221b0e5aa05fed19"
+    },
+    {
+      "bytes": 46497,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0018_p0.json",
+      "sha256": "92f22593478fc84640906e640f1ac6b53c41177e16fd7e518680d46ae293bb02"
+    },
+    {
+      "bytes": 3394792,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0018_p0.json",
+      "sha256": "6a6811fcf0fe802fc12e0cdc34bac791a06d76df2990372fd5b6686cc04fe5e6"
+    },
+    {
+      "bytes": 47416,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0018_p1.json",
+      "sha256": "5125af7afec0c167c9eb38d1fb51e4d71595a4ea53c99537c20375f484490a53"
+    },
+    {
+      "bytes": 3784876,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0018_p1.json",
+      "sha256": "8a1daaf0553b0cc2f6ccc82a32677581dea68f75286bed108a206dd6adeae43e"
+    },
+    {
+      "bytes": 46745,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0019_p0.json",
+      "sha256": "2b5c0828c83fedc664f212175bcdbcb1f6653f57f0f279b5d3e39089153a6add"
+    },
+    {
+      "bytes": 3404569,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0019_p0.json",
+      "sha256": "10e367af2c3f5adfcddedd7aed6d329c7e67a5c24b595dcaba10119b6bea2f69"
+    },
+    {
+      "bytes": 47687,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0019_p1.json",
+      "sha256": "1be9f2e4b18a9cbdcc715d5cec0245d99780caf6496078e6906b4f83794f8834"
+    },
+    {
+      "bytes": 3673548,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0019_p1.json",
+      "sha256": "4b08ef1795b904020526873ef48897d11ad61de719b691d431d3e829a8995f70"
+    },
+    {
+      "bytes": 47022,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0020_p0.json",
+      "sha256": "e6fc362806fdbdb468f7e93cf70614d9657733a3bd81fb9bbcfa56e18dfa760a"
+    },
+    {
+      "bytes": 3523416,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0020_p0.json",
+      "sha256": "1fad0f47b3ee0eb0b6b79c4675737d55e9a4a7d2c181d3b1846036500f4e4ae1"
+    },
+    {
+      "bytes": 47940,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0020_p1.json",
+      "sha256": "91d78bbc93ae58db1db9a464e27d4085339542a6c27c047b62f0395e122b5a25"
+    },
+    {
+      "bytes": 3808305,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0020_p1.json",
+      "sha256": "b947698df6b472c662b4620c322e2e13b093c22376dee5c0f29d5b9c0879f614"
+    },
+    {
+      "bytes": 47299,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0021_p0.json",
+      "sha256": "a44e3f428e5d889f9efef3b5f0a96c5f0733236ed46144f33f26a7a2dea9a52b"
+    },
+    {
+      "bytes": 3381391,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0021_p0.json",
+      "sha256": "fe84d51e8e98e73002fda24e3e74c680f6545e30d64aaea0d6a5ba9d2fba7f51"
+    },
+    {
+      "bytes": 48249,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0021_p1.json",
+      "sha256": "22ff0ba7001cfb1eba0eb1373c882961e86f2f6d96c6260fc0a2f16effdf7ea7"
+    },
+    {
+      "bytes": 3820150,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0021_p1.json",
+      "sha256": "07cbc4e908aee1ab28314f3f69cb6dd33f6f21656c976db18efe943041dcec88"
+    },
+    {
+      "bytes": 47571,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0022_p0.json",
+      "sha256": "cf51bfe42e140045b2e6dcf252bd56bd9800f7eda8710758a4a8f30d1bce6d13"
+    },
+    {
+      "bytes": 3535645,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0022_p0.json",
+      "sha256": "c8dfdfab93553650b87afa17e1c3c12596d3c7ec159d1ed50a6b614afdc99a23"
+    },
+    {
+      "bytes": 48520,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0022_p1.json",
+      "sha256": "d73ba02866044616cec9d92231690b6f7c4d9ad586996e78baf181e4049c1afc"
+    },
+    {
+      "bytes": 3670689,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0022_p1.json",
+      "sha256": "d020801472f35e675b170704c059476f94f98d8d5e412b4cc9ce2b04943d6dba"
+    },
+    {
+      "bytes": 47843,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0023_p0.json",
+      "sha256": "e40c19c47ffd9357f68b3df2470a4fdbe4d310db788a3f98a3807529004f1098"
+    },
+    {
+      "bytes": 3542808,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0023_p0.json",
+      "sha256": "af1775672c082c6b2e2a0422f31794ccb763da8df367ba83a24c281ff118f108"
+    },
+    {
+      "bytes": 48792,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0023_p1.json",
+      "sha256": "6424a278467685da5a6140fb53be616d9674bcae14d79511e042980210841b9b"
+    },
+    {
+      "bytes": 3840668,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0023_p1.json",
+      "sha256": "fa8708f5a22c64a697af7a7c73cb6858cd28e00e432a7cd9563d6550ccaa26e7"
+    },
+    {
+      "bytes": 48205,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0024_p0.json",
+      "sha256": "e49efa72f9c30ae369be41b3be800726f9155e349785597d74a122e092221bdc"
+    },
+    {
+      "bytes": 3445178,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0024_p0.json",
+      "sha256": "84a835d88ce70fe7c9d10e7edd746044fd192058688cd657151497285f3ebdae"
+    },
+    {
+      "bytes": 49342,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0024_p1.json",
+      "sha256": "4e2c33ffe025a2f7639a57fa49cd0d38b91e116ed5fa08e80e7cbcc5cd366781"
+    },
+    {
+      "bytes": 3323676,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0024_p1.json",
+      "sha256": "39fcbd1c72ce5b65a170ef4aaf9ff819250b808a3dddbfc471acb905a2b41ce2"
+    },
+    {
+      "bytes": 48223,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0025_p0.json",
+      "sha256": "1b59dd2b2738c55cbea28d2e3fed3884133f357a846337e2637caa54338f6dcd"
+    },
+    {
+      "bytes": 3490965,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0025_p0.json",
+      "sha256": "46d35593381b5451cb0e2670f6f7c5ff573dd34de19e2bc325ce55938a1a7f06"
+    },
+    {
+      "bytes": 49002,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0025_p1.json",
+      "sha256": "c76b761e15e5d204480c6feed3e96fde89a96902ac61c205cc8cb7f63c8d4dc8"
+    },
+    {
+      "bytes": 3597240,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0025_p1.json",
+      "sha256": "04dd7e3fb0caa03fc7f14fd2a8dcb82d329fc3a9b82e0e3569ca215ceba1280b"
+    },
+    {
+      "bytes": 48156,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0026_p0.json",
+      "sha256": "56b39ace34af3f9a527002bb8be80269f29556198e36ac7ff0aa07507842fd44"
+    },
+    {
+      "bytes": 3597137,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0026_p0.json",
+      "sha256": "9f9f91cfa7769008bde6cfc17404fe6a4cbe24550212ebb270f4b9fc8fa01b57"
+    },
+    {
+      "bytes": 49071,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0026_p1.json",
+      "sha256": "b1b3786c58dab6bbe22df31e5fcd880825c6b145c7249043db9bfab2f9086611"
+    },
+    {
+      "bytes": 3875909,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0026_p1.json",
+      "sha256": "edba44e9f0e3eb717c9e9b0004c28a2bdb574be4b5f59fa9861c4f2802afddf5"
+    },
+    {
+      "bytes": 47824,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0027_p0.json",
+      "sha256": "8d2819bc0b2fc290171451b5c6cc62a61e64c8e2ea718f69c56aa60809059308"
+    },
+    {
+      "bytes": 3473049,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0027_p0.json",
+      "sha256": "cdf667cc2825265123122cc862ac5fc5695d24e4c89f9cd9909fe5eb5f50ca99"
+    },
+    {
+      "bytes": 48881,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0027_p1.json",
+      "sha256": "030032341f4d32cd4c606fe231a898f38afa514b1638769538d634d4ee8f4025"
+    },
+    {
+      "bytes": 3707497,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0027_p1.json",
+      "sha256": "c45cebd2ae7b6f04a18ee2f15a9c350442d771ec74d7672b45c6d81882d1e7a8"
+    },
+    {
+      "bytes": 48419,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0028_p0.json",
+      "sha256": "c73e1dbe9837d8c8eb5afd9ec4323bb4fc3709e821e73967c61a3078d392f223"
+    },
+    {
+      "bytes": 3577768,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0028_p0.json",
+      "sha256": "2648515adec3217390fce598695a866afca89c86c7a8b0d8d371fe7fe98ea8fa"
+    },
+    {
+      "bytes": 49155,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0028_p1.json",
+      "sha256": "1605b0f0865fb2d9bc8b035d8def36b82147236fcd359537ef30b828bfa6c9bc"
+    },
+    {
+      "bytes": 3986354,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0028_p1.json",
+      "sha256": "7bc080c1540725da1d47d79ba7eb2aee9ddf285a9f43d21239e8342f574cc74f"
+    },
+    {
+      "bytes": 46538,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0029_p0.json",
+      "sha256": "37698af242bd770158047d1d843415c759b295f57dc4f20eec97a08f580a9f6c"
+    },
+    {
+      "bytes": 3331183,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0029_p0.json",
+      "sha256": "bc6dee502687127285c73759420fc81c9457b6b9b85fb28292f0bbd068c75c53"
+    },
+    {
+      "bytes": 47553,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0029_p1.json",
+      "sha256": "43307f3d3e5ba0c8ccc34108a94416dd4cd39ce3af40341dfca8a5a2565ea9cc"
+    },
+    {
+      "bytes": 4644669,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0029_p1.json",
+      "sha256": "57e192728eeed1b53bdd338895261ec656c775def9d55b048a1f0942f89d7b9c"
+    },
+    {
+      "bytes": 47124,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0030_p0.json",
+      "sha256": "df9ed2e4f0c216b3033b7447b328f9db571b43fed40d1b09d2a3f149e06b6517"
+    },
+    {
+      "bytes": 3497926,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0030_p0.json",
+      "sha256": "96d988a2b94e2a30a0416782ccd441c9cce34d87755b60d35dc93ae14810bcd1"
+    },
+    {
+      "bytes": 48073,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/candidates/a0030_p1.json",
+      "sha256": "d0ac5ea421ffcb55a8c51ed4c140e98f55d105ac7850ba19a4078aef624f925a"
+    },
+    {
+      "bytes": 3780384,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30/graphs/a0030_p1.json",
+      "sha256": "b2062fc9fcbcd383e14d2dd60c53e5e68fdf24dd8bdf4bf4541dd17e798dbf62"
+    },
+    {
+      "bytes": 3326,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/result.json",
+      "sha256": "f36aefb99d56ea321be308fcc77137f358182429e2a800530a02a93e1b38e09d"
+    },
+    {
+      "bytes": 1250,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/environment/discoveryworld-v1-b3412fa5ae4f6b52305e399d/summary.json",
+      "sha256": "f33731322c5abbd41eea4a22c55ea3df333fdc2f6f28d791c697f726eae03234"
+    },
+    {
+      "bytes": 894145,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/policy_attempts.jsonl",
+      "sha256": "c58bdd67acb9f23abe0e7a080ac62729696dfa1a927e91b471d6f6e72f562974"
+    },
+    {
+      "bytes": 242745,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/environment/discoveryworld-v1-b3412fa5ae4f6b52305e399d/events.jsonl",
+      "sha256": "c4d13815cd10f7a03cb8165cdf27155fb16f3324f44bd82be0db42450c3bb7f7"
+    },
+    {
+      "bytes": 42143,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0001_p0.json",
+      "sha256": "8d02cabd51debc434b5653b65fcb65d8cbd2d5ed229fbf14be92f53e09ab0359"
+    },
+    {
+      "bytes": 40897,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0002_p0.json",
+      "sha256": "048fc9fb82a08ace3c96875667a3058809a2766d71b83c1c84d78c14266150b4"
+    },
+    {
+      "bytes": 42417,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0003_p0.json",
+      "sha256": "2dcb95ef2ad77a015dea33d49c56d9e4f80d82368277be07b3e6d1e5a368082c"
+    },
+    {
+      "bytes": 42619,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0004_p0.json",
+      "sha256": "ae0587956452677e7e0862a5c1a54b1d62f8a8ac24a2999c699f7b1676de30e4"
+    },
+    {
+      "bytes": 41184,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0005_p0.json",
+      "sha256": "3090e3ca85a71543310bd38ade3ec0ca468b90f0277f959e48c5d69ee62b991b"
+    },
+    {
+      "bytes": 45089,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0006_p0.json",
+      "sha256": "f9d95bba3b999ca222556b6dc0803112a69a8c60e5d5cecff8c25d422ccc3385"
+    },
+    {
+      "bytes": 42992,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0007_p0.json",
+      "sha256": "24e0ea8dd31aa2b8a5bd6124a65328c30e3a6995ab48368354bb1a3349886a5b"
+    },
+    {
+      "bytes": 44062,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0008_p0.json",
+      "sha256": "e4e6f8fba254dcf962607c03de1884e56ee2f30744f06f336dd3eade2035cc7b"
+    },
+    {
+      "bytes": 44130,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0009_p0.json",
+      "sha256": "fb515ac7f3a0dd2f35f00c5f4205807431ea3ac648bd517683927be62c2df53d"
+    },
+    {
+      "bytes": 44167,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0010_p0.json",
+      "sha256": "0274aa7a7d15e5335c1a0068ef1167a026e45b6d1ad34ce5bb2be61be6303bd1"
+    },
+    {
+      "bytes": 43734,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0011_p0.json",
+      "sha256": "8956187e39f33c9ba887ff36c044289f7d35c29c61173c1962d9f64b9c350ba3"
+    },
+    {
+      "bytes": 43204,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0012_p0.json",
+      "sha256": "3bc71a17527ae04a1eebf8acb914810bc074475b3d7737871b8f6d3a08826c75"
+    },
+    {
+      "bytes": 43297,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0013_p0.json",
+      "sha256": "85412634459c0a79b133c471d95e72feb5d8d4f3ae5704f9c409ac217ac93880"
+    },
+    {
+      "bytes": 43279,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0014_p0.json",
+      "sha256": "2194307d35825de69fca0109091b46e9bc22bb0b18f5460eeb27ff3090491e2e"
+    },
+    {
+      "bytes": 42802,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0015_p0.json",
+      "sha256": "6589b9614b36019d79b55afd183e252bc49a5e054a677c1ef2f2b86c2624f3ab"
+    },
+    {
+      "bytes": 45012,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0016_p0.json",
+      "sha256": "ff58584ff986dfa5aa0eeb5d600fc147de9f4c36f8f118b2410415ba206c5a5a"
+    },
+    {
+      "bytes": 46940,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0017_p0.json",
+      "sha256": "ab39fe2e00572f1eb896c204bc3078b8cdef67d60149e4a40a494fdfe9915e03"
+    },
+    {
+      "bytes": 46497,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0018_p0.json",
+      "sha256": "ed5622028dc990ef04966d5b4199fb5d2ba29d895b7efe3491db29d45e06e530"
+    },
+    {
+      "bytes": 46745,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0019_p0.json",
+      "sha256": "5f2234ccb3b28befe18f64adca85635c5538f12034a40cd278e89ea8e370e466"
+    },
+    {
+      "bytes": 47022,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0020_p0.json",
+      "sha256": "2bf8513e83adbe31017a0f8cb94d835e75fa177d257763aa2e5d4d837a6f5469"
+    },
+    {
+      "bytes": 47299,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0021_p0.json",
+      "sha256": "4b1e8443638d3996505b7ab69f4834d60ad962bb05f5d1470577c3b7ed79ee6a"
+    },
+    {
+      "bytes": 47571,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0022_p0.json",
+      "sha256": "24bbc6133cf5ed32329c55174f41dc9994e6adc8a2ae294f7004ac56852040b8"
+    },
+    {
+      "bytes": 47843,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0023_p0.json",
+      "sha256": "8f95720a36602cfdda33cb94ebfaa92f8c2f39e4883d1cc2b5b273f75919b44f"
+    },
+    {
+      "bytes": 48205,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0024_p0.json",
+      "sha256": "b20aa7618ab02b7bf670a7d2fc87adff10fabb58bc46d59cf26c3531fb6f145c"
+    },
+    {
+      "bytes": 47472,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0025_p0.json",
+      "sha256": "b4cf6decfe1339ec34bd249ab991c8029e742b9dd604799e811db5ac6197deed"
+    },
+    {
+      "bytes": 47471,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0026_p0.json",
+      "sha256": "47202ab0fb1d1384c104fa41e4d8a329387340cf95377b0d78f02a732258637d"
+    },
+    {
+      "bytes": 47470,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0027_p0.json",
+      "sha256": "db3bb69ce18a0429ada0015976d64d92f87979908812bbd9451d307a6acc2734"
+    },
+    {
+      "bytes": 47470,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0028_p0.json",
+      "sha256": "6679d8a614709280f7d8586b1b8376bd91df946bab580169eb6b86ac87dc0652"
+    },
+    {
+      "bytes": 47471,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0029_p0.json",
+      "sha256": "5beb239c59ab955274702a4a39aba0fe15d40094b7f084bb970e11b714eeb45b"
+    },
+    {
+      "bytes": 47472,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/seeded_full_weight_followup_v1/runs/v1/episodes/jobs/dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30/candidates/a0030_p0.json",
+      "sha256": "87f44f75ee32390dd6507ec1cd65e7ff9b4b0737c813e21a80ea19107e470db1"
+    },
+    {
+      "bytes": 4856,
+      "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/fit_seal.json",
+      "sha256": "ef9643c242a192fb794e2c0924e41b2b2de822986e8960823535a219233e3a50"
+    },
+    {
+      "bytes": 9147,
+      "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/completion.json",
+      "sha256": "4f89eb521ded847222150c1a7be7912c22db77a175ef7c3cea18ed05cd92b2b2"
+    },
+    {
+      "bytes": 85938,
+      "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/protocol/protocol.json",
+      "sha256": "f65dec11231f2d03f5f286257b3cbea870aabe6c9f576405e8d572f436097595"
+    },
+    {
+      "bytes": 112661,
+      "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/models/GraphOnly/next_action_failure_GraphOnly.pt",
+      "sha256": "fc4f548915a5b56c2a3cbbe0ceedb9e0ad9dcd5491649254eb82af1a72f1ef58"
+    },
+    {
+      "bytes": 198229,
+      "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/models/Internal/next_action_failure_Internal.pt",
+      "sha256": "f5155ccafec30317069ee3331045b88019a85b2a6fc8fc70a4bab77e4f70dbbc"
+    },
+    {
+      "bytes": 107989,
+      "path": "technical_not_main/dw_v4_signal_ablation_20260922_v1/runs/v1/models/NoGraph/next_action_failure_NoGraph.pt",
+      "sha256": "f268799dadf60f3109cf609e34d907eeeac4fc8a19679070ea026ae90fae9386"
+    }
+  ],
+  "status": "independent_source_and_label_audit_passed",
+  "verified_export_refs": [
+    {
+      "bytes": 26263,
+      "path": "technical_not_main/dw_graph_incremental_cpu_audit_20260923_v1/runs/v1/candidate_risks_and_executed_labels.csv",
+      "sha256": "0ddac4f0326b05f7857fbe28689366dc91b7cefc0b6b8fd42bb73c3344c26375"
+    },
+    {
+      "bytes": 3469,
+      "path": "technical_not_main/dw_graph_incremental_cpu_audit_20260923_v1/runs/v1/same_candidate_decisions.csv",
+      "sha256": "6bc818789a129699e74527cb7019c495e89f8611efa13381e1839f3b83d4fd00"
+    }
+  ],
+  "verified_source_files": 218
+}

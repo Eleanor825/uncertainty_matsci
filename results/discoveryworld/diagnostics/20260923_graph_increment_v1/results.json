@@ -1,0 +1,310 @@
+{
+  "budget": 30,
+  "cluster_warning": "Each stratum is one policy-conditioned episode in world4/p336; rows are serially correlated. No row-level CI, p-value, causal policy gain or broad generalization claim.",
+  "cohorts": [
+    {
+      "CI_or_significance": null,
+      "actual_policy_stamp": {
+        "checkpoint_hash": "aaafdb80b6b69295c3de7f5adc800e0344c3054703f19426ad39490a9879cc4a",
+        "generation": 0,
+        "model_id": "Qwen/Qwen3.5-4B",
+        "perturbation_seed": null,
+        "perturbation_sigma": null,
+        "state_id": "c476b78cf00f37070e9ec9ba5fdceb04ec290adf6d7f40567a4bb129d9af3170"
+      },
+      "causal_policy_effect_claimed": false,
+      "condition": "G0_UQ",
+      "conditional_on_common_supported_executed_only": true,
+      "coverage": {
+        "None_feature_cells_by_family": {
+          "GraphOnly": 0,
+          "Internal": 0,
+          "NoGraph": 0
+        },
+        "adapter_rejections": 0,
+        "all_agent_requests": 30,
+        "candidate_support_reasons": {
+          "supported": 36
+        },
+        "common_supported_executed": 30,
+        "executed_support_reasons": {
+          "supported": 30
+        },
+        "official_action_labels": 30,
+        "supported_fraction_of_official_actions": 1.0,
+        "unsupported_executed": 0
+      },
+      "episodes": 1,
+      "independent_cluster_count": 1,
+      "job_id": "dw-seeded-full-weight-followup-v1-test-G0_UQ-w4-p336-b30",
+      "metrics": {
+        "GraphOnly": {
+          "auroc": 0.9711538461538461,
+          "brier": 0.051433644379249924,
+          "logloss": 0.18485310757935475,
+          "n": 30,
+          "negative": 26,
+          "positive": 4
+        },
+        "Internal": {
+          "auroc": 0.9807692307692307,
+          "brier": 0.04614951838185843,
+          "logloss": 0.15149631292181248,
+          "n": 30,
+          "negative": 26,
+          "positive": 4
+        },
+        "NoGraph": {
+          "auroc": 0.9423076923076923,
+          "brier": 0.09223894831820778,
+          "logloss": 0.28276595806375077,
+          "n": 30,
+          "negative": 26,
+          "positive": 4
+        }
+      },
+      "paired_differences": {
+        "GraphOnly_minus_NoGraph": {
+          "auroc": 0.028846153846153855,
+          "brier": -0.04080530393895786,
+          "logloss": -0.09791285048439602
+        },
+        "Internal_minus_GraphOnly": {
+          "auroc": 0.009615384615384581,
+          "brier": -0.005284125997391496,
+          "logloss": -0.033356794657542266
+        },
+        "Internal_minus_NoGraph": {
+          "auroc": 0.038461538461538436,
+          "brier": -0.04608942993634935,
+          "logloss": -0.13126964514193828
+        }
+      },
+      "parameter_stratum": "G0",
+      "recorded_Internal_probability_checks": {
+        "comparisons": 36,
+        "max_abs_error": 0.0,
+        "tolerance": 2e-06
+      },
+      "same_candidate_selection": {
+        "GraphOnly_NoGraph_disagreements": 3,
+        "Internal_NoGraph_disagreements": 2,
+        "all_attempts": 30,
+        "common_supported_two_candidate_attempts": 6,
+        "recorded_vs_recomputed_Internal_disagreements": 0
+      },
+      "unexecuted_outcome_labels": 0,
+      "unsupported_outcomes_not_covered_by_metrics": true
+    },
+    {
+      "CI_or_significance": null,
+      "actual_policy_stamp": {
+        "checkpoint_hash": "aaafdb80b6b69295c3de7f5adc800e0344c3054703f19426ad39490a9879cc4a",
+        "generation": 1,
+        "model_id": "Qwen/Qwen3.5-4B",
+        "perturbation_seed": null,
+        "perturbation_sigma": null,
+        "state_id": "28601447b010c5d5bf5f5946e5ccc256fd462dc8de9b82616ed4fa8ffc82be38"
+      },
+      "causal_policy_effect_claimed": false,
+      "condition": "Full",
+      "conditional_on_common_supported_executed_only": true,
+      "coverage": {
+        "None_feature_cells_by_family": {
+          "GraphOnly": 0,
+          "Internal": 0,
+          "NoGraph": 0
+        },
+        "adapter_rejections": 0,
+        "all_agent_requests": 30,
+        "candidate_support_reasons": {
+          "supported": 44
+        },
+        "common_supported_executed": 30,
+        "executed_support_reasons": {
+          "supported": 30
+        },
+        "official_action_labels": 30,
+        "supported_fraction_of_official_actions": 1.0,
+        "unsupported_executed": 0
+      },
+      "episodes": 1,
+      "independent_cluster_count": 1,
+      "job_id": "dw-seeded-full-weight-followup-v1-test-Full-w4-p336-b30",
+      "metrics": {
+        "GraphOnly": {
+          "auroc": 0.9732142857142857,
+          "brier": 0.0786682217557241,
+          "logloss": 0.2489139141986189,
+          "n": 30,
+          "negative": 14,
+          "positive": 16
+        },
+        "Internal": {
+          "auroc": 0.9330357142857143,
+          "brier": 0.14491567750631024,
+          "logloss": 0.5229616149018989,
+          "n": 30,
+          "negative": 14,
+          "positive": 16
+        },
+        "NoGraph": {
+          "auroc": 0.8125,
+          "brier": 0.1842228869328549,
+          "logloss": 0.6653473018406101,
+          "n": 30,
+          "negative": 14,
+          "positive": 16
+        }
+      },
+      "paired_differences": {
+        "GraphOnly_minus_NoGraph": {
+          "auroc": 0.1607142857142857,
+          "brier": -0.1055546651771308,
+          "logloss": -0.41643338764199117
+        },
+        "Internal_minus_GraphOnly": {
+          "auroc": -0.0401785714285714,
+          "brier": 0.06624745575058613,
+          "logloss": 0.27404770070327994
+        },
+        "Internal_minus_NoGraph": {
+          "auroc": 0.1205357142857143,
+          "brier": -0.03930720942654467,
+          "logloss": -0.14238568693871123
+        }
+      },
+      "parameter_stratum": "selected_G1",
+      "recorded_Internal_probability_checks": {
+        "comparisons": 44,
+        "max_abs_error": 0.0,
+        "tolerance": 2e-06
+      },
+      "same_candidate_selection": {
+        "GraphOnly_NoGraph_disagreements": 4,
+        "Internal_NoGraph_disagreements": 3,
+        "all_attempts": 30,
+        "common_supported_two_candidate_attempts": 14,
+        "recorded_vs_recomputed_Internal_disagreements": 0
+      },
+      "unexecuted_outcome_labels": 0,
+      "unsupported_outcomes_not_covered_by_metrics": true
+    },
+    {
+      "CI_or_significance": null,
+      "actual_policy_stamp": {
+        "checkpoint_hash": "aaafdb80b6b69295c3de7f5adc800e0344c3054703f19426ad39490a9879cc4a",
+        "generation": 1,
+        "model_id": "Qwen/Qwen3.5-4B",
+        "perturbation_seed": null,
+        "perturbation_sigma": null,
+        "state_id": "6a537a5142d0b6efece5cf882c623f0af0a759bc47b646e9863f9f99d697828b"
+      },
+      "causal_policy_effect_claimed": false,
+      "condition": "selected_theta_NN_off",
+      "conditional_on_common_supported_executed_only": true,
+      "coverage": {
+        "None_feature_cells_by_family": {
+          "GraphOnly": 0,
+          "Internal": 0,
+          "NoGraph": 0
+        },
+        "adapter_rejections": 0,
+        "all_agent_requests": 30,
+        "candidate_support_reasons": {
+          "graph_not_recorded": 30
+        },
+        "common_supported_executed": 0,
+        "executed_support_reasons": {
+          "graph_not_recorded": 30
+        },
+        "official_action_labels": 30,
+        "supported_fraction_of_official_actions": 0.0,
+        "unsupported_executed": 30
+      },
+      "episodes": 1,
+      "independent_cluster_count": 1,
+      "job_id": "dw-seeded-full-weight-followup-v1-test-selected_theta_NN_off-w4-p336-b30",
+      "metrics": {
+        "GraphOnly": {
+          "auroc": null,
+          "brier": null,
+          "logloss": null,
+          "n": 0,
+          "negative": 0,
+          "positive": 0
+        },
+        "Internal": {
+          "auroc": null,
+          "brier": null,
+          "logloss": null,
+          "n": 0,
+          "negative": 0,
+          "positive": 0
+        },
+        "NoGraph": {
+          "auroc": null,
+          "brier": null,
+          "logloss": null,
+          "n": 0,
+          "negative": 0,
+          "positive": 0
+        }
+      },
+      "paired_differences": {
+        "GraphOnly_minus_NoGraph": {
+          "auroc": null,
+          "brier": null,
+          "logloss": null
+        },
+        "Internal_minus_GraphOnly": {
+          "auroc": null,
+          "brier": null,
+          "logloss": null
+        },
+        "Internal_minus_NoGraph": {
+          "auroc": null,
+          "brier": null,
+          "logloss": null
+        }
+      },
+      "parameter_stratum": "selected_G1",
+      "recorded_Internal_probability_checks": {
+        "comparisons": 0,
+        "max_abs_error": null,
+        "tolerance": 2e-06
+      },
+      "same_candidate_selection": {
+        "GraphOnly_NoGraph_disagreements": 0,
+        "Internal_NoGraph_disagreements": 0,
+        "all_attempts": 30,
+        "common_supported_two_candidate_attempts": 0,
+        "recorded_vs_recomputed_Internal_disagreements": 0
+      },
+      "unexecuted_outcome_labels": 0,
+      "unsupported_outcomes_not_covered_by_metrics": true
+    }
+  ],
+  "counts": {
+    "LLM_calls": 0,
+    "NN_fits": 0,
+    "NN_inference_rows": 240,
+    "NN_model_loads": 3,
+    "candidate_rows": 110,
+    "environment_calls": 0,
+    "labelled_executed_candidates": 90,
+    "new_graph_calls": 0,
+    "optimizer_updates": 0
+  },
+  "coverage_warning": "Loss/AUROC use common-supported executed actions only; all unsupported actions stay in denominators and CSV. NoGraph capture success on graph-unsupported candidates is unobserved.",
+  "decision_warning": "Candidate ranking differences do not identify outcomes of unexecuted actions. Old controller generated and selected the observed candidates.",
+  "model_refitting": false,
+  "model_training_updates_each": 200,
+  "not_analyzed": [],
+  "policy_seed": 336,
+  "risk_head": "next_action_failure",
+  "schema": "published_frozen_graph_increment_CPU_results_v1",
+  "status": "complete",
+  "study_type": "exploratory post-outcome read-only frozen-model audit",
+  "world_seed": 4
+}
