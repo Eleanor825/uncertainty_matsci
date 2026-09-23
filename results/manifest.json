@@ -29,27 +29,33 @@
       "new_scientific_calls": 0,
       "path": "results/discoveryworld/progress/20260923T094428_CST",
       "scope": "closed_p335_exploratory_all5_and_p332_final_all3_with_native_TRAIN7_and_all78_utility_CV"
+    },
+    {
+      "all_prior_results_unchanged": true,
+      "new_scientific_calls": 0,
+      "path": "results/discoveryworld/diagnostics/20260923T102708_CST",
+      "scope": "world2_fixed13_original_and_supplemental_seed_CPU_replays_not_main"
     }
   ],
   "files": [
     {
-      "bytes": 25898,
-      "export_sha256": "8afbba17ee2e18655c06db69f4a457af0f1d7a3f1a534fc7b6a244780a7b375a",
+      "bytes": 26658,
+      "export_sha256": "efb25890ef03adbc182f7a4fc9e4e6f7f5d071f4e48d623624bf08f2ec42dc55",
       "path": "README.md"
     },
     {
-      "bytes": 25101,
-      "export_sha256": "9b6620a8f8f643135f50f580a893bd0b5347b5e62fca7fd0b15d25adc4d88b2b",
+      "bytes": 25864,
+      "export_sha256": "f71df45135a95720fb47bdeadb357da0f3fbbfc4b1e21adf269d2665c3a3c08b",
       "path": "docs/results.md"
     },
     {
-      "bytes": 12452,
-      "export_sha256": "328c146837655a1ad4b74c890bdd823500f201468e7edaf885ebb0c5adc7da16",
+      "bytes": 13204,
+      "export_sha256": "db026a4341ec707eba6131e058103a408751c05f2fea5ceaacaa55a601ce5373",
       "path": "results/LATEST.md"
     },
     {
-      "bytes": 21616,
-      "export_sha256": "0d0acae20c61e54dd50ff16e60f3b022c36f247fc24a8a099fce1527ed638bf6",
+      "bytes": 22368,
+      "export_sha256": "940701873d969a4674b6d5d39880d451ef9d081f5f51774d05256fe60f5d9391",
       "path": "results/README.md"
     },
     {
@@ -1221,6 +1227,26 @@
       "bytes": 4632,
       "export_sha256": "960f6f014e89ff1fb995ee31b32bed59211baa27286c58f03b4443dc8387fa76",
       "path": "results/discoveryworld/diagnostics/20260922T184705_CST/validate.py"
+    },
+    {
+      "bytes": 1357,
+      "export_sha256": "e09be2b42aa2cbf4636b1f6d2a9a8b8ded1271625a9ca8aed5c4565e4924229a",
+      "path": "results/discoveryworld/diagnostics/20260923T102708_CST/manifest.json"
+    },
+    {
+      "bytes": 40171,
+      "export_sha256": "2eed302acdb8793e49e17a4f3a478ac87122583a1ca1b65622c23f905df220cb",
+      "path": "results/discoveryworld/diagnostics/20260923T102708_CST/replay_evidence.json"
+    },
+    {
+      "bytes": 5944,
+      "export_sha256": "60128a1c0ce42acafe93f6fb41b92380ea4868ada3597a6c8f54f2f5523a00d7",
+      "path": "results/discoveryworld/diagnostics/20260923T102708_CST/report.md"
+    },
+    {
+      "bytes": 2459,
+      "export_sha256": "1bd2ec6821db711763a10d81cb71087068329b558b74efe619894b9708301e76",
+      "path": "results/discoveryworld/diagnostics/20260923T102708_CST/validate.py"
     },
     {
       "bytes": 544,
@@ -6375,6 +6401,7 @@
   "latest_DW_SFT_behavior_observation_utc": "2026-09-22T15:13:29.398210+00:00",
   "latest_DW_TRAIN36_support_observation_CST": "2026-09-23T05:34:15.140879+08:00",
   "latest_DW_combined_utility_closed_observation_CST": "2026-09-23T09:44:28.518382+08:00",
+  "latest_DW_environment_replay_publication_CST": "2026-09-23T10:29:53.755597+08:00",
   "latest_DW_fixed9_policy_observation_unix": 1790094120.792998,
   "latest_DW_gate_audit_v2_observation_CST": "2026-09-23T05:42:25.670878+08:00",
   "latest_DW_original_test_pair_observation_CST": "2026-09-23T03:28:28.657255+08:00",

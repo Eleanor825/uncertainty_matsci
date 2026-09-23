@@ -1,0 +1,39 @@
+{
+  "created_CST": "2026-09-23T10:29:53.755597+08:00",
+  "files": {
+    "replay_evidence.json": {
+      "bytes": 40171,
+      "sha256": "2eed302acdb8793e49e17a4f3a478ac87122583a1ca1b65622c23f905df220cb"
+    },
+    "report.md": {
+      "bytes": 5944,
+      "sha256": "60128a1c0ce42acafe93f6fb41b92380ea4868ada3597a6c8f54f2f5523a00d7"
+    },
+    "validate.py": {
+      "bytes": 2459,
+      "sha256": "1bd2ec6821db711763a10d81cb71087068329b558b74efe619894b9708301e76"
+    }
+  },
+  "publication_finalizer_sha256": "a9cdd463959cbc680bac44a510ce7775641f506af164bd59b119467bb7fd5851",
+  "publication_scientific_calls": 0,
+  "publisher_source_sha256": "b687791d92827607833121aed0fe996b30c0de5261c8ee0fab6d667bfdec684b",
+  "schema": "dw_bounded_environment_replay_publication_manifest_v1",
+  "source_operations": {
+    "controlled": {
+      "bytes": 27870,
+      "sha256": "977a734270b35c26abaa97d320557441e3e6b2ac875c84486e9ec55c9f9cc5bf"
+    },
+    "failed_metadata_attempt": {
+      "bytes": 5479,
+      "sha256": "85a9cefaaa292032a3401da9f1880238be87f9bb33de25ab0607ece2e07d0d58"
+    },
+    "original": {
+      "bytes": 24780,
+      "sha256": "811130f6c80d7a90b406f84fe82f2c7ea78f2d7ffdf05dd0f3265584ebec8524"
+    },
+    "world4_registration": {
+      "bytes": 9081,
+      "sha256": "c84b1b05ef29fb141782b59ddf7c0311272b173f24e12d4f52b79dc416d2bb1a"
+    }
+  }
+}

@@ -1,0 +1,1148 @@
+{
+  "instrument_limitations": {
+    "NPC_position_arrays_empty": true,
+    "NPC_position_equality_is_vacuous_and_excluded": true,
+    "NPC_position_observer_exact_class_missed_subclasses": true,
+    "NumPy_differs_in_both_modes": true,
+    "NumPy_equality_is_gate": false,
+    "NumPy_rng_reseeded": false,
+    "Object_rng_traversal_includes_subclasses": true,
+    "complete_private_or_future_equivalence_proven": false,
+    "reachable_objects_per_snapshot": 1188,
+    "single_world_fixed_prefix_only": true
+  },
+  "interpretation": {
+    "causal_controller_benefit_established": false,
+    "historical_p335_scores_unchanged": true,
+    "historical_results_not_retroactively_seeded": true,
+    "individual_rng_component_effects_not_isolated": true,
+    "publication_new_scientific_calls": 0,
+    "unseeded_global_and_object_rng_are_verified_sources_of_uncontrolled_state": true
+  },
+  "local_frozen_sources": {
+    "common_environment_seed_v1/protocol.md": {
+      "bytes": 2018,
+      "sha256": "928309fa390616d9f17f1096fa99bcb31a483fd38904ef032818b630b373bb06"
+    },
+    "common_environment_seed_v1/seeding.py": {
+      "bytes": 4753,
+      "sha256": "03a5b57b7a09fb9f65637a9c3787dc4b0472e84ba85c3c605c81d8f5cf1271cc"
+    },
+    "p335_environment_replay_diagnostic_v1/child.py": {
+      "bytes": 7834,
+      "sha256": "d8f8251237094b6fc5a5017ed8fadf929ca15e4bc6f20bc91dc3378e800a76a7"
+    },
+    "p335_environment_replay_diagnostic_v1/driver.py": {
+      "bytes": 12137,
+      "sha256": "469067f1950485e40bc8a8b47ae83ba2bb1adb3be0e08d411923ec4255ac6d43"
+    },
+    "p335_environment_replay_diagnostic_v1/protocol.md": {
+      "bytes": 1729,
+      "sha256": "a7168b2e973ba182a064825905e90f2c903e1e10e611968e2a273b6a1aa63fa9"
+    }
+  },
+  "metadata_recovery": {
+    "failure_evidence": {
+      "bytes": 5479,
+      "sha256": "85a9cefaaa292032a3401da9f1880238be87f9bb33de25ab0607ece2e07d0d58"
+    },
+    "missing_source_mirrors_copied_from_exact_locked_installed_files": 5,
+    "old_failure_preserved": true,
+    "original_mode_not_replayed": true,
+    "prior_prepare_failed_before_environment_calls": true,
+    "reason": "Required locked official-source mirror absent; installed runtime sources were present.",
+    "scientific_sources_changed": false
+  },
+  "modes": [
+    {
+      "controlled_prefix_replay_passed": false,
+      "counts": {
+        "GPU_calls": 0,
+        "LLM_calls": 0,
+        "NN_calls": 0,
+        "action_returns": 39,
+        "agent_requests": 39,
+        "bootstrap_ticks": 3,
+        "environment_loads": 3,
+        "tick_returns": 39
+      },
+      "mode": "original",
+      "pairwise": [
+        {
+          "all_UUID_rng_equal": true,
+          "all_global_rng_equal": false,
+          "all_numpy_rng_equal": false,
+          "all_object_rng_equal": false,
+          "all_public_equal": false,
+          "all_world_rng_equal": true,
+          "first_public_divergence_step": 13,
+          "left": "A",
+          "right": "B",
+          "rows": [
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 0,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 1,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 2,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 3,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 4,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 5,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 6,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 7,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 8,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 9,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 10,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 11,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 12,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [
+                ".ui.accessibleEnvironmentObjects [length]",
+                ".ui.accessibleEnvironmentObjects[1].description",
+                ".ui.accessibleEnvironmentObjects[1].name",
+                ".ui.accessibleEnvironmentObjects[1].uuid",
+                ".ui.nearbyObjects.objects.south [length]",
+                ".ui.nearbyObjects.objects.south[0].description",
+                ".ui.nearbyObjects.objects.south[0].name",
+                ".ui.nearbyObjects.objects.south[0].uuid",
+                ".ui.nearbyObjects.objects.south[1].distance",
+                ".ui.nearbyObjects.objects.south[1].uuid",
+                ".ui.nearbyObjects.objects.south[2].distance",
+                ".ui.nearbyObjects.objects.south[2].uuid",
+                ".ui.nearbyObjects.objects.south-west [length]",
+                ".ui.nearbyObjects.objects.south-west[6].description",
+                ".ui.nearbyObjects.objects.south-west[6].name",
+                ".ui.nearbyObjects.objects.south-west[6].uuid",
+                ".ui.nearbyObjects.objects.south-west[7].distance",
+                ".ui.nearbyObjects.objects.south-west[7].uuid",
+                ".ui.nearbyObjects.objects.south-west[8].distance",
+                ".ui.nearbyObjects.objects.south-west[8].uuid"
+              ],
+              "public_equal": false,
+              "right_object_count": 1188,
+              "step": 13,
+              "world_rng_equal": true
+            }
+          ]
+        },
+        {
+          "all_UUID_rng_equal": true,
+          "all_global_rng_equal": false,
+          "all_numpy_rng_equal": false,
+          "all_object_rng_equal": false,
+          "all_public_equal": false,
+          "all_world_rng_equal": true,
+          "first_public_divergence_step": 13,
+          "left": "A",
+          "right": "C",
+          "rows": [
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 0,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 1,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 2,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 3,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 4,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 5,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 6,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 7,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 8,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 9,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 10,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 11,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 12,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": false,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": false,
+              "public_diff_paths": [
+                ".ui.accessibleEnvironmentObjects [length]",
+                ".ui.accessibleEnvironmentObjects[1].description",
+                ".ui.accessibleEnvironmentObjects[1].name",
+                ".ui.accessibleEnvironmentObjects[1].uuid",
+                ".ui.nearbyObjects.objects.north [length]",
+                ".ui.nearbyObjects.objects.north[2].description",
+                ".ui.nearbyObjects.objects.north[2].name",
+                ".ui.nearbyObjects.objects.north[2].uuid",
+                ".ui.nearbyObjects.objects.north[3].distance",
+                ".ui.nearbyObjects.objects.north[3].uuid",
+                ".ui.nearbyObjects.objects.south [length]",
+                ".ui.nearbyObjects.objects.south[0].description",
+                ".ui.nearbyObjects.objects.south[0].name",
+                ".ui.nearbyObjects.objects.south[0].uuid",
+                ".ui.nearbyObjects.objects.south[1].distance",
+                ".ui.nearbyObjects.objects.south[1].uuid",
+                ".ui.nearbyObjects.objects.south[2].distance",
+                ".ui.nearbyObjects.objects.south[2].uuid"
+              ],
+              "public_equal": false,
+              "right_object_count": 1188,
+              "step": 13,
+              "world_rng_equal": true
+            }
+          ]
+        }
+      ],
+      "registration": {
+        "bytes": 15833,
+        "commit": "23080aacab3462420de5c686887adf6cec2005f1",
+        "sha256": "91bf5bac6afae46101a33a0389a09f5945402897f756cd635375c64783db8c43"
+      },
+      "replicas": [
+        {
+          "closed": true,
+          "closure": {
+            "bytes": 94,
+            "sha256": "066b4519e69445b6cfb279f997b32e80097e32a46a09099ebb5807904d617a0a"
+          },
+          "completion": {
+            "bytes": 10706,
+            "sha256": "a61c074919457d39970989fc895e3fb808d298506a080ef025b2a9a7a6ad9f8e"
+          },
+          "replica": "A"
+        },
+        {
+          "closed": true,
+          "closure": {
+            "bytes": 94,
+            "sha256": "066b4519e69445b6cfb279f997b32e80097e32a46a09099ebb5807904d617a0a"
+          },
+          "completion": {
+            "bytes": 10706,
+            "sha256": "0ba984921baa2e4988a69f7ef3e023b9773e3e94d8c89a7484496a493ea79e45"
+          },
+          "replica": "B"
+        },
+        {
+          "closed": true,
+          "closure": {
+            "bytes": 94,
+            "sha256": "066b4519e69445b6cfb279f997b32e80097e32a46a09099ebb5807904d617a0a"
+          },
+          "completion": {
+            "bytes": 10717,
+            "sha256": "931a1b52462a8123ff3a26e2bf9177ab6ef5fa0ee8b6dfbc62ac9f3e0544fe34"
+          },
+          "replica": "C"
+        }
+      ],
+      "source_operation": {
+        "bytes": 24780,
+        "sha256": "811130f6c80d7a90b406f84fe82f2c7ea78f2d7ffdf05dd0f3265584ebec8524"
+      },
+      "source_operation_code_sha256": "0bf54edba121ff7ba78a6b3946ff562bd7fef8a9cb4f54c3a0ca6a40d296819b",
+      "status": "complete"
+    },
+    {
+      "controlled_prefix_replay_passed": true,
+      "counts": {
+        "GPU_calls": 0,
+        "LLM_calls": 0,
+        "NN_calls": 0,
+        "action_returns": 39,
+        "agent_requests": 39,
+        "bootstrap_ticks": 3,
+        "environment_loads": 3,
+        "tick_returns": 39
+      },
+      "mode": "controlled",
+      "pairwise": [
+        {
+          "all_UUID_rng_equal": true,
+          "all_global_rng_equal": true,
+          "all_numpy_rng_equal": false,
+          "all_object_rng_equal": true,
+          "all_public_equal": true,
+          "all_world_rng_equal": true,
+          "first_public_divergence_step": null,
+          "left": "A",
+          "right": "B",
+          "rows": [
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 0,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 1,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 2,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 3,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 4,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 5,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 6,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 7,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 8,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 9,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 10,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 11,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 12,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 13,
+              "world_rng_equal": true
+            }
+          ]
+        },
+        {
+          "all_UUID_rng_equal": true,
+          "all_global_rng_equal": true,
+          "all_numpy_rng_equal": false,
+          "all_object_rng_equal": true,
+          "all_public_equal": true,
+          "all_world_rng_equal": true,
+          "first_public_divergence_step": null,
+          "left": "A",
+          "right": "C",
+          "rows": [
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 0,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 1,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 2,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 3,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 4,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 5,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 6,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 7,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 8,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 9,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 10,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 11,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 12,
+              "world_rng_equal": true
+            },
+            {
+              "UUID_rng_equal": true,
+              "global_rng_equal": true,
+              "left_object_count": 1188,
+              "numpy_rng_equal": false,
+              "object_rng_equal": true,
+              "public_diff_paths": [],
+              "public_equal": true,
+              "right_object_count": 1188,
+              "step": 13,
+              "world_rng_equal": true
+            }
+          ]
+        }
+      ],
+      "registration": {
+        "bytes": 19230,
+        "commit": "f80f198c209560fcd3623f34433062b1cd312585",
+        "sha256": "515eabd9fcf71299f70c099e06bcd49a9742374c756f672c7660f358a94daf1e"
+      },
+      "replicas": [
+        {
+          "closed": true,
+          "closure": {
+            "bytes": 94,
+            "sha256": "066b4519e69445b6cfb279f997b32e80097e32a46a09099ebb5807904d617a0a"
+          },
+          "completion": {
+            "bytes": 11301,
+            "sha256": "6845c5a1cb8ae5a4918495418b0fe384382d7048eae5841b234bcff17aa0ce3a"
+          },
+          "replica": "A"
+        },
+        {
+          "closed": true,
+          "closure": {
+            "bytes": 94,
+            "sha256": "066b4519e69445b6cfb279f997b32e80097e32a46a09099ebb5807904d617a0a"
+          },
+          "completion": {
+            "bytes": 11301,
+            "sha256": "03da7315c1350eadeb58b045a9bb5990d5da9e48075fc918026bc0558f5c6d6b"
+          },
+          "replica": "B"
+        },
+        {
+          "closed": true,
+          "closure": {
+            "bytes": 94,
+            "sha256": "066b4519e69445b6cfb279f997b32e80097e32a46a09099ebb5807904d617a0a"
+          },
+          "completion": {
+            "bytes": 11312,
+            "sha256": "1faf1b7f6839e8ccb07dd5827ab05015a49cfd9772d8719b0978eea1b18e828c"
+          },
+          "replica": "C"
+        }
+      ],
+      "source_operation": {
+        "bytes": 27870,
+        "sha256": "977a734270b35c26abaa97d320557441e3e6b2ac875c84486e9ec55c9f9cc5bf"
+      },
+      "source_operation_code_sha256": "1b59bad4b9ab9e16432861f1475512ba49a61ccc0047f1dfdc398d8168510700",
+      "status": "complete"
+    }
+  ],
+  "official_source": {
+    "api_version": "0.1",
+    "commit": "fd591323920be0d3786ef350955de1945aa571e5",
+    "package_version": "0.0.2",
+    "repository": "https://github.com/allenai/discoveryworld",
+    "upstream_modified": false
+  },
+  "published_CST": "2026-09-23T10:29:53.755597+08:00",
+  "schema": "dw_bounded_environment_seeding_replay_evidence_v1",
+  "scope": {
+    "difficulty": "Normal",
+    "fixed_executed_actions": 13,
+    "main_experiment": false,
+    "new_generations": 0,
+    "policy_seed": 335,
+    "public_B30_budget_preserved": true,
+    "replica_spec_sources": {
+      "A": "original Native1",
+      "B": "original Native1",
+      "C": "original ExplicitRepeatRisk"
+    },
+    "replicas_per_mode": 3,
+    "scenario": "Proteomics",
+    "training_labels_created": false,
+    "unexecuted_candidate_outcomes_inferred": false,
+    "world_seed": 2
+  },
+  "seed_protocol": {
+    "NumPy_global_rng_modified": false,
+    "UUID_rng_modified": false,
+    "base_safety": {
+      "base_constructor_rng_assignments": 1,
+      "base_constructor_rng_reads": 0,
+      "wrapper_seeds_before_subclass_constructor_continues": true
+    },
+    "complete_private_state_equivalence_claimed": false,
+    "global_python_random_seed": "variation_seed",
+    "object_seed": "int_from_big_endian_SHA256(UTF8 compact JSON [variation_seed, original_uuid, original_object_type])",
+    "original_dynamics_evaluator_actions_and_budgets_modified": false,
+    "policy_model_arm_episode_id_used_for_seed": false,
+    "protocol": {
+      "bytes": 2018,
+      "sha256": "928309fa390616d9f17f1096fa99bcb31a483fd38904ef032818b630b373bb06"
+    },
+    "schema": "dw_common_environment_supplemental_seed_contract_v1",
+    "source": {
+      "bytes": 4753,
+      "sha256": "03a5b57b7a09fb9f65637a9c3787dc4b0472e84ba85c3c605c81d8f5cf1271cc"
+    },
+    "vendor_file_bytes_modified": false,
+    "vendor_sources": {
+      "Pathfinding.py": {
+        "bytes": 55901,
+        "sha256": "2cf055c9f4362232ea2897268dda067b7a82b46a6466f773a32cc2e96021eb25"
+      },
+      "ScenarioMaker.py": {
+        "bytes": 21152,
+        "sha256": "1b1055e765b98e5a0dab94f4a31c9ac0f627eb9f52ca5a63f9c4140c3afdbd06"
+      },
+      "UUIDGenerator.py": {
+        "bytes": 624,
+        "sha256": "4ec57c949b98091fca91ba0e33136f644def19ffeae8cf9bba41cdbaca304efd"
+      },
+      "objects/Object.py": {
+        "bytes": 32852,
+        "sha256": "e04274d0652722d6ceea1d70f1d2dad252d50e6193a25b72452dff8fc0ff2593"
+      },
+      "scenarios/proteomics.py": {
+        "bytes": 37619,
+        "sha256": "2b21a32d7fadd0db992ac18a96764aaa54e62b3a4fb0cd91329edfff214be706"
+      }
+    },
+    "world_rng_modified": false
+  },
+  "total_recorded_diagnostic_calls": {
+    "GPU_calls": 0,
+    "LLM_calls": 0,
+    "NN_calls": 0,
+    "action_returns": 78,
+    "agent_requests": 78,
+    "bootstrap_ticks": 6,
+    "environment_loads": 6,
+    "tick_returns": 78
+  },
+  "world4_status_snapshot": {
+    "observed_CST": "2026-09-23T10:23:47.717907+08:00",
+    "registered_jobs": [
+      {
+        "grounded_repair": "Native1",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-Native1-w4-p336-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 1,
+        "policy_seed": 336,
+        "project_split": "test",
+        "world_seed": 4
+      },
+      {
+        "grounded_repair": "NoGraphRisk",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-NoGraphRisk-w4-p336-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 2,
+        "policy_seed": 336,
+        "project_split": "test",
+        "world_seed": 4
+      },
+      {
+        "grounded_repair": "ExplicitRepeatRisk",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-ExplicitRepeatRisk-w4-p336-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 2,
+        "policy_seed": 336,
+        "project_split": "test",
+        "world_seed": 4
+      },
+      {
+        "grounded_repair": "ExplicitRepeatCommon2",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-ExplicitRepeatCommon2-w4-p336-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 2,
+        "policy_seed": 336,
+        "project_split": "test",
+        "world_seed": 4
+      },
+      {
+        "grounded_repair": "ExplicitRepeatInternal2",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-ExplicitRepeatInternal2-w4-p336-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 2,
+        "policy_seed": 336,
+        "project_split": "test",
+        "world_seed": 4
+      },
+      {
+        "grounded_repair": "Native1",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-Native1-w4-p337-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 1,
+        "policy_seed": 337,
+        "project_split": "test",
+        "world_seed": 4
+      },
+      {
+        "grounded_repair": "NoGraphRisk",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-NoGraphRisk-w4-p337-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 2,
+        "policy_seed": 337,
+        "project_split": "test",
+        "world_seed": 4
+      },
+      {
+        "grounded_repair": "ExplicitRepeatRisk",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-ExplicitRepeatRisk-w4-p337-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 2,
+        "policy_seed": 337,
+        "project_split": "test",
+        "world_seed": 4
+      },
+      {
+        "grounded_repair": "ExplicitRepeatCommon2",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-ExplicitRepeatCommon2-w4-p337-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 2,
+        "policy_seed": 337,
+        "project_split": "test",
+        "world_seed": 4
+      },
+      {
+        "grounded_repair": "ExplicitRepeatInternal2",
+        "job_id": "dw-explicit-repeat-nograph-world4-seeded-confirm-v2-test-ExplicitRepeatInternal2-w4-p337-b30-g0",
+        "max_agent_attempts": 30,
+        "max_proposals_per_attempt": 2,
+        "policy_seed": 337,
+        "project_split": "test",
+        "world_seed": 4
+      }
+    ],
+    "reported_completed_outcomes": 0,
+    "resource_owner_started": true,
+    "resource_registration": {
+      "bytes": 14644,
+      "commit": "ecfb93f6caca24e8782e81b8e365e52d700704b8",
+      "sha256": "91789564af81b22dc0c67016f27ffab33c958a8ec54ebc564a05bf9f234b15e2"
+    },
+    "scientific_execution_or_outcomes_not_established_by_this_receipt": true,
+    "scientific_registration": {
+      "bytes": 260954,
+      "commit": "62943b4739c73988532c0744976ae7ba238921b0",
+      "sha256": "a96266b3073f9da6f598e9f7033254145c3b39c27e1f27ead7a28d2846687eef"
+    },
+    "source_operation": {
+      "bytes": 9081,
+      "sha256": "c84b1b05ef29fb141782b59ddf7c0311272b173f24e12d4f52b79dc416d2bb1a"
+    }
+  }
+}
