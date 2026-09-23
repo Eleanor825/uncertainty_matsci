@@ -1,0 +1,3220 @@
+{
+  "WLT_tie_tolerance": 1e-12,
+  "all_status_counts": {
+    "accepted": 20,
+    "active_or_claimed": 2,
+    "pending": 98
+  },
+  "by_budget_and_system": [
+    {
+      "budget": 10,
+      "complete_pairs": 9,
+      "expected_pairs": 20,
+      "metrics": {
+        "AUDC": {
+          "ActionPool2_mean": 0.5733333333333334,
+          "Native1_mean": 0.3711111111111111,
+          "losses": 0,
+          "mean_paired_difference": 0.2022222222222222,
+          "ties": 1,
+          "wins": 8
+        },
+        "SUN": {
+          "ActionPool2_mean": 5.333333333333333,
+          "Native1_mean": 3.5555555555555554,
+          "losses": 1,
+          "mean_paired_difference": 1.7777777777777777,
+          "ties": 1,
+          "wins": 7
+        },
+        "mSUN": {
+          "ActionPool2_mean": 0.5333333333333333,
+          "Native1_mean": 0.35555555555555557,
+          "losses": 1,
+          "mean_paired_difference": 0.17777777777777776,
+          "ties": 1,
+          "wins": 7
+        }
+      },
+      "task_id": null
+    },
+    {
+      "budget": 10,
+      "complete_pairs": 5,
+      "expected_pairs": 10,
+      "metrics": {
+        "AUDC": {
+          "ActionPool2_mean": 0.25,
+          "Native1_mean": 0.12,
+          "losses": 0,
+          "mean_paired_difference": 0.13,
+          "ties": 1,
+          "wins": 4
+        },
+        "SUN": {
+          "ActionPool2_mean": 2.2,
+          "Native1_mean": 1.2,
+          "losses": 1,
+          "mean_paired_difference": 1.0,
+          "ties": 1,
+          "wins": 3
+        },
+        "mSUN": {
+          "ActionPool2_mean": 0.22000000000000003,
+          "Native1_mean": 0.12000000000000002,
+          "losses": 1,
+          "mean_paired_difference": 0.1,
+          "ties": 1,
+          "wins": 3
+        }
+      },
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "budget": 10,
+      "complete_pairs": 4,
+      "expected_pairs": 10,
+      "metrics": {
+        "AUDC": {
+          "ActionPool2_mean": 0.9775,
+          "Native1_mean": 0.685,
+          "losses": 0,
+          "mean_paired_difference": 0.2925,
+          "ties": 0,
+          "wins": 4
+        },
+        "SUN": {
+          "ActionPool2_mean": 9.25,
+          "Native1_mean": 6.5,
+          "losses": 0,
+          "mean_paired_difference": 2.75,
+          "ties": 0,
+          "wins": 4
+        },
+        "mSUN": {
+          "ActionPool2_mean": 0.925,
+          "Native1_mean": 0.65,
+          "losses": 0,
+          "mean_paired_difference": 0.275,
+          "ties": 0,
+          "wins": 4
+        }
+      },
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "budget": 20,
+      "complete_pairs": 0,
+      "expected_pairs": 20,
+      "metrics": {
+        "AUDC": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "task_id": null
+    },
+    {
+      "budget": 20,
+      "complete_pairs": 0,
+      "expected_pairs": 10,
+      "metrics": {
+        "AUDC": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "budget": 20,
+      "complete_pairs": 0,
+      "expected_pairs": 10,
+      "metrics": {
+        "AUDC": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "budget": 30,
+      "complete_pairs": 0,
+      "expected_pairs": 20,
+      "metrics": {
+        "AUDC": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "task_id": null
+    },
+    {
+      "budget": 30,
+      "complete_pairs": 0,
+      "expected_pairs": 10,
+      "metrics": {
+        "AUDC": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "budget": 30,
+      "complete_pairs": 0,
+      "expected_pairs": 10,
+      "metrics": {
+        "AUDC": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "ActionPool2_mean": null,
+          "Native1_mean": null,
+          "losses": 0,
+          "mean_paired_difference": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "task_id": "Mg-Sn-Sr"
+    }
+  ],
+  "complete_pairs": 9,
+  "completion_subset_may_be_biased": true,
+  "development_descriptive": true,
+  "expected_cells": 120,
+  "expected_pairs": 60,
+  "failed_cells_in_this_v2_snapshot": 0,
+  "fixed_reuse_accepted": 4,
+  "incomplete_pair_metrics_imputed": false,
+  "later_results_merged": false,
+  "native_device_observations": [
+    {
+      "actual_GPU_process_present": true,
+      "machine_identity_omitted": true,
+      "observed_CST": "2026-09-24T05:05:05.555753+08:00",
+      "same_birth_live_job_id": "made-core-v2-Au-K-Tb-b10-s506-ActionPool2",
+      "source_filename": "observe_live_MADE_core_v2_devices_v1_primary_1790197505898645000.json",
+      "state": "physical_loop"
+    },
+    {
+      "actual_GPU_process_present": true,
+      "machine_identity_omitted": true,
+      "observed_CST": "2026-09-24T05:05:05.516616+08:00",
+      "same_birth_live_job_id": "made-core-v2-Mg-Sn-Sr-b10-s505-ActionPool2",
+      "source_filename": "observe_live_MADE_core_v2_devices_v1_secondary_1790197505850267000.json",
+      "state": "physical_loop"
+    }
+  ],
+  "new_scientific_calls_for_publication": 0,
+  "new_status_counts": {
+    "accepted": 16,
+    "active_or_claimed": 2,
+    "pending": 98
+  },
+  "observed_CST": "2026-09-24T05:05:07.622990+08:00",
+  "pairs": [
+    {
+      "ActionPool2_minus_Native1": {
+        "AUDC": 0.17,
+        "SUN": 1,
+        "mSUN": 0.1
+      },
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122812,
+            "sha256": "b5af36b3955146d4298141916f91d0531115b585f17a832174ef727c43618b17"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 4487,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 31.857821306679398,
+            "llm_calls": 30,
+            "prompt_tokens": 68268,
+            "rpc_attempts": 30,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 3,
+            "tool_attempts": 15,
+            "wall_seconds": 539.6751457401551
+          },
+          "costs_ref": {
+            "bytes": 122812,
+            "sha256": "b5af36b3955146d4298141916f91d0531115b585f17a832174ef727c43618b17"
+          },
+          "job_id": "made-core-v2-Au-K-Tb-b10-s501-ActionPool2",
+          "metrics": {
+            "AUDC": 0.17,
+            "SUN": 1,
+            "mSUN": 0.1
+          },
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 705.2867998550646
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 121590,
+            "sha256": "7a3c7c4d5df88e4015dfac61918a551f3a45d2cef1b10773f4366d34c88eaf53"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 2941,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 31.67513752821833,
+            "llm_calls": 18,
+            "prompt_tokens": 39621,
+            "rpc_attempts": 34,
+            "step_attempts": 10,
+            "tool_attempts": 17,
+            "wall_seconds": 332.04266552021727
+          },
+          "costs_ref": {
+            "bytes": 121590,
+            "sha256": "7a3c7c4d5df88e4015dfac61918a551f3a45d2cef1b10773f4366d34c88eaf53"
+          },
+          "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Native1",
+          "metrics": {
+            "AUDC": 0.0,
+            "SUN": 0,
+            "mSUN": 0.0
+          },
+          "origin": "fixed_reuse",
+          "seed": 501,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 500.3056483878754
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s501",
+      "seed": 501,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": {
+        "AUDC": 0.05,
+        "SUN": -1,
+        "mSUN": -0.1
+      },
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122892,
+            "sha256": "a5c58ffe042f224a5bbd7bad6dde63f68ee54c0811521971c68f8cf49e135996"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 5996,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 35.761859993916005,
+            "llm_calls": 48,
+            "prompt_tokens": 85149,
+            "rpc_attempts": 48,
+            "score_sentinels": 15,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 38,
+            "tool_attempts": 24,
+            "wall_seconds": 709.9714461192489
+          },
+          "costs_ref": {
+            "bytes": 122892,
+            "sha256": "a5c58ffe042f224a5bbd7bad6dde63f68ee54c0811521971c68f8cf49e135996"
+          },
+          "job_id": "made-core-v2-Au-K-Tb-b10-s502-ActionPool2",
+          "metrics": {
+            "AUDC": 0.13,
+            "SUN": 1,
+            "mSUN": 0.1
+          },
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 880.0055331168696
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122953,
+            "sha256": "50b821573d6c7de32bc04c5c007ff1db4b337de6d0306cca4347ad2113f248c9"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 2459,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 31.349825725890696,
+            "llm_calls": 22,
+            "prompt_tokens": 45098,
+            "rpc_attempts": 44,
+            "score_sentinels": 84,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 74,
+            "tool_attempts": 22,
+            "wall_seconds": 323.7733626225963
+          },
+          "costs_ref": {
+            "bytes": 122953,
+            "sha256": "50b821573d6c7de32bc04c5c007ff1db4b337de6d0306cca4347ad2113f248c9"
+          },
+          "job_id": "made-online-core-ext-v1-Au-K-Tb-b10-s502-Native1",
+          "metrics": {
+            "AUDC": 0.08,
+            "SUN": 2,
+            "mSUN": 0.2
+          },
+          "origin": "fixed_reuse",
+          "seed": 502,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 485.50399389863014
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s502",
+      "seed": 502,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": {
+        "AUDC": 0.36,
+        "SUN": 4,
+        "mSUN": 0.39999999999999997
+      },
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122857,
+            "sha256": "1fd883513a36a8748ada320c53f1bbe3dd124494a7b110861a53419675060e1a"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 4133,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 34.17306246701628,
+            "llm_calls": 32,
+            "prompt_tokens": 71402,
+            "rpc_attempts": 32,
+            "step_attempts": 10,
+            "tool_attempts": 16,
+            "wall_seconds": 553.9351766025648
+          },
+          "costs_ref": {
+            "bytes": 122857,
+            "sha256": "1fd883513a36a8748ada320c53f1bbe3dd124494a7b110861a53419675060e1a"
+          },
+          "job_id": "made-core-v2-Au-K-Tb-b10-s503-ActionPool2",
+          "metrics": {
+            "AUDC": 0.52,
+            "SUN": 6,
+            "mSUN": 0.6
+          },
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 724.6678956397809
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122892,
+            "sha256": "4c624daf338dbfdf6260178e70ff61144c86827096388a0a608c3840c1b623e0"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 2381,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 33.40134669980034,
+            "llm_calls": 20,
+            "prompt_tokens": 38217,
+            "rpc_attempts": 38,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 60,
+            "tool_attempts": 19,
+            "wall_seconds": 310.8788622720167
+          },
+          "costs_ref": {
+            "bytes": 122892,
+            "sha256": "4c624daf338dbfdf6260178e70ff61144c86827096388a0a608c3840c1b623e0"
+          },
+          "job_id": "made-core-v2-Au-K-Tb-b10-s503-Native1",
+          "metrics": {
+            "AUDC": 0.16,
+            "SUN": 2,
+            "mSUN": 0.2
+          },
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 482.2439692709595
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s503",
+      "seed": 503,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": {
+        "AUDC": 0.06999999999999998,
+        "SUN": 1,
+        "mSUN": 0.1
+      },
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 123020,
+            "sha256": "f053cb0d4b5e352207829d25b3de1c261b23898a2228915109d2a88705c967ea"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 6042,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 31.298335706815124,
+            "llm_calls": 42,
+            "prompt_tokens": 69242,
+            "rpc_attempts": 42,
+            "score_sentinels": 9,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 60,
+            "tool_attempts": 21,
+            "wall_seconds": 728.6171546280384
+          },
+          "costs_ref": {
+            "bytes": 123020,
+            "sha256": "f053cb0d4b5e352207829d25b3de1c261b23898a2228915109d2a88705c967ea"
+          },
+          "job_id": "made-core-v2-Au-K-Tb-b10-s504-ActionPool2",
+          "metrics": {
+            "AUDC": 0.24,
+            "SUN": 2,
+            "mSUN": 0.2
+          },
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 893.125056380406
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122868,
+            "sha256": "52821d63736f05e861a7505d98432438123b57bedb665a13163faa4982723b5d"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 3883,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 35.59712552279234,
+            "llm_calls": 25,
+            "prompt_tokens": 40555,
+            "rpc_attempts": 46,
+            "score_sentinels": 34,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 223,
+            "tool_attempts": 23,
+            "wall_seconds": 638.6321137845516
+          },
+          "costs_ref": {
+            "bytes": 122868,
+            "sha256": "52821d63736f05e861a7505d98432438123b57bedb665a13163faa4982723b5d"
+          },
+          "job_id": "made-core-v2-Au-K-Tb-b10-s504-Native1",
+          "metrics": {
+            "AUDC": 0.17,
+            "SUN": 1,
+            "mSUN": 0.1
+          },
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 815.0714667802677
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s504",
+      "seed": 504,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": {
+        "AUDC": 0.0,
+        "SUN": 0,
+        "mSUN": 0.0
+      },
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122873,
+            "sha256": "2a8151c5d12fb81fd4cb2c56644dc6174cc999138fa7753dd456306e9dc1133b"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 5429,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 32.82430770993233,
+            "llm_calls": 36,
+            "prompt_tokens": 80346,
+            "rpc_attempts": 36,
+            "score_sentinels": 18,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 76,
+            "tool_attempts": 18,
+            "wall_seconds": 661.9783315928653
+          },
+          "costs_ref": {
+            "bytes": 122873,
+            "sha256": "2a8151c5d12fb81fd4cb2c56644dc6174cc999138fa7753dd456306e9dc1133b"
+          },
+          "job_id": "made-core-v2-Au-K-Tb-b10-s505-ActionPool2",
+          "metrics": {
+            "AUDC": 0.19,
+            "SUN": 1,
+            "mSUN": 0.1
+          },
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 840.0034662038088
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122792,
+            "sha256": "18070efc11465952bfe5deadb8191c0d729b764e602e878b32b8cf1f544ea741"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 2144,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 31.28691790672019,
+            "llm_calls": 15,
+            "prompt_tokens": 37545,
+            "rpc_attempts": 28,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 30,
+            "tool_attempts": 14,
+            "wall_seconds": 263.191290597897
+          },
+          "costs_ref": {
+            "bytes": 122792,
+            "sha256": "18070efc11465952bfe5deadb8191c0d729b764e602e878b32b8cf1f544ea741"
+          },
+          "job_id": "made-core-v2-Au-K-Tb-b10-s505-Native1",
+          "metrics": {
+            "AUDC": 0.19,
+            "SUN": 1,
+            "mSUN": 0.1
+          },
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 427.7135030692443
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s505",
+      "seed": 505,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s506-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "active_or_claimed",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122893,
+            "sha256": "97407522ccc271bbb61c35a524f90a1f2af98f99e4da367f3020c9573fb97fb4"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 3232,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 11,
+            "initialization_wall_seconds": 35.22034797212109,
+            "llm_calls": 24,
+            "prompt_tokens": 47200,
+            "rpc_attempts": 48,
+            "score_sentinels": 16,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 175,
+            "tool_attempts": 24,
+            "wall_seconds": 587.9090509233065
+          },
+          "costs_ref": {
+            "bytes": 122893,
+            "sha256": "97407522ccc271bbb61c35a524f90a1f2af98f99e4da367f3020c9573fb97fb4"
+          },
+          "job_id": "made-core-v2-Au-K-Tb-b10-s506-Native1",
+          "metrics": {
+            "AUDC": 0.48,
+            "SUN": 4,
+            "mSUN": 0.4
+          },
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "accepted",
+          "task_id": "Au-K-Tb",
+          "whole_job_wall_seconds": 764.8702057576738
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s506",
+      "seed": 506,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s507-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s507-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s507",
+      "seed": 507,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s508-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s508-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s508",
+      "seed": 508,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s509-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s509-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s509",
+      "seed": 509,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s510-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s510-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Au-K-Tb-b10-s510",
+      "seed": 510,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": {
+        "AUDC": 0.08999999999999997,
+        "SUN": 1,
+        "mSUN": 0.09999999999999998
+      },
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122987,
+            "sha256": "3414e6f4561fa2c7613aac7cc6dd8ff06846efc1672e29dc506cb7a61c8150d7"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 5233,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 96,
+            "initialization_wall_seconds": 179.27131793648005,
+            "llm_calls": 36,
+            "prompt_tokens": 76978,
+            "rpc_attempts": 36,
+            "score_sentinels": 24,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 24,
+            "tool_attempts": 18,
+            "wall_seconds": 623.5379398670048
+          },
+          "costs_ref": {
+            "bytes": 122987,
+            "sha256": "3414e6f4561fa2c7613aac7cc6dd8ff06846efc1672e29dc506cb7a61c8150d7"
+          },
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s501-ActionPool2",
+          "metrics": {
+            "AUDC": 0.95,
+            "SUN": 9,
+            "mSUN": 0.9
+          },
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr",
+          "whole_job_wall_seconds": 934.9004465686157
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122939,
+            "sha256": "e567bd3f383429c50ca8f4316d3958fbda14dc582acc8a8f5c26ae17cf693279"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 2911,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 96,
+            "initialization_wall_seconds": 184.04841529019177,
+            "llm_calls": 21,
+            "prompt_tokens": 51709,
+            "rpc_attempts": 42,
+            "score_sentinels": 3,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 4,
+            "tool_attempts": 21,
+            "wall_seconds": 334.6789031838998
+          },
+          "costs_ref": {
+            "bytes": 122939,
+            "sha256": "e567bd3f383429c50ca8f4316d3958fbda14dc582acc8a8f5c26ae17cf693279"
+          },
+          "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Native1",
+          "metrics": {
+            "AUDC": 0.86,
+            "SUN": 8,
+            "mSUN": 0.8
+          },
+          "origin": "fixed_reuse",
+          "seed": 501,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr",
+          "whole_job_wall_seconds": 657.7271972950548
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s501",
+      "seed": 501,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": {
+        "AUDC": 0.26,
+        "SUN": 2,
+        "mSUN": 0.20000000000000007
+      },
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 123002,
+            "sha256": "7e4660dcc0efa5375c5570769aca401eb35d44c33200477897c34abd3b764cbb"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 6367,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 96,
+            "initialization_wall_seconds": 177.56797980796546,
+            "llm_calls": 40,
+            "prompt_tokens": 77278,
+            "rpc_attempts": 40,
+            "score_sentinels": 10,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 10,
+            "tool_attempts": 20,
+            "wall_seconds": 765.0540922181681
+          },
+          "costs_ref": {
+            "bytes": 123002,
+            "sha256": "7e4660dcc0efa5375c5570769aca401eb35d44c33200477897c34abd3b764cbb"
+          },
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s502-ActionPool2",
+          "metrics": {
+            "AUDC": 0.96,
+            "SUN": 8,
+            "mSUN": 0.8
+          },
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr",
+          "whole_job_wall_seconds": 1079.1308903433383
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122971,
+            "sha256": "8cf6bc073d04e7bb271c0fd0904982d33bab48d7a8a3c7c40ee6f0f79aeb982d"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 3274,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 96,
+            "initialization_wall_seconds": 178.7488292073831,
+            "llm_calls": 26,
+            "prompt_tokens": 60524,
+            "rpc_attempts": 50,
+            "score_sentinels": 307,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 135,
+            "tool_attempts": 25,
+            "wall_seconds": 474.4784298669547
+          },
+          "costs_ref": {
+            "bytes": 122971,
+            "sha256": "8cf6bc073d04e7bb271c0fd0904982d33bab48d7a8a3c7c40ee6f0f79aeb982d"
+          },
+          "job_id": "made-online-core-ext-v1-Mg-Sn-Sr-b10-s502-Native1",
+          "metrics": {
+            "AUDC": 0.7,
+            "SUN": 6,
+            "mSUN": 0.6
+          },
+          "origin": "fixed_reuse",
+          "seed": 502,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr",
+          "whole_job_wall_seconds": 785.4287176141515
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s502",
+      "seed": 502,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": {
+        "AUDC": 0.75,
+        "SUN": 7,
+        "mSUN": 0.7
+      },
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 123010,
+            "sha256": "73742cdc5bdd76016279de0840b46cf732c74c11eb8d72084ba46d583375cf38"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 8756,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 96,
+            "initialization_wall_seconds": 192.1055416110903,
+            "llm_calls": 58,
+            "prompt_tokens": 128397,
+            "rpc_attempts": 58,
+            "score_sentinels": 28,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 27,
+            "tool_attempts": 29,
+            "wall_seconds": 1041.5158827719279
+          },
+          "costs_ref": {
+            "bytes": 123010,
+            "sha256": "73742cdc5bdd76016279de0840b46cf732c74c11eb8d72084ba46d583375cf38"
+          },
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s503-ActionPool2",
+          "metrics": {
+            "AUDC": 1.0,
+            "SUN": 10,
+            "mSUN": 1.0
+          },
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr",
+          "whole_job_wall_seconds": 1366.7157543748617
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122852,
+            "sha256": "298c056009c2707cf2a960ab3b4f27da0d93ba5d332feaeaf064c6e5a316f7a0"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 3586,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 96,
+            "initialization_wall_seconds": 177.35920673888177,
+            "llm_calls": 23,
+            "prompt_tokens": 48399,
+            "rpc_attempts": 42,
+            "step_attempts": 10,
+            "tool_attempts": 21,
+            "wall_seconds": 399.2446831827983
+          },
+          "costs_ref": {
+            "bytes": 122852,
+            "sha256": "298c056009c2707cf2a960ab3b4f27da0d93ba5d332feaeaf064c6e5a316f7a0"
+          },
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s503-Native1",
+          "metrics": {
+            "AUDC": 0.25,
+            "SUN": 3,
+            "mSUN": 0.3
+          },
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr",
+          "whole_job_wall_seconds": 712.6641877796501
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s503",
+      "seed": 503,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": {
+        "AUDC": 0.06999999999999995,
+        "SUN": 1,
+        "mSUN": 0.09999999999999998
+      },
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122982,
+            "sha256": "08a2d82801dd54b15d0750b117b3a38c8d56cb084f41efc8db952d9c7655ae89"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 4182,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 96,
+            "initialization_wall_seconds": 175.98671236354858,
+            "llm_calls": 32,
+            "prompt_tokens": 64010,
+            "rpc_attempts": 32,
+            "score_sentinels": 29,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 29,
+            "tool_attempts": 16,
+            "wall_seconds": 544.12175487075
+          },
+          "costs_ref": {
+            "bytes": 122982,
+            "sha256": "08a2d82801dd54b15d0750b117b3a38c8d56cb084f41efc8db952d9c7655ae89"
+          },
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s504-ActionPool2",
+          "metrics": {
+            "AUDC": 1.0,
+            "SUN": 10,
+            "mSUN": 1.0
+          },
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr",
+          "whole_job_wall_seconds": 848.4119908558205
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122968,
+            "sha256": "7db80f94e6a89793a10617f1a6e14c4fbd836b6f7c142fa6b24844d7a18ee4c9"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 3526,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 96,
+            "initialization_wall_seconds": 184.13012848701328,
+            "llm_calls": 26,
+            "prompt_tokens": 49987,
+            "rpc_attempts": 48,
+            "score_sentinels": 198,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 129,
+            "tool_attempts": 24,
+            "wall_seconds": 488.07427068892866
+          },
+          "costs_ref": {
+            "bytes": 122968,
+            "sha256": "7db80f94e6a89793a10617f1a6e14c4fbd836b6f7c142fa6b24844d7a18ee4c9"
+          },
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s504-Native1",
+          "metrics": {
+            "AUDC": 0.93,
+            "SUN": 9,
+            "mSUN": 0.9
+          },
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr",
+          "whole_job_wall_seconds": 814.5271942857653
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s504",
+      "seed": 504,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s505-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "active_or_claimed",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": {
+            "bytes": 122963,
+            "sha256": "0a749cf2b4d502d2e5a853f2a4e34cb18046cd4d0747830d309766d850e8a94d"
+          },
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "completion_tokens": 3758,
+            "graph_seconds": 0,
+            "initialization_oracle_attempts": 96,
+            "initialization_wall_seconds": 200.87891819886863,
+            "llm_calls": 29,
+            "prompt_tokens": 67906,
+            "rpc_attempts": 58,
+            "score_sentinels": 11,
+            "step_attempts": 10,
+            "surrogate_oracle_attempts": 11,
+            "tool_attempts": 29,
+            "wall_seconds": 550.3966146018356
+          },
+          "costs_ref": {
+            "bytes": 122963,
+            "sha256": "0a749cf2b4d502d2e5a853f2a4e34cb18046cd4d0747830d309766d850e8a94d"
+          },
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s505-Native1",
+          "metrics": {
+            "AUDC": 0.84,
+            "SUN": 8,
+            "mSUN": 0.8
+          },
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr",
+          "whole_job_wall_seconds": 903.1761318137869
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s505",
+      "seed": 505,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s506-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s506-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s506",
+      "seed": 506,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s507-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s507-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s507",
+      "seed": 507,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s508-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s508-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s508",
+      "seed": 508,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s509-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s509-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s509",
+      "seed": 509,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s510-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s510-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 10,
+      "pair_id": "made-core-Mg-Sn-Sr-b10-s510",
+      "seed": 510,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s501-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s501-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s501",
+      "seed": 501,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s502-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s502-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s502",
+      "seed": 502,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s503-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s503-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s503",
+      "seed": 503,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s504-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s504-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s504",
+      "seed": 504,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s505-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s505-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s505",
+      "seed": 505,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s506-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s506-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s506",
+      "seed": 506,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s507-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s507-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s507",
+      "seed": 507,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s508-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s508-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s508",
+      "seed": 508,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s509-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s509-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s509",
+      "seed": 509,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s510-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s510-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Au-K-Tb-b20-s510",
+      "seed": 510,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s501-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s501-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s501",
+      "seed": 501,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s502-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s502-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s502",
+      "seed": 502,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s503-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s503-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s503",
+      "seed": 503,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s504-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s504-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s504",
+      "seed": 504,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s505-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s505-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s505",
+      "seed": 505,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s506-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s506-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s506",
+      "seed": 506,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s507-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s507-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s507",
+      "seed": 507,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s508-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s508-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s508",
+      "seed": 508,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s509-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s509-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s509",
+      "seed": 509,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s510-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s510-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "pair_id": "made-core-Mg-Sn-Sr-b20-s510",
+      "seed": 510,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s501-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s501-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s501",
+      "seed": 501,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s502-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s502-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s502",
+      "seed": 502,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s503-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s503-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s503",
+      "seed": 503,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s504-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s504-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s504",
+      "seed": 504,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s505-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s505-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s505",
+      "seed": 505,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s506-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s506-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s506",
+      "seed": 506,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s507-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s507-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s507",
+      "seed": 507,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s508-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s508-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s508",
+      "seed": 508,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s509-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s509-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s509",
+      "seed": 509,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s510-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Au-K-Tb-b30-s510-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Au-K-Tb-b30-s510",
+      "seed": 510,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s501-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s501-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 501,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s501",
+      "seed": 501,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s502-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s502-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 502,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s502",
+      "seed": 502,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s503-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s503-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 503,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s503",
+      "seed": 503,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s504-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s504-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 504,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s504",
+      "seed": 504,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s505-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s505-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 505,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s505",
+      "seed": 505,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s506-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s506-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 506,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s506",
+      "seed": 506,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s507-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s507-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 507,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s507",
+      "seed": 507,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s508-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s508-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 508,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s508",
+      "seed": 508,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s509-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s509-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 509,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s509",
+      "seed": 509,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2_minus_Native1": null,
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s510-ActionPool2",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": false,
+          "arm": "Native1",
+          "budget": 30,
+          "completion_ref": null,
+          "costs_ref": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b30-s510-Native1",
+          "metrics": null,
+          "origin": "new_v2",
+          "seed": 510,
+          "state": "pending",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 30,
+      "pair_id": "made-core-Mg-Sn-Sr-b30-s510",
+      "seed": 510,
+      "task_id": "Mg-Sn-Sr"
+    }
+  ],
+  "provenance_file": "provenance.json",
+  "schema": "MADE_core_v2_global_fixed_nine_pairs_snapshot",
+  "seed501_only_Common2_checks": [
+    {
+      "ActionPool2": {
+        "accepted": true,
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_ref": {
+          "bytes": 122812,
+          "sha256": "b5af36b3955146d4298141916f91d0531115b585f17a832174ef727c43618b17"
+        },
+        "costs": {
+          "candidate_oracle_attempts": 10,
+          "completion_tokens": 4487,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 11,
+          "initialization_wall_seconds": 31.857821306679398,
+          "llm_calls": 30,
+          "prompt_tokens": 68268,
+          "rpc_attempts": 30,
+          "step_attempts": 10,
+          "surrogate_oracle_attempts": 3,
+          "tool_attempts": 15,
+          "wall_seconds": 539.6751457401551
+        },
+        "costs_ref": {
+          "bytes": 122812,
+          "sha256": "b5af36b3955146d4298141916f91d0531115b585f17a832174ef727c43618b17"
+        },
+        "job_id": "made-core-v2-Au-K-Tb-b10-s501-ActionPool2",
+        "metrics": {
+          "AUDC": 0.17,
+          "SUN": 1,
+          "mSUN": 0.1
+        },
+        "origin": "new_v2",
+        "seed": 501,
+        "state": "accepted",
+        "task_id": "Au-K-Tb",
+        "whole_job_wall_seconds": 705.2867998550646
+      },
+      "Common2": {
+        "completion": {
+          "bytes": 122844,
+          "sha256": "3a070b629c109924deae7be36e358c888e33fce4010b606ceefcd6ef8aaa40ec"
+        },
+        "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Common2",
+        "metrics": {
+          "AUDC": 0.39,
+          "SUN": 3.0,
+          "mSUN": 0.3
+        }
+      },
+      "Common2_uses_internal_risk": false,
+      "budget": 10,
+      "difference": {
+        "AUDC": -0.22,
+        "SUN": -2.0
+      },
+      "seed": 501,
+      "task": "Au-K-Tb"
+    },
+    {
+      "ActionPool2": {
+        "accepted": true,
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_ref": {
+          "bytes": 122987,
+          "sha256": "3414e6f4561fa2c7613aac7cc6dd8ff06846efc1672e29dc506cb7a61c8150d7"
+        },
+        "costs": {
+          "candidate_oracle_attempts": 10,
+          "completion_tokens": 5233,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 96,
+          "initialization_wall_seconds": 179.27131793648005,
+          "llm_calls": 36,
+          "prompt_tokens": 76978,
+          "rpc_attempts": 36,
+          "score_sentinels": 24,
+          "step_attempts": 10,
+          "surrogate_oracle_attempts": 24,
+          "tool_attempts": 18,
+          "wall_seconds": 623.5379398670048
+        },
+        "costs_ref": {
+          "bytes": 122987,
+          "sha256": "3414e6f4561fa2c7613aac7cc6dd8ff06846efc1672e29dc506cb7a61c8150d7"
+        },
+        "job_id": "made-core-v2-Mg-Sn-Sr-b10-s501-ActionPool2",
+        "metrics": {
+          "AUDC": 0.95,
+          "SUN": 9,
+          "mSUN": 0.9
+        },
+        "origin": "new_v2",
+        "seed": 501,
+        "state": "accepted",
+        "task_id": "Mg-Sn-Sr",
+        "whole_job_wall_seconds": 934.9004465686157
+      },
+      "Common2": {
+        "completion": {
+          "bytes": 122905,
+          "sha256": "764682616701e629d553d9bdd511103122de6c885af7b99479040f28ab755c5d"
+        },
+        "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Common2",
+        "metrics": {
+          "AUDC": 0.93,
+          "SUN": 9.0,
+          "mSUN": 0.9
+        }
+      },
+      "Common2_uses_internal_risk": false,
+      "budget": 10,
+      "difference": {
+        "AUDC": 0.019999999999999907,
+        "SUN": 0.0
+      },
+      "seed": 501,
+      "task": "Mg-Sn-Sr"
+    }
+  ],
+  "shared_resource_metadata": {
+    "core240_go": {
+      "completion": {
+        "exists": false
+      },
+      "directory_exists": false,
+      "failure": {
+        "exists": false
+      },
+      "heartbeat": {
+        "exists": false
+      },
+      "intent": {
+        "exists": false
+      },
+      "return": {
+        "exists": false
+      },
+      "spawn": {
+        "exists": false
+      },
+      "start": {
+        "exists": false
+      }
+    },
+    "hfeno_v2": {
+      "completion": {
+        "exists": false
+      },
+      "directory_exists": false,
+      "failure": {
+        "exists": false
+      },
+      "heartbeat": {
+        "exists": false
+      },
+      "intent": {
+        "exists": false
+      },
+      "return": {
+        "exists": false
+      },
+      "spawn": {
+        "exists": false
+      },
+      "start": {
+        "exists": false
+      }
+    }
+  },
+  "shared_resource_metadata_is_not_GPU_liveness": true,
+  "statistical_significance_claimed": false,
+  "two_previously_examined_chemistries": true,
+  "uncertainty_net_increment_established": false
+}
