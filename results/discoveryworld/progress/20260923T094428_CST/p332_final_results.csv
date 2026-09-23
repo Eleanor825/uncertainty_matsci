@@ -1,0 +1,4 @@
+condition,status,attempts,task_score,task_success,official_action_failures,adapter_rejections,failure_fraction,F,proposals,candidate_graphs,executed_changes_from_first,supported_rank_changes,row_sha256
+Native1,closed,30,0.0,False,29,0,0.9666666666666667,-0.09666666666666668,30,0,0,0,d770b2d6f8f3e6cbfe8e4089387a15784a0b3684ec8b5f1823edbf52c9e0198c
+Common2,closed,30,0.125,False,9,0,0.3,0.095,60,60,7,0,ded211cf925a2d5e28703871f63464b5408907ce36a6b1e111a7b2086ec45e84
+Internal_combined,closed,30,0.125,False,20,0,0.6666666666666666,0.058333333333333334,60,60,7,10,14c67a5af20424a6e44a3efa08201c1b493a003677b2bde3d5c801982d2317cd

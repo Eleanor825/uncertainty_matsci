@@ -1,0 +1,83 @@
+{
+  "analysis_rechecked_before_new_outcome_receipt": true,
+  "existing_manifest_entries": 1248,
+  "full_history_rehash_performed": false,
+  "immutable_analysis_plan_sha256": "465801d80dacb354b778fd5cefe6c619d1ce8e02d09f611938fb48fb7e1e33aa",
+  "immutable_plan_commit": "cc35ccee3623296c6debd800f3297611f8833873",
+  "native7_completion": {
+    "bytes": 23075,
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/native_nograph_return_enrichment_v1/runs/v1/groups/all/completion.json",
+    "sha256": "4199518ca4a0889172cf7cacabc6786c041faf7a8e24603c13ae7d89d4fe5ca1"
+  },
+  "native7_dataset": {
+    "bytes": 909882,
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/native_nograph_return_enrichment_v1/runs/v1/dataset.json",
+    "sha256": "e74b293e9905cdb1aca2617eadcada587a4636bd9a145c8cd872a6d0c4291e63"
+  },
+  "native7_registry": {
+    "bytes": 151009,
+    "commit": "513f3fa7c3025898e6f133c4e52b5c9969d20ead",
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/native_nograph_return_enrichment_v1/registrations/v1/registry.json",
+    "sha256": "7e1110e142c8898524ffa3b8e5f6367ef44df28386b7a70fdc3949380b256a11"
+  },
+  "native7_resource": {
+    "bytes": 2656,
+    "relative_path": "benchmark_extensions/dw_native_nograph_secondary_resource_v1/runs/v1/completion.json",
+    "sha256": "64303f66dfd4c4336b31ff21617e0861444c70b6ff5a082a08c675752b4c4888"
+  },
+  "new_scientific_calls": 0,
+  "no_raw_prompts_or_runtime_identities_published": true,
+  "p332_completion": {
+    "bytes": 440245,
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/refresh_confirmation_p332_v1/runs/v1/groups/all/completion.json",
+    "sha256": "59389824d20e3aa85c26526f39b7692de7a9740ff23be779a68abbb53b9d42d3"
+  },
+  "p332_registry": {
+    "bytes": 241276,
+    "commit": "f257f81b398c590b47f9d23d9e19ea7fecf4ae60",
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/refresh_confirmation_p332_v1/registrations/development_v1/registry.json",
+    "sha256": "d061875ad94dd0066e8f3981f9e26cad175b81f0036a1b080b535e6dcd7fde78"
+  },
+  "p332_resource_completion": {
+    "bytes": 1304,
+    "relative_path": "benchmark_extensions/dw_p332_confirmation_resource_v1/runs/v1/completion.json",
+    "sha256": "ef93f40d0fa1b4e634c5e5d057fa3dbf9401fe757c776641de4e2aa46e3ab2fe"
+  },
+  "p335_registry": {
+    "bytes": 238233,
+    "commit": "cfd0f93e352cbb7747f0d1fe46e21c36956bc55e",
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/registrations/development_v1/registry.json",
+    "sha256": "8e2bafe22bf93f76db4360a67f6e8f532ec77c5cf7e26b2206d91158dfb57126"
+  },
+  "previous_git_commit": "d5af199c53a2a9bb1b46fdd7d16848e0f0d72739",
+  "previous_manifest_sha256": "15888111ee1320e7d0c53b6ab58d2fa0d62e1bce8d783b54b1c533a739e2df3d",
+  "schema": "incremental_verified_closed_publication_v1",
+  "source_checkpoint_hashes_reused_from_seals_not_reloaded_for_publication": true,
+  "source_receipts": [
+    {
+      "bytes": 802809,
+      "id": "p335_native7_utility_deep_export",
+      "reader_source_sha256": "02aab54d7352dc7f716834096aab41e36af7db5581b4ba650bf0451e3065dc0c",
+      "sha256": "09ff1ee25c358e55dc4e3678740011afcd4dda2456e897403398c3ac4d064269"
+    },
+    {
+      "bytes": 13383,
+      "id": "p332_final",
+      "reader_source_sha256": "731c23e8c8b195523aa31f560ce3bd8fb9a517547dc44ac7ec506b7f82276de2",
+      "sha256": "cd5dba51dec01ea8080bc7ead793d1b08d3eff0697a94fb2120b5f52215066f1"
+    }
+  ],
+  "utility_prospective_plan": {
+    "bytes": 9701,
+    "commit": "16d9bb0fff9663863d14f262d9ce7ef53f270082",
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/combined_nograph_return_fit_v1/registrations/plan_v1/registry.json",
+    "sha256": "fa6ed3b5e4ded4c8a6edf6d16f9c024d9e67cff5df1759a74154e46488ae3bc2"
+  },
+  "utility_registry": {
+    "bytes": 54241,
+    "commit": "aa0ba728b657c74bede613b09408de0a805d5655",
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/combined_nograph_return_fit_v1/registrations/execution_v1/registry.json",
+    "sha256": "96fedd4cb7a28784fd0f8e16b9549c873baa615195c0a02dae7c46c8d6b8896a"
+  },
+  "validation_scope": "New bundle and changed indexes only; all other old manifest entries retained verbatim"
+}

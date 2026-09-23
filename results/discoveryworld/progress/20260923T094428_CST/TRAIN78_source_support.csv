@@ -1,0 +1,11 @@
+source_policy_seed,eligible_rows,positive_R8_rows,zero_R8_rows,negative_R8_rows,sampling_scheme
+101,12,0,12,0,original_independent_observed_continuation
+102,12,4,8,0,original_independent_observed_continuation
+103,12,0,12,0,original_independent_observed_continuation
+104,6,0,6,0,new_native_B100_same_trajectory_subwindow
+105,6,0,6,0,new_native_B100_same_trajectory_subwindow
+106,6,2,4,0,new_native_B100_same_trajectory_subwindow
+107,6,2,4,0,new_native_B100_same_trajectory_subwindow
+108,6,1,5,0,new_native_B100_same_trajectory_subwindow
+109,6,3,3,0,new_native_B100_same_trajectory_subwindow
+110,6,0,6,0,new_native_B100_same_trajectory_subwindow

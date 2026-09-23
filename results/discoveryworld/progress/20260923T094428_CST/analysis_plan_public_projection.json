@@ -1,0 +1,129 @@
+{
+  "UTC_source": "clock__curr_time",
+  "created_UTC": "2026-09-22 21:37:17 UTC",
+  "later_deployment_evidence": {
+    "CPU_follower_only": true,
+    "follower_started_UTC": "2026-09-22T21:30:03.597473+00:00",
+    "source": {
+      "bytes": 3017,
+      "relative_path": "experiments/autoresearch_20260922/operations/deploy_start_dw_p335_primary_follower_v1_primary_1790112607673783000.json",
+      "sha256": "61c5dacf01a982cddbf652670fa26b7047fbf7e1d91d8752040a370a2b403d2f"
+    },
+    "wrapper_new_scientific_calls": 0
+  },
+  "limitations": [
+    "One world2 development seed, not a confirmatory or heldout efficacy study.",
+    "Fixed warm arm order confounds latency with run order/system variation; report descriptive wall time only.",
+    "Native1 differs from conditional methods in feedback, proposals and internal capture; primary comparison measures the complete intervention rather than NN alone.",
+    "NoGraph means original hidden/sampling/action statistics with3forwards/capture; it is not a CRV attribution graph.",
+    "The NN estimates next-action failure, not long-horizon task utility. This experiment does not train policy weights or ES.",
+    "The .5 threshold triggers a second proposal in conditional arms; it is not a hard feasible-set exclusion. First candidate remains selectable.",
+    "Prompt request for a different packet is not enforced as rejection; matching uses exact parsed JSON, not semantic equivalence or unchanged hidden state.",
+    "Old offline NoGraph metrics motivated a new exploratory diagnostic; they do not establish online benefit or internal-signal causality.",
+    "Task score is primary; reduced action error without score gain is not success on the primary endpoint."
+  ],
+  "planned_mechanism_contrasts": [
+    {
+      "contrast": "ExplicitRepeatRisk minus NoGraphRisk",
+      "endpoint": "same official task score",
+      "interpretation": "same frozen NoGraph predictor, temperature, conditional threshold0.5 and selection rule; intervention is the explicit feedback package, including distinct-packet request and prioritization of a matching past failure",
+      "name": "feedback_package",
+      "not_identified": "does not isolate the matching-failure excerpt alone, or create a same-hidden-state counterfactual"
+    },
+    {
+      "contrast": "ExplicitRepeatInternal2 minus ExplicitRepeatCommon2",
+      "endpoint": "same official task score",
+      "interpretation": "same fixed-two proposal rule, explicit feedback, capture procedure and shadow risk computation; selector differs: lower frozen risk versus original hash",
+      "name": "equal_nominal_compute_ranking",
+      "not_identified": "actual later histories/prefix lengths/candidate pools/latencies may diverge; not graph causal effect or exact wall-clock matching"
+    }
+  ],
+  "primary": {
+    "contrast": "ExplicitRepeatRisk minus Native1",
+    "direction": "higher is better",
+    "endpoint": "official final_score_normalized at B30 or official natural terminal",
+    "estimator": "one paired final-score difference; retain each raw score",
+    "source": "each accepted result.environment_summary SHA-bound summary.json; cross-check fitness.scoreNormalized/source_summary",
+    "success_rule": "Only a strictly positive observed score difference is a task-score improvement for this one development case. Equal score is no task-score improvement even if failures or latency improve."
+  },
+  "prior_no_online_evidence": {
+    "at_that_observation_p335_registered": false,
+    "observed_UTC": "2026-09-22T21:26:38.593483+00:00",
+    "observed_unix": 1790112398.5934827,
+    "p335_closed_conditions": [],
+    "p335_completion": null,
+    "p335_started": false,
+    "source": {
+      "bytes": 5156,
+      "relative_path": "experiments/autoresearch_20260922/operations/observe_dw_fast_method_pipeline_v1_primary_1790112398988395000.json",
+      "sha256": "bc50ae06d98680809cba196784a3b6aa668d6e0c8fc015559145474922323c76"
+    }
+  },
+  "resource_registry": {
+    "bytes": 6651,
+    "commit": "312e1602d962ea3ed1fb91698c777471b7a11d40",
+    "relative_path": "benchmark_extensions/dw_p335_primary_after_no_graph_v1/registration_v1/registry.json",
+    "sha256": "23b71f92000845df84fa93cb74dba56d372ce4ba7155a94de121faf4d4ea1e89"
+  },
+  "retention_and_analysis": {
+    "all_five_retained": true,
+    "all_results_reported_regardless_of_primary_sign": true,
+    "analysis_checks": [
+      "source and registration SHA/Git identity; all5 ordered job IDs",
+      "each accepted raw summary/events/RPC closure",
+      "actual original G0 and frozen NoGraph tensor/calibration identity",
+      "same initial public prompt and common proposal0 seeds; audit proposal1 seed equality where both generated",
+      "own fresh8 qualification and no candidate full graph/assemble",
+      "all budgets and final wholePG/subtree/CUDA/dual-lease closure"
+    ],
+    "failed_unknown": "preserve reason/cost and leave unknown score null; do not impute0, drop an arm, rerun or substitute a seed",
+    "final_report_requires_all_five_terminal_states_and_resource_closure": true,
+    "no_model_threshold_seed_or_budget_changes": true,
+    "no_p_value_or_confidence_interval_from_one_pair": true,
+    "no_winner_picking_or_new_primary": true,
+    "partial_report": "label interim with explicit completed/pending/failed counts; never stop/alter execution based on a partial metric",
+    "single_seed_variance": null,
+    "steps_not_independent_replicates": true
+  },
+  "schema": "dw_p335_separate_prospective_analysis_plan_v1",
+  "science_manifest": {
+    "bytes": 4322,
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/source_manifest.json",
+    "sha256": "cec3dbf1936f8e9b7aeb18171dbfba5a0e815737542ca25e04e3e972ef28c4a0"
+  },
+  "science_package_sha256": "b918fa6d66ea1995ede6a73c5b1d0158e3165ded1b0cd4c2baea72a75c66c130",
+  "scientific_registry": {
+    "bytes": 238233,
+    "commit": "cfd0f93e352cbb7747f0d1fe46e21c36956bc55e",
+    "relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/registrations/development_v1/registry.json",
+    "sha256": "8e2bafe22bf93f76db4360a67f6e8f532ec77c5cf7e26b2206d91158dfb57126"
+  },
+  "scope": {
+    "budget": 30,
+    "candidate_graphs": 0,
+    "conditions_in_registered_order": [
+      "Native1",
+      "NoGraphRisk",
+      "ExplicitRepeatRisk",
+      "ExplicitRepeatCommon2",
+      "ExplicitRepeatInternal2"
+    ],
+    "confirmatory": false,
+    "max_NoGraph_captures": 240,
+    "max_capture_forwards": 720,
+    "max_environment_attempts": 150,
+    "max_proposals": 270,
+    "new_NN_or_policy_training": 0,
+    "policy_seed": 335,
+    "world": 2
+  },
+  "secondary": {
+    "cost": "actual attempts, candidate_count, NoGraph capture/forward counts, supported fractions and explicit feedback applications",
+    "failures": "official action failures and adapter/parser rejections separately, plus their sum/actual agent attempts; no forced B30 denominator after natural early terminal",
+    "latency": "episode_intent to episode_returned timestamps in original group events, including postepisode audit/serialization; cold model/NN/bank/qualification setup reported separately from model_load_intent to first episode_intent, never charged solely to first Native1",
+    "mechanism": "matching_prior_failures/augmentation availability; second packet diversity, selected packet changes, exact repeated failed actions, official positive score transitions, and shadow ranking changes; no invented outcome for an unexecuted candidate",
+    "official_task_success": "summary.success, reported as a separate paired Boolean outcome"
+  },
+  "status": "fixed_before_any_p335_outcome_access_by_this_reviewer",
+  "temporal_limit": "No later remote runtime observation was performed by this reviewer. The prior snapshot proves zero online only at its observation time; a follower spawn is not proof of either subsequent scientific execution or its absence. No p335 outcomes were inspected for this plan."
+}

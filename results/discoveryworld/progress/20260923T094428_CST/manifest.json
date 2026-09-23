@@ -1,0 +1,66 @@
+{
+  "files": {
+    "TRAIN78_all_rows.csv": {
+      "bytes": 23433,
+      "sha256": "ebc8d2df94b6a82351373be4555f426a648637d949f12901c56743a08fa931c0"
+    },
+    "TRAIN78_source_support.csv": {
+      "bytes": 644,
+      "sha256": "f6397e6eb1e17f667d02c03770fab338332d2b15c91025dbfa8a8fb0206b2cbf"
+    },
+    "analysis_plan_public_projection.json": {
+      "bytes": 8056,
+      "sha256": "7e18278224a09486478041a1ff6f29b248eecc2f97733b9fcd78dfa852056679"
+    },
+    "native7_all_results.csv": {
+      "bytes": 703,
+      "sha256": "7c3e3f833ca73b8c68ce8a8b1142bd2c9e9367f0036bbadb262f1eba02aae69e"
+    },
+    "p332_final_results.csv": {
+      "bytes": 629,
+      "sha256": "8cdfcd9ee622e17aae319c655cb39630cee47108682c63847e3d44c6445b84bc"
+    },
+    "p335_actions_all150.csv": {
+      "bytes": 61062,
+      "sha256": "5fbad0253f3b1444dc760d85cae30dd728b1dfe859396afe5b55ad9b2daffcf7"
+    },
+    "p335_evidence.json": {
+      "bytes": 248103,
+      "sha256": "b42e285489b626f65fd5d429aac1a91e52a7edc42f9258989a8e33239b9b939f"
+    },
+    "p335_results.csv": {
+      "bytes": 1584,
+      "sha256": "12c31890ee1edf73bfbc79178f7cd958d92e99c34d89cd1c12887520c50e5dfb"
+    },
+    "provenance.json": {
+      "bytes": 4441,
+      "sha256": "0ddd68483a2f158ff7b3dab26a39491de3bb22d22239a94a6edfb3731aabf597"
+    },
+    "report.md": {
+      "bytes": 9916,
+      "sha256": "798a98037efd04ca759fd6af3ebcff3bfd8baf04aa4a789090f9cf99d19d7831"
+    },
+    "snapshot.json": {
+      "bytes": 10923,
+      "sha256": "76384943c25484ff5a842682801772f3864f746465042253e8e4ea02c419b969"
+    },
+    "utility_all120_fold_metrics.csv": {
+      "bytes": 8106,
+      "sha256": "ba52aa81d5a91477b3a6eb880d6e9f70a91a92933254eee49d3f66e7ae780d02"
+    },
+    "utility_all12_grid.csv": {
+      "bytes": 1288,
+      "sha256": "96e12be6ce3b011bd824424a3a6a9a188235dd4a6674c9f9b88b4cd9649643df"
+    },
+    "utility_all_predictions_and_seals.json": {
+      "bytes": 275000,
+      "sha256": "6cb52e831ebf795c025c637b2c9168205fe0c51d355c5c1de320342f0bf57ba7"
+    },
+    "validate.py": {
+      "bytes": 2586,
+      "sha256": "08b731e39c14e9857f6aef3734623c2e20f67d9335cf38d3a1c37bdcbddcb7e0"
+    }
+  },
+  "schema": "dw_closed_p335_TRAIN78_incremental_manifest_v1",
+  "scientific_calls_for_export": 0
+}
