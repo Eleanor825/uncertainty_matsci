@@ -1,0 +1,194 @@
+{
+  "accepted_episodes": 10,
+  "actual_counts": {
+    "NoGraph_captures": 146,
+    "NoGraph_forward_intents": 394,
+    "NoGraph_forward_returns": 394,
+    "environment_attempts": 100,
+    "generated_proposals": 166
+  },
+  "all_task_scores_zero": true,
+  "budget": 10,
+  "budget_extension_metadata": {
+    "B10_outcomes_used_to_select_scope": false,
+    "B30_outcomes_already_observed": true,
+    "B30_prefix_reused_as_B10": false,
+    "budget_extension_selected_after_B30": true,
+    "fresh_environment_episodes_required": true,
+    "method_parameters_changed": false,
+    "new_budget": 10,
+    "new_holdout_claimed": false,
+    "new_hypothesis_preregistered_before_B30": false,
+    "new_job_namespace": "dw-explicit-repeat-nograph-world4-b10-extension-v1",
+    "parent_budget": 30,
+    "policy_seeds": [
+      336,
+      337
+    ],
+    "policy_seeds_previously_used": true,
+    "schema": "dw_observed_B30_followed_by_independent_B10_extension_v1",
+    "unused_seed_claimed": false,
+    "world_previously_used": true,
+    "world_seed": 4
+  },
+  "conditions": [
+    "Native1",
+    "NoGraphRisk",
+    "ExplicitRepeatRisk",
+    "ExplicitRepeatCommon2",
+    "ExplicitRepeatInternal2"
+  ],
+  "mutations": 0,
+  "new_holdout_claimed": false,
+  "new_scientific_calls": {
+    "GPU_queries": 0,
+    "LLM": 0,
+    "NN": 0,
+    "environment": 0,
+    "graphs": 0,
+    "training": 0
+  },
+  "observed_unix": 1790151849.1172814,
+  "original_Full_equivalence_claimed": false,
+  "policy_seeds": [
+    336,
+    337
+  ],
+  "qualification_costs": [
+    {
+      "completion": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p336-native/completion.json",
+        "bytes": 79418,
+        "sha256": "8e973d283955cb2373dda35a9bb946e6ba93f17f0117f05edc6340d24d82dcd3"
+      },
+      "episodes": 1,
+      "group": "p336-native",
+      "model_loads": 1,
+      "policy_parameter_updates": 0,
+      "qualification": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p336-native/G0_pair_qualification.json",
+        "bytes": 237828,
+        "sha256": "e7d03fb7b6a3af8f6b014c662949659540a5361e8d80761bcc5559342fe11b63"
+      },
+      "qualification_prefixes": 8,
+      "qualification_suites": 1
+    },
+    {
+      "completion": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p336-conditional/completion.json",
+        "bytes": 223851,
+        "sha256": "17b504aeadb31a36e7183cc8bca0aa6b88b5afe7e036c77c821409bb80e90086"
+      },
+      "episodes": 2,
+      "group": "p336-conditional",
+      "model_loads": 1,
+      "policy_parameter_updates": 0,
+      "qualification": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p336-conditional/G0_pair_qualification.json",
+        "bytes": 237828,
+        "sha256": "e0392dc3538366cf33b93d411b0466d8ad03d6508cd37af4b096adfabe8a2afb"
+      },
+      "qualification_prefixes": 8,
+      "qualification_suites": 1
+    },
+    {
+      "completion": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p336-fixed2/completion.json",
+        "bytes": 228912,
+        "sha256": "ab288d6e76cb0140221f12b891371a89e5c4a71a46c6cfba8ba506d0a7651d26"
+      },
+      "episodes": 2,
+      "group": "p336-fixed2",
+      "model_loads": 1,
+      "policy_parameter_updates": 0,
+      "qualification": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p336-fixed2/G0_pair_qualification.json",
+        "bytes": 237828,
+        "sha256": "660515250d4cbe7cd0cac315080bffaddca4beae1344ec33578bd6431b21d92a"
+      },
+      "qualification_prefixes": 8,
+      "qualification_suites": 1
+    },
+    {
+      "completion": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p337-native/completion.json",
+        "bytes": 79563,
+        "sha256": "d32ab8804905c2100ef0150f7f138d7fbdb5c26467de6da9b56b95fbd5ffb433"
+      },
+      "episodes": 1,
+      "group": "p337-native",
+      "model_loads": 1,
+      "policy_parameter_updates": 0,
+      "qualification": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p337-native/G0_pair_qualification.json",
+        "bytes": 237828,
+        "sha256": "d20c50ab6c46d6a824d93b5c02c7f24410b356afe02e0e6fa6c2bb11e6f61ba6"
+      },
+      "qualification_prefixes": 8,
+      "qualification_suites": 1
+    },
+    {
+      "completion": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p337-conditional/completion.json",
+        "bytes": 218166,
+        "sha256": "3769ebc4d7299eae06d44f75b9e197c22a1ff6448e66424f1c26e80f07ddfb67"
+      },
+      "episodes": 2,
+      "group": "p337-conditional",
+      "model_loads": 1,
+      "policy_parameter_updates": 0,
+      "qualification": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p337-conditional/G0_pair_qualification.json",
+        "bytes": 237828,
+        "sha256": "292f52034975d42fe69b7573bcdb5a7b4f68e1b2bab7c3267461b80a82b2902f"
+      },
+      "qualification_prefixes": 8,
+      "qualification_suites": 1
+    },
+    {
+      "completion": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p337-fixed2/completion.json",
+        "bytes": 229194,
+        "sha256": "98726c6cdb995563780a5db3958e8b2bacae78e23d0a5341c0b9e5e754c98af1"
+      },
+      "episodes": 2,
+      "group": "p337-fixed2",
+      "model_loads": 1,
+      "policy_parameter_updates": 0,
+      "qualification": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p337-fixed2/G0_pair_qualification.json",
+        "bytes": 237828,
+        "sha256": "516cfd9f9fb85fafb952852f75575d15e283046da96ea4af9138043f0628e377"
+      },
+      "qualification_prefixes": 8,
+      "qualification_suites": 1
+    }
+  ],
+  "raw_prompts_or_tokens_exported": false,
+  "read_only": true,
+  "registration": {
+    "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/registrations/b10_v1/registry.json",
+    "commit": "048bb021b0a75687a7fc20259e653e226de1f2a0",
+    "sha256": "0f675c61c51a1247f09ae499f8d2aa1c83299e26c0b3c01df8ac9c24fe0ccfc5"
+  },
+  "schema": "dw_B10_closed_public_summary_v1",
+  "source_export": {
+    "artifact": "experiments/autoresearch_20260922/operations/export_dw_B10_closed_results_v1_primary_1790151848707604000.json",
+    "operation_sha256": "3739267116529d0f32fb666a73d0344ac6e88302b081d563e4a86350a87dae9b",
+    "sha256": "5268483909fa8ef95f7310aa7515a63c24bf7b48004b55a4c788a856aec5f5f9"
+  },
+  "status": "complete",
+  "task_successes": 0,
+  "validation": {
+    "committed_registry_verified": true,
+    "existing_function": "aggregate.aggregate",
+    "launch_time_training_checkpoint_contract_rerun": false,
+    "metadata_files_read": 444,
+    "pinned_validator_sources_verified": true,
+    "raw_closure_recomputed": true,
+    "scientific_completion_seal_written": false,
+    "source_stability_checked": true
+  },
+  "weights_or_activations_read": false,
+  "world_seed": 4
+}

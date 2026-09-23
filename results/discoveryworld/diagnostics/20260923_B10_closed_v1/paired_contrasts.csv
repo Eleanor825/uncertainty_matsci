@@ -1,0 +1,9 @@
+policy_seed,left,right,registered_primary,direction,score_normalized_delta,F_delta,failure_count_delta,failure_fraction_delta,agent_attempts_delta,generated_proposals_delta,NoGraph_captures_delta,NoGraph_forward_intents_delta,NoGraph_forward_returns_delta,consecutive_failed_action_repeats_delta
+336,Native1,NoGraphRisk,false,right_minus_left,0.0,0.0,0,0.0,0,8,18,48,48,0
+336,NoGraphRisk,ExplicitRepeatRisk,false,right_minus_left,0.0,0.0,0,0.0,0,0,0,-2,-2,0
+336,Native1,ExplicitRepeatRisk,true,right_minus_left,0.0,0.0,0,0.0,0,8,18,46,46,0
+336,ExplicitRepeatCommon2,ExplicitRepeatInternal2,true,right_minus_left,0.0,0.0,0,0.0,0,0,0,0,0,0
+337,Native1,NoGraphRisk,false,right_minus_left,0.0,0.0,0,0.0,0,5,15,41,41,0
+337,NoGraphRisk,ExplicitRepeatRisk,false,right_minus_left,0.0,0.0,0,0.0,0,0,0,-1,-1,0
+337,Native1,ExplicitRepeatRisk,true,right_minus_left,0.0,0.0,0,0.0,0,5,15,40,40,0
+337,ExplicitRepeatCommon2,ExplicitRepeatInternal2,true,right_minus_left,0.0,-0.04000000000000001,4,0.39999999999999997,0,0,0,-5,-5,2

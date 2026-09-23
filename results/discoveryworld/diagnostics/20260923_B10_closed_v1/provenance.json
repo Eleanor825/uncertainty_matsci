@@ -1,0 +1,361 @@
+{
+  "budget_extension_metadata": {
+    "B10_outcomes_used_to_select_scope": false,
+    "B30_outcomes_already_observed": true,
+    "B30_prefix_reused_as_B10": false,
+    "budget_extension_selected_after_B30": true,
+    "fresh_environment_episodes_required": true,
+    "method_parameters_changed": false,
+    "new_budget": 10,
+    "new_holdout_claimed": false,
+    "new_hypothesis_preregistered_before_B30": false,
+    "new_job_namespace": "dw-explicit-repeat-nograph-world4-b10-extension-v1",
+    "parent_budget": 30,
+    "policy_seeds": [
+      336,
+      337
+    ],
+    "policy_seeds_previously_used": true,
+    "schema": "dw_observed_B30_followed_by_independent_B10_extension_v1",
+    "unused_seed_claimed": false,
+    "world_previously_used": true,
+    "world_seed": 4
+  },
+  "closed_groups": [
+    {
+      "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p336-native/completion.json",
+      "bytes": 79418,
+      "sha256": "8e973d283955cb2373dda35a9bb946e6ba93f17f0117f05edc6340d24d82dcd3"
+    },
+    {
+      "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p336-conditional/completion.json",
+      "bytes": 223851,
+      "sha256": "17b504aeadb31a36e7183cc8bca0aa6b88b5afe7e036c77c821409bb80e90086"
+    },
+    {
+      "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p336-fixed2/completion.json",
+      "bytes": 228912,
+      "sha256": "ab288d6e76cb0140221f12b891371a89e5c4a71a46c6cfba8ba506d0a7651d26"
+    },
+    {
+      "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p337-native/completion.json",
+      "bytes": 79563,
+      "sha256": "d32ab8804905c2100ef0150f7f138d7fbdb5c26467de6da9b56b95fbd5ffb433"
+    },
+    {
+      "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p337-conditional/completion.json",
+      "bytes": 218166,
+      "sha256": "3769ebc4d7299eae06d44f75b9e197c22a1ff6448e66424f1c26e80f07ddfb67"
+    },
+    {
+      "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/groups/p337-fixed2/completion.json",
+      "bytes": 229194,
+      "sha256": "98726c6cdb995563780a5db3958e8b2bacae78e23d0a5341c0b9e5e754c98af1"
+    }
+  ],
+  "episodes": [
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p336-b10-g0/environment/discoveryworld-v1-10b59c7e45158fad6b1022fa/events.jsonl",
+        "bytes": 89872,
+        "sha256": "51baca35000d2d7c519ff68bc61d0cbea7687b2c1b257c5744832583c5b552c5"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p336-b10-g0/environment/discoveryworld-v1-10b59c7e45158fad6b1022fa/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p336-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p336-b10-g0/policy_attempts.jsonl",
+        "bytes": 303905,
+        "sha256": "9bcd0a278b983651cdb20a338814a14b8869e87cbf44adfd9cf45b23e3db1d0f"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p336-b10-g0/result.json",
+        "bytes": 3355,
+        "sha256": "8398ed46b0ae7ea29bd7211c63d39087bb6375be8698f7884c2f4c17b25d6e52"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p336-b10-g0/environment/discoveryworld-v1-10b59c7e45158fad6b1022fa/summary.json",
+        "bytes": 1234,
+        "sha256": "73f415be9662e15c241cd08911ee35f77974f8d73b73ae89eb082bfd7aaf7735"
+      }
+    },
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p336-b10-g0/environment/discoveryworld-v1-56e442b3cf5641f9d1677bbb/events.jsonl",
+        "bytes": 89875,
+        "sha256": "5978110d1734bca64f2bff4a4ac40f498dc6dc38265042c6d26232a7e6a0fd02"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p336-b10-g0/environment/discoveryworld-v1-56e442b3cf5641f9d1677bbb/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p336-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p336-b10-g0/policy_attempts.jsonl",
+        "bytes": 3120288,
+        "sha256": "5d23fd66be5c275391a8147d41f6cc0fd163206daa0915a0d2502323e29e2a14"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p336-b10-g0/result.json",
+        "bytes": 3389,
+        "sha256": "ee59a940392cdc475bea9c2a0be28d28115fa3192ec49a77a9a4dcd03d488a8f"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p336-b10-g0/environment/discoveryworld-v1-56e442b3cf5641f9d1677bbb/summary.json",
+        "bytes": 1238,
+        "sha256": "7862ccf1daeb499be0b7e1587404856f6fe0ff50a9a47b6dfbf6a3ee9c1ec811"
+      }
+    },
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p336-b10-g0/environment/discoveryworld-v1-cdc22d61b84a89ee6b7bae11/events.jsonl",
+        "bytes": 89865,
+        "sha256": "8ac6ed0767e72cb5b57da44ba7e737516f16b2f0ff79dffafb34285acbcf8e0e"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p336-b10-g0/environment/discoveryworld-v1-cdc22d61b84a89ee6b7bae11/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p336-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p336-b10-g0/policy_attempts.jsonl",
+        "bytes": 3134636,
+        "sha256": "1ac92910a5a0dc7c88b6ee9cffc1dfe658fe7c2c021cda8fd3eafd9025abc8ee"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p336-b10-g0/result.json",
+        "bytes": 3445,
+        "sha256": "bc5081d7765be56c0b6c2fdaab3ecad8b848da45ac1cc8fbb4322c0b1bf3cd1b"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p336-b10-g0/environment/discoveryworld-v1-cdc22d61b84a89ee6b7bae11/summary.json",
+        "bytes": 1245,
+        "sha256": "14c1334d0e867855038e767e52b53afa4d3bd0492981c62fa216c24d20dc7143"
+      }
+    },
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p336-b10-g0/environment/discoveryworld-v1-1f4fd506720485472bca76b0/events.jsonl",
+        "bytes": 89496,
+        "sha256": "aea90bf9a3dbdefcd9b98b18be5d81d90235218d1b772dbca719583d86ed41fd"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p336-b10-g0/environment/discoveryworld-v1-1f4fd506720485472bca76b0/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p336-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p336-b10-g0/policy_attempts.jsonl",
+        "bytes": 3114787,
+        "sha256": "dd6c6483240f639ed356b8339cc6fdbda80d9558ff82fa4adcfe9bf057109e72"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p336-b10-g0/result.json",
+        "bytes": 3469,
+        "sha256": "4654f290b2c75108f6901d0a94078c1b9722b9f15e0708509df9fcd99120a1a6"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p336-b10-g0/environment/discoveryworld-v1-1f4fd506720485472bca76b0/summary.json",
+        "bytes": 1248,
+        "sha256": "03c44cd1d0219c3d01311067b9a5853e7f105ff89e5c2d1101da0e88f7e1fe19"
+      }
+    },
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p336-b10-g0/environment/discoveryworld-v1-56823f2d0974da25dfeaede2/events.jsonl",
+        "bytes": 89486,
+        "sha256": "29c7943e1f3e40c1dd03ff047e900e400117bbff18e955edeb17b2432b87fffd"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p336-b10-g0/environment/discoveryworld-v1-56823f2d0974da25dfeaede2/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p336-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p336-b10-g0/policy_attempts.jsonl",
+        "bytes": 3114823,
+        "sha256": "b502e009b0688c9787c0a10269ac28380a00a71d4e435b6805137eaf1a96412c"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p336-b10-g0/result.json",
+        "bytes": 3485,
+        "sha256": "609f7279bae09584716482628309b5e2cb4ec91aba56e2cc55a4a2005454e6ce"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p336-b10-g0/environment/discoveryworld-v1-56823f2d0974da25dfeaede2/summary.json",
+        "bytes": 1249,
+        "sha256": "ef6f3fd8ecfffb0853f271925db25dc32ad420f93f13f658990b0f90be6c05a2"
+      }
+    },
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p337-b10-g0/environment/discoveryworld-v1-832803378a1406c4040aba95/events.jsonl",
+        "bytes": 87334,
+        "sha256": "07724471409f410ca6ed9e9fc10f41c1959a79662825e01917913c39b47fb8ea"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p337-b10-g0/environment/discoveryworld-v1-832803378a1406c4040aba95/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p337-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p337-b10-g0/policy_attempts.jsonl",
+        "bytes": 292156,
+        "sha256": "6c436f3dd2cf6b459f8057f13cbb31dff54f6ecf74d9f54c801610222982a02c"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p337-b10-g0/result.json",
+        "bytes": 3356,
+        "sha256": "9a7b0c9b44d5f206a52dd77727e0769c0f777ba27550de36c41cef06601b163a"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-Native1-w4-p337-b10-g0/environment/discoveryworld-v1-832803378a1406c4040aba95/summary.json",
+        "bytes": 1235,
+        "sha256": "7d7cd34a78cdb87515a755ffde16093d5d748f74f2df845c5c3fdf1f07ce4316"
+      }
+    },
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p337-b10-g0/environment/discoveryworld-v1-78653d0c6dacb182646fa25c/events.jsonl",
+        "bytes": 87328,
+        "sha256": "f294e4c01f414adde4d77e4e33914b91119fc9fbf458af13b41b95c6eb8c6195"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p337-b10-g0/environment/discoveryworld-v1-78653d0c6dacb182646fa25c/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p337-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p337-b10-g0/policy_attempts.jsonl",
+        "bytes": 3100065,
+        "sha256": "8caca649f7807883ba6ee6367bc684e4090cdfe66a9cececc94510f858933407"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p337-b10-g0/result.json",
+        "bytes": 3389,
+        "sha256": "bccb82218c5bd547eaa78ff02db1b203c24a1ff370bd20d81bf2254f4e17f504"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-NoGraphRisk-w4-p337-b10-g0/environment/discoveryworld-v1-78653d0c6dacb182646fa25c/summary.json",
+        "bytes": 1238,
+        "sha256": "651e44f753d005879448b10cf7ad4e7c8c290b3befddf159f7760c9a080d2643"
+      }
+    },
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p337-b10-g0/environment/discoveryworld-v1-f624e6e0e44d8a249cbdf71f/events.jsonl",
+        "bytes": 87328,
+        "sha256": "58060151ae27e904122606b8134f8aef4968c97ccd81c85006c9e4496ee50512"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p337-b10-g0/environment/discoveryworld-v1-f624e6e0e44d8a249cbdf71f/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p337-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p337-b10-g0/policy_attempts.jsonl",
+        "bytes": 3108449,
+        "sha256": "3a22b6c2402be4615011ab181f1409862d8f33ac95df312183aeb7769156ca12"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p337-b10-g0/result.json",
+        "bytes": 3445,
+        "sha256": "85a3a7a2ed77de9784deaec0a42ac738b090057b657ea9673804ce97b77cbc38"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatRisk-w4-p337-b10-g0/environment/discoveryworld-v1-f624e6e0e44d8a249cbdf71f/summary.json",
+        "bytes": 1245,
+        "sha256": "c10f9adff71f31d5a3af3b252ea6969c5e78fc46f5c7c90af3a4b367e0450706"
+      }
+    },
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p337-b10-g0/environment/discoveryworld-v1-20d2aa8a15c9eb8b6e9f0323/events.jsonl",
+        "bytes": 84210,
+        "sha256": "2fffa43bb2584f7c4a93be8810dd72eb1bf788140e02792490b43b36e61a2e56"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p337-b10-g0/environment/discoveryworld-v1-20d2aa8a15c9eb8b6e9f0323/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p337-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p337-b10-g0/policy_attempts.jsonl",
+        "bytes": 3121228,
+        "sha256": "5f61e7c86e05d866837a7b69fbce02c3c88e6eafaa1d614328f9ef31f1f266ab"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p337-b10-g0/result.json",
+        "bytes": 3469,
+        "sha256": "741aadb315bb60cc15e9f10289c9b525264eb57b675ffe3c99b881fcdcff03d5"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatCommon2-w4-p337-b10-g0/environment/discoveryworld-v1-20d2aa8a15c9eb8b6e9f0323/summary.json",
+        "bytes": 1248,
+        "sha256": "d7b6e2bbd4ca7e99237871b47935b115c77a814217783dc8566f55b4a7ca03d5"
+      }
+    },
+    {
+      "environment_events": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p337-b10-g0/environment/discoveryworld-v1-ac4321b3114747247541a063/events.jsonl",
+        "bytes": 87519,
+        "sha256": "051d4e073f02b493a27f34ce4d9be6f68be31ef96a367c69343dead27febe678"
+      },
+      "evaluator": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p337-b10-g0/environment/discoveryworld-v1-ac4321b3114747247541a063/evaluator.jsonl",
+        "bytes": 2369,
+        "sha256": "fb8d6e79371d31717f5357c45e57e861bb28519d0037a5ecdbf0d5afc14ff019"
+      },
+      "job_id": "dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p337-b10-g0",
+      "policy_attempts": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p337-b10-g0/policy_attempts.jsonl",
+        "bytes": 3113359,
+        "sha256": "e19bc97b63f6640c1ab00bec474422aa53764a35a80cc9831635bd88acbbc48f"
+      },
+      "result": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p337-b10-g0/result.json",
+        "bytes": 3485,
+        "sha256": "296204bc202e7ef15a8f5654e8f2659703d1a8b507f2be7f76733afb0d373424"
+      },
+      "summary": {
+        "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-world4-b10-extension-v1-test-ExplicitRepeatInternal2-w4-p337-b10-g0/environment/discoveryworld-v1-ac4321b3114747247541a063/summary.json",
+        "bytes": 1250,
+        "sha256": "cfce54e245f3979b372f7694039e6e55e3e9bc50101d5d95b1f37282aae020d8"
+      }
+    }
+  ],
+  "registration": {
+    "artifact": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/registrations/b10_v1/registry.json",
+    "commit": "048bb021b0a75687a7fc20259e653e226de1f2a0",
+    "sha256": "0f675c61c51a1247f09ae499f8d2aa1c83299e26c0b3c01df8ac9c24fe0ccfc5"
+  },
+  "validator_sources": {
+    "experiments/discoveryworld_full_method_20260922/es_runner.py": "7f7d1d231d89f305195c2d3c4a0a3f9fa790eca671ffa9a473a75aa21844cd96",
+    "experiments/discoveryworld_full_method_20260922/policy/collect_episode.py": "e45e5ea2a8ff0c5a20a127644d5653d3c641445ef7869bb78bba24d8650c98a8",
+    "experiments/discoveryworld_full_method_20260922/policy/full_policy.py": "59206e67e637c1f46c5a43f73a72061962353c1ad24823466790884b7b234815",
+    "experiments/discoveryworld_full_method_20260922/risk_controller.py": "85d4710b2432bc0dfc7ba8047009d4ecd9ae511fbe6a60228333d576191b9760",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/after_dw_bank_v4/common.py": "61ff170a57fb0559fa3054cd8db5de5590be673387599b0a769bf31ca5dfb07e",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/after_dw_bank_v4/mathematical_reference.py": "e774f91d8d3c03f0fb8505dcdb7fd3aa882a50b0770e9a196f1585934947073a",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/after_dw_bank_v4/qualification.py": "d05d93fd92d08edaeb1dc6ea453a497c67e17cd60d162c243f7942b2f10918f5",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/aggregate.py": "b3c513af7010575b8642373c673791873fde7d03de30b77572b64899cd1551e0",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/backend.py": "ff5ef5d5122ce942e420a85dab2c49730fd242c68322c4c3ab1363ef7204c5e6",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/controller.py": "1aeb4c2667b783f591d0b0119fcbacae4072abf77c86c47581dafaab8a3a09e0",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/feedback.py": "e2c93935ec604a62c64752416b4057750af86078e4c89589422c546ca93cbc26",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runner.py": "24dc0923b6bd4e9252e5766f9622c2234850c6db97be22d978aff270e88e4e01",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/scope.py": "101d4f610723110917f4ea14bdadf6c1bb67cd37020d972718a28dc3e3b2ccb6",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/source_manifest.json": "9e2c726a5a9d42521ad369396f38974c56b6bbc0dd434833e7e4c0e039721248",
+    "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/scope.py": "3ed41c3572db74e068f993b91a5080a7b146e9486409f1410c27e8e4170acb11",
+    "experiments/discoveryworld_full_method_20260922/task_registry.py": "0b7707b313d37beeddc7d2cc211a93f75466a692b0ba017eedd5d9639ff88af8"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "files": {
+    "condition_seed_statistics.csv": {
+      "bytes": 3497,
+      "sha256": "98b8823d106a842b425aa475c0b5fabf61a2c929c12d680301530973c1b23464"
+    },
+    "episodes.csv": {
+      "bytes": 2602,
+      "sha256": "464c1543f22d3e2f94ba9c5f48b70fa699fcedfe44b4bf224c1dde85753a1ecd"
+    },
+    "paired_contrasts.csv": {
+      "bytes": 1015,
+      "sha256": "f7a57319ed3494678cb614ea8e35709d0404f2e5e31cfb464d0bb94b9ee72d68"
+    },
+    "paired_seed_statistics.csv": {
+      "bytes": 3595,
+      "sha256": "e8257c55544d7aaf2e86ebe32d91f9f73faa193e21a0aa88152da9b65697512d"
+    },
+    "provenance.json": {
+      "bytes": 28896,
+      "sha256": "176da920b8f181460e796c95952d4d3a30d7845b72ba31b47b4d3ecbac9084c9"
+    },
+    "report.md": {
+      "bytes": 4976,
+      "sha256": "0c5f129350512334dbf612bf177d53a96339e2d80c359db55956690ff01b49ce"
+    },
+    "summary.json": {
+      "bytes": 7926,
+      "sha256": "9caacd560b932e923d18fc20abb407fb1445657729779110180e017df3d3b8eb"
+    },
+    "validate.py": {
+      "bytes": 7047,
+      "sha256": "c14d8674f4104c7d7a9cf5f29d4ba6da18cacaef086f48ddc5a2795f7909f168"
+    }
+  },
+  "publication_derivation": {
+    "CSV_and_provenance": "byte-identical to verified remote export",
+    "report.md": "Adds outcome summary and descriptive seed variance table from the same verified export",
+    "summary.json": "Selected source and validation metadata only"
+  },
+  "schema": "dw_B10_closed_public_export_manifest_v1",
+  "scope": "closed independent B10 extension after observed B30; world4, five conditions, policy seeds336/337",
+  "source_export": {
+    "artifact": "experiments/autoresearch_20260922/operations/export_dw_B10_closed_results_v1_primary_1790151848707604000.json",
+    "operation_sha256": "3739267116529d0f32fb666a73d0344ac6e88302b081d563e4a86350a87dae9b",
+    "sha256": "5268483909fa8ef95f7310aa7515a63c24bf7b48004b55a4c788a856aec5f5f9"
+  },
+  "upstream_artifacts": {
+    "condition_seed_statistics.csv": {
+      "bytes": 3497,
+      "sha256": "98b8823d106a842b425aa475c0b5fabf61a2c929c12d680301530973c1b23464"
+    },
+    "episodes.csv": {
+      "bytes": 2602,
+      "sha256": "464c1543f22d3e2f94ba9c5f48b70fa699fcedfe44b4bf224c1dde85753a1ecd"
+    },
+    "paired_contrasts.csv": {
+      "bytes": 1015,
+      "sha256": "f7a57319ed3494678cb614ea8e35709d0404f2e5e31cfb464d0bb94b9ee72d68"
+    },
+    "paired_seed_statistics.csv": {
+      "bytes": 3595,
+      "sha256": "e8257c55544d7aaf2e86ebe32d91f9f73faa193e21a0aa88152da9b65697512d"
+    },
+    "provenance.json": {
+      "bytes": 28896,
+      "sha256": "176da920b8f181460e796c95952d4d3a30d7845b72ba31b47b4d3ecbac9084c9"
+    },
+    "report.md": {
+      "bytes": 3726,
+      "sha256": "b5459374c4944333b82b2d3c4d0a4b3c865dc5b50b645029b9faa9465cda0abb"
+    }
+  }
+}
