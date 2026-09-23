@@ -212,6 +212,15 @@
       }
     ],
     "mechanism_causal_effect_established": false,
+    "mechanism_qualification": {
+      "all_four_pairs_public_divergence_attempt": 14,
+      "causal_controller_effect_identified": false,
+      "conditional_nonfirst_selections": 0,
+      "environment_root_cause_established": false,
+      "matching_executed_prefix_length": 13,
+      "observed_CST": "2026-09-23T09:49:18.594827+08:00",
+      "source": "mechanism_audit.json"
+    },
     "policy_seed": 335,
     "resource_closed": true,
     "rows": [

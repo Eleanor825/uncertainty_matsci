@@ -1,0 +1,420 @@
+{
+  "common_attempt13_action": {
+    "action": "TELEPORT_TO_LOCATION",
+    "arg1": "Possible Animal Area 1"
+  },
+  "common_attempt13_official_success": true,
+  "conditions": [
+    {
+      "condition": "Native1",
+      "executed_packet_change_attempts": [],
+      "positive_score_transitions": [],
+      "source_refs": {
+        "arm_result": {
+          "bytes": 52244,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/groups/all/Native1_result.json",
+          "sha256": "85d01757b45a00e573dcf6786554ca8b1f99cc89c7dc2b17fdde8fed915066d9"
+        },
+        "attempts": {
+          "bytes": 862531,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-Native1-w2-p335-b30-g0/policy_attempts.jsonl",
+          "sha256": "69c003f717691e792be7f2602fc79ceef25c3c447358b90413fb4dbd79e3f6ea"
+        },
+        "environment_events": {
+          "bytes": 237678,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-Native1-w2-p335-b30-g0/environment/discoveryworld-v1-c2d3eec0a868027ac759f1c1/events.jsonl",
+          "sha256": "5e12d94945571be1b3a24131278881a3fa5f13066df03b014c20e002ec62e85f"
+        },
+        "evaluator": {
+          "bytes": 6729,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-Native1-w2-p335-b30-g0/environment/discoveryworld-v1-c2d3eec0a868027ac759f1c1/evaluator.jsonl",
+          "sha256": "ec35bc60730b788e55afcb40d328621795a6b608c8737f326620cb6c183178c3"
+        },
+        "summary": {
+          "bytes": 1265,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-Native1-w2-p335-b30-g0/environment/discoveryworld-v1-c2d3eec0a868027ac759f1c1/summary.json",
+          "sha256": "e59ec1613f6d0cc09221a03c58e9d0a1961cd3abc9e85526cae47b321bebc99f"
+        }
+      },
+      "summary": {
+        "attempts": 30,
+        "executed_action_changes": 0,
+        "failures": 4,
+        "final_score": 0.0,
+        "neural_revisions": 0,
+        "nonfirst_same_packet": 0,
+        "nonfirst_selections": 0,
+        "task_success": false
+      }
+    },
+    {
+      "condition": "NoGraphRisk",
+      "executed_packet_change_attempts": [],
+      "positive_score_transitions": [],
+      "source_refs": {
+        "arm_result": {
+          "bytes": 111601,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/groups/all/NoGraphRisk_result.json",
+          "sha256": "747bb695efd33e5e042512300e9130aa3b3d63f738c0b191a1ac6ddaefa8dfce"
+        },
+        "attempts": {
+          "bytes": 9240356,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-NoGraphRisk-w2-p335-b30-g0/policy_attempts.jsonl",
+          "sha256": "678de2c83ce03f1989fed8201e56db6c69969171b1e3f8e1b0228b24beaf4929"
+        },
+        "environment_events": {
+          "bytes": 229061,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-NoGraphRisk-w2-p335-b30-g0/environment/discoveryworld-v1-b09166b28f4c4b98224ed744/events.jsonl",
+          "sha256": "e5be65a9234e61dee256e758a9b62ac1bd01417a091cd52bd76cdd59ca04ee9e"
+        },
+        "evaluator": {
+          "bytes": 6729,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-NoGraphRisk-w2-p335-b30-g0/environment/discoveryworld-v1-b09166b28f4c4b98224ed744/evaluator.jsonl",
+          "sha256": "ec35bc60730b788e55afcb40d328621795a6b608c8737f326620cb6c183178c3"
+        },
+        "summary": {
+          "bytes": 1238,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-NoGraphRisk-w2-p335-b30-g0/environment/discoveryworld-v1-b09166b28f4c4b98224ed744/summary.json",
+          "sha256": "33d1e4bc2a4efbc8cbec2b1d7f7cb2d28eae5b38867a7030ded64d94262cad52"
+        }
+      },
+      "summary": {
+        "attempts": 30,
+        "executed_action_changes": 0,
+        "failures": 3,
+        "final_score": 0.0,
+        "neural_revisions": 4,
+        "nonfirst_same_packet": 0,
+        "nonfirst_selections": 0,
+        "task_success": false
+      }
+    },
+    {
+      "condition": "ExplicitRepeatRisk",
+      "executed_packet_change_attempts": [],
+      "positive_score_transitions": [
+        {
+          "attempt": 22,
+          "new_task_success": false,
+          "preceding_and_transition_attempts": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "previous_observed_attempt": 21,
+          "score_delta": 0.125
+        }
+      ],
+      "source_refs": {
+        "arm_result": {
+          "bytes": 111043,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/groups/all/ExplicitRepeatRisk_result.json",
+          "sha256": "7bacbce6831812742459bd70c14c9af0e0a8252506af97d23bef7d8443264e34"
+        },
+        "attempts": {
+          "bytes": 9271714,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatRisk-w2-p335-b30-g0/policy_attempts.jsonl",
+          "sha256": "c11cf6b0078b1fe5a9c4fc612dbdccf61a746523229413d2e796d2db5038f88b"
+        },
+        "environment_events": {
+          "bytes": 241057,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatRisk-w2-p335-b30-g0/environment/discoveryworld-v1-8e00cd0c6ad44e416cee5b76/events.jsonl",
+          "sha256": "61c119a3d1fc991d10dddbc6017c53e3a9e15a87c77a42b0f63f2ee3b8d247da"
+        },
+        "evaluator": {
+          "bytes": 6747,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatRisk-w2-p335-b30-g0/environment/discoveryworld-v1-8e00cd0c6ad44e416cee5b76/evaluator.jsonl",
+          "sha256": "8470394f150638531cc74b62cc85dce81f0e692a73284503596f4e30e2a60dae"
+        },
+        "summary": {
+          "bytes": 1278,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatRisk-w2-p335-b30-g0/environment/discoveryworld-v1-8e00cd0c6ad44e416cee5b76/summary.json",
+          "sha256": "35d93f77178b78f973190efae6e5f379cc8c083dfd2cf4f12cc2d8edc351757d"
+        }
+      },
+      "summary": {
+        "attempts": 30,
+        "executed_action_changes": 0,
+        "failures": 4,
+        "final_score": 0.125,
+        "neural_revisions": 3,
+        "nonfirst_same_packet": 0,
+        "nonfirst_selections": 0,
+        "task_success": false
+      }
+    },
+    {
+      "condition": "ExplicitRepeatCommon2",
+      "executed_packet_change_attempts": [
+        17,
+        19,
+        24,
+        25
+      ],
+      "positive_score_transitions": [],
+      "source_refs": {
+        "arm_result": {
+          "bytes": 137095,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/groups/all/ExplicitRepeatCommon2_result.json",
+          "sha256": "d0678cbaea1684cb305537b06494bb1e6042a9d0e29da8664b3cdc0e43e44416"
+        },
+        "attempts": {
+          "bytes": 9348779,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatCommon2-w2-p335-b30-g0/policy_attempts.jsonl",
+          "sha256": "78fbdddc066ffb601109e2eb9ca526a7dc046f36abdd07eefdcd8329b87c6abe"
+        },
+        "environment_events": {
+          "bytes": 235966,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatCommon2-w2-p335-b30-g0/environment/discoveryworld-v1-b4c7ee8120419efd972408fe/events.jsonl",
+          "sha256": "6a600900ca5c3550d14e3a2665277c4c2b272d3e95251256dee7a6833ed06bb7"
+        },
+        "evaluator": {
+          "bytes": 6729,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatCommon2-w2-p335-b30-g0/environment/discoveryworld-v1-b4c7ee8120419efd972408fe/evaluator.jsonl",
+          "sha256": "ec35bc60730b788e55afcb40d328621795a6b608c8737f326620cb6c183178c3"
+        },
+        "summary": {
+          "bytes": 1247,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatCommon2-w2-p335-b30-g0/environment/discoveryworld-v1-b4c7ee8120419efd972408fe/summary.json",
+          "sha256": "59d1a801cac98b754750f1e11b59b57a32685a4df5cbb129a7bfffb4c0a9a4b7"
+        }
+      },
+      "summary": {
+        "attempts": 30,
+        "executed_action_changes": 4,
+        "failures": 3,
+        "final_score": 0.0,
+        "neural_revisions": 0,
+        "nonfirst_same_packet": 5,
+        "nonfirst_selections": 9,
+        "task_success": false
+      }
+    },
+    {
+      "condition": "ExplicitRepeatInternal2",
+      "executed_packet_change_attempts": [
+        21,
+        23,
+        25,
+        28
+      ],
+      "positive_score_transitions": [
+        {
+          "attempt": 22,
+          "new_task_success": false,
+          "preceding_and_transition_attempts": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "previous_observed_attempt": 21,
+          "score_delta": 0.125
+        },
+        {
+          "attempt": 26,
+          "new_task_success": false,
+          "preceding_and_transition_attempts": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "previous_observed_attempt": 25,
+          "score_delta": 0.125
+        }
+      ],
+      "source_refs": {
+        "arm_result": {
+          "bytes": 137140,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/groups/all/ExplicitRepeatInternal2_result.json",
+          "sha256": "95f7c04f21d1ddec395a0480ef7f6ac1e90e4a248398814b0c517f47e2309564"
+        },
+        "attempts": {
+          "bytes": 9351134,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatInternal2-w2-p335-b30-g0/policy_attempts.jsonl",
+          "sha256": "394a4c4179ff678e9761895f789b07fdec6e59cc705e789635780cc16810be2f"
+        },
+        "environment_events": {
+          "bytes": 241043,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatInternal2-w2-p335-b30-g0/environment/discoveryworld-v1-955df26eb804a386b0ff6b9e/events.jsonl",
+          "sha256": "2a513469e7c40d5d1cb3069610a0b9fdc7ff09d0cf896a09689385182d3a536f"
+        },
+        "evaluator": {
+          "bytes": 6742,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatInternal2-w2-p335-b30-g0/environment/discoveryworld-v1-955df26eb804a386b0ff6b9e/evaluator.jsonl",
+          "sha256": "3dd2b345a0093a40040ef0c0a00a59acc43e73eda77d2e9f4cdccc3173e0953e"
+        },
+        "summary": {
+          "bytes": 1267,
+          "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/episodes/jobs/dw-explicit-repeat-nograph-v1-dev-ExplicitRepeatInternal2-w2-p335-b30-g0/environment/discoveryworld-v1-955df26eb804a386b0ff6b9e/summary.json",
+          "sha256": "8f1ccff8047cc35f77b236aac08e32790450760e355444a4cc75b2b8dc2aee4d"
+        }
+      },
+      "summary": {
+        "attempts": 30,
+        "executed_action_changes": 4,
+        "failures": 4,
+        "final_score": 0.25,
+        "neural_revisions": 0,
+        "nonfirst_same_packet": 1,
+        "nonfirst_selections": 5,
+        "task_success": false
+      }
+    }
+  ],
+  "controller_causal_benefit_established": false,
+  "exact_environment_divergence_root_cause": "unknown; initial hidden state and later stochastic/NPC dynamics are possibilities, not proven diagnoses",
+  "group_completion": {
+    "bytes": 596909,
+    "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/runs/v1/groups/all/completion.json",
+    "sha256": "b2bbcaf268c1421d382f946a261dcecf64cf48f4debc2f85285ec84efe65870a"
+  },
+  "new_scientific_calls": {
+    "GPU_queries": 0,
+    "LLM_forwards": 0,
+    "NN_forwards": 0,
+    "environment": 0,
+    "optimizer_updates": 0
+  },
+  "numeric_outcomes_or_primary_changed": false,
+  "observed_CST": "2026-09-23T09:49:18.594827+08:00",
+  "observed_unix": 1790128158.594827,
+  "pairs": [
+    {
+      "causal_controller_effect_identified": false,
+      "first_executed_action_difference_attempt": 14,
+      "first_public_and_prompt_difference_attempt": 14,
+      "first_public_diff_paths": [
+        ".ui.accessibleEnvironmentObjects [length]",
+        ".ui.accessibleEnvironmentObjects[1].description",
+        ".ui.accessibleEnvironmentObjects[1].name",
+        ".ui.accessibleEnvironmentObjects[1].uuid",
+        ".ui.nearbyObjects.objects.east [length]",
+        ".ui.nearbyObjects.objects.east[2].description",
+        ".ui.nearbyObjects.objects.east[2].name",
+        ".ui.nearbyObjects.objects.east[2].uuid",
+        ".ui.nearbyObjects.objects.same_location [length]",
+        ".ui.nearbyObjects.objects.same_location[0].description",
+        ".ui.nearbyObjects.objects.same_location[0].name",
+        ".ui.nearbyObjects.objects.same_location[0].uuid",
+        ".ui.nearbyObjects.objects.same_location[1].description",
+        ".ui.nearbyObjects.objects.same_location[1].name",
+        ".ui.nearbyObjects.objects.same_location[1].uuid"
+      ],
+      "left": "Native1",
+      "matching_executed_action_prompt_tokens_sampling_seeds_and_logprobs_prefix_length": 13,
+      "previous_executed_action_prefix_equal_at_first_public_difference": true,
+      "right": "NoGraphRisk",
+      "same_input_seed_runtime_but_different_completion_attempts": []
+    },
+    {
+      "causal_controller_effect_identified": false,
+      "first_executed_action_difference_attempt": 14,
+      "first_public_and_prompt_difference_attempt": 14,
+      "first_public_diff_paths": [
+        ".ui.nearbyObjects.objects.east [length]",
+        ".ui.nearbyObjects.objects.east[2].description",
+        ".ui.nearbyObjects.objects.east[2].name",
+        ".ui.nearbyObjects.objects.east[2].uuid",
+        ".ui.nearbyObjects.objects.south-west [length]",
+        ".ui.nearbyObjects.objects.south-west[6].description",
+        ".ui.nearbyObjects.objects.south-west[6].name",
+        ".ui.nearbyObjects.objects.south-west[6].uuid",
+        ".ui.nearbyObjects.objects.south-west[7].distance",
+        ".ui.nearbyObjects.objects.south-west[7].uuid",
+        ".ui.nearbyObjects.objects.south-west[8].distance",
+        ".ui.nearbyObjects.objects.south-west[8].uuid"
+      ],
+      "left": "NoGraphRisk",
+      "matching_executed_action_prompt_tokens_sampling_seeds_and_logprobs_prefix_length": 13,
+      "previous_executed_action_prefix_equal_at_first_public_difference": true,
+      "right": "ExplicitRepeatRisk",
+      "same_input_seed_runtime_but_different_completion_attempts": []
+    },
+    {
+      "causal_controller_effect_identified": false,
+      "first_executed_action_difference_attempt": 15,
+      "first_public_and_prompt_difference_attempt": 14,
+      "first_public_diff_paths": [
+        ".ui.accessibleEnvironmentObjects [length]",
+        ".ui.accessibleEnvironmentObjects[1].description",
+        ".ui.accessibleEnvironmentObjects[1].name",
+        ".ui.accessibleEnvironmentObjects[1].uuid",
+        ".ui.nearbyObjects.objects.same_location [length]",
+        ".ui.nearbyObjects.objects.same_location[0].description",
+        ".ui.nearbyObjects.objects.same_location[0].name",
+        ".ui.nearbyObjects.objects.same_location[0].uuid",
+        ".ui.nearbyObjects.objects.same_location[1].description",
+        ".ui.nearbyObjects.objects.same_location[1].name",
+        ".ui.nearbyObjects.objects.same_location[1].uuid",
+        ".ui.nearbyObjects.objects.south-west [length]",
+        ".ui.nearbyObjects.objects.south-west[6].description",
+        ".ui.nearbyObjects.objects.south-west[6].name",
+        ".ui.nearbyObjects.objects.south-west[6].uuid",
+        ".ui.nearbyObjects.objects.south-west[7].distance",
+        ".ui.nearbyObjects.objects.south-west[7].uuid",
+        ".ui.nearbyObjects.objects.south-west[8].distance",
+        ".ui.nearbyObjects.objects.south-west[8].uuid"
+      ],
+      "left": "Native1",
+      "matching_executed_action_prompt_tokens_sampling_seeds_and_logprobs_prefix_length": 13,
+      "previous_executed_action_prefix_equal_at_first_public_difference": true,
+      "right": "ExplicitRepeatRisk",
+      "same_input_seed_runtime_but_different_completion_attempts": []
+    },
+    {
+      "causal_controller_effect_identified": false,
+      "first_executed_action_difference_attempt": 14,
+      "first_public_and_prompt_difference_attempt": 14,
+      "first_public_diff_paths": [
+        ".ui.nearbyAgents.list_of_agents.spheroid uuid 23195 [length]"
+      ],
+      "left": "ExplicitRepeatCommon2",
+      "matching_executed_action_prompt_tokens_sampling_seeds_and_logprobs_prefix_length": 13,
+      "previous_executed_action_prefix_equal_at_first_public_difference": true,
+      "right": "ExplicitRepeatInternal2",
+      "same_input_seed_runtime_but_different_completion_attempts": []
+    }
+  ],
+  "python_hash_bug_established": false,
+  "schema": "dw_p335_environment_prefix_mismatch_mechanism_note_v1",
+  "scientific_source_refs": [
+    {
+      "bytes": 23518,
+      "project_relative_path": "experiments/discoveryworld_full_method_20260922/policy/collect_episode.py",
+      "sha256": "e45e5ea2a8ff0c5a20a127644d5653d3c641445ef7869bb78bba24d8650c98a8"
+    },
+    {
+      "bytes": 44530,
+      "project_relative_path": "experiments/discoveryworld_full_method_20260922/policy/full_policy.py",
+      "sha256": "59206e67e637c1f46c5a43f73a72061962353c1ad24823466790884b7b234815"
+    },
+    {
+      "bytes": 56979,
+      "project_relative_path": "benchmark_extensions/made_support_aware_method_20260919/frozen_src/matdiscovery/policy.py",
+      "sha256": "beb62b4d8d4bf9c9db4f3cb31db819f5f64f06fcfc827fd2c8fb8269c44aa495"
+    },
+    {
+      "bytes": 5787,
+      "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/no_graph_capture_preflight_v1/extractor.py",
+      "sha256": "9ccf124356d48ad372923170614aa9ecaa498dc72ebe0ffc495f9ffe924dd13c"
+    }
+  ],
+  "source_audit_bytes": 1438594,
+  "source_audit_sha256": "efe5739262da7fb8f94f4b152fa91325c05b5904ef6776722b7622a57d25d33d",
+  "source_facts": {
+    "each_generation_forks_and_reseeds_CPU_and_CUDA_rng": true,
+    "future_history_contains_only_executed_packet_and_public_result": true,
+    "proposal0_feedback_is_None": true,
+    "runtime_RNG_or_cache_state_not_saved": "Seed/configuration records are available; complete generator/cache snapshots are not. Equal recorded seed is not a bitwise runtime proof."
+  },
+  "source_manifest": {
+    "bytes": 4322,
+    "project_relative_path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_p335_v1/source_manifest.json",
+    "sha256": "cec3dbf1936f8e9b7aeb18171dbfba5a0e815737542ca25e04e3e972ef28c4a0"
+  },
+  "source_reader_sha256": "9116b58b6498b98bf4f7e770efded9bb352c266e6dabec351a87676191e0b31b",
+  "unexecuted_candidate_labels_inferred": false
+}
