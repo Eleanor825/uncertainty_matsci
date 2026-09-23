@@ -1,0 +1,38 @@
+{
+  "files": {
+    "accepted_metrics.json": {
+      "bytes": 28912,
+      "sha256": "0beee943ba88a903e6c2bad5da386a31f4c3b756d46c5816b3ab3263e52cd620"
+    },
+    "curves.json": {
+      "bytes": 16822,
+      "sha256": "fa8b9a9661a6d555d57bd2183f9821693944ecd2f918aff1572e58aef6c976dc"
+    },
+    "paired_comparisons.json": {
+      "bytes": 8230,
+      "sha256": "dbff7a62dcfe74a16304f29c640ca6f3c568e14c3eb558ad8fa6b3a936efaae4"
+    },
+    "report.md": {
+      "bytes": 10257,
+      "sha256": "e2c29ead93c7c1c9e4860b00c785ad81ba6fa2f92d0d0c38c4aeb48e284a042c"
+    },
+    "scientific_sha256.json": {
+      "bytes": 19576,
+      "sha256": "f83b9ae5e36ff5d98d8746bbb66995c37ba2f2e32596dc7f6d7e571aa5e885a2"
+    },
+    "snapshot.json": {
+      "bytes": 41329,
+      "sha256": "cce16ff6f6bfeb85fb6edf61746056082858b3ff618b5df8b380c933f862f2f8"
+    },
+    "summary.json": {
+      "bytes": 774,
+      "sha256": "34502259b413f731854e71da033207603cfd21d51e45a890bd4f8afeac443500"
+    },
+    "validate.py": {
+      "bytes": 4650,
+      "sha256": "c88153183e096e19202cec38e3ce092d739926c41d0ebb217aa1ac9bfd32f3c8"
+    }
+  },
+  "new_scientific_calls": 0,
+  "schema": "made_tiny20_fixed_snapshot_bundle_v1"
+}

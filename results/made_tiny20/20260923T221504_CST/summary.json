@@ -1,0 +1,31 @@
+{
+  "accepted": 19,
+  "accepted_candidate_oracle_attempts": 185,
+  "accepted_original": 11,
+  "accepted_recovery": 8,
+  "by_budget": {
+    "15": {
+      "accepted": 9,
+      "expected": 10
+    },
+    "5": {
+      "accepted": 10,
+      "expected": 10
+    }
+  },
+  "expected": 20,
+  "new_scientific_calls": 0,
+  "original_init_failures_preserved": 8,
+  "planned_candidate_oracle_attempts": 200,
+  "prior_snapshots_overlap_not_additive": true,
+  "schema": "made_tiny20_public_fixed_snapshot_v1",
+  "snapshot_CST": "2026-09-23T22:15:04.579396+08:00",
+  "snapshot_UTC": "2026-09-23T14:15:04.579396+00:00",
+  "snapshot_is_not_a_live_monitor": true,
+  "status_counts": {
+    "accepted_original": 11,
+    "accepted_recovery": 8,
+    "claimed_or_running": 1
+  },
+  "unfinished": 1
+}

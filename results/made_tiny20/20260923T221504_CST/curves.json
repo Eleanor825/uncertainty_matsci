@@ -1,0 +1,1084 @@
+[
+  {
+    "arm": "Native",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Native",
+    "result_ref": {
+      "bytes": 131030,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Native/attempt_1/result.json",
+      "sha256": "79a162aa941c833eb83ec69b02f52250225b35c3a1db6c2739a9a9ff9298e446"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "G0GraphRisk",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G0GraphRisk",
+    "result_ref": {
+      "bytes": 1481583,
+      "path": "technical_not_main/made_tiny20_zero_init_repair_20260923_v1/run_v1/attempts/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G0GraphRisk/attempt_1/result.json",
+      "sha256": "11e1126d8da3a36cfecbf1bdd55b529c67c75d22a146c370e5c6023b32078756"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "G2ControllerOff",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2ControllerOff",
+    "result_ref": {
+      "bytes": 2950100,
+      "path": "technical_not_main/made_tiny20_zero_init_repair_20260923_v1/run_v1/attempts/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2ControllerOff/attempt_1/result.json",
+      "sha256": "ea7f04bb5cf4fa68641f5d00d71cc330ef25f5c3b21c20aa0c5eee427b0e6dd7"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "G2Full",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2Full",
+    "result_ref": {
+      "bytes": 2951643,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2Full/attempt_1/result.json",
+      "sha256": "8ae05930be2a25d39145723fe0ce66a3e1a2f4acfae5cf535fcbdd9771737216"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "Hidden145Fixed2",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Hidden145Fixed2",
+    "result_ref": {
+      "bytes": 140149,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Hidden145Fixed2/attempt_1/result.json",
+      "sha256": "137374d6e41bc4ea902014cdba97dcf037c1f3ee7a8379010d2bd2d6cf3a85a1"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "Native",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-Native",
+    "result_ref": {
+      "bytes": 129391,
+      "path": "technical_not_main/made_tiny20_zero_init_repair_20260923_v1/run_v1/attempts/made-tiny20-20260923-Au-K-Tb-b5-s1-Native/attempt_1/result.json",
+      "sha256": "de772ceec7157ed8a58f58b8f11df7c26343af1d34b13796bfdb4da45d37aaa1"
+    },
+    "seed": 1,
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "G0GraphRisk",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-G0GraphRisk",
+    "result_ref": {
+      "bytes": 1477037,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b5-s1-G0GraphRisk/attempt_1/result.json",
+      "sha256": "f2df1f985607f5f81ff94f2004083c9fb908651d0200bcc88a739f8193840142"
+    },
+    "seed": 1,
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "G2ControllerOff",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-G2ControllerOff",
+    "result_ref": {
+      "bytes": 2947259,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b5-s1-G2ControllerOff/attempt_1/result.json",
+      "sha256": "e1fa724f31762377aaa871b309c0f9642700abc1edfffd4ad86f7d8688f11d5d"
+    },
+    "seed": 1,
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "G2Full",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-G2Full",
+    "result_ref": {
+      "bytes": 2952160,
+      "path": "technical_not_main/made_tiny20_zero_init_repair_20260923_v1/run_v1/attempts/made-tiny20-20260923-Au-K-Tb-b5-s1-G2Full/attempt_1/result.json",
+      "sha256": "195f6298e65bece391640d9cb2ef57ab79ef27f44a829b7c97cd7e5d4a1d7734"
+    },
+    "seed": 1,
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "Hidden145Fixed2",
+    "budget": 5,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-Hidden145Fixed2",
+    "result_ref": {
+      "bytes": 136769,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b5-s1-Hidden145Fixed2/attempt_1/result.json",
+      "sha256": "1d81dee89fad233bf0675be90f7a8a21489e368754f399dc22834e355d3d8b97"
+    },
+    "seed": 1,
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "Native",
+    "budget": 15,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        11
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-Native",
+    "result_ref": {
+      "bytes": 135932,
+      "path": "technical_not_main/made_tiny20_zero_init_repair_20260923_v1/run_v1/attempts/made-tiny20-20260923-Mg-Sn-Sr-b15-s1-Native/attempt_1/result.json",
+      "sha256": "67d902336b2443736a89421a6808716515e9ab36f2a806b4442e288f4be6b912"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "G0GraphRisk",
+    "budget": 15,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        11
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G0GraphRisk",
+    "result_ref": {
+      "bytes": 1491088,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G0GraphRisk/attempt_1/result.json",
+      "sha256": "acf3198d88148b3feb40bc750f5f3f492878cf8cdfe0f8ac0d97ec769fc1f282"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "G2ControllerOff",
+    "budget": 15,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        11
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G2ControllerOff",
+    "result_ref": {
+      "bytes": 2952314,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G2ControllerOff/attempt_1/result.json",
+      "sha256": "9555a35245e4325cf03fe6860af7f5210aa7456d47ebb01b411afec42b162bfb"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "G2Full",
+    "budget": 15,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G2Full",
+    "result_ref": {
+      "bytes": 2960406,
+      "path": "technical_not_main/made_tiny20_zero_init_repair_20260923_v1/run_v1/attempts/made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G2Full/attempt_1/result.json",
+      "sha256": "5bbd366343609cee955c0b3dd6348f5c2078cb379f880cc24ea3f6e8ad438b31"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "Hidden145Fixed2",
+    "budget": 15,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        14,
+        9
+      ],
+      [
+        15,
+        10
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-Hidden145Fixed2",
+    "result_ref": {
+      "bytes": 152478,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b15-s1-Hidden145Fixed2/attempt_1/result.json",
+      "sha256": "08f0caff7797aa29231afa0e7e2348011472bddbe5e60aa2ea5323589bfc5a67"
+    },
+    "seed": 1,
+    "task_id": "Mg-Sn-Sr"
+  },
+  {
+    "arm": "Native",
+    "budget": 15,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        10,
+        7
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-Native",
+    "result_ref": {
+      "bytes": 137436,
+      "path": "technical_not_main/made_tiny20_zero_init_repair_20260923_v1/run_v1/attempts/made-tiny20-20260923-Au-K-Tb-b15-s1-Native/attempt_1/result.json",
+      "sha256": "2aac5da1990c028ab09d3c4698069d0bb54f5d58c4ed23f240d4d175b9d4e985"
+    },
+    "seed": 1,
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "G2ControllerOff",
+    "budget": 15,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        15,
+        4
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-G2ControllerOff",
+    "result_ref": {
+      "bytes": 2952155,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b15-s1-G2ControllerOff/attempt_1/result.json",
+      "sha256": "e11fa0b3cc73c76b3d095030c620929fbc560b9105f354cbb20ef3937084a5f7"
+    },
+    "seed": 1,
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "G2Full",
+    "budget": 15,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        15,
+        0
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-G2Full",
+    "result_ref": {
+      "bytes": 2959101,
+      "path": "technical_not_main/made_tiny20_zero_init_repair_20260923_v1/run_v1/attempts/made-tiny20-20260923-Au-K-Tb-b15-s1-G2Full/attempt_1/result.json",
+      "sha256": "90c5e2d044751a6fcd41df6d266980914408046459a394e949d8d7ccbf4bbfa1"
+    },
+    "seed": 1,
+    "task_id": "Au-K-Tb"
+  },
+  {
+    "arm": "Hidden145Fixed2",
+    "budget": 15,
+    "curve": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        15,
+        4
+      ]
+    ],
+    "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-Hidden145Fixed2",
+    "result_ref": {
+      "bytes": 144397,
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b15-s1-Hidden145Fixed2/attempt_1/result.json",
+      "sha256": "71b979bc3e3b52f9df22cdb73bb3b0bd25e96516e119debb118338ca2ffa9d91"
+    },
+    "seed": 1,
+    "task_id": "Au-K-Tb"
+  }
+]
