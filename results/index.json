@@ -1012,6 +1012,25 @@
       "supported_risk_heads_fitted": 1,
       "valid_graph_records": 160,
       "validation_script": "results/discoveryworld/progress/20260922T155718_CST/validate.py"
+    },
+    {
+      "closed_episodes": 9,
+      "full_method_complete": false,
+      "new_scientific_calls": 0,
+      "observed_CST": "2026-09-23T12:28:47.114256+08:00",
+      "observed_UTC": "2026-09-23T04:28:47.114256+00:00",
+      "original_Full_followup_included": false,
+      "partial_episodes": 1,
+      "planned_episodes": 10,
+      "publication_kind": "partial_progress_only",
+      "publication_ready": false,
+      "rendered_report": "results/discoveryworld/progress/20260923T122847_CST/report.md",
+      "report": "results/discoveryworld/progress/20260923T122847_CST/README.md",
+      "snapshot": "results/discoveryworld/progress/20260923T122847_CST/snapshot.json",
+      "snapshot_id": "discoveryworld_seeded_world4_partial_20260923T122847_CST",
+      "snapshots_overlap_not_additive": true,
+      "two_seed_aggregation_published": false,
+      "validation_script": "results/discoveryworld/progress/20260923T122847_CST/validate.py"
     }
   ],
   "discoveryworld_test_exports": [
@@ -1756,7 +1775,7 @@
   "latest_component_study_export_id": "made_core5_complete_20260919T212712_CST",
   "latest_discoveryworld_development_export_id": "discoveryworld_development_20260923T013432_CST",
   "latest_discoveryworld_diagnostic_export_id": "discoveryworld_closed_risk_audit_20260922T184705_CST",
-  "latest_discoveryworld_progress_export_id": "discoveryworld_progress_20260922T155718_CST",
+  "latest_discoveryworld_progress_export_id": "discoveryworld_seeded_world4_partial_20260923T122847_CST",
   "latest_discoveryworld_test_export_id": "discoveryworld_test_20260923T032828_CST",
   "latest_discoveryworld_test_mechanism_export_id": "discoveryworld_test_mechanism_20260923T044323_CST",
   "latest_incremental_component_export_id": "made_incremental_20260922T101850_CST",

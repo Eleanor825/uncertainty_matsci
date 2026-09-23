@@ -1,0 +1,38 @@
+{
+  "complete_results_released": false,
+  "exporter_source_sha256": "eb202a90d8b15e9393fb03684665fbd1e993a682a89e9c12c6e0f304b83d4882",
+  "files": {
+    "README.md": {
+      "bytes": 2805,
+      "sha256": "6a3ddd4e3c01515c4d3549c331a7f78a9208cced28b772d6a96b68d0a04c55a2"
+    },
+    "complete_two_seed_statistics.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "render.py": {
+      "bytes": 5711,
+      "sha256": "efa8ad7579ea20573eb66cd0cd61fcc17c923666219047cd77df493b5b4befc9"
+    },
+    "report.md": {
+      "bytes": 3451,
+      "sha256": "1fa0d2b333e2330f7e32eb86bc23db95d9742b6eda11e13687b3711605134d58"
+    },
+    "snapshot.json": {
+      "bytes": 796012,
+      "sha256": "c865f303d000062321de9c45354a85411b74da31e4af213a89f93a4b661e6528"
+    },
+    "validate.py": {
+      "bytes": 3165,
+      "sha256": "9d5e4774d0a20c6199cf3d64b1c3cdc26834d58453a6a2336dd57da187001c35"
+    }
+  },
+  "new_scientific_calls": 0,
+  "original_renderer_does_not_publish": true,
+  "publication_kind": "partial_progress_only",
+  "publication_ready": false,
+  "published": true,
+  "renderer_source_sha256": "efa8ad7579ea20573eb66cd0cd61fcc17c923666219047cd77df493b5b4befc9",
+  "source_receipt_bytes": 824893,
+  "source_receipt_sha256": "ca1089fd919b29792e3afd87743d949854e2c0e690005a5d49e9278546f927c4"
+}
