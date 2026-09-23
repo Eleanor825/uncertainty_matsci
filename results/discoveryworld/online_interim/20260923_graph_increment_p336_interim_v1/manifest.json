@@ -1,0 +1,40 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 3955,
+      "sha256": "efb1a61f7bfe4c26a709aa83aa3d274b65b20c092d7f7e543ae0add2c612e1a4"
+    },
+    "first_selection_difference.json": {
+      "bytes": 12430,
+      "sha256": "a92faf1ffc32a964221a516f99b2ff6ae59ee4ea60cc329abf752a1b8d46dc1b"
+    },
+    "paired_metrics.csv": {
+      "bytes": 785,
+      "sha256": "a18d37c5d175f940ccfd2e3bc49dc08ce1cb725ab80a221176ecf0b150e7b910"
+    },
+    "provenance.json": {
+      "bytes": 46139,
+      "sha256": "fa28811646a0e28aa4f3f95b0720be6d621d838fdd78f3fd0d9697e7ffa649e9"
+    },
+    "selection_audit.csv": {
+      "bytes": 949,
+      "sha256": "26bb741a5038d32d4fa7fe4943aadab0232ac6bffc461630d9b4aab9ac1c0d49"
+    },
+    "summary.json": {
+      "bytes": 2719,
+      "sha256": "ccff513d2051daafebc6d676a486b5f11c59438317928b778c9eda9c0fcbe1c1"
+    },
+    "validate.py": {
+      "bytes": 6088,
+      "sha256": "66824679ddb0ebbba6ba23a4d0ecbd7e9012cb069bb314bda788a0c5c8fee3ff"
+    }
+  },
+  "full_four_group_complete": false,
+  "independent_content_and_sanitization_review_passed": true,
+  "no_unexecuted_labels_imputed": true,
+  "public_content": "aggregate metrics, recorded risks, action types, equality checks and source hashes only",
+  "schema": "dw_graph_incremental_p336_interim_public_manifest_v1",
+  "source_audit_verified_remotely": true,
+  "study_status": "interim_single_pair",
+  "two_current_arms_both_kept": true
+}

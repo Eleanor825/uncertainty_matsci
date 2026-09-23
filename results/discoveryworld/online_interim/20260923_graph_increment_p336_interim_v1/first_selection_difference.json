@@ -1,0 +1,248 @@
+{
+  "first_selected_action_divergence": {
+    "attempt_index": 1,
+    "candidate_pairs": [
+      {
+        "Internal": {
+          "action_packet_sha256": "fa82a096705e328f209252518cf748a39535cbae6f499daa41d0b7fd8de64afb",
+          "action_type": "TELEPORT_TO_LOCATION",
+          "candidate_text_sha256": "5314038d7f4180c15d6009e7a34553d432982676249080e7cc2f50297b07e9dc",
+          "proposal_seed": 963914145227507861,
+          "public_prompt_sha256": "e0da00db4f73115c7b45b04b910f2dbc2396a09ffcc36abf84b8116e12c03e94",
+          "source": {
+            "bytes": 42014,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0001_p0.json",
+            "sha256": "072f83e70e9c56e32cc52a6e1a078cc5af43599d10cbc73da31a2b6ffa7911e6"
+          },
+          "token_prefix_sha256": "0fd9f5e5c8af3f6310a04d3fa6a68e103b8c03462be6cf18849a6df122a4d6f0"
+        },
+        "NoGraph": {
+          "action_packet_sha256": "fa82a096705e328f209252518cf748a39535cbae6f499daa41d0b7fd8de64afb",
+          "action_type": "TELEPORT_TO_LOCATION",
+          "candidate_text_sha256": "5314038d7f4180c15d6009e7a34553d432982676249080e7cc2f50297b07e9dc",
+          "proposal_seed": 963914145227507861,
+          "public_prompt_sha256": "e0da00db4f73115c7b45b04b910f2dbc2396a09ffcc36abf84b8116e12c03e94",
+          "source": {
+            "bytes": 42014,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0001_p0.json",
+            "sha256": "9be09073f460806b6089242382d4de00307171943f48ef3409827244ca560f42"
+          },
+          "token_prefix_sha256": "0fd9f5e5c8af3f6310a04d3fa6a68e103b8c03462be6cf18849a6df122a4d6f0"
+        },
+        "equality_checks": {
+          "configuration_fingerprint_equal": true,
+          "initial_runtime_parameter_hash_equal": true,
+          "parsed_action_equal": true,
+          "prefix_hash_equal": true,
+          "public_prompt_messages_equal": true,
+          "raw_text_equal": true,
+          "seed_equal": true,
+          "success_equal": true,
+          "token_sequence_equal": true
+        },
+        "proposal_index": 0,
+        "same_public_prompt_and_candidate": true
+      },
+      {
+        "Internal": {
+          "action_packet_sha256": "620403f4571c32f8700d983bb882d83a9d1b093eb612d51eb9125518842d7344",
+          "action_type": "TELEPORT_TO_LOCATION",
+          "candidate_text_sha256": "312f33fc078478212a6062ba932e5dd8389cf352f503cdf08f10db3c80d8fb08",
+          "proposal_seed": 9153571946055338587,
+          "public_prompt_sha256": "20f2e27f69f111cc9b86e181f99667f900ffddd74399fcb64a584e3e3ce59cd9",
+          "source": {
+            "bytes": 46979,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0001_p1.json",
+            "sha256": "f38eeab243bb1aae831592e658b763f69dde19cfcbfdad96b6205e385905925a"
+          },
+          "token_prefix_sha256": "00f65ae7cab24800c7009e258b5c96c6c2564144f9c5b0c69b8e9eb6031aa44b"
+        },
+        "NoGraph": {
+          "action_packet_sha256": "620403f4571c32f8700d983bb882d83a9d1b093eb612d51eb9125518842d7344",
+          "action_type": "TELEPORT_TO_LOCATION",
+          "candidate_text_sha256": "312f33fc078478212a6062ba932e5dd8389cf352f503cdf08f10db3c80d8fb08",
+          "proposal_seed": 9153571946055338587,
+          "public_prompt_sha256": "20f2e27f69f111cc9b86e181f99667f900ffddd74399fcb64a584e3e3ce59cd9",
+          "source": {
+            "bytes": 46979,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0001_p1.json",
+            "sha256": "c9b38eab4a195cc0a586875be5e811739755d00205041f8e520134cf7e7547ad"
+          },
+          "token_prefix_sha256": "00f65ae7cab24800c7009e258b5c96c6c2564144f9c5b0c69b8e9eb6031aa44b"
+        },
+        "equality_checks": {
+          "configuration_fingerprint_equal": true,
+          "initial_runtime_parameter_hash_equal": true,
+          "parsed_action_equal": true,
+          "prefix_hash_equal": true,
+          "public_prompt_messages_equal": true,
+          "raw_text_equal": true,
+          "seed_equal": true,
+          "success_equal": true,
+          "token_sequence_equal": true
+        },
+        "proposal_index": 1,
+        "same_public_prompt_and_candidate": true
+      }
+    ],
+    "causal_counterfactual_outcome_imputed": false,
+    "choices": {
+      "Internal": {
+        "action_packet_sha256": "620403f4571c32f8700d983bb882d83a9d1b093eb612d51eb9125518842d7344",
+        "action_type": "TELEPORT_TO_LOCATION",
+        "actual_selected_action_error_count": 0,
+        "actual_selected_action_success": true,
+        "common_hash_index": 0,
+        "recorded_candidate_risks": [
+          0.037325669080019,
+          0.006963030435144901
+        ],
+        "risk_changed_common_hash_selection": true,
+        "risk_values_reused_from_frozen_online_inference_not_refit": true,
+        "selected_index": 1,
+        "supported_comparison": true,
+        "unexecuted_candidate_label": null
+      },
+      "NoGraph": {
+        "action_packet_sha256": "fa82a096705e328f209252518cf748a39535cbae6f499daa41d0b7fd8de64afb",
+        "action_type": "TELEPORT_TO_LOCATION",
+        "actual_selected_action_error_count": 0,
+        "actual_selected_action_success": true,
+        "common_hash_index": 0,
+        "recorded_candidate_risks": [
+          0.21681125462055206,
+          0.3506183326244354
+        ],
+        "risk_changed_common_hash_selection": false,
+        "risk_values_reused_from_frozen_online_inference_not_refit": true,
+        "selected_index": 0,
+        "supported_comparison": true,
+        "unexecuted_candidate_label": null
+      }
+    },
+    "same_public_prompt_and_both_candidates": true
+  },
+  "first_selected_index_divergence": {
+    "attempt_index": 1,
+    "candidate_pairs": [
+      {
+        "Internal": {
+          "action_packet_sha256": "fa82a096705e328f209252518cf748a39535cbae6f499daa41d0b7fd8de64afb",
+          "action_type": "TELEPORT_TO_LOCATION",
+          "candidate_text_sha256": "5314038d7f4180c15d6009e7a34553d432982676249080e7cc2f50297b07e9dc",
+          "proposal_seed": 963914145227507861,
+          "public_prompt_sha256": "e0da00db4f73115c7b45b04b910f2dbc2396a09ffcc36abf84b8116e12c03e94",
+          "source": {
+            "bytes": 42014,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0001_p0.json",
+            "sha256": "072f83e70e9c56e32cc52a6e1a078cc5af43599d10cbc73da31a2b6ffa7911e6"
+          },
+          "token_prefix_sha256": "0fd9f5e5c8af3f6310a04d3fa6a68e103b8c03462be6cf18849a6df122a4d6f0"
+        },
+        "NoGraph": {
+          "action_packet_sha256": "fa82a096705e328f209252518cf748a39535cbae6f499daa41d0b7fd8de64afb",
+          "action_type": "TELEPORT_TO_LOCATION",
+          "candidate_text_sha256": "5314038d7f4180c15d6009e7a34553d432982676249080e7cc2f50297b07e9dc",
+          "proposal_seed": 963914145227507861,
+          "public_prompt_sha256": "e0da00db4f73115c7b45b04b910f2dbc2396a09ffcc36abf84b8116e12c03e94",
+          "source": {
+            "bytes": 42014,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0001_p0.json",
+            "sha256": "9be09073f460806b6089242382d4de00307171943f48ef3409827244ca560f42"
+          },
+          "token_prefix_sha256": "0fd9f5e5c8af3f6310a04d3fa6a68e103b8c03462be6cf18849a6df122a4d6f0"
+        },
+        "equality_checks": {
+          "configuration_fingerprint_equal": true,
+          "initial_runtime_parameter_hash_equal": true,
+          "parsed_action_equal": true,
+          "prefix_hash_equal": true,
+          "public_prompt_messages_equal": true,
+          "raw_text_equal": true,
+          "seed_equal": true,
+          "success_equal": true,
+          "token_sequence_equal": true
+        },
+        "proposal_index": 0,
+        "same_public_prompt_and_candidate": true
+      },
+      {
+        "Internal": {
+          "action_packet_sha256": "620403f4571c32f8700d983bb882d83a9d1b093eb612d51eb9125518842d7344",
+          "action_type": "TELEPORT_TO_LOCATION",
+          "candidate_text_sha256": "312f33fc078478212a6062ba932e5dd8389cf352f503cdf08f10db3c80d8fb08",
+          "proposal_seed": 9153571946055338587,
+          "public_prompt_sha256": "20f2e27f69f111cc9b86e181f99667f900ffddd74399fcb64a584e3e3ce59cd9",
+          "source": {
+            "bytes": 46979,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0001_p1.json",
+            "sha256": "f38eeab243bb1aae831592e658b763f69dde19cfcbfdad96b6205e385905925a"
+          },
+          "token_prefix_sha256": "00f65ae7cab24800c7009e258b5c96c6c2564144f9c5b0c69b8e9eb6031aa44b"
+        },
+        "NoGraph": {
+          "action_packet_sha256": "620403f4571c32f8700d983bb882d83a9d1b093eb612d51eb9125518842d7344",
+          "action_type": "TELEPORT_TO_LOCATION",
+          "candidate_text_sha256": "312f33fc078478212a6062ba932e5dd8389cf352f503cdf08f10db3c80d8fb08",
+          "proposal_seed": 9153571946055338587,
+          "public_prompt_sha256": "20f2e27f69f111cc9b86e181f99667f900ffddd74399fcb64a584e3e3ce59cd9",
+          "source": {
+            "bytes": 46979,
+            "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0001_p1.json",
+            "sha256": "c9b38eab4a195cc0a586875be5e811739755d00205041f8e520134cf7e7547ad"
+          },
+          "token_prefix_sha256": "00f65ae7cab24800c7009e258b5c96c6c2564144f9c5b0c69b8e9eb6031aa44b"
+        },
+        "equality_checks": {
+          "configuration_fingerprint_equal": true,
+          "initial_runtime_parameter_hash_equal": true,
+          "parsed_action_equal": true,
+          "prefix_hash_equal": true,
+          "public_prompt_messages_equal": true,
+          "raw_text_equal": true,
+          "seed_equal": true,
+          "success_equal": true,
+          "token_sequence_equal": true
+        },
+        "proposal_index": 1,
+        "same_public_prompt_and_candidate": true
+      }
+    ],
+    "causal_counterfactual_outcome_imputed": false,
+    "choices": {
+      "Internal": {
+        "action_packet_sha256": "620403f4571c32f8700d983bb882d83a9d1b093eb612d51eb9125518842d7344",
+        "action_type": "TELEPORT_TO_LOCATION",
+        "actual_selected_action_error_count": 0,
+        "actual_selected_action_success": true,
+        "common_hash_index": 0,
+        "recorded_candidate_risks": [
+          0.037325669080019,
+          0.006963030435144901
+        ],
+        "risk_changed_common_hash_selection": true,
+        "risk_values_reused_from_frozen_online_inference_not_refit": true,
+        "selected_index": 1,
+        "supported_comparison": true,
+        "unexecuted_candidate_label": null
+      },
+      "NoGraph": {
+        "action_packet_sha256": "fa82a096705e328f209252518cf748a39535cbae6f499daa41d0b7fd8de64afb",
+        "action_type": "TELEPORT_TO_LOCATION",
+        "actual_selected_action_error_count": 0,
+        "actual_selected_action_success": true,
+        "common_hash_index": 0,
+        "recorded_candidate_risks": [
+          0.21681125462055206,
+          0.3506183326244354
+        ],
+        "risk_changed_common_hash_selection": false,
+        "risk_values_reused_from_frozen_online_inference_not_refit": true,
+        "selected_index": 0,
+        "supported_comparison": true,
+        "unexecuted_candidate_label": null
+      }
+    },
+    "same_public_prompt_and_both_candidates": true
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "raw_artifact_paths_are_provenance_identifiers_not_public_download_links": true,
+  "raw_evidence_refs": {
+    "p336-Internal": {
+      "candidates": [
+        {
+          "bytes": 42014,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0001_p0.json",
+          "sha256": "072f83e70e9c56e32cc52a6e1a078cc5af43599d10cbc73da31a2b6ffa7911e6"
+        },
+        {
+          "bytes": 46979,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0001_p1.json",
+          "sha256": "f38eeab243bb1aae831592e658b763f69dde19cfcbfdad96b6205e385905925a"
+        },
+        {
+          "bytes": 40770,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0002_p0.json",
+          "sha256": "0307d1c0a58801f1b7a7c201f94c60b78f721706342f8f71b046961957284914"
+        },
+        {
+          "bytes": 45543,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0002_p1.json",
+          "sha256": "097ef20f94ea8e9bf2ae1fefda70ba495de9ac4ced5489b2fb35e35d4268e01d"
+        },
+        {
+          "bytes": 41408,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0003_p0.json",
+          "sha256": "6549b64ee76dcd85d1cf54ea0f86e397f42b6526683f74a29f04a1f0705fb9d9"
+        },
+        {
+          "bytes": 46151,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0003_p1.json",
+          "sha256": "1cb66046feb149c5cd9a25c703157143f4648ba4f4e39529adc5b7ef2811cbd6"
+        },
+        {
+          "bytes": 42023,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0004_p0.json",
+          "sha256": "17eb455ebeb3112f08f59f8fba69f3316b25643c5db3e4eb1d4ab819f50e3001"
+        },
+        {
+          "bytes": 47885,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0004_p1.json",
+          "sha256": "cd263d481662f792a1ee9089272f382d25cf5ccb0ca94f55ed36902e4969714e"
+        },
+        {
+          "bytes": 42224,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0005_p0.json",
+          "sha256": "c03af5d7c5f6db508354273be0afbef4de9a30e9d0f8df6980cfea31bd3c5c4f"
+        },
+        {
+          "bytes": 48711,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0005_p1.json",
+          "sha256": "a82e137854da82bf73721a9ac4864b80c1f4dd59c8fced919476971d0b8d539f"
+        },
+        {
+          "bytes": 42927,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0006_p0.json",
+          "sha256": "aea6c1a2c4ef4090ce06dffd3300c314c115c277864d29c1c811bae781931e18"
+        },
+        {
+          "bytes": 49429,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0006_p1.json",
+          "sha256": "eae9fdfb1ac157310f66f90c4c3447cef525bbca5de1738c15aeb1380260fc2e"
+        },
+        {
+          "bytes": 42415,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0007_p0.json",
+          "sha256": "7389bf3acec26362b98fa7b24ed8d74bdaf9df44129505c051a4ac99e9c0746e"
+        },
+        {
+          "bytes": 48715,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0007_p1.json",
+          "sha256": "034cffc003e4327f56f6190238142c308eb0055bccef989b72a69efbef6a95e8"
+        },
+        {
+          "bytes": 42455,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0008_p0.json",
+          "sha256": "97e7dbc68b4a0ac230da1434c0f82b5cc7f7658aa00a8e5675e9a52005b24402"
+        },
+        {
+          "bytes": 49040,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0008_p1.json",
+          "sha256": "c789ad7e3a42f89c2d33cad4f996bbf18bce3344eb8ce1103ee0ff0cb8b4dffc"
+        },
+        {
+          "bytes": 43312,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0009_p0.json",
+          "sha256": "bd91df3eba3001a316e10bedb123ab723f77a8ae4314ebc36da43e4782cde893"
+        },
+        {
+          "bytes": 49772,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0009_p1.json",
+          "sha256": "36f08211d9fbcce62cf535da54400eb7b46684b09d348331cd19b3bd12c21440"
+        },
+        {
+          "bytes": 43251,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0010_p0.json",
+          "sha256": "c29506d46467af0f8da096e72e555945ec3cb9001628eaa6fdfd83c9d1f6a0ec"
+        },
+        {
+          "bytes": 49392,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/candidates/a0010_p1.json",
+          "sha256": "c36a58706482fe53dfee929e5715e6188f2437334c52c4f705c941cc7f6290cc"
+        }
+      ],
+      "completion": {
+        "bytes": 34018,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/groups/p336-Internal/completion.json",
+        "sha256": "af6e2dbed9670341d36f2f916b6558d91d3f05edb372cc02afa4c4a1b0dee0d1"
+      },
+      "environment_events": {
+        "bytes": 81862,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/environment/discoveryworld-v1-6eb4662012047af3ab834465/events.jsonl",
+        "sha256": "f8cc32085ccbdfc5ef079e7f1fb05cb709c806f3749289caf287d3d74f238619"
+      },
+      "environment_summary": {
+        "bytes": 1234,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/environment/discoveryworld-v1-6eb4662012047af3ab834465/summary.json",
+        "sha256": "4216f12025cea9f6707a6e73a6b1b415fd99ab8b05f2aeb9a0c232e558334042"
+      },
+      "episode_events": {
+        "bytes": 178963,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/events.jsonl",
+        "sha256": "951cdb0da443187504bc7a476e2f207039cd6250fb963d87cce404e0f62590f4"
+      },
+      "full_graphs": [
+        {
+          "bytes": 3520759,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0001_p0.json",
+          "sha256": "bdc3d775362813c43f1d4a31248493ac2af5b5cb50dbf3a95102da52ebade5e8"
+        },
+        {
+          "bytes": 4502094,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0001_p1.json",
+          "sha256": "2558ae456708932f618f1e7a948a4a2c3c60fdda405a1e8d6de70f4716db24f2"
+        },
+        {
+          "bytes": 2643285,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0002_p0.json",
+          "sha256": "c530acc32285431fd354f08e987665c48b25993d770cdd30b2b735b8e8ef562d"
+        },
+        {
+          "bytes": 3468396,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0002_p1.json",
+          "sha256": "5681ad59b05242ec98b9e46ff684abba83c9b3006dc88dd2bc11e716d3415592"
+        },
+        {
+          "bytes": 2751753,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0003_p0.json",
+          "sha256": "1d558afb0de638827929b4776d5bae9b71d2139de20bcb89fff37de30bf16bd4"
+        },
+        {
+          "bytes": 3667221,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0003_p1.json",
+          "sha256": "afba4a4e3fe49b3b5dd51de0b380306a8bfd5ef73a03ec0cdc915e113a2c0563"
+        },
+        {
+          "bytes": 2618760,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0004_p0.json",
+          "sha256": "d6c0e74c3a7c3a7a289692d045e6359817851f628a8cc60088016ce832fc0ad6"
+        },
+        {
+          "bytes": 29340,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0004_p1.json",
+          "sha256": "8d13f42e155ca42fe0adc70005a45305318af72a35f24851f882cf4cdc128380"
+        },
+        {
+          "bytes": 3645455,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0005_p0.json",
+          "sha256": "8d93d16293303deb948c55fe2f48c1180dbf0751ac91a777c71608f17911ac67"
+        },
+        {
+          "bytes": 29421,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0005_p1.json",
+          "sha256": "380e47ea71e1384521198f5733e0d8f17d369f4b5a09bff640cfd0b4e00bd990"
+        },
+        {
+          "bytes": 3659731,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0006_p0.json",
+          "sha256": "ba6456b161ddc8d862420401b5a6e6a7b3787fc5362b5f19a79901edfe06dd6a"
+        },
+        {
+          "bytes": 29422,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0006_p1.json",
+          "sha256": "89571d06c03b077135cde25f874847cdb6fb63d11ddf273e1d2cdc4840f47167"
+        },
+        {
+          "bytes": 3622517,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0007_p0.json",
+          "sha256": "49f164dc82221f9bc4b92f4d2f8149a86f052da4901b238adf8353607c01b010"
+        },
+        {
+          "bytes": 29395,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0007_p1.json",
+          "sha256": "44db3bbf5a6c84aa65f15d09f6818d040241207f286f378e9dbf4a782d16e015"
+        },
+        {
+          "bytes": 3744155,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0008_p0.json",
+          "sha256": "964388be28163dc1335a1c39ee20304e1432593a92e8e8aa98983b4e65235f1d"
+        },
+        {
+          "bytes": 29420,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0008_p1.json",
+          "sha256": "74aa8290f93d91ebd73acd0119eee6460768779479b6c24a5fc6fadfdeed0781"
+        },
+        {
+          "bytes": 3673256,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0009_p0.json",
+          "sha256": "2ebfc9a1f2a667141cc71d1ea85bc263c761ffc4d89543a6997c8c4ef107867b"
+        },
+        {
+          "bytes": 29420,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0009_p1.json",
+          "sha256": "fd13cb06bce9b8ea418349e6edced94c7bfe4ba3c03f7904a2903b750ec7c1d4"
+        },
+        {
+          "bytes": 3622088,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0010_p0.json",
+          "sha256": "f82d646c951980a52376a9b9930f6c70bcb2e027855c102ae20e07ece6e3fcd8"
+        },
+        {
+          "bytes": 29396,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/graphs/a0010_p1.json",
+          "sha256": "dd9d93bc71bf6558ac2e49847d98d7d4b6b8a5deed25f5cafc2bdb5b45229589"
+        }
+      ],
+      "policy_attempts": {
+        "bytes": 14065569,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-Internal-w4-p336-b10-g0/policy_attempts.jsonl",
+        "sha256": "702bf60b6d19655be09a1f9b55f532036c6d696a567159a568fa81cd55ee922a"
+      },
+      "qualification": {
+        "bytes": 237828,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/groups/p336-Internal/G0_pair_qualification.json",
+        "sha256": "37cc6bbf2abe185c845712b5c435515a57dbb6c7e3dbf5dfe3f769fa757af68a"
+      },
+      "resource_completion": {
+        "bytes": 1503,
+        "path": "benchmark_extensions/dw_graph_incremental_fixed2_b10_resource_v1/runs/v1/p336-Internal/completion.json",
+        "sha256": "e39ce9bfa615d911f89467319c1b36f4c16f5a6ad0d4a14c65dd7239e5449af4"
+      }
+    },
+    "p336-NoGraph": {
+      "candidates": [
+        {
+          "bytes": 42014,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0001_p0.json",
+          "sha256": "9be09073f460806b6089242382d4de00307171943f48ef3409827244ca560f42"
+        },
+        {
+          "bytes": 46979,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0001_p1.json",
+          "sha256": "c9b38eab4a195cc0a586875be5e811739755d00205041f8e520134cf7e7547ad"
+        },
+        {
+          "bytes": 43064,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0002_p0.json",
+          "sha256": "dab77ce5ffeacc99e8d026e3a502af28c93c8003f998901e026e16c3a054d3f2"
+        },
+        {
+          "bytes": 47957,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0002_p1.json",
+          "sha256": "a032dca5294bea2abdad03dc17d677c3891a69d1b0fc462f1d6fe1feeb8d76ca"
+        },
+        {
+          "bytes": 45347,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0003_p0.json",
+          "sha256": "d94e3aace0479f652a1ebc13e2f9e96fad18c4a00b61fc4c6ce35abb2ba5a4fd"
+        },
+        {
+          "bytes": 51544,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0003_p1.json",
+          "sha256": "803b600fd539aca2031ccc04a83290e41e712de40d3d353cc2989578e1bccab6"
+        },
+        {
+          "bytes": 45562,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0004_p0.json",
+          "sha256": "0df678a2df2e93ddaa6edd5cb1c2d5099a64ddba5559c03e10b0b25685caa531"
+        },
+        {
+          "bytes": 52864,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0004_p1.json",
+          "sha256": "3c18ba5f98204b1eb9f3499c16571710036374d604fc562bd33e398aa4574ee4"
+        },
+        {
+          "bytes": 45761,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0005_p0.json",
+          "sha256": "9c638c25e7b61dd97fb4728879071d9928da1a3f6467c0ff21317d5d35ab4d5b"
+        },
+        {
+          "bytes": 55411,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0005_p1.json",
+          "sha256": "90ef13549a87cc5071843b3f7245b8dc759444af790ea84120ca1e03e9741ca5"
+        },
+        {
+          "bytes": 46272,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0006_p0.json",
+          "sha256": "17da2ac5673aa72d6061075233350a27ffcf03278e720c46c5fca5ab8d438109"
+        },
+        {
+          "bytes": 54110,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0006_p1.json",
+          "sha256": "8ce840940d0a4533d657004787af88d5870a5049d8c80148e8a070a52a2150eb"
+        },
+        {
+          "bytes": 46456,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0007_p0.json",
+          "sha256": "6cd8debfa18fdcdc9335df9a39fa649a536c21cff3bb546844f410f81cbb872d"
+        },
+        {
+          "bytes": 55629,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0007_p1.json",
+          "sha256": "d844f9af76342ac9a07c73ec7adcceafdd138344f235b65ce6fba22013338a07"
+        },
+        {
+          "bytes": 46580,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0008_p0.json",
+          "sha256": "07c509491935a3f1035359c51cb830d87ee813a1a4e6248a81c51cc721866808"
+        },
+        {
+          "bytes": 55856,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0008_p1.json",
+          "sha256": "a5caa4417fd91c194ddcf101e2a20e1a8f53ad0080fb08d9f404495fd6477fd4"
+        },
+        {
+          "bytes": 47532,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0009_p0.json",
+          "sha256": "9b12a5d4becbed06be717b252da5208860f29023392dfdc100ca7e4efbd495a1"
+        },
+        {
+          "bytes": 56389,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0009_p1.json",
+          "sha256": "47e12ff4a8003fbd5cbd1bcd4ed4cac12f80f59c4d0988f4087c978909999d23"
+        },
+        {
+          "bytes": 47323,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0010_p0.json",
+          "sha256": "4566e2489e04a9b393173b563962a1f29434644e21e2e068b922d358a02340df"
+        },
+        {
+          "bytes": 56151,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/candidates/a0010_p1.json",
+          "sha256": "b007657f898dcf17d5064a07b8ed9e29252d6fba277a76d099f9e0f98d7ae0ca"
+        }
+      ],
+      "completion": {
+        "bytes": 33959,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/groups/p336-NoGraph/completion.json",
+        "sha256": "99ad5b7f16c8c49aca37e668bbb48c3aab36f1175112db8b3a0c9c7122b503f4"
+      },
+      "environment_events": {
+        "bytes": 89493,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/environment/discoveryworld-v1-a541d4e9aeb121e2d3ba67a4/events.jsonl",
+        "sha256": "b8cfcb386dec3e8cd881bb940c5e9c2861ad11220f218acfe41d3a5919ed5286"
+      },
+      "environment_summary": {
+        "bytes": 1232,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/environment/discoveryworld-v1-a541d4e9aeb121e2d3ba67a4/summary.json",
+        "sha256": "68ce72a1a98afef0126fac691dd30990d06c3f95b8abb55f1a75f72a40174848"
+      },
+      "episode_events": {
+        "bytes": 192755,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/events.jsonl",
+        "sha256": "b8f99931f5a5258a5ef089bc05fd6b3514774d25d7a38407f6b9eca0c60b8795"
+      },
+      "full_graphs": [
+        {
+          "bytes": 3520760,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0001_p0.json",
+          "sha256": "a8290b71679d158f8c8795b8455010168543891c41f7886e1e7499cee66ff8c2"
+        },
+        {
+          "bytes": 4502092,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0001_p1.json",
+          "sha256": "e3e690250f9bb1d2b4a7fbc843d249442647e30d7a02fe3883a2ed6ea37d3ee3"
+        },
+        {
+          "bytes": 2436677,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0002_p0.json",
+          "sha256": "5f53cd1e300edba98d59b081928134b2f5880df18f901165a25e06fb20fb043d"
+        },
+        {
+          "bytes": 3370774,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0002_p1.json",
+          "sha256": "c74ed17e462264ab9dc988e407795355883356d2b9d1e52ecc4fced013c8d786"
+        },
+        {
+          "bytes": 2791950,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0003_p0.json",
+          "sha256": "07e43f61b1b8cf8ea96489c95ee691baa8c09feb7007f7ff4b0b0e6324785f9d"
+        },
+        {
+          "bytes": 29352,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0003_p1.json",
+          "sha256": "77f3835c7f4c563108ba7b3240bfd49b7d45c71421291cec9f572b0021f3e80f"
+        },
+        {
+          "bytes": 3323449,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0004_p0.json",
+          "sha256": "4e768ff922415fe4e4e2f8b9fee60729f7f1c70c1c3b3b3d11d4226d950b1578"
+        },
+        {
+          "bytes": 29339,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0004_p1.json",
+          "sha256": "f4cd09b6cd147a2a2eb9b42a5a1152530e1cd2a4db500609f60dea883d7e0d56"
+        },
+        {
+          "bytes": 3351736,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0005_p0.json",
+          "sha256": "4a72297d7bc75743e4a6c98b305701df6a891ece5a34dd3218544631a05c9333"
+        },
+        {
+          "bytes": 29396,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0005_p1.json",
+          "sha256": "b06738aed7d1db9a978592b52895e66089e5690577f262670b0cc6836d110d47"
+        },
+        {
+          "bytes": 3375039,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0006_p0.json",
+          "sha256": "7b9757acc70666c0e48ef2d939d271a0258e107a5d9b2e029664f00573f090c5"
+        },
+        {
+          "bytes": 29397,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0006_p1.json",
+          "sha256": "f1a40581868d625bbfe9b1fe12219b97ce09dc9a904e6a92a96c766dbaf391cb"
+        },
+        {
+          "bytes": 3252335,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0007_p0.json",
+          "sha256": "ae4a9245c55a936d1c19e63d10443bb3f90d0f67f7c23b8277089e9730be9377"
+        },
+        {
+          "bytes": 29397,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0007_p1.json",
+          "sha256": "ce9f4e4f669f6c49c94d9f61f8950bef178e6cc0eb50fa54c2ced2de40be71a1"
+        },
+        {
+          "bytes": 3223507,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0008_p0.json",
+          "sha256": "73e8d7ddc01cffedae00bbe6dd511ae3c1393004458ad563b8469a530f9b4928"
+        },
+        {
+          "bytes": 29386,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0008_p1.json",
+          "sha256": "e394a8ab8b800a8af48644532ab36fa9ead254d5a96edd8c4a7c45e6d51da456"
+        },
+        {
+          "bytes": 3578533,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0009_p0.json",
+          "sha256": "9261a4a6f8a4c269d71455657fdc0551b274f0fca84f1481dbfd3df8697ed7e1"
+        },
+        {
+          "bytes": 29396,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0009_p1.json",
+          "sha256": "e5df183aaa934f1c5650516920bcb57864afb601502ebd2475b1e8a5ced2fb37"
+        },
+        {
+          "bytes": 3579677,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0010_p0.json",
+          "sha256": "2f153a3b110ddce8b87ff152bc7ed72a4249b7f51442ce1974a24bfba771ca1c"
+        },
+        {
+          "bytes": 29397,
+          "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/graphs/a0010_p1.json",
+          "sha256": "26aab97189016758b686b7fd36ddce77bb0530ed7a5bdf47bc312dfcf7a59224"
+        }
+      ],
+      "policy_attempts": {
+        "bytes": 12656392,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/episodes/jobs/dw-graph-incremental-fixed2-b10-v1-test-NoGraph-w4-p336-b10-g0/policy_attempts.jsonl",
+        "sha256": "1ce5f4a26df5998faf43ac847bd84b39251da295530eefaef8acb14545a9b263"
+      },
+      "qualification": {
+        "bytes": 237828,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runs/v1/groups/p336-NoGraph/G0_pair_qualification.json",
+        "sha256": "b49216da1fb24ebbe1c47844dc6c9ecc981024603e303d0498d895785665f213"
+      },
+      "resource_completion": {
+        "bytes": 1500,
+        "path": "benchmark_extensions/dw_graph_incremental_fixed2_b10_resource_v1/runs/v1/p336-NoGraph/completion.json",
+        "sha256": "2e5668c8530b56a9accba2da8271f20dd5bbeb82c9bc98cb058575b94a4ccb89"
+      }
+    }
+  },
+  "raw_prompts_observations_candidate_arguments_and_weights_not_published": true,
+  "resource_registration": {
+    "bytes": 6358,
+    "commit": "74c969f022d6aef4a60a65e2f34b09c97cf93dcc",
+    "path": "benchmark_extensions/dw_graph_incremental_fixed2_b10_resource_v1/registrations/v1/registry.json",
+    "repo": "benchmark_extensions/dw_graph_incremental_fixed2_b10_resource_v1/registrations/v1",
+    "sha256": "f5f30b5bcb58f4abef2deaa94a9ffcf70ed1a9d8f9c1f40ff1418d9c44051693"
+  },
+  "risk_probabilities_are_recorded_online_outputs_not_new_CPU_predictions": true,
+  "running_status_observation": {
+    "bytes": 10477,
+    "private_artifact_basename": "observe_graph_increment_compact_progress_v1_primary_1790155331964844000.json",
+    "sha256": "0a032e88d933332544e97f45969b95baa67527178aa5fac6d3f37ac36a7cbf59"
+  },
+  "schema": "dw_graph_incremental_p336_interim_public_provenance_v1",
+  "scientific_registration": {
+    "commit": "98c983c2d181dc4e9eebf083f2d05326e56ed55e",
+    "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/registrations/v1/registry.json",
+    "repo": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/registrations/v1",
+    "sha256": "d49b13dfd21ece6c41d8c9be0fdee68b3d3abe0e166e550d34248155bd28e821"
+  },
+  "source_audit": {
+    "CPU_original_validate_group_called": true,
+    "audit_source_sha256": "c560179a2e797bedb38b6a961c1d288b7f30591f0e5b50e42fdeeb495f55f9fc",
+    "bytes": 193667,
+    "committed_scientific_and_resource_registries_verified": true,
+    "new_model_or_environment_calls": 0,
+    "private_audit_artifact_basename": "verify_graph_increment_p336_partial_v1_primary_1790155674679857000.json",
+    "raw_fitness_and_twenty_graph_records_per_group_recomputed": true,
+    "sha256": "04f85ddfa40fe7ffa378813265b5a3a29475a6cdf4fa5a476eb8f6307a2d20ed",
+    "writes_to_scientific_runs": 0
+  },
+  "source_evidence": {
+    "original_validate_group_called": {
+      "bytes": 4470,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/aggregate.py",
+      "sha256": "8a88a49d0381f4d8a1c532aad37295e603dbd111759f9f4eec5c22ffa438aebf"
+    },
+    "raw_fitness_and_graph_evidence_recomputed_by": {
+      "bytes": 9987,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runner.py",
+      "sha256": "b3c9ff31495308793f6861b7bad048caa8c360cc3dd7872d223e0ecb461afeef"
+    },
+    "resource_manifest": {
+      "bytes": 4252,
+      "path": "benchmark_extensions/dw_graph_incremental_fixed2_b10_resource_v1/source_manifest.json",
+      "sha256": "93fc67aa6ed7599d57b89a1733accdeeecf60ef955ee79d15c9e483830a0943d"
+    },
+    "science_manifest": {
+      "bytes": 1601,
+      "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/source_manifest.json",
+      "sha256": "a6630d905c432f4d3cca0f29a274598ac096bed964226526818b361b69f4c528"
+    },
+    "scientific_source_refs": {
+      "experiments/discoveryworld_full_method_20260922/es_runner.py": {
+        "bytes": 19416,
+        "path": "experiments/discoveryworld_full_method_20260922/es_runner.py",
+        "sha256": "7f7d1d231d89f305195c2d3c4a0a3f9fa790eca671ffa9a473a75aa21844cd96"
+      },
+      "experiments/discoveryworld_full_method_20260922/formal_test_extension_v1/controls.py": {
+        "bytes": 5664,
+        "path": "experiments/discoveryworld_full_method_20260922/formal_test_extension_v1/controls.py",
+        "sha256": "721d1c29cf8cfe2a8ce8b9efdd1485eb0b1f3c3493f4f3edbfc48ca211919518"
+      },
+      "experiments/discoveryworld_full_method_20260922/policy/collect_episode.py": {
+        "bytes": 23518,
+        "path": "experiments/discoveryworld_full_method_20260922/policy/collect_episode.py",
+        "sha256": "e45e5ea2a8ff0c5a20a127644d5653d3c641445ef7869bb78bba24d8650c98a8"
+      },
+      "experiments/discoveryworld_full_method_20260922/policy/full_policy.py": {
+        "bytes": 44530,
+        "path": "experiments/discoveryworld_full_method_20260922/policy/full_policy.py",
+        "sha256": "59206e67e637c1f46c5a43f73a72061962353c1ad24823466790884b7b234815"
+      },
+      "experiments/discoveryworld_full_method_20260922/risk_controller.py": {
+        "bytes": 3905,
+        "path": "experiments/discoveryworld_full_method_20260922/risk_controller.py",
+        "sha256": "85d4710b2432bc0dfc7ba8047009d4ecd9ae511fbe6a60228333d576191b9760"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/after_dw_bank_v4/mathematical_reference.py": {
+        "bytes": 13177,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/after_dw_bank_v4/mathematical_reference.py",
+        "sha256": "e774f91d8d3c03f0fb8505dcdb7fd3aa882a50b0770e9a196f1585934947073a"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/after_dw_bank_v4/qualification.py": {
+        "bytes": 9524,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/after_dw_bank_v4/qualification.py",
+        "sha256": "d05d93fd92d08edaeb1dc6ea453a497c67e17cd60d162c243f7942b2f10918f5"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/common_environment_seed_v1/seeding.py": {
+        "bytes": 4753,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/common_environment_seed_v1/seeding.py",
+        "sha256": "03a5b57b7a09fb9f65637a9c3787dc4b0472e84ba85c3c605c81d8f5cf1271cc"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/backend.py": {
+        "bytes": 6711,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/backend.py",
+        "sha256": "ff5ef5d5122ce942e420a85dab2c49730fd242c68322c4c3ab1363ef7204c5e6"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/feedback.py": {
+        "bytes": 4545,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/feedback.py",
+        "sha256": "e2c93935ec604a62c64752416b4057750af86078e4c89589422c546ca93cbc26"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runner.py": {
+        "bytes": 21978,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/runner.py",
+        "sha256": "24dc0923b6bd4e9252e5766f9622c2234850c6db97be22d978aff270e88e4e01"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/scope.py": {
+        "bytes": 17650,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/explicit_repeat_no_graph_world4_b10_extension_v1/scope.py",
+        "sha256": "101d4f610723110917f4ea14bdadf6c1bb67cd37020d972718a28dc3e3b2ccb6"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/aggregate.py": {
+        "bytes": 4470,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/aggregate.py",
+        "sha256": "8a88a49d0381f4d8a1c532aad37295e603dbd111759f9f4eec5c22ffa438aebf"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/controller.py": {
+        "bytes": 4011,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/controller.py",
+        "sha256": "0193780b01f7258fbad4c6e8e9779ae52011585d04d1801264c4b35c06e91ab9"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/environment_rpc.py": {
+        "bytes": 2747,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/environment_rpc.py",
+        "sha256": "38a1902b75b2948d98474cf23c01ba23e67b093d6968114da358aa67a499c791"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/prepare.py": {
+        "bytes": 1989,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/prepare.py",
+        "sha256": "caeeba3aa33aecb6620d4167bc55764e1e8632c0496cf0a0c6f77f00128702ff"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/protocol.md": {
+        "bytes": 7296,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/protocol.md",
+        "sha256": "c9314121e829d0fdbf0bf285ca118ccddc9e2a9a71cc527f5e473dee489aa958"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/revision.json": {
+        "bytes": 1676,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/revision.json",
+        "sha256": "ae630fd4f4cb88cbebf50c4361bfab0f1b7f4b453039adbd66282d05e76ab130"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runner.py": {
+        "bytes": 9987,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/runner.py",
+        "sha256": "b3c9ff31495308793f6861b7bad048caa8c360cc3dd7872d223e0ecb461afeef"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/scope.py": {
+        "bytes": 12446,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/scope.py",
+        "sha256": "a93a1d51d631e75aa6e12b99498291650af70e1f438a7db7db6393528fd64639"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/test_contract.py": {
+        "bytes": 9450,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/graph_incremental_fixed2_b10_v1/test_contract.py",
+        "sha256": "ddbc9adf83c06ae7d611e2aa21bfac226f60518c8db36b5588de3c4d0c252e06"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/controller.py": {
+        "bytes": 3885,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/controller.py",
+        "sha256": "b6b07df31bc50d50df7e61a43cf42169dca930712241ef8e144d7b461d9f4912"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/grounding.py": {
+        "bytes": 3652,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/grounded_repair_v6/grounding.py",
+        "sha256": "2be9c8291f10e1feb724d8624ec3f733178685ced9caa84e4f6e4bdd0886d4e4"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/risk_training.py": {
+        "bytes": 23604,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/risk_training.py",
+        "sha256": "823e17882cc933109a656efd9c8561f0b3813c1cc0aee1912d541a18485fdf65"
+      },
+      "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/scope.py": {
+        "bytes": 12138,
+        "path": "experiments/discoveryworld_full_method_20260922/six_hour_subset_v1/scope.py",
+        "sha256": "3ed41c3572db74e068f993b91a5080a7b146e9486409f1410c27e8e4170acb11"
+      }
+    }
+  }
+}
