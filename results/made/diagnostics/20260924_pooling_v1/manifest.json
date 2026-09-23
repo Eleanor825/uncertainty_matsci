@@ -1,0 +1,20 @@
+{
+  "all_six_models_and_both_development_chemistries_included": true,
+  "files": {
+    "MADE_pooling_diagnostic_results_20260924.json": {
+      "bytes": 19364,
+      "sha256": "781f73a197c7d32c77773bc9f74a6dffc3aeaa6b4e69036e7486d9a5d8253e57"
+    },
+    "MADE_pooling_diagnostic_results_20260924.md": {
+      "bytes": 4437,
+      "sha256": "97968b48b2f78ce7303a603260c6590b736fa0042d88509c0a0796defd31cd3a"
+    },
+    "validate.py": {
+      "bytes": 4307,
+      "sha256": "af911db293c35eeff5ceffd91c38322b706f56bb805a3dda4a3927d71e910a1a"
+    }
+  },
+  "new_scientific_calls": 0,
+  "prior_results_modified": false,
+  "schema": "MADE_fixed_pooling_publication_manifest_v1"
+}
