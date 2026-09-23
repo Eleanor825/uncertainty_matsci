@@ -1,0 +1,36 @@
+{
+  "boundary_v2_source_manifest": {
+    "bytes": 12259,
+    "sha256": "cdc3c89bf3bd9928449763610cbb8450312c635700fe405e851bf63ab4e4a726"
+  },
+  "current_extra_GPU_state_not_inferred": true,
+  "four_Native_reuse_source": "Exact immutable accepted-reused rows from the previous public snapshot, with per-row original completion SHA/bytes.",
+  "global_observer_not_used": true,
+  "new_completion_evidence": "The two native observers read accepted completion records and export metrics; their full observation files are hashed. They do not export each new completion file SHA, and none is invented here.",
+  "paper_and_frozen_sources_modified": false,
+  "prior_publication": {
+    "commit": "c523c81892b78d6c6a309a8d7a09ca4f90ac25c6",
+    "snapshot_relative_path": "results/made/core_boundary_v2/20260924T035221_CST/snapshot.json",
+    "snapshot_sha256": "65096d3313b2b2458a639d68ffe0727afdd661b12184328d043d0f29e9738f50"
+  },
+  "private_prompts_tokens_structures_logs_or_machine_identifiers_exported": false,
+  "schema": "MADE_seven_pairs_fixed_two_device_provenance",
+  "sources": {
+    "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json": {
+      "executed_observer_source_sha256": "ffd59bcf4d782b5906f81cd8f9ae106b04e514dc9451047afb6983628a72d291",
+      "file": {
+        "bytes": 5919,
+        "sha256": "d62f07196c8b58c51ea30ab8aace0289eb87e569a6e8b31aee6895bc74700e8e"
+      },
+      "observed_CST": "2026-09-24T04:31:52.167551+08:00"
+    },
+    "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json": {
+      "executed_observer_source_sha256": "ffd59bcf4d782b5906f81cd8f9ae106b04e514dc9451047afb6983628a72d291",
+      "file": {
+        "bytes": 5179,
+        "sha256": "d3ef4b31c0438301cace9d3af8f24f7eae4e06d4c97251afcf2ad074278b5f9f"
+      },
+      "observed_CST": "2026-09-24T04:31:52.158644+08:00"
+    }
+  }
+}

@@ -1,0 +1,803 @@
+{
+  "B10_by_chemistry": [
+    {
+      "budget": 10,
+      "statistics": {
+        "complete_pairs_in_coverage": 4,
+        "means": {
+          "ActionPool2": {
+            "AUDC": 0.265,
+            "SUN": 2.5
+          },
+          "Native1": {
+            "AUDC": 0.10250000000000001,
+            "SUN": 1.25
+          },
+          "difference": {
+            "AUDC": 0.1625,
+            "SUN": 1.25
+          }
+        },
+        "win_tie_loss": {
+          "AUDC": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 4
+          },
+          "SUN": {
+            "losses": 1,
+            "ties": 0,
+            "wins": 3
+          }
+        }
+      },
+      "task": "Au-K-Tb"
+    },
+    {
+      "budget": 10,
+      "statistics": {
+        "complete_pairs_in_coverage": 3,
+        "means": {
+          "ActionPool2": {
+            "AUDC": 0.9700000000000001,
+            "SUN": 9.0
+          },
+          "Native1": {
+            "AUDC": 0.6033333333333334,
+            "SUN": 5.666666666666667
+          },
+          "difference": {
+            "AUDC": 0.3666666666666667,
+            "SUN": 3.3333333333333335
+          }
+        },
+        "win_tie_loss": {
+          "AUDC": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 3
+          },
+          "SUN": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 3
+          }
+        }
+      },
+      "task": "Mg-Sn-Sr"
+    }
+  ],
+  "B10_statistics": {
+    "complete_pairs_in_coverage": 7,
+    "means": {
+      "ActionPool2": {
+        "AUDC": 0.5671428571428571,
+        "SUN": 5.285714285714286
+      },
+      "Native1": {
+        "AUDC": 0.3171428571428571,
+        "SUN": 3.142857142857143
+      },
+      "difference": {
+        "AUDC": 0.25,
+        "SUN": 2.142857142857143
+      }
+    },
+    "win_tie_loss": {
+      "AUDC": {
+        "losses": 0,
+        "ties": 0,
+        "wins": 7
+      },
+      "SUN": {
+        "losses": 1,
+        "ties": 0,
+        "wins": 6
+      }
+    }
+  },
+  "accepted_unpaired_excluded_from_statistics": [
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion_time": 1790195118.6264405,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+      "job_id": "made-core-v2-Mg-Sn-Sr-b10-s504-Native1",
+      "metrics": {
+        "AUDC": 0.93,
+        "SUN": 9,
+        "mSUN": 0.9
+      },
+      "seed": 504,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    }
+  ],
+  "by_budget": [
+    {
+      "budget": 10,
+      "global_completed_pairs": null,
+      "statistics_in_coverage": {
+        "complete_pairs_in_coverage": 7,
+        "means": {
+          "ActionPool2": {
+            "AUDC": 0.5671428571428571,
+            "SUN": 5.285714285714286
+          },
+          "Native1": {
+            "AUDC": 0.3171428571428571,
+            "SUN": 3.142857142857143
+          },
+          "difference": {
+            "AUDC": 0.25,
+            "SUN": 2.142857142857143
+          }
+        },
+        "win_tie_loss": {
+          "AUDC": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 7
+          },
+          "SUN": {
+            "losses": 1,
+            "ties": 0,
+            "wins": 6
+          }
+        }
+      }
+    },
+    {
+      "budget": 20,
+      "global_completed_pairs": null,
+      "statistics_in_coverage": null
+    },
+    {
+      "budget": 30,
+      "global_completed_pairs": null,
+      "statistics_in_coverage": null
+    }
+  ],
+  "complete_pairs_in_coverage": 7,
+  "completed_pairs": [
+    {
+      "ActionPool2": {
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_time": 1790190811.003882,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+        "job_id": "made-core-v2-Au-K-Tb-b10-s501-ActionPool2",
+        "metrics": {
+          "AUDC": 0.17,
+          "SUN": 1,
+          "mSUN": 0.1
+        },
+        "seed": 501,
+        "status": "accepted",
+        "task": "Au-K-Tb"
+      },
+      "Native1": {
+        "arm": "Native1",
+        "budget": 10,
+        "completion": {
+          "bytes": 121590,
+          "sha256": "7a3c7c4d5df88e4015dfac61918a551f3a45d2cef1b10773f4366d34c88eaf53"
+        },
+        "evidence": "fixed_Native_reuse_from_prior_immutable_publication",
+        "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Native1",
+        "metrics": {
+          "AUDC": 0.0,
+          "SUN": 0.0,
+          "mSUN": 0.0
+        },
+        "seed": 501,
+        "status": "accepted",
+        "task": "Au-K-Tb"
+      },
+      "budget": 10,
+      "difference": {
+        "AUDC": 0.17,
+        "SUN": 1.0
+      },
+      "seed": 501,
+      "task": "Au-K-Tb"
+    },
+    {
+      "ActionPool2": {
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_time": 1790191699.9296725,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+        "job_id": "made-core-v2-Au-K-Tb-b10-s502-ActionPool2",
+        "metrics": {
+          "AUDC": 0.13,
+          "SUN": 1,
+          "mSUN": 0.1
+        },
+        "seed": 502,
+        "status": "accepted",
+        "task": "Au-K-Tb"
+      },
+      "Native1": {
+        "arm": "Native1",
+        "budget": 10,
+        "completion": {
+          "bytes": 122953,
+          "sha256": "50b821573d6c7de32bc04c5c007ff1db4b337de6d0306cca4347ad2113f248c9"
+        },
+        "evidence": "fixed_Native_reuse_from_prior_immutable_publication",
+        "job_id": "made-online-core-ext-v1-Au-K-Tb-b10-s502-Native1",
+        "metrics": {
+          "AUDC": 0.08,
+          "SUN": 2,
+          "mSUN": 0.2
+        },
+        "seed": 502,
+        "status": "accepted",
+        "task": "Au-K-Tb"
+      },
+      "budget": 10,
+      "difference": {
+        "AUDC": 0.05,
+        "SUN": -1
+      },
+      "seed": 502,
+      "task": "Au-K-Tb"
+    },
+    {
+      "ActionPool2": {
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_time": 1790192920.6727197,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+        "job_id": "made-core-v2-Au-K-Tb-b10-s503-ActionPool2",
+        "metrics": {
+          "AUDC": 0.52,
+          "SUN": 6,
+          "mSUN": 0.6
+        },
+        "seed": 503,
+        "status": "accepted",
+        "task": "Au-K-Tb"
+      },
+      "Native1": {
+        "arm": "Native1",
+        "budget": 10,
+        "completion_time": 1790192189.3061814,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+        "job_id": "made-core-v2-Au-K-Tb-b10-s503-Native1",
+        "metrics": {
+          "AUDC": 0.16,
+          "SUN": 2,
+          "mSUN": 0.2
+        },
+        "seed": 503,
+        "status": "accepted",
+        "task": "Au-K-Tb"
+      },
+      "budget": 10,
+      "difference": {
+        "AUDC": 0.36,
+        "SUN": 4
+      },
+      "seed": 503,
+      "task": "Au-K-Tb"
+    },
+    {
+      "ActionPool2": {
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_time": 1790194660.707927,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+        "job_id": "made-core-v2-Au-K-Tb-b10-s504-ActionPool2",
+        "metrics": {
+          "AUDC": 0.24,
+          "SUN": 2,
+          "mSUN": 0.2
+        },
+        "seed": 504,
+        "status": "accepted",
+        "task": "Au-K-Tb"
+      },
+      "Native1": {
+        "arm": "Native1",
+        "budget": 10,
+        "completion_time": 1790193760.2602293,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+        "job_id": "made-core-v2-Au-K-Tb-b10-s504-Native1",
+        "metrics": {
+          "AUDC": 0.17,
+          "SUN": 1,
+          "mSUN": 0.1
+        },
+        "seed": 504,
+        "status": "accepted",
+        "task": "Au-K-Tb"
+      },
+      "budget": 10,
+      "difference": {
+        "AUDC": 0.06999999999999998,
+        "SUN": 1
+      },
+      "seed": 504,
+      "task": "Au-K-Tb"
+    },
+    {
+      "ActionPool2": {
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_time": 1790191128.2653325,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+        "job_id": "made-core-v2-Mg-Sn-Sr-b10-s501-ActionPool2",
+        "metrics": {
+          "AUDC": 0.95,
+          "SUN": 9,
+          "mSUN": 0.9
+        },
+        "seed": 501,
+        "status": "accepted",
+        "task": "Mg-Sn-Sr"
+      },
+      "Native1": {
+        "arm": "Native1",
+        "budget": 10,
+        "completion": {
+          "bytes": 122939,
+          "sha256": "e567bd3f383429c50ca8f4316d3958fbda14dc582acc8a8f5c26ae17cf693279"
+        },
+        "evidence": "fixed_Native_reuse_from_prior_immutable_publication",
+        "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Native1",
+        "metrics": {
+          "AUDC": 0.86,
+          "SUN": 8.0,
+          "mSUN": 0.8
+        },
+        "seed": 501,
+        "status": "accepted",
+        "task": "Mg-Sn-Sr"
+      },
+      "budget": 10,
+      "difference": {
+        "AUDC": 0.08999999999999997,
+        "SUN": 1.0
+      },
+      "seed": 501,
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2": {
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_time": 1790192216.1841555,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+        "job_id": "made-core-v2-Mg-Sn-Sr-b10-s502-ActionPool2",
+        "metrics": {
+          "AUDC": 0.96,
+          "SUN": 8,
+          "mSUN": 0.8
+        },
+        "seed": 502,
+        "status": "accepted",
+        "task": "Mg-Sn-Sr"
+      },
+      "Native1": {
+        "arm": "Native1",
+        "budget": 10,
+        "completion": {
+          "bytes": 122971,
+          "sha256": "8cf6bc073d04e7bb271c0fd0904982d33bab48d7a8a3c7c40ee6f0f79aeb982d"
+        },
+        "evidence": "fixed_Native_reuse_from_prior_immutable_publication",
+        "job_id": "made-online-core-ext-v1-Mg-Sn-Sr-b10-s502-Native1",
+        "metrics": {
+          "AUDC": 0.7,
+          "SUN": 6,
+          "mSUN": 0.6
+        },
+        "seed": 502,
+        "status": "accepted",
+        "task": "Mg-Sn-Sr"
+      },
+      "budget": 10,
+      "difference": {
+        "AUDC": 0.26,
+        "SUN": 2
+      },
+      "seed": 502,
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "ActionPool2": {
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_time": 1790194295.1140864,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+        "job_id": "made-core-v2-Mg-Sn-Sr-b10-s503-ActionPool2",
+        "metrics": {
+          "AUDC": 1.0,
+          "SUN": 10,
+          "mSUN": 1.0
+        },
+        "seed": 503,
+        "status": "accepted",
+        "task": "Mg-Sn-Sr"
+      },
+      "Native1": {
+        "arm": "Native1",
+        "budget": 10,
+        "completion_time": 1790192936.3236065,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+        "job_id": "made-core-v2-Mg-Sn-Sr-b10-s503-Native1",
+        "metrics": {
+          "AUDC": 0.25,
+          "SUN": 3,
+          "mSUN": 0.3
+        },
+        "seed": 503,
+        "status": "accepted",
+        "task": "Mg-Sn-Sr"
+      },
+      "budget": 10,
+      "difference": {
+        "AUDC": 0.75,
+        "SUN": 7
+      },
+      "seed": 503,
+      "task": "Mg-Sn-Sr"
+    }
+  ],
+  "completion_subset_may_be_biased": true,
+  "coverage": "two specified native device observations plus four fixed accepted Native reuse records; not a global queue or8-GPU census",
+  "development_descriptive": true,
+  "eight_GPU_current_state": null,
+  "global_queue_counts": null,
+  "later_results_merged": false,
+  "missing_metrics_imputed": false,
+  "new_scientific_calls_for_publication": 0,
+  "observed_CST": "2026-09-24T04:31:52.167551+08:00",
+  "observed_records": [
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion": {
+        "bytes": 121590,
+        "sha256": "7a3c7c4d5df88e4015dfac61918a551f3a45d2cef1b10773f4366d34c88eaf53"
+      },
+      "evidence": "fixed_Native_reuse_from_prior_immutable_publication",
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Native1",
+      "metrics": {
+        "AUDC": 0.0,
+        "SUN": 0.0,
+        "mSUN": 0.0
+      },
+      "seed": 501,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion": {
+        "bytes": 122953,
+        "sha256": "50b821573d6c7de32bc04c5c007ff1db4b337de6d0306cca4347ad2113f248c9"
+      },
+      "evidence": "fixed_Native_reuse_from_prior_immutable_publication",
+      "job_id": "made-online-core-ext-v1-Au-K-Tb-b10-s502-Native1",
+      "metrics": {
+        "AUDC": 0.08,
+        "SUN": 2,
+        "mSUN": 0.2
+      },
+      "seed": 502,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion": {
+        "bytes": 122939,
+        "sha256": "e567bd3f383429c50ca8f4316d3958fbda14dc582acc8a8f5c26ae17cf693279"
+      },
+      "evidence": "fixed_Native_reuse_from_prior_immutable_publication",
+      "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Native1",
+      "metrics": {
+        "AUDC": 0.86,
+        "SUN": 8.0,
+        "mSUN": 0.8
+      },
+      "seed": 501,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion": {
+        "bytes": 122971,
+        "sha256": "8cf6bc073d04e7bb271c0fd0904982d33bab48d7a8a3c7c40ee6f0f79aeb982d"
+      },
+      "evidence": "fixed_Native_reuse_from_prior_immutable_publication",
+      "job_id": "made-online-core-ext-v1-Mg-Sn-Sr-b10-s502-Native1",
+      "metrics": {
+        "AUDC": 0.7,
+        "SUN": 6,
+        "mSUN": 0.6
+      },
+      "seed": 502,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion_time": 1790190811.003882,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+      "job_id": "made-core-v2-Au-K-Tb-b10-s501-ActionPool2",
+      "metrics": {
+        "AUDC": 0.17,
+        "SUN": 1,
+        "mSUN": 0.1
+      },
+      "seed": 501,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion_time": 1790191699.9296725,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+      "job_id": "made-core-v2-Au-K-Tb-b10-s502-ActionPool2",
+      "metrics": {
+        "AUDC": 0.13,
+        "SUN": 1,
+        "mSUN": 0.1
+      },
+      "seed": 502,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion_time": 1790192920.6727197,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+      "job_id": "made-core-v2-Au-K-Tb-b10-s503-ActionPool2",
+      "metrics": {
+        "AUDC": 0.52,
+        "SUN": 6,
+        "mSUN": 0.6
+      },
+      "seed": 503,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion_time": 1790192189.3061814,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+      "job_id": "made-core-v2-Au-K-Tb-b10-s503-Native1",
+      "metrics": {
+        "AUDC": 0.16,
+        "SUN": 2,
+        "mSUN": 0.2
+      },
+      "seed": 503,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+      "job_id": "made-core-v2-Au-K-Tb-b10-s505-Native1",
+      "metrics": null,
+      "seed": 505,
+      "status": "observed_incomplete",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion_time": 1790194295.1140864,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+      "job_id": "made-core-v2-Mg-Sn-Sr-b10-s503-ActionPool2",
+      "metrics": {
+        "AUDC": 1.0,
+        "SUN": 10,
+        "mSUN": 1.0
+      },
+      "seed": 503,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion_time": 1790195118.6264405,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+      "job_id": "made-core-v2-Mg-Sn-Sr-b10-s504-Native1",
+      "metrics": {
+        "AUDC": 0.93,
+        "SUN": 9,
+        "mSUN": 0.9
+      },
+      "seed": 504,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion_time": 1790194660.707927,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+      "job_id": "made-core-v2-Au-K-Tb-b10-s504-ActionPool2",
+      "metrics": {
+        "AUDC": 0.24,
+        "SUN": 2,
+        "mSUN": 0.2
+      },
+      "seed": 504,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion_time": 1790193760.2602293,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+      "job_id": "made-core-v2-Au-K-Tb-b10-s504-Native1",
+      "metrics": {
+        "AUDC": 0.17,
+        "SUN": 1,
+        "mSUN": 0.1
+      },
+      "seed": 504,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion_time": 1790191128.2653325,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+      "job_id": "made-core-v2-Mg-Sn-Sr-b10-s501-ActionPool2",
+      "metrics": {
+        "AUDC": 0.95,
+        "SUN": 9,
+        "mSUN": 0.9
+      },
+      "seed": 501,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion_time": 1790192216.1841555,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+      "job_id": "made-core-v2-Mg-Sn-Sr-b10-s502-ActionPool2",
+      "metrics": {
+        "AUDC": 0.96,
+        "SUN": 8,
+        "mSUN": 0.8
+      },
+      "seed": 502,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion_time": 1790192936.3236065,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+      "job_id": "made-core-v2-Mg-Sn-Sr-b10-s503-Native1",
+      "metrics": {
+        "AUDC": 0.25,
+        "SUN": 3,
+        "mSUN": 0.3
+      },
+      "seed": 503,
+      "status": "accepted",
+      "task": "Mg-Sn-Sr"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+      "job_id": "made-core-v2-Mg-Sn-Sr-b10-s504-ActionPool2",
+      "metrics": null,
+      "seed": 504,
+      "status": "observed_incomplete",
+      "task": "Mg-Sn-Sr"
+    }
+  ],
+  "other_nodes_may_have_unobserved_results": true,
+  "provenance_file": "provenance.json",
+  "schema": "MADE_core_boundary_v2_seven_pairs_scoped_snapshot",
+  "seed501_only_Common2_checks": [
+    {
+      "ActionPool2": {
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_time": 1790190811.003882,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_primary_1790195512507352000.json",
+        "job_id": "made-core-v2-Au-K-Tb-b10-s501-ActionPool2",
+        "metrics": {
+          "AUDC": 0.17,
+          "SUN": 1,
+          "mSUN": 0.1
+        },
+        "seed": 501,
+        "status": "accepted",
+        "task": "Au-K-Tb"
+      },
+      "Common2": {
+        "completion": {
+          "bytes": 122844,
+          "sha256": "3a070b629c109924deae7be36e358c888e33fce4010b606ceefcd6ef8aaa40ec"
+        },
+        "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Common2",
+        "metrics": {
+          "AUDC": 0.39,
+          "SUN": 3.0,
+          "mSUN": 0.3
+        }
+      },
+      "Common2_uses_internal_risk": false,
+      "budget": 10,
+      "difference": {
+        "AUDC": -0.22,
+        "SUN": -2.0
+      },
+      "seed": 501,
+      "task": "Au-K-Tb"
+    },
+    {
+      "ActionPool2": {
+        "arm": "ActionPool2",
+        "budget": 10,
+        "completion_time": 1790191128.2653325,
+        "evidence": "observe_live_MADE_core_v2_devices_v1_secondary_1790195512494899000.json",
+        "job_id": "made-core-v2-Mg-Sn-Sr-b10-s501-ActionPool2",
+        "metrics": {
+          "AUDC": 0.95,
+          "SUN": 9,
+          "mSUN": 0.9
+        },
+        "seed": 501,
+        "status": "accepted",
+        "task": "Mg-Sn-Sr"
+      },
+      "Common2": {
+        "completion": {
+          "bytes": 122905,
+          "sha256": "764682616701e629d553d9bdd511103122de6c885af7b99479040f28ab755c5d"
+        },
+        "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Common2",
+        "metrics": {
+          "AUDC": 0.93,
+          "SUN": 9.0,
+          "mSUN": 0.9
+        }
+      },
+      "Common2_uses_internal_risk": false,
+      "budget": 10,
+      "difference": {
+        "AUDC": 0.019999999999999907,
+        "SUN": 0.0
+      },
+      "seed": 501,
+      "task": "Mg-Sn-Sr"
+    }
+  ],
+  "source_observation_times": [
+    "2026-09-24T04:31:52.167551+08:00",
+    "2026-09-24T04:31:52.158644+08:00"
+  ],
+  "statistical_significance_claimed": false,
+  "two_previously_examined_chemistries": true,
+  "uncertainty_net_increment_established": false
+}
