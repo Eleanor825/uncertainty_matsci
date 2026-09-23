@@ -1,0 +1,393 @@
+{
+  "schema": "made_tiny20_first_three_projection_v1",
+  "study_id": "made_minimal_fivearms_b5_b15_20260923_v1",
+  "snapshot_observed_UTC": "2026-09-23T12:46:03.468Z",
+  "snapshot_observed_CST": "2026-09-23T20:46:03.468+08:00",
+  "first_pair_observed_UTC": "2026-09-23T12:32:06.296Z",
+  "first_pair_observed_CST": "2026-09-23T20:32:06.296+08:00",
+  "infrastructure_observed_UTC": "2026-09-23T12:37:01.654Z",
+  "infrastructure_observed_CST": "2026-09-23T20:37:01.654+08:00",
+  "scope": {
+    "canonical_jobs": 20,
+    "accepted_jobs_in_snapshot": 3,
+    "accepted_baseline_contrasts": 2,
+    "contrasts_share_one_Native_trajectory": true,
+    "independent_system_budget_seed_blocks": 1,
+    "selected_systems": [
+      "Mg-Sn-Sr",
+      "Au-K-Tb"
+    ],
+    "budgets": [
+      5,
+      15
+    ],
+    "seeds": [
+      1
+    ],
+    "arms": [
+      "Native",
+      "G0GraphRisk",
+      "G2ControllerOff",
+      "G2Full",
+      "Hidden145Fixed2"
+    ],
+    "planned_candidate_ORB_attempts": 200,
+    "complete_study": false,
+    "common2_present": false
+  },
+  "model": {
+    "id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "tokenizer_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+  },
+  "method": {
+    "Native": "original_G0_baseline",
+    "Hidden145Fixed2": "G0_original_MADE_hidden145_risk_head_fixed_two_proposals_public_feedback",
+    "G2Full": "original_selected_generation2_full_graph_risk_controller_method",
+    "hidden_NN_effect_isolated": false,
+    "hidden_arm_is_G2Full": false,
+    "hidden_arm_has_new_ES_updates": false
+  },
+  "accepted_rows": [
+    {
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Native",
+      "arm": "Native",
+      "task": "Mg-Sn-Sr",
+      "budget": 5,
+      "seed": 1,
+      "status": "accepted",
+      "SUN": 5,
+      "AUDC": 1,
+      "failure_rate": 0,
+      "mSUN": 1,
+      "costs": {
+        "candidate_oracle_attempts": 5,
+        "completion_tokens": 2494,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 96,
+        "initialization_wall_seconds": 193.6649531358853,
+        "llm_calls": 16,
+        "prompt_tokens": 31189,
+        "rpc_attempts": 30,
+        "score_sentinels": 8,
+        "step_attempts": 5,
+        "surrogate_oracle_attempts": 8,
+        "tool_attempts": 15,
+        "wall_seconds": 280.3436910370365
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "result_sha256": "79a162aa941c833eb83ec69b02f52250225b35c3a1db6c2739a9a9ff9298e446",
+      "observed_UTC": "2026-09-23T12:46:03.468Z",
+      "first_result_read_UTC": "2026-09-23T12:32:06.296Z",
+      "selected_generation": 0,
+      "completion_sha256": "5ee3a90b1840b3bdd4c25e2355485a3a44dfda60e8190036afd07f7665644cc4"
+    },
+    {
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Hidden145Fixed2",
+      "arm": "Hidden145Fixed2",
+      "task": "Mg-Sn-Sr",
+      "budget": 5,
+      "seed": 1,
+      "status": "accepted",
+      "SUN": 4,
+      "AUDC": 0.8,
+      "failure_rate": 0.19999999999999996,
+      "mSUN": 0.8,
+      "costs": {
+        "candidate_oracle_attempts": 5,
+        "completion_tokens": 5386,
+        "graph_seconds": 0,
+        "initialization_oracle_attempts": 96,
+        "initialization_wall_seconds": 182.81481338106096,
+        "llm_calls": 36,
+        "prompt_tokens": 66702,
+        "rpc_attempts": 36,
+        "score_sentinels": 12,
+        "step_attempts": 5,
+        "surrogate_oracle_attempts": 9,
+        "tool_attempts": 18,
+        "wall_seconds": 634.2290405551903
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "result_sha256": "137374d6e41bc4ea902014cdba97dcf037c1f3ee7a8379010d2bd2d6cf3a85a1",
+      "observed_UTC": "2026-09-23T12:46:03.468Z",
+      "first_result_read_UTC": "2026-09-23T12:32:06.296Z",
+      "selected_generation": 0,
+      "completion_sha256": "f090497dcd437c0b8bc1d6b326ec27acd59100eb30b9acf20fd2f12fe5d9e80a"
+    },
+    {
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2Full",
+      "arm": "G2Full",
+      "task": "Mg-Sn-Sr",
+      "budget": 5,
+      "seed": 1,
+      "status": "accepted",
+      "SUN": 4,
+      "mSUN": 0.8,
+      "AUDC": 0.96,
+      "costs": {
+        "candidate_oracle_attempts": 5,
+        "completion_tokens": 3496,
+        "graph_seconds": 418.58187308348715,
+        "initialization_oracle_attempts": 96,
+        "initialization_wall_seconds": 183.6171627091244,
+        "llm_calls": 23,
+        "prompt_tokens": 21669,
+        "rpc_attempts": 20,
+        "step_attempts": 5,
+        "tool_attempts": 10,
+        "wall_seconds": 804.9518946614116
+      },
+      "curve": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "result_sha256": "8ae05930be2a25d39145723fe0ce66a3e1a2f4acfae5cf535fcbdd9771737216",
+      "first_result_read_UTC": "2026-09-23T12:46:03.468Z",
+      "observed_UTC": "2026-09-23T12:46:03.468Z",
+      "selected_generation": 2,
+      "completion_sha256": "c66ce00c54b93ec38dc0435375baf9e370e80a38724accf926fc3255c3c6dab3"
+    }
+  ],
+  "original_initialization_failures": [
+    {
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-G2Full",
+      "arm": "G2Full",
+      "task": "Au-K-Tb",
+      "budget": 15,
+      "seed": 1,
+      "attempt": 1,
+      "status": "infrastructure_failed_initialization",
+      "error_code": "missing_asset",
+      "missing_asset": "orb-v3-conservative-inf-omat-20250404.ckpt",
+      "decision_file_exists": false,
+      "recorded_request_ops": [
+        "init"
+      ],
+      "candidate_oracle_attempts": 0,
+      "score": null,
+      "retry_executed_at_snapshot": false,
+      "failure_sha256": "f6b90ec28718be74433c041ad2032beddbc1f86965169eaa3c3b7326cf7ef95f",
+      "rpc_sha256": "906cc85924f81ef1c78f1ffa2c2a384363fcd37fdded45dab9d1d789e1be860b"
+    },
+    {
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-Native",
+      "arm": "Native",
+      "task": "Au-K-Tb",
+      "budget": 15,
+      "seed": 1,
+      "attempt": 1,
+      "status": "infrastructure_failed_initialization",
+      "error_code": "missing_asset",
+      "missing_asset": "orb-v3-conservative-inf-omat-20250404.ckpt",
+      "decision_file_exists": false,
+      "recorded_request_ops": [
+        "init"
+      ],
+      "candidate_oracle_attempts": 0,
+      "score": null,
+      "retry_executed_at_snapshot": false,
+      "failure_sha256": "e242782ee21b678cfe5958e014e77adc0e4aab23954a0e19dc288914c5de4800",
+      "rpc_sha256": "1f422772882d6c16283a97435c54ab62203b9fff8f1f20df30e3d199c2cfdc2a"
+    },
+    {
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-G2Full",
+      "arm": "G2Full",
+      "task": "Au-K-Tb",
+      "budget": 5,
+      "seed": 1,
+      "attempt": 1,
+      "status": "infrastructure_failed_initialization",
+      "error_code": "missing_asset",
+      "missing_asset": "orb-v3-conservative-inf-omat-20250404.ckpt",
+      "decision_file_exists": false,
+      "recorded_request_ops": [
+        "init"
+      ],
+      "candidate_oracle_attempts": 0,
+      "score": null,
+      "retry_executed_at_snapshot": false,
+      "failure_sha256": "a4606fd9d214e4879a6023834edb678e6f7b6d2d6cd7ca3bc661719de2b501a2",
+      "rpc_sha256": "3dcb67e18123029160263ad2112ee9dca376988aa88d35f1de9ff3f1463b6b5a"
+    },
+    {
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-Native",
+      "arm": "Native",
+      "task": "Au-K-Tb",
+      "budget": 5,
+      "seed": 1,
+      "attempt": 1,
+      "status": "infrastructure_failed_initialization",
+      "error_code": "missing_asset",
+      "missing_asset": "orb-v3-conservative-inf-omat-20250404.ckpt",
+      "decision_file_exists": false,
+      "recorded_request_ops": [
+        "init"
+      ],
+      "candidate_oracle_attempts": 0,
+      "score": null,
+      "retry_executed_at_snapshot": false,
+      "failure_sha256": "4fd44d77aed70890489c09cd168b4e95b37a07288c807da4e1e35b4a59d8f4d0",
+      "rpc_sha256": "1b21e0a3014a2bafafc967f44050e729402ce91311ecfa23d609d4d0002ee3d2"
+    },
+    {
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G2Full",
+      "arm": "G2Full",
+      "task": "Mg-Sn-Sr",
+      "budget": 15,
+      "seed": 1,
+      "attempt": 1,
+      "status": "infrastructure_failed_initialization",
+      "error_code": "missing_asset",
+      "missing_asset": "orb-v3-conservative-inf-omat-20250404.ckpt",
+      "decision_file_exists": false,
+      "recorded_request_ops": [
+        "init"
+      ],
+      "candidate_oracle_attempts": 0,
+      "score": null,
+      "retry_executed_at_snapshot": false,
+      "failure_sha256": "60f9c1f785c50302f0837d55131c6c3ff1963fb0a178c8438970aa375f4fb07d",
+      "rpc_sha256": "0f8036e90c875286f78073aabaac9f4b9653d16102cb1aa71c78ecfa6f98f0af"
+    },
+    {
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-Native",
+      "arm": "Native",
+      "task": "Mg-Sn-Sr",
+      "budget": 15,
+      "seed": 1,
+      "attempt": 1,
+      "status": "infrastructure_failed_initialization",
+      "error_code": "missing_asset",
+      "missing_asset": "orb-v3-conservative-inf-omat-20250404.ckpt",
+      "decision_file_exists": false,
+      "recorded_request_ops": [
+        "init"
+      ],
+      "candidate_oracle_attempts": 0,
+      "score": null,
+      "retry_executed_at_snapshot": false,
+      "failure_sha256": "09b190928fc028032391adc15f91fb88cd38d1b52664e39f6c74af9517a4c8b4",
+      "rpc_sha256": "c6be47d9e089ddea5a9e25d5cf02d36423f4123e9e03cb9911f15e269d69b067"
+    },
+    {
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G0GraphRisk",
+      "arm": "G0GraphRisk",
+      "task": "Mg-Sn-Sr",
+      "budget": 5,
+      "seed": 1,
+      "attempt": 1,
+      "status": "infrastructure_failed_initialization",
+      "error_code": "missing_asset",
+      "missing_asset": "orb-v3-conservative-inf-omat-20250404.ckpt",
+      "decision_file_exists": false,
+      "recorded_request_ops": [
+        "init"
+      ],
+      "candidate_oracle_attempts": 0,
+      "score": null,
+      "retry_executed_at_snapshot": false,
+      "failure_sha256": "a096f6f0f7445e5590181faeaf194eb91219538052b236ee0a719cd69f9b0eba",
+      "rpc_sha256": "49131a9eb117f35b2ecb3a16e12d9ab09c8d849b7c1ef7fb54253d6284b69944"
+    },
+    {
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2ControllerOff",
+      "arm": "G2ControllerOff",
+      "task": "Mg-Sn-Sr",
+      "budget": 5,
+      "seed": 1,
+      "attempt": 1,
+      "status": "infrastructure_failed_initialization",
+      "error_code": "missing_asset",
+      "missing_asset": "orb-v3-conservative-inf-omat-20250404.ckpt",
+      "decision_file_exists": false,
+      "recorded_request_ops": [
+        "init"
+      ],
+      "candidate_oracle_attempts": 0,
+      "score": null,
+      "retry_executed_at_snapshot": false,
+      "failure_sha256": "95adde52ab37d72df2856254b03a92b618bddb4100145aab580b6a2f9e85601d",
+      "rpc_sha256": "4f046cccdcea3b26d9ddc6371210c9469ab810b1afd3eab9747bc63732a116db"
+    }
+  ],
+  "publication": {
+    "scientific_calls": 0,
+    "remote_server_or_GPU_calls": 0,
+    "new_model_or_NN_or_ES_training": false,
+    "raw_original_results_modified": false,
+    "hashes_are_receipt_references_not_public_raw_bytes": true
+  }
+}

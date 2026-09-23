@@ -1,0 +1,251 @@
+{
+  "schema": "scientific_source_sha256_v1",
+  "algorithm": "SHA-256",
+  "note": "Paths are project-relative identifiers. Raw server artifacts remain in the research archive; this bundle contains a sanitized projection and hash references. Original result hashes matched the prior verification receipts. Local publication rechecked source bytes, arithmetic and CSV consistency without contacting experiment servers.",
+  "files": [
+    {
+      "path": "experiments/autoresearch_20260922/operations/read_made_tiny20_first_pair_v1_primary_1790166726390945000.json",
+      "role": "first_accepted_pair_read_snapshot",
+      "bytes": 14284,
+      "sha256": "4fc4d895e0fda73ffa411f6f5a2a3315d57c4378802069f4509e02eff3b9d914",
+      "verification": "hashed_local_source_bytes"
+    },
+    {
+      "path": "experiments/autoresearch_20260922/operations/read_made_tiny20_completed_results_v1_primary_1790167563573105000.json",
+      "role": "three_accepted_results_read_snapshot",
+      "bytes": 6002,
+      "sha256": "e31de2cf7d6848ba4daef3dbe2aaf19429fcd24db94d97a84c662306da973a85",
+      "verification": "hashed_local_source_bytes"
+    },
+    {
+      "path": "experiments/autoresearch_20260922/operations/read_made_tiny20_completed_results_v1.py",
+      "role": "hash_bound_accepted_result_reader",
+      "bytes": 1675,
+      "sha256": "70dbfe28d9d30ce56d400f4c79f0e1eba01f47071819c01e87961e370214efac",
+      "verification": "hashed_local_source_bytes"
+    },
+    {
+      "path": "experiments/autoresearch_20260922/operations/observe_made_tiny20_v1_primary_1790167457409641000.json",
+      "role": "accepted_completion_verification_snapshot",
+      "bytes": 17385,
+      "sha256": "9c8a348f340d5623bdf61f4ca80cd0fec1fa4c1767d86a0e60a880def719cf60",
+      "verification": "hashed_local_source_bytes"
+    },
+    {
+      "path": "experiments/autoresearch_20260922/operations/inspect_made_tiny20_asset_failures_v1_primary_1790167022396796000.json",
+      "role": "infrastructure_failure_read_snapshot",
+      "bytes": 32927,
+      "sha256": "7574460d9b54405d0e9577349ca37ba1c3b8e18a99f7d0448be7810aea0d1316",
+      "verification": "hashed_local_source_bytes"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/protocol.md",
+      "role": "registered_protocol",
+      "bytes": 5052,
+      "sha256": "8024ccfb53d5a2046e206d73005c8ce110013d42cd47ec5ed0dbf7ad26a944a5",
+      "verification": "hashed_local_source_bytes"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/source_manifest.json",
+      "role": "scientific_source_manifest",
+      "bytes": 7149,
+      "sha256": "aa7e53cb6502565249334e3a0d310a4206e69bced9fd35de64e15638749f3576",
+      "verification": "hashed_local_source_bytes"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/lineage.json",
+      "role": "original_G0_G2_and_hidden_head_lineage",
+      "bytes": 18114,
+      "sha256": "14d2e2f310f18349533cc835deb3fb748b9549d90f92157e8753dc18233c0f23",
+      "verification": "hashed_local_source_bytes"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/package_receipt.json",
+      "role": "prepared_twenty_job_scope",
+      "bytes": 1945,
+      "sha256": "834ca0141493a0d0a2054e319c9f1c46cf03017eef05fc20624331993f81d99a",
+      "verification": "hashed_local_source_bytes"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/registrations/v1/registry.json",
+      "role": "canonical_scientific_registration",
+      "bytes": 6860515,
+      "sha256": "a70d68299301bb4bb73106c2a88a3f87985286a1106fd4618498067b632ea860",
+      "commit": "6317b5ca109bd6d40931cda86c2527684f74c2d9",
+      "verification": "registration_hash_and_accepted_job_identity_validated_by_hash_bound_result_reader"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Native/attempt_1/result.json",
+      "role": "accepted_raw_result",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Native",
+      "bytes": 131030,
+      "sha256": "79a162aa941c833eb83ec69b02f52250225b35c3a1db6c2739a9a9ff9298e446",
+      "verification": "matches_result_and_verification_receipt_in_prior_raw_validated_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Hidden145Fixed2/attempt_1/result.json",
+      "role": "accepted_raw_result",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Hidden145Fixed2",
+      "bytes": 140149,
+      "sha256": "137374d6e41bc4ea902014cdba97dcf037c1f3ee7a8379010d2bd2d6cf3a85a1",
+      "verification": "matches_result_and_verification_receipt_in_prior_raw_validated_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2Full/attempt_1/result.json",
+      "role": "accepted_raw_result",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2Full",
+      "bytes": 2951643,
+      "sha256": "8ae05930be2a25d39145723fe0ce66a3e1a2f4acfae5cf535fcbdd9771737216",
+      "verification": "raw_hash_validated_by_hash_bound_accepted_result_reader_and_matches_observer_verification"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2Full/completion.json",
+      "role": "accepted_completion_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2Full",
+      "sha256": "c66ce00c54b93ec38dc0435375baf9e370e80a38724accf926fc3255c3c6dab3",
+      "verification": "accepted_complete_and_registration_identity_checked_by_hash_bound_result_reader"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Hidden145Fixed2/completion.json",
+      "role": "accepted_completion_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Hidden145Fixed2",
+      "sha256": "f090497dcd437c0b8bc1d6b326ec27acd59100eb30b9acf20fd2f12fe5d9e80a",
+      "verification": "accepted_complete_and_registration_identity_checked_by_hash_bound_result_reader"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Native/completion.json",
+      "role": "accepted_completion_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-Native",
+      "sha256": "5ee3a90b1840b3bdd4c25e2355485a3a44dfda60e8190036afd07f7665644cc4",
+      "verification": "accepted_complete_and_registration_identity_checked_by_hash_bound_result_reader"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b15-s1-G2Full/failure.json",
+      "role": "infrastructure_failure_receipt",
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-G2Full",
+      "bytes": 2836,
+      "sha256": "f6b90ec28718be74433c041ad2032beddbc1f86965169eaa3c3b7326cf7ef95f",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b15-s1-G2Full/attempt_1/rpc/rpc.jsonl",
+      "role": "infrastructure_rpc_receipt",
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-G2Full",
+      "bytes": 2297,
+      "sha256": "906cc85924f81ef1c78f1ffa2c2a384363fcd37fdded45dab9d1d789e1be860b",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b15-s1-Native/failure.json",
+      "role": "infrastructure_failure_receipt",
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-Native",
+      "bytes": 2828,
+      "sha256": "e242782ee21b678cfe5958e014e77adc0e4aab23954a0e19dc288914c5de4800",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b15-s1-Native/attempt_1/rpc/rpc.jsonl",
+      "role": "infrastructure_rpc_receipt",
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b15-s1-Native",
+      "bytes": 2296,
+      "sha256": "1f422772882d6c16283a97435c54ab62203b9fff8f1f20df30e3d199c2cfdc2a",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b5-s1-G2Full/failure.json",
+      "role": "infrastructure_failure_receipt",
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-G2Full",
+      "bytes": 2833,
+      "sha256": "a4606fd9d214e4879a6023834edb678e6f7b6d2d6cd7ca3bc661719de2b501a2",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b5-s1-G2Full/attempt_1/rpc/rpc.jsonl",
+      "role": "infrastructure_rpc_receipt",
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-G2Full",
+      "bytes": 2294,
+      "sha256": "3dcb67e18123029160263ad2112ee9dca376988aa88d35f1de9ff3f1463b6b5a",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b5-s1-Native/failure.json",
+      "role": "infrastructure_failure_receipt",
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-Native",
+      "bytes": 2825,
+      "sha256": "4fd44d77aed70890489c09cd168b4e95b37a07288c807da4e1e35b4a59d8f4d0",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Au-K-Tb-b5-s1-Native/attempt_1/rpc/rpc.jsonl",
+      "role": "infrastructure_rpc_receipt",
+      "job_id": "made-tiny20-20260923-Au-K-Tb-b5-s1-Native",
+      "bytes": 2293,
+      "sha256": "1b21e0a3014a2bafafc967f44050e729402ce91311ecfa23d609d4d0002ee3d2",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G2Full/failure.json",
+      "role": "infrastructure_failure_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G2Full",
+      "bytes": 2841,
+      "sha256": "60f9c1f785c50302f0837d55131c6c3ff1963fb0a178c8438970aa375f4fb07d",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G2Full/attempt_1/rpc/rpc.jsonl",
+      "role": "infrastructure_rpc_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-G2Full",
+      "bytes": 2299,
+      "sha256": "0f8036e90c875286f78073aabaac9f4b9653d16102cb1aa71c78ecfa6f98f0af",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b15-s1-Native/failure.json",
+      "role": "infrastructure_failure_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-Native",
+      "bytes": 2833,
+      "sha256": "09b190928fc028032391adc15f91fb88cd38d1b52664e39f6c74af9517a4c8b4",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b15-s1-Native/attempt_1/rpc/rpc.jsonl",
+      "role": "infrastructure_rpc_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b15-s1-Native",
+      "bytes": 2296,
+      "sha256": "c6be47d9e089ddea5a9e25d5cf02d36423f4123e9e03cb9911f15e269d69b067",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G0GraphRisk/failure.json",
+      "role": "infrastructure_failure_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G0GraphRisk",
+      "bytes": 2847,
+      "sha256": "a096f6f0f7445e5590181faeaf194eb91219538052b236ee0a719cd69f9b0eba",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G0GraphRisk/attempt_1/rpc/rpc.jsonl",
+      "role": "infrastructure_rpc_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G0GraphRisk",
+      "bytes": 2301,
+      "sha256": "49131a9eb117f35b2ecb3a16e12d9ab09c8d849b7c1ef7fb54253d6284b69944",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2ControllerOff/failure.json",
+      "role": "infrastructure_failure_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2ControllerOff",
+      "bytes": 2854,
+      "sha256": "95adde52ab37d72df2856254b03a92b618bddb4100145aab580b6a2f9e85601d",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    },
+    {
+      "path": "benchmark_extensions/made_minimal_fivearms_b5_b15_20260923_v1/runs/v1/jobs/made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2ControllerOff/attempt_1/rpc/rpc.jsonl",
+      "role": "infrastructure_rpc_receipt",
+      "job_id": "made-tiny20-20260923-Mg-Sn-Sr-b5-s1-G2ControllerOff",
+      "bytes": 2306,
+      "sha256": "4f046cccdcea3b26d9ddc6371210c9469ab810b1afd3eab9747bc63732a116db",
+      "verification": "recorded_in_read_only_failure_snapshot"
+    }
+  ]
+}

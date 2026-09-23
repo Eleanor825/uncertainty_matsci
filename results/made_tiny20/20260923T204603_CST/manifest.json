@@ -1,0 +1,38 @@
+{
+  "schema": "made_tiny20_first_three_bundle_v1",
+  "accepted_jobs": 3,
+  "planned_canonical_jobs": 20,
+  "scientific_calls": 0,
+  "files": [
+    {
+      "path": "3rows.csv",
+      "bytes": 1343,
+      "sha256": "07f95910b717776410e38275105a94b69fd17d143a036bc0b739b94fedae6e32"
+    },
+    {
+      "path": "curves.csv",
+      "bytes": 2555,
+      "sha256": "9196517ce08a3744d21ce79bcd3bc968f7d4766bdb02b0afd3f70ef05224f5a2"
+    },
+    {
+      "path": "evidence.json",
+      "bytes": 11751,
+      "sha256": "f821293728659421995438e7ebf2d7dc1f2132a6cf8fa6d8220c5afdc3140343"
+    },
+    {
+      "path": "report.md",
+      "bytes": 5052,
+      "sha256": "dea6490b1a1737e3715e28dd22725e85b470fb1f78319bc3c368b67dee028003"
+    },
+    {
+      "path": "scientific_sha256.json",
+      "bytes": 13829,
+      "sha256": "483b0a758bd117e4fa722575dd32c7e490746613e825f28476d2ab7109acd977"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 3797,
+      "sha256": "9d0fd35849b0cf9a477d7bb118def1605941994268eef00341ae602844b95809"
+    }
+  ]
+}
