@@ -1,0 +1,69 @@
+{
+  "Native1_adoption_pin": {
+    "bytes": 829,
+    "sha256": "772794ba9dfa2ffd89296a7d68f1e3db24fc6c887530670bed7008ea53e36702"
+  },
+  "RPC_log_snapshots": {
+    "made-core-v2-Au-K-Tb-b10-s501-ActionPool2": {
+      "complete_lines": 64,
+      "read_bytes": 1218066,
+      "read_snapshot_sha256": "f5dc1fb1ec0d0883eb9fd8e8650664101a69f14619308ed48d36176680b638cf",
+      "trailing_incomplete_line_ignored": false
+    },
+    "made-core-v2-Mg-Sn-Sr-b10-s501-ActionPool2": {
+      "complete_lines": 46,
+      "read_bytes": 2596503,
+      "read_snapshot_sha256": "24e6581b0b499c0487968ea6354455f026c06a0d8970e48b661793585ba33c70",
+      "trailing_incomplete_line_ignored": false
+    }
+  },
+  "boundary_repair_record": {
+    "bytes": 1521,
+    "sha256": "7134fee0b439b2b3deb6a0b13b0e2323295c36f48cfaf6895e2927934fdc40cd"
+  },
+  "boundary_v2_scientific_registry_sha256": "ff125f6f39828a1aa3db34a201d60766aba40282d34e8f47ad2dff9bc771b3f4",
+  "boundary_v2_source_manifest": {
+    "bytes": 12259,
+    "sha256": "cdc3c89bf3bd9928449763610cbb8450312c635700fe405e851bf63ab4e4a726"
+  },
+  "executed_observer_source": {
+    "bytes": 8870,
+    "filename": "observe_MADE_v2_selection_effect_v1.py",
+    "sha256": "09033e0d8548bb2746f0f7e074f1727f74908df5575677ae070f34d063f8987d"
+  },
+  "native_completion_evidence": "The source-bound native observer read the completed result, checked its exact job and registry SHA, and exported accepted/status/metrics. This observer did not export a separate completion-file hash; none is invented.",
+  "old_reports_or_paper_modified": false,
+  "previous_control_publication": {
+    "commit": "a4063683dadc121a857faff85e7d3894dee7d3ee",
+    "report_url": "https://github.com/Eleanor825/uncertainty_matsci/blob/a4063683dadc121a857faff85e7d3894dee7d3ee/results/made/online_pooling_b10_b20/20260924T024019_CST/report.md",
+    "snapshot_relative_path": "results/made/online_pooling_b10_b20/20260924T024019_CST/snapshot.json",
+    "snapshot_sha256": "00955e56106642760b81f54e2c2cff9c9fb7c9d60bcd397b04f84dfba337e606"
+  },
+  "private_prompts_tokens_structures_machine_identity_or_logs_exported": false,
+  "representation_fix_only": "JSON-normalize tuple/list action-target containers; fixed token positions, j-1 pooling, G0, logistic coefficients/temperature and evaluator retained by the registered protocol.",
+  "schema": "MADE_core_boundary_v2_public_provenance_v1",
+  "selection_evidence": "The native observer SHA-checked candidate source references and reproduced the original and Common2 selection on the same candidate packets; these are action choices, not counterfactual scientific outcomes.",
+  "selection_log_snapshots": {
+    "made-core-v2-Au-K-Tb-b10-s501-ActionPool2": {
+      "complete_lines": 15,
+      "read_bytes": 15764,
+      "read_snapshot_sha256": "d64ecd405154317235895e5b1efb335be870fdeacd23d46457a08ef74f9ae635",
+      "trailing_incomplete_line_ignored": false
+    },
+    "made-core-v2-Mg-Sn-Sr-b10-s501-ActionPool2": {
+      "complete_lines": 11,
+      "read_bytes": 11839,
+      "read_snapshot_sha256": "dfb49ef0dfcaa08101a61ab0c237ce023cfc431465615455cbfb1df7a9f05494",
+      "trailing_incomplete_line_ignored": false
+    }
+  },
+  "source_observation": {
+    "bytes": 17134,
+    "filename": "observe_MADE_v2_selection_effect_v1_primary_1790190878195920000.json",
+    "sha256": "431ad5d2cf6fafb16807d2033fa422b8c670697b1f908cb1d0242d8d2cae3d77"
+  },
+  "source_protocol": {
+    "bytes": 3252,
+    "sha256": "bcb483716a1720683cb825b23d6c6ee7810b0ed71f549018cf101db79c36e024"
+  }
+}

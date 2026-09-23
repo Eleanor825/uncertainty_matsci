@@ -1,0 +1,433 @@
+{
+  "ActionPool2_minus_control": {
+    "Common2": {
+      "AUDC": -0.22,
+      "SUN": -2.0,
+      "mSUN": -0.19999999999999998
+    },
+    "Native1": {
+      "AUDC": 0.17,
+      "SUN": 1.0,
+      "mSUN": 0.1
+    }
+  },
+  "boundary_v2_scientific_registry_sha256": "ff125f6f39828a1aa3db34a201d60766aba40282d34e8f47ad2dff9bc771b3f4",
+  "boundary_v2_source_manifest_sha256": "cdc3c89bf3bd9928449763610cbb8450312c635700fe405e851bf63ab4e4a726",
+  "completed_comparison": [
+    {
+      "arm": "Native1",
+      "budget": 10,
+      "completion": {
+        "bytes": 121590,
+        "sha256": "7a3c7c4d5df88e4015dfac61918a551f3a45d2cef1b10773f4366d34c88eaf53"
+      },
+      "costs": {
+        "online_costs": {
+          "ES_updates": 0,
+          "candidate_generation_context_rejections": 4,
+          "candidate_generation_intents": 22,
+          "candidate_generation_returns": 18,
+          "capture_forward_intents": 0,
+          "capture_forward_returns": 0,
+          "capture_seconds": 0.0,
+          "common_fallback_decisions": 0,
+          "completion_tokens": 2941,
+          "counterfactual_outcome_labels": 0,
+          "distinct_valid_actions_total": 17,
+          "fits": 0,
+          "fixed_nonpolicy_recovery_actions": 0,
+          "graph_calls": 0,
+          "prompt_tokens": 39621,
+          "risk_used_decisions": 0,
+          "selector_calls": 0,
+          "tool_decisions": 18
+        },
+        "reconstructed_scientific_costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 2941,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 11,
+          "initialization_wall_seconds": 31.67513752821833,
+          "llm_calls": 18,
+          "prompt_tokens": 39621,
+          "rpc_attempts": 34,
+          "rpc_calls": 36,
+          "rpc_elapsed_seconds": 72.11500310897827,
+          "step_attempts": 10,
+          "tool_attempts": 17,
+          "wall_seconds": 332.04266552021727
+        },
+        "whole_job_wall_seconds": 500.3056483878754
+      },
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Native1",
+      "metrics": {
+        "AUDC": 0.0,
+        "SUN": 0.0,
+        "mSUN": 0.0
+      },
+      "provenance": "previously_published_independent_completed_trajectory",
+      "seed": 501,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "Common2",
+      "budget": 10,
+      "completion": {
+        "bytes": 122844,
+        "sha256": "3a070b629c109924deae7be36e358c888e33fce4010b606ceefcd6ef8aaa40ec"
+      },
+      "costs": {
+        "online_costs": {
+          "ES_updates": 0,
+          "candidate_generation_context_rejections": 8,
+          "candidate_generation_intents": 40,
+          "candidate_generation_returns": 32,
+          "capture_forward_intents": 0,
+          "capture_forward_returns": 0,
+          "capture_seconds": 0.0,
+          "common_fallback_decisions": 0,
+          "completion_tokens": 4653,
+          "counterfactual_outcome_labels": 0,
+          "distinct_valid_actions_total": 32,
+          "fits": 0,
+          "fixed_nonpolicy_recovery_actions": 0,
+          "graph_calls": 0,
+          "prompt_tokens": 71555,
+          "risk_used_decisions": 0,
+          "selector_calls": 0,
+          "tool_decisions": 16
+        },
+        "reconstructed_scientific_costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 4653,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 11,
+          "initialization_wall_seconds": 34.25859875511378,
+          "llm_calls": 32,
+          "prompt_tokens": 71555,
+          "rpc_attempts": 32,
+          "rpc_calls": 34,
+          "rpc_elapsed_seconds": 64.2181007862091,
+          "step_attempts": 10,
+          "surrogate_oracle_attempts": 3,
+          "tool_attempts": 16,
+          "wall_seconds": 487.60636688768864
+        },
+        "whole_job_wall_seconds": 656.2663262197748
+      },
+      "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Common2",
+      "metrics": {
+        "AUDC": 0.39,
+        "SUN": 3.0,
+        "mSUN": 0.3
+      },
+      "provenance": "previously_published_independent_completed_trajectory",
+      "seed": 501,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    },
+    {
+      "arm": "ActionPool2",
+      "budget": 10,
+      "completion_file_SHA_not_exported_by_this_observer": true,
+      "costs": {
+        "episode_costs": {
+          "candidate_oracle_attempts": 10,
+          "completion_tokens": 4487,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 11,
+          "initialization_wall_seconds": 31.857821306679398,
+          "llm_calls": 30,
+          "prompt_tokens": 68268,
+          "rpc_attempts": 30,
+          "step_attempts": 10,
+          "surrogate_oracle_attempts": 3,
+          "tool_attempts": 15,
+          "wall_seconds": 539.6751457401551
+        },
+        "online_costs": {
+          "ES_updates": 0,
+          "candidate_generation_context_rejections": 5,
+          "candidate_generation_intents": 35,
+          "candidate_generation_returns": 30,
+          "capture_forward_intents": 40,
+          "capture_forward_returns": 40,
+          "capture_seconds": 50.24689765647054,
+          "common_fallback_decisions": 6,
+          "completion_tokens": 4487,
+          "counterfactual_outcome_labels": 0,
+          "distinct_valid_actions_per_decision": [
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "distinct_valid_actions_total": 28,
+          "fits": 0,
+          "fixed_nonpolicy_recovery_actions": 0,
+          "graph_calls": 0,
+          "prompt_tokens": 68268,
+          "risk_used_decisions": 9,
+          "selector_calls": 20,
+          "tool_decisions": 15
+        },
+        "reconstructed_scientific_costs": {
+          "candidate_oracle_attempts": 10,
+          "completed_episodes": 1,
+          "completion_tokens": 4487,
+          "graph_seconds": 0,
+          "initialization_oracle_attempts": 11,
+          "initialization_wall_seconds": 31.857821306679398,
+          "llm_calls": 30,
+          "prompt_tokens": 68268,
+          "rpc_attempts": 30,
+          "rpc_calls": 32,
+          "rpc_elapsed_seconds": 65.45865893363953,
+          "step_attempts": 10,
+          "surrogate_oracle_attempts": 3,
+          "tool_attempts": 15,
+          "wall_seconds": 539.6751457401551
+        },
+        "whole_job_wall_seconds": 705.2867998550646
+      },
+      "job_id": "made-core-v2-Au-K-Tb-b10-s501-ActionPool2",
+      "metrics": {
+        "AUDC": 0.17,
+        "SUN": 1,
+        "mSUN": 0.1
+      },
+      "provenance": "new_boundary_v2_completed_trajectory_from_source_bound_native_observer",
+      "seed": 501,
+      "status": "accepted",
+      "task": "Au-K-Tb"
+    }
+  ],
+  "development_descriptive_previously_examined_systems": true,
+  "global_core_completed_count_inferred": false,
+  "incomplete_progress": {
+    "arm": "ActionPool2",
+    "budget": 10,
+    "candidate_evaluations_observed": 5,
+    "compared_with_completed_Native": false,
+    "final_metrics": null,
+    "job_id": "made-core-v2-Mg-Sn-Sr-b10-s501-ActionPool2",
+    "partial_official_SUN": 5,
+    "seed": 501,
+    "status": "incomplete",
+    "task": "Mg-Sn-Sr"
+  },
+  "internal_uncertainty_net_benefit_established": false,
+  "new_holdout_claimed": false,
+  "new_method_completed_in_observed_scope": 1,
+  "new_method_incomplete_in_observed_scope": 1,
+  "new_scientific_calls_for_publication": 0,
+  "observed_CST": "2026-09-24T03:14:38.107142+08:00",
+  "old_technical_failures_added_to_new_counts": false,
+  "provenance_file": "provenance.json",
+  "same_packet_mechanism": {
+    "counts": {
+      "common_fallback": 6,
+      "index_changed": 5,
+      "no_valid_action": 0,
+      "risk_used": 9,
+      "risk_used_index_changed": 5,
+      "risk_used_tool_args_key_changed": 5,
+      "risk_used_with_two_distinct_valid_actions": 7,
+      "score_calls": 20,
+      "score_calls_in_completed_selection_events": 20,
+      "score_calls_not_yet_in_a_completed_selection_event": 0,
+      "selection_events": 15,
+      "tool_args_key_changed": 5,
+      "two_distinct_valid_actions": 13
+    },
+    "details": [
+      {
+        "chosen_index": 0,
+        "distinct_valid_actions": 2,
+        "index_changed": false,
+        "risk_used": false,
+        "same_packet_Common2_index": 0,
+        "score_calls": 0,
+        "sequence": 0,
+        "tool_args_key_changed": false,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 0,
+        "distinct_valid_actions": 2,
+        "index_changed": false,
+        "risk_used": true,
+        "same_packet_Common2_index": 0,
+        "score_calls": 2,
+        "sequence": 1,
+        "tool_args_key_changed": false,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 1,
+        "distinct_valid_actions": 2,
+        "index_changed": false,
+        "risk_used": false,
+        "same_packet_Common2_index": 1,
+        "score_calls": 0,
+        "sequence": 2,
+        "tool_args_key_changed": false,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 0,
+        "distinct_valid_actions": 1,
+        "index_changed": false,
+        "risk_used": true,
+        "same_packet_Common2_index": 0,
+        "score_calls": 2,
+        "sequence": 3,
+        "tool_args_key_changed": false,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 1,
+        "distinct_valid_actions": 2,
+        "index_changed": true,
+        "risk_used": true,
+        "same_packet_Common2_index": 0,
+        "score_calls": 2,
+        "sequence": 4,
+        "tool_args_key_changed": true,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 0,
+        "distinct_valid_actions": 1,
+        "index_changed": false,
+        "risk_used": true,
+        "same_packet_Common2_index": 0,
+        "score_calls": 1,
+        "sequence": 5,
+        "tool_args_key_changed": false,
+        "valid_candidates": 1
+      },
+      {
+        "chosen_index": 1,
+        "distinct_valid_actions": 2,
+        "index_changed": true,
+        "risk_used": true,
+        "same_packet_Common2_index": 0,
+        "score_calls": 2,
+        "sequence": 6,
+        "tool_args_key_changed": true,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 0,
+        "distinct_valid_actions": 2,
+        "index_changed": false,
+        "risk_used": false,
+        "same_packet_Common2_index": 0,
+        "score_calls": 1,
+        "sequence": 7,
+        "tool_args_key_changed": false,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 1,
+        "distinct_valid_actions": 2,
+        "index_changed": false,
+        "risk_used": false,
+        "same_packet_Common2_index": 1,
+        "score_calls": 1,
+        "sequence": 8,
+        "tool_args_key_changed": false,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 0,
+        "distinct_valid_actions": 2,
+        "index_changed": true,
+        "risk_used": true,
+        "same_packet_Common2_index": 1,
+        "score_calls": 2,
+        "sequence": 9,
+        "tool_args_key_changed": true,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 1,
+        "distinct_valid_actions": 2,
+        "index_changed": true,
+        "risk_used": true,
+        "same_packet_Common2_index": 0,
+        "score_calls": 2,
+        "sequence": 10,
+        "tool_args_key_changed": true,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 1,
+        "distinct_valid_actions": 2,
+        "index_changed": false,
+        "risk_used": true,
+        "same_packet_Common2_index": 1,
+        "score_calls": 2,
+        "sequence": 11,
+        "tool_args_key_changed": false,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 0,
+        "distinct_valid_actions": 2,
+        "index_changed": false,
+        "risk_used": false,
+        "same_packet_Common2_index": 0,
+        "score_calls": 1,
+        "sequence": 12,
+        "tool_args_key_changed": false,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 0,
+        "distinct_valid_actions": 2,
+        "index_changed": false,
+        "risk_used": false,
+        "same_packet_Common2_index": 0,
+        "score_calls": 0,
+        "sequence": 13,
+        "tool_args_key_changed": false,
+        "valid_candidates": 2
+      },
+      {
+        "chosen_index": 0,
+        "distinct_valid_actions": 2,
+        "index_changed": true,
+        "risk_used": true,
+        "same_packet_Common2_index": 1,
+        "score_calls": 2,
+        "sequence": 14,
+        "tool_args_key_changed": true,
+        "valid_candidates": 2
+      }
+    ],
+    "job_id": "made-core-v2-Au-K-Tb-b10-s501-ActionPool2",
+    "local_selection_difference_not_causal_efficacy": true,
+    "tool_arguments_difference_not_proven_distinct_material": true,
+    "unchosen_candidate_outcomes_unknown": true,
+    "valid_candidate_means_generation_schema_only": true
+  },
+  "schema": "MADE_core_boundary_v2_first_completed_scoped_snapshot",
+  "scope": "two specified ActionPool2 B10/seed501 jobs, plus two previously published Au-K-Tb controls; not a whole-core progress census",
+  "statistical_significance_claimed": false
+}
