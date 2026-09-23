@@ -1,0 +1,22 @@
+{
+  "missing_alternative_risk_remains_null": true,
+  "raw_prompt_feedback_generation_sentinels_not_exported": true,
+  "remote_results_read": false,
+  "scientific_imports_or_calls": 0,
+  "source_bytes": 12399,
+  "source_exec_without___file__": true,
+  "source_sha256": "db2c0b234f248bb7a7d81a90dbd25d077eee1a5ed8cd708c10a3ccbf96b0418a",
+  "stdlib_only": true,
+  "syntax_ok": true,
+  "synthetic_closed_B30_arms": 2,
+  "tampered_candidate_rejected": true,
+  "transcoder_layer_FVU_extracted": true,
+  "validated_selection_paths": {
+    "alternative_higher_risk_keeps_first": 1,
+    "alternative_lower_risk": 1,
+    "alternative_risk_tie_keeps_first": 1,
+    "incomplete_support_fallback": 25,
+    "no_revision": 1,
+    "parser_fallback": 1
+  }
+}

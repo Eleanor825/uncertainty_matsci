@@ -1,0 +1,32 @@
+{
+  "files": {
+    "audit_source.py": {
+      "bytes": 12399,
+      "sha256": "db2c0b234f248bb7a7d81a90dbd25d077eee1a5ed8cd708c10a3ccbf96b0418a"
+    },
+    "evidence.json": {
+      "bytes": 199845,
+      "sha256": "761ad9b0b4ceda35fd45eec4c96b930e3be7738fd404f67ce86b38f5f688831e"
+    },
+    "report.md": {
+      "bytes": 3064,
+      "sha256": "f0d0416f3ffb9419b65a4b047b67b8be6ee06884d3217e66a3dbeba7a2993ac8"
+    },
+    "source_validation.json": {
+      "bytes": 742,
+      "sha256": "75d728710bd8392b057a8427d48930af7016c9074eb546179e1e271db5ead50b"
+    },
+    "validate.py": {
+      "bytes": 2817,
+      "sha256": "29391e18d1d508d3c5ccc6491a5bd00d64cc5271b0a64a5315debf1f5d17b331"
+    }
+  },
+  "new_method_evaluation_executed": false,
+  "new_scientific_calls": 0,
+  "original_full_graph_mechanism_established": false,
+  "publication_kind": "recorded_evidence_diagnostic_only",
+  "schema": "dw_p336_NoGraph_revision_diagnostic_publication_v1",
+  "source_receipt_bytes": 210100,
+  "source_receipt_exporter_sha256": "db2c0b234f248bb7a7d81a90dbd25d077eee1a5ed8cd708c10a3ccbf96b0418a",
+  "source_receipt_sha256": "6d01ec2dcd2aa7fe7a2c5aeace57756a0419f0c2ae03cbbca4d5d17b36b2f2c9"
+}
