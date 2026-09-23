@@ -1,0 +1,51 @@
+{
+  "observed_unix": 1790147541.7256248,
+  "B10": {
+    "model": "Qwen3.5-4B",
+    "budget": 10,
+    "registered_episodes": 10,
+    "counts": {
+      "accepted_groups": 0,
+      "fresh_native_heartbeats": 6,
+      "fresh_scientific_GPU_active_nodes": 6,
+      "model_load_intents": 6,
+      "native_action_responses": 0,
+      "qualified_groups": 0,
+      "runtime_ready_nodes": 6,
+      "startup_nodes": 6
+    },
+    "stage": "fresh_eight_prefix_numerical_qualification",
+    "all_six_first_qualification_prefix_returned": true,
+    "benchmark_episodes_started": 0,
+    "allocation_alone_not_counted_as_GPU_activity": true
+  },
+  "original_B30_closed": [
+    {
+      "condition": "G0_UQ",
+      "world_seed": 4,
+      "policy_seed": 336,
+      "budget": 30,
+      "score_normalized": 0.0,
+      "failure_count": 4,
+      "attempts": 30,
+      "completed_successfully": false
+    },
+    {
+      "condition": "selected_theta_NN_off",
+      "world_seed": 4,
+      "policy_seed": 336,
+      "budget": 30,
+      "score_normalized": 0.0,
+      "failure_count": 18,
+      "attempts": 30,
+      "completed_successfully": false
+    }
+  ],
+  "original_B30_Full": {
+    "attempts_so_far": 26,
+    "budget": 30,
+    "score_so_far": 0,
+    "complete": false
+  },
+  "original_Full_efficacy_established": false
+}

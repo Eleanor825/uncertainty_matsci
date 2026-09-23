@@ -1,0 +1,15 @@
+{
+  "read_only_source_snapshots": [
+    {
+      "name": "observe_dw_full_progress_compact_v2_primary_1790147541293329000.json",
+      "sha256": "a853dc3bd50d0637deead43b9cf758279a29c5e21498ab5e5cb92965296ca0d4"
+    },
+    {
+      "name": "observe_dw_B10_recovery_compact_v1_primary_1790147542346295000.json",
+      "sha256": "b30d7632683550584e6d47cd32e947ded65e38ede71fc2f3fffe6159c674c329"
+    }
+  ],
+  "new_scientific_calls_for_publication": 0,
+  "no_seed_or_checkpoint_selection_from_outcomes": true,
+  "prior_results_preserved": true
+}

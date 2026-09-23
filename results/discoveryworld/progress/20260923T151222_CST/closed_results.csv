@@ -1,0 +1,3 @@
+condition,world_seed,policy_seed,budget,score_normalized,failure_count,attempts,completed_successfully
+G0_UQ,4,336,30,0.0,4,30,False
+selected_theta_NN_off,4,336,30,0.0,18,30,False
