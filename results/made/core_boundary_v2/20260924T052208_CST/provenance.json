@@ -1,0 +1,31 @@
+{
+  "boundary_v2_source_manifest": {
+    "bytes": 12259,
+    "sha256": "cdc3c89bf3bd9928449763610cbb8450312c635700fe405e851bf63ab4e4a726"
+  },
+  "completion_and_cost_references": "The native global observer checked the exact registry, read all60 fixed pairs including4 accepted Native reuse cells, and exported original completion/cost file SHA references. This publication independently recomputes status counts, mean differences and win/tie/loss from the exported cells; it does not claim to rerun the full physical audit.",
+  "executed_global_observer_source": {
+    "bytes": 5716,
+    "sha256": "b3b5b73613b7fc4ab0fabf98db0e80ac7bfbad5c19a82f46cd8e70700060ae64"
+  },
+  "files_read_sequentially_not_an_atomic_filesystem_snapshot": true,
+  "machine_identity_raw_tokens_structures_or_logs_exported": false,
+  "no_G0_forward_or_environment_for_publication": true,
+  "paper_and_frozen_sources_modified": false,
+  "prior_publication_for_Common2_and_consistency": {
+    "commit": "7dd43abef9fd2eeccaab2d1b10797fb245084f45",
+    "snapshot_relative_path": "results/made/core_boundary_v2/20260924T050507_CST/snapshot.json",
+    "snapshot_sha256": "7884d044ee5601a8fcf0cbb231e9eec77e62baf4e421de3f450959f0f54235bb"
+  },
+  "schema": "MADE_core_v2_global_fixed_snapshot_provenance",
+  "scientific_registration": {
+    "bytes": 270942,
+    "sha256": "ff125f6f39828a1aa3db34a201d60766aba40282d34e8f47ad2dff9bc771b3f4"
+  },
+  "sources": {
+    "observe_MADE_core_v2_pairs_live_v1_primary_1790198529367203000.json": {
+      "bytes": 107734,
+      "sha256": "1c2ff2ffa1479651da41a36dc0bdad538e409810319fe91bb201e0875f37a8d7"
+    }
+  }
+}

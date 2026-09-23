@@ -1,0 +1,23 @@
+{
+  "existing_results_modified": false,
+  "files": {
+    "provenance.json": {
+      "bytes": 1622,
+      "sha256": "558bbadc8e8ab683dab292387df610373962531861c6b044749998abb06895e8"
+    },
+    "report.md": {
+      "bytes": 3624,
+      "sha256": "5b140f0a50f2b1a8b0a1839e02fc04cd714787af407db59632c38a59964a1a7b"
+    },
+    "snapshot.json": {
+      "bytes": 93331,
+      "sha256": "1caffee18b3249c45294bb4ca8256bca30398297bcc777d8a6dd527f8bc7b258"
+    },
+    "validate.py": {
+      "bytes": 2967,
+      "sha256": "df7e1f4f95d9055990c38f849cc287b8d1aa8994036e511a118be692c41470d7"
+    }
+  },
+  "new_scientific_calls": 0,
+  "schema": "MADE_eleven_pairs_publication_manifest"
+}
