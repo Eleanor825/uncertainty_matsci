@@ -1,0 +1,284 @@
+{
+  "Hidden145Fixed2_is_separate_method": true,
+  "by_budget_arm": [
+    {
+      "accepted_trajectories": 2,
+      "arm": "Native",
+      "budget": 5,
+      "mean": {
+        "AUDC": 0.8200000000000001,
+        "SUN": 3.5,
+        "mSUN": 0.7
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": 0.0,
+        "SUN": 0.0,
+        "mSUN": 0.0
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "accepted_trajectories": 2,
+      "arm": "G0GraphRisk",
+      "budget": 5,
+      "mean": {
+        "AUDC": 0.8200000000000001,
+        "SUN": 4.5,
+        "mSUN": 0.9
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": 0.0,
+        "SUN": 1.0,
+        "mSUN": 0.2
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "accepted_trajectories": 2,
+      "arm": "G2ControllerOff",
+      "budget": 5,
+      "mean": {
+        "AUDC": 0.68,
+        "SUN": 3.0,
+        "mSUN": 0.6000000000000001
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": -0.13999999999999996,
+        "SUN": -0.5,
+        "mSUN": -0.09999999999999998
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "accepted_trajectories": 2,
+      "arm": "G2Full",
+      "budget": 5,
+      "mean": {
+        "AUDC": 0.48,
+        "SUN": 2.0,
+        "mSUN": 0.4
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": -0.34,
+        "SUN": -1.5,
+        "mSUN": -0.3
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "accepted_trajectories": 2,
+      "arm": "Hidden145Fixed2",
+      "budget": 5,
+      "mean": {
+        "AUDC": 0.5,
+        "SUN": 2.5,
+        "mSUN": 0.5
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": -0.31999999999999995,
+        "SUN": -1.0,
+        "mSUN": -0.19999999999999998
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "accepted_trajectories": 2,
+      "arm": "Native",
+      "budget": 15,
+      "mean": {
+        "AUDC": 0.8111111111111111,
+        "SUN": 10.5,
+        "mSUN": 0.7
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": 0.0,
+        "SUN": 0.0,
+        "mSUN": 0.0
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "accepted_trajectories": 2,
+      "arm": "G0GraphRisk",
+      "budget": 15,
+      "mean": {
+        "AUDC": 0.5177777777777778,
+        "SUN": 6.5,
+        "mSUN": 0.4333333333333333
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": -0.29333333333333333,
+        "SUN": -4.0,
+        "mSUN": -0.26666666666666666
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "accepted_trajectories": 2,
+      "arm": "G2ControllerOff",
+      "budget": 15,
+      "mean": {
+        "AUDC": 0.5,
+        "SUN": 7.5,
+        "mSUN": 0.5
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": -0.3111111111111111,
+        "SUN": -3.0,
+        "mSUN": -0.19999999999999998
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "accepted_trajectories": 2,
+      "arm": "G2Full",
+      "budget": 15,
+      "mean": {
+        "AUDC": 0.37333333333333335,
+        "SUN": 5.0,
+        "mSUN": 0.3333333333333333
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": -0.43777777777777777,
+        "SUN": -5.5,
+        "mSUN": -0.36666666666666664
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "accepted_trajectories": 2,
+      "arm": "Hidden145Fixed2",
+      "budget": 15,
+      "mean": {
+        "AUDC": 0.5466666666666666,
+        "SUN": 7.0,
+        "mSUN": 0.4666666666666667
+      },
+      "mean_paired_delta_vs_Native": {
+        "AUDC": -0.2644444444444444,
+        "SUN": -3.5,
+        "mSUN": -0.2333333333333333
+      },
+      "seeds": 1,
+      "systems": 2
+    }
+  ],
+  "fresh_holdout": false,
+  "independent_systems": 2,
+  "paired_arm_means": [
+    {
+      "arm": "G0GraphRisk",
+      "budgets": [
+        5,
+        15
+      ],
+      "matched_blocks": 4,
+      "mean_paired_delta": {
+        "AUDC": -0.14666666666666667,
+        "SUN": -1.5,
+        "mSUN": -0.033333333333333326
+      },
+      "method_mean": {
+        "AUDC": 0.6688888888888889,
+        "SUN": 5.5,
+        "mSUN": 0.6666666666666666
+      },
+      "native_mean": {
+        "AUDC": 0.8155555555555556,
+        "SUN": 7.0,
+        "mSUN": 0.7
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "arm": "G2ControllerOff",
+      "budgets": [
+        5,
+        15
+      ],
+      "matched_blocks": 4,
+      "mean_paired_delta": {
+        "AUDC": -0.22555555555555554,
+        "SUN": -1.75,
+        "mSUN": -0.14999999999999997
+      },
+      "method_mean": {
+        "AUDC": 0.59,
+        "SUN": 5.25,
+        "mSUN": 0.5499999999999999
+      },
+      "native_mean": {
+        "AUDC": 0.8155555555555556,
+        "SUN": 7.0,
+        "mSUN": 0.7
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "arm": "G2Full",
+      "budgets": [
+        5,
+        15
+      ],
+      "matched_blocks": 4,
+      "mean_paired_delta": {
+        "AUDC": -0.3888888888888889,
+        "SUN": -3.5,
+        "mSUN": -0.3333333333333333
+      },
+      "method_mean": {
+        "AUDC": 0.42666666666666664,
+        "SUN": 3.5,
+        "mSUN": 0.3666666666666667
+      },
+      "native_mean": {
+        "AUDC": 0.8155555555555556,
+        "SUN": 7.0,
+        "mSUN": 0.7
+      },
+      "seeds": 1,
+      "systems": 2
+    },
+    {
+      "arm": "Hidden145Fixed2",
+      "budgets": [
+        5,
+        15
+      ],
+      "matched_blocks": 4,
+      "mean_paired_delta": {
+        "AUDC": -0.2922222222222222,
+        "SUN": -2.25,
+        "mSUN": -0.21666666666666665
+      },
+      "method_mean": {
+        "AUDC": 0.5233333333333333,
+        "SUN": 4.75,
+        "mSUN": 0.48333333333333334
+      },
+      "native_mean": {
+        "AUDC": 0.8155555555555556,
+        "SUN": 7.0,
+        "mSUN": 0.7
+      },
+      "seeds": 1,
+      "systems": 2
+    }
+  ],
+  "policy_seeds": 1,
+  "repeated_systems_across_budgets": true,
+  "schema": "made_tiny20_final_descriptive_paired_means_v1",
+  "significance_test_performed": false,
+  "unit": "one system-budget-seed block; equal weights within each displayed mean"
+}
