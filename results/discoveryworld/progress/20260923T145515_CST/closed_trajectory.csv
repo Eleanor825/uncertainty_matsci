@@ -1,0 +1,2 @@
+benchmark,world_seed,policy_seed,model,budget,condition,accepted,score_normalized,failure_count,agent_attempts,completed_successfully,status
+DiscoveryWorld,4,336,Qwen3.5-4B,30,G0_UQ,True,0.0,4,30,False,one_closed_trajectory_not_complete_factorial

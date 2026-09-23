@@ -1,0 +1,18 @@
+{
+  "provenance.json": {
+    "sha256": "a14a58e1c30ea59dc044527d1c3f33415ad27542a572fee74c9d1552aeba066e",
+    "bytes": 525
+  },
+  "README.md": {
+    "sha256": "1d9c9aa666e7ae5b9e65102135421a6db6236138dbcd5555a924bfbad93a1298",
+    "bytes": 1517
+  },
+  "closed_trajectory.csv": {
+    "sha256": "f98655a299d088c83e4fc87284dade46bdd68064e344052e54667645746eded6",
+    "bytes": 249
+  },
+  "closed_trajectory.json": {
+    "sha256": "618617ec2c48bd7fa082f83923a29f64983e97c0c50e2bfe3988c7ce8994ffe2",
+    "bytes": 330
+  }
+}

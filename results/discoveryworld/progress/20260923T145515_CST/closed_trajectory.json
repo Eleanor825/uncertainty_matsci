@@ -1,0 +1,14 @@
+{
+  "benchmark": "DiscoveryWorld",
+  "world_seed": 4,
+  "policy_seed": 336,
+  "model": "Qwen3.5-4B",
+  "budget": 30,
+  "condition": "G0_UQ",
+  "accepted": true,
+  "score_normalized": 0.0,
+  "failure_count": 4,
+  "agent_attempts": 30,
+  "completed_successfully": false,
+  "status": "one_closed_trajectory_not_complete_factorial"
+}

@@ -1,0 +1,9 @@
+{
+  "observed_unix": 1790146515.8630037,
+  "source_snapshot_sha256": "86ca8626a533536e67f04d33db2b655e41e814b3d9540305ea14915a9fd25614",
+  "source_operation_sha256": "99b6338bfb9570efea0a03681700b92890bffd6b6a4143bc9a50e8a51924b987",
+  "source_snapshot_basename": "observe_dw_full_progress_compact_v2_primary_1790146515445960000.json",
+  "science_data_changed": false,
+  "partial_results_retained_as_partial": true,
+  "zero_science_audit_snapshot_sha256": "dd8f3a23729b2e97c32576e283966f3369e52ed82c7a755912479feba6547495"
+}
