@@ -1,0 +1,46 @@
+{
+  "complete_results_released": true,
+  "exporter_source_sha256": "eb202a90d8b15e9393fb03684665fbd1e993a682a89e9c12c6e0f304b83d4882",
+  "files": {
+    "README.md": {
+      "bytes": 8840,
+      "sha256": "5eebdc724e938ed73b66da236f7d57f2cca5cb622332fe54f1a756f7d906dea6"
+    },
+    "complete_two_seed_statistics.json": {
+      "bytes": 4042,
+      "sha256": "4361666f530124ae02a0efaf2303ebc6c4587d7a7e0bd971e94b305b737c35c7"
+    },
+    "descriptive_statistics.json": {
+      "bytes": 14473,
+      "sha256": "5ef5c083561cf52913342daf3a6d41731b02d875dfebf9eca58cb20b3313321e"
+    },
+    "render.py": {
+      "bytes": 5711,
+      "sha256": "efa8ad7579ea20573eb66cd0cd61fcc17c923666219047cd77df493b5b4befc9"
+    },
+    "report.md": {
+      "bytes": 3450,
+      "sha256": "532394d7f9bbf19107e7fede72bc4abacc1e546316e302ac67d2ea21e3713a08"
+    },
+    "snapshot.json": {
+      "bytes": 872505,
+      "sha256": "0b6f1e7d0004be020dd99bb61a682bde42cf8884f0d25911dbee0853a43b486f"
+    },
+    "summarize.py": {
+      "bytes": 1778,
+      "sha256": "25b95c17ed3d4d5c0003b14465d6ad8739402d8c222ca336176973945d877687"
+    },
+    "validate.py": {
+      "bytes": 6460,
+      "sha256": "19c82f82c4936be19dd3a8b4f471192ebc51f1eca2a5251b9675ceec60d329d0"
+    }
+  },
+  "new_scientific_calls": 0,
+  "original_renderer_does_not_publish": true,
+  "publication_kind": "complete_seeded_world4_diagnostic",
+  "publication_ready": true,
+  "published": true,
+  "renderer_source_sha256": "efa8ad7579ea20573eb66cd0cd61fcc17c923666219047cd77df493b5b4befc9",
+  "source_receipt_bytes": 904014,
+  "source_receipt_sha256": "8f503eb43b60bb81b1df68060721da8e087140d35528f26477f7829a6314101d"
+}

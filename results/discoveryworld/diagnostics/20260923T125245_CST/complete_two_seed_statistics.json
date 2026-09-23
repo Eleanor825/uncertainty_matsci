@@ -1,0 +1,194 @@
+[
+  {
+    "mean": 0.0,
+    "metric": "scoreNormalized",
+    "n": 2,
+    "right_minus_left": "NoGraphRisk - Native1",
+    "sample_SD": 0.0,
+    "sample_variance": 0.0,
+    "values_by_seed": {
+      "336": 0.0,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0.0,
+    "metric": "F",
+    "n": 2,
+    "right_minus_left": "NoGraphRisk - Native1",
+    "sample_SD": 0.0,
+    "sample_variance": 0.0,
+    "values_by_seed": {
+      "336": 0.0,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0,
+    "metric": "failure_count",
+    "n": 2,
+    "right_minus_left": "NoGraphRisk - Native1",
+    "sample_SD": 0.0,
+    "sample_variance": 0,
+    "values_by_seed": {
+      "336": 0,
+      "337": 0
+    }
+  },
+  {
+    "mean": 0.0,
+    "metric": "failure_fraction",
+    "n": 2,
+    "right_minus_left": "NoGraphRisk - Native1",
+    "sample_SD": 0.0,
+    "sample_variance": 0.0,
+    "values_by_seed": {
+      "336": 0.0,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0.0,
+    "metric": "scoreNormalized",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatRisk - NoGraphRisk",
+    "sample_SD": 0.0,
+    "sample_variance": 0.0,
+    "values_by_seed": {
+      "336": 0.0,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0.0,
+    "metric": "F",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatRisk - NoGraphRisk",
+    "sample_SD": 0.0,
+    "sample_variance": 0.0,
+    "values_by_seed": {
+      "336": 0.0,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0,
+    "metric": "failure_count",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatRisk - NoGraphRisk",
+    "sample_SD": 0.0,
+    "sample_variance": 0,
+    "values_by_seed": {
+      "336": 0,
+      "337": 0
+    }
+  },
+  {
+    "mean": 0.0,
+    "metric": "failure_fraction",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatRisk - NoGraphRisk",
+    "sample_SD": 0.0,
+    "sample_variance": 0.0,
+    "values_by_seed": {
+      "336": 0.0,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0.0,
+    "metric": "scoreNormalized",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatRisk - Native1",
+    "sample_SD": 0.0,
+    "sample_variance": 0.0,
+    "values_by_seed": {
+      "336": 0.0,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0.0,
+    "metric": "F",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatRisk - Native1",
+    "sample_SD": 0.0,
+    "sample_variance": 0.0,
+    "values_by_seed": {
+      "336": 0.0,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0,
+    "metric": "failure_count",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatRisk - Native1",
+    "sample_SD": 0.0,
+    "sample_variance": 0,
+    "values_by_seed": {
+      "336": 0,
+      "337": 0
+    }
+  },
+  {
+    "mean": 0.0,
+    "metric": "failure_fraction",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatRisk - Native1",
+    "sample_SD": 0.0,
+    "sample_variance": 0.0,
+    "values_by_seed": {
+      "336": 0.0,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0.0625,
+    "metric": "scoreNormalized",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatInternal2 - ExplicitRepeatCommon2",
+    "sample_SD": 0.08838834764831845,
+    "sample_variance": 0.0078125,
+    "values_by_seed": {
+      "336": 0.125,
+      "337": 0.0
+    }
+  },
+  {
+    "mean": 0.08916666666666667,
+    "metric": "F",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatInternal2 - ExplicitRepeatCommon2",
+    "sample_SD": 0.04596194077712559,
+    "sample_variance": 0.0021125000000000002,
+    "values_by_seed": {
+      "336": 0.12166666666666667,
+      "337": 0.05666666666666667
+    }
+  },
+  {
+    "mean": -8,
+    "metric": "failure_count",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatInternal2 - ExplicitRepeatCommon2",
+    "sample_SD": 12.727922061357855,
+    "sample_variance": 162,
+    "values_by_seed": {
+      "336": 1,
+      "337": -17
+    }
+  },
+  {
+    "mean": -0.26666666666666666,
+    "metric": "failure_fraction",
+    "n": 2,
+    "right_minus_left": "ExplicitRepeatInternal2 - ExplicitRepeatCommon2",
+    "sample_SD": 0.4242640687119285,
+    "sample_variance": 0.18,
+    "values_by_seed": {
+      "336": 0.033333333333333326,
+      "337": -0.5666666666666667
+    }
+  }
+]

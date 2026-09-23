@@ -1,4 +1,20 @@
 {
+  "complete_diagnostic_exports": [
+    {
+      "all_prior_results_unchanged": true,
+      "closed_episodes": 10,
+      "independent_worlds": 1,
+      "new_scientific_calls": 0,
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST",
+      "policy_seeds": [
+        336,
+        337
+      ],
+      "scope": "seeded_world4_NoGraph_B30_five_conditions_two_policy_seeds_complete_not_original_Full",
+      "source_receipt_sha256": "8f503eb43b60bb81b1df68060721da8e087140d35528f26477f7829a6314101d",
+      "world_seed": 4
+    }
+  ],
   "development_exports": [
     {
       "budget": 50,
@@ -39,23 +55,23 @@
   ],
   "files": [
     {
-      "bytes": 28068,
-      "export_sha256": "0b30fcf0fd13f863d619f46102e838d563d1224ef2af65d12924e395b3bf10d5",
+      "bytes": 28891,
+      "export_sha256": "74157584b3f5a5293300b1599f459a8ea32a79622277e62343894938f66fd4e0",
       "path": "README.md"
     },
     {
-      "bytes": 27280,
-      "export_sha256": "9001f7e0e2e6a17d734ac75e21fdadca08571e537167b68027ec6651c5095c5c",
+      "bytes": 28106,
+      "export_sha256": "cfa500745b958d5457eda5bc609bcf0b9f5d9435bae70d694ef1f380bb377620",
       "path": "docs/results.md"
     },
     {
-      "bytes": 14598,
-      "export_sha256": "02d5f14b3b53eb9f69d9ca1d5f1c5e2974e4572c8b56d07ae385a233eebc6fcd",
+      "bytes": 15413,
+      "export_sha256": "d6c3da7b6c3d452904eeb7647224785b8ca26e809caea6bc8c0e9aa89bf43ac4",
       "path": "results/LATEST.md"
     },
     {
-      "bytes": 23762,
-      "export_sha256": "6ec6ff94355e810772fe88c22b1d2ebfaaa071d682e2f61ba65966a44174ddf0",
+      "bytes": 24577,
+      "export_sha256": "59bcd03d24fba8217f9aff306567783ed8c25610f9f0c21b9c88b266e1cf8c1c",
       "path": "results/README.md"
     },
     {
@@ -1277,6 +1293,51 @@
       "bytes": 2817,
       "export_sha256": "29391e18d1d508d3c5ccc6491a5bd00d64cc5271b0a64a5315debf1f5d17b331",
       "path": "results/discoveryworld/diagnostics/20260923T123632_CST/validate.py"
+    },
+    {
+      "bytes": 8840,
+      "export_sha256": "5eebdc724e938ed73b66da236f7d57f2cca5cb622332fe54f1a756f7d906dea6",
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST/README.md"
+    },
+    {
+      "bytes": 4042,
+      "export_sha256": "4361666f530124ae02a0efaf2303ebc6c4587d7a7e0bd971e94b305b737c35c7",
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST/complete_two_seed_statistics.json"
+    },
+    {
+      "bytes": 14473,
+      "export_sha256": "5ef5c083561cf52913342daf3a6d41731b02d875dfebf9eca58cb20b3313321e",
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST/descriptive_statistics.json"
+    },
+    {
+      "bytes": 1656,
+      "export_sha256": "2aa6d49aa7c61489e2f03c87747d4385bb4f62a2607b4b2cf38e7f9802866a2d",
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST/manifest.json"
+    },
+    {
+      "bytes": 5711,
+      "export_sha256": "efa8ad7579ea20573eb66cd0cd61fcc17c923666219047cd77df493b5b4befc9",
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST/render.py"
+    },
+    {
+      "bytes": 3450,
+      "export_sha256": "532394d7f9bbf19107e7fede72bc4abacc1e546316e302ac67d2ea21e3713a08",
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST/report.md"
+    },
+    {
+      "bytes": 872505,
+      "export_sha256": "0b6f1e7d0004be020dd99bb61a682bde42cf8884f0d25911dbee0853a43b486f",
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST/snapshot.json"
+    },
+    {
+      "bytes": 1778,
+      "export_sha256": "25b95c17ed3d4d5c0003b14465d6ad8739402d8c222ca336176973945d877687",
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST/summarize.py"
+    },
+    {
+      "bytes": 6460,
+      "export_sha256": "19c82f82c4936be19dd3a8b4f471192ebc51f1eca2a5251b9675ceec60d329d0",
+      "path": "results/discoveryworld/diagnostics/20260923T125245_CST/validate.py"
     },
     {
       "bytes": 544,
@@ -6476,6 +6537,7 @@
   "latest_DW_p335_mechanism_qualification_CST": "2026-09-23T09:49:18.594827+08:00",
   "latest_DW_p336_NoGraph_revision_diagnostic_CST": "2026-09-23T12:36:32.109296+08:00",
   "latest_DW_risk_refresh_observation_utc": "2026-09-22T13:29:53.529933+00:00",
+  "latest_DW_seeded_world4_complete_observation_CST": "2026-09-23T12:52:45.087581+08:00",
   "latest_DW_seeded_world4_partial_observation_CST": "2026-09-23T12:28:47.114256+08:00",
   "latest_DW_test_mechanism_observation_CST": "2026-09-23T04:43:23.412714+08:00",
   "latest_MADE_observation_utc": "2026-09-18T21:21:38.188817+00:00",

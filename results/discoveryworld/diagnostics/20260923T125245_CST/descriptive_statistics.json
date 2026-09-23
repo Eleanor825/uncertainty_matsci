@@ -1,0 +1,569 @@
+{
+  "arms": [
+    {
+      "condition": "Native1",
+      "mean": 0.0,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "condition": "Native1",
+      "mean": 15.5,
+      "metric": "failure_count",
+      "n": 2,
+      "sample_SD": 19.091883092036785,
+      "sample_variance": 364.5,
+      "values_by_seed": {
+        "336": 29,
+        "337": 2
+      }
+    },
+    {
+      "condition": "Native1",
+      "mean": 0.5166666666666667,
+      "metric": "failure_fraction",
+      "n": 2,
+      "sample_SD": 0.6363961030678927,
+      "sample_variance": 0.405,
+      "values_by_seed": {
+        "336": 0.9666666666666667,
+        "337": 0.06666666666666667
+      }
+    },
+    {
+      "condition": "Native1",
+      "mean": -0.05166666666666667,
+      "metric": "F",
+      "n": 2,
+      "sample_SD": 0.06363961030678929,
+      "sample_variance": 0.004050000000000001,
+      "values_by_seed": {
+        "336": -0.09666666666666668,
+        "337": -0.006666666666666667
+      }
+    },
+    {
+      "condition": "NoGraphRisk",
+      "mean": 0.0,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "condition": "NoGraphRisk",
+      "mean": 15.5,
+      "metric": "failure_count",
+      "n": 2,
+      "sample_SD": 19.091883092036785,
+      "sample_variance": 364.5,
+      "values_by_seed": {
+        "336": 29,
+        "337": 2
+      }
+    },
+    {
+      "condition": "NoGraphRisk",
+      "mean": 0.5166666666666667,
+      "metric": "failure_fraction",
+      "n": 2,
+      "sample_SD": 0.6363961030678927,
+      "sample_variance": 0.405,
+      "values_by_seed": {
+        "336": 0.9666666666666667,
+        "337": 0.06666666666666667
+      }
+    },
+    {
+      "condition": "NoGraphRisk",
+      "mean": -0.05166666666666667,
+      "metric": "F",
+      "n": 2,
+      "sample_SD": 0.06363961030678929,
+      "sample_variance": 0.004050000000000001,
+      "values_by_seed": {
+        "336": -0.09666666666666668,
+        "337": -0.006666666666666667
+      }
+    },
+    {
+      "condition": "ExplicitRepeatRisk",
+      "mean": 0.0,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "condition": "ExplicitRepeatRisk",
+      "mean": 15.5,
+      "metric": "failure_count",
+      "n": 2,
+      "sample_SD": 19.091883092036785,
+      "sample_variance": 364.5,
+      "values_by_seed": {
+        "336": 29,
+        "337": 2
+      }
+    },
+    {
+      "condition": "ExplicitRepeatRisk",
+      "mean": 0.5166666666666667,
+      "metric": "failure_fraction",
+      "n": 2,
+      "sample_SD": 0.6363961030678927,
+      "sample_variance": 0.405,
+      "values_by_seed": {
+        "336": 0.9666666666666667,
+        "337": 0.06666666666666667
+      }
+    },
+    {
+      "condition": "ExplicitRepeatRisk",
+      "mean": -0.05166666666666667,
+      "metric": "F",
+      "n": 2,
+      "sample_SD": 0.06363961030678929,
+      "sample_variance": 0.004050000000000001,
+      "values_by_seed": {
+        "336": -0.09666666666666668,
+        "337": -0.006666666666666667
+      }
+    },
+    {
+      "condition": "ExplicitRepeatCommon2",
+      "mean": 0.0625,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "sample_SD": 0.08838834764831845,
+      "sample_variance": 0.0078125,
+      "values_by_seed": {
+        "336": 0.125,
+        "337": 0.0
+      }
+    },
+    {
+      "condition": "ExplicitRepeatCommon2",
+      "mean": 15,
+      "metric": "failure_count",
+      "n": 2,
+      "sample_SD": 8.48528137423857,
+      "sample_variance": 72,
+      "values_by_seed": {
+        "336": 9,
+        "337": 21
+      }
+    },
+    {
+      "condition": "ExplicitRepeatCommon2",
+      "mean": 0.5,
+      "metric": "failure_fraction",
+      "n": 2,
+      "sample_SD": 0.282842712474619,
+      "sample_variance": 0.07999999999999999,
+      "values_by_seed": {
+        "336": 0.3,
+        "337": 0.7
+      }
+    },
+    {
+      "condition": "ExplicitRepeatCommon2",
+      "mean": 0.012499999999999997,
+      "metric": "F",
+      "n": 2,
+      "sample_SD": 0.11667261889578034,
+      "sample_variance": 0.013612500000000001,
+      "values_by_seed": {
+        "336": 0.095,
+        "337": -0.07
+      }
+    },
+    {
+      "condition": "ExplicitRepeatInternal2",
+      "mean": 0.125,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "sample_SD": 0.1767766952966369,
+      "sample_variance": 0.03125,
+      "values_by_seed": {
+        "336": 0.25,
+        "337": 0.0
+      }
+    },
+    {
+      "condition": "ExplicitRepeatInternal2",
+      "mean": 7,
+      "metric": "failure_count",
+      "n": 2,
+      "sample_SD": 4.242640687119285,
+      "sample_variance": 18,
+      "values_by_seed": {
+        "336": 10,
+        "337": 4
+      }
+    },
+    {
+      "condition": "ExplicitRepeatInternal2",
+      "mean": 0.23333333333333334,
+      "metric": "failure_fraction",
+      "n": 2,
+      "sample_SD": 0.1414213562373095,
+      "sample_variance": 0.019999999999999997,
+      "values_by_seed": {
+        "336": 0.3333333333333333,
+        "337": 0.13333333333333333
+      }
+    },
+    {
+      "condition": "ExplicitRepeatInternal2",
+      "mean": 0.10166666666666667,
+      "metric": "F",
+      "n": 2,
+      "sample_SD": 0.16263455967290594,
+      "sample_variance": 0.02645,
+      "values_by_seed": {
+        "336": 0.21666666666666667,
+        "337": -0.013333333333333334
+      }
+    }
+  ],
+  "independent_worlds": 1,
+  "old_unseeded_p335_included": false,
+  "original_Full_included": false,
+  "paired_contrasts": [
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "right_minus_left": "NoGraphRisk - Native1",
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0,
+      "metric": "failure_count",
+      "n": 2,
+      "right_minus_left": "NoGraphRisk - Native1",
+      "sample_SD": 0.0,
+      "sample_variance": 0,
+      "values_by_seed": {
+        "336": 0,
+        "337": 0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0,
+      "metric": "failure_fraction",
+      "n": 2,
+      "right_minus_left": "NoGraphRisk - Native1",
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0,
+      "metric": "F",
+      "n": 2,
+      "right_minus_left": "NoGraphRisk - Native1",
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatRisk - NoGraphRisk",
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0,
+      "metric": "failure_count",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatRisk - NoGraphRisk",
+      "sample_SD": 0.0,
+      "sample_variance": 0,
+      "values_by_seed": {
+        "336": 0,
+        "337": 0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0,
+      "metric": "failure_fraction",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatRisk - NoGraphRisk",
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0,
+      "metric": "F",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatRisk - NoGraphRisk",
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatRisk - Native1",
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0,
+      "metric": "failure_count",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatRisk - Native1",
+      "sample_SD": 0.0,
+      "sample_variance": 0,
+      "values_by_seed": {
+        "336": 0,
+        "337": 0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0,
+      "metric": "failure_fraction",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatRisk - Native1",
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0,
+      "metric": "F",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatRisk - Native1",
+      "sample_SD": 0.0,
+      "sample_variance": 0.0,
+      "values_by_seed": {
+        "336": 0.0,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.0625,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatInternal2 - ExplicitRepeatCommon2",
+      "sample_SD": 0.08838834764831845,
+      "sample_variance": 0.0078125,
+      "values_by_seed": {
+        "336": 0.125,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": -8,
+      "metric": "failure_count",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatInternal2 - ExplicitRepeatCommon2",
+      "sample_SD": 12.727922061357855,
+      "sample_variance": 162,
+      "values_by_seed": {
+        "336": 1,
+        "337": -17
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": -0.26666666666666666,
+      "metric": "failure_fraction",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatInternal2 - ExplicitRepeatCommon2",
+      "sample_SD": 0.4242640687119285,
+      "sample_variance": 0.18,
+      "values_by_seed": {
+        "336": 0.033333333333333326,
+        "337": -0.5666666666666667
+      }
+    },
+    {
+      "contrast_scope": "registered paired contrast",
+      "mean": 0.08916666666666667,
+      "metric": "F",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatInternal2 - ExplicitRepeatCommon2",
+      "sample_SD": 0.04596194077712559,
+      "sample_variance": 0.0021125000000000002,
+      "values_by_seed": {
+        "336": 0.12166666666666667,
+        "337": 0.05666666666666667
+      }
+    },
+    {
+      "contrast_scope": "supplementary descriptive comparison to Native1",
+      "mean": 0.0625,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatCommon2 - Native1",
+      "sample_SD": 0.08838834764831845,
+      "sample_variance": 0.0078125,
+      "values_by_seed": {
+        "336": 0.125,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "supplementary descriptive comparison to Native1",
+      "mean": -0.5,
+      "metric": "failure_count",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatCommon2 - Native1",
+      "sample_SD": 27.577164466275352,
+      "sample_variance": 760.5,
+      "values_by_seed": {
+        "336": -20,
+        "337": 19
+      }
+    },
+    {
+      "contrast_scope": "supplementary descriptive comparison to Native1",
+      "mean": -0.01666666666666672,
+      "metric": "failure_fraction",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatCommon2 - Native1",
+      "sample_SD": 0.9192388155425119,
+      "sample_variance": 0.8450000000000001,
+      "values_by_seed": {
+        "336": -0.6666666666666667,
+        "337": 0.6333333333333333
+      }
+    },
+    {
+      "contrast_scope": "supplementary descriptive comparison to Native1",
+      "mean": 0.06416666666666668,
+      "metric": "F",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatCommon2 - Native1",
+      "sample_SD": 0.18031222920256962,
+      "sample_variance": 0.0325125,
+      "values_by_seed": {
+        "336": 0.19166666666666668,
+        "337": -0.06333333333333334
+      }
+    },
+    {
+      "contrast_scope": "supplementary descriptive comparison to Native1",
+      "mean": 0.125,
+      "metric": "scoreNormalized",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatInternal2 - Native1",
+      "sample_SD": 0.1767766952966369,
+      "sample_variance": 0.03125,
+      "values_by_seed": {
+        "336": 0.25,
+        "337": 0.0
+      }
+    },
+    {
+      "contrast_scope": "supplementary descriptive comparison to Native1",
+      "mean": -8.5,
+      "metric": "failure_count",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatInternal2 - Native1",
+      "sample_SD": 14.849242404917497,
+      "sample_variance": 220.5,
+      "values_by_seed": {
+        "336": -19,
+        "337": 2
+      }
+    },
+    {
+      "contrast_scope": "supplementary descriptive comparison to Native1",
+      "mean": -0.2833333333333333,
+      "metric": "failure_fraction",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatInternal2 - Native1",
+      "sample_SD": 0.49497474683058323,
+      "sample_variance": 0.24499999999999997,
+      "values_by_seed": {
+        "336": -0.6333333333333333,
+        "337": 0.06666666666666667
+      }
+    },
+    {
+      "contrast_scope": "supplementary descriptive comparison to Native1",
+      "mean": 0.15333333333333335,
+      "metric": "F",
+      "n": 2,
+      "right_minus_left": "ExplicitRepeatInternal2 - Native1",
+      "sample_SD": 0.2262741699796952,
+      "sample_variance": 0.0512,
+      "values_by_seed": {
+        "336": 0.31333333333333335,
+        "337": -0.006666666666666667
+      }
+    }
+  ],
+  "policy_seeds": [
+    336,
+    337
+  ],
+  "sample_variance_denominator": "n - 1 = 1",
+  "schema": "dw_world4_complete_descriptive_statistics_v1",
+  "scope": "descriptive sampling-seed statistics; no inferential significance or cross-world generalization",
+  "world_seed": 4
+}
