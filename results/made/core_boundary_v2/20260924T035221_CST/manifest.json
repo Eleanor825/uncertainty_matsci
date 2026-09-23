@@ -1,0 +1,23 @@
+{
+  "existing_results_modified": false,
+  "files": {
+    "provenance.json": {
+      "bytes": 2788,
+      "sha256": "cf86b8b40cee0f8fb396e487a267cbc320fbc85dd0bffc574f7343573170c850"
+    },
+    "report.md": {
+      "bytes": 3481,
+      "sha256": "21b83f48690f7f5a42e91864d4ccf949172c30a88d76a804dbf02bbb9bac61c4"
+    },
+    "snapshot.json": {
+      "bytes": 55299,
+      "sha256": "65096d3313b2b2458a639d68ffe0727afdd661b12184328d043d0f29e9738f50"
+    },
+    "validate.py": {
+      "bytes": 2845,
+      "sha256": "d8c8f95b6c1c91b680632cc58dfbb9b5a16840b17b8a5b0ef8689050a67b74e9"
+    }
+  },
+  "new_scientific_calls": 0,
+  "schema": "MADE_core_boundary_v2_five_pairs_manifest"
+}

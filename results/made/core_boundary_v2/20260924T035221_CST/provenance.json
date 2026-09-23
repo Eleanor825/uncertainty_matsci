@@ -1,0 +1,50 @@
+{
+  "Mg502_later_read_is_of_existing_immutable_reused_result": true,
+  "live_evidence": "Two host-native observations about44 seconds before the main snapshot measured GPU processes and matched process birth; no current remote liveness inferred from shared PIDs.",
+  "new_completion_evidence": "Each new accepted record carries the original completion-file SHA/bytes reported by the fixed native observer; the observer exported selected values, so this publication does not claim to reconstruct those full file bytes.",
+  "old_technical_failures_retained_in_separate_version": true,
+  "paper_or_frozen_sources_modified": false,
+  "prior_controls": {
+    "commit": "a4063683dadc121a857faff85e7d3894dee7d3ee",
+    "snapshot_relative_path": "results/made/online_pooling_b10_b20/20260924T024019_CST/snapshot.json",
+    "snapshot_sha256": "00955e56106642760b81f54e2c2cff9c9fb7c9d60bcd397b04f84dfba337e606"
+  },
+  "raw_logs_tokens_structures_or_machine_identifiers_exported": false,
+  "reuse_evidence": "Native seed501 from the prior immutable public snapshot; Au seed502 from the complete native receipt with canonical-byte SHA reconstruction; Mg seed502 from the dedicated accepted-completion read. Registration admitted all four before this fixed snapshot.",
+  "schema": "MADE_core_boundary_v2_fixed_pairs_provenance",
+  "scientific_registration": {
+    "bytes": 270942,
+    "commit": "43d3f192513761cecefb9a51b7fd87188535aa61",
+    "sha256": "ff125f6f39828a1aa3db34a201d60766aba40282d34e8f47ad2dff9bc771b3f4"
+  },
+  "source_manifest": {
+    "bytes": 12259,
+    "sha256": "cdc3c89bf3bd9928449763610cbb8450312c635700fe405e851bf63ab4e4a726"
+  },
+  "sources": {
+    "deploy_prepare_MADE_core_boundary_v2_primary_1790189908189759000.json": {
+      "bytes": 1767,
+      "sha256": "c13ed51e355039f56a506d43f3c3f02b8fb81def8d9ec7baed0c442112d5fa92"
+    },
+    "observe_MADE_core120_extension_v1_secondary_1790189323799759000.json": {
+      "bytes": 633371,
+      "sha256": "a44fb5804a9d5c1df607fc9470e66ccbd526b9c9e8c82c2969f4a32bd89773cf"
+    },
+    "observe_MADE_core_boundary_v2_primary_1790193141176645000.json": {
+      "bytes": 57378,
+      "sha256": "4cefaaea282843ffa82552cf2568013fd96d3476807ae20990ef52f91443b9f1"
+    },
+    "observe_live_MADE_core_v2_devices_v1_primary_1790193097800224000.json": {
+      "bytes": 4401,
+      "sha256": "7be16d382e91de287d8625fee53b2ca4a623eb029a7df155be1fe9b1e1a37905"
+    },
+    "observe_live_MADE_core_v2_devices_v1_secondary_1790193097629307000.json": {
+      "bytes": 3678,
+      "sha256": "55d5d98bf6565c191d60b95c44aee3700e0b1be9e6e4bc7a3c5d49a5894d7dba"
+    },
+    "read_Mg502_native_reuse_v1_primary_1790193311904279000.json": {
+      "bytes": 2182,
+      "sha256": "ef46283466b4c2cbca3158c2b54bb69a0a1586e8e469fda8a696c98e218fe06d"
+    }
+  }
+}
