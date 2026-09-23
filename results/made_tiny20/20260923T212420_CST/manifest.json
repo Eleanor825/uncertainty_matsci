@@ -1,0 +1,34 @@
+{
+  "files": {
+    "accepted_metrics.json": {
+      "bytes": 13365,
+      "sha256": "8d85bc52079ac5306be0a134926fc59c372ccd3b871d5099c3870277f61e5878"
+    },
+    "curves.json": {
+      "bytes": 7055,
+      "sha256": "a8a3825545ef223345bc50c1cd822a75dce027501f631c13af7c5ce74754c6f8"
+    },
+    "report.md": {
+      "bytes": 7244,
+      "sha256": "1bed4e9f92c6ae0084bb5a720dc096ed733d6a0b5e03b6340b2fbb38b986c7ba"
+    },
+    "scientific_sha256.json": {
+      "bytes": 11090,
+      "sha256": "f7a137fc65681a6cc364cabc59f289050c342286a9f6216d65da2146ac82caa3"
+    },
+    "snapshot.json": {
+      "bytes": 23401,
+      "sha256": "aef824aad2d0e20837b501bd05335c764a1b880b40ad578bb47430f60ad5d83b"
+    },
+    "summary.json": {
+      "bytes": 817,
+      "sha256": "780f1def2efd2582fe9f4b7e7f8a8b9f5abb6ae76101e6514d5ba68583b7f324"
+    },
+    "validate.py": {
+      "bytes": 2677,
+      "sha256": "38b815bca18b487ceb8b55b1ac412f2f31383854c08569f22ccaea3585cce61f"
+    }
+  },
+  "new_scientific_calls": 0,
+  "schema": "made_tiny20_fixed_snapshot_bundle_v1"
+}
