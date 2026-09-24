@@ -10,8 +10,8 @@
       "sha256": "73be2b524ce7d0516700a93800cb4d3d5044b4d8bbc99848c1d786f5e4f7e89a"
     },
     "snapshot.json": {
-      "bytes": 137711,
-      "sha256": "63edf9cc4bb1c99e3ea436f802b3561ace58108a0d3e0462bf48cdb40dd3e33f"
+      "bytes": 137708,
+      "sha256": "c4c8fb6633b277bbd082dfdb8e39937168a0cd24a59f099c859fe7d70e1dc2df"
     },
     "validate.py": {
       "bytes": 4190,

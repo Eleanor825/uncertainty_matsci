@@ -25,7 +25,7 @@
     "replicates": 20000,
     "seed_blocks": 10,
     "task_success_CI_omitted": "All observed success indicators are zero; a degenerate bootstrap interval is not reported as evidence that the population success probability is exactly zero.",
-    "within_budget_pooling": "Resample the 10 policy/environment seed IDs jointly across both fixed worlds; average both worlds per seed before the bootstrap mean. Both arms use identical draws."
+    "within_budget_pooling": "Resample the 10 policy sampling seed IDs jointly across both fixed worlds; average both worlds per seed before the bootstrap mean. Both arms use identical draws."
   },
   "descriptive_statistics": [
     {
