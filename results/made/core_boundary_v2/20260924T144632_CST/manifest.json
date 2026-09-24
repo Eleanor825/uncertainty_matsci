@@ -1,0 +1,23 @@
+{
+  "existing_results_modified": false,
+  "files": {
+    "provenance.json": {
+      "bytes": 962,
+      "sha256": "487300da258559bdbbd05209caea2b1abc873a701824e917927da72aef6dd9d6"
+    },
+    "report.md": {
+      "bytes": 7456,
+      "sha256": "336555cde8e152eda64dd792b7e1c2403541542b060a3b4b26d64ed610e2ab85"
+    },
+    "snapshot.json": {
+      "bytes": 162356,
+      "sha256": "0d3b8c381889756f075342cd3cd3099ded42f79ff353557512277c76e542eb3e"
+    },
+    "validate.py": {
+      "bytes": 5182,
+      "sha256": "580d7fa42d362ceee4858cb30af0e583723f696f0e89321485fa353452b59ca4"
+    }
+  },
+  "new_scientific_calls": 0,
+  "schema": "fixed_results_publication_manifest_v1"
+}
