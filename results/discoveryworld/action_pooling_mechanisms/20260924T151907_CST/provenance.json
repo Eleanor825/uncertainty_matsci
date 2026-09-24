@@ -1,0 +1,23 @@
+{
+  "counterfactual_or_long_horizon_causal_claim": false,
+  "fixed_complete_results": {
+    "bytes": 137708,
+    "commit": "3f35f06b71c35eeebe9e67ada54a4d16fef39f86",
+    "path": "results/discoveryworld/action_pooling_v1/20260924T150443_CST/snapshot.json",
+    "sha256": "c4c8fb6633b277bbd082dfdb8e39937168a0cd24a59f099c859fe7d70e1dc2df"
+  },
+  "input_completion_sha_set_verified_identical": true,
+  "native_analysis_source": {
+    "bytes": 1906,
+    "filename": "analyze_DW120_action_mechanisms_v1.py",
+    "sha256": "5b840fa32f4d84d2f14e7efe64e856ae12d27fbc1af7d7039db413a5cbe69186"
+  },
+  "paper_or_running_sources_modified": false,
+  "private_native_telemetry_exported": false,
+  "schema": "DW120_mechanism_provenance_v1",
+  "source": {
+    "bytes": 22599,
+    "filename": "analyze_DW120_action_mechanisms_v1_primary_1790234347799186000.json",
+    "sha256": "d871a6cdc659dcbd9572ef2a6817de104d3ba76cf9f4d055f0117e98a8b1be02"
+  }
+}

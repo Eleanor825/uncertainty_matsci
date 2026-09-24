@@ -1,0 +1,22 @@
+{
+  "files": {
+    "provenance.json": {
+      "bytes": 935,
+      "sha256": "0942341f37bfc32c722f1ea61e39c3ff7ce0d3f6e4f0ce85d23dbbf9788a309e"
+    },
+    "report.md": {
+      "bytes": 2931,
+      "sha256": "4b604cc9c7a7c3bc064fbae161867f31bee5c5bcae9e938520a042c28d1f0842"
+    },
+    "snapshot.json": {
+      "bytes": 41617,
+      "sha256": "203552c820a4de6fef10e65c5f808b25131d41ff1cd0405d1149f267bb18aeac"
+    },
+    "validate.py": {
+      "bytes": 1893,
+      "sha256": "41b0182526ea22e2982969935ee4dafe9a736ce16cdd8f308c79cf71ad5f5cc9"
+    }
+  },
+  "new_scientific_calls": 0,
+  "schema": "DW120_mechanism_appendix_manifest"
+}
