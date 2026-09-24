@@ -1,0 +1,23 @@
+{
+  "existing_results_modified": false,
+  "files": {
+    "provenance.json": {
+      "bytes": 1542,
+      "sha256": "94d0714955bb7a1be6390d56d00fff238be6c893b1df39f90cdc37a1310c4624"
+    },
+    "report.md": {
+      "bytes": 7430,
+      "sha256": "f4429d3c066922fcec5e171027c8279fb8735179ee373a9cc9bacde418906ad4"
+    },
+    "snapshot.json": {
+      "bytes": 151551,
+      "sha256": "20dd554807ee00c057f596aab3d3cf9307966a88202892194a57c3dca04c4d8e"
+    },
+    "validate.py": {
+      "bytes": 3623,
+      "sha256": "a9aabb7764f5d59896eef401d809b13345beb876f8d5225b5c7d6eabd98a8262"
+    }
+  },
+  "new_scientific_calls": 0,
+  "schema": "MADE_sample_dispersion_publication_manifest"
+}

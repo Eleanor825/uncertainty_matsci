@@ -1,0 +1,31 @@
+{
+  "boundary_v2_source_manifest": {
+    "bytes": 12259,
+    "sha256": "cdc3c89bf3bd9928449763610cbb8450312c635700fe405e851bf63ab4e4a726"
+  },
+  "completion_ref_check": "Original SHA/bytes exported by native observer; previous11 complete-pair refs and metrics match exactly. No full physical audit rerun claimed.",
+  "executed_global_observer_source": {
+    "bytes": 5716,
+    "sha256": "b3b5b73613b7fc4ab0fabf98db0e80ac7bfbad5c19a82f46cd8e70700060ae64"
+  },
+  "paper_and_frozen_sources_modified": false,
+  "prior_publication": {
+    "commit": "eb78f581dfcec1a507d0c7e980b4e8148d09fe92",
+    "complete_pairs_unchanged": 11,
+    "snapshot_relative_path": "results/made/core_boundary_v2/20260924T052208_CST/snapshot.json",
+    "snapshot_sha256": "1caffee18b3249c45294bb4ca8256bca30398297bcc777d8a6dd527f8bc7b258"
+  },
+  "raw_prompts_tokens_structures_logs_or_machine_identity_exported": false,
+  "schema": "MADE_fixed_dispersion_publication_provenance",
+  "scientific_registration": {
+    "bytes": 270942,
+    "sha256": "ff125f6f39828a1aa3db34a201d60766aba40282d34e8f47ad2dff9bc771b3f4"
+  },
+  "source": {
+    "bytes": 172842,
+    "filename": "observe_MADE_core_v2_pairs_live_v1_primary_1790223290389784000.json",
+    "sha256": "6417cd322808473fc9e6ae19389d2a1cc6d6e4c0d1a15ec0338cec8848f5d482"
+  },
+  "source_files_read_sequentially_not_atomic_snapshot": true,
+  "variance_computation": "Python statistics.variance/stdev (sample, n-1), independently checked in validate.py against centered sums of squares. No row-level significance tests."
+}
