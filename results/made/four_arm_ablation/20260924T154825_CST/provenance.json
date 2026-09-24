@@ -1,0 +1,29 @@
+{
+  "aggregation_recomputed_from_fixed_receipts": true,
+  "completion_reference_count": 97,
+  "matching_key": [
+    "task_id",
+    "budget",
+    "seed"
+  ],
+  "paper_modified": false,
+  "prior_core_publication_commit": "8a5e7401d09c2a3b7b10e90f52babd99fb2f30b0",
+  "prior_core_source_SHA_identical": true,
+  "sanitization": "Only condition identity, acceptance state, metrics, execution costs and project-relative completion hashes retained. Transport and native infrastructure telemetry omitted.",
+  "schema": "made_ablation_publication_provenance_v1",
+  "scientific_results_recomputed": false,
+  "source_code_modified": false,
+  "source_receipts": [
+    {
+      "bytes": 49581,
+      "sha256": "288647b0c861cc22516a570212090fc3e703df1bbbf0b5cd2f8606d213949080",
+      "source_file": "observe_MADE_ablation_results_v1_primary_1790236107132338000.json"
+    },
+    {
+      "bytes": 199148,
+      "sha256": "48a00233d2892eb8bb4ca0072c8ae38ba7fac41dbefbcf96943a8be0cecb6b41",
+      "source_file": "observe_MADE_core_v2_pairs_live_v1_primary_1790235819482662000.json"
+    }
+  ],
+  "source_receipts_kept_private": true
+}

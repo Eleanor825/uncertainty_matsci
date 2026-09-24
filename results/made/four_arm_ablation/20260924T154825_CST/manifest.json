@@ -1,0 +1,21 @@
+{
+  "files": {
+    "provenance.json": {
+      "bytes": 1116,
+      "sha256": "943ee85964ebfeacf3f56567479a53b9c69b97b56f9d221478921adf1595d0f5"
+    },
+    "report.md": {
+      "bytes": 5688,
+      "sha256": "2611c2064f8d30ac14dcfad0e6076e528f81ce5097dacebe866fbdbaa22ce5c8"
+    },
+    "snapshot.json": {
+      "bytes": 230724,
+      "sha256": "321596e2efd187d4958bc12bad5b1e436b7821d89722f5eac90086a1d20ac68c"
+    },
+    "validate.py": {
+      "bytes": 4544,
+      "sha256": "8f4f0838e99eb46f33fa66e8183a0bc0814ed29d853ed665574204c9c03011f1"
+    }
+  },
+  "schema": "fixed_result_publication_files_v1"
+}
