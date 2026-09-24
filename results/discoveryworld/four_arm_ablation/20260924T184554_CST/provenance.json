@@ -1,0 +1,12 @@
+{
+  "format_normalization": "Public CSV CRLF normalized to LF; parsed fields and values unchanged.",
+  "new_scientific_calls_for_publication": 0,
+  "paper_and_running_sources_modified": false,
+  "sanitization": "Machine-specific completion paths and local source path omitted; all numerical values, scientific identifiers and completion SHA-256 hashes preserved.",
+  "scope": "fixed two-world development follow-up; 20 matched seed/world cases per budget; no unseen-world claim",
+  "snapshot_time": "2026-09-24T18:45:54.718843",
+  "source_bytes": 339823,
+  "source_file": "observe_DW_four_arm_results_v1_primary_1790246761362127000.json",
+  "source_native_receipt_kept_private": true,
+  "source_sha256": "2d14c31519b7ad8446e1b3699fe09b96bf808d93f76fd7c20581e3c98a112843"
+}

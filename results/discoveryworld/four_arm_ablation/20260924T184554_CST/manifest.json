@@ -1,0 +1,25 @@
+{
+  "files": {
+    "per_trajectory.csv": {
+      "bytes": 20475,
+      "sha256": "0bcfc03d471e2213e13c361e1fe4ccfc42e2a0964eccb3307d89c65a0f89e93c"
+    },
+    "provenance.json": {
+      "bytes": 773,
+      "sha256": "cff38bde0d6f7ee40e684f392b78071f6e7c30921044768a2944780605055b73"
+    },
+    "report.md": {
+      "bytes": 2444,
+      "sha256": "43b0a5534adbd426b6b00707547a81b908d142b8bfdd93cd5af1258c678ec0da"
+    },
+    "snapshot.json": {
+      "bytes": 280314,
+      "sha256": "0eb2e953121d3a42ab5f547211f599e65a4191f86baa7af9814b74c9cbe9c2b4"
+    },
+    "validate.py": {
+      "bytes": 4552,
+      "sha256": "59338f24efb6e75063abb5890bca5cc7cea2825c075e328f6d9e7cfa59328ab1"
+    }
+  },
+  "schema": "fixed_publication_manifest_v1"
+}
