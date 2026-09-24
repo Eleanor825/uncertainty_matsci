@@ -1,0 +1,3522 @@
+{
+  "SD_is_not_SE_or_confidence_interval": true,
+  "active_status_is_metadata_not_fresh_process_proof": true,
+  "all_status_counts": {
+    "accepted": 42,
+    "claimed": 9,
+    "pending": 69
+  },
+  "arms": [
+    "Native",
+    "ActionPool2"
+  ],
+  "benchmark": "DW",
+  "complete_pairs": 19,
+  "completion_subset_may_be_biased": true,
+  "descriptive_statistics": [
+    {
+      "budget": 10,
+      "complete_pairs": 19,
+      "expected_pairs": 20,
+      "group": null,
+      "group_counts": {
+        "3": 10,
+        "4": 9
+      },
+      "metrics": {
+        "completed_successfully": {
+          "ActionPool2": {
+            "mean": 0,
+            "n": 19,
+            "sample_SD": 0.0,
+            "sample_variance": 0
+          },
+          "Native": {
+            "mean": 0,
+            "n": 19,
+            "sample_SD": 0.0,
+            "sample_variance": 0
+          },
+          "paired_difference": {
+            "mean": 0,
+            "n": 19,
+            "sample_SD": 0.0,
+            "sample_variance": 0
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 19,
+            "wins": 0
+          }
+        },
+        "execution_success_rate": {
+          "ActionPool2": {
+            "mean": 0.5473684210526316,
+            "n": 19,
+            "sample_SD": 0.27359422722270776,
+            "sample_variance": 0.07485380116959064
+          },
+          "Native": {
+            "mean": 0.37894736842105264,
+            "n": 19,
+            "sample_SD": 0.27198641176929134,
+            "sample_variance": 0.0739766081871345
+          },
+          "paired_difference": {
+            "mean": 0.16842105263157897,
+            "n": 19,
+            "sample_SD": 0.2789915004259835,
+            "sample_variance": 0.07783625730994152
+          },
+          "win_tie_loss": {
+            "losses": 2,
+            "ties": 7,
+            "wins": 10
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "mean": 0.07236842105263158,
+            "n": 19,
+            "sample_SD": 0.09606664962197153,
+            "sample_variance": 0.009228801169590644
+          },
+          "Native": {
+            "mean": 0.03289473684210526,
+            "n": 19,
+            "sample_SD": 0.07024393586862705,
+            "sample_variance": 0.00493421052631579
+          },
+          "paired_difference": {
+            "mean": 0.039473684210526314,
+            "n": 19,
+            "sample_SD": 0.0936585811581694,
+            "sample_variance": 0.008771929824561403
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 13,
+            "wins": 5
+          }
+        }
+      }
+    },
+    {
+      "budget": 10,
+      "complete_pairs": 10,
+      "expected_pairs": 10,
+      "group": 3,
+      "group_counts": {
+        "3": 10,
+        "4": 0
+      },
+      "metrics": {
+        "completed_successfully": {
+          "ActionPool2": {
+            "mean": 0,
+            "n": 10,
+            "sample_SD": 0.0,
+            "sample_variance": 0
+          },
+          "Native": {
+            "mean": 0,
+            "n": 10,
+            "sample_SD": 0.0,
+            "sample_variance": 0
+          },
+          "paired_difference": {
+            "mean": 0,
+            "n": 10,
+            "sample_SD": 0.0,
+            "sample_variance": 0
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 10,
+            "wins": 0
+          }
+        },
+        "execution_success_rate": {
+          "ActionPool2": {
+            "mean": 0.57,
+            "n": 10,
+            "sample_SD": 0.2750757471437034,
+            "sample_variance": 0.07566666666666667
+          },
+          "Native": {
+            "mean": 0.44,
+            "n": 10,
+            "sample_SD": 0.2674987019698517,
+            "sample_variance": 0.07155555555555555
+          },
+          "paired_difference": {
+            "mean": 0.13,
+            "n": 10,
+            "sample_SD": 0.22632326929023944,
+            "sample_variance": 0.05122222222222224
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 4,
+            "wins": 5
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "mean": 0.1125,
+            "n": 10,
+            "sample_SD": 0.09223309842157773,
+            "sample_variance": 0.008506944444444445
+          },
+          "Native": {
+            "mean": 0.05,
+            "n": 10,
+            "sample_SD": 0.08740073734751264,
+            "sample_variance": 0.00763888888888889
+          },
+          "paired_difference": {
+            "mean": 0.0625,
+            "n": 10,
+            "sample_SD": 0.08838834764831845,
+            "sample_variance": 0.0078125
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 6,
+            "wins": 4
+          }
+        }
+      }
+    },
+    {
+      "budget": 10,
+      "complete_pairs": 9,
+      "expected_pairs": 10,
+      "group": 4,
+      "group_counts": {
+        "3": 0,
+        "4": 9
+      },
+      "metrics": {
+        "completed_successfully": {
+          "ActionPool2": {
+            "mean": 0,
+            "n": 9,
+            "sample_SD": 0.0,
+            "sample_variance": 0
+          },
+          "Native": {
+            "mean": 0,
+            "n": 9,
+            "sample_SD": 0.0,
+            "sample_variance": 0
+          },
+          "paired_difference": {
+            "mean": 0,
+            "n": 9,
+            "sample_SD": 0.0,
+            "sample_variance": 0
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 9,
+            "wins": 0
+          }
+        },
+        "execution_success_rate": {
+          "ActionPool2": {
+            "mean": 0.5222222222222223,
+            "n": 9,
+            "sample_SD": 0.28625940062196115,
+            "sample_variance": 0.08194444444444444
+          },
+          "Native": {
+            "mean": 0.3111111111111111,
+            "n": 9,
+            "sample_SD": 0.27588242262078083,
+            "sample_variance": 0.07611111111111112
+          },
+          "paired_difference": {
+            "mean": 0.21111111111111114,
+            "n": 9,
+            "sample_SD": 0.3370624736026114,
+            "sample_variance": 0.11361111111111111
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 3,
+            "wins": 5
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "mean": 0.027777777777777776,
+            "n": 9,
+            "sample_SD": 0.08333333333333333,
+            "sample_variance": 0.006944444444444444
+          },
+          "Native": {
+            "mean": 0.013888888888888888,
+            "n": 9,
+            "sample_SD": 0.041666666666666664,
+            "sample_variance": 0.001736111111111111
+          },
+          "paired_difference": {
+            "mean": 0.013888888888888888,
+            "n": 9,
+            "sample_SD": 0.09771699499632146,
+            "sample_variance": 0.009548611111111112
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 7,
+            "wins": 1
+          }
+        }
+      }
+    },
+    {
+      "budget": 20,
+      "complete_pairs": 0,
+      "expected_pairs": 20,
+      "group": null,
+      "group_counts": {
+        "3": 0,
+        "4": 0
+      },
+      "metrics": {
+        "completed_successfully": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "execution_success_rate": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        }
+      }
+    },
+    {
+      "budget": 20,
+      "complete_pairs": 0,
+      "expected_pairs": 10,
+      "group": 3,
+      "group_counts": {
+        "3": 0,
+        "4": 0
+      },
+      "metrics": {
+        "completed_successfully": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "execution_success_rate": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        }
+      }
+    },
+    {
+      "budget": 20,
+      "complete_pairs": 0,
+      "expected_pairs": 10,
+      "group": 4,
+      "group_counts": {
+        "3": 0,
+        "4": 0
+      },
+      "metrics": {
+        "completed_successfully": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "execution_success_rate": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        }
+      }
+    },
+    {
+      "budget": 30,
+      "complete_pairs": 0,
+      "expected_pairs": 20,
+      "group": null,
+      "group_counts": {
+        "3": 0,
+        "4": 0
+      },
+      "metrics": {
+        "completed_successfully": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "execution_success_rate": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        }
+      }
+    },
+    {
+      "budget": 30,
+      "complete_pairs": 0,
+      "expected_pairs": 10,
+      "group": 3,
+      "group_counts": {
+        "3": 0,
+        "4": 0
+      },
+      "metrics": {
+        "completed_successfully": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "execution_success_rate": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        }
+      }
+    },
+    {
+      "budget": 30,
+      "complete_pairs": 0,
+      "expected_pairs": 10,
+      "group": 4,
+      "group_counts": {
+        "3": 0,
+        "4": 0
+      },
+      "metrics": {
+        "completed_successfully": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "execution_success_rate": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "Native": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "paired_difference": {
+            "mean": null,
+            "n": 0,
+            "sample_SD": null,
+            "sample_variance": null
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 0
+          }
+        }
+      }
+    }
+  ],
+  "development_descriptive": true,
+  "expected_cells": 120,
+  "expected_pairs": 60,
+  "incomplete_pair_metrics_imputed": false,
+  "job_id_prefix_not_used_for_matching": true,
+  "later_results_merged": false,
+  "metrics": [
+    "execution_success_rate",
+    "final_score_normalized",
+    "completed_successfully"
+  ],
+  "new_scientific_calls_for_publication": 0,
+  "observed_CST": "2026-09-24T13:48:16.351610+08:00",
+  "offline": {
+    "costs": {
+      "CV_fit_failures": 0,
+      "CV_fit_intents": 72,
+      "CV_fit_returns": 72,
+      "LLM_forwards": 0,
+      "environment_calls": 0,
+      "final_fit_intents": 6,
+      "final_fit_returns": 6,
+      "graph_calls": 0,
+      "temperature_fit_intents": 6,
+      "temperature_fit_returns": 6,
+      "total_wall_seconds": 22.271329280920327
+    },
+    "models": {
+      "A": {
+        "dev_metrics": {
+          "by_group": {
+            "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+              "AUROC": 0.9780219780219781,
+              "Brier": 0.07185501925985874,
+              "NLL": 0.2262604157697862,
+              "failures": 7,
+              "rows": 20
+            },
+            "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+              "AUROC": 0.8823529411764706,
+              "Brier": 0.0816490459508193,
+              "NLL": 0.2656560783604872,
+              "failures": 3,
+              "rows": 20
+            }
+          },
+          "failure_prevalence": 0.25,
+          "macro_Brier": 0.07675203260533903,
+          "macro_NLL": 0.2459582470651367,
+          "macro_group_type": "episode",
+          "max_probability": 0.9902042150497437,
+          "micro_Brier": 0.07675203260533903,
+          "micro_NLL": 0.24595824706513675,
+          "min_probability": 0.0010196887888014317,
+          "noninterpolated_AP": 0.9069444444444446,
+          "pooled_AUROC": 0.9566666666666668,
+          "row_ids_hash": "921e6cf25c5d22cda274eaf981a7adffb27d93ef08d8ef6b60555d4cc42619e1",
+          "row_level_significance_tested": false,
+          "rows": 40,
+          "within_episode_AUROC": 0.9436619718309859,
+          "within_episode_positive_negative_pairs": 142
+        },
+        "final_model_ref": {
+          "bytes": 13018,
+          "sha256": "f1fd3f29b64e35b40ed7fc6ed5b95dd7a856953aff5f5ea63dd3e0b3291565df"
+        },
+        "predictions_ref": {
+          "bytes": 28576,
+          "sha256": "aab003706daeeb9dc2dd696bc4ae3fe13463313dc68e549e9de883ac1881e8f7"
+        },
+        "raw_dimension": 10,
+        "selected_C": 1.0,
+        "temperature": 1.002679875685657
+      },
+      "B": {
+        "dev_metrics": {
+          "by_group": {
+            "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+              "AUROC": 0.9230769230769231,
+              "Brier": 0.09758663671973802,
+              "NLL": 0.3204224253501998,
+              "failures": 7,
+              "rows": 20
+            },
+            "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+              "AUROC": 0.9411764705882353,
+              "Brier": 0.05309318803422795,
+              "NLL": 0.19532807938501334,
+              "failures": 3,
+              "rows": 20
+            }
+          },
+          "failure_prevalence": 0.25,
+          "macro_Brier": 0.07533991237698298,
+          "macro_NLL": 0.25787525236760656,
+          "macro_group_type": "episode",
+          "max_probability": 0.9549604058265686,
+          "micro_Brier": 0.075339912376983,
+          "micro_NLL": 0.2578752523676066,
+          "min_probability": 0.01892654411494732,
+          "noninterpolated_AP": 0.8881944444444444,
+          "pooled_AUROC": 0.9433333333333334,
+          "row_ids_hash": "921e6cf25c5d22cda274eaf981a7adffb27d93ef08d8ef6b60555d4cc42619e1",
+          "row_level_significance_tested": false,
+          "rows": 40,
+          "within_episode_AUROC": 0.9295774647887324,
+          "within_episode_positive_negative_pairs": 142
+        },
+        "final_model_ref": {
+          "bytes": 72589,
+          "sha256": "179a69bcc577404dad0be371338e51e55e1875fe800ceb38b82cd0833129d439"
+        },
+        "predictions_ref": {
+          "bytes": 28543,
+          "sha256": "2a26632728259bae8725da55a6ef96f267c8641a4baca6958863d40a77afbd36"
+        },
+        "raw_dimension": 140,
+        "selected_C": 0.1,
+        "temperature": 1.329995884110076
+      },
+      "C": {
+        "dev_metrics": {
+          "by_group": {
+            "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+              "AUROC": 0.978021978021978,
+              "Brier": 0.10156828905288462,
+              "NLL": 0.43838419593598754,
+              "failures": 7,
+              "rows": 20
+            },
+            "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+              "AUROC": 0.9803921568627451,
+              "Brier": 0.06723614766891342,
+              "NLL": 0.21207431065833554,
+              "failures": 3,
+              "rows": 20
+            }
+          },
+          "failure_prevalence": 0.25,
+          "macro_Brier": 0.08440221836089902,
+          "macro_NLL": 0.32522925329716157,
+          "macro_group_type": "episode",
+          "max_probability": 0.9949363470077515,
+          "micro_Brier": 0.084402218360899,
+          "micro_NLL": 0.32522925329716157,
+          "min_probability": 0.003927355632185936,
+          "noninterpolated_AP": 0.9587412587412587,
+          "pooled_AUROC": 0.9833333333333334,
+          "row_ids_hash": "921e6cf25c5d22cda274eaf981a7adffb27d93ef08d8ef6b60555d4cc42619e1",
+          "row_level_significance_tested": false,
+          "rows": 40,
+          "within_episode_AUROC": 0.9788732394366197,
+          "within_episode_positive_negative_pairs": 142
+        },
+        "final_model_ref": {
+          "bytes": 72522,
+          "sha256": "2e7646f5e9161a1ccc0659a3b540816feb6b36e89e846925cd2bc153c9b56644"
+        },
+        "predictions_ref": {
+          "bytes": 28678,
+          "sha256": "23021840e4d1cccdb76120c81b127773ed7fc39ff25abeec925c8e099f77f2af"
+        },
+        "raw_dimension": 140,
+        "selected_C": 1.0,
+        "temperature": 1.5625526341828222
+      },
+      "P": {
+        "dev_metrics": {
+          "by_group": {
+            "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+              "AUROC": 0.945054945054945,
+              "Brier": 0.0859574244166432,
+              "NLL": 0.27310899464485766,
+              "failures": 7,
+              "rows": 20
+            },
+            "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+              "AUROC": 0.9803921568627451,
+              "Brier": 0.038128095625420536,
+              "NLL": 0.13361739779495554,
+              "failures": 3,
+              "rows": 20
+            }
+          },
+          "failure_prevalence": 0.25,
+          "macro_Brier": 0.062042760021031866,
+          "macro_NLL": 0.20336319621990662,
+          "macro_group_type": "episode",
+          "max_probability": 0.9676414132118225,
+          "micro_Brier": 0.06204276002103187,
+          "micro_NLL": 0.20336319621990664,
+          "min_probability": 0.007698492147028446,
+          "noninterpolated_AP": 0.9121503496503497,
+          "pooled_AUROC": 0.9666666666666667,
+          "row_ids_hash": "921e6cf25c5d22cda274eaf981a7adffb27d93ef08d8ef6b60555d4cc42619e1",
+          "row_level_significance_tested": false,
+          "rows": 40,
+          "within_episode_AUROC": 0.9577464788732394,
+          "within_episode_positive_negative_pairs": 142
+        },
+        "final_model_ref": {
+          "bytes": 22378,
+          "sha256": "6f57d0229785c8f6552789bd3ab0c225ccbeea356c61977daaa0593c988758ef"
+        },
+        "predictions_ref": {
+          "bytes": 28660,
+          "sha256": "ed7d1a4dada89fd5f25c0821ea0e758c7c6fc1185136aee46fcb678bf17cd489"
+        },
+        "raw_dimension": 40,
+        "selected_C": 1.0,
+        "temperature": 1.4883680561306125
+      },
+      "P+B-hidden": {
+        "dev_metrics": {
+          "by_group": {
+            "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+              "AUROC": 0.934065934065934,
+              "Brier": 0.10054910578138329,
+              "NLL": 0.32217226316860914,
+              "failures": 7,
+              "rows": 20
+            },
+            "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+              "AUROC": 0.9411764705882353,
+              "Brier": 0.04296786541197274,
+              "NLL": 0.16326946703176543,
+              "failures": 3,
+              "rows": 20
+            }
+          },
+          "failure_prevalence": 0.25,
+          "macro_Brier": 0.07175848559667802,
+          "macro_NLL": 0.24272086510018728,
+          "macro_group_type": "episode",
+          "max_probability": 0.962504506111145,
+          "micro_Brier": 0.07175848559667802,
+          "micro_NLL": 0.24272086510018723,
+          "min_probability": 0.017277896404266357,
+          "noninterpolated_AP": 0.8888888888888888,
+          "pooled_AUROC": 0.9533333333333334,
+          "row_ids_hash": "921e6cf25c5d22cda274eaf981a7adffb27d93ef08d8ef6b60555d4cc42619e1",
+          "row_level_significance_tested": false,
+          "rows": 40,
+          "within_episode_AUROC": 0.9366197183098591,
+          "within_episode_positive_negative_pairs": 142
+        },
+        "final_model_ref": {
+          "bytes": 81973,
+          "sha256": "97b726b92710c40e5e5c06fcc6602638e35a5614380dd8339f2028c1dae6ac21"
+        },
+        "predictions_ref": {
+          "bytes": 28541,
+          "sha256": "82c1b728cd39314f25da3872b6d7c4a460476b3a109ae8851cf91b2ec758a9f3"
+        },
+        "raw_dimension": 170,
+        "selected_C": 0.1,
+        "temperature": 1.345451441330504
+      },
+      "P+C-hidden": {
+        "dev_metrics": {
+          "by_group": {
+            "discoveryworld-v1-c3b9197fd21f2a61d23a1ced": {
+              "AUROC": 0.989010989010989,
+              "Brier": 0.0976356840113358,
+              "NLL": 0.4024387826098617,
+              "failures": 7,
+              "rows": 20
+            },
+            "discoveryworld-v1-e42d690b5f1dc74bd0ebf4c4": {
+              "AUROC": 0.9803921568627451,
+              "Brier": 0.056862563520744924,
+              "NLL": 0.18650595325027008,
+              "failures": 3,
+              "rows": 20
+            }
+          },
+          "failure_prevalence": 0.25,
+          "macro_Brier": 0.07724912376604036,
+          "macro_NLL": 0.2944723679300659,
+          "macro_group_type": "episode",
+          "max_probability": 0.9946531057357788,
+          "micro_Brier": 0.07724912376604036,
+          "micro_NLL": 0.29447236793006587,
+          "min_probability": 0.00453976122662425,
+          "noninterpolated_AP": 0.966923076923077,
+          "pooled_AUROC": 0.9866666666666667,
+          "row_ids_hash": "921e6cf25c5d22cda274eaf981a7adffb27d93ef08d8ef6b60555d4cc42619e1",
+          "row_level_significance_tested": false,
+          "rows": 40,
+          "within_episode_AUROC": 0.9859154929577465,
+          "within_episode_positive_negative_pairs": 142
+        },
+        "final_model_ref": {
+          "bytes": 81909,
+          "sha256": "0d99588cb13aa2cd44b8dfdd9b1cb908bf0c0f6b58c7c694e68220221cee91d8"
+        },
+        "predictions_ref": {
+          "bytes": 28683,
+          "sha256": "b84815f778495fca8a780c783e3b65a35dfe59e95a8ad1a852705f33b5eed231"
+        },
+        "raw_dimension": 170,
+        "selected_C": 1.0,
+        "temperature": 1.5484843580315732
+      }
+    },
+    "observed_CST": "2026-09-24T13:40:22.308212+08:00",
+    "source_rows": 160,
+    "supported_by_split": {
+      "cal": 60,
+      "dev": 40,
+      "train": 60
+    }
+  },
+  "only_complete_pairs_in_statistics": true,
+  "pair_matching_keys": [
+    "budget",
+    "world_seed",
+    "policy_seed"
+  ],
+  "pairs": [
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41996,
+            "sha256": "ce45bcd9812545e875c674f8e717719b4ae25fe76783358c601b62c47ad19826"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 170.9787326361984
+          },
+          "job_id": "pooling-online-dw-v1-w3-p501-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 197.18791757524014
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 34047,
+            "sha256": "329a694de1cde031d07d72c81054cae659a9540c30d3823247f3f18aa3100aa3"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 31.255337978946045
+          },
+          "job_id": "pooling-online-dw-v1-w3-p501-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 57.8688203439815
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s501",
+      "seed": 501,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41632,
+            "sha256": "117e8ee92c6462267c7cbc0c3d4ab136b0396a2f6505fbeec4459eb9fb4be15d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 164.30821751710027
+          },
+          "job_id": "dw-core120-v1-w3-p502-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 190.33206421509385
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33832,
+            "sha256": "a0c055a499421403e351b030070944978f7a91bd5c03301c0b6cbe9fb86f0028"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.787314583081752
+          },
+          "job_id": "dw-core120-v1-w3-p502-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 57.040512679028325
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s502",
+      "seed": 502,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41591,
+            "sha256": "20ba9c1fe979ed6a8108bc27274e69a433f5cffcb734709fd76f4a78b7564955"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 175.95422410499305
+          },
+          "job_id": "dw-core120-v1-w3-p503-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 203.24175121891312
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33802,
+            "sha256": "edb6cf3dd129852f0a713b47b56fa88784612a4dcb2124f5de6b156cb745c4c8"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.061354832025245
+          },
+          "job_id": "dw-core120-v1-w3-p503-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.3993774560513
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s503",
+      "seed": 503,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41606,
+            "sha256": "238408f10d687a14540bb0947edd0052c3d366e8ce8d9a0b87440a17bc387930"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 173.29648491495755
+          },
+          "job_id": "dw-core120-v1-w3-p504-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 199.98373901296873
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33849,
+            "sha256": "f8f9f5ccb19b90e0a1d19caceb5f15914f37e5c96e83f148e42d32add4383e83"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 29.87788816401735
+          },
+          "job_id": "dw-core120-v1-w3-p504-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.154918095096946
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s504",
+      "seed": 504,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41593,
+            "sha256": "1a73e29461685945aa2b2639adfd54bb2242a60d497ab16365f668a1d0e628cf"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 163.427409122698
+          },
+          "job_id": "dw-core120-v1-w3-p505-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 189.3420669194311
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33828,
+            "sha256": "474cc4a59015e60d5a5637da88a3f048eeaafadb9f52c5ca59818fe407267990"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.82804569695145
+          },
+          "job_id": "dw-core120-v1-w3-p505-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.52450983505696
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s505",
+      "seed": 505,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41605,
+            "sha256": "b4716d3fa6c17db2679d97aa3db0651af09c554b6abbbfe7ec0d33e0b3af16a7"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 170.77735631889664
+          },
+          "job_id": "dw-core120-v1-w3-p506-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 197.14179539494216
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33806,
+            "sha256": "1827dc1d0b65c781144eae5c72f9d7a1f7d09165df6d3bbe957a37044d895fa7"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.49903618101962
+          },
+          "job_id": "dw-core120-v1-w3-p506-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.79423611902166
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s506",
+      "seed": 506,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41585,
+            "sha256": "4a9d7f8f58abdbf14999295f93a0972d27f021af0c38e11f8fd004809028b14b"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 168.87306747306138
+          },
+          "job_id": "dw-core120-v1-w3-p507-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 195.15452254749835
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33814,
+            "sha256": "698942963f4e5f6ee83ba764231e4f1e5323a52901a77c438b050c958a09fa4d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.342164541012608
+          },
+          "job_id": "dw-core120-v1-w3-p507-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.854822237975895
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s507",
+      "seed": 507,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41635,
+            "sha256": "8a5e2e335e336087e732cf1685e2d24a39d91d72382307d82e383b30dd0a020a"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 177.35697655193508
+          },
+          "job_id": "dw-core120-v1-w3-p508-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 204.1095796810696
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33817,
+            "sha256": "6ed1d5596e5946920ba8e8f63d19e3bef193a19fa082453538c31d9c4aead9bd"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.457529817009345
+          },
+          "job_id": "dw-core120-v1-w3-p508-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 57.20236230303999
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s508",
+      "seed": 508,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41631,
+            "sha256": "ddcd92c50c98fc902dd2c24ee335e006d897198ccad55b3a3b91a82162b3bcbb"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 162.59006781503558
+          },
+          "job_id": "dw-core120-v1-w3-p509-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 188.66285017691553
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33809,
+            "sha256": "d6a94c99b1984667189a55afd79e96296d69fde3d47d02ca63394d15d8669024"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 31.399071110994555
+          },
+          "job_id": "dw-core120-v1-w3-p509-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 58.25765552697703
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s509",
+      "seed": 509,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41632,
+            "sha256": "b3e8e65b6b45fcd7f234b83d3c82e2bfc71f394fc7a37284f02d0d867af06f2e"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 179.5439956659684
+          },
+          "job_id": "dw-core120-v1-w3-p510-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 207.04084641300142
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33817,
+            "sha256": "15c2ef15b713149f91d5410014293aa6b391b1c72a59b9812e91b9488c2339f4"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.357388250529766
+          },
+          "job_id": "dw-core120-v1-w3-p510-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 55.98569893930107
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s510",
+      "seed": 510,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 42014,
+            "sha256": "a18e19a877a0d325cf9a7af7e65afa13a8b6b6c77b5abfa54ab0bad29cec8ce6"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 172.9934685435146
+          },
+          "job_id": "pooling-online-dw-v1-w4-p501-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 199.35995055548847
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 34047,
+            "sha256": "7f3b4656888e5b5a0bd718d6fd78da9ed36031078819675815d1b0eeeb4f9444"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.990617934963666
+          },
+          "job_id": "pooling-online-dw-v1-w4-p501-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.71399012603797
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s501",
+      "seed": 501,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41548,
+            "sha256": "a2dd367520ba7c7f541158eff5ab4b1e52f561ce5f654c7f916cb5bb4b49160a"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 159.7314713615924
+          },
+          "job_id": "dw-core120-v1-w4-p502-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 185.39358969032764
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33809,
+            "sha256": "c80ab7e3535e2d4839077cca98d80a1c4c0ee3736e09486e6d59eb62ee0e1a8f"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.257846607011743
+          },
+          "job_id": "dw-core120-v1-w4-p502-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 57.194451336050406
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s502",
+      "seed": 502,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41576,
+            "sha256": "6bc0835777f21f48ca43cd84e7b844b0db888684f4d517335d9a71efd136db20"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 170.30009150598198
+          },
+          "job_id": "dw-core120-v1-w4-p503-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 1.0,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 197.15259319497272
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33818,
+            "sha256": "54e38713de80803c7d3b6a8c6661f715a6c27f004dd577a1543079215733dd06"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.737143101985566
+          },
+          "job_id": "dw-core120-v1-w4-p503-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.0,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 57.90698217903264
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s503",
+      "seed": 503,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41581,
+            "sha256": "ff11b6f91115003ceefd7a580c761066184c1b37c6e49990a28a4d71a699742d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 175.91407640709076
+          },
+          "job_id": "dw-core120-v1-w4-p504-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 203.35885489406064
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33813,
+            "sha256": "d37e13fc26f30c5834a435744d626a441050c2bcc31d4f3d9d275198958e65f1"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.108349043875933
+          },
+          "job_id": "dw-core120-v1-w4-p504-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.71113687567413
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s504",
+      "seed": 504,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41562,
+            "sha256": "75a67b958cfaa00915bd5a9601423a058aafb0b28084ff2adef73d8a64a29851"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 165.59662236087024
+          },
+          "job_id": "dw-core120-v1-w4-p505-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 192.14655234850943
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33819,
+            "sha256": "9dba826dfed0e40f5c6a107147f48036ef10e2f329c12c1a88e76f130cb4b161"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 31.016054617008194
+          },
+          "job_id": "dw-core120-v1-w4-p505-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.0,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 57.47709120600484
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s505",
+      "seed": 505,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41552,
+            "sha256": "0d9cd8da72805e09e980a921ab12fbb1e76d110cc656653be6ebb8736f2c306d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 166.52948105707765
+          },
+          "job_id": "dw-core120-v1-w4-p506-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 192.96832898352295
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33814,
+            "sha256": "3063a6b016d2d1f96f086ebba1e1c4da0ea72819b5f949ecfcdb451babcb0404"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.41717130492907
+          },
+          "job_id": "dw-core120-v1-w4-p506-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.2,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.69391504500527
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s506",
+      "seed": 506,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41628,
+            "sha256": "c35e80c0797e5595c631508ddacd594278adaef0d164b90d09a3f0f3fa0e0d68"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 174.82200395397376
+          },
+          "job_id": "dw-core120-v1-w4-p507-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 201.69904610398225
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33814,
+            "sha256": "6775f3cc689a048be3b135f18c097faf34674fa2162e9b3952de88ab08376ea3"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.057650162023492
+          },
+          "job_id": "dw-core120-v1-w4-p507-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.329886023071595
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s507",
+      "seed": 507,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41594,
+            "sha256": "f02a0cd0c2abc3e27ace3b631f5366578e9199864394e13d8354827cac674586"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 174.30415513797197
+          },
+          "job_id": "dw-core120-v1-w4-p508-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 201.5108752460219
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33824,
+            "sha256": "ede76fee11b22d811b25364e3d7052a448c7d965c59139cc6d923a3762068a35"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 32.04386318102479
+          },
+          "job_id": "dw-core120-v1-w4-p508-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 58.59015017747879
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s508",
+      "seed": 508,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41562,
+            "sha256": "f1b25d1e914e8c6b38462653817826c59d950d62a7214c1a6d772c6479764cfb"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 152.47441121691372
+          },
+          "job_id": "dw-core120-v1-w4-p509-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 179.30126512108836
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33802,
+            "sha256": "d16f29f3f4d4ca3eb55b07fc7aeec7250012e64e84dfbaf4cfca8ed81fd835bc"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 29.14981679432094
+          },
+          "job_id": "dw-core120-v1-w4-p509-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 54.75602863449603
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s509",
+      "seed": 509,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p510-b10-ActionPool2",
+          "metrics": null,
+          "state": "claimed",
+          "state_source": "native_observer_nonpending_record"
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33819,
+            "sha256": "d2a17b8d42453411d3088a33bea0780b11fa32a306161159f8b5916479df778d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.141603120951913
+          },
+          "job_id": "dw-core120-v1-w4-p510-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.0,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 56.795175838051364
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s510",
+      "seed": 510,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "pooling-online-dw-v1-w3-p501-b20-ActionPool2",
+          "metrics": null,
+          "state": "claimed",
+          "state_source": "native_observer_nonpending_record"
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45971,
+            "sha256": "03674bcb2c7d21b07afd3de1ab7b813bc52362d1e5e6e7f415dc7d891e566937"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 61.498509521596134
+          },
+          "job_id": "pooling-online-dw-v1-w3-p501-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.05,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 88.04370047245175
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s501",
+      "seed": 501,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p502-b20-ActionPool2",
+          "metrics": null,
+          "state": "claimed",
+          "state_source": "native_observer_nonpending_record"
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45611,
+            "sha256": "f3351f05ac32d3b59ad30766c99eb74f1ffef556b5c439656d915a77a287e2c7"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 57.18635726906359
+          },
+          "job_id": "dw-core120-v1-w3-p502-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 84.82068356778473
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s502",
+      "seed": 502,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p503-b20-ActionPool2",
+          "metrics": null,
+          "state": "claimed",
+          "state_source": "native_observer_nonpending_record"
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45568,
+            "sha256": "d863c455829c281a035da0f83e6cd2d42f6f877ee9992bb2a6b4eeddc146f064"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 56.00934509374201
+          },
+          "job_id": "dw-core120-v1-w3-p503-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.85,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "state_source": "native_observer_nonpending_record",
+          "whole_job_wall_seconds": 82.84529388323426
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s503",
+      "seed": 503,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p504-b20-ActionPool2",
+          "metrics": null,
+          "state": "claimed",
+          "state_source": "native_observer_nonpending_record"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p504-b20-Native",
+          "metrics": null,
+          "state": "claimed",
+          "state_source": "native_observer_nonpending_record"
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s504",
+      "seed": 504,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p505-b20-ActionPool2",
+          "metrics": null,
+          "state": "claimed",
+          "state_source": "native_observer_nonpending_record"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p505-b20-Native",
+          "metrics": null,
+          "state": "claimed",
+          "state_source": "native_observer_nonpending_record"
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s505",
+      "seed": 505,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p506-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p506-b20-Native",
+          "metrics": null,
+          "state": "claimed",
+          "state_source": "native_observer_nonpending_record"
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s506",
+      "seed": 506,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p507-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p507-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s507",
+      "seed": 507,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p508-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p508-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s508",
+      "seed": 508,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p509-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p509-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s509",
+      "seed": 509,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p510-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p510-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s510",
+      "seed": 510,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "pooling-online-dw-v1-w4-p501-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "pooling-online-dw-v1-w4-p501-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s501",
+      "seed": 501,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p502-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p502-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s502",
+      "seed": 502,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p503-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p503-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s503",
+      "seed": 503,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p504-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p504-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s504",
+      "seed": 504,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p505-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p505-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s505",
+      "seed": 505,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p506-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p506-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s506",
+      "seed": 506,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p507-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p507-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s507",
+      "seed": 507,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p508-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p508-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s508",
+      "seed": 508,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p509-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p509-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s509",
+      "seed": 509,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p510-b20-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p510-b20-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s510",
+      "seed": 510,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p501-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p501-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s501",
+      "seed": 501,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p502-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p502-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s502",
+      "seed": 502,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p503-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p503-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s503",
+      "seed": 503,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p504-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p504-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s504",
+      "seed": 504,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p505-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p505-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s505",
+      "seed": 505,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p506-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p506-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s506",
+      "seed": 506,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p507-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p507-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s507",
+      "seed": 507,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p508-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p508-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s508",
+      "seed": 508,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p509-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p509-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s509",
+      "seed": 509,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p510-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w3-p510-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s510",
+      "seed": 510,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p501-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p501-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s501",
+      "seed": 501,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p502-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p502-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s502",
+      "seed": 502,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p503-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p503-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s503",
+      "seed": 503,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p504-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p504-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s504",
+      "seed": 504,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p505-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p505-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s505",
+      "seed": 505,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p506-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p506-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s506",
+      "seed": 506,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p507-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p507-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s507",
+      "seed": 507,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p508-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p508-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s508",
+      "seed": 508,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p509-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p509-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s509",
+      "seed": 509,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": false,
+      "arms": {
+        "ActionPool2": {
+          "accepted": false,
+          "arm": "ActionPool2",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p510-b30-ActionPool2",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        },
+        "Native": {
+          "accepted": false,
+          "arm": "Native",
+          "completion_ref": null,
+          "job_id": "dw-core120-v1-w4-p510-b30-Native",
+          "metrics": null,
+          "state": "pending",
+          "state_source": "fixed_matrix_minus_observed_nonpending"
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s510",
+      "seed": 510,
+      "world_seed": 4
+    }
+  ],
+  "schema": "fixed_matched_results_with_sample_dispersion_v1",
+  "statistical_significance_claimed": false,
+  "two_previously_examined_groups": true,
+  "uncertainty_net_increment_established": false,
+  "variance_ddof": 1,
+  "variance_definition": "Sample variance uses n-1. Paired differences are formed within identical group/budget/seed before variance/SD. n<2 variance and SD are null."
+}

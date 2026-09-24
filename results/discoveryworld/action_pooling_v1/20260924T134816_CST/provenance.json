@@ -1,0 +1,33 @@
+{
+  "case_matrix": {
+    "bytes": 159546,
+    "sha256": "aef4e38a40cec6ebce71da91c249db5971dcdb2eaee5d1c2962fece081bb6e2b"
+  },
+  "completion_refs_exported_by_native_observer_not_new_full_raw_audit": true,
+  "offline_fit_completion": {
+    "bytes": 73028,
+    "sha256": "94b19d5412b0bfb1189b5c38905a0955b5746a13003ee31edcd120b49ac40ba9"
+  },
+  "pair_match": "budget/world_seed/policy_seed and exact Native/ActionPool2 arm; job ID prefix is not a match key",
+  "paper_and_frozen_sources_modified": false,
+  "raw_prompts_tokens_logs_machine_identity_exported": false,
+  "schema": "fixed_results_provenance_v1",
+  "scientific_registration": {
+    "bytes": 55926,
+    "commit": "2a08936d83c991ab1fa2a9bb317eb44bb375e7e0",
+    "sha256": "55b85ab3a30d4db83f89fa7d2b848982b1d62beaf0be8b3c927ab853b74d7edc"
+  },
+  "source_reads_are_sequential_not_atomic": true,
+  "sources": [
+    {
+      "bytes": 331907,
+      "filename": "observe_DW_newmethod_pipeline_v1_primary_1790228909026885000.json",
+      "sha256": "94496b44b586e5a7a105472c5000ec687f3b68dd7e4e2d8b149fece618703d98"
+    },
+    {
+      "bytes": 51110,
+      "filename": "read_DW160_pooling_results_v1_primary_1790228422314828000.json",
+      "sha256": "2fe879cd9a0a440bdd698aa0b4fb57a0324d0342a50ef1efb6930db67a746ca3"
+    }
+  ]
+}

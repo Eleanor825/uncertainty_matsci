@@ -1,0 +1,24 @@
+{
+  "completion_refs_exported_by_native_observer_not_new_full_raw_audit": true,
+  "paper_and_frozen_sources_modified": false,
+  "previous_publication": {
+    "commit": "56e2a08ca25b66caf51a4e41755ff6c96c2abf86",
+    "completed_pairs_unchanged": 31,
+    "snapshot_relative_path": "results/made/core_boundary_v2/20260924T121450_CST/snapshot.json",
+    "snapshot_sha256": "20dd554807ee00c057f596aab3d3cf9307966a88202892194a57c3dca04c4d8e"
+  },
+  "raw_prompts_tokens_logs_machine_identity_exported": false,
+  "schema": "fixed_results_provenance_v1",
+  "scientific_registration": {
+    "bytes": 270942,
+    "sha256": "ff125f6f39828a1aa3db34a201d60766aba40282d34e8f47ad2dff9bc771b3f4"
+  },
+  "source_reads_are_sequential_not_atomic": true,
+  "sources": [
+    {
+      "bytes": 186699,
+      "filename": "observe_MADE_core_v2_pairs_live_v1_primary_1790229808599887000.json",
+      "sha256": "802e07efa7efb9df254015232406b01e457314e8de471015755e15cd3e418e5e"
+    }
+  ]
+}
