@@ -1,0 +1,42 @@
+{
+  "completion_refs_exported_by_native_observer_not_new_full_raw_audit": true,
+  "interval_analysis": {
+    "method": {
+      "PRNG": "Python random.Random.randrange",
+      "by_system": "Resample the ten matched seeds within the named fixed chemistry.",
+      "kind": "paired seed-block percentile bootstrap",
+      "level": 0.95,
+      "not_a_multiple_testing_significance_procedure": true,
+      "pooling": "For each budget, jointly resample the ten matching seed IDs across both fixed chemistries and both arms; mean the two chemistries within each seed before resampling the seed means.",
+      "posthoc_descriptive_only": true,
+      "quantile": "linear interpolation at (R-1)*p",
+      "random_seed": 20260924,
+      "replicates": 20000,
+      "scope": "Conditional variability over repeated seeds in two previously examined chemistries, not unseen-chemistry or full-benchmark generalization.",
+      "seed_blocks": 10
+    },
+    "new_scientific_calls": 0,
+    "posthoc": true
+  },
+  "paper_and_frozen_sources_modified": false,
+  "previous_publication": {
+    "commit": "1da0fa03f2a634cc09f29a121ad49364129c366e",
+    "completed_pairs_unchanged": 38,
+    "snapshot_relative_path": "results/made/core_boundary_v2/20260924T144632_CST/snapshot.json",
+    "snapshot_sha256": "0d3b8c381889756f075342cd3cd3099ded42f79ff353557512277c76e542eb3e"
+  },
+  "raw_prompts_tokens_logs_machine_identity_exported": false,
+  "schema": "fixed_results_provenance_v1",
+  "scientific_registration": {
+    "bytes": 270942,
+    "sha256": "ff125f6f39828a1aa3db34a201d60766aba40282d34e8f47ad2dff9bc771b3f4"
+  },
+  "source_reads_are_sequential_not_atomic": true,
+  "sources": [
+    {
+      "bytes": 199148,
+      "filename": "observe_MADE_core_v2_pairs_live_v1_primary_1790235819482662000.json",
+      "sha256": "48a00233d2892eb8bb4ca0072c8ae38ba7fac41dbefbcf96943a8be0cecb6b41"
+    }
+  ]
+}
