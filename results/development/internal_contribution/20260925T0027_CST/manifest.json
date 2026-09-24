@@ -1,0 +1,61 @@
+{
+  "files": {
+    "p1_mechanism.csv": {
+      "bytes": 5394,
+      "sha256": "731af0be6384032fa688dd3a07bddbadc6374b70aa54c21b2c5c8d8d58080916"
+    },
+    "p1_mechanism_exposure.png": {
+      "bytes": 184346,
+      "sha256": "302fcd4d8d6f12c3d0d6aaa8ad9640bf94bab7f2a58da3984a63a161d502ba39"
+    },
+    "p1_paired_comparisons.csv": {
+      "bytes": 80373,
+      "sha256": "5a7f40fdd344b9b2381d415582b5ae691250e82373f6b944423346b16346d1c6"
+    },
+    "p1_per_trajectory.csv": {
+      "bytes": 174714,
+      "sha256": "35a2ea52b5edbd5a0de8920e3b517f25f61b391566d937e8922ff631d06681c5"
+    },
+    "p1_representation_permutations.csv": {
+      "bytes": 27772,
+      "sha256": "89818291364ddf9333d93e1a8d935e61058fe5646efea8d29f1af8e7af0be079"
+    },
+    "p1_representation_predictions.csv": {
+      "bytes": 32277,
+      "sha256": "3495467b933fe4a85730930a3aa7c56753c1d8c20c0ca77ec97cbe29b147310b"
+    },
+    "p1_snapshot.json": {
+      "bytes": 619279,
+      "sha256": "42d36efbc200cd3330d7a342ccd2d798906ee40f2a08393bc775f65f9d154bb6"
+    },
+    "p1_task_benefit_cost.png": {
+      "bytes": 365669,
+      "sha256": "d89712799672e6019256c39778e239736ee4015fd9af508a5593d20f92cec88f"
+    },
+    "p2_every_case.csv": {
+      "bytes": 11664,
+      "sha256": "ef89e4ad05fe4d67d3fc7a6d0a22f000a3116cb5d3b19cace5bf9d1a65832521"
+    },
+    "p2_paired_summary.csv": {
+      "bytes": 2145,
+      "sha256": "44c2e034a83cdd6959e5da315860cf1face784222ec9c0b3c9a66d627b7f94e9"
+    },
+    "p2_snapshot.json": {
+      "bytes": 92512,
+      "sha256": "ee4eb70de33a1ab1e4acdbf7e2b1ac787453753a344c5c0c0429cea63076136e"
+    },
+    "provenance.json": {
+      "bytes": 1628,
+      "sha256": "c134aefecb34f1c1a656a3a5a5945ec1553419a7028fe0fc59faa4d15fa9b44e"
+    },
+    "report.md": {
+      "bytes": 4167,
+      "sha256": "82dc2f4424feca2c8d8ed660edc32a1c2c7ea724d3217f4c12e110521b570ed8"
+    },
+    "validate.py": {
+      "bytes": 9493,
+      "sha256": "d432528fb0d68a42ec3734d5e366c2ddf28888dd0eca99a9c4bddc3c6c36c88e"
+    }
+  },
+  "schema": "fixed_publication_manifest_v1"
+}

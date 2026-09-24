@@ -1,0 +1,27 @@
+{
+  "P1": {
+    "accepted_trajectories": 468,
+    "candidates": 26051,
+    "decisions": 15238,
+    "executed_scored_outcomes_after_deduplication": 6070,
+    "protocol_commit": "67c0231d9d22462ab073191da97fe60140f37343",
+    "raw_snapshot_sha256": "123a4ad4512fe27eb9036fe02e8663b243eaac9d92c94730d704c9e7f3733f8b",
+    "same_source_probability_reproduction_max_absolute_error": 1.1920928955078125e-07,
+    "source_file": "analysis.json",
+    "source_sha256": "69fac29396304bd5011521ec536133ec9027263228b9f0de3b6281ffb217512f"
+  },
+  "P2": {
+    "accepted_controls": 2,
+    "comparator_identities": 32,
+    "fixed_controls": 8,
+    "preregistration_commit": "e1e1c7b35dad0b3e25adcb6440479c53f04dd863",
+    "retained_snapshot_sha256": "f8a5f99a4e124f50c7f8064d78f3a328961f340433314da4f76d47852a4e719a",
+    "source_file": "read_current_MADE_P2_status_v1_secondary_1790267265078002000.json"
+  },
+  "interval_validation": "Means/counts/contrasts are locally recomputed from public tables. Bootstrap intervals and permutation summaries are preserved with source hashes; no claim that this slim package re-extracts private activations.",
+  "new_scientific_calls_for_publication": 0,
+  "paper_and_running_sources_modified": false,
+  "sanitization": "No machine paths, private host names, authentication material, transport/session data, raw prompts, raw token IDs, tensor arrays or model coefficients. Scientific IDs, source/completion hashes and aggregate token counts are retained. Offline prediction rows use publication-local aliases.",
+  "schema": "public_aggregate_provenance_v1",
+  "source_native_receipts_kept_private": true
+}

@@ -1,0 +1,2816 @@
+{
+  "ActionPool2_minus_Public2_fixed_case_baseline": [
+    {
+      "budget": 10,
+      "case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s502-RiskShuffle2"
+      ],
+      "complete_pairs": 3,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 10.0,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 3,
+          "reference_mean": 10.0
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": 44.666666666666664,
+          "method_mean": 44.666666666666664,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 3,
+          "reference_mean": 0.0
+        },
+        "capture_seconds": {
+          "mean_paired_difference": 50.306671067296215,
+          "method_mean": 50.306671067296215,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 3,
+          "reference_mean": 0.0
+        },
+        "completion_tokens": {
+          "mean_paired_difference": 206.33333333333334,
+          "method_mean": 5616.666666666667,
+          "observed_mean_ratio": 1.0381368985275092,
+          "paired_cost_rows": 3,
+          "reference_mean": 5410.333333333333
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": 44.442374867542334,
+          "method_mean": 671.566894692524,
+          "observed_mean_ratio": 1.0708669067507444,
+          "paired_cost_rows": 3,
+          "reference_mean": 627.1245198249817
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 39.333333333333336,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 3,
+          "reference_mean": 39.333333333333336
+        },
+        "llm_calls": {
+          "mean_paired_difference": 0.6666666666666666,
+          "method_mean": 39.333333333333336,
+          "observed_mean_ratio": 1.017241379310345,
+          "paired_cost_rows": 3,
+          "reference_mean": 38.666666666666664
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": -1609.3333333333333,
+          "method_mean": 76898.33333333333,
+          "observed_mean_ratio": 0.9795009404601672,
+          "paired_cost_rows": 3,
+          "reference_mean": 78507.66666666667
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": 0.6666666666666666,
+          "method_mean": 39.333333333333336,
+          "observed_mean_ratio": 1.017241379310345,
+          "paired_cost_rows": 3,
+          "reference_mean": 38.666666666666664
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": -68.5,
+          "method_mean": 6.5,
+          "observed_mean_ratio": 0.08666666666666667,
+          "paired_cost_rows": 2,
+          "reference_mean": 75.0
+        },
+        "tool_attempts": {
+          "mean_paired_difference": 0.3333333333333333,
+          "method_mean": 19.666666666666668,
+          "observed_mean_ratio": 1.017241379310345,
+          "paired_cost_rows": 3,
+          "reference_mean": 19.333333333333332
+        },
+        "total_tokens": {
+          "mean_paired_difference": -1403.0,
+          "method_mean": 82515.0,
+          "observed_mean_ratio": 0.9832812984103529,
+          "paired_cost_rows": 3,
+          "reference_mean": 83918.0
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": -21.100774235247325,
+          "method_mean": 888.1410744384242,
+          "observed_mean_ratio": 0.9767930014813689,
+          "paired_cost_rows": 3,
+          "reference_mean": 909.2418486736715
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "ActionPool2",
+      "metrics": {
+        "AUDC": {
+          "losses": 1,
+          "mean_paired_difference": -0.03666666666666666,
+          "method_mean": 0.42,
+          "reference_mean": 0.4566666666666666,
+          "ties": 1,
+          "wins": 1
+        },
+        "SUN": {
+          "losses": 1,
+          "mean_paired_difference": -0.3333333333333333,
+          "method_mean": 3.3333333333333335,
+          "reference_mean": 3.6666666666666665,
+          "ties": 2,
+          "wins": 0
+        },
+        "mSUN": {
+          "losses": 1,
+          "mean_paired_difference": -0.03333333333333333,
+          "method_mean": 0.3333333333333333,
+          "reference_mean": 0.3666666666666667,
+          "ties": 2,
+          "wins": 0
+        }
+      },
+      "missing_pair_case_ids": [
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s501-RiskShuffle2"
+      ],
+      "reference": "Public2"
+    },
+    {
+      "budget": 20,
+      "case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s502-RiskShuffle2"
+      ],
+      "complete_pairs": 4,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 20.0,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 4,
+          "reference_mean": 20.0
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": 94.0,
+          "method_mean": 94.0,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 4,
+          "reference_mean": 0.0
+        },
+        "capture_seconds": {
+          "mean_paired_difference": 106.67962066526525,
+          "method_mean": 106.67962066526525,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 4,
+          "reference_mean": 0.0
+        },
+        "completion_tokens": {
+          "mean_paired_difference": 300.75,
+          "method_mean": 10630.75,
+          "observed_mean_ratio": 1.0291142303969023,
+          "paired_cost_rows": 4,
+          "reference_mean": 10330.0
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": 176.41355333523825,
+          "method_mean": 1412.960117099341,
+          "observed_mean_ratio": 1.1426663245080133,
+          "paired_cost_rows": 4,
+          "reference_mean": 1236.5465637641028
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 53.5,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 4,
+          "reference_mean": 53.5
+        },
+        "llm_calls": {
+          "mean_paired_difference": 3.0,
+          "method_mean": 78.5,
+          "observed_mean_ratio": 1.0397350993377483,
+          "paired_cost_rows": 4,
+          "reference_mean": 75.5
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": 9628.5,
+          "method_mean": 155591.25,
+          "observed_mean_ratio": 1.065965460365744,
+          "paired_cost_rows": 4,
+          "reference_mean": 145962.75
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": 3.0,
+          "method_mean": 78.5,
+          "observed_mean_ratio": 1.0397350993377483,
+          "paired_cost_rows": 4,
+          "reference_mean": 75.5
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": 50.25,
+          "method_mean": 190.0,
+          "observed_mean_ratio": 1.3595706618962433,
+          "paired_cost_rows": 4,
+          "reference_mean": 139.75
+        },
+        "tool_attempts": {
+          "mean_paired_difference": 1.5,
+          "method_mean": 39.25,
+          "observed_mean_ratio": 1.0397350993377483,
+          "paired_cost_rows": 4,
+          "reference_mean": 37.75
+        },
+        "total_tokens": {
+          "mean_paired_difference": 9929.25,
+          "method_mean": 166222.0,
+          "observed_mean_ratio": 1.063529818241729,
+          "paired_cost_rows": 4,
+          "reference_mean": 156292.75
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": 148.37742177955806,
+          "method_mean": 1660.0530432509258,
+          "observed_mean_ratio": 1.0981542730940763,
+          "paired_cost_rows": 4,
+          "reference_mean": 1511.6756214713678
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "ActionPool2",
+      "metrics": {
+        "AUDC": {
+          "losses": 3,
+          "mean_paired_difference": 0.010625000000000022,
+          "method_mean": 0.518125,
+          "reference_mean": 0.5075,
+          "ties": 0,
+          "wins": 1
+        },
+        "SUN": {
+          "losses": 1,
+          "mean_paired_difference": 1.25,
+          "method_mean": 10.25,
+          "reference_mean": 9.0,
+          "ties": 1,
+          "wins": 2
+        },
+        "mSUN": {
+          "losses": 1,
+          "mean_paired_difference": 0.062499999999999986,
+          "method_mean": 0.5125,
+          "reference_mean": 0.45,
+          "ties": 1,
+          "wins": 2
+        }
+      },
+      "missing_pair_case_ids": [],
+      "reference": "Public2"
+    }
+  ],
+  "cases": [
+    {
+      "RiskShuffle2_minus_reference": {
+        "ActionPool2": {
+          "AUDC": -0.08000000000000002,
+          "SUN": 0,
+          "mSUN": 0.0
+        },
+        "Common2": {
+          "AUDC": -0.30000000000000004,
+          "SUN": -2,
+          "mSUN": -0.19999999999999998
+        },
+        "Native1": {
+          "AUDC": 0.09,
+          "SUN": 1,
+          "mSUN": 0.1
+        },
+        "Public2": {
+          "AUDC": -0.08000000000000002,
+          "SUN": 0,
+          "mSUN": 0.0
+        }
+      },
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_sha256": "b5af36b3955146d4298141916f91d0531115b585f17a832174ef727c43618b17",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 40,
+            "capture_seconds": 50.24689765647054,
+            "completion_tokens": 4487,
+            "episode_wall_seconds": 539.6751457401551,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 30,
+            "prompt_tokens": 68268,
+            "rpc_attempts": 30,
+            "surrogate_oracle_attempts": 3,
+            "tool_attempts": 15,
+            "total_tokens": 72755,
+            "whole_job_wall_seconds": 705.2867998550646
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s501-ActionPool2",
+          "metrics": {
+            "AUDC": 0.17,
+            "SUN": 1,
+            "mSUN": 0.1
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Common2": {
+          "accepted": true,
+          "arm": "Common2",
+          "budget": 10,
+          "completion_sha256": "3a070b629c109924deae7be36e358c888e33fce4010b606ceefcd6ef8aaa40ec",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 4653,
+            "episode_wall_seconds": 487.60636688768864,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 32,
+            "prompt_tokens": 71555,
+            "rpc_attempts": 32,
+            "surrogate_oracle_attempts": 3,
+            "tool_attempts": 16,
+            "total_tokens": 76208,
+            "whole_job_wall_seconds": 656.2663262197748
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Common2",
+          "metrics": {
+            "AUDC": 0.39,
+            "SUN": 3,
+            "mSUN": 0.3
+          },
+          "policy_seed": 501,
+          "registered_prior_state": "fixed_reuse",
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_sha256": "7a3c7c4d5df88e4015dfac61918a551f3a45d2cef1b10773f4366d34c88eaf53",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 2941,
+            "episode_wall_seconds": 332.04266552021727,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 18,
+            "prompt_tokens": 39621,
+            "rpc_attempts": 34,
+            "surrogate_oracle_attempts": null,
+            "tool_attempts": 17,
+            "total_tokens": 42562,
+            "whole_job_wall_seconds": 500.3056483878754
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-online-pooling-v1-Au-K-Tb-b10-s501-Native1",
+          "metrics": {
+            "AUDC": 0.0,
+            "SUN": 0,
+            "mSUN": 0.0
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Public2": {
+          "accepted": true,
+          "arm": "Public2",
+          "budget": 10,
+          "completion_sha256": "0e9b8ff05d2dfac7fdb9e3e1cccc24178f529c2b454747a538be6068cf040a6b",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 4865,
+            "episode_wall_seconds": 618.6998953409493,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 38,
+            "prompt_tokens": 79130,
+            "rpc_attempts": 38,
+            "surrogate_oracle_attempts": 88,
+            "tool_attempts": 19,
+            "total_tokens": 83995,
+            "whole_job_wall_seconds": 862.4253212586045
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Au-K-Tb-b10-s501-Public2",
+          "metrics": {
+            "AUDC": 0.17,
+            "SUN": 1,
+            "mSUN": 0.1
+          },
+          "policy_seed": 501,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "RiskShuffle2": {
+          "accepted": true,
+          "arm": "RiskShuffle2",
+          "budget": 10,
+          "completion_sha256": "33441b2b2b7a06219497f94c21dfb6c017395215c50e0c837873bc16c1c40a78",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 46,
+            "capture_seconds": 61.11367201246321,
+            "completion_tokens": 3988,
+            "episode_wall_seconds": 516.3351708557457,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 30,
+            "prompt_tokens": 69647,
+            "rpc_attempts": 30,
+            "surrogate_oracle_attempts": 25,
+            "tool_attempts": 15,
+            "total_tokens": 73635,
+            "whole_job_wall_seconds": 733.5998840583488
+          },
+          "environment_seed": 501,
+          "exposure": {
+            "actual_packet_change_definition": "audited ranking_can_change_action AND chosen_index_changed within the same actual decision; no alternative outcome observed",
+            "actual_packet_changed_by_permutation": 6,
+            "chosen_index_changed": 6,
+            "common_fallback_decisions": 6,
+            "decisions": 15,
+            "distinct_valid_actions_total": 30,
+            "eligible_fraction": 0.6,
+            "eligible_two_complete_risks": 9,
+            "identity_assignments": 3,
+            "new_environment_calls_for_audit": 0,
+            "new_model_forwards_for_audit": 0,
+            "nonidentity_assignments": 6,
+            "packet_change_fraction": 0.4,
+            "ranking_can_change_action": 9,
+            "risk_ties": 0,
+            "risk_used_decisions": 9,
+            "same_action_packets": 0
+          },
+          "failure_sha256": null,
+          "job_id": "made-risk-shuffle-v1-Au-K-Tb-b10-s501-RiskShuffle2",
+          "metrics": {
+            "AUDC": 0.09,
+            "SUN": 1,
+            "mSUN": 0.1
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 10,
+      "complete_five_arm_case": true,
+      "environment_seed": 501,
+      "job_id": "made-risk-shuffle-v1-Au-K-Tb-b10-s501-RiskShuffle2",
+      "policy_seed": 501,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "RiskShuffle2_minus_reference": {
+        "ActionPool2": {
+          "AUDC": 0.050000000000000044,
+          "SUN": 1,
+          "mSUN": 0.09999999999999998
+        },
+        "Common2": {
+          "AUDC": 0.06999999999999995,
+          "SUN": 1,
+          "mSUN": 0.09999999999999998
+        },
+        "Native1": {
+          "AUDC": 0.14,
+          "SUN": 2,
+          "mSUN": 0.19999999999999996
+        },
+        "Public2": null
+      },
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_sha256": "3414e6f4561fa2c7613aac7cc6dd8ff06846efc1672e29dc506cb7a61c8150d7",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 38,
+            "capture_seconds": 45.72398683428764,
+            "completion_tokens": 5233,
+            "episode_wall_seconds": 623.5379398670048,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 36,
+            "prompt_tokens": 76978,
+            "rpc_attempts": 36,
+            "surrogate_oracle_attempts": 24,
+            "tool_attempts": 18,
+            "total_tokens": 82211,
+            "whole_job_wall_seconds": 934.9004465686157
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s501-ActionPool2",
+          "metrics": {
+            "AUDC": 0.95,
+            "SUN": 9,
+            "mSUN": 0.9
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Common2": {
+          "accepted": true,
+          "arm": "Common2",
+          "budget": 10,
+          "completion_sha256": "764682616701e629d553d9bdd511103122de6c885af7b99479040f28ab755c5d",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 4180,
+            "episode_wall_seconds": 452.8633688967675,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 28,
+            "prompt_tokens": 52973,
+            "rpc_attempts": 28,
+            "surrogate_oracle_attempts": 1,
+            "tool_attempts": 14,
+            "total_tokens": 57153,
+            "whole_job_wall_seconds": 761.6698683556169
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Common2",
+          "metrics": {
+            "AUDC": 0.93,
+            "SUN": 9,
+            "mSUN": 0.9
+          },
+          "policy_seed": 501,
+          "registered_prior_state": "fixed_reuse",
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_sha256": "e567bd3f383429c50ca8f4316d3958fbda14dc582acc8a8f5c26ae17cf693279",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 2911,
+            "episode_wall_seconds": 334.6789031838998,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 21,
+            "prompt_tokens": 51709,
+            "rpc_attempts": 42,
+            "surrogate_oracle_attempts": 4,
+            "tool_attempts": 21,
+            "total_tokens": 54620,
+            "whole_job_wall_seconds": 657.7271972950548
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Native1",
+          "metrics": {
+            "AUDC": 0.86,
+            "SUN": 8,
+            "mSUN": 0.8
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Public2": {
+          "accepted": false,
+          "arm": "Public2",
+          "budget": 10,
+          "completion_sha256": null,
+          "costs": null,
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": "4952104045a3af0e97307ea61b75284455a117c381744525516dc352799ed1a4",
+          "job_id": "made-online-pooling-v1-Mg-Sn-Sr-b10-s501-Public2",
+          "metrics": null,
+          "policy_seed": 501,
+          "registered_prior_state": "blocked_prior_failure",
+          "state": "failed_preserved",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "RiskShuffle2": {
+          "accepted": true,
+          "arm": "RiskShuffle2",
+          "budget": 10,
+          "completion_sha256": "2bdea90f1d3cbb293c1ec041a5196a0e9779d4f91003b591ff2c0d8f68904467",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 56,
+            "capture_seconds": 63.09994441270828,
+            "completion_tokens": 7470,
+            "episode_wall_seconds": 869.331637552008,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 46,
+            "prompt_tokens": 91401,
+            "rpc_attempts": 46,
+            "surrogate_oracle_attempts": 28,
+            "tool_attempts": 23,
+            "total_tokens": 98871,
+            "whole_job_wall_seconds": 1218.2890806086361
+          },
+          "environment_seed": 501,
+          "exposure": {
+            "actual_packet_change_definition": "audited ranking_can_change_action AND chosen_index_changed within the same actual decision; no alternative outcome observed",
+            "actual_packet_changed_by_permutation": 3,
+            "chosen_index_changed": 5,
+            "common_fallback_decisions": 11,
+            "decisions": 23,
+            "distinct_valid_actions_total": 37,
+            "eligible_fraction": 0.43478260869565216,
+            "eligible_two_complete_risks": 10,
+            "identity_assignments": 5,
+            "new_environment_calls_for_audit": 0,
+            "new_model_forwards_for_audit": 0,
+            "nonidentity_assignments": 5,
+            "packet_change_fraction": 0.13043478260869565,
+            "ranking_can_change_action": 4,
+            "risk_ties": 0,
+            "risk_used_decisions": 12,
+            "same_action_packets": 6
+          },
+          "failure_sha256": null,
+          "job_id": "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s501-RiskShuffle2",
+          "metrics": {
+            "AUDC": 1.0,
+            "SUN": 10,
+            "mSUN": 1.0
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 10,
+      "complete_five_arm_case": false,
+      "environment_seed": 501,
+      "job_id": "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s501-RiskShuffle2",
+      "policy_seed": 501,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "RiskShuffle2_minus_reference": {
+        "ActionPool2": null,
+        "Common2": null,
+        "Native1": null,
+        "Public2": null
+      },
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_sha256": "a5c58ffe042f224a5bbd7bad6dde63f68ee54c0811521971c68f8cf49e135996",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 36,
+            "capture_seconds": 34.89354022918269,
+            "completion_tokens": 5996,
+            "episode_wall_seconds": 709.9714461192489,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 48,
+            "prompt_tokens": 85149,
+            "rpc_attempts": 48,
+            "surrogate_oracle_attempts": 38,
+            "tool_attempts": 24,
+            "total_tokens": 91145,
+            "whole_job_wall_seconds": 880.0055331168696
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Au-K-Tb-b10-s502-ActionPool2",
+          "metrics": {
+            "AUDC": 0.13,
+            "SUN": 1,
+            "mSUN": 0.1
+          },
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Common2": {
+          "accepted": true,
+          "arm": "Common2",
+          "budget": 10,
+          "completion_sha256": "6fe6a9e78f66c95154fb2d5198fa3a246fe45ebe4297d48496ae8dcb90fe3634",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 3804,
+            "episode_wall_seconds": 457.0422599464655,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 30,
+            "prompt_tokens": 65732,
+            "rpc_attempts": 30,
+            "surrogate_oracle_attempts": 30,
+            "tool_attempts": 15,
+            "total_tokens": 69536,
+            "whole_job_wall_seconds": 694.6866382360458
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Au-K-Tb-b10-s502-Common2",
+          "metrics": {
+            "AUDC": 0.43,
+            "SUN": 3,
+            "mSUN": 0.3
+          },
+          "policy_seed": 502,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_sha256": "50b821573d6c7de32bc04c5c007ff1db4b337de6d0306cca4347ad2113f248c9",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 2459,
+            "episode_wall_seconds": 323.7733626225963,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 22,
+            "prompt_tokens": 45098,
+            "rpc_attempts": 44,
+            "surrogate_oracle_attempts": 74,
+            "tool_attempts": 22,
+            "total_tokens": 47557,
+            "whole_job_wall_seconds": 485.50399389863014
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-online-core-ext-v1-Au-K-Tb-b10-s502-Native1",
+          "metrics": {
+            "AUDC": 0.08,
+            "SUN": 2,
+            "mSUN": 0.2
+          },
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Public2": {
+          "accepted": true,
+          "arm": "Public2",
+          "budget": 10,
+          "completion_sha256": "b483117aff2c81280a8bd050cee367b267281d52873a93a8fef451fbf77e970a",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 5223,
+            "episode_wall_seconds": 550.2677181474864,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 32,
+            "prompt_tokens": 59658,
+            "rpc_attempts": 32,
+            "surrogate_oracle_attempts": null,
+            "tool_attempts": 16,
+            "total_tokens": 64881,
+            "whole_job_wall_seconds": 750.4581058099866
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Au-K-Tb-b10-s502-Public2",
+          "metrics": {
+            "AUDC": 0.36,
+            "SUN": 2,
+            "mSUN": 0.2
+          },
+          "policy_seed": 502,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "RiskShuffle2": {
+          "accepted": false,
+          "arm": "RiskShuffle2",
+          "budget": 10,
+          "completion_sha256": null,
+          "costs": null,
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-risk-shuffle-v1-Au-K-Tb-b10-s502-RiskShuffle2",
+          "metrics": null,
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "claimed_unknown_until_reconciled",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 10,
+      "complete_five_arm_case": false,
+      "environment_seed": 502,
+      "job_id": "made-risk-shuffle-v1-Au-K-Tb-b10-s502-RiskShuffle2",
+      "policy_seed": 502,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "RiskShuffle2_minus_reference": {
+        "ActionPool2": null,
+        "Common2": null,
+        "Native1": null,
+        "Public2": null
+      },
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 10,
+          "completion_sha256": "7e4660dcc0efa5375c5570769aca401eb35d44c33200477897c34abd3b764cbb",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 58,
+            "capture_seconds": 65.77957531623542,
+            "completion_tokens": 6367,
+            "episode_wall_seconds": 765.0540922181681,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 40,
+            "prompt_tokens": 77278,
+            "rpc_attempts": 40,
+            "surrogate_oracle_attempts": 10,
+            "tool_attempts": 20,
+            "total_tokens": 83645,
+            "whole_job_wall_seconds": 1079.1308903433383
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b10-s502-ActionPool2",
+          "metrics": {
+            "AUDC": 0.96,
+            "SUN": 8,
+            "mSUN": 0.8
+          },
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Common2": {
+          "accepted": true,
+          "arm": "Common2",
+          "budget": 10,
+          "completion_sha256": "aa77eba6f4a66ed2338920878ca301bc47e39f332957d48ac80ba46b2bd3d12b",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 4310,
+            "episode_wall_seconds": 499.2566556483507,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 32,
+            "prompt_tokens": 74384,
+            "rpc_attempts": 32,
+            "surrogate_oracle_attempts": null,
+            "tool_attempts": 16,
+            "total_tokens": 78694,
+            "whole_job_wall_seconds": 896.4533108398318
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Mg-Sn-Sr-b10-s502-Common2",
+          "metrics": {
+            "AUDC": 0.89,
+            "SUN": 7,
+            "mSUN": 0.7
+          },
+          "policy_seed": 502,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 10,
+          "completion_sha256": "8cf6bc073d04e7bb271c0fd0904982d33bab48d7a8a3c7c40ee6f0f79aeb982d",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 3274,
+            "episode_wall_seconds": 474.4784298669547,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 26,
+            "prompt_tokens": 60524,
+            "rpc_attempts": 50,
+            "surrogate_oracle_attempts": 135,
+            "tool_attempts": 25,
+            "total_tokens": 63798,
+            "whole_job_wall_seconds": 785.4287176141515
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-online-core-ext-v1-Mg-Sn-Sr-b10-s502-Native1",
+          "metrics": {
+            "AUDC": 0.7,
+            "SUN": 6,
+            "mSUN": 0.6
+          },
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Public2": {
+          "accepted": true,
+          "arm": "Public2",
+          "budget": 10,
+          "completion_sha256": "c6831057aa935cecb9e3ea557b2dba84c14e047d9f4bac1e7a3fe3a08afe0464",
+          "costs": {
+            "candidate_oracle_attempts": 10,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 6143,
+            "episode_wall_seconds": 712.4059459865093,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 46,
+            "prompt_tokens": 96735,
+            "rpc_attempts": 46,
+            "surrogate_oracle_attempts": 62,
+            "tool_attempts": 23,
+            "total_tokens": 102878,
+            "whole_job_wall_seconds": 1114.8421189524233
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Mg-Sn-Sr-b10-s502-Public2",
+          "metrics": {
+            "AUDC": 0.84,
+            "SUN": 8,
+            "mSUN": 0.8
+          },
+          "policy_seed": 502,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "RiskShuffle2": {
+          "accepted": false,
+          "arm": "RiskShuffle2",
+          "budget": 10,
+          "completion_sha256": null,
+          "costs": null,
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s502-RiskShuffle2",
+          "metrics": null,
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "unclaimed",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 10,
+      "complete_five_arm_case": false,
+      "environment_seed": 502,
+      "job_id": "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s502-RiskShuffle2",
+      "policy_seed": 502,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "RiskShuffle2_minus_reference": {
+        "ActionPool2": null,
+        "Common2": null,
+        "Native1": null,
+        "Public2": null
+      },
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_sha256": "7bace59bdea802144e61c169c1667c0865d7cd38424ddc09a59fe8042fb2eb40",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 104,
+            "capture_seconds": 116.5057214340195,
+            "completion_tokens": 11574,
+            "episode_wall_seconds": 1497.153377215378,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 84,
+            "prompt_tokens": 162311,
+            "rpc_attempts": 84,
+            "surrogate_oracle_attempts": 260,
+            "tool_attempts": 42,
+            "total_tokens": 173885,
+            "whole_job_wall_seconds": 1675.7188183702528
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s501-ActionPool2",
+          "metrics": {
+            "AUDC": 0.04,
+            "SUN": 2,
+            "mSUN": 0.1
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Common2": {
+          "accepted": true,
+          "arm": "Common2",
+          "budget": 20,
+          "completion_sha256": "e80ef4cadef9db52fc9c741b6e4df45a9a6a0348675df393402bb4d1a5f77f26",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 10562,
+            "episode_wall_seconds": 1323.8748381398618,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 72,
+            "prompt_tokens": 139198,
+            "rpc_attempts": 72,
+            "surrogate_oracle_attempts": 174,
+            "tool_attempts": 36,
+            "total_tokens": 149760,
+            "whole_job_wall_seconds": 1514.0869306586683
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Au-K-Tb-b20-s501-Common2",
+          "metrics": {
+            "AUDC": 0.3075,
+            "SUN": 7,
+            "mSUN": 0.35
+          },
+          "policy_seed": 501,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_sha256": "369ce4888ccdaaaccdf9d601e8a53067b118bb90b9a314d9ebd4f092ec2efeb8",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 5957,
+            "episode_wall_seconds": 1261.5488473027945,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 51,
+            "prompt_tokens": 79071,
+            "rpc_attempts": 100,
+            "surrogate_oracle_attempts": 501,
+            "tool_attempts": 50,
+            "total_tokens": 85028,
+            "whole_job_wall_seconds": 1439.5848096371628
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s501-Native1",
+          "metrics": {
+            "AUDC": 0.035,
+            "SUN": 2,
+            "mSUN": 0.1
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Public2": {
+          "accepted": true,
+          "arm": "Public2",
+          "budget": 20,
+          "completion_sha256": "38e58ad3cb6de3f148e0733f45445e6326ca4085e5309b76bb5aafbfa63f6be6",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 8864,
+            "episode_wall_seconds": 1053.899807870388,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 72,
+            "prompt_tokens": 116137,
+            "rpc_attempts": 72,
+            "surrogate_oracle_attempts": 131,
+            "tool_attempts": 36,
+            "total_tokens": 125001,
+            "whole_job_wall_seconds": 1247.2767505273223
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Au-K-Tb-b20-s501-Public2",
+          "metrics": {
+            "AUDC": 0.0875,
+            "SUN": 1,
+            "mSUN": 0.05
+          },
+          "policy_seed": 501,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "RiskShuffle2": {
+          "accepted": false,
+          "arm": "RiskShuffle2",
+          "budget": 20,
+          "completion_sha256": null,
+          "costs": null,
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-risk-shuffle-v1-Au-K-Tb-b20-s501-RiskShuffle2",
+          "metrics": null,
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "unclaimed",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "complete_five_arm_case": false,
+      "environment_seed": 501,
+      "job_id": "made-risk-shuffle-v1-Au-K-Tb-b20-s501-RiskShuffle2",
+      "policy_seed": 501,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "RiskShuffle2_minus_reference": {
+        "ActionPool2": null,
+        "Common2": null,
+        "Native1": null,
+        "Public2": null
+      },
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_sha256": "325a102fa1df3b5c54afe4e02e80a77dad70dd5db73a662ee010ec3015a4b864",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 90,
+            "capture_seconds": 102.88861863967031,
+            "completion_tokens": 9717,
+            "episode_wall_seconds": 1310.9484747452661,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 70,
+            "prompt_tokens": 132876,
+            "rpc_attempts": 70,
+            "surrogate_oracle_attempts": 152,
+            "tool_attempts": 35,
+            "total_tokens": 142593,
+            "whole_job_wall_seconds": 1637.1152278808877
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s501-ActionPool2",
+          "metrics": {
+            "AUDC": 0.63,
+            "SUN": 14,
+            "mSUN": 0.7
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Common2": {
+          "accepted": true,
+          "arm": "Common2",
+          "budget": 20,
+          "completion_sha256": "907860dfc109614769664998cd16b4740de6a4cc5f146fa912d3a44ad979ad24",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 10580,
+            "episode_wall_seconds": 1124.7538336142898,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 68,
+            "prompt_tokens": 134661,
+            "rpc_attempts": 68,
+            "surrogate_oracle_attempts": 10,
+            "tool_attempts": 34,
+            "total_tokens": 145241,
+            "whole_job_wall_seconds": 1495.1299511790276
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Mg-Sn-Sr-b20-s501-Common2",
+          "metrics": {
+            "AUDC": 0.81,
+            "SUN": 14,
+            "mSUN": 0.7
+          },
+          "policy_seed": 501,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_sha256": "0a91167d14daae9b08bae63274ee1c2a636db1740938aa37dca22953d6b35186",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 6815,
+            "episode_wall_seconds": 1029.8039966239594,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 49,
+            "prompt_tokens": 90552,
+            "rpc_attempts": 94,
+            "surrogate_oracle_attempts": 293,
+            "tool_attempts": 47,
+            "total_tokens": 97367,
+            "whole_job_wall_seconds": 1342.7591012166813
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s501-Native1",
+          "metrics": {
+            "AUDC": 0.9,
+            "SUN": 18,
+            "mSUN": 0.9
+          },
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Public2": {
+          "accepted": true,
+          "arm": "Public2",
+          "budget": 20,
+          "completion_sha256": "ddee55dbec22c123d6b4233b0b2ea3efcd4ea209456e23fc40f4ca8377f192d0",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 10843,
+            "episode_wall_seconds": 1275.9790216349065,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 70,
+            "prompt_tokens": 139792,
+            "rpc_attempts": 70,
+            "surrogate_oracle_attempts": 105,
+            "tool_attempts": 35,
+            "total_tokens": 150635,
+            "whole_job_wall_seconds": 1623.1315348558128
+          },
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Mg-Sn-Sr-b20-s501-Public2",
+          "metrics": {
+            "AUDC": 0.845,
+            "SUN": 14,
+            "mSUN": 0.7
+          },
+          "policy_seed": 501,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "RiskShuffle2": {
+          "accepted": false,
+          "arm": "RiskShuffle2",
+          "budget": 20,
+          "completion_sha256": null,
+          "costs": null,
+          "environment_seed": 501,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s501-RiskShuffle2",
+          "metrics": null,
+          "policy_seed": 501,
+          "registered_prior_state": null,
+          "state": "unclaimed",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "complete_five_arm_case": false,
+      "environment_seed": 501,
+      "job_id": "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s501-RiskShuffle2",
+      "policy_seed": 501,
+      "task_id": "Mg-Sn-Sr"
+    },
+    {
+      "RiskShuffle2_minus_reference": {
+        "ActionPool2": null,
+        "Common2": null,
+        "Native1": null,
+        "Public2": null
+      },
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_sha256": "db19ab0cf03a41d9799df0ce5536ab1bef537944a40621d7190230928fbff27a",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 102,
+            "capture_seconds": 108.42129699420184,
+            "completion_tokens": 11590,
+            "episode_wall_seconds": 1675.6092626471072,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 88,
+            "prompt_tokens": 163680,
+            "rpc_attempts": 88,
+            "surrogate_oracle_attempts": 306,
+            "tool_attempts": 44,
+            "total_tokens": 175270,
+            "whole_job_wall_seconds": 1846.179903903976
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s502-ActionPool2",
+          "metrics": {
+            "AUDC": 0.62,
+            "SUN": 12,
+            "mSUN": 0.6
+          },
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Common2": {
+          "accepted": true,
+          "arm": "Common2",
+          "budget": 20,
+          "completion_sha256": "420fc541cee0f62a332a77ac15adc8af2ba980f6ffaa5e7546ef45bf3c1ac014",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 8254,
+            "episode_wall_seconds": 1106.999862600118,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 64,
+            "prompt_tokens": 140804,
+            "rpc_attempts": 64,
+            "surrogate_oracle_attempts": 121,
+            "tool_attempts": 32,
+            "total_tokens": 149058,
+            "whole_job_wall_seconds": 1297.6337185241282
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Au-K-Tb-b20-s502-Common2",
+          "metrics": {
+            "AUDC": 0.37,
+            "SUN": 6,
+            "mSUN": 0.3
+          },
+          "policy_seed": 502,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_sha256": "ae164bf531032f80c7f9a238ed35c7847189a71bd7470322655755ff2eb9abc3",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 5787,
+            "episode_wall_seconds": 1474.2384025603533,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 47,
+            "prompt_tokens": 64641,
+            "rpc_attempts": 94,
+            "surrogate_oracle_attempts": 520,
+            "tool_attempts": 47,
+            "total_tokens": 70428,
+            "whole_job_wall_seconds": 1646.7452807636
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Au-K-Tb-b20-s502-Native1",
+          "metrics": {
+            "AUDC": 0.215,
+            "SUN": 4,
+            "mSUN": 0.2
+          },
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "Public2": {
+          "accepted": true,
+          "arm": "Public2",
+          "budget": 20,
+          "completion_sha256": "9a5af4b7ecc797c53e0c39fd93137ea80d81c023b196af1ad2124b793aecb7ce",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 9273,
+            "episode_wall_seconds": 1137.1887993104756,
+            "initialization_oracle_attempts": 11,
+            "llm_calls": 72,
+            "prompt_tokens": 167336,
+            "rpc_attempts": 72,
+            "surrogate_oracle_attempts": 121,
+            "tool_attempts": 36,
+            "total_tokens": 176609,
+            "whole_job_wall_seconds": 1338.457781560719
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Au-K-Tb-b20-s502-Public2",
+          "metrics": {
+            "AUDC": 0.2825,
+            "SUN": 5,
+            "mSUN": 0.25
+          },
+          "policy_seed": 502,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Au-K-Tb"
+        },
+        "RiskShuffle2": {
+          "accepted": false,
+          "arm": "RiskShuffle2",
+          "budget": 20,
+          "completion_sha256": null,
+          "costs": null,
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-risk-shuffle-v1-Au-K-Tb-b20-s502-RiskShuffle2",
+          "metrics": null,
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "unclaimed",
+          "task_id": "Au-K-Tb"
+        }
+      },
+      "budget": 20,
+      "complete_five_arm_case": false,
+      "environment_seed": 502,
+      "job_id": "made-risk-shuffle-v1-Au-K-Tb-b20-s502-RiskShuffle2",
+      "policy_seed": 502,
+      "task_id": "Au-K-Tb"
+    },
+    {
+      "RiskShuffle2_minus_reference": {
+        "ActionPool2": null,
+        "Common2": null,
+        "Native1": null,
+        "Public2": null
+      },
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "budget": 20,
+          "completion_sha256": "3011f30bbfd2e38b7b5edd820b0b7e27bd5d896295493bdede02de7b97c02624",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 80,
+            "capture_seconds": 98.90284559316933,
+            "completion_tokens": 9642,
+            "episode_wall_seconds": 1168.1293537896127,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 72,
+            "prompt_tokens": 163498,
+            "rpc_attempts": 72,
+            "surrogate_oracle_attempts": 42,
+            "tool_attempts": 36,
+            "total_tokens": 173140,
+            "whole_job_wall_seconds": 1481.1982228485867
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s502-ActionPool2",
+          "metrics": {
+            "AUDC": 0.7825,
+            "SUN": 13,
+            "mSUN": 0.65
+          },
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Common2": {
+          "accepted": true,
+          "arm": "Common2",
+          "budget": 20,
+          "completion_sha256": "535a0c22ca68c7faf6c9c77c8104f3ca656b5d17bb633d8684b3f50bc2d0fae4",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 11166,
+            "episode_wall_seconds": 1295.4578731507063,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 78,
+            "prompt_tokens": 178231,
+            "rpc_attempts": 78,
+            "surrogate_oracle_attempts": 141,
+            "tool_attempts": 39,
+            "total_tokens": 189397,
+            "whole_job_wall_seconds": 1641.302633471787
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Mg-Sn-Sr-b20-s502-Common2",
+          "metrics": {
+            "AUDC": 0.775,
+            "SUN": 14,
+            "mSUN": 0.7
+          },
+          "policy_seed": 502,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Native1": {
+          "accepted": true,
+          "arm": "Native1",
+          "budget": 20,
+          "completion_sha256": "354b2cbb07c341462c0ae26770cce803d3d69f239db38c2f204608b235a55a6f",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 9063,
+            "episode_wall_seconds": 1415.8807524042204,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 70,
+            "prompt_tokens": 111432,
+            "rpc_attempts": 142,
+            "surrogate_oracle_attempts": 473,
+            "tool_attempts": 71,
+            "total_tokens": 120495,
+            "whole_job_wall_seconds": 1746.7154097110033
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-core-v2-Mg-Sn-Sr-b20-s502-Native1",
+          "metrics": {
+            "AUDC": 0.86,
+            "SUN": 14,
+            "mSUN": 0.7
+          },
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "Public2": {
+          "accepted": true,
+          "arm": "Public2",
+          "budget": 20,
+          "completion_sha256": "cfc82fb459a3f1540d51db5d78f52eb81eddf0af6ca183c568d772b69ed53c63",
+          "costs": {
+            "candidate_oracle_attempts": 20,
+            "capture_forward_returns": 0,
+            "capture_seconds": 0.0,
+            "completion_tokens": 12340,
+            "episode_wall_seconds": 1479.1186262406409,
+            "initialization_oracle_attempts": 96,
+            "llm_calls": 88,
+            "prompt_tokens": 160586,
+            "rpc_attempts": 88,
+            "surrogate_oracle_attempts": 202,
+            "tool_attempts": 44,
+            "total_tokens": 172926,
+            "whole_job_wall_seconds": 1837.836418941617
+          },
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-common-public-v1-Mg-Sn-Sr-b20-s502-Public2",
+          "metrics": {
+            "AUDC": 0.815,
+            "SUN": 16,
+            "mSUN": 0.8
+          },
+          "policy_seed": 502,
+          "registered_prior_state": "clean_new",
+          "state": "accepted",
+          "task_id": "Mg-Sn-Sr"
+        },
+        "RiskShuffle2": {
+          "accepted": false,
+          "arm": "RiskShuffle2",
+          "budget": 20,
+          "completion_sha256": null,
+          "costs": null,
+          "environment_seed": 502,
+          "exposure": null,
+          "failure_sha256": null,
+          "job_id": "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s502-RiskShuffle2",
+          "metrics": null,
+          "policy_seed": 502,
+          "registered_prior_state": null,
+          "state": "unclaimed",
+          "task_id": "Mg-Sn-Sr"
+        }
+      },
+      "budget": 20,
+      "complete_five_arm_case": false,
+      "environment_seed": 502,
+      "job_id": "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s502-RiskShuffle2",
+      "policy_seed": 502,
+      "task_id": "Mg-Sn-Sr"
+    }
+  ],
+  "comparisons": [
+    {
+      "budget": 10,
+      "case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s501-RiskShuffle2"
+      ],
+      "complete_pairs": 2,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 10.0,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 2,
+          "reference_mean": 10.0
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": 12.0,
+          "method_mean": 51.0,
+          "observed_mean_ratio": 1.3076923076923077,
+          "paired_cost_rows": 2,
+          "reference_mean": 39.0
+        },
+        "capture_seconds": {
+          "mean_paired_difference": 14.121365967206657,
+          "method_mean": 62.10680821258575,
+          "observed_mean_ratio": 1.2942843768115218,
+          "paired_cost_rows": 2,
+          "reference_mean": 47.98544224537909
+        },
+        "completion_tokens": {
+          "mean_paired_difference": 869.0,
+          "method_mean": 5729.0,
+          "observed_mean_ratio": 1.1788065843621398,
+          "paired_cost_rows": 2,
+          "reference_mean": 4860.0
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": 111.22686140029691,
+          "method_mean": 692.8334042038769,
+          "observed_mean_ratio": 1.1912407327196461,
+          "paired_cost_rows": 2,
+          "reference_mean": 581.6065428035799
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 53.5,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 2,
+          "reference_mean": 53.5
+        },
+        "llm_calls": {
+          "mean_paired_difference": 5.0,
+          "method_mean": 38.0,
+          "observed_mean_ratio": 1.1515151515151516,
+          "paired_cost_rows": 2,
+          "reference_mean": 33.0
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": 7901.0,
+          "method_mean": 80524.0,
+          "observed_mean_ratio": 1.1087947344505185,
+          "paired_cost_rows": 2,
+          "reference_mean": 72623.0
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": 5.0,
+          "method_mean": 38.0,
+          "observed_mean_ratio": 1.1515151515151516,
+          "paired_cost_rows": 2,
+          "reference_mean": 33.0
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": 13.0,
+          "method_mean": 26.5,
+          "observed_mean_ratio": 1.962962962962963,
+          "paired_cost_rows": 2,
+          "reference_mean": 13.5
+        },
+        "tool_attempts": {
+          "mean_paired_difference": 2.5,
+          "method_mean": 19.0,
+          "observed_mean_ratio": 1.1515151515151516,
+          "paired_cost_rows": 2,
+          "reference_mean": 16.5
+        },
+        "total_tokens": {
+          "mean_paired_difference": 8770.0,
+          "method_mean": 86253.0,
+          "observed_mean_ratio": 1.1131861182452925,
+          "paired_cost_rows": 2,
+          "reference_mean": 77483.0
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": 155.85085912165232,
+          "method_mean": 975.9444823334925,
+          "observed_mean_ratio": 1.1900403255317036,
+          "paired_cost_rows": 2,
+          "reference_mean": 820.0936232118402
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "RiskShuffle2",
+      "metrics": {
+        "AUDC": {
+          "losses": 1,
+          "mean_paired_difference": -0.014999999999999986,
+          "method_mean": 0.545,
+          "reference_mean": 0.5599999999999999,
+          "ties": 0,
+          "wins": 1
+        },
+        "SUN": {
+          "losses": 0,
+          "mean_paired_difference": 0.5,
+          "method_mean": 5.5,
+          "reference_mean": 5.0,
+          "ties": 1,
+          "wins": 1
+        },
+        "mSUN": {
+          "losses": 0,
+          "mean_paired_difference": 0.04999999999999999,
+          "method_mean": 0.55,
+          "reference_mean": 0.5,
+          "ties": 1,
+          "wins": 1
+        }
+      },
+      "missing_pair_case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s502-RiskShuffle2"
+      ],
+      "reference": "ActionPool2"
+    },
+    {
+      "budget": 10,
+      "case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s501-RiskShuffle2"
+      ],
+      "complete_pairs": 2,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 10.0,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 2,
+          "reference_mean": 10.0
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": 51.0,
+          "method_mean": 51.0,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 2,
+          "reference_mean": 0.0
+        },
+        "capture_seconds": {
+          "mean_paired_difference": 62.10680821258575,
+          "method_mean": 62.10680821258575,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 2,
+          "reference_mean": 0.0
+        },
+        "completion_tokens": {
+          "mean_paired_difference": 2803.0,
+          "method_mean": 5729.0,
+          "observed_mean_ratio": 1.957963089542037,
+          "paired_cost_rows": 2,
+          "reference_mean": 2926.0
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": 359.4726198518183,
+          "method_mean": 692.8334042038769,
+          "observed_mean_ratio": 2.0783290558621417,
+          "paired_cost_rows": 2,
+          "reference_mean": 333.36078435205854
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 53.5,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 2,
+          "reference_mean": 53.5
+        },
+        "llm_calls": {
+          "mean_paired_difference": 18.5,
+          "method_mean": 38.0,
+          "observed_mean_ratio": 1.9487179487179487,
+          "paired_cost_rows": 2,
+          "reference_mean": 19.5
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": 34859.0,
+          "method_mean": 80524.0,
+          "observed_mean_ratio": 1.763363626409723,
+          "paired_cost_rows": 2,
+          "reference_mean": 45665.0
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 38.0,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 2,
+          "reference_mean": 38.0
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": 24.0,
+          "method_mean": 28.0,
+          "observed_mean_ratio": 7.0,
+          "paired_cost_rows": 1,
+          "reference_mean": 4.0
+        },
+        "tool_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 19.0,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 2,
+          "reference_mean": 19.0
+        },
+        "total_tokens": {
+          "mean_paired_difference": 37662.0,
+          "method_mean": 86253.0,
+          "observed_mean_ratio": 1.7750818052725814,
+          "paired_cost_rows": 2,
+          "reference_mean": 48591.0
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": 396.9280594920274,
+          "method_mean": 975.9444823334925,
+          "observed_mean_ratio": 1.6855212457431565,
+          "paired_cost_rows": 2,
+          "reference_mean": 579.0164228414651
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "RiskShuffle2",
+      "metrics": {
+        "AUDC": {
+          "losses": 0,
+          "mean_paired_difference": 0.115,
+          "method_mean": 0.545,
+          "reference_mean": 0.43,
+          "ties": 0,
+          "wins": 2
+        },
+        "SUN": {
+          "losses": 0,
+          "mean_paired_difference": 1.5,
+          "method_mean": 5.5,
+          "reference_mean": 4.0,
+          "ties": 0,
+          "wins": 2
+        },
+        "mSUN": {
+          "losses": 0,
+          "mean_paired_difference": 0.14999999999999997,
+          "method_mean": 0.55,
+          "reference_mean": 0.4,
+          "ties": 0,
+          "wins": 2
+        }
+      },
+      "missing_pair_case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s502-RiskShuffle2"
+      ],
+      "reference": "Native1"
+    },
+    {
+      "budget": 10,
+      "case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s501-RiskShuffle2"
+      ],
+      "complete_pairs": 2,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 10.0,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 2,
+          "reference_mean": 10.0
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": 51.0,
+          "method_mean": 51.0,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 2,
+          "reference_mean": 0.0
+        },
+        "capture_seconds": {
+          "mean_paired_difference": 62.10680821258575,
+          "method_mean": 62.10680821258575,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 2,
+          "reference_mean": 0.0
+        },
+        "completion_tokens": {
+          "mean_paired_difference": 1312.5,
+          "method_mean": 5729.0,
+          "observed_mean_ratio": 1.297181025699083,
+          "paired_cost_rows": 2,
+          "reference_mean": 4416.5
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": 222.5985363116488,
+          "method_mean": 692.8334042038769,
+          "observed_mean_ratio": 1.4733773514274267,
+          "paired_cost_rows": 2,
+          "reference_mean": 470.23486789222807
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 53.5,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 2,
+          "reference_mean": 53.5
+        },
+        "llm_calls": {
+          "mean_paired_difference": 8.0,
+          "method_mean": 38.0,
+          "observed_mean_ratio": 1.2666666666666666,
+          "paired_cost_rows": 2,
+          "reference_mean": 30.0
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": 18260.0,
+          "method_mean": 80524.0,
+          "observed_mean_ratio": 1.2932673776178851,
+          "paired_cost_rows": 2,
+          "reference_mean": 62264.0
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": 8.0,
+          "method_mean": 38.0,
+          "observed_mean_ratio": 1.2666666666666666,
+          "paired_cost_rows": 2,
+          "reference_mean": 30.0
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": 24.5,
+          "method_mean": 26.5,
+          "observed_mean_ratio": 13.25,
+          "paired_cost_rows": 2,
+          "reference_mean": 2.0
+        },
+        "tool_attempts": {
+          "mean_paired_difference": 4.0,
+          "method_mean": 19.0,
+          "observed_mean_ratio": 1.2666666666666666,
+          "paired_cost_rows": 2,
+          "reference_mean": 15.0
+        },
+        "total_tokens": {
+          "mean_paired_difference": 19572.5,
+          "method_mean": 86253.0,
+          "observed_mean_ratio": 1.2935265932319044,
+          "paired_cost_rows": 2,
+          "reference_mean": 66680.5
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": 266.97638504579663,
+          "method_mean": 975.9444823334925,
+          "observed_mean_ratio": 1.3765703789312524,
+          "paired_cost_rows": 2,
+          "reference_mean": 708.9680972876959
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "RiskShuffle2",
+      "metrics": {
+        "AUDC": {
+          "losses": 1,
+          "mean_paired_difference": -0.11500000000000005,
+          "method_mean": 0.545,
+          "reference_mean": 0.66,
+          "ties": 0,
+          "wins": 1
+        },
+        "SUN": {
+          "losses": 1,
+          "mean_paired_difference": -0.5,
+          "method_mean": 5.5,
+          "reference_mean": 6.0,
+          "ties": 0,
+          "wins": 1
+        },
+        "mSUN": {
+          "losses": 1,
+          "mean_paired_difference": -0.05,
+          "method_mean": 0.55,
+          "reference_mean": 0.6,
+          "ties": 0,
+          "wins": 1
+        }
+      },
+      "missing_pair_case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s502-RiskShuffle2"
+      ],
+      "reference": "Common2"
+    },
+    {
+      "budget": 10,
+      "case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s501-RiskShuffle2"
+      ],
+      "complete_pairs": 1,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 10.0,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 1,
+          "reference_mean": 10.0
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": 46.0,
+          "method_mean": 46.0,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 1,
+          "reference_mean": 0.0
+        },
+        "capture_seconds": {
+          "mean_paired_difference": 61.11367201246321,
+          "method_mean": 61.11367201246321,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 1,
+          "reference_mean": 0.0
+        },
+        "completion_tokens": {
+          "mean_paired_difference": -877.0,
+          "method_mean": 3988.0,
+          "observed_mean_ratio": 0.8197327852004112,
+          "paired_cost_rows": 1,
+          "reference_mean": 4865.0
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": -102.36472448520362,
+          "method_mean": 516.3351708557457,
+          "observed_mean_ratio": 0.8345486636476751,
+          "paired_cost_rows": 1,
+          "reference_mean": 618.6998953409493
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": 0.0,
+          "method_mean": 11.0,
+          "observed_mean_ratio": 1.0,
+          "paired_cost_rows": 1,
+          "reference_mean": 11.0
+        },
+        "llm_calls": {
+          "mean_paired_difference": -8.0,
+          "method_mean": 30.0,
+          "observed_mean_ratio": 0.7894736842105263,
+          "paired_cost_rows": 1,
+          "reference_mean": 38.0
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": -9483.0,
+          "method_mean": 69647.0,
+          "observed_mean_ratio": 0.8801592316441299,
+          "paired_cost_rows": 1,
+          "reference_mean": 79130.0
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": -8.0,
+          "method_mean": 30.0,
+          "observed_mean_ratio": 0.7894736842105263,
+          "paired_cost_rows": 1,
+          "reference_mean": 38.0
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": -63.0,
+          "method_mean": 25.0,
+          "observed_mean_ratio": 0.2840909090909091,
+          "paired_cost_rows": 1,
+          "reference_mean": 88.0
+        },
+        "tool_attempts": {
+          "mean_paired_difference": -4.0,
+          "method_mean": 15.0,
+          "observed_mean_ratio": 0.7894736842105263,
+          "paired_cost_rows": 1,
+          "reference_mean": 19.0
+        },
+        "total_tokens": {
+          "mean_paired_difference": -10360.0,
+          "method_mean": 73635.0,
+          "observed_mean_ratio": 0.876659324959819,
+          "paired_cost_rows": 1,
+          "reference_mean": 83995.0
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": -128.8254372002557,
+          "method_mean": 733.5998840583488,
+          "observed_mean_ratio": 0.8506242407026608,
+          "paired_cost_rows": 1,
+          "reference_mean": 862.4253212586045
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "RiskShuffle2",
+      "metrics": {
+        "AUDC": {
+          "losses": 1,
+          "mean_paired_difference": -0.08000000000000002,
+          "method_mean": 0.09,
+          "reference_mean": 0.17,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "losses": 0,
+          "mean_paired_difference": 0.0,
+          "method_mean": 1.0,
+          "reference_mean": 1.0,
+          "ties": 1,
+          "wins": 0
+        },
+        "mSUN": {
+          "losses": 0,
+          "mean_paired_difference": 0.0,
+          "method_mean": 0.1,
+          "reference_mean": 0.1,
+          "ties": 1,
+          "wins": 0
+        }
+      },
+      "missing_pair_case_ids": [
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Au-K-Tb-b10-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b10-s502-RiskShuffle2"
+      ],
+      "reference": "Public2"
+    },
+    {
+      "budget": 20,
+      "case_ids": [],
+      "complete_pairs": 0,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "capture_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "completion_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "llm_calls": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "tool_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "total_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "RiskShuffle2",
+      "metrics": {
+        "AUDC": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "missing_pair_case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s502-RiskShuffle2"
+      ],
+      "reference": "ActionPool2"
+    },
+    {
+      "budget": 20,
+      "case_ids": [],
+      "complete_pairs": 0,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "capture_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "completion_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "llm_calls": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "tool_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "total_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "RiskShuffle2",
+      "metrics": {
+        "AUDC": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "missing_pair_case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s502-RiskShuffle2"
+      ],
+      "reference": "Native1"
+    },
+    {
+      "budget": 20,
+      "case_ids": [],
+      "complete_pairs": 0,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "capture_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "completion_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "llm_calls": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "tool_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "total_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "RiskShuffle2",
+      "metrics": {
+        "AUDC": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "missing_pair_case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s502-RiskShuffle2"
+      ],
+      "reference": "Common2"
+    },
+    {
+      "budget": 20,
+      "case_ids": [],
+      "complete_pairs": 0,
+      "costs": {
+        "candidate_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "capture_forward_returns": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "capture_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "completion_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "episode_wall_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "initialization_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "llm_calls": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "prompt_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "rpc_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "surrogate_oracle_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "tool_attempts": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "total_tokens": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        },
+        "whole_job_wall_seconds": {
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "observed_mean_ratio": null,
+          "paired_cost_rows": 0,
+          "reference_mean": null
+        }
+      },
+      "expected_fixed_cells": 4,
+      "method": "RiskShuffle2",
+      "metrics": {
+        "AUDC": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "SUN": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        },
+        "mSUN": {
+          "losses": 0,
+          "mean_paired_difference": null,
+          "method_mean": null,
+          "reference_mean": null,
+          "ties": 0,
+          "wins": 0
+        }
+      },
+      "missing_pair_case_ids": [
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s501-RiskShuffle2",
+        "made-risk-shuffle-v1-Au-K-Tb-b20-s502-RiskShuffle2",
+        "made-risk-shuffle-v1-Mg-Sn-Sr-b20-s502-RiskShuffle2"
+      ],
+      "reference": "Public2"
+    }
+  ],
+  "complete_five_arm_case_count": 1,
+  "fixed_comparator_cells": 32,
+  "fixed_control_cells": 8,
+  "interpretation": {
+    "claimed_is_not_live_process_proof": true,
+    "completion_conditioned_estimates_not_all_cell_effects": true,
+    "development_descriptive": true,
+    "internal_increment_reference": "ActionPool2 versus Public2",
+    "not_identical_full_candidate_trajectories_after_state_divergence": true,
+    "paired_by": [
+      "task",
+      "budget",
+      "policy_seed",
+      "environment_seed",
+      "frozen_G0_and_declared_runtime_and_fit"
+    ],
+    "shuffle_tests_complete_public_plus_internal_ranking_not_internal_increment_alone": true,
+    "tiny_n_no_population_significance_claim": true,
+    "unknown_outcomes_imputed": false,
+    "wall_time_observational_not_controlled_identical_hardware_load": true
+  },
+  "phase": "two_accepted_controls_only",
+  "primary_endpoint": "RiskShuffle2 minus ActionPool2 mSUN, separately by budget; n<=4",
+  "schema": "public_P2_fixed_eight_interim_v1",
+  "scientific_preregistration_commit": "e1e1c7b35dad0b3e25adcb6440479c53f04dd863",
+  "snapshot_finished_unix": 1790267264.9849854,
+  "snapshot_started_unix": 1790267260.5554864,
+  "status_by_arm": {
+    "ActionPool2": {
+      "accepted": 8
+    },
+    "Common2": {
+      "accepted": 8
+    },
+    "Native1": {
+      "accepted": 8
+    },
+    "Public2": {
+      "accepted": 7,
+      "failed_preserved": 1
+    },
+    "RiskShuffle2": {
+      "accepted": 2,
+      "claimed_unknown_until_reconciled": 1,
+      "unclaimed": 5
+    }
+  }
+}
