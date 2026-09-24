@@ -1,0 +1,29 @@
+{
+  "interval_method": "Posthoc descriptive paired seed-block percentile bootstrap; all budgets, worlds and signs retained.",
+  "mean_variance_helper_source": {
+    "bytes": 16243,
+    "filename": "build.py",
+    "sha256": "846e82278dbd77fbf91703fbb0f4cc48c3ac89d4ec7952f8490476538dd8f9d8"
+  },
+  "native_observer_completion_refs_not_new_full_raw_audit": true,
+  "native_telemetry_transport_auth_or_prompts_exported": false,
+  "paper_and_running_sources_modified": false,
+  "prior_publication": {
+    "commit": "8923e3d1a6ccfc89966d84cc149dc1a73ceade53",
+    "snapshot_relative_path": "results/discoveryworld/action_pooling_v1/20260924T134816_CST/snapshot.json",
+    "snapshot_sha256": "6e2e09c2817b2e3dee29c5269ad7eeb516eaebb43fcc9fe5ae072d17990070f6",
+    "unchanged_previously_accepted_trajectories": 42
+  },
+  "reads_are_sequential_not_atomic": true,
+  "schema": "completed_DW_fixed_publication_provenance",
+  "scientific_registration": {
+    "bytes": 55926,
+    "commit": "2a08936d83c991ab1fa2a9bb317eb44bb375e7e0",
+    "sha256": "55b85ab3a30d4db83f89fa7d2b848982b1d62beaf0be8b3c927ab853b74d7edc"
+  },
+  "source": {
+    "bytes": 441931,
+    "filename": "observe_DW_newmethod_pipeline_v1_primary_1790233497279414000.json",
+    "sha256": "5c4f1b7c5b45d2bd3df39751f67fa79a01a65269c24a1f1426d0cf17d2b122ff"
+  }
+}

@@ -1,0 +1,4441 @@
+{
+  "SD_is_not_SE_or_confidence_interval": true,
+  "active_status_is_metadata_not_fresh_process_proof": true,
+  "all_registered_trajectories_complete": true,
+  "all_status_counts": {
+    "accepted": 120
+  },
+  "arms": [
+    "Native",
+    "ActionPool2"
+  ],
+  "benchmark": "DW",
+  "complete_pairs": 60,
+  "completion_subset_may_be_biased": false,
+  "confidence_interval_method": {
+    "PRNG": "Python random.Random.randrange",
+    "by_world": "Resample the same ten seed IDs within the named fixed world.",
+    "interval_scope": "Conditional descriptive variability across repeated seeds in these two fixed, previously examined worlds; not uncertainty across unseen worlds or the full benchmark.",
+    "kind": "paired seed-block percentile bootstrap",
+    "level": 0.95,
+    "no_multiple_testing_or_significance_claim": true,
+    "posthoc_descriptive_interval": true,
+    "quantile": "linear interpolation at (R-1)*p",
+    "random_seed": 20260924,
+    "replicates": 20000,
+    "seed_blocks": 10,
+    "task_success_CI_omitted": "All observed success indicators are zero; a degenerate bootstrap interval is not reported as evidence that the population success probability is exactly zero.",
+    "within_budget_pooling": "Resample the 10 policy/environment seed IDs jointly across both fixed worlds; average both worlds per seed before the bootstrap mean. Both arms use identical draws."
+  },
+  "descriptive_statistics": [
+    {
+      "budget": 10,
+      "complete_pairs": 20,
+      "expected_pairs": 20,
+      "group": null,
+      "group_counts": {
+        "3": 10,
+        "4": 10
+      },
+      "metrics": {
+        "execution_success_rate": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.39000000000000007,
+              0.665
+            ],
+            "mean": 0.535,
+            "n": 20,
+            "sample_SD": 0.2719810364906464,
+            "sample_variance": 0.07397368421052633
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.24999999999999994,
+              0.4699999999999999
+            ],
+            "mean": 0.36,
+            "n": 20,
+            "sample_SD": 0.27796251167151453,
+            "sample_variance": 0.07726315789473685
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.07000000000000002,
+              0.29000000000000004
+            ],
+            "mean": 0.17500000000000002,
+            "n": 20,
+            "sample_SD": 0.2731396404000978,
+            "sample_variance": 0.07460526315789474
+          },
+          "win_tie_loss": {
+            "losses": 2,
+            "ties": 7,
+            "wins": 11
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.03125,
+              0.10625
+            ],
+            "mean": 0.06875,
+            "n": 20,
+            "sample_SD": 0.09489433181453102,
+            "sample_variance": 0.009004934210526316
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.00625,
+              0.05625
+            ],
+            "mean": 0.03125,
+            "n": 20,
+            "sample_SD": 0.0687649505275226,
+            "sample_variance": 0.0047286184210526315
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0,
+              0.08125
+            ],
+            "mean": 0.0375,
+            "n": 20,
+            "sample_SD": 0.09158688713313082,
+            "sample_variance": 0.008388157894736842
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 14,
+            "wins": 5
+          }
+        }
+      }
+    },
+    {
+      "budget": 10,
+      "complete_pairs": 10,
+      "expected_pairs": 10,
+      "group": 3,
+      "group_counts": {
+        "3": 10,
+        "4": 0
+      },
+      "metrics": {
+        "execution_success_rate": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.4,
+              0.72
+            ],
+            "mean": 0.57,
+            "n": 10,
+            "sample_SD": 0.2750757471437034,
+            "sample_variance": 0.07566666666666667
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.28,
+              0.5999999999999999
+            ],
+            "mean": 0.44,
+            "n": 10,
+            "sample_SD": 0.2674987019698517,
+            "sample_variance": 0.07155555555555555
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.019999999999999983,
+              0.2800000000000001
+            ],
+            "mean": 0.13,
+            "n": 10,
+            "sample_SD": 0.22632326929023944,
+            "sample_variance": 0.05122222222222224
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 4,
+            "wins": 5
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0625,
+              0.1625
+            ],
+            "mean": 0.1125,
+            "n": 10,
+            "sample_SD": 0.09223309842157773,
+            "sample_variance": 0.008506944444444445
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0,
+              0.1125
+            ],
+            "mean": 0.05,
+            "n": 10,
+            "sample_SD": 0.08740073734751264,
+            "sample_variance": 0.00763888888888889
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0125,
+              0.1125
+            ],
+            "mean": 0.0625,
+            "n": 10,
+            "sample_SD": 0.08838834764831845,
+            "sample_variance": 0.0078125
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 6,
+            "wins": 4
+          }
+        }
+      }
+    },
+    {
+      "budget": 10,
+      "complete_pairs": 10,
+      "expected_pairs": 10,
+      "group": 4,
+      "group_counts": {
+        "3": 0,
+        "4": 10
+      },
+      "metrics": {
+        "execution_success_rate": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.33999999999999997,
+              0.67
+            ],
+            "mean": 0.5,
+            "n": 10,
+            "sample_SD": 0.27888667551135854,
+            "sample_variance": 0.07777777777777779
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.12000000000000002,
+              0.45
+            ],
+            "mean": 0.28,
+            "n": 10,
+            "sample_SD": 0.2780887148615228,
+            "sample_variance": 0.07733333333333334
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.06000000000000001,
+              0.43
+            ],
+            "mean": 0.22,
+            "n": 10,
+            "sample_SD": 0.3190262963734773,
+            "sample_variance": 0.10177777777777777
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 3,
+            "wins": 6
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0,
+              0.075
+            ],
+            "mean": 0.025,
+            "n": 10,
+            "sample_SD": 0.07905694150420949,
+            "sample_variance": 0.00625
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0,
+              0.0375
+            ],
+            "mean": 0.0125,
+            "n": 10,
+            "sample_SD": 0.03952847075210474,
+            "sample_variance": 0.0015625
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              -0.0375,
+              0.075
+            ],
+            "mean": 0.0125,
+            "n": 10,
+            "sample_SD": 0.09223309842157773,
+            "sample_variance": 0.008506944444444444
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 8,
+            "wins": 1
+          }
+        }
+      }
+    },
+    {
+      "budget": 20,
+      "complete_pairs": 20,
+      "expected_pairs": 20,
+      "group": null,
+      "group_counts": {
+        "3": 10,
+        "4": 10
+      },
+      "metrics": {
+        "execution_success_rate": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.4450000000000001,
+              0.7275
+            ],
+            "mean": 0.595,
+            "n": 20,
+            "sample_SD": 0.27857721220138365,
+            "sample_variance": 0.07760526315789473
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.2375,
+              0.5349999999999999
+            ],
+            "mean": 0.3825,
+            "n": 20,
+            "sample_SD": 0.2730312301396654,
+            "sample_variance": 0.07454605263157894
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.09249999999999999,
+              0.335
+            ],
+            "mean": 0.2125,
+            "n": 20,
+            "sample_SD": 0.28877007790755754,
+            "sample_variance": 0.08338815789473684
+          },
+          "win_tie_loss": {
+            "losses": 3,
+            "ties": 3,
+            "wins": 14
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.04375,
+              0.09375
+            ],
+            "mean": 0.06875,
+            "n": 20,
+            "sample_SD": 0.08579159264415746,
+            "sample_variance": 0.007360197368421053
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.00625,
+              0.05625
+            ],
+            "mean": 0.03125,
+            "n": 20,
+            "sample_SD": 0.05553270728991491,
+            "sample_variance": 0.0030838815789473685
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.00625,
+              0.06875
+            ],
+            "mean": 0.0375,
+            "n": 20,
+            "sample_SD": 0.08211833566647328,
+            "sample_variance": 0.006743421052631578
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 13,
+            "wins": 6
+          }
+        }
+      }
+    },
+    {
+      "budget": 20,
+      "complete_pairs": 10,
+      "expected_pairs": 10,
+      "group": 3,
+      "group_counts": {
+        "3": 10,
+        "4": 0
+      },
+      "metrics": {
+        "execution_success_rate": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.36,
+              0.76
+            ],
+            "mean": 0.5700000000000001,
+            "n": 10,
+            "sample_SD": 0.3400980250849256,
+            "sample_variance": 0.11566666666666667
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.225,
+              0.5850000000000001
+            ],
+            "mean": 0.40499999999999997,
+            "n": 10,
+            "sample_SD": 0.30317761570846,
+            "sample_variance": 0.09191666666666667
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              -0.03,
+              0.38500000000000006
+            ],
+            "mean": 0.165,
+            "n": 10,
+            "sample_SD": 0.35672117963473937,
+            "sample_variance": 0.12725
+          },
+          "win_tie_loss": {
+            "losses": 3,
+            "ties": 2,
+            "wins": 5
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0125,
+              0.1125
+            ],
+            "mean": 0.0625,
+            "n": 10,
+            "sample_SD": 0.08838834764831845,
+            "sample_variance": 0.0078125
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0,
+              0.0625
+            ],
+            "mean": 0.025,
+            "n": 10,
+            "sample_SD": 0.052704627669472995,
+            "sample_variance": 0.0027777777777777783
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              -0.0125,
+              0.1
+            ],
+            "mean": 0.0375,
+            "n": 10,
+            "sample_SD": 0.10290907529357057,
+            "sample_variance": 0.010590277777777777
+          },
+          "win_tie_loss": {
+            "losses": 1,
+            "ties": 6,
+            "wins": 3
+          }
+        }
+      }
+    },
+    {
+      "budget": 20,
+      "complete_pairs": 10,
+      "expected_pairs": 10,
+      "group": 4,
+      "group_counts": {
+        "3": 0,
+        "4": 10
+      },
+      "metrics": {
+        "execution_success_rate": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.49499999999999994,
+              0.7450000000000001
+            ],
+            "mean": 0.62,
+            "n": 10,
+            "sample_SD": 0.21628170930011115,
+            "sample_variance": 0.04677777777777778
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.22000000000000003,
+              0.5149999999999999
+            ],
+            "mean": 0.36,
+            "n": 10,
+            "sample_SD": 0.2536401650632907,
+            "sample_variance": 0.06433333333333334
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.145,
+              0.39
+            ],
+            "mean": 0.26,
+            "n": 10,
+            "sample_SD": 0.20923139768633622,
+            "sample_variance": 0.043777777777777784
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 1,
+            "wins": 9
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.025,
+              0.125
+            ],
+            "mean": 0.075,
+            "n": 10,
+            "sample_SD": 0.08740073734751262,
+            "sample_variance": 0.007638888888888889
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0,
+              0.075
+            ],
+            "mean": 0.0375,
+            "n": 10,
+            "sample_SD": 0.06038073644245599,
+            "sample_variance": 0.003645833333333333
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.0,
+              0.075
+            ],
+            "mean": 0.0375,
+            "n": 10,
+            "sample_SD": 0.06038073644245599,
+            "sample_variance": 0.003645833333333333
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 7,
+            "wins": 3
+          }
+        }
+      }
+    },
+    {
+      "budget": 30,
+      "complete_pairs": 20,
+      "expected_pairs": 20,
+      "group": null,
+      "group_counts": {
+        "3": 10,
+        "4": 10
+      },
+      "metrics": {
+        "execution_success_rate": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.5016666666666666,
+              0.7366666666666666
+            ],
+            "mean": 0.6266666666666667,
+            "n": 20,
+            "sample_SD": 0.23634645993288544,
+            "sample_variance": 0.055859649122807026
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.25,
+              0.5316666666666666
+            ],
+            "mean": 0.3933333333333333,
+            "n": 20,
+            "sample_SD": 0.264154836748786,
+            "sample_variance": 0.06977777777777777
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.12833333333333333,
+              0.3466666666666667
+            ],
+            "mean": 0.23333333333333334,
+            "n": 20,
+            "sample_SD": 0.2456641552872182,
+            "sample_variance": 0.060350877192982454
+          },
+          "win_tie_loss": {
+            "losses": 3,
+            "ties": 0,
+            "wins": 17
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.04375,
+              0.1125
+            ],
+            "mean": 0.075,
+            "n": 20,
+            "sample_SD": 0.08506963092234007,
+            "sample_variance": 0.007236842105263158
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.05,
+              0.125
+            ],
+            "mean": 0.0875,
+            "n": 20,
+            "sample_SD": 0.09158688713313082,
+            "sample_variance": 0.008388157894736842
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              -0.05,
+              0.025
+            ],
+            "mean": -0.0125,
+            "n": 20,
+            "sample_SD": 0.09850861570655155,
+            "sample_variance": 0.009703947368421053
+          },
+          "win_tie_loss": {
+            "losses": 5,
+            "ties": 11,
+            "wins": 4
+          }
+        }
+      }
+    },
+    {
+      "budget": 30,
+      "complete_pairs": 10,
+      "expected_pairs": 10,
+      "group": 3,
+      "group_counts": {
+        "3": 10,
+        "4": 0
+      },
+      "metrics": {
+        "execution_success_rate": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.3933333333333334,
+              0.7666666666666667
+            ],
+            "mean": 0.5933333333333334,
+            "n": 10,
+            "sample_SD": 0.3180961885738105,
+            "sample_variance": 0.1011851851851852
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.2533333333333333,
+              0.6199999999999999
+            ],
+            "mean": 0.44,
+            "n": 10,
+            "sample_SD": 0.31340424729448424,
+            "sample_variance": 0.09822222222222222
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              -0.010000000000000004,
+              0.3433333333333333
+            ],
+            "mean": 0.15333333333333335,
+            "n": 10,
+            "sample_SD": 0.304776785350999,
+            "sample_variance": 0.09288888888888891
+          },
+          "win_tie_loss": {
+            "losses": 3,
+            "ties": 0,
+            "wins": 7
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.025,
+              0.125
+            ],
+            "mean": 0.075,
+            "n": 10,
+            "sample_SD": 0.08740073734751262,
+            "sample_variance": 0.007638888888888889
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.05,
+              0.1625
+            ],
+            "mean": 0.1,
+            "n": 10,
+            "sample_SD": 0.09860132971832694,
+            "sample_variance": 0.009722222222222222
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              -0.1,
+              0.0375
+            ],
+            "mean": -0.025,
+            "n": 10,
+            "sample_SD": 0.11486707293408518,
+            "sample_variance": 0.013194444444444444
+          },
+          "win_tie_loss": {
+            "losses": 3,
+            "ties": 5,
+            "wins": 2
+          }
+        }
+      }
+    },
+    {
+      "budget": 30,
+      "complete_pairs": 10,
+      "expected_pairs": 10,
+      "group": 4,
+      "group_counts": {
+        "3": 0,
+        "4": 10
+      },
+      "metrics": {
+        "execution_success_rate": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.5900000000000001,
+              0.73
+            ],
+            "mean": 0.66,
+            "n": 10,
+            "sample_SD": 0.11946382271747212,
+            "sample_variance": 0.014271604938271608
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.22333333333333333,
+              0.47000000000000003
+            ],
+            "mean": 0.3466666666666667,
+            "n": 10,
+            "sample_SD": 0.21034950339909744,
+            "sample_variance": 0.04424691358024691
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              0.22666666666666674,
+              0.3966666666666666
+            ],
+            "mean": 0.31333333333333335,
+            "n": 10,
+            "sample_SD": 0.14246507044288537,
+            "sample_variance": 0.02029629629629629
+          },
+          "win_tie_loss": {
+            "losses": 0,
+            "ties": 0,
+            "wins": 10
+          }
+        },
+        "final_score_normalized": {
+          "ActionPool2": {
+            "conditional_seed_bootstrap_CI95": [
+              0.025,
+              0.125
+            ],
+            "mean": 0.075,
+            "n": 10,
+            "sample_SD": 0.08740073734751262,
+            "sample_variance": 0.007638888888888889
+          },
+          "Native": {
+            "conditional_seed_bootstrap_CI95": [
+              0.025,
+              0.125
+            ],
+            "mean": 0.075,
+            "n": 10,
+            "sample_SD": 0.08740073734751262,
+            "sample_variance": 0.007638888888888889
+          },
+          "paired_difference": {
+            "conditional_seed_bootstrap_CI95": [
+              -0.05,
+              0.05
+            ],
+            "mean": 0.0,
+            "n": 10,
+            "sample_SD": 0.08333333333333333,
+            "sample_variance": 0.006944444444444444
+          },
+          "win_tie_loss": {
+            "losses": 2,
+            "ties": 6,
+            "wins": 2
+          }
+        }
+      }
+    }
+  ],
+  "development_descriptive": true,
+  "expected_cells": 120,
+  "expected_pairs": 60,
+  "incomplete_pair_metrics_imputed": false,
+  "job_id_prefix_not_used_for_matching": true,
+  "later_results_merged": false,
+  "matching_keys": [
+    "budget",
+    "world_seed",
+    "policy_seed"
+  ],
+  "metrics": [
+    "execution_success_rate",
+    "final_score_normalized"
+  ],
+  "new_scientific_calls_for_publication": 0,
+  "observed_CST": "2026-09-24T15:04:43.355662+08:00",
+  "only_complete_pairs_in_statistics": true,
+  "pairs": [
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41996,
+            "sha256": "ce45bcd9812545e875c674f8e717719b4ae25fe76783358c601b62c47ad19826"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 170.9787326361984
+          },
+          "job_id": "pooling-online-dw-v1-w3-p501-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 197.18791757524014
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 34047,
+            "sha256": "329a694de1cde031d07d72c81054cae659a9540c30d3823247f3f18aa3100aa3"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 31.255337978946045
+          },
+          "job_id": "pooling-online-dw-v1-w3-p501-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 57.8688203439815
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s501",
+      "seed": 501,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41632,
+            "sha256": "117e8ee92c6462267c7cbc0c3d4ab136b0396a2f6505fbeec4459eb9fb4be15d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 164.30821751710027
+          },
+          "job_id": "dw-core120-v1-w3-p502-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 190.33206421509385
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33832,
+            "sha256": "a0c055a499421403e351b030070944978f7a91bd5c03301c0b6cbe9fb86f0028"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.787314583081752
+          },
+          "job_id": "dw-core120-v1-w3-p502-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 57.040512679028325
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s502",
+      "seed": 502,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41591,
+            "sha256": "20ba9c1fe979ed6a8108bc27274e69a433f5cffcb734709fd76f4a78b7564955"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 175.95422410499305
+          },
+          "job_id": "dw-core120-v1-w3-p503-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 203.24175121891312
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33802,
+            "sha256": "edb6cf3dd129852f0a713b47b56fa88784612a4dcb2124f5de6b156cb745c4c8"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.061354832025245
+          },
+          "job_id": "dw-core120-v1-w3-p503-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.3993774560513
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s503",
+      "seed": 503,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41606,
+            "sha256": "238408f10d687a14540bb0947edd0052c3d366e8ce8d9a0b87440a17bc387930"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 173.29648491495755
+          },
+          "job_id": "dw-core120-v1-w3-p504-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 199.98373901296873
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33849,
+            "sha256": "f8f9f5ccb19b90e0a1d19caceb5f15914f37e5c96e83f148e42d32add4383e83"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 29.87788816401735
+          },
+          "job_id": "dw-core120-v1-w3-p504-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.154918095096946
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s504",
+      "seed": 504,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41593,
+            "sha256": "1a73e29461685945aa2b2639adfd54bb2242a60d497ab16365f668a1d0e628cf"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 163.427409122698
+          },
+          "job_id": "dw-core120-v1-w3-p505-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 189.3420669194311
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33828,
+            "sha256": "474cc4a59015e60d5a5637da88a3f048eeaafadb9f52c5ca59818fe407267990"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.82804569695145
+          },
+          "job_id": "dw-core120-v1-w3-p505-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.52450983505696
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s505",
+      "seed": 505,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41605,
+            "sha256": "b4716d3fa6c17db2679d97aa3db0651af09c554b6abbbfe7ec0d33e0b3af16a7"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 170.77735631889664
+          },
+          "job_id": "dw-core120-v1-w3-p506-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 197.14179539494216
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33806,
+            "sha256": "1827dc1d0b65c781144eae5c72f9d7a1f7d09165df6d3bbe957a37044d895fa7"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.49903618101962
+          },
+          "job_id": "dw-core120-v1-w3-p506-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.79423611902166
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s506",
+      "seed": 506,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41585,
+            "sha256": "4a9d7f8f58abdbf14999295f93a0972d27f021af0c38e11f8fd004809028b14b"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 168.87306747306138
+          },
+          "job_id": "dw-core120-v1-w3-p507-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 195.15452254749835
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33814,
+            "sha256": "698942963f4e5f6ee83ba764231e4f1e5323a52901a77c438b050c958a09fa4d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.342164541012608
+          },
+          "job_id": "dw-core120-v1-w3-p507-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.854822237975895
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s507",
+      "seed": 507,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41635,
+            "sha256": "8a5e2e335e336087e732cf1685e2d24a39d91d72382307d82e383b30dd0a020a"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 177.35697655193508
+          },
+          "job_id": "dw-core120-v1-w3-p508-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 204.1095796810696
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33817,
+            "sha256": "6ed1d5596e5946920ba8e8f63d19e3bef193a19fa082453538c31d9c4aead9bd"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.457529817009345
+          },
+          "job_id": "dw-core120-v1-w3-p508-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 57.20236230303999
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s508",
+      "seed": 508,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41631,
+            "sha256": "ddcd92c50c98fc902dd2c24ee335e006d897198ccad55b3a3b91a82162b3bcbb"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 162.59006781503558
+          },
+          "job_id": "dw-core120-v1-w3-p509-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 188.66285017691553
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33809,
+            "sha256": "d6a94c99b1984667189a55afd79e96296d69fde3d47d02ca63394d15d8669024"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 31.399071110994555
+          },
+          "job_id": "dw-core120-v1-w3-p509-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 58.25765552697703
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s509",
+      "seed": 509,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41632,
+            "sha256": "b3e8e65b6b45fcd7f234b83d3c82e2bfc71f394fc7a37284f02d0d867af06f2e"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 179.5439956659684
+          },
+          "job_id": "dw-core120-v1-w3-p510-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 207.04084641300142
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33817,
+            "sha256": "15c2ef15b713149f91d5410014293aa6b391b1c72a59b9812e91b9488c2339f4"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.357388250529766
+          },
+          "job_id": "dw-core120-v1-w3-p510-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 55.98569893930107
+        }
+      },
+      "budget": 10,
+      "group": 3,
+      "pair_id": "DW-w3-b10-s510",
+      "seed": 510,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 42014,
+            "sha256": "a18e19a877a0d325cf9a7af7e65afa13a8b6b6c77b5abfa54ab0bad29cec8ce6"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 172.9934685435146
+          },
+          "job_id": "pooling-online-dw-v1-w4-p501-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 199.35995055548847
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 34047,
+            "sha256": "7f3b4656888e5b5a0bd718d6fd78da9ed36031078819675815d1b0eeeb4f9444"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.990617934963666
+          },
+          "job_id": "pooling-online-dw-v1-w4-p501-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.71399012603797
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s501",
+      "seed": 501,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41548,
+            "sha256": "a2dd367520ba7c7f541158eff5ab4b1e52f561ce5f654c7f916cb5bb4b49160a"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 159.7314713615924
+          },
+          "job_id": "dw-core120-v1-w4-p502-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 185.39358969032764
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33809,
+            "sha256": "c80ab7e3535e2d4839077cca98d80a1c4c0ee3736e09486e6d59eb62ee0e1a8f"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.257846607011743
+          },
+          "job_id": "dw-core120-v1-w4-p502-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 57.194451336050406
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s502",
+      "seed": 502,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41576,
+            "sha256": "6bc0835777f21f48ca43cd84e7b844b0db888684f4d517335d9a71efd136db20"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 170.30009150598198
+          },
+          "job_id": "dw-core120-v1-w4-p503-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 1.0,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 197.15259319497272
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33818,
+            "sha256": "54e38713de80803c7d3b6a8c6661f715a6c27f004dd577a1543079215733dd06"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.737143101985566
+          },
+          "job_id": "dw-core120-v1-w4-p503-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.0,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 57.90698217903264
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s503",
+      "seed": 503,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41581,
+            "sha256": "ff11b6f91115003ceefd7a580c761066184c1b37c6e49990a28a4d71a699742d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 175.91407640709076
+          },
+          "job_id": "dw-core120-v1-w4-p504-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 203.35885489406064
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33813,
+            "sha256": "d37e13fc26f30c5834a435744d626a441050c2bcc31d4f3d9d275198958e65f1"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.108349043875933
+          },
+          "job_id": "dw-core120-v1-w4-p504-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.71113687567413
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s504",
+      "seed": 504,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41562,
+            "sha256": "75a67b958cfaa00915bd5a9601423a058aafb0b28084ff2adef73d8a64a29851"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 165.59662236087024
+          },
+          "job_id": "dw-core120-v1-w4-p505-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 192.14655234850943
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33819,
+            "sha256": "9dba826dfed0e40f5c6a107147f48036ef10e2f329c12c1a88e76f130cb4b161"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 31.016054617008194
+          },
+          "job_id": "dw-core120-v1-w4-p505-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.0,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 57.47709120600484
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s505",
+      "seed": 505,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41552,
+            "sha256": "0d9cd8da72805e09e980a921ab12fbb1e76d110cc656653be6ebb8736f2c306d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 166.52948105707765
+          },
+          "job_id": "dw-core120-v1-w4-p506-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 192.96832898352295
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33814,
+            "sha256": "3063a6b016d2d1f96f086ebba1e1c4da0ea72819b5f949ecfcdb451babcb0404"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.41717130492907
+          },
+          "job_id": "dw-core120-v1-w4-p506-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.2,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.69391504500527
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s506",
+      "seed": 506,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41628,
+            "sha256": "c35e80c0797e5595c631508ddacd594278adaef0d164b90d09a3f0f3fa0e0d68"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 174.82200395397376
+          },
+          "job_id": "dw-core120-v1-w4-p507-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 201.69904610398225
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33814,
+            "sha256": "6775f3cc689a048be3b135f18c097faf34674fa2162e9b3952de88ab08376ea3"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.057650162023492
+          },
+          "job_id": "dw-core120-v1-w4-p507-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.329886023071595
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s507",
+      "seed": 507,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41594,
+            "sha256": "f02a0cd0c2abc3e27ace3b631f5366578e9199864394e13d8354827cac674586"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 174.30415513797197
+          },
+          "job_id": "dw-core120-v1-w4-p508-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 201.5108752460219
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33824,
+            "sha256": "ede76fee11b22d811b25364e3d7052a448c7d965c59139cc6d923a3762068a35"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 32.04386318102479
+          },
+          "job_id": "dw-core120-v1-w4-p508-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 58.59015017747879
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s508",
+      "seed": 508,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41562,
+            "sha256": "f1b25d1e914e8c6b38462653817826c59d950d62a7214c1a6d772c6479764cfb"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 152.47441121691372
+          },
+          "job_id": "dw-core120-v1-w4-p509-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 179.30126512108836
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33802,
+            "sha256": "d16f29f3f4d4ca3eb55b07fc7aeec7250012e64e84dfbaf4cfca8ed81fd835bc"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 29.14981679432094
+          },
+          "job_id": "dw-core120-v1-w4-p509-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 54.75602863449603
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s509",
+      "seed": 509,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 41572,
+            "sha256": "84d02d66c898acd7bda096dbe07c1770f2e7ac14f778d44b84040783fed5958f"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 20,
+            "pooling_forwards": 40,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 167.44359261263162
+          },
+          "job_id": "dw-core120-v1-w4-p510-b10-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 194.45225869957358
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 33819,
+            "sha256": "d2a17b8d42453411d3088a33bea0780b11fa32a306161159f8b5916479df778d"
+          },
+          "costs": {
+            "agent_attempts": 10,
+            "generation_calls": 10,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 30.141603120951913
+          },
+          "job_id": "dw-core120-v1-w4-p510-b10-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.0,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 56.795175838051364
+        }
+      },
+      "budget": 10,
+      "group": 4,
+      "pair_id": "DW-w4-b10-s510",
+      "seed": 510,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61804,
+            "sha256": "0649ec4dab5d876e1b0c4be897ce804d8edbcbf22db85c236c316aadda28d82b"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 371.03416576306336
+          },
+          "job_id": "pooling-online-dw-v1-w3-p501-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.05,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 398.15549573500175
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45971,
+            "sha256": "03674bcb2c7d21b07afd3de1ab7b813bc52362d1e5e6e7f415dc7d891e566937"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 61.498509521596134
+          },
+          "job_id": "pooling-online-dw-v1-w3-p501-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.05,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 88.04370047245175
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s501",
+      "seed": 501,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61055,
+            "sha256": "f41960d8e223237bef14f008fab3f6a33cbbc252f0866778f4ec5e39e7811ae8"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 346.4093782269629
+          },
+          "job_id": "dw-core120-v1-w3-p502-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 374.11814610497095
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45611,
+            "sha256": "f3351f05ac32d3b59ad30766c99eb74f1ffef556b5c439656d915a77a287e2c7"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 57.18635726906359
+          },
+          "job_id": "dw-core120-v1-w3-p502-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 84.82068356778473
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s502",
+      "seed": 502,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 60979,
+            "sha256": "d775b7b4c768a2103dc84371e7655679cf07fe69d49e309f8759676a2a21b3b6"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 325.3278694432229
+          },
+          "job_id": "dw-core120-v1-w3-p503-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 351.85021741501987
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45568,
+            "sha256": "d863c455829c281a035da0f83e6cd2d42f6f877ee9992bb2a6b4eeddc146f064"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 56.00934509374201
+          },
+          "job_id": "dw-core120-v1-w3-p503-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.85,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 82.84529388323426
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s503",
+      "seed": 503,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61114,
+            "sha256": "d970bb0108d52c98acf4dde4541d95b9c0b96a155cb423a02b011f6fda5094b5"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 352.1442466797307
+          },
+          "job_id": "dw-core120-v1-w3-p504-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.15,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 379.47645896766335
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45584,
+            "sha256": "fe8d09d09f6cf12ab62f0da253d11e4797aed643fe603d5bf3c8148369405ab5"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 57.30907577299513
+          },
+          "job_id": "dw-core120-v1-w3-p504-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 84.03582019393798
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s504",
+      "seed": 504,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61096,
+            "sha256": "264452a2c080d806c86a71d05fbcad0841d24569319307d43a7a1b5bff1e7a22"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 359.5412712029647
+          },
+          "job_id": "dw-core120-v1-w3-p505-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.55,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 387.02344546606764
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45630,
+            "sha256": "8b05d7bea398ac35c18d5be844285377f9363df84e9a3f9fff03c879ae54a6c6"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 58.12500254099723
+          },
+          "job_id": "dw-core120-v1-w3-p505-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 84.71442908607423
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s505",
+      "seed": 505,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61134,
+            "sha256": "4c01dc3e533050bf4330d582fff0c891884d206f649e0b52484bde4d389f7c34"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 333.71863702032715
+          },
+          "job_id": "dw-core120-v1-w3-p506-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.75,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 361.04068598430604
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45588,
+            "sha256": "378035571ba0152da81451cad5b2c6306f41a8e46e66c9c472986103cd4d8932"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 58.27320206630975
+          },
+          "job_id": "dw-core120-v1-w3-p506-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.35,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 85.05649603717029
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s506",
+      "seed": 506,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61136,
+            "sha256": "9b3fe9a7b67a0d321b21bbfbe9aeb94b94e757fbe88d5e8c5d3c13eb85e310b7"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 363.03062544192653
+          },
+          "job_id": "dw-core120-v1-w3-p507-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 390.18374697794206
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45599,
+            "sha256": "6f72eec46d82070c6a11bb6c3abd78b2c373aa91ecafbc47bf3ab8f441af192d"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 60.75090671807993
+          },
+          "job_id": "dw-core120-v1-w3-p507-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.05,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 87.93032642197795
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s507",
+      "seed": 507,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61089,
+            "sha256": "98c1a5810354873a818df49e893a775f242e68054a72d019181f6e0912c1d879"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 339.3275081869215
+          },
+          "job_id": "dw-core120-v1-w3-p508-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 366.4545394509332
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45586,
+            "sha256": "4dd5b6f94d41a5f1f74465e44986ad90c715ba04be478ff5e88faafe67092bca"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 58.7559907855466
+          },
+          "job_id": "dw-core120-v1-w3-p508-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.35,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 86.07096702139825
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s508",
+      "seed": 508,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61021,
+            "sha256": "e3cd10f0034f3fe3b97810672ca1dee41f5e77f709e34b4e55c95378c5d97def"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 349.0489900439279
+          },
+          "job_id": "dw-core120-v1-w3-p509-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.9,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 376.15936486492865
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45583,
+            "sha256": "2df9e16ef0f18a7513f8b929d22826cf3985803ef080da4892ffb8c8973a8de7"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 58.00456504523754
+          },
+          "job_id": "dw-core120-v1-w3-p509-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.45,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 85.20043672341853
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s509",
+      "seed": 509,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61090,
+            "sha256": "0e5f80bf2d23e880a57f97f146aaec3fdd7f93e90998996e3197ace374b439c0"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 351.3321523319464
+          },
+          "job_id": "dw-core120-v1-w3-p510-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.9,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 379.14652256306726
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45598,
+            "sha256": "f2fdd0d6ed51a11801a06407e940d95db2ccde0c70b92d5227baa703dabf6cca"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 60.76283941883594
+          },
+          "job_id": "dw-core120-v1-w3-p510-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.05,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 87.7429740857333
+        }
+      },
+      "budget": 20,
+      "group": 3,
+      "pair_id": "DW-w3-b20-s510",
+      "seed": 510,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61779,
+            "sha256": "8f43236f5a38944bb180273d2597d2621e6dc95a59c1cb75976b278e2a100b78"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 345.1844842247665
+          },
+          "job_id": "pooling-online-dw-v1-w4-p501-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.35,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 372.563834364526
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45965,
+            "sha256": "c4838cbbd0c1f7fe75ddb807648e224f47f352d9405a3ede0bd815099aa7a0d5"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 60.25673056486994
+          },
+          "job_id": "pooling-online-dw-v1-w4-p501-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 86.8941512433812
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s501",
+      "seed": 501,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61014,
+            "sha256": "f149946d3e3b6c6d338628a4fb7e955debe270afc290f0123774a3dd153cdb53"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 342.3487383269239
+          },
+          "job_id": "dw-core120-v1-w4-p502-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 370.00822782493196
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45604,
+            "sha256": "911df9f0373bbaaf878b2200ee71f4ad4874e0fe66052ea0f30e660448c968fc"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 57.208800490014255
+          },
+          "job_id": "dw-core120-v1-w4-p502-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.65,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 83.95092975534499
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s502",
+      "seed": 502,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61045,
+            "sha256": "53ac831e360e621f2bca137019b646b39503eacf375a8c4c5070c9879972fecf"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 321.99024066422135
+          },
+          "job_id": "dw-core120-v1-w4-p503-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.95,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 348.71587957721204
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45627,
+            "sha256": "8b778c0f3e6435f3a46640bfafc1f202e93c910400be66cfffd6eceb84981e69"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 58.911258147098124
+          },
+          "job_id": "dw-core120-v1-w4-p503-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.25,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 84.67366675194353
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s503",
+      "seed": 503,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61043,
+            "sha256": "d9a841f6f65b3f54ae88fc1cead6cd14f676d1948afdc9b071f93554e1df0159"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 338.9165462520905
+          },
+          "job_id": "dw-core120-v1-w4-p504-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.65,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 365.6072109930683
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45585,
+            "sha256": "330fc8f0d1b43148397a7a0380391b90de45f5a5a7c9c8f1462320e364eabf98"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 57.142352807335556
+          },
+          "job_id": "dw-core120-v1-w4-p504-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 84.23521265294403
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s504",
+      "seed": 504,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61008,
+            "sha256": "280dc10de1b5d7349c459317bc370e9b9f80ab5436eabf3ae3520b32fd49e699"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 334.1040713459952
+          },
+          "job_id": "dw-core120-v1-w4-p505-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.9,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 361.4497535589617
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45567,
+            "sha256": "7aab008a8d4b96ffbfe20e77a05a214310b6fcfb213d9e3e44f120a01060d0a2"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 56.61285336781293
+          },
+          "job_id": "dw-core120-v1-w4-p505-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 83.37549961917102
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s505",
+      "seed": 505,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61019,
+            "sha256": "e171d50ecab205e5f05764b2762c71e5af95293e366be511fe4f757f3d26bede"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 337.95327074918896
+          },
+          "job_id": "dw-core120-v1-w4-p506-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 364.83631931152195
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45597,
+            "sha256": "223292164422d5efd84b588fb667a28f29e4b2bed7e73372b5b14d59c0554a63"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 59.369889594614506
+          },
+          "job_id": "dw-core120-v1-w4-p506-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 86.10093444399536
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s506",
+      "seed": 506,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61138,
+            "sha256": "d3172e3e25edbda4d44f928149edf40c8fe001e231073d7397714de2a6f2ff9a"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 363.25478044198826
+          },
+          "job_id": "dw-core120-v1-w4-p507-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.35,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 390.4661158139352
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45597,
+            "sha256": "bafbd8cc5b4068597664569fb74a4572d71fb9ad029e7cac92085dca6c58b39b"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 58.302627303637564
+          },
+          "job_id": "dw-core120-v1-w4-p507-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.15,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 84.71316478587687
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s507",
+      "seed": 507,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 60999,
+            "sha256": "5882f2ce4de4aa2e190af2df4fd535b336698ca1f35e6ba452ed2bba891e856c"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 325.55459813401103
+          },
+          "job_id": "dw-core120-v1-w4-p508-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.75,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 352.540120289661
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45591,
+            "sha256": "155779ba4e590e4f399bcdba4dbb9a325f03f24ae0591532cb8ed80b3c661816"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 58.72875638504047
+          },
+          "job_id": "dw-core120-v1-w4-p508-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.25,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 85.67417924490292
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s508",
+      "seed": 508,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61037,
+            "sha256": "fac429fd3bbf348e9d4fcdd3f4be732872aa8d41c729a9cb749bd1dd37c43103"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 341.9108278740896
+          },
+          "job_id": "dw-core120-v1-w4-p509-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.65,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 368.9858387099812
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45577,
+            "sha256": "a56d550240a7ed0d52ef910d611391066b40ca89e3a7ed475848f9121546043e"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 55.55365899391472
+          },
+          "job_id": "dw-core120-v1-w4-p509-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.65,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 82.91636615432799
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s509",
+      "seed": 509,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 61068,
+            "sha256": "559f0f5ede71e749b73f87ba5af36de9a4e6c6673d24ddeb216baf1a666fffcd"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 40,
+            "pooling_forwards": 80,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 333.8580261869356
+          },
+          "job_id": "dw-core120-v1-w4-p510-b20-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 360.8091329243034
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 45630,
+            "sha256": "3f4ea0150e89fad7459ed060a60c71efbcf503d21969eb0d9ed7f64144561b98"
+          },
+          "costs": {
+            "agent_attempts": 20,
+            "generation_calls": 20,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 60.97131978801917
+          },
+          "job_id": "dw-core120-v1-w4-p510-b20-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.25,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 88.39714826701675
+        }
+      },
+      "budget": 20,
+      "group": 4,
+      "pair_id": "DW-w4-b20-s510",
+      "seed": 510,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80662,
+            "sha256": "e9a7fd0d90490461ed4f58267bb9b3849bc5b6a7c40091b20f0e5d662addfe9d"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 553.9810793510405
+          },
+          "job_id": "dw-core120-v1-w3-p501-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.06666666666666667,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 581.8529517580755
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57412,
+            "sha256": "2ab8c73d846d809f7a416e486c3494cfdc3622943935c0ee88f465642ffafc9a"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 89.56035833992064
+          },
+          "job_id": "dw-core120-v1-w3-p501-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.03333333333333333,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 116.9601466441527
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s501",
+      "seed": 501,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80554,
+            "sha256": "fba6746d05d0e0956137e7c43856fd3641a672894c2ee096aa94811a239d0113"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 522.6791692029219
+          },
+          "job_id": "dw-core120-v1-w3-p502-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6666666666666666,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 550.7246964900987
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57419,
+            "sha256": "ca28238300d3286be022cb578aaf861943b4d399199fae84194fcbf7b5258039"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 86.33603751996998
+          },
+          "job_id": "dw-core120-v1-w3-p502-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 113.5330635990249
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s502",
+      "seed": 502,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80428,
+            "sha256": "741c09a87ee701c1f6e3260840a77981c6cac4745a379227590e4d63ca077863"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 480.01750254258513
+          },
+          "job_id": "dw-core120-v1-w3-p503-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8666666666666667,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 508.4742326103151
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57378,
+            "sha256": "b53f7f3fa475d37642610934b20b58d83ba03eb1bc077b3a278239a83f90b0c2"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 85.04248866438866
+          },
+          "job_id": "dw-core120-v1-w3-p503-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5666666666666667,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 112.1066821590066
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s503",
+      "seed": 503,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80564,
+            "sha256": "3ce9443ac845cf795608f9ecf92bacb1fe3c88a08b3d102f9d3ec0ccabe712d2"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 548.949457044946
+          },
+          "job_id": "dw-core120-v1-w3-p504-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.2,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 576.3431264420506
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57449,
+            "sha256": "8a96827d2b6fdb30fd7605e0652881c284bf247f06566c55b20aae3f134aef3b"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 85.47969216690399
+          },
+          "job_id": "dw-core120-v1-w3-p504-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4666666666666667,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 113.50045272998977
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s504",
+      "seed": 504,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80580,
+            "sha256": "893a438b781be9d5caef4d273de35828b10b412c3d5360d956734515880e7733"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 505.85692679323256
+          },
+          "job_id": "dw-core120-v1-w3-p505-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 533.5071008037776
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57458,
+            "sha256": "574880b5e2fbc952fcdd99e1111289ff75b04eada2e19eb1c942d51b638fa2e9"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 85.7513603810221
+          },
+          "job_id": "dw-core120-v1-w3-p505-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8333333333333334,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 112.56615245435387
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s505",
+      "seed": 505,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80654,
+            "sha256": "2a9f9e772174bae46cbcef5157082038b8a450ac5ad68e3e90db53788082a855"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 518.1902727229754
+          },
+          "job_id": "dw-core120-v1-w3-p506-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7666666666666667,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 545.4268034070265
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57415,
+            "sha256": "846142db5f2000bd65b5879611ffdd3b1565871067de0d3ea0309f86abcd0642"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 87.76619308697991
+          },
+          "job_id": "dw-core120-v1-w3-p506-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3333333333333333,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 115.33243434608448
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s506",
+      "seed": 506,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80606,
+            "sha256": "ddef2e2811c781d3dabb6d9ba78c94b31ec4bc1993f5583914abdf7ebaed86f4"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 536.5084850871935
+          },
+          "job_id": "dw-core120-v1-w3-p507-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.16666666666666666,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 563.6041175695136
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57413,
+            "sha256": "23a2acc3f506de777f993a02fa67fcd7e90d92612d73724aedd650b68536723d"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 89.81711311731488
+          },
+          "job_id": "dw-core120-v1-w3-p507-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.03333333333333333,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 116.81166871357709
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s507",
+      "seed": 507,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80538,
+            "sha256": "4b6262f46fa61188db10ee0f11ede2126e973df1fb872029a40d6f1c3ed9d5ae"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 484.01280064322054
+          },
+          "job_id": "dw-core120-v1-w3-p508-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 511.1185374362394
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57460,
+            "sha256": "c1efa4baf7abf188a441b4e9531105edc59107bae9cbbcb05dfecfffa9defdd2"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 86.10210615303367
+          },
+          "job_id": "dw-core120-v1-w3-p508-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7333333333333333,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 113.61080113705248
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s508",
+      "seed": 508,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80525,
+            "sha256": "d7e8cd2c6b0efc1c8cef98853f2f9ed966f199ce5eb64a2f4f1b96d0f62dd11a"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 474.61552443297114
+          },
+          "job_id": "dw-core120-v1-w3-p509-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8666666666666667,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 495.6839550160803
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57466,
+            "sha256": "644002b80f47ae5c91748605cf1000bea781f436b5a9d6c1b84540b01b419b14"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 88.72297391190659
+          },
+          "job_id": "dw-core120-v1-w3-p509-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6666666666666666,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 116.06947490305174
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s509",
+      "seed": 509,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80614,
+            "sha256": "09bb507eb97c4264f5e4f7ba2f0668e7e344e3875adb248f654deafaca6873a5"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 509.37626190308947
+          },
+          "job_id": "dw-core120-v1-w3-p510-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8333333333333334,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 537.5087655690731
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57412,
+            "sha256": "e933cb80bb1d995d2326fb8e0f04956bfaf42407b9d69a3422180eab94b46463"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 89.6228726390982
+          },
+          "job_id": "dw-core120-v1-w3-p510-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.03333333333333333,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 117.78866262803786
+        }
+      },
+      "budget": 30,
+      "group": 3,
+      "pair_id": "DW-w3-b30-s510",
+      "seed": 510,
+      "world_seed": 3
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80683,
+            "sha256": "ab6c3975e2ce1ab89b5863b79f952a5f004f0fcd64099c28a8c32dc7b6e46c80"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 533.6698045720113
+          },
+          "job_id": "dw-core120-v1-w4-p501-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5333333333333333,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 561.9155681990087
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57409,
+            "sha256": "31b7535ae863414c5d3df16cfb1f49fc307ab48a8dbb21af069043de87f06467"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 87.4081364274025
+          },
+          "job_id": "dw-core120-v1-w4-p501-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.06666666666666667,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 114.7888695448637
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s501",
+      "seed": 501,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80418,
+            "sha256": "8796f4c872005bf0ab0a965bbb0708d5b4fc0eb4f5d3376f8cfe69b691cf47d0"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 482.2071010135114
+          },
+          "job_id": "dw-core120-v1-w4-p502-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8333333333333334,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 510.81401460431516
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57399,
+            "sha256": "16c66312b2fa739c996f1dca32fb35fd98de35be836a6867f4670e2923eef295"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 86.08390574716032
+          },
+          "job_id": "dw-core120-v1-w4-p502-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 113.43871661927551
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s502",
+      "seed": 502,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80530,
+            "sha256": "122e67a2ea20fcee6603c5caa6da5b8c30d2436931d7ac29fc2c1f364d2ae1e4"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 510.84906542208046
+          },
+          "job_id": "dw-core120-v1-w4-p503-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.8,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 539.1359814079478
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57425,
+            "sha256": "9d37bebb08ee59889f3491d223e5bb96ade30cbf80bbb43b14100d996b57579d"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 85.03979223000351
+          },
+          "job_id": "dw-core120-v1-w4-p503-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5,
+            "final_score_normalized": 0.25,
+            "score_delta_sum": 0.25
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 112.51306919392664
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s503",
+      "seed": 503,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80501,
+            "sha256": "7a0b6cd9b1385d58ad9327012bcbecdfa75599378c56afeaf133d954bc1d4e5b"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 510.0168616818264
+          },
+          "job_id": "dw-core120-v1-w4-p504-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5666666666666667,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 537.9627333795652
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57357,
+            "sha256": "ee4b8dff5a2a54ddd822a47d2db01cf0d40ac8924da82bf17bbf37a1ae529dc8"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 85.1822512447834
+          },
+          "job_id": "dw-core120-v1-w4-p504-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 112.98670199885964
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s504",
+      "seed": 504,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80561,
+            "sha256": "de41e7428126122b7963c330bb83fcc84425357d79abcd0366fb8eeeab0e6dfb"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 496.3740158956498
+          },
+          "job_id": "dw-core120-v1-w4-p505-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 524.8783052442595
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57426,
+            "sha256": "35bd93f4d3bf8669f2c606131c277fa7b5d7babd656d2f4d89da0664341bca15"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 87.27118800696917
+          },
+          "job_id": "dw-core120-v1-w4-p505-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 115.08994954393711
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s505",
+      "seed": 505,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80446,
+            "sha256": "7acd24512270960393313eb5d1962d9f88997b7872e0d849e8022dda7260541d"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 525.6326455529779
+          },
+          "job_id": "dw-core120-v1-w4-p506-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.6,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 554.1431459659943
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57409,
+            "sha256": "06c17c3f65de9457e294f7d91ef6c7f3d89bc0591bf76d95ed5f16d4265a830b"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 87.48805751930922
+          },
+          "job_id": "dw-core120-v1-w4-p506-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.06666666666666667,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 114.50361113622785
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s506",
+      "seed": 506,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80636,
+            "sha256": "83c6f46f2769724f6b43cb8fcd05ff11a9a9670652d7ee4aa9cd738cc358feb3"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 452.0705196810886
+          },
+          "job_id": "dw-core120-v1-w4-p507-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5333333333333333,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 473.0124532839982
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57376,
+            "sha256": "5181bfa23fd41a5552feadbcd71452da153bb28f2bfea87b90ceb24486912a0a"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 87.5377053366974
+          },
+          "job_id": "dw-core120-v1-w4-p507-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.1,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 114.02410842385143
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s507",
+      "seed": 507,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80495,
+            "sha256": "d3905f7ca0b55220f87649c5f25860e54cc086215d9f41db0a5c6c53c51c534f"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 503.3258652538061
+          },
+          "job_id": "dw-core120-v1-w4-p508-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7666666666666667,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 530.720890102908
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57439,
+            "sha256": "8c8fddd36fc2b9bc6b3200afad038da0f46dad49b70254c7169850a2fdb47729"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 88.8630632419372
+          },
+          "job_id": "dw-core120-v1-w4-p508-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 116.12795190198813
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s508",
+      "seed": 508,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80511,
+            "sha256": "49cf2d313cac7911068b9f38f53dd0a80943683bd388b6eca66e633dfe6546d1"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 529.9904487780295
+          },
+          "job_id": "dw-core120-v1-w4-p509-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.5333333333333333,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 557.7259539299412
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57394,
+            "sha256": "f54f97e6f3d4e60141b8be2f390677f4888090146986ebf6ca5259bb58485baf"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 86.25770876498427
+          },
+          "job_id": "dw-core120-v1-w4-p509-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.3333333333333333,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 113.73354409006424
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s509",
+      "seed": 509,
+      "world_seed": 4
+    },
+    {
+      "accepted_pair": true,
+      "arms": {
+        "ActionPool2": {
+          "accepted": true,
+          "arm": "ActionPool2",
+          "completion_ref": {
+            "bytes": 80499,
+            "sha256": "fec7bc6cdcaf296099ea0ff2de12d10e917a1dc97c7c3b709b3aa5248188b708"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 60,
+            "pooling_forwards": 120,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 516.8146706561092
+          },
+          "job_id": "dw-core120-v1-w4-p510-b30-ActionPool2",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.7333333333333333,
+            "final_score_normalized": 0.0,
+            "score_delta_sum": 0.0
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 544.9763462539995
+        },
+        "Native": {
+          "accepted": true,
+          "arm": "Native",
+          "completion_ref": {
+            "bytes": 57438,
+            "sha256": "40bf5e75dae636afda1eb30e22ec8d60818ffec57390e1caa78a269ca878facf"
+          },
+          "costs": {
+            "agent_attempts": 30,
+            "generation_calls": 30,
+            "pooling_forwards": 0,
+            "unknown_action_outcomes": 0,
+            "wall_seconds": 87.24930497072637
+          },
+          "job_id": "dw-core120-v1-w4-p510-b30-Native",
+          "metrics": {
+            "completed": false,
+            "completed_successfully": false,
+            "execution_success_rate": 0.4,
+            "final_score_normalized": 0.125,
+            "score_delta_sum": 0.125
+          },
+          "state": "accepted",
+          "whole_job_wall_seconds": 114.10191041510552
+        }
+      },
+      "budget": 30,
+      "group": 4,
+      "pair_id": "DW-w4-b30-s510",
+      "seed": 510,
+      "world_seed": 4
+    }
+  ],
+  "previous42_accepted_refs_and_metrics_identical": true,
+  "schema": "fixed_matched_results_with_sample_dispersion_v1",
+  "statistical_significance_claimed": false,
+  "task_success_counts": {
+    "ActionPool2": 0,
+    "Native": 0
+  },
+  "task_success_denominators": {
+    "ActionPool2": 60,
+    "Native": 60
+  },
+  "two_previously_examined_groups": true,
+  "uncertainty_net_increment_established": false,
+  "variance_ddof": 1,
+  "variance_definition": "Sample variance uses n-1. Paired differences are formed within identical group/budget/seed before variance/SD. n<2 variance and SD are null."
+}
